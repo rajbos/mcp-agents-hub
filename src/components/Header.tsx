@@ -9,7 +9,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Plug className="h-8 w-8 text-blue-600" />
-            <h1 className="ml-3 text-2xl font-bold text-gray-900">MCP Agent Marketplace</h1>
+            <h1 className="ml-3 text-2xl font-bold text-gray-900">MCP Marketplace</h1>
           </div>
           
           <div className="flex items-center space-x-8">
