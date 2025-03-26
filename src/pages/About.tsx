@@ -202,7 +202,7 @@ export function About() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://github.com/modelcontextprotocol"
+              href="https://github.com/mcp-agents-ai/mcp-marketplace"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
@@ -211,7 +211,7 @@ export function About() {
               Join the Community
             </a>
             <a
-              href="/docs"
+              href="https://github.com/mcp-agents-ai/mcp-marketplace"
               className="inline-flex items-center px-6 py-3 border border-blue-600 text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 transition-colors"
             >
               Deployment Guide
