@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   server:
-    image: mcp-marketplace-server
+    image: ghcr.io/mcp-agents-ai/mcp-marketplace-server
     build:
       context: ./server
     ports:
@@ -11,7 +11,7 @@ services:
       - PORT=3001
 
   client:
-    image: mcp-marketplace-client
+    image: ghcr.io/mcp-agents-ai/mcp-marketplace-client
     build:
       context: ./client
     ports:
