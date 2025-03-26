@@ -6,11 +6,11 @@ export function About() {
     <div>
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h1 className="text-4xl font-bold text-center mb-4">
             MCP Marketplace Hub
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto text-center leading-relaxed">
+          <p className="text-xl text-blue-100 max-w-2xl mx-auto text-center">
             The open-source ecosystem for building, discovering, and deploying Model Context Protocol servers and clients for enterprise environments.
           </p>
         </div>
