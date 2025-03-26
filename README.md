@@ -65,6 +65,14 @@ graph LR
     class C1,C2,C3,C4 clients;
 ```
 
+## Why MCP Marketplace?
+
+As the MCP ecosystem expands, organizations need a central hub to manage, discover, and share MCP resources. This marketplace serves as that hub, enabling enterprises to:
+- Discover pre-built MCP servers for common enterprise systems
+- Share custom MCP servers developed within their organization
+- Learn best practices for building effective MCP connectors
+- Deploy the entire marketplace on-premise for security and governance
+
 ### MCP Marketplace Ecosystem
 
 ```mermaid
@@ -95,14 +103,6 @@ graph TD
     class S1,S2 servers;
     class C1,C2 clients;
 ```
-
-## Why MCP Marketplace?
-
-As the MCP ecosystem expands, organizations need a central hub to manage, discover, and share MCP resources. This marketplace serves as that hub, enabling enterprises to:
-- Discover pre-built MCP servers for common enterprise systems
-- Share custom MCP servers developed within their organization
-- Learn best practices for building effective MCP connectors
-- Deploy the entire marketplace on-premise for security and governance
 
 ## Features
 
