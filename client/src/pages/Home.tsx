@@ -1,23 +1,31 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { SearchBar } from '../components/SearchBar';
 import { ServerCard } from '../components/ServerCard';
-import { mcpServers } from '../data/servers';
+import { fetchMCPServers } from '../data/servers';
+import { MCPServer } from '../types';
 import { Plug, Zap, Link } from 'lucide-react';
 
 export function Home() {
   const [searchQuery, setSearchQuery] = useState('');
+  const [servers, setServers] = useState<MCPServer[]>([]);
+
+  useEffect(() => {
+    const loadServers = async () => {
+      const data = await fetchMCPServers();
+      setServers(data);
+    };
+    loadServers();
+  }, []);
 
   const filteredServers = useMemo(() => {
     const query = searchQuery.toLowerCase();
-    return mcpServers.filter((server) => {
-      return (
-        server.name.toLowerCase().includes(query) ||
-        server.author.toLowerCase().includes(query) ||
-        server.description.toLowerCase().includes(query) ||
-        server.tags.some((tag) => tag.toLowerCase().includes(query))
-      );
-    });
-  }, [searchQuery]);
+    return servers.filter((server) => (
+      server.name.toLowerCase().includes(query) ||
+      server.author.toLowerCase().includes(query) ||
+      server.description.toLowerCase().includes(query) ||
+      server.tags.some((tag) => tag.toLowerCase().includes(query))
+    ));
+  }, [searchQuery, servers]);
 
   return (
     <>
