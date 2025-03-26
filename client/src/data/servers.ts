@@ -1,7 +1,5 @@
 import { MCPServer } from '../types';
 
-export const mcpServers: MCPServer[] = [];
-
 export async function fetchMCPServers(): Promise<MCPServer[]> {
   try {
     const response = await fetch('/v1/mcp/servers');
