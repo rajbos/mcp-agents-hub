@@ -5,6 +5,7 @@ services:
     image: ghcr.io/mcp-agents-ai/mcp-marketplace-server:latest
     build:
       context: ./server
+      dockerfile: Dockerfile
     ports:
       - "3001:3001"
     environment:
@@ -14,7 +15,11 @@ services:
     image: ghcr.io/mcp-agents-ai/mcp-marketplace-client:latest
     build:
       context: ./client
+      dockerfile: Dockerfile
     ports:
       - "80:80"
+      - "443:443"
+    volumes:
+      - ../.github-private/ssl:/etc/nginx/ssl:ro
     depends_on:
       - server
