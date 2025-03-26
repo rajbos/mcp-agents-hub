@@ -33,9 +33,21 @@ jobs:
           push: true
           tags: ghcr.io/mcp-agents-ai/mcp-marketplace-client:latest
 
+      - name: Upload client Docker image to GitHub Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: client-docker-image
+          path: ./client
+
       - name: Build and push server Docker image
         uses: docker/build-push-action@v2
         with:
           context: ./server
           push: true
           tags: ghcr.io/mcp-agents-ai/mcp-marketplace-server:latest
+
+      - name: Upload server Docker image to GitHub Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: server-docker-image
+          path: ./server
