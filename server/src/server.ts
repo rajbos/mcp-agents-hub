@@ -9,7 +9,8 @@ app.use(express.json());
 // Routes
 app.use('/v1/mcp', mcpRoutes);
 
-const PORT = process.env.PORT || 3001;
+// Ensure PORT is always a number
+const PORT = parseInt(process.env.PORT || '3001', 10);
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
