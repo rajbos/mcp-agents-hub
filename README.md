@@ -136,3 +136,7 @@ Join the open community to build the future of context-aware AI together. Whethe
 
 - MCP: [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
 - MCP Marketplace [https://github.com/mcp-agents-ai/mcp-marketplace](https://github.com/mcp-agents-ai/mcp-marketplace)
+
+## License
+
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
