@@ -21,45 +21,146 @@ export function Docs() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Availability</h2>
           <div className="space-y-4 text-gray-600">
             <p className="leading-relaxed">
-              All Claude.ai plans support connecting MCP servers to the Claude Desktop app.
+              The Model Context Protocol (MCP) is designed to be universally compatible with various AI models and client applications, not just limited to a single provider.
             </p>
             <p className="leading-relaxed">
-              Claude for Work customers can begin testing MCP servers locally, connecting Claude to internal systems and datasets. We'll soon provide developer toolkits for deploying remote production MCP servers that can serve your entire Claude for Work organization.
+              Multiple client applications support connecting to MCP servers, allowing you to enhance AI capabilities with access to your custom data, tools, and systems. You can use MCP to connect your internal systems and datasets to any compatible AI client.
+            </p>
+            <p className="leading-relaxed">
+              Developers can build and test MCP servers locally, and deploy production MCP servers that can serve entire organizations. The open protocol enables integration with various AI platforms and applications.
             </p>
           </div>
         </div>
 
-        {/* Steps Grid */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Start Building</h2>
+        {/* Start Using Section */}
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Start Using</h2>
+        <p className="text-gray-600 mb-8 max-w-3xl">
+          <strong>For end users and AI application users:</strong> If you're looking to enhance your AI experience with custom tools and data sources, explore these MCP-compatible clients.
+        </p>
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
             <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
               <BookOpen className="h-6 w-6 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Install Pre-built Servers</h3>
-            <p className="text-gray-600">
-              Get started quickly by installing pre-built MCP servers through the Claude Desktop app.
+            <h3 className="text-xl font-semibold mb-3">Claude Desktop</h3>
+            <p className="text-gray-600 mb-3">
+              Connect to MCP servers directly from your Claude Desktop app. Supports both local and remote MCP servers.
             </p>
+            <a href="https://modelcontextprotocol.io/clients" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
           </div>
-
           <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
             <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
               <Terminal className="h-6 w-6 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Follow Quickstart Guide</h3>
-            <p className="text-gray-600">
-              Learn how to build your first MCP server with our comprehensive quickstart guide.
+            <h3 className="text-xl font-semibold mb-3">VS Code Extension</h3>
+            <p className="text-gray-600 mb-3">
+              Connect directly to MCP servers from your VS Code environment for enhanced coding assistance.
             </p>
+            <a href="https://modelcontextprotocol.io/clients" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
           </div>
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Github className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">JetBrains IDE Plugin</h3>
+            <p className="text-gray-600 mb-3">
+              Use MCP servers within JetBrains IDEs like IntelliJ, PyCharm, and others to enhance your development experience.
+            </p>
+            <a href="https://modelcontextprotocol.io/clients" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
+        </div>
 
+        {/* Start Building Section */}
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Start Building</h2>
+        <p className="text-gray-600 mb-8 max-w-3xl">
+          <strong>For developers:</strong> Choose the development path that matches your goals - build MCP servers to extend AI capabilities or integrate MCP into your client applications.
+        </p>
+        
+        {/* Server Developers Subsection */}
+        <h3 className="text-2xl font-semibold text-gray-800 mb-5">For Server Developers</h3>
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Terminal className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Build Custom Servers</h3>
+            <p className="text-gray-600 mb-3">
+              Create servers that connect your data sources, tools, and APIs to MCP-compatible AI models.
+            </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <BookOpen className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Server SDK</h3>
+            <p className="text-gray-600 mb-3">
+              Use our SDK to implement the MCP specification and build servers that connect to various client applications.
+            </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Github className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Server Templates</h3>
+            <p className="text-gray-600 mb-3">
+              Start with pre-built templates for common use cases like document retrieval, database connectivity, and tool use.
+            </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
+        </div>
+        
+        {/* Client Developers Subsection */}
+        <h3 className="text-2xl font-semibold text-gray-800 mb-5">For Client Developers</h3>
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <BookOpen className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Client SDK</h3>
+            <p className="text-gray-600 mb-3">
+              Implement MCP in your AI applications to enable connectivity with a wide range of MCP servers and tools.
+            </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
+          <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+            <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+              <Terminal className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Integration Guide</h3>
+            <p className="text-gray-600 mb-3">
+              Learn how to integrate MCP connectivity into your AI-powered applications, platforms, and interfaces.
+            </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
+          </div>
           <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
             <div className="bg-blue-50 rounded-full w-12 h-12 flex items-center justify-center mb-4">
               <Github className="h-6 w-6 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold mb-3">Contribute</h3>
-            <p className="text-gray-600">
-              Join our open-source community and contribute to our repositories of connectors and implementations.
+            <p className="text-gray-600 mb-3">
+              Join our open-source community and contribute to improving MCP clients and implementations.
             </p>
+            <a href="https://modelcontextprotocol.io/introduction" className="text-blue-600 hover:text-blue-800 font-medium">
+              Learn more →
+            </a>
           </div>
         </div>
 
