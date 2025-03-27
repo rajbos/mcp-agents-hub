@@ -36,7 +36,9 @@
     },
     "serverCount": "个MCP服务器可用",
     "recommendedServers": "推荐服务器",
-    "otherServers": "其他服务器"
+    "otherServers": "其他服务器",
+    "loadMore": "加载更多",
+    "of": "共"
   },
   "server": {
     "by": "作者",

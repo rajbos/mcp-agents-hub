@@ -36,7 +36,9 @@
     },
     "serverCount": "MCP servers available",
     "recommendedServers": "Recommended Servers",
-    "otherServers": "Other Servers"
+    "otherServers": "Other Servers",
+    "loadMore": "Load More",
+    "of": "of"
   },
   "server": {
     "by": "by",
