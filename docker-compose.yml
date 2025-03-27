@@ -1,7 +1,7 @@
 
 services:
   server:
-    image: ghcr.io/mcp-agents-ai/mcp-marketplace-server:latest
+    image: ghcr.io/mcp-agents-ai/mcp-agents-hub-server:latest
     build:
       context: ./server
       dockerfile: Dockerfile
@@ -11,7 +11,7 @@ services:
       - PORT=3001
 
   client:
-    image: ghcr.io/mcp-agents-ai/mcp-marketplace-client:latest
+    image: ghcr.io/mcp-agents-ai/mcp-agents-hub-client:latest
     build:
       context: ./client
       dockerfile: Dockerfile
