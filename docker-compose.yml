@@ -1,7 +1,10 @@
-
 services:
   server:
     image: ghcr.io/mcp-agents-ai/mcp-agents-hub-server:latest
+    restart: always
+    container_name: mcp-agents-hub-server
+    networks:
+      - mcp-agents-hub
     build:
       context: ./server
       dockerfile: Dockerfile
@@ -12,6 +15,10 @@ services:
 
   client:
     image: ghcr.io/mcp-agents-ai/mcp-agents-hub-client:latest
+    restart: always
+    container_name: mcp-agents-hub-client
+    networks:
+      - mcp-agents-hub
     build:
       context: ./client
       dockerfile: Dockerfile
@@ -22,3 +29,7 @@ services:
       - ../.github-private/ssl:/etc/nginx/ssl:ro
     depends_on:
       - server
+
+networks:
+  mcp-agents-hub:
+    driver: bridge
