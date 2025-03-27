@@ -31,7 +31,8 @@
       "description": "Browse and connect to a growing ecosystem of MCP servers"
     },
     "search": {
-      "placeholder": "Search for MCP servers by name, author, or tags..."
+      "placeholder": "Search for MCP servers by name, author, or tags...",
+      "button": "Search"
     },
     "serverCount": "MCP servers available",
     "recommendedServers": "Recommended Servers",

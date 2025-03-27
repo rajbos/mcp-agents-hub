@@ -8,6 +8,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export function Home() {
   const { t } = useLanguage();
+  const [inputQuery, setInputQuery] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [servers, setServers] = useState<MCPServer[]>([]);
 
@@ -18,6 +19,10 @@ export function Home() {
     };
     loadServers();
   }, []);
+
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+  };
 
   const filteredServers = useMemo(() => {
     const query = searchQuery.toLowerCase();
@@ -80,7 +85,7 @@ export function Home() {
             {servers.length} {t('home.serverCount', { count: servers.length })}
           </p>
           <div className="mt-8 flex justify-center">
-            <SearchBar value={searchQuery} onChange={setSearchQuery} />
+            <SearchBar value={inputQuery} onChange={setInputQuery} onSearch={handleSearch} />
           </div>
         </div>
 

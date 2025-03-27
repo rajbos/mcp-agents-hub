@@ -31,7 +31,8 @@
       "description": "MCP智能体生态系统正在快速成长、立即开始使用MCP智能体构建你的AI系统"
     },
     "search": {
-      "placeholder": "按名称、作者或标签搜索 MCP 服务器..."
+      "placeholder": "按名称、作者或标签搜索 MCP 服务器...",
+      "button": "搜索"
     },
     "serverCount": "个MCP服务器可用",
     "recommendedServers": "推荐服务器",
