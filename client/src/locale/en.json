@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "about": "About",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文 (Chinese)",
+    "label": "Language"
+  },
+  "home": {
+    "title": "MCP Agents Hub",
+    "tagline": "The Universal Standard for AI Integration",
+    "subtitle": "Think of MCP as USB-C for AI applications - a standardized way to connect AI models with any data source or tool.",
+    "feature1": {
+      "title": "Easy Connection",
+      "description": "Connect to MCP servers with just a few clicks"
+    },
+    "feature2": {
+      "title": "High Performance",
+      "description": "Experience fast and reliable AI model execution"
+    },
+    "feature3": {
+      "title": "Open Standard",
+      "description": "Built on the open Model Context Protocol standard"
+    },
+    "discover": {
+      "title": "Discover MCP Servers",
+      "description": "Browse and connect to a growing ecosystem of MCP servers"
+    },
+    "search": {
+      "placeholder": "Search for MCP servers by name, author, or tags..."
+    }
+  },
+  "server": {
+    "by": "by",
+    "recommended": "Recommended",
+    "viewOnGithub": "View on GitHub"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP Marketplace. All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "title": "MCP Agents Hub",
+      "subtitle": "The open-source ecosystem for building, discovering, and deploying Model Context Protocol servers and clients for enterprise environments."
+    },
+    "whatIsMcp": {
+      "title": "What is the Model Context Protocol?",
+      "paragraph1": "The Model Context Protocol (MCP) is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. The architecture is straightforward: developers can either expose their data through MCP servers or build AI applications (MCP clients) that connect to these servers.",
+      "paragraph2": "With MCP, AI systems can maintain context as they move between different tools and datasets, replacing today's fragmented integrations with a more sustainable architecture. Instead of building custom connectors for each data source or AI model, developers can now build against a standard protocol.",
+      "components": {
+        "title": "Key Components of MCP",
+        "specification": {
+          "title": "MCP Specification",
+          "description": "The open standard protocol definition that enables interoperability between servers and clients"
+        },
+        "servers": {
+          "title": "MCP Servers",
+          "description": "Custom-built connectors that expose data sources, tools, and APIs to AI applications"
+        },
+        "clients": {
+          "title": "MCP Clients",
+          "description": "AI-powered applications that connect to MCP servers to access contextual data and functionality"
+        }
+      },
+      "whyMarketplace": {
+        "title": "Why MCP Marketplace?",
+        "description": "As the MCP ecosystem expands, organizations need a central hub to manage, discover, and share MCP resources. This marketplace serves as that hub, enabling enterprises to:",
+        "benefits": {
+          "discover": "Discover pre-built MCP servers for common enterprise systems",
+          "share": "Share custom MCP servers developed within their organization",
+          "learn": "Learn best practices for building effective MCP connectors",
+          "deploy": "Deploy the entire marketplace on-premise for security and governance"
+        }
+      }
+    },
+    "features": {
+      "title": "Your Enterprise MCP Hub",
+      "description": "This open-source marketplace allows organizations to deploy their own on-premise MCP hub, creating a central repository for discovering, sharing, and managing MCP servers and clients within their enterprise environment.",
+      "serverBuilding": {
+        "title": "Server Building",
+        "description": "Learn to create custom MCP servers that connect enterprise data sources to AI models securely and efficiently. Our marketplace provides templates, examples, and best practices to accelerate server development."
+      },
+      "clientDevelopment": {
+        "title": "Client Development",
+        "description": "Build AI applications that leverage the MCP protocol to access contextual data across your organization. Connect your apps to any MCP server with standardized interfaces."
+      },
+      "toolDiscovery": {
+        "title": "Tool Discovery",
+        "description": "Find pre-built MCP servers for popular enterprise systems like Google Drive, Slack, GitHub, Git, Postgres, Puppeteer and more. Deploy them instantly in your organization."
+      }
+    },
+    "showcase": {
+      "title": "Powering Enterprise AI Integration",
+      "description": "Early adopters have already integrated MCP into their systems, while development tools companies are working with MCP to enhance their platforms—enabling AI agents to better retrieve relevant information and produce more functional results with fewer attempts.",
+      "quote": {
+        "text": "\"Open technologies like the Model Context Protocol are the bridges that connect AI to real-world applications, ensuring innovation is accessible, transparent, and rooted in collaboration. We are excited to partner on a protocol and use it to build agentic systems, which remove the burden of the mechanical so people can focus on the creative.\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Chief Technology Officer at Block"
+      },
+      "forOrganizations": {
+        "title": "For Organizations",
+        "benefits": {
+          "deploy": "Deploy on-premise for enhanced security and compliance",
+          "connect": "Connect internal tools and data to AI systems",
+          "build": "Build custom connectors for proprietary systems",
+          "maintain": "Maintain control over AI access to sensitive data"
+        }
+      },
+      "forDevelopers": {
+        "title": "For Development Teams",
+        "benefits": {
+          "enhance": "Enhance development tools with AI context awareness",
+          "buildOnce": "Build once, connect to multiple AI clients",
+          "contribute": "Contribute to open-source MCP ecosystem",
+          "create": "Create specialized connectors for development workflows"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise-Ready Deployment",
+      "description": "Deploy this marketplace in your own on-premise environment to create a secure, internal hub for MCP tools and resources. Enable your organization's developers to:",
+      "benefits": {
+        "share": "Share internally developed MCP servers across teams",
+        "discover": "Discover and deploy pre-built connectors for enterprise systems",
+        "maintain": "Maintain governance and security requirements for AI integrations",
+        "foster": "Foster collaboration between data owners and AI application developers"
+      },
+      "onPremise": {
+        "title": "On-Premise Solution",
+        "description": "Fully deployable within your existing infrastructure"
+      }
+    },
+    "community": {
+      "title": "An Open Community",
+      "description": "We're committed to building MCP as a collaborative, open-source project and ecosystem. Whether you're an AI tool developer, an enterprise looking to leverage existing data, or an early adopter exploring the frontier, we invite you to build the future of context-aware AI together.",
+      "joinCommunity": "Join the Community",
+      "deploymentGuide": "Deployment Guide"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "Getting Started with MCP",
+      "subtitle": "Start building and testing MCP connectors today with our comprehensive documentation and tools."
+    },
+    "availability": {
+      "title": "Availability",
+      "paragraph1": "The Model Context Protocol (MCP) is designed to be universally compatible with various AI models and client applications, not just limited to a single provider.",
+      "paragraph2": "Multiple client applications support connecting to MCP servers, allowing you to enhance AI capabilities with access to your custom data, tools, and systems. You can use MCP to connect your internal systems and datasets to any compatible AI client.",
+      "paragraph3": "Developers can build and test MCP servers locally, and deploy production MCP servers that can serve entire organizations. The open protocol enables integration with various AI platforms and applications."
+    },
+    "startUsing": {
+      "title": "Start Using",
+      "subtitle": "For end users and AI application users: If you're looking to enhance your AI experience with custom tools and data sources, explore these MCP-compatible clients.",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "Connect to MCP servers directly from your Claude Desktop app. Supports both local and remote MCP servers.",
+        "learnMore": "Learn more →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code Extension",
+        "description": "Connect directly to MCP servers from your VS Code environment for enhanced coding assistance.",
+        "learnMore": "Learn more →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE Plugin",
+        "description": "Use MCP servers within JetBrains IDEs like IntelliJ, PyCharm, and others to enhance your development experience.",
+        "learnMore": "Learn more →"
+      }
+    },
+    "startBuilding": {
+      "title": "Start Building",
+      "subtitle": "For developers: Choose the development path that matches your goals - build MCP servers to extend AI capabilities or integrate MCP into your client applications.",
+      "serverDevelopers": {
+        "title": "For Server Developers",
+        "customServers": {
+          "title": "Build Custom Servers",
+          "description": "Create servers that connect your data sources, tools, and APIs to MCP-compatible AI models.",
+          "learnMore": "Learn more →"
+        },
+        "serverSDK": {
+          "title": "Server SDK",
+          "description": "Use our SDK to implement the MCP specification and build servers that connect to various client applications.",
+          "learnMore": "Learn more →"
+        },
+        "serverTemplates": {
+          "title": "Server Templates",
+          "description": "Start with pre-built templates for common use cases like document retrieval, database connectivity, and tool use.",
+          "learnMore": "Learn more →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "For Client Developers",
+        "clientSDK": {
+          "title": "Client SDK",
+          "description": "Implement MCP in your AI applications to enable connectivity with a wide range of MCP servers and tools.",
+          "learnMore": "Learn more →"
+        },
+        "integrationGuide": {
+          "title": "Integration Guide",
+          "description": "Learn how to integrate MCP connectivity into your AI-powered applications, platforms, and interfaces.",
+          "learnMore": "Learn more →"
+        },
+        "contribute": {
+          "title": "Contribute",
+          "description": "Join our open-source community and contribute to improving MCP clients and implementations.",
+          "learnMore": "Learn more →"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join our growing community of developers building the future of AI integration with MCP.",
+      "readDocs": "Read Documentation",
+      "viewOnGithub": "View on GitHub"
+    }
+  }
+}

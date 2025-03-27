@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "home": "首页",
+    "docs": "文档",
+    "about": "关于",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English (英文)",
+    "chinese": "中文",
+    "label": "语言"
+  },
+  "home": {
+    "title": "MCP 智能体中心",
+    "tagline": "MCP是构建AI系统的通用标准",
+    "subtitle": "将 MCP 理解为 AI 应用程序的USB接口，通过标准化的方式，将 AI 模型与任何数据源或工具连接。",
+    "feature1": {
+      "title": "轻松连接",
+      "description": "只需点击几下即可连接到 MCP 服务器"
+    },
+    "feature2": {
+      "title": "高性能",
+      "description": "体验快速可靠的 AI 模型执行"
+    },
+    "feature3": {
+      "title": "开放标准",
+      "description": "基于开放的模型上下文协议标准构建"
+    },
+    "discover": {
+      "title": "发现 MCP 智能体（服务器）",
+      "description": "MCP智能体生态系统正在快速成长、立即开始使用MCP智能体构建你的AI系统"
+    },
+    "search": {
+      "placeholder": "按名称、作者或标签搜索 MCP 服务器..."
+    }
+  },
+  "server": {
+    "by": "作者",
+    "recommended": "推荐",
+    "viewOnGithub": "在 GitHub 上查看"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP 市场。保留所有权利。"
+  },
+  "about": {
+    "hero": {
+      "title": "MCP 智能体中心",
+      "subtitle": "为企业环境构建、发现和部署模型上下文协议（MCP）服务器和客户端的开源生态系统。"
+    },
+    "whatIsMcp": {
+      "title": "什么是模型上下文协议？",
+      "paragraph1": "模型上下文协议（MCP）是一种开放标准，使开发人员能够在其数据源和AI驱动的工具之间构建安全的双向连接。架构非常简单：开发人员可以通过MCP服务器公开其数据，或构建连接到这些服务器的AI应用程序（MCP客户端）。",
+      "paragraph2": "通过MCP，AI系统可以在不同工具和数据集之间移动时保持上下文，用更可持续的架构替代当今分散的集成方式。开发人员现在可以针对标准协议进行构建，而不必为每个数据源或AI模型构建自定义连接器。",
+      "components": {
+        "title": "MCP的关键组件",
+        "specification": {
+          "title": "MCP规范",
+          "description": "使服务器和客户端实现互操作性的开放标准协议定义"
+        },
+        "servers": {
+          "title": "MCP服务器",
+          "description": "将数据源、工具和API暴露给AI应用程序的自定义构建连接器"
+        },
+        "clients": {
+          "title": "MCP客户端",
+          "description": "连接到MCP服务器以访问上下文数据和功能的AI驱动应用程序"
+        }
+      },
+      "whyMarketplace": {
+        "title": "为什么需要MCP市场？",
+        "description": "随着MCP生态系统的扩大，组织需要一个中央枢纽来管理、发现和共享MCP资源。这个市场就是这样的枢纽，使企业能够：",
+        "benefits": {
+          "discover": "发现适用于常见企业系统的预构建MCP服务器",
+          "share": "共享在组织内部开发的自定义MCP服务器",
+          "learn": "学习构建有效MCP连接器的最佳实践",
+          "deploy": "在本地部署整个市场以确保安全性和治理"
+        }
+      }
+    },
+    "features": {
+      "title": "您的企业MCP中心",
+      "description": "这个开源市场允许组织部署自己的本地MCP中心，为企业环境中的MCP服务器和客户端的发现、共享和管理创建一个中央存储库。",
+      "serverBuilding": {
+        "title": "服务器构建",
+        "description": "学习创建自定义MCP服务器，安全高效地连接企业数据源到AI模型。我们的市场提供模板、示例和最佳实践，加速服务器开发。"
+      },
+      "clientDevelopment": {
+        "title": "客户端开发",
+        "description": "构建利用MCP协议访问组织内上下文数据的AI应用程序。通过标准化接口将您的应用连接到任何MCP服务器。"
+      },
+      "toolDiscovery": {
+        "title": "工具发现",
+        "description": "为流行的企业系统（如Google Drive、Slack、GitHub、Git、Postgres、Puppeteer等）找到预构建的MCP服务器。在您的组织中即时部署它们。"
+      }
+    },
+    "showcase": {
+      "title": "赋能企业AI集成",
+      "description": "早期采用者已经将MCP集成到他们的系统中，而开发工具公司正在与MCP合作增强他们的平台——使AI代理能够更好地检索相关信息，并用更少的尝试产生更多功能性结果。",
+      "quote": {
+        "text": "\"像模型上下文协议这样的开放技术是连接AI与现实世界应用程序的桥梁，确保创新是可访问的、透明的，并且植根于协作。我们很高兴能够合作开发一个协议并使用它来构建代理系统，这些系统消除了机械性工作的负担，使人们能够专注于创造性工作。\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Block公司首席技术官"
+      },
+      "forOrganizations": {
+        "title": "面向组织",
+        "benefits": {
+          "deploy": "本地部署以增强安全性和合规性",
+          "connect": "将内部工具和数据连接到AI系统",
+          "build": "为专有系统构建自定义连接器",
+          "maintain": "维持对AI访问敏感数据的控制"
+        }
+      },
+      "forDevelopers": {
+        "title": "面向开发团队",
+        "benefits": {
+          "enhance": "通过AI上下文感知增强开发工具",
+          "buildOnce": "构建一次，连接到多个AI客户端",
+          "contribute": "为开源MCP生态系统做出贡献",
+          "create": "为开发工作流程创建专门的连接器"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "企业级部署就绪",
+      "description": "在您自己的本地环境中部署此市场，为MCP工具和资源创建一个安全的内部中心。使您组织的开发人员能够：",
+      "benefits": {
+        "share": "在团队之间共享内部开发的MCP服务器",
+        "discover": "发现并部署适用于企业系统的预构建连接器",
+        "maintain": "维护AI集成的治理和安全要求",
+        "foster": "促进数据所有者和AI应用程序开发人员之间的协作"
+      },
+      "onPremise": {
+        "title": "本地部署解决方案",
+        "description": "可完全部署在您现有的基础设施中"
+      }
+    },
+    "community": {
+      "title": "一个开放的社区",
+      "description": "我们致力于将MCP构建为一个协作性的开源项目和生态系统。无论您是AI工具开发人员、希望利用现有数据的企业，还是探索前沿的早期采用者，我们邀请您一起构建具有上下文感知的AI未来。",
+      "joinCommunity": "加入社区",
+      "deploymentGuide": "部署指南"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "MCP 入门指南",
+      "subtitle": "立即通过我们全面的文档和工具开始构建和测试 MCP 连接器。"
+    },
+    "availability": {
+      "title": "可用性",
+      "paragraph1": "模型上下文协议（MCP）旨在与各种 AI 模型和客户端应用程序通用兼容，不仅限于单一提供商。",
+      "paragraph2": "多种客户端应用程序支持连接到 MCP 服务器，让您能够通过访问自定义数据、工具和系统来增强 AI 功能。您可以使用 MCP 将内部系统和数据集连接到任何兼容的 AI 客户端。",
+      "paragraph3": "开发人员可以在本地构建和测试 MCP 服务器，并部署可以为整个组织提供服务的生产 MCP 服务器。这种开放协议支持与各种 AI 平台和应用程序集成。"
+    },
+    "startUsing": {
+      "title": "开始使用",
+      "subtitle": "对于终端用户和 AI 应用程序用户：如果您想通过自定义工具和数据源增强 AI 体验，请探索这些 MCP 兼容客户端。",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "直接从 Claude Desktop 应用程序连接到 MCP 服务器。支持本地和远程 MCP 服务器。",
+        "learnMore": "了解更多 →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code 扩展",
+        "description": "直接从 VS Code 环境连接到 MCP 服务器，以获得增强的编码辅助功能。",
+        "learnMore": "了解更多 →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE 插件",
+        "description": "在 JetBrains IDE（如 IntelliJ、PyCharm 等）中使用 MCP 服务器，以增强您的开发体验。",
+        "learnMore": "了解更多 →"
+      }
+    },
+    "startBuilding": {
+      "title": "开始构建",
+      "subtitle": "对于开发者：选择与您的目标相匹配的开发路径 - 构建 MCP 服务器以扩展 AI 功能或将 MCP 集成到您的客户端应用程序中。",
+      "serverDevelopers": {
+        "title": "面向服务器开发者",
+        "customServers": {
+          "title": "构建自定义服务器",
+          "description": "创建连接您的数据源、工具和 API 到 MCP 兼容 AI 模型的服务器。",
+          "learnMore": "了解更多 →"
+        },
+        "serverSDK": {
+          "title": "服务器 SDK",
+          "description": "使用我们的 SDK 实现 MCP 规范并构建连接到各种客户端应用程序的服务器。",
+          "learnMore": "了解更多 →"
+        },
+        "serverTemplates": {
+          "title": "服务器模板",
+          "description": "从预构建的模板开始，适用于常见用例，如文档检索、数据库连接和工具使用。",
+          "learnMore": "了解更多 →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "面向客户端开发者",
+        "clientSDK": {
+          "title": "客户端 SDK",
+          "description": "在您的 AI 应用程序中实现 MCP，以便与各种 MCP 服务器和工具进行连接。",
+          "learnMore": "了解更多 →"
+        },
+        "integrationGuide": {
+          "title": "集成指南",
+          "description": "了解如何将 MCP 连接集成到您的 AI 驱动的应用程序、平台和界面中。",
+          "learnMore": "了解更多 →"
+        },
+        "contribute": {
+          "title": "贡献",
+          "description": "加入我们的开源社区，为改进 MCP 客户端和实现做出贡献。",
+          "learnMore": "了解更多 →"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "subtitle": "加入我们不断增长的开发者社区，共同构建 MCP 集成的 AI 未来。",
+      "readDocs": "阅读文档",
+      "viewOnGithub": "在 GitHub 上查看"
+    }
+  }
+}
