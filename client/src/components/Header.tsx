@@ -35,7 +35,7 @@ export function Header() {
             >
               <path d="M12 2v20M2 12h20M7 17l10-10M7 7l10 10"/>
             </svg>
-            <h1 className="ml-3 text-2xl font-bold text-gray-900">McpHub</h1>
+            <h1 className="ml-3 text-2xl font-bold text-gray-900">{t('home.title')}</h1>
           </div>
           
           <div className="flex items-center">
