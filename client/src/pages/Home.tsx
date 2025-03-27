@@ -29,6 +29,15 @@ export function Home() {
     ));
   }, [searchQuery, servers]);
 
+  // Split servers into recommended and others
+  const recommendedServers = useMemo(() => {
+    return filteredServers.filter(server => server.isRecommended);
+  }, [filteredServers]);
+
+  const otherServers = useMemo(() => {
+    return filteredServers.filter(server => !server.isRecommended);
+  }, [filteredServers]);
+
   return (
     <>
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
@@ -75,11 +84,33 @@ export function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredServers.map((server) => (
-            <ServerCard key={server.mcpId} server={server} />
-          ))}
-        </div>
+        {/* Recommended Servers Section */}
+        {recommendedServers.length > 0 && (
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
+              {t('home.recommendedServers')}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {recommendedServers.map((server) => (
+                <ServerCard key={server.mcpId} server={server} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* All Other Servers */}
+        {otherServers.length > 0 && (
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
+              {otherServers.length > 0 && recommendedServers.length > 0 ? t('home.otherServers') : ''}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {otherServers.map((server) => (
+                <ServerCard key={server.mcpId} server={server} />
+              ))}
+            </div>
+          </div>
+        )}
       </main>
     </>
   );
