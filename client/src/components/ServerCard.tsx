@@ -1,12 +1,15 @@
 import React from 'react';
 import { Star, Download, ExternalLink } from 'lucide-react';
 import { MCPServer } from '../types';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface ServerCardProps {
   server: MCPServer;
 }
 
 export function ServerCard({ server }: ServerCardProps) {
+  const { t } = useLanguage();
+  
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <div className="p-6">
@@ -15,12 +18,12 @@ export function ServerCard({ server }: ServerCardProps) {
             <img src={server.logoUrl} alt={server.name} className="h-12 w-12 rounded-lg" />
             <div>
               <h3 className="text-xl font-semibold text-gray-900">{server.name}</h3>
-              <p className="text-sm text-gray-500">by {server.author}</p>
+              <p className="text-sm text-gray-500">{t('server.by')} {server.author}</p>
             </div>
           </div>
           {server.isRecommended && (
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-              Recommended
+              {t('server.recommended')}
             </span>
           )}
         </div>
@@ -57,7 +60,7 @@ export function ServerCard({ server }: ServerCardProps) {
             className="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             <ExternalLink className="h-4 w-4 mr-2" />
-            View on GitHub
+            {t('server.viewOnGithub')}
           </a>
         </div>
       </div>
