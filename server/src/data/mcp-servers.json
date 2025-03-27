@@ -1930,5 +1930,26 @@
     "downloadCount": 12,
     "createdAt": "2025-02-18T06:27:44.307829Z",
     "updatedAt": "2025-02-18T06:27:44.307829Z"
+    },
+    {
+    "mcpId": "github.com/rajbos/ghas-mpc-server",
+    "githubUrl": "https://github.com/rajbos/ghas-mpc-server",
+    "name": "GitHub Advanced Security Tools",
+    "author": "rajbos",
+    "description": "Check alerts from GitHub Advanced Security",
+    "codiconIcon": "github",
+    "logoUrl": "https://storage.googleapis.com/cline_public_images/github.png",
+    "category": "github,
+    "tags": [
+    "github",
+    "ghas",
+    "automation"
+    ],
+    "requiresApiKey": true,
+    "isRecommended": false,
+    "githubStars": 0,
+    "downloadCount": 0,
+    "createdAt": "2025-03-27T23:00:00.000000Z",
+    "updatedAt": "2025-03-27T23:32:00.000000Z"
     }
     ]
