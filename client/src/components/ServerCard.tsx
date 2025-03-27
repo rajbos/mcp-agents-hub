@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Download, ExternalLink } from 'lucide-react';
+import { Star, Download, ExternalLink, Database } from 'lucide-react';
 import { MCPServer } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -15,7 +15,13 @@ export function ServerCard({ server }: ServerCardProps) {
       <div className="p-6">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
-            <img src={server.logoUrl} alt={server.name} className="h-12 w-12 rounded-lg" />
+            {server.logoUrl ? (
+              <img src={server.logoUrl} alt={server.name} className="h-12 w-12 rounded-lg" />
+            ) : (
+              <div className="h-12 w-12 rounded-lg bg-blue-100 flex items-center justify-center">
+                <Database className="h-6 w-6 text-blue-600" />
+              </div>
+            )}
             <div>
               <h3 className="text-xl font-semibold text-gray-900">{server.name}</h3>
               <p className="text-sm text-gray-500">{t('server.by')} {server.author}</p>
