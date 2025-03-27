@@ -146,7 +146,7 @@ export function Header() {
                   {t('nav.about')}
                 </Link>
                 <a
-                  href="https://github.com/mcp-agents-ai/mcp-marketplace"
+                  href="https://github.com/mcp-agents-ai/mcp-agents-hub"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2"
