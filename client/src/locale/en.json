@@ -42,6 +42,105 @@
   "footer": {
     "copyright": "© 2025 MCP Marketplace. All rights reserved."
   },
+  "about": {
+    "hero": {
+      "title": "MCP Agents Hub",
+      "subtitle": "The open-source ecosystem for building, discovering, and deploying Model Context Protocol servers and clients for enterprise environments."
+    },
+    "whatIsMcp": {
+      "title": "What is the Model Context Protocol?",
+      "paragraph1": "The Model Context Protocol (MCP) is an open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. The architecture is straightforward: developers can either expose their data through MCP servers or build AI applications (MCP clients) that connect to these servers.",
+      "paragraph2": "With MCP, AI systems can maintain context as they move between different tools and datasets, replacing today's fragmented integrations with a more sustainable architecture. Instead of building custom connectors for each data source or AI model, developers can now build against a standard protocol.",
+      "components": {
+        "title": "Key Components of MCP",
+        "specification": {
+          "title": "MCP Specification",
+          "description": "The open standard protocol definition that enables interoperability between servers and clients"
+        },
+        "servers": {
+          "title": "MCP Servers",
+          "description": "Custom-built connectors that expose data sources, tools, and APIs to AI applications"
+        },
+        "clients": {
+          "title": "MCP Clients",
+          "description": "AI-powered applications that connect to MCP servers to access contextual data and functionality"
+        }
+      },
+      "whyMarketplace": {
+        "title": "Why MCP Marketplace?",
+        "description": "As the MCP ecosystem expands, organizations need a central hub to manage, discover, and share MCP resources. This marketplace serves as that hub, enabling enterprises to:",
+        "benefits": {
+          "discover": "Discover pre-built MCP servers for common enterprise systems",
+          "share": "Share custom MCP servers developed within their organization",
+          "learn": "Learn best practices for building effective MCP connectors",
+          "deploy": "Deploy the entire marketplace on-premise for security and governance"
+        }
+      }
+    },
+    "features": {
+      "title": "Your Enterprise MCP Hub",
+      "description": "This open-source marketplace allows organizations to deploy their own on-premise MCP hub, creating a central repository for discovering, sharing, and managing MCP servers and clients within their enterprise environment.",
+      "serverBuilding": {
+        "title": "Server Building",
+        "description": "Learn to create custom MCP servers that connect enterprise data sources to AI models securely and efficiently. Our marketplace provides templates, examples, and best practices to accelerate server development."
+      },
+      "clientDevelopment": {
+        "title": "Client Development",
+        "description": "Build AI applications that leverage the MCP protocol to access contextual data across your organization. Connect your apps to any MCP server with standardized interfaces."
+      },
+      "toolDiscovery": {
+        "title": "Tool Discovery",
+        "description": "Find pre-built MCP servers for popular enterprise systems like Google Drive, Slack, GitHub, Git, Postgres, Puppeteer and more. Deploy them instantly in your organization."
+      }
+    },
+    "showcase": {
+      "title": "Powering Enterprise AI Integration",
+      "description": "Early adopters have already integrated MCP into their systems, while development tools companies are working with MCP to enhance their platforms—enabling AI agents to better retrieve relevant information and produce more functional results with fewer attempts.",
+      "quote": {
+        "text": "\"Open technologies like the Model Context Protocol are the bridges that connect AI to real-world applications, ensuring innovation is accessible, transparent, and rooted in collaboration. We are excited to partner on a protocol and use it to build agentic systems, which remove the burden of the mechanical so people can focus on the creative.\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Chief Technology Officer at Block"
+      },
+      "forOrganizations": {
+        "title": "For Organizations",
+        "benefits": {
+          "deploy": "Deploy on-premise for enhanced security and compliance",
+          "connect": "Connect internal tools and data to AI systems",
+          "build": "Build custom connectors for proprietary systems",
+          "maintain": "Maintain control over AI access to sensitive data"
+        }
+      },
+      "forDevelopers": {
+        "title": "For Development Teams",
+        "benefits": {
+          "enhance": "Enhance development tools with AI context awareness",
+          "buildOnce": "Build once, connect to multiple AI clients",
+          "contribute": "Contribute to open-source MCP ecosystem",
+          "create": "Create specialized connectors for development workflows"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise-Ready Deployment",
+      "description": "Deploy this marketplace in your own on-premise environment to create a secure, internal hub for MCP tools and resources. Enable your organization's developers to:",
+      "benefits": {
+        "share": "Share internally developed MCP servers across teams",
+        "discover": "Discover and deploy pre-built connectors for enterprise systems",
+        "maintain": "Maintain governance and security requirements for AI integrations",
+        "foster": "Foster collaboration between data owners and AI application developers"
+      },
+      "onPremise": {
+        "title": "On-Premise Solution",
+        "description": "Fully deployable within your existing infrastructure"
+      }
+    },
+    "community": {
+      "title": "An Open Community",
+      "description": "We're committed to building MCP as a collaborative, open-source project and ecosystem. Whether you're an AI tool developer, an enterprise looking to leverage existing data, or an early adopter exploring the frontier, we invite you to build the future of context-aware AI together.",
+      "joinCommunity": "Join the Community",
+      "deploymentGuide": "Deployment Guide"
+    }
+  },
   "docs": {
     "hero": {
       "title": "Getting Started with MCP",
