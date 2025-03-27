@@ -1,4 +1,4 @@
-# MCP Marketplace Hub
+# MCP Agents Hub
 
 The open-source ecosystem for building, discovering, and deploying Model Context Protocol servers and clients for enterprise environments.
 
@@ -65,7 +65,7 @@ graph LR
     class C1,C2,C3,C4 clients;
 ```
 
-## Why MCP Marketplace?
+## Why MCP Agents Hub?
 
 As the MCP ecosystem expands, organizations need a central hub to manage, discover, and share MCP resources. This marketplace serves as that hub, enabling enterprises to:
 - Discover pre-built MCP servers for common enterprise systems
@@ -73,11 +73,11 @@ As the MCP ecosystem expands, organizations need a central hub to manage, discov
 - Learn best practices for building effective MCP connectors
 - Deploy the entire marketplace on-premise for security and governance
 
-### MCP Marketplace Ecosystem
+### MCP Agents Hub Ecosystem
 
 ```mermaid
 graph TD
-    M[MCP Marketplace Hub]
+    M[MCP Agents Hub]
     
     subgraph "Server Registry"
         S1[Published Servers]
@@ -135,7 +135,7 @@ graph TD
 Join the open community to build the future of context-aware AI together. Whether you're an AI tool developer, an enterprise looking to leverage existing data, or an early adopter exploring the frontier, we invite you to contribute.
 
 - MCP: [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
-- MCP Marketplace [https://github.com/mcp-agents-ai/mcp-marketplace](https://github.com/mcp-agents-ai/mcp-marketplace)
+- MCP Agents Hub [https://github.com/mcp-agents-ai/mcp-agents-hub](https://github.com/mcp-agents-ai/mcp-agents-hub)
 
 ## License
 
