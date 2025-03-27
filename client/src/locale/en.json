@@ -32,7 +32,8 @@
     },
     "search": {
       "placeholder": "Search for MCP servers by name, author, or tags..."
-    }
+    },
+    "serverCount": "MCP servers available"
   },
   "server": {
     "by": "by",

@@ -32,7 +32,8 @@
     },
     "search": {
       "placeholder": "按名称、作者或标签搜索 MCP 服务器..."
-    }
+    },
+    "serverCount": "个MCP服务器可用"
   },
   "server": {
     "by": "作者",

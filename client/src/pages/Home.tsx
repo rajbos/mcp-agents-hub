@@ -67,6 +67,9 @@ export function Home() {
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             {t('home.discover.description')}
           </p>
+          <p className="mt-3 text-lg text-indigo-600 font-medium">
+            {servers.length} {t('home.serverCount', { count: servers.length })}
+          </p>
           <div className="mt-8 flex justify-center">
             <SearchBar value={searchQuery} onChange={setSearchQuery} />
           </div>
