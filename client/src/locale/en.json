@@ -11,11 +11,33 @@
     "label": "Language"
   },
   "home": {
-    "title": "MCP Server Marketplace",
-    "subtitle": "Discover and connect to the best Model Context Protocol (MCP) servers",
+    "title": "McpHub",
+    "tagline": "The Universal Standard for AI Integration",
+    "subtitle": "Think of MCP as USB-C for AI applications - a standardized way to connect AI models with any data source or tool.",
+    "feature1": {
+      "title": "Easy Connection",
+      "description": "Connect to MCP servers with just a few clicks"
+    },
+    "feature2": {
+      "title": "High Performance",
+      "description": "Experience fast and reliable AI model execution"
+    },
+    "feature3": {
+      "title": "Open Standard",
+      "description": "Built on the open Model Context Protocol standard"
+    },
+    "discover": {
+      "title": "Discover MCP Servers",
+      "description": "Browse and connect to a growing ecosystem of MCP servers"
+    },
     "search": {
-      "placeholder": "Search for MCP servers..."
+      "placeholder": "Search for MCP servers by name, author, or tags..."
     }
+  },
+  "server": {
+    "by": "by",
+    "recommended": "Recommended",
+    "viewOnGithub": "View on GitHub"
   },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. All rights reserved."

@@ -11,11 +11,33 @@
     "label": "语言"
   },
   "home": {
-    "title": "MCP 服务器市场",
-    "subtitle": "发现并连接到最好的模型上下文协议 (MCP) 服务器",
+    "title": "McpHub",
+    "tagline": "构建AI系统的通用标准",
+    "subtitle": "将 MCP 理解为 AI 应用程序的USB接口，通过标准化的方式，将 AI 模型与任何数据源或工具连接。",
+    "feature1": {
+      "title": "轻松连接",
+      "description": "只需点击几下即可连接到 MCP 服务器"
+    },
+    "feature2": {
+      "title": "高性能",
+      "description": "体验快速可靠的 AI 模型执行"
+    },
+    "feature3": {
+      "title": "开放标准",
+      "description": "基于开放的模型上下文协议标准构建"
+    },
+    "discover": {
+      "title": "发现 MCP 服务器",
+      "description": "浏览并连接到不断增长的 MCP 服务器生态系统"
+    },
     "search": {
-      "placeholder": "搜索 MCP 服务器..."
+      "placeholder": "按名称、作者或标签搜索 MCP 服务器..."
     }
+  },
+  "server": {
+    "by": "作者",
+    "recommended": "推荐",
+    "viewOnGithub": "在 GitHub 上查看"
   },
   "footer": {
     "copyright": "© 2025 MCP 市场。保留所有权利。"
