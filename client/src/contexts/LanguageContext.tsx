@@ -5,6 +5,10 @@ import zhTranslations from '../locale/zh.json';
 // Define the supported languages
 export type SupportedLanguage = 'en' | 'zh';
 
+// Define the structure for translation objects
+type TranslationValue = string | Record<string, any>;
+type TranslationRecord = Record<string, TranslationValue>;
+
 // Define the type for the language context
 type LanguageContextType = {
   language: SupportedLanguage;
@@ -16,17 +20,35 @@ type LanguageContextType = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 // Translation dictionary with imported JSON files
-const translations: Record<SupportedLanguage, Record<string, any>> = {
+const translations: Record<SupportedLanguage, TranslationRecord> = {
   en: enTranslations,
   zh: zhTranslations
 };
 
+// Helper function to detect browser language
+const detectBrowserLanguage = (): SupportedLanguage => {
+  // Get browser language from navigator
+  const browserLang = navigator.language.toLowerCase();
+  
+  // Check if the browser language starts with 'zh' (any Chinese variant)
+  if (browserLang.startsWith('zh')) {
+    return 'zh';
+  }
+  
+  // Default to English for all other languages
+  return 'en';
+};
+
 // Provider component
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  // Try to get saved language from localStorage, default to 'en'
+  // Try to get saved language from localStorage, or detect from browser, default to 'en'
   const [language, setLanguage] = useState<SupportedLanguage>(() => {
     const saved = localStorage.getItem('language') as SupportedLanguage;
-    return saved && (saved === 'en' || saved === 'zh') ? saved : 'en';
+    if (saved && (saved === 'en' || saved === 'zh')) {
+      return saved;
+    }
+    // If no saved preference, detect from browser
+    return detectBrowserLanguage();
   });
 
   // Save language preference to localStorage when it changes
