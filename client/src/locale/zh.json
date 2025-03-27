@@ -41,5 +41,82 @@
   },
   "footer": {
     "copyright": "© 2025 MCP 市场。保留所有权利。"
+  },
+  "docs": {
+    "hero": {
+      "title": "MCP 入门指南",
+      "subtitle": "立即通过我们全面的文档和工具开始构建和测试 MCP 连接器。"
+    },
+    "availability": {
+      "title": "可用性",
+      "paragraph1": "模型上下文协议（MCP）旨在与各种 AI 模型和客户端应用程序通用兼容，不仅限于单一提供商。",
+      "paragraph2": "多种客户端应用程序支持连接到 MCP 服务器，让您能够通过访问自定义数据、工具和系统来增强 AI 功能。您可以使用 MCP 将内部系统和数据集连接到任何兼容的 AI 客户端。",
+      "paragraph3": "开发人员可以在本地构建和测试 MCP 服务器，并部署可以为整个组织提供服务的生产 MCP 服务器。这种开放协议支持与各种 AI 平台和应用程序集成。"
+    },
+    "startUsing": {
+      "title": "开始使用",
+      "subtitle": "对于终端用户和 AI 应用程序用户：如果您想通过自定义工具和数据源增强 AI 体验，请探索这些 MCP 兼容客户端。",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "直接从 Claude Desktop 应用程序连接到 MCP 服务器。支持本地和远程 MCP 服务器。",
+        "learnMore": "了解更多 →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code 扩展",
+        "description": "直接从 VS Code 环境连接到 MCP 服务器，以获得增强的编码辅助功能。",
+        "learnMore": "了解更多 →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE 插件",
+        "description": "在 JetBrains IDE（如 IntelliJ、PyCharm 等）中使用 MCP 服务器，以增强您的开发体验。",
+        "learnMore": "了解更多 →"
+      }
+    },
+    "startBuilding": {
+      "title": "开始构建",
+      "subtitle": "对于开发者：选择与您的目标相匹配的开发路径 - 构建 MCP 服务器以扩展 AI 功能或将 MCP 集成到您的客户端应用程序中。",
+      "serverDevelopers": {
+        "title": "面向服务器开发者",
+        "customServers": {
+          "title": "构建自定义服务器",
+          "description": "创建连接您的数据源、工具和 API 到 MCP 兼容 AI 模型的服务器。",
+          "learnMore": "了解更多 →"
+        },
+        "serverSDK": {
+          "title": "服务器 SDK",
+          "description": "使用我们的 SDK 实现 MCP 规范并构建连接到各种客户端应用程序的服务器。",
+          "learnMore": "了解更多 →"
+        },
+        "serverTemplates": {
+          "title": "服务器模板",
+          "description": "从预构建的模板开始，适用于常见用例，如文档检索、数据库连接和工具使用。",
+          "learnMore": "了解更多 →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "面向客户端开发者",
+        "clientSDK": {
+          "title": "客户端 SDK",
+          "description": "在您的 AI 应用程序中实现 MCP，以便与各种 MCP 服务器和工具进行连接。",
+          "learnMore": "了解更多 →"
+        },
+        "integrationGuide": {
+          "title": "集成指南",
+          "description": "了解如何将 MCP 连接集成到您的 AI 驱动的应用程序、平台和界面中。",
+          "learnMore": "了解更多 →"
+        },
+        "contribute": {
+          "title": "贡献",
+          "description": "加入我们的开源社区，为改进 MCP 客户端和实现做出贡献。",
+          "learnMore": "了解更多 →"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "subtitle": "加入我们不断增长的开发者社区，共同构建 MCP 集成的 AI 未来。",
+      "readDocs": "阅读文档",
+      "viewOnGithub": "在 GitHub 上查看"
+    }
   }
 }

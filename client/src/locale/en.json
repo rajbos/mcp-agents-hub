@@ -41,5 +41,82 @@
   },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. All rights reserved."
+  },
+  "docs": {
+    "hero": {
+      "title": "Getting Started with MCP",
+      "subtitle": "Start building and testing MCP connectors today with our comprehensive documentation and tools."
+    },
+    "availability": {
+      "title": "Availability",
+      "paragraph1": "The Model Context Protocol (MCP) is designed to be universally compatible with various AI models and client applications, not just limited to a single provider.",
+      "paragraph2": "Multiple client applications support connecting to MCP servers, allowing you to enhance AI capabilities with access to your custom data, tools, and systems. You can use MCP to connect your internal systems and datasets to any compatible AI client.",
+      "paragraph3": "Developers can build and test MCP servers locally, and deploy production MCP servers that can serve entire organizations. The open protocol enables integration with various AI platforms and applications."
+    },
+    "startUsing": {
+      "title": "Start Using",
+      "subtitle": "For end users and AI application users: If you're looking to enhance your AI experience with custom tools and data sources, explore these MCP-compatible clients.",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "Connect to MCP servers directly from your Claude Desktop app. Supports both local and remote MCP servers.",
+        "learnMore": "Learn more →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code Extension",
+        "description": "Connect directly to MCP servers from your VS Code environment for enhanced coding assistance.",
+        "learnMore": "Learn more →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE Plugin",
+        "description": "Use MCP servers within JetBrains IDEs like IntelliJ, PyCharm, and others to enhance your development experience.",
+        "learnMore": "Learn more →"
+      }
+    },
+    "startBuilding": {
+      "title": "Start Building",
+      "subtitle": "For developers: Choose the development path that matches your goals - build MCP servers to extend AI capabilities or integrate MCP into your client applications.",
+      "serverDevelopers": {
+        "title": "For Server Developers",
+        "customServers": {
+          "title": "Build Custom Servers",
+          "description": "Create servers that connect your data sources, tools, and APIs to MCP-compatible AI models.",
+          "learnMore": "Learn more →"
+        },
+        "serverSDK": {
+          "title": "Server SDK",
+          "description": "Use our SDK to implement the MCP specification and build servers that connect to various client applications.",
+          "learnMore": "Learn more →"
+        },
+        "serverTemplates": {
+          "title": "Server Templates",
+          "description": "Start with pre-built templates for common use cases like document retrieval, database connectivity, and tool use.",
+          "learnMore": "Learn more →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "For Client Developers",
+        "clientSDK": {
+          "title": "Client SDK",
+          "description": "Implement MCP in your AI applications to enable connectivity with a wide range of MCP servers and tools.",
+          "learnMore": "Learn more →"
+        },
+        "integrationGuide": {
+          "title": "Integration Guide",
+          "description": "Learn how to integrate MCP connectivity into your AI-powered applications, platforms, and interfaces.",
+          "learnMore": "Learn more →"
+        },
+        "contribute": {
+          "title": "Contribute",
+          "description": "Join our open-source community and contribute to improving MCP clients and implementations.",
+          "learnMore": "Learn more →"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join our growing community of developers building the future of AI integration with MCP.",
+      "readDocs": "Read Documentation",
+      "viewOnGithub": "View on GitHub"
+    }
   }
 }
