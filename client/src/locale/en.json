@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "about": "About",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "中文 (Chinese)",
+    "label": "Language"
+  },
+  "home": {
+    "title": "MCP Server Marketplace",
+    "subtitle": "Discover and connect to the best Model Context Protocol (MCP) servers",
+    "search": {
+      "placeholder": "Search for MCP servers..."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 MCP Marketplace. All rights reserved."
+  }
+}

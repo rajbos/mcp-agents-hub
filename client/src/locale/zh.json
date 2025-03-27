@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "首页",
+    "docs": "文档",
+    "about": "关于",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English (英文)",
+    "chinese": "中文",
+    "label": "语言"
+  },
+  "home": {
+    "title": "MCP 服务器市场",
+    "subtitle": "发现并连接到最好的模型上下文协议 (MCP) 服务器",
+    "search": {
+      "placeholder": "搜索 MCP 服务器..."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 MCP 市场。保留所有权利。"
+  }
+}
