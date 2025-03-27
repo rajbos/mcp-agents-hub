@@ -53,7 +53,7 @@ export function SearchBar({ value, onChange, onSearch }: SearchBarProps) {
         onKeyDown={handleKeyDown}
       />
       <button
-        className="px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-r-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+        className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-r-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors min-w-[120px]"
         onClick={handleSearch}
       >
         {t('home.search.button') || 'Search'}
