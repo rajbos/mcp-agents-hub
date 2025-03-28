@@ -1,10 +1,10 @@
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 import { refreshCacheIfNeeded } from '../lib/mcpServers.js';
 
 const router = Router();
 
 // GET /servers - returns server data with hubId included
-router.get('/servers', async (_req, res) => {
+router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
   try {
     const mcpServersCache = await refreshCacheIfNeeded();
     
@@ -18,7 +18,7 @@ router.get('/servers', async (_req, res) => {
 });
 
 // GET /servers/:hubId - returns a specific server by hubId
-router.get('/servers/:hubId', async (req, res) => {
+router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { hubId } = req.params;
     const mcpServersCache = await refreshCacheIfNeeded();
@@ -27,7 +27,8 @@ router.get('/servers/:hubId', async (req, res) => {
     const server = mcpServersCache.find(server => server.hubId === hubId);
     
     if (!server) {
-      return res.status(404).json({ error: 'Server not found' });
+      res.status(404).json({ error: 'Server not found' });
+      return;
     }
     
     res.json(server);
