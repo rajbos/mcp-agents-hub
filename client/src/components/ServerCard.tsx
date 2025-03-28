@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Star, Download, ExternalLink, Database } from 'lucide-react';
 import { MCPServer } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -12,7 +13,7 @@ export function ServerCard({ server }: ServerCardProps) {
   
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <div className="p-6">
+      <Link to={server.hubId ? `/server/${server.hubId}` : '#'} className="block p-6">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
             {server.logoUrl ? (
@@ -63,13 +64,14 @@ export function ServerCard({ server }: ServerCardProps) {
             href={server.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             <ExternalLink className="h-4 w-4 mr-2" />
             {t('server.viewOnGithub')}
           </a>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

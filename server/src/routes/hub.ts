@@ -17,4 +17,25 @@ router.get('/servers', async (_req, res) => {
   }
 });
 
+// GET /servers/:hubId - returns a specific server by hubId
+router.get('/servers/:hubId', async (req, res) => {
+  try {
+    const { hubId } = req.params;
+    const mcpServersCache = await refreshCacheIfNeeded();
+    
+    // Find the server with the matching hubId
+    const server = mcpServersCache.find(server => server.hubId === hubId);
+    
+    if (!server) {
+      return res.status(404).json({ error: 'Server not found' });
+    }
+    
+    res.json(server);
+    console.log(`v1/hub/servers/${hubId} Served server details at ${new Date().toISOString()}`);
+  } catch (error) {
+    console.error('Error serving server details:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 export default router;
