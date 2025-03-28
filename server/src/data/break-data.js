@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { randomUUID } from 'crypto'; // Import randomUUID to generate GUIDs
 
 // Get current file directory with ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -70,16 +71,17 @@ function processJsonFile() {
       // Add this githubUrl to the set of processed URLs
       processedGithubUrls.add(server.githubUrl);
       
-      // Create a sanitized filename
+      // Generate hubId (GUID)
+      server.hubId = randomUUID();
+      
+      // Create a sanitized filename from name (no spaces, special chars)
       const safeName = server.name
         .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-|-$/g, '');
+        .replace(/[^a-z0-9]+/g, '')
+        .trim();
       
-      // Generate unique filename with timestamp
-      const timestamp = Date.now();
-      const filename = `${safeName}-${timestamp}-${index}.json`;
+      // Use hubId and sanitized name for the filename
+      const filename = `${server.hubId}_${safeName}.json`;
       const outputPath = path.join(outputDir, filename);
       
       // Write to individual file
