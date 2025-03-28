@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/brysontang/DeltaTask",
+  "githubUrl": "https://github.com/brysontang/DeltaTask",
+  "name": "DeltaTask",
+  "author": "brysontang",
+  "description": "Integrates with Obsidian to provide a locally-hosted task management system with intelligent prioritization, task decomposition, and a full API for creating, updating, and querying tasks in a SQLite-backed database.",
+  "codiconIcon": "deltatask",
+  "logoUrl": "",
+  "category": "database",
+  "tags": [
+    "prioritization",
+    "creating",
+    "tasks",
+    "sqlite-backed",
+    "database"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:25.041553+00:00",
+  "updatedAt": "2025-03-17T08:29:25.041553+00:00"
+}

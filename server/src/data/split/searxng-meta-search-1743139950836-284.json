@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/kevinwatt/mcp-server-searxng",
+  "githubUrl": "https://github.com/kevinwatt/mcp-server-searxng",
+  "name": "SearXNG Meta Search",
+  "author": "kevinwatt",
+  "description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
+  "codiconIcon": "searxng",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "search",
+    "results",
+    "engines",
+    "diverse",
+    "searxng-meta-search"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:20.399027+00:00",
+  "updatedAt": "2025-03-17T08:29:20.399027+00:00"
+}

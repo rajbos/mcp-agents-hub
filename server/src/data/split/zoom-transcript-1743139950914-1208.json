@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/forayconsulting/zoom_transcript_mcp",
+  "githubUrl": "https://github.com/forayconsulting/zoom_transcript_mcp",
+  "name": "Zoom Transcript",
+  "author": "forayconsulting",
+  "description": "Integrates with the Zoom API to retrieve, process, and analyze cloud recording transcripts, enabling meeting summarization and key information extraction.",
+  "codiconIcon": "zoom",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "summarization",
+    "zoom-transcript",
+    "integrates",
+    "recording",
+    "transcripts"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2025-03-17T08:29:26.010831+00:00"
+}

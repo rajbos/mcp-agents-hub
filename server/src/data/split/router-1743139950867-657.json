@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/adamwattis/mcp-proxy-server",
+  "githubUrl": "https://github.com/adamwattis/mcp-proxy-server",
+  "name": "Router",
+  "author": "adamwattis",
+  "description": "Aggregates multiple MCP resource servers into a unified proxy, enabling centralized access, request routing, and response aggregation.",
+  "codiconIcon": "router",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "multiple",
+    "servers",
+    "unified",
+    "proxy",
+    "enabling"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:22.634233+00:00",
+  "updatedAt": "2025-03-17T08:29:22.634233+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/hannesrudolph/mcp-ragdocs",
+  "githubUrl": "https://github.com/hannesrudolph/mcp-ragdocs",
+  "name": "Qdrant Docs Rag",
+  "author": "hannesrudolph",
+  "description": "Real-time documentation context through vector-based search and retrieval via Qdrant.",
+  "codiconIcon": "qdrant",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "qdrant-docs-rag",
+    "real-time",
+    "context",
+    "through",
+    "retrieval"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:21.305405+00:00",
+  "updatedAt": "2025-03-17T08:29:21.305405+00:00"
+}

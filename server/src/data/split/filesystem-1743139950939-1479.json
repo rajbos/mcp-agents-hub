@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/gomcpgo/filesys",
+  "githubUrl": "https://github.com/gomcpgo/filesys",
+  "name": "Filesystem",
+  "author": "gomcpgo",
+  "description": "Provides a filesystem interface to perform file operations like creation, deletion, and manipulation without direct system access.",
+  "codiconIcon": "filesystem",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "system",
+    "access",
+    "filesystem",
+    "interface",
+    "perform"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.06306+00:00",
+  "updatedAt": "2025-03-17T08:29:28.06306+00:00"
+}

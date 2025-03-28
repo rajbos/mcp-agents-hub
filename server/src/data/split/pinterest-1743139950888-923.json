@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/terryso/mcp-pinterest",
+  "githubUrl": "https://github.com/terryso/mcp-pinterest",
+  "name": "Pinterest",
+  "author": "terryso",
+  "description": "Pinterest image search and information retrieval",
+  "codiconIcon": "pinterest",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "pinterest",
+    "image",
+    "search",
+    "information",
+    "retrieval"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-03-17T08:29:24.291233+00:00"
+}

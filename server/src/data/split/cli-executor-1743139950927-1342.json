@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/0xBruno/MCPExec",
+  "githubUrl": "https://github.com/0xBruno/MCPExec",
+  "name": "CLI Executor",
+  "author": "0xBruno",
+  "description": "Provides a tool for executing local CLI commands asynchronously using FastMCP and asyncio, handling command arguments securely and offering error handling for failed commands.",
+  "codiconIcon": "cli",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "asyncio",
+    "executing",
+    "local",
+    "using",
+    "handling"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:27.547179+00:00",
+  "updatedAt": "2025-03-17T08:29:27.547179+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/MattMorgis/nuanced-mcp",
+  "githubUrl": "https://github.com/MattMorgis/nuanced-mcp",
+  "name": "Nuanced",
+  "author": "MattMorgis",
+  "description": "Provides code analysis capabilities using the nuanced library, offering tools for initializing code graphs, exploring function call relationships, analyzing dependencies, and assessing the impact of code changes.",
+  "codiconIcon": "nuanced",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "dependencies",
+    "provides",
+    "using",
+    "initializing",
+    "exploring"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-03-17T08:29:24.291233+00:00"
+}

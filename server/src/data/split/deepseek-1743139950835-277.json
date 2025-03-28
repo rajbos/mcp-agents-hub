@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/DMontgomery40/deepseek-mcp-server",
+  "githubUrl": "https://github.com/DMontgomery40/deepseek-mcp-server",
+  "name": "DeepSeek",
+  "author": "DMontgomery40",
+  "description": "Integrates DeepSeek's language models, enabling AI-powered chat completions with customizable parameters for tasks like writing assistance and code generation.",
+  "codiconIcon": "deepseek",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "ai-powered",
+    "parameters",
+    "tasks",
+    "writing",
+    "assistance"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:20.399027+00:00",
+  "updatedAt": "2025-03-17T08:29:20.399027+00:00"
+}

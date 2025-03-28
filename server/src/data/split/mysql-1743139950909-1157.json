@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/xiangma9712/mysql-mcp-server",
+  "githubUrl": "https://github.com/xiangma9712/mysql-mcp-server",
+  "name": "MySQL",
+  "author": "xiangma9712",
+  "description": "Integrates with MySQL databases to enable secure, scalable database operations and management through TypeScript and Node.js.",
+  "codiconIcon": "mysql",
+  "logoUrl": "",
+  "category": "database",
+  "tags": [
+    "typescript",
+    "integrates",
+    "databases",
+    "scalable",
+    "database"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2025-03-17T08:29:26.010831+00:00"
+}

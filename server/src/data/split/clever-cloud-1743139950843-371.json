@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/davlgd/mcp-clever-demo",
+  "githubUrl": "https://github.com/davlgd/mcp-clever-demo",
+  "name": "Clever Cloud",
+  "author": "davlgd",
+  "description": "Integrates with Clever Cloud's tools and services to enable application deployment, environment management, and resource monitoring.",
+  "codiconIcon": "clever",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "application",
+    "deployment",
+    "environment",
+    "resource",
+    "clever-cloud"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:21.305405+00:00",
+  "updatedAt": "2025-03-17T08:29:21.305405+00:00"
+}

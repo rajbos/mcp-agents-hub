@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/bradfair/mcp-cline-personas",
+  "githubUrl": "https://github.com/bradfair/mcp-cline-personas",
+  "name": "Cline Personas",
+  "author": "bradfair",
+  "description": "Implements a persona management system for dynamic AI behavior adjustment using reusable components and templates defined in .clinerules files.",
+  "codiconIcon": "cline",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "cline-personas",
+    "implements",
+    "using",
+    "persona",
+    "behavior"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:22.634233+00:00",
+  "updatedAt": "2025-03-17T08:29:22.634233+00:00"
+}

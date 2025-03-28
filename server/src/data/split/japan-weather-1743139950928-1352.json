@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/acxelerator/mcp-tenki",
+  "githubUrl": "https://github.com/acxelerator/mcp-tenki",
+  "name": "Japan Weather",
+  "author": "acxelerator",
+  "description": "Integrates with an external weather API to provide current conditions and forecasts for locations in Japan.",
+  "codiconIcon": "japan",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "conditions",
+    "locations",
+    "japan",
+    "external",
+    "weather"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:27.547179+00:00",
+  "updatedAt": "2025-03-17T08:29:27.547179+00:00"
+}

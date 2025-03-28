@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/evalstate/mcp-miro",
+  "githubUrl": "https://github.com/evalstate/mcp-miro",
+  "name": "Miro",
+  "author": "evalstate",
+  "description": "Create and manage content on Miro whiteboards.",
+  "codiconIcon": "miro",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "miro",
+    "create",
+    "manage",
+    "content",
+    "whiteboards"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:22.634233+00:00",
+  "updatedAt": "2025-03-17T08:29:22.634233+00:00"
+}

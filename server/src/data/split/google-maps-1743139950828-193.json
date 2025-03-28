@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/google-maps",
+  "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/google-maps",
+  "name": "Google Maps",
+  "author": "modelcontextprotocol",
+  "description": "Access location data, geocoding, and place details through Maps API.",
+  "codiconIcon": "google",
+  "logoUrl": "",
+  "category": "productivity",
+  "tags": [
+    "place",
+    "details",
+    "through",
+    "google-maps",
+    "access"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:19.654593+00:00",
+  "updatedAt": "2025-03-17T08:29:19.654593+00:00"
+}

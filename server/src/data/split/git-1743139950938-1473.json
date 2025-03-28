@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/geropl/git-mcp-go",
+  "githubUrl": "https://github.com/geropl/git-mcp-go",
+  "name": "Git",
+  "author": "geropl",
+  "description": "Integrates with Git repositories to enable version control operations and automation, supporting both shell-based commands and the go-git library for flexible implementation.",
+  "codiconIcon": "git",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "operations",
+    "shell-based",
+    "go-git",
+    "integrates",
+    "automation"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.06306+00:00",
+  "updatedAt": "2025-03-17T08:29:28.06306+00:00"
+}

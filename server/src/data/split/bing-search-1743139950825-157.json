@@ -1,0 +1,22 @@
+{
+  "mcpId": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-bing-search",
+  "githubUrl": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-bing-search",
+  "name": "Bing Search",
+  "author": "microsoft",
+  "description": "Search the web using Bing services.",
+  "codiconIcon": "bing",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "search",
+    "using",
+    "services",
+    "bing-search"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:22.149254+00:00",
+  "updatedAt": "2025-03-17T08:29:22.149254+00:00"
+}

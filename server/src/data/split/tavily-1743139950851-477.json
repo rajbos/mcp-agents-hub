@@ -1,0 +1,23 @@
+{
+  "mcpId": "https://github.com/kshern/mcp-tavily",
+  "githubUrl": "https://github.com/kshern/mcp-tavily",
+  "name": "Tavily",
+  "author": "kshern",
+  "description": "Integrates with the Tavily API to enable advanced search and content extraction operations, facilitating web research and up-to-date information access for AI applications.",
+  "codiconIcon": "tavily",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "integrates",
+    "advanced",
+    "search",
+    "content",
+    "extraction"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:21.725369+00:00",
+  "updatedAt": "2025-03-17T08:29:21.725369+00:00"
+}
