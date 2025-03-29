@@ -32,17 +32,31 @@ const detectBrowserLanguage = (): SupportedLanguage => {
   // Get browser language from navigator
   const browserLang = navigator.language.toLowerCase();
   
-  // Check if the browser language starts with 'zh' (any Chinese variant)
-  if (browserLang.startsWith('zh')) {
-    if (browserLang.startsWith('zh-Hant')) {
-      return 'zhHant';
-    }
-    else {
-      return 'zhHans';
-    }
+  // Match exact language codes for more precise detection
+  
+  // English variants (en, en-us, en-gb, etc.)
+  if (browserLang === 'en' || browserLang.startsWith('en-')) {
+    return 'en';
   }
   
-  // Default to English for all other languages
+  // Traditional Chinese variants
+  if (browserLang === 'zh-tw' || 
+      browserLang === 'zh-hk' || 
+      browserLang === 'zh-mo' || 
+      browserLang === 'zh-hant' ||
+      browserLang.startsWith('zh-hant-')) {
+    return 'zhHant';
+  }
+  
+  // Simplified Chinese variants
+  if (browserLang === 'zh-cn' || 
+      browserLang === 'zh-sg' || 
+      browserLang === 'zh-hans' ||
+      browserLang.startsWith('zh-hans-')) {
+    return 'zhHans';
+  }
+  
+  // If no exact match found, default to English
   return 'en';
 };
 
