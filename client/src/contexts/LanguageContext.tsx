@@ -1,9 +1,10 @@
 import React, { createContext, useState, useContext, ReactNode, useEffect } from 'react';
 import enTranslations from '../locale/en.json';
-import zhTranslations from '../locale/zh.json';
+import zhHansTranslations from '../locale/zh-hans.json';
+import zhHantTranslations from '../locale/zh-hant.json';
 
 // Define the supported languages
-export type SupportedLanguage = 'en' | 'zh';
+export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant';
 
 // Define the structure for translation objects
 type TranslationValue = string | Record<string, any>;
@@ -22,7 +23,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 // Translation dictionary with imported JSON files
 const translations: Record<SupportedLanguage, TranslationRecord> = {
   en: enTranslations,
-  zh: zhTranslations
+  zhHans: zhHansTranslations,
+  zhHant: zhHantTranslations
 };
 
 // Helper function to detect browser language
@@ -30,12 +32,31 @@ const detectBrowserLanguage = (): SupportedLanguage => {
   // Get browser language from navigator
   const browserLang = navigator.language.toLowerCase();
   
-  // Check if the browser language starts with 'zh' (any Chinese variant)
-  if (browserLang.startsWith('zh')) {
-    return 'zh';
+  // Match exact language codes for more precise detection
+  
+  // English variants (en, en-us, en-gb, etc.)
+  if (browserLang === 'en' || browserLang.startsWith('en-')) {
+    return 'en';
   }
   
-  // Default to English for all other languages
+  // Traditional Chinese variants
+  if (browserLang === 'zh-tw' || 
+      browserLang === 'zh-hk' || 
+      browserLang === 'zh-mo' || 
+      browserLang === 'zh-hant' ||
+      browserLang.startsWith('zh-hant-')) {
+    return 'zhHant';
+  }
+  
+  // Simplified Chinese variants
+  if (browserLang === 'zh-cn' || 
+      browserLang === 'zh-sg' || 
+      browserLang === 'zh-hans' ||
+      browserLang.startsWith('zh-hans-')) {
+    return 'zhHans';
+  }
+  
+  // If no exact match found, default to English
   return 'en';
 };
 
@@ -43,11 +64,21 @@ const detectBrowserLanguage = (): SupportedLanguage => {
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // Try to get saved language from localStorage, or detect from browser, default to 'en'
   const [language, setLanguage] = useState<SupportedLanguage>(() => {
-    const saved = localStorage.getItem('language') as SupportedLanguage;
-    if (saved && (saved === 'en' || saved === 'zh')) {
-      return saved;
+    const saved = localStorage.getItem('language');
+    
+    // Handle valid language codes
+    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant') {
+      return saved as SupportedLanguage;
     }
-    // If no saved preference, detect from browser
+    
+    // Handle legacy 'zh' code by mapping to 'zhHans'
+    if (saved === 'zh') {
+      // Update localStorage to the new format
+      localStorage.setItem('language', 'zhHans');
+      return 'zhHans';
+    }
+    
+    // If no saved preference or invalid value, detect from browser
     return detectBrowserLanguage();
   });
 
