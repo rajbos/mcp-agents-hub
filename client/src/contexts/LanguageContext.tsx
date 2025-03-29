@@ -64,11 +64,21 @@ const detectBrowserLanguage = (): SupportedLanguage => {
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // Try to get saved language from localStorage, or detect from browser, default to 'en'
   const [language, setLanguage] = useState<SupportedLanguage>(() => {
-    const saved = localStorage.getItem('language') as SupportedLanguage;
-    if (saved && (saved === 'en' || saved === 'zhHans' || saved === 'zhHant')) {
-      return saved;
+    const saved = localStorage.getItem('language');
+    
+    // Handle valid language codes
+    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant') {
+      return saved as SupportedLanguage;
     }
-    // If no saved preference, detect from browser
+    
+    // Handle legacy 'zh' code by mapping to 'zhHans'
+    if (saved === 'zh') {
+      // Update localStorage to the new format
+      localStorage.setItem('language', 'zhHans');
+      return 'zhHans';
+    }
+    
+    // If no saved preference or invalid value, detect from browser
     return detectBrowserLanguage();
   });
 
