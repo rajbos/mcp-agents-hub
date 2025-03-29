@@ -3,9 +3,11 @@ import enTranslations from '../locale/en.json';
 import zhHansTranslations from '../locale/zh-hans.json';
 import zhHantTranslations from '../locale/zh-hant.json';
 import jaTranslations from '../locale/ja.json';
+import esTranslations from '../locale/es.json';
+import deTranslations from '../locale/de.json';
 
 // Define the supported languages
-export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant' | 'ja';
+export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant' | 'ja' | 'es' | 'de';
 
 // Define the structure for translation objects
 type TranslationValue = string | Record<string, any>;
@@ -26,7 +28,9 @@ const translations: Record<SupportedLanguage, TranslationRecord> = {
   en: enTranslations,
   zhHans: zhHansTranslations,
   zhHant: zhHantTranslations,
-  ja: jaTranslations
+  ja: jaTranslations,
+  es: esTranslations,
+  de: deTranslations
 };
 
 // Helper function to detect browser language
@@ -65,6 +69,21 @@ const detectBrowserLanguage = (): SupportedLanguage => {
     return 'ja';
   }
   
+  // Spanish variants
+  if (browserLang === 'es' || 
+      browserLang.startsWith('es-')) {
+    return 'es';
+  }
+  
+  // German variants
+  if (browserLang === 'de' || 
+      browserLang === 'de-de' || 
+      browserLang === 'de-at' || 
+      browserLang === 'de-ch' || 
+      browserLang.startsWith('de-')) {
+    return 'de';
+  }
+  
   // If no exact match found, default to English
   return 'en';
 };
@@ -76,7 +95,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     const saved = localStorage.getItem('language');
     
     // Handle valid language codes
-    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant' || saved === 'ja') {
+    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant' || saved === 'ja' || saved === 'es' || saved === 'de') {
       return saved as SupportedLanguage;
     }
     
