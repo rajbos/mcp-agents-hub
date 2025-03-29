@@ -2,9 +2,10 @@ import React, { createContext, useState, useContext, ReactNode, useEffect } from
 import enTranslations from '../locale/en.json';
 import zhHansTranslations from '../locale/zh-hans.json';
 import zhHantTranslations from '../locale/zh-hant.json';
+import jaTranslations from '../locale/ja.json';
 
 // Define the supported languages
-export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant';
+export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant' | 'ja';
 
 // Define the structure for translation objects
 type TranslationValue = string | Record<string, any>;
@@ -24,7 +25,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations: Record<SupportedLanguage, TranslationRecord> = {
   en: enTranslations,
   zhHans: zhHansTranslations,
-  zhHant: zhHantTranslations
+  zhHant: zhHantTranslations,
+  ja: jaTranslations
 };
 
 // Helper function to detect browser language
@@ -56,6 +58,13 @@ const detectBrowserLanguage = (): SupportedLanguage => {
     return 'zhHans';
   }
   
+  // Japanese variants
+  if (browserLang === 'ja' || 
+      browserLang === 'ja-jp' || 
+      browserLang.startsWith('ja-')) {
+    return 'ja';
+  }
+  
   // If no exact match found, default to English
   return 'en';
 };
@@ -67,7 +76,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     const saved = localStorage.getItem('language');
     
     // Handle valid language codes
-    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant') {
+    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant' || saved === 'ja') {
       return saved as SupportedLanguage;
     }
     
