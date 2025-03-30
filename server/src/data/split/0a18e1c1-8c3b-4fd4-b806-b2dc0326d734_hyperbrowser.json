@@ -1,6 +1,6 @@
 {
   "mcpId": "https://hyperbrowser.ai/hb-logo.png",
-  "githubUrl": "https://hyperbrowser.ai/hb-logo.png",
+  "githubUrl": "https://github.com/hyperbrowserai/mcp",
   "name": "Hyperbrowser",
   "author": "",
   "description": "Cloud Browsers for AI Agents. Scrape, navigate, and interact with the web using Hyperbrowser's Model Context Protocol (MCP) servers.",
