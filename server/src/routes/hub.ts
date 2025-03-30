@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { refreshCacheIfNeeded } from '../lib/mcpServers.js';
+import { enrichServerData } from '../lib/githubEnrichment.js';
 
 const router = Router();
 
@@ -17,7 +18,7 @@ router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
   }
 });
 
-// GET /servers/:hubId - returns a specific server by hubId
+// GET /servers/:hubId - returns a specific server by hubId with enriched data from GitHub README
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { hubId } = req.params;
@@ -31,8 +32,11 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
       return;
     }
     
-    res.json(server);
-    console.log(`v1/hub/servers/${hubId} Served server details at ${new Date().toISOString()}`);
+    // Enrich server data with information from GitHub README
+    const enrichedServer = await enrichServerData(server);
+    
+    res.json(enrichedServer);
+    console.log(`v1/hub/servers/${hubId} Served enriched server details at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving server details:', error);
     res.status(500).json({ error: 'Internal server error' });

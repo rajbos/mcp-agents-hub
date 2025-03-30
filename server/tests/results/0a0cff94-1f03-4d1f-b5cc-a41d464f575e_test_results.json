@@ -1,0 +1,24 @@
+{
+  "repository": {
+    "name": "AWS Knowledge Base",
+    "url": "https://github.com/sammcj/mcp-aws-kb",
+    "hubId": "0a0cff94-1f03-4d1f-b5cc-a41d464f575e"
+  },
+  "readmePreview": "# AWS Knowledge Base Retrieval MCP Server\n\nAn MCP server implementation for retrieving information from the AWS Knowledge Base using the Bedrock Agent Runtime.\n\n## Features\n\n- **RAG (Retrieval-Augmented Generation)**: Retrieve context from the AWS Knowledge Base based on a query and a Knowledge Base ID.\n- **Supports multiple results retrieval**: Option to retrieve a customizable number of results.\n\n## Tools\n\n- **retrieve_from_aws_kb**\n  - Perform retrieval operations using the AWS Knowledge Base...",
+  "extractedInfo": {
+    "name": "AWS Knowledge Base Retrieval MCP Server",
+    "description": "An MCP server implementation for retrieving information from the AWS Knowledge Base using the Bedrock Agent Runtime.",
+    "Installation_instructions": "Docker: `docker build -t mcp/aws-kb-retrieval -f src/aws-kb-retrieval-server/Dockerfile .`",
+    "Usage_instructions": "Configure AWS credentials either via IAM Access Keys or AWS SSO. Use the `retrieve_from_aws_kb` tool to perform retrieval operations. Example configurations for Docker, NPX, and local repository are provided in the README.",
+    "features": [
+      "RAG (Retrieval-Augmented Generation)",
+      "Supports multiple results retrieval"
+    ],
+    "prerequisites": [
+      "AWS access key ID, secret access key, and region (for IAM Access Keys)",
+      "AWS CLI configured with SSO profile (for AWS SSO)",
+      "Docker (for Docker installation)",
+      "Node.js (for NPX and local repository installation)"
+    ]
+  }
+}
