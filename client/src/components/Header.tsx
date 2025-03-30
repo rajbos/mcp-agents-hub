@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage, SupportedLanguage } from '../contexts/LanguageContext';
 
@@ -6,6 +6,8 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false); // State for language dropdown
   const { language, setLanguage, t } = useLanguage();
+  const langMenuRef = useRef<HTMLDivElement>(null);
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
 
   // Function to close the menu
   const closeMenu = () => {
@@ -17,6 +19,35 @@ export function Header() {
     setLanguage(lang);
     setIsLangMenuOpen(false);
   };
+
+  // Handle clicks outside the menus
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      // Handle mobile menu outside clicks
+      if (isMenuOpen && 
+          mobileMenuRef.current && 
+          !mobileMenuRef.current.contains(event.target as Node) &&
+          !(event.target as Element).closest('button[aria-label="Toggle menu"]')) {
+        setIsMenuOpen(false);
+      }
+      
+      // Handle language menu outside clicks
+      if (isLangMenuOpen && 
+          langMenuRef.current && 
+          !langMenuRef.current.contains(event.target as Node) &&
+          !(event.target as Element).closest('button.flex.items-center')) {
+        setIsLangMenuOpen(false);
+      }
+    };
+
+    // Add event listener
+    document.addEventListener('mousedown', handleClickOutside);
+    
+    // Clean up the event listener
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMenuOpen, isLangMenuOpen]);
 
   return (
     <header className="bg-white shadow-sm">
@@ -41,6 +72,29 @@ export function Header() {
           </div>
           
           <div className="flex items-center">
+            {/* GitHub icon - visible only on mobile */}
+            <a
+              href="https://github.com/mcp-agents-ai/mcp-agents-hub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:hidden text-gray-700 hover:text-indigo-600 mr-4 flex items-center"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="1.5" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="w-6 h-6"
+              >
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            
             <button
               className="md:hidden text-gray-600 hover:text-gray-900"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -63,7 +117,7 @@ export function Header() {
             </button>
             
             {/* Mobile menu - absolutely positioned for better layout */}
-            <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-20 right-0 left-0 bg-white shadow-md z-10`}>
+            <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-20 right-0 left-0 bg-white shadow-md z-10`} ref={mobileMenuRef}>
               <div className="px-4 py-3 space-y-2">
                 {/* Language switcher for mobile */}
                 <div className="border-b border-gray-100 pb-2 mb-2">
@@ -172,29 +226,6 @@ export function Header() {
                   </svg>
                   {t('nav.about')}
                 </Link>
-                <a
-                  href="https://github.com/mcp-agents-ai/mcp-agents-hub"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2"
-                  onClick={closeMenu}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    width="20" 
-                    height="20" 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="1.5" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    className="w-5 h-5 mr-2"
-                  >
-                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                  </svg>
-                  {t('nav.github')}
-                </a>
               </div>
             </div>
             
@@ -317,7 +348,7 @@ export function Header() {
                 </button>
                 {/* Language dropdown menu */}
                 {isLangMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20">
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20" ref={langMenuRef}>
                     <div className="py-1">
                       <button
                         className={`block w-full text-left px-4 py-2 text-sm ${language === 'en' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
