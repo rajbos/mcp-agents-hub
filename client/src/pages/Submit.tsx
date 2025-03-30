@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Send, ServerIcon, Database, Globe, Zap, GitMerge, ExternalLink } from 'lucide-react';
+import { Send, ServerIcon, Database, Globe, Zap, GitMerge, ExternalLink, AlertCircle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Link } from 'react-router-dom';
+import { MCPServer } from '../types';
 
 export function Submit() {
   const { t } = useLanguage();
@@ -9,7 +10,7 @@ export function Submit() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [error, setError] = useState('');
-  const [submittedServer, setSubmittedServer] = useState(null);
+  const [submittedServer, setSubmittedServer] = useState<MCPServer | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,11 +50,8 @@ export function Submit() {
       setSubmittedServer(data.server);
       setUrl('');
       
-      // Reset success message after 8 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-        setSubmittedServer(null);
-      }, 8000);
+      // The success message will stay visible permanently
+      // (removed the setTimeout that was clearing the message)
       
     } catch (err) {
       setIsSubmitting(false);
@@ -82,6 +80,19 @@ export function Submit() {
             {t('submit.formDescription')}
           </p>
 
+          {error && (
+            <div className="mb-6 p-4 border-l-4 border-red-500 bg-red-50 rounded">
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <AlertCircle className="h-5 w-5 text-red-500" aria-hidden="true" />
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm text-red-700">{error}</p>
+                </div>
+              </div>
+            </div>
+          )}
+
           <form onSubmit={handleSubmit} className="mb-8">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-grow">
@@ -97,7 +108,6 @@ export function Submit() {
                   onChange={(e) => setUrl(e.target.value)}
                   required
                 />
-                {error && <p className="mt-2 text-sm text-red-600">{error}</p>}
               </div>
               <div className="flex items-end">
                 <button
