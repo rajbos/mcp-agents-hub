@@ -10,8 +10,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
-    environment:
-      - PORT=3001
+    env_file:
+      - ../.github-private/env_files/.env
 
   client:
     image: ghcr.io/mcp-agents-ai/mcp-agents-hub-client:latest
