@@ -48,6 +48,7 @@
   },
   "details": {
     "loading": "Cargando detalles del servidor...",
+    "refreshingInfo": "Actualizando información desde el repositorio GitHub del creador del servidor...",
     "fetchError": "Error al obtener detalles del servidor",
     "errorLoading": "Error al cargar datos del servidor",
     "serverNotFound": "Servidor no encontrado",

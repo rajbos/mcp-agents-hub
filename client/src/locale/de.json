@@ -50,6 +50,7 @@
   },
   "details": {
     "loading": "Serverdetails werden geladen...",
+    "refreshingInfo": "Informationen vom GitHub-Repository des Server-Entwicklers werden aktualisiert...",
     "fetchError": "Fehler beim Abrufen der Serverdetails",
     "errorLoading": "Fehler beim Laden der Serverdaten",
     "serverNotFound": "Server nicht gefunden",

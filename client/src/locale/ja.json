@@ -49,6 +49,7 @@
   },
   "details": {
     "loading": "サーバー詳細を読み込み中...",
+    "refreshingInfo": "サーバー開発者のGitHubリポジトリから情報を更新中...",
     "fetchError": "サーバー詳細の取得に失敗しました",
     "errorLoading": "サーバーデータの読み込みエラー",
     "serverNotFound": "サーバーが見つかりません",

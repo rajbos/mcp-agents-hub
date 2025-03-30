@@ -35,8 +35,23 @@ export function ServerDetails() {
 
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex justify-center">
-        <div className="animate-pulse">{t('details.loading')}</div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-center justify-center">
+        <div className="mb-4 w-16 h-16 relative">
+          <div className="absolute inset-0 rounded-full border-t-4 border-blue-500 border-opacity-50 animate-spin"></div>
+          <div className="absolute inset-3 rounded-full border-2 border-transparent border-t-2 border-r-2 border-blue-600 animate-spin" style={{ animationDirection: 'reverse', animationDuration: '1s' }}></div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Database className="h-6 w-6 text-blue-600 animate-pulse" />
+          </div>
+        </div>
+        <h3 className="text-xl font-medium text-gray-900 mb-2">{t('details.loading')}</h3>
+        <p className="text-gray-600 text-center max-w-md">
+          {t('details.refreshingInfo')}
+        </p>
+        <div className="mt-4 flex space-x-2">
+          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '600ms' }}></div>
+        </div>
       </div>
     );
   }
@@ -67,27 +82,27 @@ export function ServerDetails() {
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
         <div className="p-8">
           {/* Header section with responsive layout */}
-          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-            <div className="flex items-start">
+          <div className="flex flex-col items-center md:flex-row md:items-start md:justify-between gap-4">
+            <div className="flex flex-col items-center md:items-start md:flex-row">
               {server.logoUrl ? (
-                <img src={server.logoUrl} alt={server.name} className="h-20 w-20 rounded-lg mr-6" />
+                <img src={server.logoUrl} alt={server.name} className="h-20 w-20 rounded-lg md:mr-6 mb-4 md:mb-0" />
               ) : (
-                <div className="h-20 w-20 rounded-lg bg-blue-100 flex items-center justify-center mr-6">
+                <div className="h-20 w-20 rounded-lg bg-blue-100 flex items-center justify-center md:mr-6 mb-4 md:mb-0">
                   <Database className="h-10 w-10 text-blue-600" />
                 </div>
               )}
-              <div>
-                <div className="flex items-center">
+              <div className="text-center md:text-left">
+                <div className="flex flex-col items-center md:flex-row md:items-center">
                   <h1 className="text-3xl font-bold text-gray-900">{server.name}</h1>
                   {server.isRecommended && (
-                    <span className="ml-4 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                    <span className="mt-2 md:mt-0 md:ml-4 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
                       {t('server.recommended')}
                     </span>
                   )}
                 </div>
                 <p className="text-gray-600 mt-1">{t('server.by')} {server.author}</p>
                 
-                <div className="flex items-center mt-2 space-x-4">
+                <div className="flex items-center justify-center md:justify-start mt-2 space-x-4">
                   <div className="flex items-center text-gray-600">
                     <Star className="h-5 w-5 text-yellow-400 mr-1" />
                     <span>{server.githubStars.toLocaleString()}</span>
@@ -105,7 +120,7 @@ export function ServerDetails() {
               href={server.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium self-start md:self-auto px-3 py-1.5 bg-blue-50 rounded-md hover:bg-blue-100 transition-colors"
+              className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium self-center md:self-start px-3 py-1.5 bg-blue-50 rounded-md hover:bg-blue-100 transition-colors"
             >
               <ExternalLink className="h-4 w-4 mr-2" />
               {t('details.viewOnGithub')}
