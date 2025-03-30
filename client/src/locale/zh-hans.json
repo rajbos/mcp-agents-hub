@@ -48,7 +48,8 @@
   },
   "details": {
     "loading": "正在加载服务器详情...",
-    "refreshingInfo": "正在从服务器制作者的 GitHub 仓库刷新信息...",
+    "refreshingInfo": "正在使用AI分析服务器主页并提取必要信息...",
+    "collectingInfo": "正在整理信息以供显示...",
     "fetchError": "获取服务器详情失败",
     "errorLoading": "加载服务器数据时出错",
     "serverNotFound": "未找到服务器",

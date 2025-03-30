@@ -50,7 +50,8 @@
   },
   "details": {
     "loading": "Loading server details...",
-    "refreshingInfo": "Refreshing information from the server maker's GitHub repository...",
+    "refreshingInfo": "Using AI to analyze the server's homepage and extract necessary information...",
+    "collectingInfo": "Organizing information for display...",
     "fetchError": "Failed to fetch server details",
     "errorLoading": "Error loading server data",
     "serverNotFound": "Server not found",

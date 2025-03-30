@@ -47,9 +47,10 @@
     "viewOnGithub": "在 GitHub 上查看"
   },
   "details": {
-    "loading": "正在讀取 MCP 伺服器詳細資訊...",
-    "refreshingInfo": "正在從伺服器開發者的 GitHub 存儲庫重新整理資訊...",
-    "fetchError": "取得 MCP 伺服器服務詳細資訊失敗",
+    "loading": "正在加載伺服器詳情...",
+    "refreshingInfo": "正在使用AI分析伺服器主頁並提取必要資訊...",
+    "collectingInfo": "正在整理資訊以供顯示...",
+    "fetchError": "獲取伺服器詳情失敗",
     "errorLoading": "讀取 MCP 伺服器服務發生錯誤",
     "serverNotFound": "並未找到相關的 MCP 伺服器服務",
     "backToServers": "回到 MCP 伺服器服務列表",

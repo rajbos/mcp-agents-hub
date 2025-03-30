@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { MCPServer } from '../types';
-import { Database, ChevronLeft, ExternalLink, Star, Download } from 'lucide-react';
+import { Database, ChevronLeft, ExternalLink, Star, Download, BrainCircuit, FileSearch, Loader } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ServerDetails() {
@@ -10,6 +10,18 @@ export function ServerDetails() {
   const [server, setServer] = useState<MCPServer | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [loadingPhase, setLoadingPhase] = useState(0);
+
+  useEffect(() => {
+    // Rotate through loading icons
+    if (loading) {
+      const interval = setInterval(() => {
+        setLoadingPhase((prev) => (prev + 1) % 3);
+      }, 2000);
+      
+      return () => clearInterval(interval);
+    }
+  }, [loading]);
 
   useEffect(() => {
     async function fetchServerDetails() {
@@ -33,24 +45,56 @@ export function ServerDetails() {
     }
   }, [hubId, t]);
 
+  // Get current loading icon based on phase
+  const getLoadingIcon = () => {
+    switch (loadingPhase) {
+      case 0:
+        return <Loader className="h-6 w-6 text-blue-600 animate-spin" />;
+      case 1:
+        return <BrainCircuit className="h-6 w-6 text-purple-600 animate-pulse" />;
+      case 2:
+        return <FileSearch className="h-6 w-6 text-green-600 animate-pulse" />;
+      default:
+        return <Database className="h-6 w-6 text-blue-600 animate-pulse" />;
+    }
+  };
+
+  // Get current loading text based on phase
+  const getLoadingText = () => {
+    switch (loadingPhase) {
+      case 0:
+        return t('details.loading');
+      case 1:
+        return t('details.refreshingInfo').split('...')[0] + '...';
+      case 2:
+        return t('details.collectingInfo');
+      default:
+        return t('details.loading');
+    }
+  };
+
   if (loading) {
     return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-center justify-center">
-        <div className="mb-4 w-16 h-16 relative">
-          <div className="absolute inset-0 rounded-full border-t-4 border-blue-500 border-opacity-50 animate-spin"></div>
-          <div className="absolute inset-3 rounded-full border-2 border-transparent border-t-2 border-r-2 border-blue-600 animate-spin" style={{ animationDirection: 'reverse', animationDuration: '1s' }}></div>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <Database className="h-6 w-6 text-blue-600 animate-pulse" />
+      <div className="fixed inset-0 flex items-center justify-center bg-white">
+        <div className="flex flex-col items-center justify-center px-4 sm:px-6 text-center">
+          <div className="mb-6 w-20 h-20 relative">
+            <div className="absolute inset-0 rounded-full border-t-4 border-blue-500 border-opacity-50 animate-spin"></div>
+            <div className="absolute inset-3 rounded-full border-2 border-transparent border-t-2 border-r-2 border-blue-600 animate-spin" style={{ animationDirection: 'reverse', animationDuration: '1s' }}></div>
+            <div className="absolute inset-0 flex items-center justify-center">
+              {getLoadingIcon()}
+            </div>
           </div>
-        </div>
-        <h3 className="text-xl font-medium text-gray-900 mb-2">{t('details.loading')}</h3>
-        <p className="text-gray-600 text-center max-w-md">
-          {t('details.refreshingInfo')}
-        </p>
-        <div className="mt-4 flex space-x-2">
-          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
-          <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '600ms' }}></div>
+          <h3 className="text-xl font-medium text-gray-900 mb-3">{getLoadingText()}</h3>
+          <p className="text-gray-600 text-center max-w-md mx-auto transition-opacity duration-300">
+            {loadingPhase === 0 && "Connecting to server..."}
+            {loadingPhase === 1 && t('details.refreshingInfo')}
+            {loadingPhase === 2 && t('details.collectingInfo')}
+          </p>
+          <div className="mt-6 flex space-x-2">
+            <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+            <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+            <div className="h-2 w-2 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '600ms' }}></div>
+          </div>
         </div>
       </div>
     );
