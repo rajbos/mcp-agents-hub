@@ -23,6 +23,11 @@ const TEST_REPOS = [
     name: 'AWS Knowledge Base',
     url: 'https://github.com/sammcj/mcp-aws-kb',
     hubId: '0a0cff94-1f03-4d1f-b5cc-a41d464f575e'
+  },
+  {
+    name: 'Hyperbrowser',
+    url: 'https://docs.hyperbrowser.ai/guides/model-context-protocol',
+    hubId: '0a18e1c1-8c3b-4fd4-b806-b2dc0326d734'
   }
 ];
 
@@ -40,61 +45,65 @@ const TEST_REPOS = [
     console.log(`Model: ${process.env.MODEL_NAME}`);
   });
 
-  it('should fetch a real README from GitHub', async () => {
-    const repo = TEST_REPOS[0];
-    const readmeContent = await fetchReadmeContent(repo.url);
-    
-    // Log first 100 characters of the README for verification
-    console.log(`Fetched README from ${repo.name} (${readmeContent.substring(0, 100)}...)`);
-    
-    expect(readmeContent).toBeTruthy();
-    expect(readmeContent.length).toBeGreaterThan(100);
-  }, 10000); // Longer timeout for network request
-
-  it('should extract information from a real GitHub README using OpenAI', async () => {
-    const repo = TEST_REPOS[0];
-    const readmeContent = await fetchReadmeContent(repo.url);
-    
-    // Skip if README couldn't be fetched
-    if (!readmeContent) {
-      console.warn(`Skipping extraction test: Could not fetch README from ${repo.url}`);
-      return;
+  it('should fetch real READMEs from GitHub for all test repositories', async () => {
+    for (const repo of TEST_REPOS) {
+      console.log(`Testing repository: ${repo.name} (${repo.url})`);
+      const readmeContent = await fetchReadmeContent(repo.url);
+      
+      // Log first 100 characters of the README for verification
+      console.log(`Fetched README from ${repo.name} (${readmeContent.substring(0, 100)}...)`);
+      
+      expect(readmeContent).toBeTruthy();
+      expect(readmeContent.length).toBeGreaterThan(100);
     }
-    
-    console.log(`Extracting information from ${repo.name} README using OpenAI...`);
-    const extractedInfo = await extractInfoFromReadme(readmeContent);
-    
-    // Log the extracted information
-    console.log('Extracted information:', JSON.stringify(extractedInfo, null, 2));
-    
-    // Basic validation of extracted fields
-    expect(extractedInfo).toBeTruthy();
-    expect(extractedInfo.name).toBeTruthy();
-    expect(extractedInfo.description).toBeTruthy();
-    
-    // Save the extracted results for manual inspection
-    const testResultsDir = path.resolve(__dirname, '..', 'results');
-    
-    try {
-      // Create results directory if it doesn't exist
-      if (!fs.existsSync(testResultsDir)) {
-        fs.mkdirSync(testResultsDir, { recursive: true });
+  }, 20000); // Increased timeout for multiple network requests
+
+  it('should extract information from GitHub READMEs using OpenAI for all test repositories', async () => {
+    for (const repo of TEST_REPOS) {
+      console.log(`Testing extraction for repository: ${repo.name} (${repo.url})`);
+      const readmeContent = await fetchReadmeContent(repo.url);
+      
+      // Skip if README couldn't be fetched
+      if (!readmeContent) {
+        console.warn(`Skipping extraction test: Could not fetch README from ${repo.url}`);
+        continue;
       }
       
-      // Save the extracted information
-      const resultsPath = path.join(testResultsDir, `${repo.hubId}_test_results.json`);
-      fs.writeFileSync(
-        resultsPath, 
-        JSON.stringify({ 
-          repository: repo,
-          readmePreview: readmeContent.substring(0, 500) + (readmeContent.length > 500 ? '...' : ''),
-          extractedInfo 
-        }, null, 2)
-      );
+      console.log(`Extracting information from ${repo.name} README using OpenAI...`);
+      const extractedInfo = await extractInfoFromReadme(readmeContent);
       
-      console.log(`Test results saved to ${resultsPath}`);
-    } catch (error) {
-      console.error('Error saving test results:', error);
+      // Log the extracted information
+      console.log(`Extracted information for ${repo.name}:`, JSON.stringify(extractedInfo, null, 2));
+      
+      // Basic validation of extracted fields
+      expect(extractedInfo).toBeTruthy();
+      expect(extractedInfo.name).toBeTruthy();
+      expect(extractedInfo.description).toBeTruthy();
+      
+      // Save the extracted results for manual inspection
+      const testResultsDir = path.resolve(__dirname, '..', 'results');
+      
+      try {
+        // Create results directory if it doesn't exist
+        if (!fs.existsSync(testResultsDir)) {
+          fs.mkdirSync(testResultsDir, { recursive: true });
+        }
+        
+        // Save the extracted information
+        const resultsPath = path.join(testResultsDir, `${repo.hubId}_test_results.json`);
+        fs.writeFileSync(
+          resultsPath, 
+          JSON.stringify({ 
+            repository: repo,
+            readmePreview: readmeContent.substring(0, 500) + (readmeContent.length > 500 ? '...' : ''),
+            extractedInfo 
+          }, null, 2)
+        );
+        
+        console.log(`Test results saved to ${resultsPath}`);
+      } catch (error) {
+        console.error(`Error saving test results for ${repo.name}:`, error);
+      }
     }
-  }, 30000); // Longer timeout for AI processing
+  }, 60000); // Increased timeout for multiple AI processing requests
 });

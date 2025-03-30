@@ -55,15 +55,24 @@ export function convertToRawReadmeUrl(githubUrl: string): string {
 }
 
 /**
- * Fetch README.md content from GitHub
+ * Fetch content from GitHub README or any other URL
  */
-export async function fetchReadmeContent(githubUrl: string): Promise<string> {
+export async function fetchReadmeContent(url: string): Promise<string> {
   try {
-    const readmeUrl = convertToRawReadmeUrl(githubUrl);
-    const response = await axios.get(readmeUrl);
-    return response.data;
+    // Check if it's a GitHub URL
+    if (url.startsWith('https://github.com')) {
+      // Process as GitHub repository
+      const rawReadmeUrl = convertToRawReadmeUrl(url);
+      const response = await axios.get(rawReadmeUrl);
+      return response.data;
+    } else {
+      // Try to fetch content from the URL directly
+      const response = await axios.get(url);
+      console.log(`Successfully fetched content from ${url}`);
+      return response.data;
+    }
   } catch (error) {
-    console.error(`Error fetching README from ${githubUrl}:`, error);
+    console.error(`Error fetching content from ${url}:`, error);
     return '';
   }
 }
@@ -84,6 +93,17 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<{
       throw new Error('README content is empty');
     }
 
+    // Check if content exceeds character limit from config
+    const charLimit = config.openai.modelCharLimit;
+    let processedContent = readmeContent;
+    
+    if (readmeContent.length > charLimit) {
+      console.warn(`README content exceeds character limit (${readmeContent.length}/${charLimit}), truncating...`);
+      // Truncate to limit minus 1000 characters to leave room for the prompt
+      processedContent = readmeContent.substring(0, charLimit - 1000);
+      console.log(`Truncated README to ${processedContent.length} characters`);
+    }
+
     const prompt = `please use the README.md content to extract the following information in a json format 
 
 {
@@ -100,7 +120,7 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<{
 }
 
 here is the README.md markdown content
-${readmeContent}
+${processedContent}
 `;
 
     // Use a default model if none is provided in config
@@ -185,7 +205,7 @@ export async function cacheServerData(serverData: EnrichedMcpServer): Promise<vo
 }
 
 /**
- * Enrich server data with information from GitHub README
+ * Enrich server data with information from GitHub README or other public URLs
  */
 export async function enrichServerData(server: McpServer): Promise<EnrichedMcpServer> {
   try {
@@ -196,12 +216,21 @@ export async function enrichServerData(server: McpServer): Promise<EnrichedMcpSe
       return cachedData;
     }
     
-    // If no cache or expired, fetch and process README
+    // If no cache or expired, fetch and process content
     if (!server.githubUrl) {
-      throw new Error(`No GitHub URL available for server ${server.hubId}`);
+      throw new Error(`No GitHub or documentation URL available for server ${server.hubId}`);
     }
 
+    // Fetch content using the updated fetchReadmeContent function
+    // which handles both GitHub and regular URLs
     const readmeContent = await fetchReadmeContent(server.githubUrl);
+    
+    // If no content was retrieved, return the original server data
+    if (!readmeContent) {
+      console.warn(`No content retrieved from ${server.githubUrl} for server ${server.hubId}`);
+      return { ...server, lastEnrichmentTime: Date.now() };
+    }
+    
     const extractedInfo = await extractInfoFromReadme(readmeContent);
     
     // Merge original server data with extracted information
