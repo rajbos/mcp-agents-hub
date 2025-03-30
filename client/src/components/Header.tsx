@@ -23,19 +23,21 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="#4F46E5" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-              className="h-8 w-8"
-            >
-              <path d="M12 2v20M2 12h20M7 17l10-10M7 7l10 10"/>
-            </svg>
-            <h1 className="ml-3 text-2xl font-bold text-gray-900">{t('home.title')}</h1>
+            <Link to="/" className="flex items-center">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="#4F46E5" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+                className="h-8 w-8"
+              >
+                <path d="M12 2v20M2 12h20M7 17l10-10M7 7l10 10"/>
+              </svg>
+              <h1 className="ml-3 text-2xl font-bold text-gray-900">{t('home.title')}</h1>
+            </Link>
           </div>
           
           <div className="flex items-center">
