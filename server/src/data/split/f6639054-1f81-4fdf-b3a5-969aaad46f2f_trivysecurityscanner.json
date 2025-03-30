@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/norbinsh/cursor-mcp-trivy",
+  "mcpId": "github.com/norbinsh/cursor-mcp-trivy",
   "githubUrl": "https://github.com/norbinsh/cursor-mcp-trivy",
   "name": "Trivy Security Scanner",
   "author": "norbinsh",

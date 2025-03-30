@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/aws-kb-retrieval-server",
+  "mcpId": "github.com/modelcontextprotocol/servers/tree/HEAD/src/aws-kb-retrieval-server",
   "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/aws-kb-retrieval-server",
   "name": "AWS Bedrock: Knowledge Base",
   "author": "modelcontextprotocol",

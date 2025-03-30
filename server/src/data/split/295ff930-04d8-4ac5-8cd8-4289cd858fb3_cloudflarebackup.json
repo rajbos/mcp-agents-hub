@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/DynamicEndpoints/cloudflare-github-backup-mcp",
+  "mcpId": "github.com/DynamicEndpoints/cloudflare-github-backup-mcp",
   "githubUrl": "https://github.com/DynamicEndpoints/cloudflare-github-backup-mcp",
   "name": "Cloudflare Backup",
   "author": "DynamicEndpoints",

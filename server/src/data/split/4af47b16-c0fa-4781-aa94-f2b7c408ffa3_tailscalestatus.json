@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/mrnugget/tailscale-mcp",
+  "mcpId": "github.com/mrnugget/tailscale-mcp",
   "githubUrl": "https://github.com/mrnugget/tailscale-mcp",
   "name": "Tailscale Status",
   "author": "mrnugget",

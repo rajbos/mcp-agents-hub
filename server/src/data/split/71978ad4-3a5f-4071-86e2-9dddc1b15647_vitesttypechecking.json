@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/tonyhschu/test-and-typecheck-mcp-server",
+  "mcpId": "github.com/tonyhschu/test-and-typecheck-mcp-server",
   "githubUrl": "https://github.com/tonyhschu/test-and-typecheck-mcp-server",
   "name": "Vitest & Type Checking",
   "author": "tonyhschu",

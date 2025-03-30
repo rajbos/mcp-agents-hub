@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/JohanCodinha/nrepl-mcp-server",
+  "mcpId": "github.com/JohanCodinha/nrepl-mcp-server",
   "githubUrl": "https://github.com/JohanCodinha/nrepl-mcp-server",
   "name": "Clojure nREPL",
   "author": "JohanCodinha",

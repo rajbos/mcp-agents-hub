@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/evalstate/mcp-hfspace",
+  "mcpId": "github.com/evalstate/mcp-hfspace",
   "githubUrl": "https://github.com/evalstate/mcp-hfspace",
   "name": "HuggingFace Spaces Connector",
   "author": "evalstate",

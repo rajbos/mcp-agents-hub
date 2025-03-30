@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/strowk/mcp-k8s-go",
+  "mcpId": "github.com/strowk/mcp-k8s-go",
   "githubUrl": "https://github.com/strowk/mcp-k8s-go",
   "name": "Kubernetes",
   "author": "strowk",

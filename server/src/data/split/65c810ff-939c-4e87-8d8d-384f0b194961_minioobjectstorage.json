@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/pavelanni/mcp-server-minio-go",
+  "mcpId": "github.com/pavelanni/mcp-server-minio-go",
   "githubUrl": "https://github.com/pavelanni/mcp-server-minio-go",
   "name": "MinIO Object Storage",
   "author": "pavelanni",

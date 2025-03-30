@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/dhartunian/cockroachdb-mcp-server",
+  "mcpId": "github.com/dhartunian/cockroachdb-mcp-server",
   "githubUrl": "https://github.com/dhartunian/cockroachdb-mcp-server",
   "name": "CockroachDB",
   "author": "dhartunian",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/robdodson/ollama-mcp-db",
+  "mcpId": "github.com/robdodson/ollama-mcp-db",
   "githubUrl": "https://github.com/robdodson/ollama-mcp-db",
   "name": "Ollama PostgreSQL Data Analysis",
   "author": "robdodson",

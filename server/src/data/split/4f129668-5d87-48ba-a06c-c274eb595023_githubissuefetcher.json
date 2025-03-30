@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/sammcj/mcp-github-issue",
+  "mcpId": "github.com/sammcj/mcp-github-issue",
   "githubUrl": "https://github.com/sammcj/mcp-github-issue",
   "name": "GitHub Issue Fetcher",
   "author": "sammcj",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/langfuse/mcp-server-langfuse",
+  "mcpId": "github.com/langfuse/mcp-server-langfuse",
   "githubUrl": "https://github.com/langfuse/mcp-server-langfuse",
   "name": "Langfuse Prompt Management",
   "author": "langfuse",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem",
+  "mcpId": "github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem",
   "githubUrl": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem",
   "name": "Filesystem (Quarkus)",
   "author": "quarkiverse",

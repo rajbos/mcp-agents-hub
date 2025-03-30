@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/supabase-community/mcp-supabase/tree/main/packages/mcp-server-postgrest",
+  "mcpId": "github.com/supabase-community/mcp-supabase/tree/main/packages/mcp-server-postgrest",
   "githubUrl": "https://github.com/supabase-community/mcp-supabase/tree/main/packages/mcp-server-postgrest",
   "name": "Supabase",
   "author": "supabase-community",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/quintonwall/mcp-airbyte-list-sources",
+  "mcpId": "github.com/quintonwall/mcp-airbyte-list-sources",
   "githubUrl": "https://github.com/quintonwall/mcp-airbyte-list-sources",
   "name": "Airbyte Status Checker",
   "author": "quintonwall",
