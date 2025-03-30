@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Chase-Bullock/python-jira-mcp",
+  "githubUrl": "https://github.com/Chase-Bullock/python-jira-mcp",
+  "name": "Python Jira MCP Server",
+  "author": "Chase-Bullock",
+  "description": "A Model Context Protocol (MCP) server implementation in Python that integrates with Jira API. This allows AI models to interact with Jira through a standardized protocol.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "context",
+    "protocol",
+    "server",
+    "implementation",
+    "python"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-30T17:01:30.523Z",
+  "updatedAt": "2025-03-30T17:01:30.523Z",
+  "hubId": "3c7b7f5e-bdcc-4370-840e-f3312c17d6f4"
+}

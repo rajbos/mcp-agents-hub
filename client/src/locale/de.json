@@ -3,7 +3,8 @@
     "home": "Startseite",
     "docs": "Dokumentation",
     "about": "Über uns",
-    "github": "GitHub"
+    "github": "GitHub",
+    "submit": "Einreichen"
   },
   "language": {
     "english": "English",
@@ -75,6 +76,65 @@
   "common": {
     "yes": "Ja",
     "no": "Nein"
+  },
+  "submit": {
+    "title": "Ihren MCP-Server einreichen",
+    "tagline": "Tragen Sie zum MCP-Ökosystem bei, indem Sie Ihren MCP-Server mit der Community teilen",
+    "formTitle": "Ihren Server zum MCP Hub hinzufügen",
+    "formDescription": "Geben Sie einfach die URL Ihres MCP-Servers an. Unser KI-System analysiert automatisch den Inhalt und extrahiert die notwendigen Daten, um Ihren Server in unserem Verzeichnis zu listen.",
+    "githubUrlLabel": "GitHub-Repository-URL Ihres MCP-Servers",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "Einreichen",
+    "submitting": "Wird eingereicht...",
+    "error": {
+      "emptyUrl": "Bitte geben Sie eine gültige GitHub-URL ein",
+      "invalidUrl": "Bitte geben Sie eine gültige GitHub-URL ein. Die URL muss mit https://github.com/ beginnen",
+      "generic": "Beim Einreichen Ihres Servers ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "success": {
+      "title": "Ihr Server wurde erfolgreich eingereicht!",
+      "name": "Name",
+      "id": "ID",
+      "description": "Beschreibung",
+      "viewDetails": "Vollständige Server-Details anzeigen"
+    },
+    "benefits": {
+      "title": "Vorteile der Freigabe Ihres MCP-Servers",
+      "description": "Durch die Einreichung Ihres MCP-Servers in unserem Hub werden Sie Teil eines wachsenden Ökosystems von KI-gestützten Tools und Diensten, die Entwickler entdecken und nutzen können.",
+      "visibility": {
+        "title": "Erhöhte Sichtbarkeit",
+        "description": "Präsentieren Sie Ihren MCP-Server Entwicklern und Organisationen, die nach KI-Lösungen suchen. Steigern Sie die Akzeptanz und vergrößern Sie Ihre Nutzerbasis."
+      },
+      "ecosystem": {
+        "title": "Dem Ökosystem beitreten",
+        "description": "Werden Sie Teil der MCP-Community, vernetzen Sie sich mit anderen Entwicklern und tragen Sie zum Wachstum eines offenen Standards für KI-Tools bei."
+      },
+      "buildOnce": {
+        "title": "Einmal erstellen, überall nutzen",
+        "description": "Erstellen Sie einen MCP-Server einmal und machen Sie ihn mit allen MCP-Clients kompatibel, wodurch Sie Ihre Reichweite über mehrere Plattformen und Tools hinweg erweitern."
+      }
+    },
+    "requirements": {
+      "title": "Was macht einen guten MCP-Server aus?",
+      "documented": {
+        "title": "Gut dokumentiert",
+        "description": "Ihr Server sollte über eine klare Dokumentation verfügen, die erklärt, was er tut, wie man ihn verwendet und welche besonderen Funktionen er bietet."
+      },
+      "compliant": {
+        "title": "MCP-konform",
+        "description": "Stellen Sie sicher, dass Ihr Server den Spezifikationen des Model Context Protocols folgt, um die Kompatibilität mit MCP-Clients zu gewährleisten."
+      },
+      "solutions": {
+        "title": "Löst reale Probleme",
+        "description": "Die besten MCP-Server adressieren spezifische Anwendungsfälle, bieten Benutzern einzigartigen Mehrwert und verbessern ihren KI-Workflow."
+      }
+    },
+    "cta": {
+      "title": "Bereit, loszulegen?",
+      "description": "Wenn Sie neu in der Erstellung von MCP-Servern sind, schauen Sie sich unsere Dokumentation an, um zu erfahren, wie Sie Ihren eigenen MCP-konformen Server erstellen und bereitstellen können.",
+      "documentation": "Dokumentation lesen",
+      "github": "GitHub-Repository ansehen"
+    }
   },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. Alle Rechte vorbehalten."

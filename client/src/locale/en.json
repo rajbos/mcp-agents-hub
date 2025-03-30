@@ -3,7 +3,8 @@
     "home": "Home",
     "docs": "Docs",
     "about": "About",
-    "github": "GitHub"
+    "github": "GitHub",
+    "submit": "Submit"
   },
   "language": {
     "english": "English",
@@ -75,6 +76,65 @@
   "common": {
     "yes": "Yes",
     "no": "No"
+  },
+  "submit": {
+    "title": "Submit Your MCP Server",
+    "tagline": "Contribute to the MCP ecosystem by sharing your MCP server with the community",
+    "formTitle": "Add Your Server to the MCP Hub",
+    "formDescription": "Simply provide the URL to your MCP server's description endpoint. Our AI system will automatically analyze the content and extract the necessary data to list your server in our directory.",
+    "githubUrlLabel": "GitHub repository URL of your MCP server",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "Submit",
+    "submitting": "Submitting...",
+    "error": {
+      "emptyUrl": "Please enter a valid GitHub URL",
+      "invalidUrl": "Please enter a valid GitHub URL. The URL must start with https://github.com/",
+      "generic": "An error occurred while submitting your server. Please try again."
+    },
+    "success": {
+      "title": "Your server has been successfully submitted!",
+      "name": "Name",
+      "id": "ID",
+      "description": "Description",
+      "viewDetails": "View Full Server Details"
+    },
+    "benefits": {
+      "title": "Benefits of Sharing Your MCP Server",
+      "description": "By submitting your MCP server to our hub, you become part of a growing ecosystem of AI-powered tools and services that developers can discover and use.",
+      "visibility": {
+        "title": "Increase Visibility",
+        "description": "Get your MCP server in front of developers and organizations looking for AI solutions. Increase adoption and grow your user base."
+      },
+      "ecosystem": {
+        "title": "Join the Ecosystem",
+        "description": "Become part of the MCP community, connect with other developers, and contribute to the growth of an open standard for AI tools."
+      },
+      "buildOnce": {
+        "title": "Build Once, Use Everywhere",
+        "description": "Create an MCP server once and make it compatible with all MCP clients, expanding your reach across multiple platforms and tools."
+      }
+    },
+    "requirements": {
+      "title": "What Makes a Great MCP Server?",
+      "documented": {
+        "title": "Well-Documented",
+        "description": "Your server should have clear documentation that explains what it does, how to use it, and any special features it offers."
+      },
+      "compliant": {
+        "title": "MCP Compliant",
+        "description": "Ensure your server follows the Model Context Protocol specifications to guarantee compatibility with MCP clients."
+      },
+      "solutions": {
+        "title": "Solves Real Problems",
+        "description": "The best MCP servers address specific use cases, offering unique value to users and enhancing their AI workflow."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "If you're new to creating MCP servers, check out our documentation to learn how to build and deploy your own MCP-compliant server.",
+      "documentation": "Read the Documentation",
+      "github": "View GitHub Repository"
+    }
   },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. All rights reserved."

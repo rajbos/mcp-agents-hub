@@ -3,7 +3,8 @@
     "home": "首页",
     "docs": "文档",
     "about": "关于",
-    "github": "GitHub"
+    "github": "GitHub",
+    "submit": "提交"
   },
   "language": {
     "english": "English (英文)",
@@ -73,6 +74,65 @@
   "common": {
     "yes": "是",
     "no": "否"
+  },
+  "submit": {
+    "title": "提交您的 MCP 服务器",
+    "tagline": "通过分享您的 MCP 服务器来为 MCP 生态系统做贡献",
+    "formTitle": "将您的服务器添加到 MCP 智能体中心",
+    "formDescription": "只需提供您的 MCP 服务器的 URL。我们的 AI 系统将自动分析内容并提取必要的数据，将您的服务器列入我们的目录。",
+    "githubUrlLabel": "您的 MCP 服务器的 GitHub 仓库 URL",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "提交",
+    "submitting": "提交中...",
+    "error": {
+      "emptyUrl": "请输入有效的 GitHub URL",
+      "invalidUrl": "请输入有效的 GitHub URL。URL 必须以 https://github.com/ 开头",
+      "generic": "提交服务器时发生错误。请重试。"
+    },
+    "success": {
+      "title": "您的服务器已成功提交！",
+      "name": "名称",
+      "id": "ID",
+      "description": "描述",
+      "viewDetails": "查看完整服务器详情"
+    },
+    "benefits": {
+      "title": "分享您的 MCP 服务器的好处",
+      "description": "通过向我们的中心提交您的 MCP 服务器，您将成为不断增长的 AI 驱动工具和服务生态系统的一部分，开发人员可以发现和使用这些工具和服务。",
+      "visibility": {
+        "title": "提高可见度",
+        "description": "让寻找 AI 解决方案的开发人员和组织看到您的 MCP 服务器。增加采用率并扩大您的用户群。"
+      },
+      "ecosystem": {
+        "title": "加入生态系统",
+        "description": "成为 MCP 社区的一部分，与其他开发人员连接，并为 AI 工具开放标准的发展做出贡献。"
+      },
+      "buildOnce": {
+        "title": "一次构建，随处使用",
+        "description": "创建一次 MCP 服务器，使其与所有 MCP 客户端兼容，扩大您在多个平台和工具上的覆盖范围。"
+      }
+    },
+    "requirements": {
+      "title": "什么是优秀的 MCP 服务器？",
+      "documented": {
+        "title": "文档完善",
+        "description": "您的服务器应该有清晰的文档，解释它的功能、使用方法以及它提供的任何特殊功能。"
+      },
+      "compliant": {
+        "title": "符合 MCP 标准",
+        "description": "确保您的服务器遵循模型上下文协议规范，以保证与 MCP 客户端的兼容性。"
+      },
+      "solutions": {
+        "title": "解决实际问题",
+        "description": "最好的 MCP 服务器解决特定用例，为用户提供独特价值并增强他们的 AI 工作流程。"
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "description": "如果您刚接触 MCP 服务器的创建，请查看我们的文档，了解如何构建和部署您自己的 MCP 兼容服务器。",
+      "documentation": "阅读文档",
+      "github": "在 GitHub 上查看"
+    }
   },
   "footer": {
     "copyright": "© 2025 MCP 市场。保留所有权利。"

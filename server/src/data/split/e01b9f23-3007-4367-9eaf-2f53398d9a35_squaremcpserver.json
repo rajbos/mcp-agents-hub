@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/block/square-mcp",
+  "githubUrl": "https://github.com/block/square-mcp",
+  "name": "Square MCP Server",
+  "author": "block",
+  "description": "A Model Context Protocol (MCP) server that provides access to Square API functionality.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "context",
+    "protocol",
+    "server",
+    "provides",
+    "access"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-30T16:46:07.393Z",
+  "updatedAt": "2025-03-30T16:46:07.393Z",
+  "hubId": "e01b9f23-3007-4367-9eaf-2f53398d9a35"
+}
