@@ -85,6 +85,7 @@ export const config = {
     apiKeyIsValid: Boolean(process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY.trim() !== ''),
     baseURL: ensureValidBaseUrl(process.env.OPENAI_BASE_URL),
     modelName: process.env.MODEL_NAME,
+    modelCharLimit: parseInt(process.env.MODEL_CHAR_LIMIT || '100000', 10), // Default to 100k characters
   },
   cache: {
     ttl: parseInt(process.env.CACHE_TTL || '3600000', 10), // Default to 1 hour

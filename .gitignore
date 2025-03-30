@@ -28,3 +28,4 @@ dist-ssr
 
 # data directories, cached data in runtime
 server/src/data/cached
+server/tests/results
