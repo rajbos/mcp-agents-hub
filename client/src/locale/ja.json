@@ -75,6 +75,65 @@
     "yes": "はい",
     "no": "いいえ"
   },
+  "submit": {
+    "title": "MCPサーバーを提出",
+    "tagline": "あなたのMCPサーバーを共有して、MCPエコシステムに貢献しましょう",
+    "formTitle": "サーバーをMCP Hubに追加",
+    "formDescription": "MCPサーバーのURLを提供するだけで、AIシステムが自動的にコンテンツを分析し、必要なデータを抽出してディレクトリに掲載します。",
+    "githubUrlLabel": "MCPサーバーのGitHubリポジトリURL",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "提出",
+    "submitting": "提出中...",
+    "error": {
+      "emptyUrl": "有効なGitHub URLを入力してください",
+      "invalidUrl": "有効なGitHub URLを入力してください。URLは https://github.com/ で始まる必要があります",
+      "generic": "サーバーの提出中にエラーが発生しました。もう一度お試しください。"
+    },
+    "success": {
+      "title": "サーバーが正常に提出されました！",
+      "name": "名前",
+      "id": "ID",
+      "description": "説明",
+      "viewDetails": "サーバーの詳細を表示"
+    },
+    "benefits": {
+      "title": "MCPサーバーを共有する利点",
+      "description": "MCPサーバーをハブに提出することで、開発者が発見して使用できるAIパワードツールとサービスの成長するエコシステムの一部になります。",
+      "visibility": {
+        "title": "可視性の向上",
+        "description": "AIソリューションを探している開発者や組織にあなたのMCPサーバーを紹介します。採用率を高め、ユーザーベースを拡大します。"
+      },
+      "ecosystem": {
+        "title": "エコシステムに参加",
+        "description": "MCPコミュニティの一員となり、他の開発者とつながり、AIツールのオープンスタンダードの成長に貢献します。"
+      },
+      "buildOnce": {
+        "title": "一度構築、どこでも使用",
+        "description": "MCPサーバーを一度作成し、すべてのMCPクライアントと互換性を持たせることで、複数のプラットフォームやツールでのリーチを拡大します。"
+      }
+    },
+    "requirements": {
+      "title": "優れたMCPサーバーの条件",
+      "documented": {
+        "title": "適切に文書化されている",
+        "description": "サーバーには、その機能、使用方法、特別な機能について説明する明確なドキュメントが必要です。"
+      },
+      "compliant": {
+        "title": "MCP準拠",
+        "description": "MCPクライアントとの互換性を保証するために、サーバーがModel Context Protocol仕様に従っていることを確認してください。"
+      },
+      "solutions": {
+        "title": "実際の問題を解決する",
+        "description": "最高のMCPサーバーは特定のユースケースに対応し、ユーザーに独自の価値を提供し、AIワークフローを強化します。"
+      }
+    },
+    "cta": {
+      "title": "始める準備はできましたか？",
+      "description": "MCPサーバーの作成が初めての場合は、ドキュメントを確認して、独自のMCP準拠サーバーの構築と展開方法を学びましょう。",
+      "documentation": "ドキュメントを読む",
+      "github": "GitHubで見る"
+    }
+  },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. All rights reserved."
   },

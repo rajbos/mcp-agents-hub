@@ -74,6 +74,65 @@
     "yes": "Sí",
     "no": "No"
   },
+  "submit": {
+    "title": "Enviar Su Servidor MCP",
+    "tagline": "Contribuya al ecosistema MCP compartiendo su servidor MCP con la comunidad",
+    "formTitle": "Añadir Su Servidor al Hub MCP",
+    "formDescription": "Simplemente proporcione la URL de su servidor MCP. Nuestro sistema de IA analizará automáticamente el contenido y extraerá los datos necesarios para listar su servidor en nuestro directorio.",
+    "githubUrlLabel": "URL del repositorio GitHub de su servidor MCP",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "Enviar",
+    "submitting": "Enviando...",
+    "error": {
+      "emptyUrl": "Por favor ingrese una URL de GitHub válida",
+      "invalidUrl": "Por favor ingrese una URL de GitHub válida. La URL debe comenzar con https://github.com/",
+      "generic": "Ocurrió un error al enviar su servidor. Por favor intente de nuevo."
+    },
+    "success": {
+      "title": "¡Su servidor ha sido enviado con éxito!",
+      "name": "Nombre",
+      "id": "ID",
+      "description": "Descripción",
+      "viewDetails": "Ver Detalles Completos del Servidor"
+    },
+    "benefits": {
+      "title": "Beneficios de Compartir Su Servidor MCP",
+      "description": "Al enviar su servidor MCP a nuestro hub, se convierte en parte de un ecosistema creciente de herramientas y servicios impulsados por IA que los desarrolladores pueden descubrir y usar.",
+      "visibility": {
+        "title": "Aumentar Visibilidad",
+        "description": "Muestre su servidor MCP a desarrolladores y organizaciones que buscan soluciones de IA. Aumente la adopción y haga crecer su base de usuarios."
+      },
+      "ecosystem": {
+        "title": "Unirse al Ecosistema",
+        "description": "Forme parte de la comunidad MCP, conéctese con otros desarrolladores y contribuya al crecimiento de un estándar abierto para herramientas de IA."
+      },
+      "buildOnce": {
+        "title": "Construir Una Vez, Usar en Todas Partes",
+        "description": "Cree un servidor MCP una vez y hágalo compatible con todos los clientes MCP, expandiendo su alcance a través de múltiples plataformas y herramientas."
+      }
+    },
+    "requirements": {
+      "title": "¿Qué Hace a un Gran Servidor MCP?",
+      "documented": {
+        "title": "Bien Documentado",
+        "description": "Su servidor debe tener documentación clara que explique lo que hace, cómo usarlo y cualquier característica especial que ofrezca."
+      },
+      "compliant": {
+        "title": "Conforme con MCP",
+        "description": "Asegúrese de que su servidor siga las especificaciones del Protocolo de Contexto de Modelo para garantizar la compatibilidad con los clientes MCP."
+      },
+      "solutions": {
+        "title": "Resuelve Problemas Reales",
+        "description": "Los mejores servidores MCP abordan casos de uso específicos, ofreciendo valor único a los usuarios y mejorando su flujo de trabajo de IA."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "description": "Si es nuevo en la creación de servidores MCP, consulte nuestra documentación para aprender cómo construir y desplegar su propio servidor compatible con MCP.",
+      "documentation": "Leer la Documentación",
+      "github": "Ver Repositorio de GitHub"
+    }
+  },
   "footer": {
     "copyright": "© 2025 MCP Marketplace. Todos los derechos reservados."
   },

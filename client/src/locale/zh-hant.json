@@ -74,6 +74,65 @@
     "yes": "是",
     "no": "否"
   },
+  "submit": {
+    "title": "提交您的 MCP 伺服器",
+    "tagline": "通過分享您的 MCP 伺服器為 MCP 生態系統做出貢獻",
+    "formTitle": "將您的伺服器添加到 MCP 中心",
+    "formDescription": "只需提供您的 MCP 伺服器的 URL。我們的 AI 系統將自動分析內容並提取必要的資料，將您的伺服器列入我們的目錄。",
+    "githubUrlLabel": "您的 MCP 伺服器的 GitHub 儲存庫 URL",
+    "githubUrlPlaceholder": "https://github.com/username/your-mcp-server",
+    "submitButton": "提交",
+    "submitting": "提交中...",
+    "error": {
+      "emptyUrl": "請輸入有效的 GitHub URL",
+      "invalidUrl": "請輸入有效的 GitHub URL。URL 必須以 https://github.com/ 開頭",
+      "generic": "提交伺服器時發生錯誤。請重試。"
+    },
+    "success": {
+      "title": "您的伺服器已成功提交！",
+      "name": "名稱",
+      "id": "ID",
+      "description": "描述",
+      "viewDetails": "查看完整伺服器詳情"
+    },
+    "benefits": {
+      "title": "分享您的 MCP 伺服器的好處",
+      "description": "通過向我們的中心提交您的 MCP 伺服器，您將成為不斷成長的 AI 驅動工具和服務生態系統的一部分，開發人員可以發現和使用這些工具和服務。",
+      "visibility": {
+        "title": "提高可見度",
+        "description": "讓尋找 AI 解決方案的開發人員和組織看到您的 MCP 伺服器。增加採用率並擴大您的用戶群。"
+      },
+      "ecosystem": {
+        "title": "加入生態系統",
+        "description": "成為 MCP 社群的一部分，與其他開發人員連接，並為 AI 工具開放標準的發展做出貢獻。"
+      },
+      "buildOnce": {
+        "title": "一次建構，隨處使用",
+        "description": "創建一次 MCP 伺服器，使其與所有 MCP 客戶端兼容，擴大您在多個平台和工具上的覆蓋範圍。"
+      }
+    },
+    "requirements": {
+      "title": "什麼是優秀的 MCP 伺服器？",
+      "documented": {
+        "title": "文檔完善",
+        "description": "您的伺服器應該有清晰的文檔，解釋它的功能、使用方法以及它提供的任何特殊功能。"
+      },
+      "compliant": {
+        "title": "符合 MCP 標準",
+        "description": "確保您的伺服器遵循模型上下文協議規範，以保證與 MCP 客戶端的兼容性。"
+      },
+      "solutions": {
+        "title": "解決實際問題",
+        "description": "最好的 MCP 伺服器解決特定用例，為用戶提供獨特價值並增強他們的 AI 工作流程。"
+      }
+    },
+    "cta": {
+      "title": "準備好開始了嗎？",
+      "description": "如果您剛接觸 MCP 伺服器的創建，請查看我們的文檔，了解如何建構和部署您自己的 MCP 兼容伺服器。",
+      "documentation": "閱讀文檔",
+      "github": "在 GitHub 上查看"
+    }
+  },
   "footer": {
     "copyright": "© 2025 MCP 市集，保留著作權所有權利。"
   },
