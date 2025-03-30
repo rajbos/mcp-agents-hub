@@ -84,6 +84,17 @@ export async function refreshCacheIfNeeded(): Promise<McpServer[]> {
   return mcpServersCache;
 }
 
+/**
+ * Force a refresh of the cache regardless of TTL
+ * Use this when new data has been added to ensure immediate visibility
+ */
+export async function forceRefreshCache(): Promise<McpServer[]> {
+  mcpServersCache = await loadMcpServersData();
+  lastCacheUpdate = Date.now();
+  console.log(`MCP servers cache force-refreshed at ${new Date().toISOString()}`);
+  return mcpServersCache;
+}
+
 // Initialize the cache on startup
 refreshCacheIfNeeded().catch(err => {
   console.error('Failed to initialize MCP servers cache:', err);

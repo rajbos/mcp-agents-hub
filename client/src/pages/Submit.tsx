@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Send, ServerIcon, Database, Globe, Zap, GitMerge } from 'lucide-react';
+import { Send, ServerIcon, Database, Globe, Zap, GitMerge, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 export function Submit() {
   const { t } = useLanguage();
@@ -8,31 +9,55 @@ export function Submit() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [error, setError] = useState('');
+  const [submittedServer, setSubmittedServer] = useState(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!url.trim()) {
-      setError('Please enter a valid URL');
+      setError('Please enter a valid GitHub URL');
+      return;
+    }
+
+    // Check if URL is a GitHub URL
+    if (!url.startsWith('https://github.com/')) {
+      setError('Please enter a valid GitHub URL. The URL must start with https://github.com/');
       return;
     }
     
     try {
       setIsSubmitting(true);
-      // Simulating a submission - this would be replaced with a real API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      setError('');
+      
+      // Make the actual API call to submit the server
+      const response = await fetch('/v1/hub/servers/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ githubUrl: url }),
+      });
+      
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit server');
+      }
+      
       setIsSubmitting(false);
       setSubmitSuccess(true);
+      setSubmittedServer(data.server);
       setUrl('');
       
-      // Reset success message after 5 seconds
+      // Reset success message after 8 seconds
       setTimeout(() => {
         setSubmitSuccess(false);
-      }, 5000);
+        setSubmittedServer(null);
+      }, 8000);
       
     } catch (err) {
       setIsSubmitting(false);
-      setError('An error occurred while submitting your server. Please try again.');
+      setError(err instanceof Error ? err.message : 'An error occurred while submitting your server. Please try again.');
     }
   };
 
@@ -61,13 +86,13 @@ export function Submit() {
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-grow">
                 <label htmlFor="serverUrl" className="block text-sm font-medium text-gray-700 mb-2">
-                  Any publicly readable URL that contains your MCP server description. You can use your website's URL or a GitHub repo URL (we will extract your README.md)
+                  GitHub repository URL of your MCP server
                 </label>
                 <input
                   type="url"
                   id="serverUrl"
                   className="block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                  placeholder="https://your-mcp-server.com/mcp-describe"
+                  placeholder="https://github.com/username/your-mcp-server"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
                   required
@@ -97,9 +122,21 @@ export function Submit() {
                 </button>
               </div>
             </div>
-            {submitSuccess && (
+            {submitSuccess && submittedServer && (
               <div className="mt-4 p-4 bg-green-50 text-green-700 rounded-md">
-                Your server has been successfully submitted! Our team will review it shortly.
+                <p className="font-medium mb-2">Your server has been successfully submitted!</p>
+                <p className="text-sm mb-3">
+                  <strong>Name:</strong> {submittedServer.name}<br />
+                  <strong>ID:</strong> {submittedServer.hubId}<br />
+                  <strong>Description:</strong> {submittedServer.description}
+                </p>
+                <Link 
+                  to={`/server/${submittedServer.hubId}`} 
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-green-700 hover:bg-green-800 rounded-md transition-colors duration-200"
+                >
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  View Full Server Details
+                </Link>
               </div>
             )}
           </form>

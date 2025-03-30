@@ -17,14 +17,16 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.21.2",
-    "openai": "^4.20.0"
+    "openai": "^4.20.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
+    "@types/uuid": "^10.0.0",
+    "@vitest/coverage-v8": "^1.5.3",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
-    "vitest": "^1.5.3",
-    "@vitest/coverage-v8": "^1.5.3"
+    "vitest": "^1.5.3"
   }
 }
