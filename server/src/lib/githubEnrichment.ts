@@ -103,7 +103,8 @@ here is the README.md markdown content
 ${readmeContent}
 `;
 
-    const modelName = config.openai.modelName;
+    // Use a default model if none is provided in config
+    const modelName = config.openai.modelName || 'gpt-3.5-turbo';
 
     const completion = await openai.chat.completions.create({
       messages: [
