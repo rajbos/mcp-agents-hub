@@ -184,9 +184,7 @@ export function Header() {
                   </svg>
                   {t('nav.home')}
                 </Link>
-                <Link 
-                  to="/submit" 
-                  className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
+                <Link to="/submit" className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
                   onClick={closeMenu}
                 >
                   <svg 
@@ -203,7 +201,7 @@ export function Header() {
                       d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" 
                     />
                   </svg>
-                  Submit
+                  {t('nav.submit')}
                 </Link>
                 <Link 
                   to="/docs" 
@@ -285,7 +283,7 @@ export function Header() {
                     d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" 
                   />
                 </svg>
-                Submit
+                {t('nav.submit')}
               </Link>
               <Link to="/docs" className="text-gray-700 hover:text-indigo-600 font-medium flex items-center">
                 <svg 

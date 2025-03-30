@@ -1,9 +1,10 @@
 {
   "nav": {
     "home": "首頁",
-    "docs": "文件",
+    "docs": "文檔",
     "about": "關於",
-    "github": "GitHub"
+    "github": "GitHub",
+    "submit": "提交"
   },
   "language": {
     "english": "English (英文)",
