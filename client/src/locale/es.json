@@ -48,6 +48,7 @@
   },
   "details": {
     "loading": "Cargando detalles del servidor...",
+    "refreshingInfo": "Actualizando información desde el repositorio GitHub del creador del servidor...",
     "fetchError": "Error al obtener detalles del servidor",
     "errorLoading": "Error al cargar datos del servidor",
     "serverNotFound": "Servidor no encontrado",
@@ -60,7 +61,13 @@
     "createdAt": "Creado El",
     "updatedAt": "Actualizado El",
     "notSpecified": "No especificado",
-    "viewOnGithub": "Ver en GitHub"
+    "viewOnGithub": "Ver en GitHub",
+    "installationInstructions": "Instrucciones de Instalación",
+    "usageInstructions": "Instrucciones de Uso",
+    "features": "Características",
+    "prerequisites": "Requisitos Previos",
+    "mcpId": "ID de MCP",
+    "lastUpdated": "Última Actualización"
   },
   "common": {
     "yes": "Sí",

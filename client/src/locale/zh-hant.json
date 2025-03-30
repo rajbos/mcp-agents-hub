@@ -48,6 +48,7 @@
   },
   "details": {
     "loading": "正在讀取 MCP 伺服器詳細資訊...",
+    "refreshingInfo": "正在從伺服器開發者的 GitHub 存儲庫重新整理資訊...",
     "fetchError": "取得 MCP 伺服器服務詳細資訊失敗",
     "errorLoading": "讀取 MCP 伺服器服務發生錯誤",
     "serverNotFound": "並未找到相關的 MCP 伺服器服務",
@@ -60,7 +61,13 @@
     "createdAt": "建立時間",
     "updatedAt": "更新時間",
     "notSpecified": "未指定",
-    "viewOnGithub": "在 GitHub 上查看"
+    "viewOnGithub": "在 GitHub 上查看",
+    "installationInstructions": "安裝說明",
+    "usageInstructions": "使用說明",
+    "features": "功能特性",
+    "prerequisites": "前置條件",
+    "mcpId": "MCP ID",
+    "lastUpdated": "最後更新"
   },
   "common": {
     "yes": "是",

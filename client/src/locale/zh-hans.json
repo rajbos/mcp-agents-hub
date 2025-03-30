@@ -48,6 +48,7 @@
   },
   "details": {
     "loading": "正在加载服务器详情...",
+    "refreshingInfo": "正在从服务器制作者的 GitHub 仓库刷新信息...",
     "fetchError": "获取服务器详情失败",
     "errorLoading": "加载服务器数据时出错",
     "serverNotFound": "未找到服务器",
@@ -60,7 +61,13 @@
     "createdAt": "创建时间",
     "updatedAt": "更新时间",
     "notSpecified": "未指定",
-    "viewOnGithub": "在 GitHub 上查看"
+    "viewOnGithub": "在 GitHub 上查看",
+    "installationInstructions": "安装说明",
+    "usageInstructions": "使用说明",
+    "features": "功能特性",
+    "prerequisites": "前提条件",
+    "mcpId": "MCP ID",
+    "lastUpdated": "最后更新"
   },
   "common": {
     "yes": "是",

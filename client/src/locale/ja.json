@@ -49,6 +49,7 @@
   },
   "details": {
     "loading": "サーバー詳細を読み込み中...",
+    "refreshingInfo": "サーバー開発者のGitHubリポジトリから情報を更新中...",
     "fetchError": "サーバー詳細の取得に失敗しました",
     "errorLoading": "サーバーデータの読み込みエラー",
     "serverNotFound": "サーバーが見つかりません",
@@ -61,7 +62,13 @@
     "createdAt": "作成日時",
     "updatedAt": "更新日時",
     "notSpecified": "指定なし",
-    "viewOnGithub": "GitHubで見る"
+    "viewOnGithub": "GitHubで見る",
+    "installationInstructions": "インストール手順",
+    "usageInstructions": "使用方法",
+    "features": "機能",
+    "prerequisites": "前提条件",
+    "mcpId": "MCP ID",
+    "lastUpdated": "最終更新"
   },
   "common": {
     "yes": "はい",
