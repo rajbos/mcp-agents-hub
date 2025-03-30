@@ -15,4 +15,9 @@ export interface MCPServer {
   createdAt: string;
   updatedAt: string;
   hubId?: string; // Added hubId field for server details navigation
+  Installation_instructions?: string;
+  Usage_instructions?: string;
+  features?: string[];
+  prerequisites?: string[];
+  lastEnrichmentTime?: number;
 }

@@ -25,3 +25,6 @@ dist-ssr
 
 # environment variables
 .env
+
+# data directories, cached data in runtime
+server/src/data/cached

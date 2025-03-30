@@ -60,7 +60,13 @@
     "createdAt": "创建时间",
     "updatedAt": "更新时间",
     "notSpecified": "未指定",
-    "viewOnGithub": "在 GitHub 上查看"
+    "viewOnGithub": "在 GitHub 上查看",
+    "installationInstructions": "安装说明",
+    "usageInstructions": "使用说明",
+    "features": "功能特性",
+    "prerequisites": "前提条件",
+    "mcpId": "MCP ID",
+    "lastUpdated": "最后更新"
   },
   "common": {
     "yes": "是",

@@ -62,7 +62,13 @@
     "createdAt": "Erstellt am",
     "updatedAt": "Aktualisiert am",
     "notSpecified": "Nicht angegeben",
-    "viewOnGithub": "Auf GitHub ansehen"
+    "viewOnGithub": "Auf GitHub ansehen",
+    "installationInstructions": "Installationsanleitung",
+    "usageInstructions": "Nutzungsanleitung",
+    "features": "Funktionen",
+    "prerequisites": "Voraussetzungen",
+    "mcpId": "MCP-ID",
+    "lastUpdated": "Zuletzt aktualisiert"
   },
   "common": {
     "yes": "Ja",

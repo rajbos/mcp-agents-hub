@@ -61,7 +61,13 @@
     "createdAt": "作成日時",
     "updatedAt": "更新日時",
     "notSpecified": "指定なし",
-    "viewOnGithub": "GitHubで見る"
+    "viewOnGithub": "GitHubで見る",
+    "installationInstructions": "インストール手順",
+    "usageInstructions": "使用方法",
+    "features": "機能",
+    "prerequisites": "前提条件",
+    "mcpId": "MCP ID",
+    "lastUpdated": "最終更新"
   },
   "common": {
     "yes": "はい",

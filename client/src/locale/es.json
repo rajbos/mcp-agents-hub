@@ -60,7 +60,13 @@
     "createdAt": "Creado El",
     "updatedAt": "Actualizado El",
     "notSpecified": "No especificado",
-    "viewOnGithub": "Ver en GitHub"
+    "viewOnGithub": "Ver en GitHub",
+    "installationInstructions": "Instrucciones de Instalación",
+    "usageInstructions": "Instrucciones de Uso",
+    "features": "Características",
+    "prerequisites": "Requisitos Previos",
+    "mcpId": "ID de MCP",
+    "lastUpdated": "Última Actualización"
   },
   "common": {
     "yes": "Sí",

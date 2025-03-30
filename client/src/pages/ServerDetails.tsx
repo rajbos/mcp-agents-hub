@@ -141,6 +141,46 @@ export function ServerDetails() {
             <p className="text-gray-700 leading-relaxed">{server.description}</p>
           </div>
 
+          {server.Installation_instructions && (
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.installationInstructions')}</h2>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <p className="text-gray-700 leading-relaxed whitespace-pre-line">{server.Installation_instructions}</p>
+              </div>
+            </div>
+          )}
+
+          {server.Usage_instructions && (
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.usageInstructions')}</h2>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <p className="text-gray-700 leading-relaxed">{server.Usage_instructions}</p>
+              </div>
+            </div>
+          )}
+
+          {server.features && server.features.length > 0 && (
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.features')}</h2>
+              <ul className="list-disc pl-5 space-y-2">
+                {server.features.map((feature, index) => (
+                  <li key={index} className="text-gray-700">{feature}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {server.prerequisites && server.prerequisites.length > 0 && (
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.prerequisites')}</h2>
+              <ul className="list-disc pl-5 space-y-2">
+                {server.prerequisites.map((prerequisite, index) => (
+                  <li key={index} className="text-gray-700">{prerequisite}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.tags')}</h2>
             <div className="flex flex-wrap gap-2">
@@ -154,6 +194,12 @@ export function ServerDetails() {
               ))}
             </div>
           </div>
+          
+          {server.lastEnrichmentTime && (
+            <div className="text-sm text-gray-500 mt-6">
+              {t('details.lastUpdated')}: {new Date(server.lastEnrichmentTime).toLocaleString()}
+            </div>
+          )}
         </div>
       </div>
     </div>
