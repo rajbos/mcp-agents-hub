@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/wricardo/grpcurl-mcp",
+  "mcpId": "github.com/wricardo/grpcurl-mcp",
   "githubUrl": "https://github.com/wricardo/grpcurl-mcp",
   "name": "gRPC Reflection",
   "author": "wricardo",

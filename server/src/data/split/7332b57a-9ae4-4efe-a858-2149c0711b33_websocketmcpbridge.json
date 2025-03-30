@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/yonaka15/mcp-server-runner",
+  "mcpId": "github.com/yonaka15/mcp-server-runner",
   "githubUrl": "https://github.com/yonaka15/mcp-server-runner",
   "name": "WebSocket MCP Bridge",
   "author": "yonaka15",

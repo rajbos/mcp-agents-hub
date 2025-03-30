@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/MammothGrowth/dbt-cli-mcp",
+  "mcpId": "github.com/MammothGrowth/dbt-cli-mcp",
   "githubUrl": "https://github.com/MammothGrowth/dbt-cli-mcp",
   "name": "dbt CLI MCP Server",
   "author": "MammothGrowth",

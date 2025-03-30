@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-giphy",
+  "mcpId": "github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-giphy",
   "githubUrl": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-giphy",
   "name": "Giphy",
   "author": "microsoft",

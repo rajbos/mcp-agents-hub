@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/bitrsky/jupyter_mcp_server",
+  "mcpId": "github.com/bitrsky/jupyter_mcp_server",
   "githubUrl": "https://github.com/bitrsky/jupyter_mcp_server",
   "name": "Jupyter Notebook Bridge",
   "author": "bitrsky",

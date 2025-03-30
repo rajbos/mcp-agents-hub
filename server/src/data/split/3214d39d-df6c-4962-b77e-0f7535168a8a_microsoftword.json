@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-word",
+  "mcpId": "github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-word",
   "githubUrl": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-word",
   "name": "Microsoft Word",
   "author": "microsoft",

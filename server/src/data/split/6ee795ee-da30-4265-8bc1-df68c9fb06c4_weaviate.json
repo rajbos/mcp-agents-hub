@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/weaviate/mcp-server-weaviate",
+  "mcpId": "github.com/weaviate/mcp-server-weaviate",
   "githubUrl": "https://github.com/weaviate/mcp-server-weaviate",
   "name": "Weaviate",
   "author": "weaviate",

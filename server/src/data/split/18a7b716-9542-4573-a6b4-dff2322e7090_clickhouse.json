@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/ClickHouse/mcp-clickhouse",
+  "mcpId": "github.com/ClickHouse/mcp-clickhouse",
   "githubUrl": "https://github.com/ClickHouse/mcp-clickhouse",
   "name": "ClickHouse",
   "author": "ClickHouse",

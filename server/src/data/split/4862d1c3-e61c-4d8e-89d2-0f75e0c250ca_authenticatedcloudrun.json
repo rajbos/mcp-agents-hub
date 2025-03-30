@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
+  "mcpId": "github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
   "githubUrl": "https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run",
   "name": "Authenticated Cloud Run",
   "author": "the-freetech-company",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/seido/mcp_npm",
+  "mcpId": "github.com/seido/mcp_npm",
   "githubUrl": "https://github.com/seido/mcp_npm",
   "name": "NPM Command Runner",
   "author": "seido",

@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
+  "mcpId": "github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
   "githubUrl": "https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/butler",
   "name": "Cloud Foundry Butler",
   "author": "cf-toolsuite",

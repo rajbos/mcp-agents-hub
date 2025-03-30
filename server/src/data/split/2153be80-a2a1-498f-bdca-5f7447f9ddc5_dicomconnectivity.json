@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/fluxinc/dicom-mcp-server",
+  "mcpId": "github.com/fluxinc/dicom-mcp-server",
   "githubUrl": "https://github.com/fluxinc/dicom-mcp-server",
   "name": "DICOM Connectivity",
   "author": "fluxinc",

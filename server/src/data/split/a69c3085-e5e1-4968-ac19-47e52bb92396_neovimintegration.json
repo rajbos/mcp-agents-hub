@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/bigcodegen/mcp-neovim-server",
+  "mcpId": "github.com/bigcodegen/mcp-neovim-server",
   "githubUrl": "https://github.com/bigcodegen/mcp-neovim-server",
   "name": "Neovim Integration",
   "author": "bigcodegen",

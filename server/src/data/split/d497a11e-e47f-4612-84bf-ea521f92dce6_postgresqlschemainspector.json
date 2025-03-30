@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/vinsidious/mcp-pg-schema",
+  "mcpId": "github.com/vinsidious/mcp-pg-schema",
   "githubUrl": "https://github.com/vinsidious/mcp-pg-schema",
   "name": "PostgreSQL Schema Inspector",
   "author": "vinsidious",

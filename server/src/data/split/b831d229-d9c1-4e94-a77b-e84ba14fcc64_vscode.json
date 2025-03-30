@@ -1,5 +1,5 @@
 {
-  "mcpId": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-vscode",
+  "mcpId": "github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-vscode",
   "githubUrl": "https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-vscode",
   "name": "VSCode",
   "author": "microsoft",
