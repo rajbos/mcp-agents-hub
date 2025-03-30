@@ -54,7 +54,7 @@ function ensureValidBaseUrl(url: string | undefined): string {
   const defaultUrl = 'https://ark.cn-beijing.volces.com/api/v3';
   
   if (!url || url.trim() === '') {
-    console.log('Using default OPENAI_OPENAI_BASE_URL:', defaultUrl);
+    console.log('Using default OPENAI_BASE_URL:', defaultUrl);
     return defaultUrl;
   }
   

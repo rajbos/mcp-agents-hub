@@ -84,7 +84,7 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<{
       throw new Error('README content is empty');
     }
 
-    const prompt = `please use the README.md content to extra the following infomration in a json format 
+    const prompt = `please use the README.md content to extract the following information in a json format 
 
 {
     "name": "string",
