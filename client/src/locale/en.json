@@ -30,6 +30,10 @@
       "title": "Open Standard",
       "description": "Built on the open Model Context Protocol standard"
     },
+    "submitBanner": {
+      "oneClick": "Submit with just one click!",
+      "aiSystem": "Our AI system automatically analyzes your repository and extracts all necessary information."
+    },
     "discover": {
       "title": "Discover MCP Servers",
       "description": "Browse and connect to a growing ecosystem of MCP servers"

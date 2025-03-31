@@ -1,9 +1,12 @@
 import { useState, useMemo, useEffect } from 'react';
 import { SearchBar } from '../components/SearchBar';
 import { ServerCard } from '../components/ServerCard';
+import { CountUpAnimation } from '../components/CountUpAnimation';
 import { fetchMCPServers } from '../data/servers';
 import { MCPServer } from '../types';
-import { Plug, Zap, Link, ChevronRight } from 'lucide-react';
+import { Plug, Zap, ChevronRight, Send } from 'lucide-react';
+import { Link as IconLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Home() {
@@ -88,9 +91,45 @@ export function Home() {
               <p className="text-blue-100">{t('home.feature2.description')}</p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg bg-white/10 backdrop-blur-lg">
-              <Link className="h-12 w-12 mb-4" />
+              <IconLink className="h-12 w-12 mb-4" />
               <h3 className="text-xl font-semibold mb-2">{t('home.feature3.title')}</h3>
               <p className="text-blue-100">{t('home.feature3.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Submit MCP Server Banner */}
+      <div className="bg-amber-50 border-y border-amber-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="mb-6 md:mb-0 md:mr-8">
+              <div className="flex flex-col md:flex-row md:items-center gap-4 mb-3">
+                <div className="bg-amber-100 rounded-lg px-4 py-2 inline-flex items-center justify-center">
+                  <CountUpAnimation 
+                    endValue={servers.length} 
+                    duration={2500} 
+                    className="text-3xl font-bold text-amber-800" 
+                  />
+                  <span className="ml-2 text-amber-700">{t('home.serverCount', { count: servers.length })}</span>
+                </div>
+                <h3 className="text-2xl font-bold text-amber-900">{t('submit.benefits.title')}</h3>
+              </div>
+              <p className="text-amber-800 max-w-2xl mb-2">
+                {t('submit.tagline')}
+              </p>
+              <p className="text-amber-700">
+                <span className="font-medium">{t('home.submitBanner.oneClick')}</span> {t('home.submitBanner.aiSystem')}
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <Link 
+                to="/submit" 
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-amber-600 hover:bg-amber-700 transition-colors shadow-sm hover:shadow"
+              >
+                <Send className="h-5 w-5 mr-2" />
+                {t('nav.submit')}
+              </Link>
             </div>
           </div>
         </div>
@@ -103,9 +142,6 @@ export function Home() {
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             {t('home.discover.description')}
-          </p>
-          <p className="mt-3 text-lg text-indigo-600 font-medium">
-            {servers.length} {t('home.serverCount', { count: servers.length })}
           </p>
           <div className="mt-8 flex justify-center">
             <SearchBar value={inputQuery} onChange={setInputQuery} onSearch={handleSearch} />

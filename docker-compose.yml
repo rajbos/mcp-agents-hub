@@ -8,12 +8,13 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
-    ports:
+    ports:`
       - "3001:3001"
     env_file:
       - ../.github-private/env_files/.env
     volumes:
       - ./server/src/data/split:/app/dist/data/split/
+      - ../data/cached:/app/dist/data/cached/
 
   client:
     image: ghcr.io/mcp-agents-ai/mcp-agents-hub-client:latest
