@@ -3,9 +3,9 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import OpenAI from 'openai';
 import { McpServer } from './mcpServers.js';
 import { config } from './config.js';
+import { callLLM, truncateToModelLimit } from './llm.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -14,17 +14,15 @@ const __dirname = dirname(__filename);
 const CACHE_DIR = path.join(__dirname, '..', 'data', 'cached');
 const CACHE_TTL = config.cache.ttl;
 
-// Validate API key before initializing OpenAI client
-if (!config.openai.apiKeyIsValid) {
-  console.error('ERROR: OpenAI API key is missing or invalid. Please check your .env file.');
-  console.error('GitHub readme enrichment will not work without a valid API key.');
+// Interface for structured information extracted from README
+export interface ReadmeExtractedInfo {
+  name: string;
+  description: string;
+  Installation_instructions: string;
+  Usage_instructions: string;
+  features: string[];
+  prerequisites: string[];
 }
-
-// Initialize OpenAI client with configuration
-const openai = new OpenAI({
-  apiKey: config.openai.apiKey,
-  baseURL: config.openai.baseURL,
-});
 
 // Extended server interface with additional fields from README
 export interface EnrichedMcpServer extends McpServer {
@@ -78,32 +76,10 @@ export async function fetchReadmeContent(url: string): Promise<string> {
 }
 
 /**
- * Extract structured information from README using OpenAI
+ * Call LLM to extract structured information from README content
  */
-export async function extractInfoFromReadme(readmeContent: string): Promise<{
-  name: string;
-  description: string;
-  Installation_instructions: string;
-  Usage_instructions: string;
-  features: string[];
-  prerequisites: string[];
-}> {
+export async function callLLMForReadmeExtraction(content: string): Promise<ReadmeExtractedInfo> {
   try {
-    if (!readmeContent) {
-      throw new Error('README content is empty');
-    }
-
-    // Check if content exceeds character limit from config
-    const charLimit = config.openai.modelCharLimit;
-    let processedContent = readmeContent;
-    
-    if (readmeContent.length > charLimit) {
-      console.warn(`README content exceeds character limit (${readmeContent.length}/${charLimit}), truncating...`);
-      // Truncate to limit minus 1000 characters to leave room for the prompt
-      processedContent = readmeContent.substring(0, charLimit - 1000);
-      console.log(`Truncated README to ${processedContent.length} characters`);
-    }
-
     const prompt = `please use the README.md content to extract the following information in a json format 
 
 {
@@ -120,31 +96,47 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<{
 }
 
 here is the README.md markdown content
-${processedContent}
+${content}
 `;
 
-    // Use a default model if none is provided in config
-    const modelName = config.openai.modelName || 'gpt-3.5-turbo';
-
-    const completion = await openai.chat.completions.create({
-      messages: [
-        { role: 'system', content: 'You are a helpful assistant that extracts structured information from README files.' },
-        { role: 'user', content: prompt },
-      ],
-      model: modelName,
-    });
-
-    const content = completion.choices[0]?.message?.content || '';
+    const systemMessage = 'You are a helpful assistant that extracts structured information from README files.';
+    const responseContent = await callLLM(prompt, systemMessage);
     
     // Extract JSON from the response
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    const jsonMatch = responseContent.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
       throw new Error('Could not extract JSON from AI response');
     }
     
     // Parse the JSON response
-    const extractedInfo = JSON.parse(jsonMatch[0]);
-    return extractedInfo;
+    return JSON.parse(jsonMatch[0]);
+  } catch (error) {
+    console.error('Error calling LLM for README extraction:', error);
+    return {
+      name: '',
+      description: '',
+      Installation_instructions: '',
+      Usage_instructions: '',
+      features: [],
+      prerequisites: []
+    };
+  }
+}
+
+/**
+ * Extract structured information from README using OpenAI
+ */
+export async function extractInfoFromReadme(readmeContent: string): Promise<ReadmeExtractedInfo> {
+  try {
+    if (!readmeContent) {
+      throw new Error('README content is empty');
+    }
+
+    // Use the truncateToModelLimit function from llm.ts
+    const processedContent = truncateToModelLimit(readmeContent);
+
+    // Call the LLM extraction function with the processed content
+    return await callLLMForReadmeExtraction(processedContent);
   } catch (error) {
     console.error('Error extracting information from README:', error);
     return {
