@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Home() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [inputQuery, setInputQuery] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [servers, setServers] = useState<MCPServer[]>([]);
@@ -21,11 +21,11 @@ export function Home() {
 
   useEffect(() => {
     const loadServers = async () => {
-      const data = await fetchMCPServers();
+      const data = await fetchMCPServers(language);
       setServers(data);
     };
     loadServers();
-  }, []);
+  }, [language]); // Add language as dependency to reload when language changes
 
   useEffect(() => {
     setVisibleRecommendedCount(6);

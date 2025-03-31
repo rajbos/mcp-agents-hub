@@ -13,13 +13,16 @@ const __dirname = dirname(__filename);
 const router = Router();
 
 // GET /servers - returns server data with hubId included
-router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
+router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Get locale from query parameter, default to 'en'
+    const locale = (req.query.locale as string) || 'en';
+    
+    const mcpServersCache = await refreshCacheIfNeeded(locale);
     
     // Return full data including hubId
     res.json(mcpServersCache);
-    console.log(`v1/hub/servers Served full MCP servers data (including hubId) at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers Served full MCP servers data (including hubId) for locale: ${locale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving hub MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -30,7 +33,10 @@ router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { hubId } = req.params;
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Get locale from query parameter, default to 'en'
+    const locale = (req.query.locale as string) || 'en';
+    
+    const mcpServersCache = await refreshCacheIfNeeded(locale);
     
     // Find the server with the matching hubId
     const server = mcpServersCache.find(server => server.hubId === hubId);
@@ -44,7 +50,7 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
     const enrichedServer = await enrichServerData(server);
     
     res.json(enrichedServer);
-    console.log(`v1/hub/servers/${hubId} Served enriched server details at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers/${hubId} Served enriched server details for locale: ${locale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving server details:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -68,7 +74,8 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
     }
 
     // Check if this GitHub URL already exists in the server items
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Use default locale 'en' for checking existence since submission is language-agnostic
+    const mcpServersCache = await refreshCacheIfNeeded('en');
     const existingServer = mcpServersCache.find(server => server.githubUrl === githubUrl);
     
     if (existingServer) {
@@ -143,7 +150,7 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
     await fs.writeFile(filePath, JSON.stringify(newServer, null, 2), 'utf8');
     
     // Force an immediate cache refresh to ensure the new server is visible
-    await forceRefreshCache();
+    await forceRefreshCache('en');
     
     // Return the created server
     res.status(201).json({
