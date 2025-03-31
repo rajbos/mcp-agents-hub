@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Claw256/mcp-web-search",
+  "githubUrl": "https://github.com/Claw256/mcp-web-search",
+  "name": "Google 搜尋",
+  "author": "Claw256",
+  "description": "整合Google Search功能與網頁內容提取及截圖功能，實現強大的搜索、過濾和數據收集，同時避免被機器人檢測到。",
+  "codiconIcon": "google",
+  "logoUrl": "",
+  "category": "productivity",
+  "tags": [
+    "google-search",
+    "capabilities",
+    "content",
+    "robust",
+    "detection"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:25.041553+00:00",
+  "updatedAt": "2025-03-17T08:29:25.041553+00:00",
+  "hubId": "012e79a3-25af-46a6-be71-2b0c2db66d4b"
+}

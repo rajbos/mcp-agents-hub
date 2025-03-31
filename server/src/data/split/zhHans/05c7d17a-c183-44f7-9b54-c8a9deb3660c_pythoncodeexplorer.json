@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/hesiod-au/python-mcp",
+  "githubUrl": "https://github.com/hesiod-au/python-mcp",
+  "name": "Python Code Explorer",
+  "author": "hesiod-au",
+  "description": "构建Python代码关系的图形，以智能地导航代码库、优先处理相关部分，并在保持令牌限制内包含README文件。",
+  "codiconIcon": "python",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "builds",
+    "intelligently",
+    "include",
+    "staying",
+    "python-code-explorer"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2025-03-17T08:29:26.010831+00:00",
+  "hubId": "05c7d17a-c183-44f7-9b54-c8a9deb3660c"
+}

@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/YUZongmin/sqlite-literature-management-fastmcp-mcp-server",
+  "githubUrl": "https://github.com/YUZongmin/sqlite-literature-management-fastmcp-mcp-server",
+  "name": "SQLite Literature Manager",
+  "author": "YUZongmin",
+  "description": "文献管理操作をナレッジグラフと統合し、柔軟な論文追跡、構造化されたメモ作成、および研究トレンド分析を可能にします。",
+  "codiconIcon": "sqlite",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "integrates",
+    "flexible",
+    "structured",
+    "trend",
+    "management"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:23.859656+00:00",
+  "updatedAt": "2025-03-17T08:29:23.859656+00:00",
+  "hubId": "07aa6e2b-bd02-49d2-b6cb-969b9782159d"
+}

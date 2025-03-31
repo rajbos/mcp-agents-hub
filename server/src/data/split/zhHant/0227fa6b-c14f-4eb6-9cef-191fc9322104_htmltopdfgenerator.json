@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/ivarvd-hldng/pdf-generator-mcp-server",
+  "githubUrl": "https://github.com/ivarvd-hldng/pdf-generator-mcp-server",
+  "name": "HTML-to-PDF 生成器",
+  "author": "ivarvd-hldng",
+  "description": "結合PDFKit和Puppeteer來從HTML內容和程式化佈局生成PDF，實現多樣化的文件創建和網頁快照。",
+  "codiconIcon": "html-to-pdf",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "puppeteer",
+    "generate",
+    "content",
+    "programmatic",
+    "enabling"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.06306+00:00",
+  "updatedAt": "2025-03-17T08:29:28.06306+00:00",
+  "hubId": "0227fa6b-c14f-4eb6-9cef-191fc9322104"
+}

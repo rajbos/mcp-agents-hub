@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Xuanwo/mcp-server-opendal",
+  "githubUrl": "https://github.com/Xuanwo/mcp-server-opendal",
+  "name": "\"OpenDAL\"",
+  "author": "Xuanwo",
+  "description": "整合OpenDAL以提供對多樣化存儲後端的統一訪問，使LLMs能夠讀取和寫入各種存儲系統，以執行數據管理任務。",
+  "codiconIcon": "opendal",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "storage",
+    "write",
+    "various",
+    "management",
+    "opendal"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:20.399027+00:00",
+  "updatedAt": "2025-03-17T08:29:20.399027+00:00",
+  "hubId": "02ecf0c1-befc-4f90-a1f5-9e3aa61f4fe1"
+}

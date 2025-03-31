@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Legaltime/filesystem",
+  "githubUrl": "https://github.com/Legaltime/filesystem",
+  "name": "\"Sicheres Dateisystem\"",
+  "author": "Legaltime",
+  "description": "Ermöglicht sichere Dateisystemoperationen innerhalb spezifizierter Verzeichnisse, was sicheres Lesen, Schreiben, Bearbeiten und Durchsuchen von Dateien für Code-Analyse, Dokumentenverwaltung oder automatisierte Dateiaufgaben ermöglicht.",
+  "codiconIcon": "secure",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "provides",
+    "secure",
+    "specified",
+    "directories",
+    "enabling"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.871131+00:00",
+  "updatedAt": "2025-03-17T08:29:28.871131+00:00",
+  "hubId": "05046a19-18f4-4863-b819-602c4ed7a394"
+}

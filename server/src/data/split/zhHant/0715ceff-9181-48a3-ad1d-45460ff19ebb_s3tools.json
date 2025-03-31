@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/sofianhamiti/mcp-server-s3",
+  "githubUrl": "https://github.com/sofianhamiti/mcp-server-s3",
+  "name": "\"S3 工具\"",
+  "author": "sofianhamiti",
+  "description": "整合AWS S3，實現存儲桶列表與管理功能，為需要文件組織或內容分發的應用程序簡化雲存儲操作。",
+  "codiconIcon": "s3",
+  "logoUrl": "",
+  "category": "cloud-services",
+  "tags": [
+    "facilitating",
+    "operations",
+    "integrates",
+    "bucket",
+    "management"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:29.634309+00:00",
+  "updatedAt": "2025-03-17T08:29:29.634309+00:00",
+  "hubId": "0715ceff-9181-48a3-ad1d-45460ff19ebb"
+}

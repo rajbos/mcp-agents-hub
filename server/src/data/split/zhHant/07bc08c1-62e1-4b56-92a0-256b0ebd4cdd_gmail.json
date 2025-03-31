@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/jasonsum/gmail-mcp-server",
+  "githubUrl": "https://github.com/jasonsum/gmail-mcp-server",
+  "name": "Gmail",
+  "author": "jasonsum",
+  "description": "整合Gmail API以實現電子郵件操作，如發送、管理標籤和搜索訊息。",
+  "codiconIcon": "gmail",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "integrates",
+    "enable",
+    "email",
+    "managing",
+    "labels"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:23.366219+00:00",
+  "updatedAt": "2025-03-17T08:29:23.366219+00:00",
+  "hubId": "07bc08c1-62e1-4b56-92a0-256b0ebd4cdd"
+}

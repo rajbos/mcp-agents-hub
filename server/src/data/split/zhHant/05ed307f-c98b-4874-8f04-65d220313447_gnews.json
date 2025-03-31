@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/algonacci/mcp-gnews",
+  "githubUrl": "https://github.com/algonacci/mcp-gnews",
+  "name": "GNews",
+  "author": "algonacci",
+  "description": "整合GNews API，實現跨多種語言和國家的新聞搜索、頭條檢索及特定主題文章抓取功能。",
+  "codiconIcon": "gnews",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "enable",
+    "headline",
+    "retrieval",
+    "topic-specific",
+    "across"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:27.547179+00:00",
+  "updatedAt": "2025-03-17T08:29:27.547179+00:00",
+  "hubId": "05ed307f-c98b-4874-8f04-65d220313447"
+}

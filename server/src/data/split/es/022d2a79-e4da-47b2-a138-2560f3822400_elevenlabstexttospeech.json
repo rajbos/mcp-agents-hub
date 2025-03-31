@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/georgi-io/jessica",
+  "githubUrl": "https://github.com/georgi-io/jessica",
+  "name": "ElevenLabs Text-to-Speech",
+  "author": "georgi-io",
+  "description": "Integra las capacidades de conversión de texto a voz de ElevenLabs para una salida de voz de alta calidad y personalizable en las interacciones, incluyendo selección de voz y elección de modelo.",
+  "codiconIcon": "elevenlabs",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "integrates",
+    "elevenlabs'",
+    "text-to-speech",
+    "capabilities",
+    "high-quality"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2025-03-17T08:29:26.010831+00:00",
+  "hubId": "022d2a79-e4da-47b2-a138-2560f3822400"
+}

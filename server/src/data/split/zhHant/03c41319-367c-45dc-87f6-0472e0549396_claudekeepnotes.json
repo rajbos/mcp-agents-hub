@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/sdairs/claudekeep",
+  "githubUrl": "https://github.com/sdairs/claudekeep",
+  "name": "ClaudeKeep (筆記)",
+  "author": "sdairs",
+  "description": "整合了一套個人知識管理系統，用於在本地存儲、檢索和組織對話筆記。",
+  "codiconIcon": "claudekeep",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "claudekeep-(notes)",
+    "integrates",
+    "knowledge",
+    "management",
+    "system"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-03-17T08:29:24.291233+00:00",
+  "hubId": "03c41319-367c-45dc-87f6-0472e0549396"
+}

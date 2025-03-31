@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Omedia/mcp-server-drupal",
+  "githubUrl": "https://github.com/Omedia/mcp-server-drupal",
+  "name": "Drupal",
+  "author": "Omedia",
+  "description": "集成Drupal的API，实现内容管理、用户管理和站点配置，以支持自动化网站运营和个性化内容交付。",
+  "codiconIcon": "drupal",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "automated",
+    "operations",
+    "enable",
+    "administration",
+    "website"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:22.634233+00:00",
+  "updatedAt": "2025-03-17T08:29:22.634233+00:00",
+  "hubId": "01fcd7aa-4e9c-4a9f-994b-1dc3ffbc7a1b"
+}

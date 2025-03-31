@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Legaltime/filesystem",
+  "githubUrl": "https://github.com/Legaltime/filesystem",
+  "name": "「Secure Filesystem」",
+  "author": "Legaltime",
+  "description": "在指定目錄內提供安全的檔案系統操作，支援代碼分析、文件管理或自動化檔案任務中的安全讀取、寫入、編輯及搜尋檔案。",
+  "codiconIcon": "secure",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "provides",
+    "secure",
+    "specified",
+    "directories",
+    "enabling"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.871131+00:00",
+  "updatedAt": "2025-03-17T08:29:28.871131+00:00",
+  "hubId": "05046a19-18f4-4863-b819-602c4ed7a394"
+}

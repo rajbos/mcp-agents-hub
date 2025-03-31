@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/hesreallyhim/mcp-server-isitdown",
+  "githubUrl": "https://github.com/hesreallyhim/mcp-server-isitdown",
+  "name": "\"IsItDown\"",
+  "author": "hesreallyhim",
+  "description": "isitdownrightnow.comと連携してウェブサイトのステータスを確認し、リアルタイムの可用性情報と最後に確認されたダウンタイムを提供し、監視とトラブルシューティングの目的で利用できます。",
+  "codiconIcon": "isitdown",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "real-time",
+    "information",
+    "monitoring",
+    "isitdown",
+    "integrates"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:28.06306+00:00",
+  "updatedAt": "2025-03-17T08:29:28.06306+00:00",
+  "hubId": "09cb7189-d26d-40ce-b721-c1cf4ce5a43c"
+}

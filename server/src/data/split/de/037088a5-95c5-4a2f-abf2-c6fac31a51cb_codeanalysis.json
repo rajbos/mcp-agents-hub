@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/davidvc/code-mcp",
+  "githubUrl": "https://github.com/davidvc/code-mcp",
+  "name": "\"Code Analysis\"",
+  "author": "davidvc",
+  "description": "Integriert die Code-Analyse unter Verwendung einer Neo4j-Graphdatenbank, um strukturelle Einblicke, Qualitätsmetriken und die Abfrage von Codebasen in natürlicher Sprache zu ermöglichen.",
+  "codiconIcon": "code",
+  "logoUrl": "",
+  "category": "database",
+  "tags": [
+    "analysis",
+    "insights",
+    "metrics",
+    "code-analysis",
+    "integrates"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-03-17T08:29:24.291233+00:00",
+  "hubId": "037088a5-95c5-4a2f-abf2-c6fac31a51cb"
+}

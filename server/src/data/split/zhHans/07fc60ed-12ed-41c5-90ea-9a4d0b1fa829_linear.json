@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/tacticlaunch/mcp-linear",
+  "githubUrl": "https://github.com/tacticlaunch/mcp-linear",
+  "name": "\"线性\"",
+  "author": "tacticlaunch",
+  "description": "将Linear的项目管理系统与模型上下文协议（MCP）集成，使Cursor能够与Linear进行交互。",
+  "codiconIcon": "linear",
+  "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/2l2eoknp33n.png",
+  "category": "tools",
+  "tags": [
+    "linear",
+    "management",
+    "system",
+    "context",
+    "protocol"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-24T02:03:10.166753+00:00",
+  "updatedAt": "2025-03-24T02:03:10.166753+00:00",
+  "hubId": "07fc60ed-12ed-41c5-90ea-9a4d0b1fa829"
+}

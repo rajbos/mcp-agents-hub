@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/ScrapeGraphAI/scrapegraph-mcp",
+  "githubUrl": "https://github.com/ScrapeGraphAI/scrapegraph-mcp",
+  "name": "「ScapeGraph」",
+  "author": "ScrapeGraphAI",
+  "description": "ScapeGraph APIと統合し、ウェブスクレイピングとグラフベースのデータ分析を可能にし、大規模なウェブデータの効率的な抽出と処理を実現します。",
+  "codiconIcon": "scapegraph",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "scapegraph",
+    "enable",
+    "scraping",
+    "graph-based",
+    "efficient"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:23.859656+00:00",
+  "updatedAt": "2025-03-17T08:29:23.859656+00:00",
+  "hubId": "04137f6a-f1c1-41e0-8c97-aa5fffafb537"
+}

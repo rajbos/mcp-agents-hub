@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch",
+  "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch",
+  "name": "\"Fetch\"",
+  "author": "modelcontextprotocol",
+  "description": "檢索並將網頁內容轉換為markdown格式以供分析。",
+  "codiconIcon": "fetch",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "fetch",
+    "retrieve",
+    "convert",
+    "content",
+    "markdown"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:19.654593+00:00",
+  "updatedAt": "2025-03-17T08:29:19.654593+00:00",
+  "hubId": "03490ac9-ce58-485d-9166-a295173de417"
+}

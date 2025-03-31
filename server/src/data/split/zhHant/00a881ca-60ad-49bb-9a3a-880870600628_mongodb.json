@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/jonfreeland/mongodb-mcp",
+  "githubUrl": "https://github.com/jonfreeland/mongodb-mcp",
+  "name": "MongoDB",
+  "author": "jonfreeland",
+  "description": "啟用以唯讀存取查詢和分析MongoDB資料庫，提供探索、模式推斷、查詢、聚合、文本搜索和地理空間分析的操作。",
+  "codiconIcon": "mongodb",
+  "logoUrl": "",
+  "category": "database",
+  "tags": [
+    "databases",
+    "schema",
+    "inference",
+    "analysis",
+    "mongodb"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:26.758293+00:00",
+  "updatedAt": "2025-03-17T08:29:26.758293+00:00",
+  "hubId": "00a881ca-60ad-49bb-9a3a-880870600628"
+}

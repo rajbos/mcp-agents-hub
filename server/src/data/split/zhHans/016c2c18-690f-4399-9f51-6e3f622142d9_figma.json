@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/akazwz/mcp-figma",
+  "githubUrl": "https://github.com/akazwz/mcp-figma",
+  "name": "\"Figma\"",
+  "author": "akazwz",
+  "description": "与Figma API集成，支持与设计文件和项目进行交互，促进在Figma生态系统内实现自动化设计任务和AI辅助工作流程。",
+  "codiconIcon": "figma",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "ai-assisted",
+    "integrates",
+    "enable",
+    "design",
+    "files"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:23.366219+00:00",
+  "updatedAt": "2025-03-17T08:29:23.366219+00:00",
+  "hubId": "016c2c18-690f-4399-9f51-6e3f622142d9"
+}

@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Flux159/mcp-server-modal",
+  "githubUrl": "https://github.com/Flux159/mcp-server-modal",
+  "name": "Modal (Python sin servidor)",
+  "author": "Flux159",
+  "description": "Se integra con la plataforma sin servidor de Modal para implementar y ejecutar scripts de Python en la nube, permitiendo una computación distribuida y procesamiento de datos eficientes.",
+  "codiconIcon": "modal",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "integrates",
+    "modal's",
+    "platform",
+    "execute",
+    "computing"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-03-17T08:29:24.291233+00:00",
+  "hubId": "046cd487-9669-4a02-b11e-62ca1f1f0f0e"
+}
