@@ -28,11 +28,12 @@ async function processAllFiles(): Promise<void> {
   console.log('Starting translation process...');
   console.log(`Looking for JSON files in: ${SPLIT_DIR}`);
   
-  // Create language subdirectories
+  // Create language subdirectories - use the keys directly from LANGUAGES object
   for (const lang of Object.keys(LANGUAGES)) {
     if (lang === 'en') continue; // Skip English as it's the source language
     const langDir = path.join(OUTPUT_BASE_DIR, lang);
     ensureDirectoryExists(langDir);
+    console.log(`Created/verified directory for ${lang}: ${langDir}`);
   }
   
   // Get all JSON files from split directory
@@ -56,7 +57,7 @@ async function processAllFiles(): Promise<void> {
         // Create a copy of the data to modify
         const translatedData = { ...data };
         
-        console.log(`  Translating to ${LANGUAGES[lang]}...`);
+        console.log(`  Translating to ${LANGUAGES[lang]} (${lang})...`);
         
         // Translate name and description fields using the imported translateText function
         if (translatedData.name) {
@@ -74,6 +75,7 @@ async function processAllFiles(): Promise<void> {
         // Save translated file to language subdirectory
         const outputFilePath = path.join(OUTPUT_BASE_DIR, lang, file);
         fs.writeFileSync(outputFilePath, JSON.stringify(translatedData, null, 2), 'utf8');
+        console.log(`  Saved translated file to ${outputFilePath}`);
       }
       
       console.log(`  Completed translations for ${file}`);

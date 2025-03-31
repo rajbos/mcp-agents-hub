@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { MCPServer } from '../types';
 import { Database, ChevronLeft, ExternalLink, Star, Download, BrainCircuit, FileSearch, Loader } from 'lucide-react';
@@ -12,6 +12,7 @@ export function ServerDetails() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [loadingPhase, setLoadingPhase] = useState(0);
+  const [lastFetchedLanguage, setLastFetchedLanguage] = useState<string | null>(null);
 
   useEffect(() => {
     // Rotate through loading icons
@@ -29,11 +30,11 @@ export function ServerDetails() {
       try {
         setLoading(true);
         
-        // Map component language to API locale format
+        // Map component language to API locale format (already in the correct format)
         const localeMap: Record<string, string> = {
           en: 'en',
-          zhHans: 'zh-hans',
-          zhHant: 'zh-hant',
+          'zh-hans': 'zh-hans',
+          'zh-hant': 'zh-hant',
           ja: 'ja',
           es: 'es',
           de: 'de'
@@ -53,6 +54,8 @@ export function ServerDetails() {
         const data = await response.json();
         setServer(data);
         setLoading(false);
+        // Store the language we just fetched for
+        setLastFetchedLanguage(language);
       } catch (err) {
         setError(t('details.errorLoading'));
         setLoading(false);
@@ -61,9 +64,12 @@ export function ServerDetails() {
     }
 
     if (hubId) {
-      fetchServerDetails();
+      // Always fetch when hubId changes or if we don't have data yet
+      if (!server || lastFetchedLanguage !== language) {
+        fetchServerDetails();
+      }
     }
-  }, [hubId, t, language, location.search]);
+  }, [hubId, t, language, location.search, server, lastFetchedLanguage]);
 
   // Get current loading icon based on phase
   const getLoadingIcon = () => {

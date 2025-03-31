@@ -12,17 +12,34 @@ const __dirname = dirname(__filename);
 
 const router = Router();
 
+// Mapping for locale names to handle both kebab-case and camelCase formats
+const localeMapping: Record<string, string> = {
+  'zh-hans': 'zhHans',
+  'zh-hant': 'zhHant'
+};
+
+// Helper function to normalize locale format for server-side processing
+function normalizeLocale(locale: string): string {
+  // Check if we need to normalize this locale
+  if (localeMapping[locale]) {
+    console.log(`Normalizing locale ${locale} to directory format ${localeMapping[locale]}`);
+    return localeMapping[locale];
+  }
+  return locale;
+}
+
 // GET /servers - returns server data with hubId included
 router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
     // Get locale from query parameter, default to 'en'
-    const locale = (req.query.locale as string) || 'en';
+    const requestedLocale = (req.query.locale as string) || 'en';
     
-    const mcpServersCache = await refreshCacheIfNeeded(locale);
+    // Keep original format for supported locales check, but pass normalized version for directory structure
+    const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
     
     // Return full data including hubId
     res.json(mcpServersCache);
-    console.log(`v1/hub/servers Served full MCP servers data (including hubId) for locale: ${locale} at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers Served full MCP servers data (including hubId) for locale: ${requestedLocale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving hub MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -34,9 +51,11 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
   try {
     const { hubId } = req.params;
     // Get locale from query parameter, default to 'en'
-    const locale = (req.query.locale as string) || 'en';
+    const requestedLocale = (req.query.locale as string) || 'en';
+    // Normalize locale for server-side processing
+    const normalizedLocale = normalizeLocale(requestedLocale);
     
-    const mcpServersCache = await refreshCacheIfNeeded(locale);
+    const mcpServersCache = await refreshCacheIfNeeded(normalizedLocale);
     
     // Find the server with the matching hubId
     const server = mcpServersCache.find(server => server.hubId === hubId);
@@ -47,10 +66,11 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
     }
     
     // Enrich server data with information from GitHub README
-    const enrichedServer = await enrichServerData(server);
+    // Pass the locale parameter to ensure information is extracted in the right language
+    const enrichedServer = await enrichServerData(server, normalizedLocale);
     
     res.json(enrichedServer);
-    console.log(`v1/hub/servers/${hubId} Served enriched server details for locale: ${locale} at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers/${hubId} Served enriched server details for locale: ${requestedLocale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving server details:', error);
     res.status(500).json({ error: 'Internal server error' });

@@ -31,7 +31,25 @@ const mcpServersCache: Record<string, McpServer[]> = {};
 const lastCacheUpdate: Record<string, number> = {};
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour in milliseconds
 const DEFAULT_LOCALE = 'en';
-const SUPPORTED_LOCALES = ['en', 'de', 'es', 'ja', 'zhHans', 'zhHant'];
+
+// Add support for both formats of locales (kebab-case and camelCase)
+const SUPPORTED_LOCALES = ['en', 'de', 'es', 'ja', 'zh-hans', 'zhHans', 'zh-hant', 'zhHant'];
+
+// Mapping for locale names to handle kebab-case vs. camelCase formats
+const localeDirectoryMapping: Record<string, string> = {
+  'zhHans': 'zh-hans', // Map camelCase to kebab-case
+  'zhHant': 'zh-hant', // Map camelCase to kebab-case
+  'zh-hans': 'zh-hans', // Keep kebab-case as is
+  'zh-hant': 'zh-hant'  // Keep kebab-case as is
+};
+
+/**
+ * Normalizes a locale name to the directory format
+ * @param locale The locale to normalize
+ */
+function normalizeLocaleForDirectory(locale: string): string {
+  return localeDirectoryMapping[locale] || locale;
+}
 
 /**
  * Loads all MCP server data from split files and combines them
@@ -47,14 +65,18 @@ export async function loadMcpServersData(locale: string = DEFAULT_LOCALE): Promi
 
     // Determine the directory to load files from
     const baseDir = join(__dirname, '..', 'data', 'split');
+    
+    // Map the locale to the correct directory name if needed
+    const directoryLocale = normalizeLocaleForDirectory(locale);
+    
     // For English, use the root directory; for other locales, use the locale-specific subdirectory
-    let dirPath = locale === DEFAULT_LOCALE ? baseDir : join(baseDir, locale);
+    let dirPath = locale === DEFAULT_LOCALE ? baseDir : join(baseDir, directoryLocale);
     
     // Check if the directory exists
     try {
       await fs.access(dirPath);
     } catch {
-      console.warn(`Directory for locale ${locale} does not exist. Falling back to default locale.`);
+      console.warn(`Directory for locale ${directoryLocale} (from ${locale}) does not exist. Falling back to default locale.`);
       locale = DEFAULT_LOCALE;
       // Use the base directory for the default locale
       dirPath = baseDir;

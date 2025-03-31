@@ -6,6 +6,7 @@ import { dirname } from 'path';
 import { McpServer } from './mcpServers.js';
 import { config } from './config.js';
 import { callLLM, truncateToModelLimit } from './llm.js';
+import { LANGUAGES, translateText } from './llmTools.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -78,10 +79,15 @@ export async function fetchReadmeContent(url: string): Promise<string> {
 /**
  * Call LLM to extract structured information from README content
  */
-export async function callLLMForReadmeExtraction(content: string): Promise<ReadmeExtractedInfo> {
+export async function callLLMForReadmeExtraction(content: string, locale: string = 'en'): Promise<ReadmeExtractedInfo> {
   try {
-    const prompt = `please use the README.md content to extract the following information in a json format 
+    const languageName = LANGUAGES[locale] || 'English';
+    
+    const prompt = `Extract structured information from the provided README.md content and provide the response in ${languageName}.
 
+IMPORTANT: ALL text fields in your response MUST be in ${languageName}. Translate all extracted information from English to ${languageName} if needed.
+
+Return the information in the following JSON format:
 {
     "name": "string",
     "description": "string",
@@ -95,11 +101,13 @@ export async function callLLMForReadmeExtraction(content: string): Promise<Readm
     ]
 }
 
-here is the README.md markdown content
+README.md content:
 ${content}
+
+Remember to provide ALL fields in ${languageName} only.
 `;
 
-    const systemMessage = 'You are a helpful assistant that extracts structured information from README files.';
+    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always return the information in ${languageName} regardless of the source language.`;
     const responseContent = await callLLM(prompt, systemMessage);
     
     // Extract JSON from the response
@@ -125,8 +133,10 @@ ${content}
 
 /**
  * Extract structured information from README using OpenAI
+ * @param readmeContent The README content to extract information from
+ * @param locale The target locale for extracted information (default: 'en')
  */
-export async function extractInfoFromReadme(readmeContent: string): Promise<ReadmeExtractedInfo> {
+export async function extractInfoFromReadme(readmeContent: string, locale: string = 'en'): Promise<ReadmeExtractedInfo> {
   try {
     if (!readmeContent) {
       throw new Error('README content is empty');
@@ -135,8 +145,8 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<Read
     // Use the truncateToModelLimit function from llm.ts
     const processedContent = truncateToModelLimit(readmeContent);
 
-    // Call the LLM extraction function with the processed content
-    return await callLLMForReadmeExtraction(processedContent);
+    // Call the LLM extraction function with the processed content and locale
+    return await callLLMForReadmeExtraction(processedContent, locale);
   } catch (error) {
     console.error('Error extracting information from README:', error);
     return {
@@ -198,13 +208,16 @@ export async function cacheServerData(serverData: EnrichedMcpServer): Promise<vo
 
 /**
  * Enrich server data with information from GitHub README or other public URLs
+ * @param server The MCP server to enrich
+ * @param locale The target locale for extracted information (default: 'en')
  */
-export async function enrichServerData(server: McpServer): Promise<EnrichedMcpServer> {
+export async function enrichServerData(server: McpServer, locale: string = 'en'): Promise<EnrichedMcpServer> {
   try {
-    // Check cache first
-    const cachedData = await getCachedServerData(server.hubId);
+    // Check cache first - locale-specific cache key
+    const cacheKey = `${server.hubId}_${locale}`;
+    const cachedData = await getCachedServerData(cacheKey);
     if (cachedData) {
-      console.log(`Using cached data for server ${server.hubId}`);
+      console.log(`Using cached data for server ${server.hubId} in locale ${locale}`);
       return cachedData;
     }
     
@@ -223,7 +236,8 @@ export async function enrichServerData(server: McpServer): Promise<EnrichedMcpSe
       return { ...server, lastEnrichmentTime: Date.now() };
     }
     
-    const extractedInfo = await extractInfoFromReadme(readmeContent);
+    // Extract information in the target locale
+    const extractedInfo = await extractInfoFromReadme(readmeContent, locale);
     
     // Merge original server data with extracted information
     const enrichedServer: EnrichedMcpServer = {
@@ -232,12 +246,14 @@ export async function enrichServerData(server: McpServer): Promise<EnrichedMcpSe
       lastEnrichmentTime: Date.now(),
     };
     
-    // Cache the enriched data
+    // Cache the enriched data using locale-specific key
+    enrichedServer.hubId = cacheKey; // Temporarily modify hubId for caching
     await cacheServerData(enrichedServer);
+    enrichedServer.hubId = server.hubId; // Restore original hubId
     
     return enrichedServer;
   } catch (error) {
-    console.error(`Error enriching server data for ${server.hubId}:`, error);
+    console.error(`Error enriching server data for ${server.hubId} in locale ${locale}:`, error);
     return { ...server, lastEnrichmentTime: Date.now() };
   }
 }
