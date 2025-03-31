@@ -6,21 +6,11 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { callLLM } from '../lib/llm';
+import { LANGUAGES, translateText } from '../lib/llmTools.js';
 
 // Get the directory name in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Define the supported languages based on LanguageContext.tsx
-const LANGUAGES: Record<string, string> = {
-  'en': 'English',
-  'zhHans': 'Simplified Chinese',
-  'zhHant': 'Traditional Chinese',
-  'ja': 'Japanese',
-  'es': 'Spanish',
-  'de': 'German'
-};
 
 // Directory paths
 const SPLIT_DIR = path.join(__dirname, 'split');
@@ -30,25 +20,6 @@ const OUTPUT_BASE_DIR = SPLIT_DIR;
 function ensureDirectoryExists(dirPath: string): void {
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath, { recursive: true });
-  }
-}
-
-// Helper function to translate a text using LLM
-async function translateText(text: string, language: string): Promise<string> {
-  const prompt = `Translate the following text to ${LANGUAGES[language]}. 
-Keep any technical terms, brand names, and code references in their original form.
-Only return the translated text without any explanations or additional formatting.
-
-Text to translate: "${text}"`;
-
-  const systemMessage = 'You are a professional translator. Provide accurate and natural-sounding translations.';
-  
-  try {
-    const translatedText = await callLLM(prompt, systemMessage);
-    return translatedText.trim();
-  } catch (error) {
-    console.error(`Error translating to ${language}:`, error);
-    return text; // Return original text on error
   }
 }
 
@@ -87,13 +58,17 @@ async function processAllFiles(): Promise<void> {
         
         console.log(`  Translating to ${LANGUAGES[lang]}...`);
         
-        // Translate name and description fields
+        // Translate name and description fields using the imported translateText function
         if (translatedData.name) {
           translatedData.name = await translateText(translatedData.name, lang);
+          // Remove any quotation marks that might have been added
+          translatedData.name = translatedData.name.replace(/^["']|["']$/g, '');
         }
         
         if (translatedData.description) {
           translatedData.description = await translateText(translatedData.description, lang);
+          // Remove any quotation marks that might have been added
+          translatedData.description = translatedData.description.replace(/^["']|["']$/g, '');
         }
         
         // Save translated file to language subdirectory

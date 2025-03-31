@@ -9,11 +9,11 @@ interface ServerCardProps {
 }
 
 export function ServerCard({ server }: ServerCardProps) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <Link to={server.hubId ? `/server/${server.hubId}` : '#'} className="block p-6">
+      <Link to={server.hubId ? `/server/${server.hubId}?locale=${language}` : '#'} className="block p-6">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
             {server.logoUrl ? (

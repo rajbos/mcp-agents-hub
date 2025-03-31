@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { MCPServer } from '../types';
 import { Database, ChevronLeft, ExternalLink, Star, Download, BrainCircuit, FileSearch, Loader } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ServerDetails() {
   const { hubId } = useParams<{ hubId: string }>();
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const location = useLocation();
   const [server, setServer] = useState<MCPServer | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -26,7 +27,26 @@ export function ServerDetails() {
   useEffect(() => {
     async function fetchServerDetails() {
       try {
-        const response = await fetch(`/v1/hub/servers/${hubId}`);
+        setLoading(true);
+        
+        // Map component language to API locale format
+        const localeMap: Record<string, string> = {
+          en: 'en',
+          zhHans: 'zh-hans',
+          zhHant: 'zh-hant',
+          ja: 'ja',
+          es: 'es',
+          de: 'de'
+        };
+        
+        // Check URL query parameters first for locale
+        const urlParams = new URLSearchParams(location.search);
+        const urlLocale = urlParams.get('locale');
+        
+        // Use URL locale if present, otherwise use current language context
+        const locale = urlLocale || localeMap[language];
+        
+        const response = await fetch(`/v1/hub/servers/${hubId}?locale=${locale}`);
         if (!response.ok) {
           throw new Error(t('details.fetchError'));
         }
@@ -43,7 +63,7 @@ export function ServerDetails() {
     if (hubId) {
       fetchServerDetails();
     }
-  }, [hubId, t]);
+  }, [hubId, t, language, location.search]);
 
   // Get current loading icon based on phase
   const getLoadingIcon = () => {
