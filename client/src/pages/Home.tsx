@@ -71,6 +71,20 @@ export function Home() {
 
   return (
     <>
+      {/* Server Count Banner */}
+      <div className="bg-amber-50 border-y border-amber-200 py-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center">
+            <CountUpAnimation 
+              endValue={servers.length} 
+              duration={2500} 
+              className="text-2xl font-bold text-amber-800" 
+            />
+            <span className="ml-2 text-sm text-amber-700">{t('home.serverCount', { count: servers.length })}</span>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center mb-12">
@@ -99,20 +113,12 @@ export function Home() {
         </div>
       </div>
 
-      {/* Submit MCP Server Banner */}
+      {/* Server Submit Banner */}
       <div className="bg-amber-50 border-y border-amber-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-8">
               <div className="flex flex-col md:flex-row md:items-center gap-4 mb-3">
-                <div className="bg-amber-100 rounded-lg px-4 py-2 inline-flex items-center justify-center">
-                  <CountUpAnimation 
-                    endValue={servers.length} 
-                    duration={2500} 
-                    className="text-3xl font-bold text-amber-800" 
-                  />
-                  <span className="ml-2 text-amber-700">{t('home.serverCount', { count: servers.length })}</span>
-                </div>
                 <h3 className="text-2xl font-bold text-amber-900">{t('submit.benefits.title')}</h3>
               </div>
               <p className="text-amber-800 max-w-2xl mb-2">
