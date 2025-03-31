@@ -6,6 +6,7 @@ import path from 'path';
 import fs from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { LANGUAGES, translateText } from '../lib/llmTools.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -26,6 +27,55 @@ function normalizeLocale(locale: string): string {
     return localeMapping[locale];
   }
   return locale;
+}
+
+// Helper function to ensure directory exists
+async function ensureDirectoryExists(dirPath: string): Promise<void> {
+  try {
+    await fs.mkdir(dirPath, { recursive: true });
+  } catch (error) {
+    console.error(`Error creating directory ${dirPath}:`, error);
+    throw error;
+  }
+}
+
+// Helper function to translate server data to different languages
+async function createLocalizedServerFiles(
+  server: any,
+  basePath: string,
+  filename: string
+): Promise<void> {
+  // For each language except English (assuming English is the source)
+  for (const lang of Object.keys(LANGUAGES)) {
+    if (lang === 'en') continue; // Skip English as it's the source language
+    
+    // Create a copy of the data to modify
+    const translatedServer = { ...server };
+    
+    console.log(`Translating server "${server.name}" to ${LANGUAGES[lang]} (${lang})...`);
+    
+    // Translate name and description fields using the translateText function
+    if (translatedServer.name) {
+      translatedServer.name = await translateText(translatedServer.name, lang);
+      // Remove any quotation marks that might have been added
+      translatedServer.name = translatedServer.name.replace(/^["']|["']$/g, '');
+    }
+    
+    if (translatedServer.description) {
+      translatedServer.description = await translateText(translatedServer.description, lang);
+      // Remove any quotation marks that might have been added
+      translatedServer.description = translatedServer.description.replace(/^["']|["']$/g, '');
+    }
+    
+    // Create language directory if it doesn't exist
+    const langDir = path.join(basePath, lang);
+    await ensureDirectoryExists(langDir);
+    
+    // Save translated file to language subdirectory
+    const outputFilePath = path.join(langDir, filename);
+    await fs.writeFile(outputFilePath, JSON.stringify(translatedServer, null, 2), 'utf8');
+    console.log(`Saved translated file to ${outputFilePath}`);
+  }
 }
 
 // GET /servers - returns server data with hubId included
@@ -177,6 +227,21 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
       message: 'Server successfully added',
       server: newServer
     });
+    
+    // Create localized server files for other languages
+    await createLocalizedServerFiles(newServer, splitDirPath, filename);
+    
+    // Force refresh cache for all other languages
+    console.log('Refreshing cache for all supported languages...');
+    for (const lang of Object.keys(LANGUAGES)) {
+      if (lang === 'en') continue; // Already refreshed English cache
+      try {
+        await forceRefreshCache(lang);
+        console.log(`Cache refreshed for ${LANGUAGES[lang]} (${lang})`);
+      } catch (error) {
+        console.error(`Error refreshing cache for ${lang}:`, error);
+      }
+    }
     
   } catch (error) {
     console.error('Error submitting new server:', error);
