@@ -6,20 +6,90 @@ import path from 'path';
 import fs from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { LANGUAGES, translateText } from '../lib/llmTools.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const router = Router();
 
-// GET /servers - returns server data with hubId included
-router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
+// Mapping for locale names to handle both kebab-case and camelCase formats
+const localeMapping: Record<string, string> = {
+  'zh-hans': 'zhHans',
+  'zh-hant': 'zhHant'
+};
+
+// Helper function to normalize locale format for server-side processing
+function normalizeLocale(locale: string): string {
+  // Check if we need to normalize this locale
+  if (localeMapping[locale]) {
+    console.log(`Normalizing locale ${locale} to directory format ${localeMapping[locale]}`);
+    return localeMapping[locale];
+  }
+  return locale;
+}
+
+// Helper function to ensure directory exists
+async function ensureDirectoryExists(dirPath: string): Promise<void> {
   try {
-    const mcpServersCache = await refreshCacheIfNeeded();
+    await fs.mkdir(dirPath, { recursive: true });
+  } catch (error) {
+    console.error(`Error creating directory ${dirPath}:`, error);
+    throw error;
+  }
+}
+
+// Helper function to translate server data to different languages
+async function createLocalizedServerFiles(
+  server: any,
+  basePath: string,
+  filename: string
+): Promise<void> {
+  // For each language except English (assuming English is the source)
+  for (const lang of Object.keys(LANGUAGES)) {
+    if (lang === 'en') continue; // Skip English as it's the source language
+    
+    // Create a copy of the data to modify
+    const translatedServer = { ...server };
+    
+    console.log(`Translating server "${server.name}" to ${LANGUAGES[lang]} (${lang})...`);
+    
+    // Translate name and description fields using the translateText function
+    if (translatedServer.name) {
+      translatedServer.name = await translateText(translatedServer.name, lang);
+      // Remove any quotation marks that might have been added
+      translatedServer.name = translatedServer.name.replace(/^["']|["']$/g, '');
+    }
+    
+    if (translatedServer.description) {
+      translatedServer.description = await translateText(translatedServer.description, lang);
+      // Remove any quotation marks that might have been added
+      translatedServer.description = translatedServer.description.replace(/^["']|["']$/g, '');
+    }
+    
+    // Create language directory if it doesn't exist
+    const langDir = path.join(basePath, lang);
+    await ensureDirectoryExists(langDir);
+    
+    // Save translated file to language subdirectory
+    const outputFilePath = path.join(langDir, filename);
+    await fs.writeFile(outputFilePath, JSON.stringify(translatedServer, null, 2), 'utf8');
+    console.log(`Saved translated file to ${outputFilePath}`);
+  }
+}
+
+// GET /servers - returns server data with hubId included
+router.get('/servers', async (req: Request, res: Response): Promise<void> => {
+  try {
+    // Get locale from query parameter, default to 'en'
+    const requestedLocale = (req.query.locale as string) || 'en';
+    
+    // Keep original format for supported locales check, but pass normalized version for directory structure
+    const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
     
     // Return full data including hubId
     res.json(mcpServersCache);
-    console.log(`v1/hub/servers Served full MCP servers data (including hubId) at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers Served full MCP servers data (including hubId) for locale: ${requestedLocale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving hub MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -30,7 +100,12 @@ router.get('/servers', async (_req: Request, res: Response): Promise<void> => {
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { hubId } = req.params;
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Get locale from query parameter, default to 'en'
+    const requestedLocale = (req.query.locale as string) || 'en';
+    // Normalize locale for server-side processing
+    const normalizedLocale = normalizeLocale(requestedLocale);
+    
+    const mcpServersCache = await refreshCacheIfNeeded(normalizedLocale);
     
     // Find the server with the matching hubId
     const server = mcpServersCache.find(server => server.hubId === hubId);
@@ -41,10 +116,11 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
     }
     
     // Enrich server data with information from GitHub README
-    const enrichedServer = await enrichServerData(server);
+    // Pass the locale parameter to ensure information is extracted in the right language
+    const enrichedServer = await enrichServerData(server, normalizedLocale);
     
     res.json(enrichedServer);
-    console.log(`v1/hub/servers/${hubId} Served enriched server details at ${new Date().toISOString()}`);
+    console.log(`v1/hub/servers/${hubId} Served enriched server details for locale: ${requestedLocale} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving server details:', error);
     res.status(500).json({ error: 'Internal server error' });
@@ -68,7 +144,8 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
     }
 
     // Check if this GitHub URL already exists in the server items
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Use default locale 'en' for checking existence since submission is language-agnostic
+    const mcpServersCache = await refreshCacheIfNeeded('en');
     const existingServer = mcpServersCache.find(server => server.githubUrl === githubUrl);
     
     if (existingServer) {
@@ -143,13 +220,28 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
     await fs.writeFile(filePath, JSON.stringify(newServer, null, 2), 'utf8');
     
     // Force an immediate cache refresh to ensure the new server is visible
-    await forceRefreshCache();
+    await forceRefreshCache('en');
     
     // Return the created server
     res.status(201).json({
       message: 'Server successfully added',
       server: newServer
     });
+    
+    // Create localized server files for other languages
+    await createLocalizedServerFiles(newServer, splitDirPath, filename);
+    
+    // Force refresh cache for all other languages
+    console.log('Refreshing cache for all supported languages...');
+    for (const lang of Object.keys(LANGUAGES)) {
+      if (lang === 'en') continue; // Already refreshed English cache
+      try {
+        await forceRefreshCache(lang);
+        console.log(`Cache refreshed for ${LANGUAGES[lang]} (${lang})`);
+      } catch (error) {
+        console.error(`Error refreshing cache for ${lang}:`, error);
+      }
+    }
     
   } catch (error) {
     console.error('Error submitting new server:', error);

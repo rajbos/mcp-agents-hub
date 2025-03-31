@@ -7,7 +7,7 @@ import esTranslations from '../locale/es.json';
 import deTranslations from '../locale/de.json';
 
 // Define the supported languages
-export type SupportedLanguage = 'en' | 'zhHans' | 'zhHant' | 'ja' | 'es' | 'de';
+export type SupportedLanguage = 'en' | 'zh-hans' | 'zh-hant' | 'ja' | 'es' | 'de';
 
 // Define the structure for translation objects
 type TranslationValue = string | Record<string, any>;
@@ -26,8 +26,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 // Translation dictionary with imported JSON files
 const translations: Record<SupportedLanguage, TranslationRecord> = {
   en: enTranslations,
-  zhHans: zhHansTranslations,
-  zhHant: zhHantTranslations,
+  'zh-hans': zhHansTranslations,
+  'zh-hant': zhHantTranslations,
   ja: jaTranslations,
   es: esTranslations,
   de: deTranslations
@@ -51,7 +51,7 @@ const detectBrowserLanguage = (): SupportedLanguage => {
       browserLang === 'zh-mo' || 
       browserLang === 'zh-hant' ||
       browserLang.startsWith('zh-hant-')) {
-    return 'zhHant';
+    return 'zh-hant';
   }
   
   // Simplified Chinese variants
@@ -59,7 +59,7 @@ const detectBrowserLanguage = (): SupportedLanguage => {
       browserLang === 'zh-sg' || 
       browserLang === 'zh-hans' ||
       browserLang.startsWith('zh-hans-')) {
-    return 'zhHans';
+    return 'zh-hans';
   }
   
   // Japanese variants
@@ -94,16 +94,29 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [language, setLanguage] = useState<SupportedLanguage>(() => {
     const saved = localStorage.getItem('language');
     
-    // Handle valid language codes
-    if (saved === 'en' || saved === 'zhHans' || saved === 'zhHant' || saved === 'ja' || saved === 'es' || saved === 'de') {
+    // Handle valid language codes in the new format
+    if (saved === 'en' || saved === 'zh-hans' || saved === 'zh-hant' || saved === 'ja' || saved === 'es' || saved === 'de') {
       return saved as SupportedLanguage;
     }
     
-    // Handle legacy 'zh' code by mapping to 'zhHans'
+    // Handle legacy camelCase format
+    if (saved === 'zhHans') {
+      // Update localStorage to the new format
+      localStorage.setItem('language', 'zh-hans');
+      return 'zh-hans';
+    }
+    
+    if (saved === 'zhHant') {
+      // Update localStorage to the new format
+      localStorage.setItem('language', 'zh-hant');
+      return 'zh-hant';
+    }
+    
+    // Handle very legacy 'zh' code by mapping to 'zh-hans'
     if (saved === 'zh') {
       // Update localStorage to the new format
-      localStorage.setItem('language', 'zhHans');
-      return 'zhHans';
+      localStorage.setItem('language', 'zh-hans');
+      return 'zh-hans';
     }
     
     // If no saved preference or invalid value, detect from browser

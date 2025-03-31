@@ -3,9 +3,10 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import OpenAI from 'openai';
 import { McpServer } from './mcpServers.js';
 import { config } from './config.js';
+import { callLLM, truncateToModelLimit } from './llm.js';
+import { LANGUAGES, translateText } from './llmTools.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -14,17 +15,15 @@ const __dirname = dirname(__filename);
 const CACHE_DIR = path.join(__dirname, '..', 'data', 'cached');
 const CACHE_TTL = config.cache.ttl;
 
-// Validate API key before initializing OpenAI client
-if (!config.openai.apiKeyIsValid) {
-  console.error('ERROR: OpenAI API key is missing or invalid. Please check your .env file.');
-  console.error('GitHub readme enrichment will not work without a valid API key.');
+// Interface for structured information extracted from README
+export interface ReadmeExtractedInfo {
+  name: string;
+  description: string;
+  Installation_instructions: string;
+  Usage_instructions: string;
+  features: string[];
+  prerequisites: string[];
 }
-
-// Initialize OpenAI client with configuration
-const openai = new OpenAI({
-  apiKey: config.openai.apiKey,
-  baseURL: config.openai.baseURL,
-});
 
 // Extended server interface with additional fields from README
 export interface EnrichedMcpServer extends McpServer {
@@ -78,34 +77,17 @@ export async function fetchReadmeContent(url: string): Promise<string> {
 }
 
 /**
- * Extract structured information from README using OpenAI
+ * Call LLM to extract structured information from README content
  */
-export async function extractInfoFromReadme(readmeContent: string): Promise<{
-  name: string;
-  description: string;
-  Installation_instructions: string;
-  Usage_instructions: string;
-  features: string[];
-  prerequisites: string[];
-}> {
+export async function callLLMForReadmeExtraction(content: string, locale: string = 'en'): Promise<ReadmeExtractedInfo> {
   try {
-    if (!readmeContent) {
-      throw new Error('README content is empty');
-    }
-
-    // Check if content exceeds character limit from config
-    const charLimit = config.openai.modelCharLimit;
-    let processedContent = readmeContent;
+    const languageName = LANGUAGES[locale] || 'English';
     
-    if (readmeContent.length > charLimit) {
-      console.warn(`README content exceeds character limit (${readmeContent.length}/${charLimit}), truncating...`);
-      // Truncate to limit minus 1000 characters to leave room for the prompt
-      processedContent = readmeContent.substring(0, charLimit - 1000);
-      console.log(`Truncated README to ${processedContent.length} characters`);
-    }
+    const prompt = `Extract structured information from the provided README.md content and provide the response in ${languageName}.
 
-    const prompt = `please use the README.md content to extract the following information in a json format 
+IMPORTANT: ALL text fields in your response MUST be in ${languageName}. Translate all extracted information from English to ${languageName} if needed.
 
+Return the information in the following JSON format:
 {
     "name": "string",
     "description": "string",
@@ -119,32 +101,52 @@ export async function extractInfoFromReadme(readmeContent: string): Promise<{
     ]
 }
 
-here is the README.md markdown content
-${processedContent}
+README.md content:
+${content}
+
+Remember to provide ALL fields in ${languageName} only.
 `;
 
-    // Use a default model if none is provided in config
-    const modelName = config.openai.modelName || 'gpt-3.5-turbo';
-
-    const completion = await openai.chat.completions.create({
-      messages: [
-        { role: 'system', content: 'You are a helpful assistant that extracts structured information from README files.' },
-        { role: 'user', content: prompt },
-      ],
-      model: modelName,
-    });
-
-    const content = completion.choices[0]?.message?.content || '';
+    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always return the information in ${languageName} regardless of the source language.`;
+    const responseContent = await callLLM(prompt, systemMessage);
     
     // Extract JSON from the response
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    const jsonMatch = responseContent.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
       throw new Error('Could not extract JSON from AI response');
     }
     
     // Parse the JSON response
-    const extractedInfo = JSON.parse(jsonMatch[0]);
-    return extractedInfo;
+    return JSON.parse(jsonMatch[0]);
+  } catch (error) {
+    console.error('Error calling LLM for README extraction:', error);
+    return {
+      name: '',
+      description: '',
+      Installation_instructions: '',
+      Usage_instructions: '',
+      features: [],
+      prerequisites: []
+    };
+  }
+}
+
+/**
+ * Extract structured information from README using OpenAI
+ * @param readmeContent The README content to extract information from
+ * @param locale The target locale for extracted information (default: 'en')
+ */
+export async function extractInfoFromReadme(readmeContent: string, locale: string = 'en'): Promise<ReadmeExtractedInfo> {
+  try {
+    if (!readmeContent) {
+      throw new Error('README content is empty');
+    }
+
+    // Use the truncateToModelLimit function from llm.ts
+    const processedContent = truncateToModelLimit(readmeContent);
+
+    // Call the LLM extraction function with the processed content and locale
+    return await callLLMForReadmeExtraction(processedContent, locale);
   } catch (error) {
     console.error('Error extracting information from README:', error);
     return {
@@ -206,13 +208,16 @@ export async function cacheServerData(serverData: EnrichedMcpServer): Promise<vo
 
 /**
  * Enrich server data with information from GitHub README or other public URLs
+ * @param server The MCP server to enrich
+ * @param locale The target locale for extracted information (default: 'en')
  */
-export async function enrichServerData(server: McpServer): Promise<EnrichedMcpServer> {
+export async function enrichServerData(server: McpServer, locale: string = 'en'): Promise<EnrichedMcpServer> {
   try {
-    // Check cache first
-    const cachedData = await getCachedServerData(server.hubId);
+    // Check cache first - locale-specific cache key
+    const cacheKey = `${server.hubId}_${locale}`;
+    const cachedData = await getCachedServerData(cacheKey);
     if (cachedData) {
-      console.log(`Using cached data for server ${server.hubId}`);
+      console.log(`Using cached data for server ${server.hubId} in locale ${locale}`);
       return cachedData;
     }
     
@@ -231,7 +236,8 @@ export async function enrichServerData(server: McpServer): Promise<EnrichedMcpSe
       return { ...server, lastEnrichmentTime: Date.now() };
     }
     
-    const extractedInfo = await extractInfoFromReadme(readmeContent);
+    // Extract information in the target locale
+    const extractedInfo = await extractInfoFromReadme(readmeContent, locale);
     
     // Merge original server data with extracted information
     const enrichedServer: EnrichedMcpServer = {
@@ -240,12 +246,14 @@ export async function enrichServerData(server: McpServer): Promise<EnrichedMcpSe
       lastEnrichmentTime: Date.now(),
     };
     
-    // Cache the enriched data
+    // Cache the enriched data using locale-specific key
+    enrichedServer.hubId = cacheKey; // Temporarily modify hubId for caching
     await cacheServerData(enrichedServer);
+    enrichedServer.hubId = server.hubId; // Restore original hubId
     
     return enrichedServer;
   } catch (error) {
-    console.error(`Error enriching server data for ${server.hubId}:`, error);
+    console.error(`Error enriching server data for ${server.hubId} in locale ${locale}:`, error);
     return { ...server, lastEnrichmentTime: Date.now() };
   }
 }

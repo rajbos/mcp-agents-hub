@@ -1,8 +1,14 @@
 import { MCPServer } from '../types';
+import { SupportedLanguage } from '../contexts/LanguageContext';
 
-export async function fetchMCPServers(): Promise<MCPServer[]> {
+export async function fetchMCPServers(locale?: SupportedLanguage): Promise<MCPServer[]> {
   try {
-    const response = await fetch('/v1/hub/servers');
+    // Build URL with locale query parameter if provided
+    const url = locale 
+      ? `/v1/hub/servers?locale=${locale}`
+      : '/v1/hub/servers';
+      
+    const response = await fetch(url);
     if (!response.ok) {
       throw new Error('Failed to fetch MCP servers');
     }

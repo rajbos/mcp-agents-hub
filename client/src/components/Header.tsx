@@ -130,14 +130,14 @@ export function Header() {
                       English
                     </button>
                     <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'zhHans' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('zhHans')}
+                      className={`px-3 py-1 rounded text-sm ${language === 'zh-hans' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('zh-hans')}
                     >
                       简体中文
                     </button>
                     <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'zhHant' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('zhHant')}
+                      className={`px-3 py-1 rounded text-sm ${language === 'zh-hant' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('zh-hant')}
                     >
                       繁體中文
                     </button>
@@ -363,8 +363,8 @@ export function Header() {
                     />
                   </svg>
                   {language === 'en' ? 'English' : 
-                    language === 'zhHans' ? '简体中文' : 
-                    language === 'zhHant' ? '繁體中文' : 
+                    language === 'zh-hans' ? '简体中文' : 
+                    language === 'zh-hant' ? '繁體中文' : 
                     language === 'es' ? 'Español' : 
                     language === 'de' ? 'Deutsch' : '日本語'}
                   <svg 
@@ -393,14 +393,14 @@ export function Header() {
                         English
                       </button>
                       <button
-                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zhHans' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
-                        onClick={() => toggleLanguage('zhHans')}
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zh-hans' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('zh-hans')}
                       >
                         简体中文 (Simplified Chinese)
                       </button>
                       <button
-                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zhHant' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
-                        onClick={() => toggleLanguage('zhHant')}
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zh-hant' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('zh-hant')}
                       >
                         繁體中文 (Traditional Chinese)
                       </button>

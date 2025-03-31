@@ -26,26 +26,71 @@ export interface McpServer {
   [key: string]: string | number | boolean | string[] | undefined;
 }
 
-// In-memory cache for MCP servers data
-let mcpServersCache: McpServer[] = [];
-let lastCacheUpdate: number = 0;
+// In-memory cache for MCP servers data - now keyed by locale
+const mcpServersCache: Record<string, McpServer[]> = {};
+const lastCacheUpdate: Record<string, number> = {};
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour in milliseconds
+const DEFAULT_LOCALE = 'en';
+
+// Add support for both formats of locales (kebab-case and camelCase)
+const SUPPORTED_LOCALES = ['en', 'de', 'es', 'ja', 'zh-hans', 'zhHans', 'zh-hant', 'zhHant'];
+
+// Mapping for locale names to handle kebab-case vs. camelCase formats
+const localeDirectoryMapping: Record<string, string> = {
+  'zhHans': 'zh-hans', // Map camelCase to kebab-case
+  'zhHant': 'zh-hant', // Map camelCase to kebab-case
+  'zh-hans': 'zh-hans', // Keep kebab-case as is
+  'zh-hant': 'zh-hant'  // Keep kebab-case as is
+};
+
+/**
+ * Normalizes a locale name to the directory format
+ * @param locale The locale to normalize
+ */
+function normalizeLocaleForDirectory(locale: string): string {
+  return localeDirectoryMapping[locale] || locale;
+}
 
 /**
  * Loads all MCP server data from split files and combines them
+ * @param locale The locale to load data for (default: 'en')
  */
-export async function loadMcpServersData(): Promise<McpServer[]> {
+export async function loadMcpServersData(locale: string = DEFAULT_LOCALE): Promise<McpServer[]> {
   try {
-    const splitDirPath = join(__dirname, '..', 'data', 'split');
-    const files = await fs.readdir(splitDirPath);
+    // Use the default locale if the requested one is not supported
+    if (!SUPPORTED_LOCALES.includes(locale)) {
+      console.warn(`Locale ${locale} is not supported. Using default locale ${DEFAULT_LOCALE} instead.`);
+      locale = DEFAULT_LOCALE;
+    }
+
+    // Determine the directory to load files from
+    const baseDir = join(__dirname, '..', 'data', 'split');
+    
+    // Map the locale to the correct directory name if needed
+    const directoryLocale = normalizeLocaleForDirectory(locale);
+    
+    // For English, use the root directory; for other locales, use the locale-specific subdirectory
+    let dirPath = locale === DEFAULT_LOCALE ? baseDir : join(baseDir, directoryLocale);
+    
+    // Check if the directory exists
+    try {
+      await fs.access(dirPath);
+    } catch {
+      console.warn(`Directory for locale ${directoryLocale} (from ${locale}) does not exist. Falling back to default locale.`);
+      locale = DEFAULT_LOCALE;
+      // Use the base directory for the default locale
+      dirPath = baseDir;
+    }
+    
+    const files = await fs.readdir(dirPath);
     
     const serversData: McpServer[] = [];
     
-    // Process each file in the split directory
+    // Process each file in the directory
     for (const file of files) {
       if (file.endsWith('.json')) {
         try {
-          const filePath = join(splitDirPath, file);
+          const filePath = join(dirPath, file);
           const fileContent = await fs.readFile(filePath, 'utf8');
           const serverData = JSON.parse(fileContent) as McpServer;
           serversData.push(serverData);
@@ -58,7 +103,7 @@ export async function loadMcpServersData(): Promise<McpServer[]> {
     
     return serversData;
   } catch (error) {
-    console.error('Error loading MCP servers data:', error);
+    console.error(`Error loading MCP servers data for locale ${locale}:`, error);
     return [];
   }
 }
@@ -72,30 +117,33 @@ export function getCleanedServersData(serversData: McpServer[]): Omit<McpServer,
 }
 
 /**
- * Refreshes the cache if TTL has expired
+ * Refreshes the cache if TTL has expired for the specified locale
+ * @param locale The locale to refresh cache for (default: 'en')
  */
-export async function refreshCacheIfNeeded(): Promise<McpServer[]> {
+export async function refreshCacheIfNeeded(locale: string = DEFAULT_LOCALE): Promise<McpServer[]> {
   const now = Date.now();
-  if (now - lastCacheUpdate > CACHE_TTL || mcpServersCache.length === 0) {
-    mcpServersCache = await loadMcpServersData();
-    lastCacheUpdate = now;
-    console.log(`MCP servers cache refreshed at ${new Date().toISOString()}`);
+  // If the locale doesn't have a cache entry or the cache is expired
+  if (!mcpServersCache[locale] || !lastCacheUpdate[locale] || now - lastCacheUpdate[locale] > CACHE_TTL) {
+    mcpServersCache[locale] = await loadMcpServersData(locale);
+    lastCacheUpdate[locale] = now;
+    console.log(`MCP servers cache refreshed for locale ${locale} at ${new Date().toISOString()}`);
   }
-  return mcpServersCache;
+  return mcpServersCache[locale];
 }
 
 /**
- * Force a refresh of the cache regardless of TTL
+ * Force a refresh of the cache for the specified locale regardless of TTL
  * Use this when new data has been added to ensure immediate visibility
+ * @param locale The locale to force refresh (default: 'en')
  */
-export async function forceRefreshCache(): Promise<McpServer[]> {
-  mcpServersCache = await loadMcpServersData();
-  lastCacheUpdate = Date.now();
-  console.log(`MCP servers cache force-refreshed at ${new Date().toISOString()}`);
-  return mcpServersCache;
+export async function forceRefreshCache(locale: string = DEFAULT_LOCALE): Promise<McpServer[]> {
+  mcpServersCache[locale] = await loadMcpServersData(locale);
+  lastCacheUpdate[locale] = Date.now();
+  console.log(`MCP servers cache force-refreshed for locale ${locale} at ${new Date().toISOString()}`);
+  return mcpServersCache[locale];
 }
 
-// Initialize the cache on startup
+// Initialize the cache for default locale on startup
 refreshCacheIfNeeded().catch(err => {
   console.error('Failed to initialize MCP servers cache:', err);
 });

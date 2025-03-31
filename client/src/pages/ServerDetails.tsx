@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { MCPServer } from '../types';
 import { Database, ChevronLeft, ExternalLink, Star, Download, BrainCircuit, FileSearch, Loader } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ServerDetails() {
   const { hubId } = useParams<{ hubId: string }>();
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const location = useLocation();
   const [server, setServer] = useState<MCPServer | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [loadingPhase, setLoadingPhase] = useState(0);
+  const [lastFetchedLanguage, setLastFetchedLanguage] = useState<string | null>(null);
 
   useEffect(() => {
     // Rotate through loading icons
@@ -26,13 +28,34 @@ export function ServerDetails() {
   useEffect(() => {
     async function fetchServerDetails() {
       try {
-        const response = await fetch(`/v1/hub/servers/${hubId}`);
+        setLoading(true);
+        
+        // Map component language to API locale format (already in the correct format)
+        const localeMap: Record<string, string> = {
+          en: 'en',
+          'zh-hans': 'zh-hans',
+          'zh-hant': 'zh-hant',
+          ja: 'ja',
+          es: 'es',
+          de: 'de'
+        };
+        
+        // Check URL query parameters first for locale
+        const urlParams = new URLSearchParams(location.search);
+        const urlLocale = urlParams.get('locale');
+        
+        // Use URL locale if present, otherwise use current language context
+        const locale = urlLocale || localeMap[language];
+        
+        const response = await fetch(`/v1/hub/servers/${hubId}?locale=${locale}`);
         if (!response.ok) {
           throw new Error(t('details.fetchError'));
         }
         const data = await response.json();
         setServer(data);
         setLoading(false);
+        // Store the language we just fetched for
+        setLastFetchedLanguage(language);
       } catch (err) {
         setError(t('details.errorLoading'));
         setLoading(false);
@@ -41,9 +64,12 @@ export function ServerDetails() {
     }
 
     if (hubId) {
-      fetchServerDetails();
+      // Always fetch when hubId changes or if we don't have data yet
+      if (!server || lastFetchedLanguage !== language) {
+        fetchServerDetails();
+      }
     }
-  }, [hubId, t]);
+  }, [hubId, t, language, location.search, server, lastFetchedLanguage]);
 
   // Get current loading icon based on phase
   const getLoadingIcon = () => {
