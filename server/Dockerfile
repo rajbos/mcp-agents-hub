@@ -16,7 +16,7 @@ COPY src/data/mcp-servers.json dist/data/mcp-servers.json
 # Create split directory if it doesn't exist
 RUN mkdir -p dist/data/split
 # Copy all files from split directory
-COPY src/data/split/*.json dist/data/split/
+# COPY src/data/split/*.json dist/data/split/
 
 # Build the application
 RUN npm run build
