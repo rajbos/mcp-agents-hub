@@ -28,6 +28,10 @@
       "title": "开放标准",
       "description": "基于开放的模型上下文协议标准构建"
     },
+    "submitBanner": {
+      "oneClick": "只需一键提交！",
+      "aiSystem": "我们的人工智能系统会自动分析您的存储库并提取所有必要信息。"
+    },
     "discover": {
       "title": "发现 MCP 智能体（服务器）",
       "description": "MCP智能体生态系统正在快速成长、立即开始使用MCP智能体构建你的AI系统"
