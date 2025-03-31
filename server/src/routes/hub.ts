@@ -81,6 +81,7 @@ async function createLocalizedServerFiles(
 // GET /servers - returns server data with hubId included
 router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
+    console.log('api /servers called: req.query.locale = ', req.query.locale);
     // Get locale from query parameter, default to 'en'
     const requestedLocale = (req.query.locale as string) || 'en';
     
@@ -99,6 +100,8 @@ router.get('/servers', async (req: Request, res: Response): Promise<void> => {
 // GET /servers/:hubId - returns a specific server by hubId with enriched data from GitHub README
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
+    console.log('api /servers/:hubId called: req.params.hubId = ', req.params.hubId);
+    console.log('api /servers/:hubId called: req.query.locale = ', req.query.locale);
     const { hubId } = req.params;
     // Get locale from query parameter, default to 'en'
     const requestedLocale = (req.query.locale as string) || 'en';
@@ -130,6 +133,7 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
 // POST /servers/submit - submits a new server to be added
 router.post('/servers/submit', async (req: Request, res: Response): Promise<void> => {
   try {
+    console.log('api /servers/submit called: req.body = ', req.body);
     const { githubUrl } = req.body;
 
     if (!githubUrl) {
