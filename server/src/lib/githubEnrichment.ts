@@ -101,11 +101,14 @@ export async function callLLMForReadmeExtraction(content: string, locale: string
     
     const prompt = `Extract structured information from the provided README.md content and provide the response in ${languageName}.
 
-IMPORTANT: ALL text fields in your response MUST be in ${languageName}. Translate all extracted information from English to ${languageName} if needed.
+IMPORTANT: 
+- ALL text fields in your response MUST be in ${languageName} EXCEPT for the "name" field.
+- The "name" field MUST remain in its original form without translation.
+- Translate all other extracted information from English to ${languageName} if needed.
 
 Return the information in the following JSON format:
 {
-    "name": "string",
+    "name": "string", // KEEP THIS IN ORIGINAL LANGUAGE, DO NOT TRANSLATE
     "description": "string",
     "Installation_instructions": "string",
     "Usage_instructions": "string",
@@ -120,10 +123,10 @@ Return the information in the following JSON format:
 README.md content:
 ${content}
 
-Remember to provide ALL fields in ${languageName} only.
+Remember to keep "name" in its original language, but provide all other fields in ${languageName}.
 `;
 
-    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always return the information in ${languageName} regardless of the source language.`;
+    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always keep the "name" field in its original language, but translate all other information to ${languageName}.`;
     const responseContent = await callLLM(prompt, systemMessage);
     
     // Extract JSON from the response
