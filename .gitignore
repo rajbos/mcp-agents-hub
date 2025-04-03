@@ -29,3 +29,8 @@ dist-ssr
 # data directories, cached data in runtime
 server/src/data/cached
 server/tests/results
+server/src/data/split/de
+server/src/data/split/zh-hans
+server/src/data/split/zh-hant
+server/src/data/split/ja
+server/src/data/split/es
