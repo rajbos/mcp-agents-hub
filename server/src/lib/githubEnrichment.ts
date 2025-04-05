@@ -36,21 +36,37 @@ export interface EnrichedMcpServer extends McpServer {
 
 /**
  * Convert GitHub URL to raw README.md URL
+ * Handles both repository root URLs and subfolder URLs
  */
 export function convertToRawReadmeUrl(githubUrl: string): string {
   // Remove trailing slash if present
   const normalizedUrl = githubUrl.endsWith('/') ? githubUrl.slice(0, -1) : githubUrl;
   
-  // Convert from: https://github.com/Owner/Repo
-  // To: https://raw.githubusercontent.com/Owner/Repo/refs/heads/main/README.md
+  // Extract parts from the URL
   const parts = normalizedUrl.split('/');
-  if (parts.length >= 5) {
-    const owner = parts[3];
-    const repo = parts[4];
-    return `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/README.md`;
+  if (parts.length < 5) {
+    throw new Error(`Invalid GitHub URL format: ${githubUrl}`);
   }
   
-  throw new Error(`Invalid GitHub URL format: ${githubUrl}`);
+  const owner = parts[3];
+  const repo = parts[4];
+  let subfolderPath = '';
+  
+  // Check if the URL points to a subfolder (tree/branch/path structure)
+  if (parts.length > 5 && parts[5] === 'tree') {
+    const branch = parts[6]; // Usually 'main' or 'master'
+    
+    // Collect all path segments after the branch
+    if (parts.length > 7) {
+      subfolderPath = parts.slice(7).join('/') + '/';
+    }
+    
+    // Construct raw URL with the subfolder path
+    return `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/${branch}/${subfolderPath}README.md`;
+  }
+  
+  // Default case: repository root
+  return `https://raw.githubusercontent.com/${owner}/${repo}/refs/heads/main/README.md`;
 }
 
 /**
@@ -85,11 +101,14 @@ export async function callLLMForReadmeExtraction(content: string, locale: string
     
     const prompt = `Extract structured information from the provided README.md content and provide the response in ${languageName}.
 
-IMPORTANT: ALL text fields in your response MUST be in ${languageName}. Translate all extracted information from English to ${languageName} if needed.
+IMPORTANT: 
+- ALL text fields in your response MUST be in ${languageName} EXCEPT for the "name" field.
+- The "name" field MUST remain in its original form without translation.
+- Translate all other extracted information from English to ${languageName} if needed.
 
 Return the information in the following JSON format:
 {
-    "name": "string",
+    "name": "string", // KEEP THIS IN ORIGINAL LANGUAGE, DO NOT TRANSLATE
     "description": "string",
     "Installation_instructions": "string",
     "Usage_instructions": "string",
@@ -104,10 +123,10 @@ Return the information in the following JSON format:
 README.md content:
 ${content}
 
-Remember to provide ALL fields in ${languageName} only.
+Remember to keep "name" in its original language, but provide all other fields in ${languageName}.
 `;
 
-    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always return the information in ${languageName} regardless of the source language.`;
+    const systemMessage = `You are a helpful assistant that extracts structured information from README files and accurately translates it to ${languageName}. Always keep the "name" field in its original language, but translate all other information to ${languageName}.`;
     const responseContent = await callLLM(prompt, systemMessage);
     
     // Extract JSON from the response
