@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/github/github-mcp-server",
+  "githubUrl": "https://github.com/github/github-mcp-server",
+  "name": "GitHub MCP Server",
+  "author": "github",
+  "description": "The GitHub MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with GitHub APIs, enabling advanced automation and interaction capabilities for developers and tools.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "tools",
+  "tags": [
+    "github",
+    "server",
+    "context",
+    "protocol",
+    "server"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-05T15:09:24.808Z",
+  "updatedAt": "2025-04-05T15:09:24.808Z",
+  "hubId": "eec70b66-de5f-4843-87b4-9b313814f7f6"
+}
