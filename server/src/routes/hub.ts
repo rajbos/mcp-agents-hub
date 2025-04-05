@@ -106,7 +106,8 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
     // Get locale from query parameter, default to 'en'
     const requestedLocale = (req.query.locale as string) || 'en';
     // Normalize locale for server-side processing
-    const normalizedLocale = normalizeLocale(requestedLocale);
+    //const normalizedLocale = normalizeLocale(requestedLocale);
+    const normalizedLocale = requestedLocale;
     
     const mcpServersCache = await refreshCacheIfNeeded(normalizedLocale);
     
