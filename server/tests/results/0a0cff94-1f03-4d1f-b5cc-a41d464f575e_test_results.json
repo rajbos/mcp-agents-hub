@@ -8,17 +8,16 @@
   "extractedInfo": {
     "name": "AWS Knowledge Base Retrieval MCP Server",
     "description": "An MCP server implementation for retrieving information from the AWS Knowledge Base using the Bedrock Agent Runtime.",
-    "Installation_instructions": "You can install the server using Docker or NPX. For Docker, build the image using the provided Dockerfile. For NPX, use the command 'npx -y @modelcontextprotocol/server-aws-kb-retrieval'. Ensure AWS credentials are configured either via IAM Access Keys or AWS SSO.",
-    "Usage_instructions": "Use the 'retrieve_from_aws_kb' tool to perform retrieval operations. Inputs include 'query', 'knowledgeBaseId', and optionally 'n' for the number of results. The response includes raw context and structured RAG sources with metadata.",
+    "Installation_instructions": "To install, follow the configuration steps for AWS credentials (either IAM Access Keys or AWS SSO) and set up the environment variables as described. Use Docker or NPX commands to run the server, or build it from a local repository.",
+    "Usage_instructions": "Use the `retrieve_from_aws_kb` tool to perform retrieval operations. Provide a query, Knowledge Base ID, and optionally the number of results to retrieve. The response includes raw context and structured RAG sources with metadata.",
     "features": [
       "RAG (Retrieval-Augmented Generation): Retrieve context from the AWS Knowledge Base based on a query and a Knowledge Base ID.",
       "Supports multiple results retrieval: Option to retrieve a customizable number of results."
     ],
     "prerequisites": [
-      "AWS access key ID, secret access key, and region from the AWS Management Console.",
-      "AWS CLI configured with SSO profile if using AWS SSO.",
-      "Docker installed if using Docker for installation.",
-      "Node.js installed if using NPX or running from a local repository."
+      "AWS access key ID, secret access key, and region (for IAM Access Keys).",
+      "AWS SSO profile configuration (for AWS SSO).",
+      "Docker or NPX installed (depending on the chosen installation method)."
     ]
   }
 }
