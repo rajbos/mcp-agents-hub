@@ -5,7 +5,7 @@ import { fetchReadmeContent } from '../lib/githubEnrichment.js';
 const router = Router();
 
 // GET /servers 
-router.get('/servers', async (_req, res) => {
+router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
     const mcpServersCache = await refreshCacheIfNeeded();
     
@@ -20,12 +20,13 @@ router.get('/servers', async (_req, res) => {
 });
 
 // POST /download - Get server data with README content
-router.post('/download', async (req, res) => {
+router.post('/download', async (req: Request, res: Response): Promise<void> => {
   try {
     // Validate request body
     const { mcpId } = req.body;
     if (!mcpId) {
-      return res.status(400).json({ error: 'mcpId is required' });
+      res.status(400).json({ error: 'mcpId is required' });
+      return;
     }
 
     // Get the latest servers data
@@ -34,7 +35,8 @@ router.post('/download', async (req, res) => {
     // Find the requested server by mcpId
     const server = mcpServersCache.find(server => server.mcpId === mcpId);
     if (!server) {
-      return res.status(404).json({ error: 'Server not found' });
+      res.status(404).json({ error: 'Server not found' });
+      return;
     }
 
     // Get README content if GitHub URL is available
