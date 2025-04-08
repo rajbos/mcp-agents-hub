@@ -20,7 +20,7 @@ router.get('/servers', async (_req, res) => {
 });
 
 // POST /download - Get server data with README content
-router.post('/download', async (req: Request, res: Response) => {
+router.post('/download', async (req, res) => {
   try {
     // Validate request body
     const { mcpId } = req.body;
