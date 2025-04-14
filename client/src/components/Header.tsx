@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage, SupportedLanguage } from '../contexts/LanguageContext';
+import { CategoriesDropdown } from './CategoriesDropdown';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -119,133 +120,137 @@ export function Header() {
             {/* Mobile menu - absolutely positioned for better layout */}
             <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden absolute top-20 right-0 left-0 bg-white shadow-md z-10`} ref={mobileMenuRef}>
               <div className="px-4 py-3 space-y-2">
-                {/* Language switcher for mobile */}
-                <div className="border-b border-gray-100 pb-2 mb-2">
-                  <div className="text-gray-700 font-medium text-base py-2">{t('language.label')} / 语言 / 言語 / Idioma</div>
-                  <div className="flex flex-wrap space-x-2 mt-1">
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'en' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('en')}
-                    >
-                      English
-                    </button>
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'zh-hans' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('zh-hans')}
-                    >
-                      简体中文
-                    </button>
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'zh-hant' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('zh-hant')}
-                    >
-                      繁體中文
-                    </button>
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'ja' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('ja')}
-                    >
-                      日本語
-                    </button>
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'es' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('es')}
-                    >
-                      Español
-                    </button>
-                    <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'de' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('de')}
-                    >
-                      Deutsch
-                    </button>
+                  {/* Language switcher for mobile */}
+                  <div className="border-b border-gray-100 pb-2 mb-2">
+                    <div className="text-gray-700 font-medium text-base py-2">{t('language.label')} / 语言 / 言語 / Idioma</div>
+                    <div className="flex flex-wrap space-x-2 mt-1">
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'en' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('en')}
+                      >
+                        English
+                      </button>
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'zh-hans' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('zh-hans')}
+                      >
+                        简体中文
+                      </button>
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'zh-hant' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('zh-hant')}
+                      >
+                        繁體中文
+                      </button>
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'ja' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('ja')}
+                      >
+                        日本語
+                      </button>
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'es' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('es')}
+                      >
+                        Español
+                      </button>
+                      <button
+                        className={`px-3 py-1 rounded text-sm ${language === 'de' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                        onClick={() => toggleLanguage('de')}
+                      >
+                        Deutsch
+                      </button>
+                    </div>
                   </div>
+                  
+                  {/* Mobile menu navigation items */}
+                  <Link 
+                    to="/" 
+                    className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
+                    onClick={closeMenu}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      strokeWidth="1.5" 
+                      stroke="currentColor" 
+                      className="w-5 h-5 mr-2"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" 
+                      />
+                    </svg>
+                    {t('nav.home')}
+                  </Link>
+                  
+                  {/* Categories dropdown for mobile */}
+                  <CategoriesDropdown isMobile={true} onSelectMobile={closeMenu} />
+                  
+                  <Link to="/submit" className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
+                    onClick={closeMenu}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      strokeWidth="1.5" 
+                      stroke="currentColor" 
+                      className="w-5 h-5 mr-1"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" 
+                      />
+                    </svg>
+                    {t('nav.submit')}
+                  </Link>
+                  <Link 
+                    to="/docs" 
+                    className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
+                    onClick={closeMenu}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      strokeWidth="1.5" 
+                      stroke="currentColor" 
+                      className="w-5 h-5 mr-1"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" 
+                      />
+                    </svg>
+                    {t('nav.docs')}
+                  </Link>
+                  <Link 
+                    to="/about" 
+                    className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
+                    onClick={closeMenu}
+                  >
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      strokeWidth="1.5" 
+                      stroke="currentColor" 
+                      className="w-5 h-5 mr-1"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" 
+                      />
+                    </svg>
+                    {t('nav.about')}
+                  </Link>
                 </div>
-                
-                {/* Mobile menu navigation items */}
-                <Link 
-                  to="/" 
-                  className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
-                  onClick={closeMenu}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    strokeWidth="1.5" 
-                    stroke="currentColor" 
-                    className="w-5 h-5 mr-2"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" 
-                    />
-                  </svg>
-                  {t('nav.home')}
-                </Link>
-                <Link to="/submit" className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
-                  onClick={closeMenu}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    strokeWidth="1.5" 
-                    stroke="currentColor" 
-                    className="w-5 h-5 mr-1"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" 
-                    />
-                  </svg>
-                  {t('nav.submit')}
-                </Link>
-                <Link 
-                  to="/docs" 
-                  className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
-                  onClick={closeMenu}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    strokeWidth="1.5" 
-                    stroke="currentColor" 
-                    className="w-5 h-5 mr-1"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" 
-                    />
-                  </svg>
-                  {t('nav.docs')}
-                </Link>
-                <Link 
-                  to="/about" 
-                  className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
-                  onClick={closeMenu}
-                >
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 24 24" 
-                    strokeWidth="1.5" 
-                    stroke="currentColor" 
-                    className="w-5 h-5 mr-1"
-                  >
-                    <path 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round" 
-                      d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" 
-                    />
-                  </svg>
-                  {t('nav.about')}
-                </Link>
-              </div>
             </div>
             
             {/* Desktop menu */}
@@ -268,6 +273,10 @@ export function Header() {
                 </svg>
                 {t('nav.home')}
               </Link>
+              
+              {/* Categories dropdown for desktop */}
+              <CategoriesDropdown />
+              
               <Link to="/submit" className="text-gray-700 hover:text-indigo-600 font-medium flex items-center">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
