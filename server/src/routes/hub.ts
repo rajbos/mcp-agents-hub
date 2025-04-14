@@ -1,6 +1,7 @@
 import { Router, Request, Response } from 'express';
 import { refreshCacheIfNeeded, forceRefreshCache } from '../lib/mcpServers.js';
 import { enrichServerData, fetchReadmeContent, extractInfoFromReadme } from '../lib/githubEnrichment.js';
+import { MCP_SERVER_CATEGORIES } from '../lib/mcpCategories.js';
 import { v4 as uuidv4 } from 'uuid';
 import path from 'path';
 import fs from 'fs/promises';
@@ -251,6 +252,18 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
   } catch (error) {
     console.error('Error submitting new server:', error);
     res.status(500).json({ error: 'Internal server error while submitting server' });
+  }
+});
+
+// GET /server_categories - returns the list of available server categories
+router.get('/server_categories', (req: Request, res: Response): void => {
+  try {
+    console.log('api /server_categories called');
+    res.json(MCP_SERVER_CATEGORIES);
+    console.log(`v1/hub/server_categories Served categories at ${new Date().toISOString()}`);
+  } catch (error) {
+    console.error('Error serving categories:', error);
+    res.status(500).json({ error: 'Internal server error' });
   }
 });
 
