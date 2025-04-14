@@ -1,0 +1,15 @@
+{
+  "browser-automation": "ブラウザ自動化",
+  "cloud-platforms": "クラウドプラットフォーム",
+  "communication": "コミュニケーション",
+  "databases": "データベース",
+  "file-systems": "ファイルシステム",
+  "knowledge-memory": "知識とメモリ",
+  "location-services": "位置情報サービス",
+  "monitoring": "モニタリング",
+  "search": "検索",
+  "version-control": "バージョン管理",
+  "integrations": "統合",
+  "other-tools": "その他のツール",
+  "developer-tools": "開発ツール"
+}

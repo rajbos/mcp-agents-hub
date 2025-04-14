@@ -1,0 +1,15 @@
+{
+  "browser-automation": "瀏覽器自動化",
+  "cloud-platforms": "雲平台",
+  "communication": "通訊",
+  "databases": "數據庫",
+  "file-systems": "檔案系統",
+  "knowledge-memory": "知識與記憶",
+  "location-services": "位置服務",
+  "monitoring": "監控",
+  "search": "搜尋",
+  "version-control": "版本控制",
+  "integrations": "整合",
+  "other-tools": "其他工具",
+  "developer-tools": "開發者工具"
+}

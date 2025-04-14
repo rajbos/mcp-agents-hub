@@ -1,0 +1,15 @@
+{
+  "browser-automation": "浏览器自动化",
+  "cloud-platforms": "云平台",
+  "communication": "通信",
+  "databases": "数据库",
+  "file-systems": "文件系统",
+  "knowledge-memory": "知识与记忆",
+  "location-services": "位置服务",
+  "monitoring": "监控",
+  "search": "搜索",
+  "version-control": "版本控制",
+  "integrations": "集成",
+  "other-tools": "其他工具",
+  "developer-tools": "开发者工具"
+}

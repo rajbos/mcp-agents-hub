@@ -6,6 +6,13 @@ import jaTranslations from '../locale/ja.json';
 import esTranslations from '../locale/es.json';
 import deTranslations from '../locale/de.json';
 
+import enCategoryTranslations from '../locale/category-en.json';
+import zhHansCategoryTranslations from '../locale/category-zh-hans.json';
+import zhHantCategoryTranslations from '../locale/category-zh-hant.json';
+import jaCategoryTranslations from '../locale/category-ja.json';
+import esCategoryTranslations from '../locale/category-es.json';
+import deCategoryTranslations from '../locale/category-de.json';
+
 // Define the supported languages
 export type SupportedLanguage = 'en' | 'zh-hans' | 'zh-hant' | 'ja' | 'es' | 'de';
 
@@ -25,12 +32,12 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 // Translation dictionary with imported JSON files
 const translations: Record<SupportedLanguage, TranslationRecord> = {
-  en: enTranslations,
-  'zh-hans': zhHansTranslations,
-  'zh-hant': zhHantTranslations,
-  ja: jaTranslations,
-  es: esTranslations,
-  de: deTranslations
+  en: { ...enTranslations, category: enCategoryTranslations },
+  'zh-hans': { ...zhHansTranslations, category: zhHansCategoryTranslations },
+  'zh-hant': { ...zhHantTranslations, category: zhHantCategoryTranslations },
+  ja: { ...jaTranslations, category: jaCategoryTranslations },
+  es: { ...esTranslations, category: esCategoryTranslations },
+  de: { ...deTranslations, category: deCategoryTranslations }
 };
 
 // Helper function to detect browser language
