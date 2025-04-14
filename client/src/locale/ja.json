@@ -30,6 +30,10 @@
       "title": "オープンスタンダード",
       "description": "オープンなModel Context Protocolに基づいて構築"
     },
+    "submitBanner": {
+      "oneClick": "ワンクリックで提出！",
+      "aiSystem": "AIシステムが自動的にあなたのリポジトリを分析し、必要な情報をすべて抽出します。"
+    },
     "discover": {
       "title": "MCPサーバーを発見",
       "description": "成長するMCPサーバーのエコシステムを閲覧して接続"
