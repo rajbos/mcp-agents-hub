@@ -29,6 +29,10 @@
       "title": "Estándar Abierto",
       "description": "Construido sobre el estándar abierto del Protocolo de Contexto de Modelo"
     },
+    "submitBanner": {
+      "oneClick": "¡Envía con solo un clic!",
+      "aiSystem": "Nuestro sistema de IA analiza automáticamente tu repositorio y extrae toda la información necesaria."
+    },
     "discover": {
       "title": "Descubra Servidores MCP",
       "description": "Explore y conéctese a un ecosistema creciente de servidores MCP"

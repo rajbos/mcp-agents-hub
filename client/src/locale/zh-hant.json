@@ -29,6 +29,10 @@
       "title": "標準開放",
       "description": "基於開放模型的 Context 所建構的標準規範"
     },
+    "submitBanner": {
+      "oneClick": "只需點擊一次即可提交！",
+      "aiSystem": "我們的人工智慧系統會自動分析您的儲存庫並提取所有必要資訊。"
+    },
     "discover": {
       "title": "探索 MCP Agents (伺服器服務)",
       "description": "MCP Agents 生態體系正在飛快的成長茁壯中，探索 MCP Agents 並且開始立即使用，建置你的 AI 系統！"

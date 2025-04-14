@@ -31,6 +31,10 @@
       "title": "Offener Standard",
       "description": "Basierend auf dem offenen Model Context Protocol-Standard"
     },
+    "submitBanner": {
+      "oneClick": "Mit nur einem Klick einreichen!",
+      "aiSystem": "Unser KI-System analysiert automatisch Ihr Repository und extrahiert alle notwendigen Informationen."
+    },
     "discover": {
       "title": "MCP-Server entdecken",
       "description": "Durchsuchen und verbinden Sie sich mit einem wachsenden Ökosystem von MCP-Servern"
