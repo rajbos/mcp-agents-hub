@@ -32,24 +32,8 @@ const lastCacheUpdate: Record<string, number> = {};
 const CACHE_TTL = 60 * 60 * 1000; // 1 hour in milliseconds
 const DEFAULT_LOCALE = 'en';
 
-// Add support for both formats of locales (kebab-case and camelCase)
-const SUPPORTED_LOCALES = ['en', 'de', 'es', 'ja', 'zh-hans', 'zhHans', 'zh-hant', 'zhHant'];
-
-// Mapping for locale names to handle kebab-case vs. camelCase formats
-const localeDirectoryMapping: Record<string, string> = {
-  'zhHans': 'zh-hans', // Map camelCase to kebab-case
-  'zhHant': 'zh-hant', // Map camelCase to kebab-case
-  'zh-hans': 'zh-hans', // Keep kebab-case as is
-  'zh-hant': 'zh-hant'  // Keep kebab-case as is
-};
-
-/**
- * Normalizes a locale name to the directory format
- * @param locale The locale to normalize
- */
-function normalizeLocaleForDirectory(locale: string): string {
-  return localeDirectoryMapping[locale] || locale;
-}
+// Supported locales list
+const SUPPORTED_LOCALES = ['en', 'de', 'es', 'ja', 'zh-hans', 'zh-hant'];
 
 /**
  * Loads all MCP server data from split files and combines them
@@ -67,7 +51,7 @@ export async function loadMcpServersData(locale: string = DEFAULT_LOCALE): Promi
     const baseDir = join(__dirname, '..', 'data', 'split');
     
     // Map the locale to the correct directory name if needed
-    const directoryLocale = normalizeLocaleForDirectory(locale);
+    const directoryLocale = locale;
     
     // For English, use the root directory; for other locales, use the locale-specific subdirectory
     let dirPath = locale === DEFAULT_LOCALE ? baseDir : join(baseDir, directoryLocale);

@@ -8,8 +8,6 @@ import { callLLM } from './llm.js';
  */
 export const LANGUAGES: Record<string, string> = {
   'en': 'English',
-//  'zhHans': 'Simplified Chinese',
-//  'zhHant': 'Traditional Chinese',
   'zh-hans': 'Simplified Chinese',
   'zh-hant': 'Traditional Chinese',
   'ja': 'Japanese',

@@ -7,12 +7,16 @@ const router = Router();
 // GET /servers 
 router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
-    const mcpServersCache = await refreshCacheIfNeeded();
+    // Get locale from query parameter or use default
+    const locale = typeof req.query.locale === 'string' ? req.query.locale : 'en';
+    
+    // Get servers data for the requested locale (function will use 'en' if locale is invalid)
+    const mcpServersCache = await refreshCacheIfNeeded(locale);
     
     // Return cleaned data without hubId
     const cleanedData = getCleanedServersData(mcpServersCache);
     res.json(cleanedData);
-    console.log(`v1/mcp/servers Served cached MCP servers data at ${new Date().toISOString()}`);
+    console.log(`v1/mcp/servers Served cached MCP servers data for locale '${locale}' at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
