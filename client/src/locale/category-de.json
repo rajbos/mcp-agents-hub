@@ -1,0 +1,15 @@
+{
+  "browser-automation": "Browser-Automatisierung",
+  "cloud-platforms": "Cloud-Plattformen",
+  "communication": "Kommunikation",
+  "databases": "Datenbanken",
+  "file-systems": "Dateisysteme",
+  "knowledge-memory": "Wissen & Speicher",
+  "location-services": "Ortungsdienste",
+  "monitoring": "Überwachung",
+  "search": "Suche",
+  "version-control": "Versionskontrolle",
+  "integrations": "Integrationen",
+  "other-tools": "Andere Werkzeuge",
+  "developer-tools": "Entwicklertools"
+}
