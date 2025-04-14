@@ -11,23 +11,31 @@ export function CategoriesDropdown({ isMobile, onSelectMobile }: CategoryProps) 
   const [isCategoriesMenuOpen, setIsCategoriesMenuOpen] = useState(false);
   const categoriesMenuRef = useRef<HTMLDivElement>(null);
   const { t } = useLanguage();
+  const [categoryKeys, setCategoryKeys] = useState<string[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Category keys for translation and URL slugs
-  const categoryKeys = [
-    "browser-automation",
-    "cloud-platforms",
-    "communication",
-    "databases",
-    "file-systems",
-    "knowledge-memory",
-    "location-services",
-    "monitoring",
-    "search",
-    "version-control",
-    "integrations",
-    "other-tools",
-    "developer-tools"
-  ];
+  // Fetch categories from API
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        setIsLoading(true);
+        const response = await fetch('/v1/hub/server_categories');
+        if (!response.ok) {
+          throw new Error('Failed to fetch categories');
+        }
+        const data = await response.json();
+        setCategoryKeys(data);
+      } catch (error) {
+        console.error('Error fetching categories:', error);
+        // Show an empty menu if the API call fails
+        setCategoryKeys([]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchCategories();
+  }, []);
   
   // Map category keys to their respective SVG icons
   const categoryIcons: Record<string, JSX.Element> = {
@@ -149,17 +157,21 @@ export function CategoriesDropdown({ isMobile, onSelectMobile }: CategoryProps) 
           {t('nav.categories')}
         </div>
         <div className="flex flex-col space-y-2 mt-1 pl-4">
-          {categoryKeys.map((key, index) => (
-            <Link 
-              key={index}
-              to={`/category/${key}`}
-              className="text-gray-600 hover:text-indigo-600 text-sm flex items-center"
-              onClick={handleCategoryClick}
-            >
-              {categoryIcons[key]}
-              {t(`category.${key}`)}
-            </Link>
-          ))}
+          {isLoading ? (
+            <div className="text-gray-500 text-sm pl-2">Loading categories...</div>
+          ) : (
+            categoryKeys.map((key, index) => (
+              <Link 
+                key={index}
+                to={`/category/${key}`}
+                className="text-gray-600 hover:text-indigo-600 text-sm flex items-center"
+                onClick={handleCategoryClick}
+              >
+                {categoryIcons[key]}
+                {t(`category.${key}`)}
+              </Link>
+            ))
+          )}
         </div>
       </div>
     );
@@ -210,19 +222,23 @@ export function CategoriesDropdown({ isMobile, onSelectMobile }: CategoryProps) 
           ref={categoriesMenuRef}
         >
           <div className="grid grid-cols-1 gap-1">
-            {categoryKeys.map((key, index) => (
-              <Link 
-                key={index}
-                to={`/category/${key}`}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
-                onClick={handleCategoryClick}
-              >
-                <div className="flex items-center">
-                  {categoryIcons[key]}
-                  {t(`category.${key}`)}
-                </div>
-              </Link>
-            ))}
+            {isLoading ? (
+              <div className="px-4 py-2 text-sm text-gray-500">Loading categories...</div>
+            ) : (
+              categoryKeys.map((key, index) => (
+                <Link 
+                  key={index}
+                  to={`/category/${key}`}
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
+                  onClick={handleCategoryClick}
+                >
+                  <div className="flex items-center">
+                    {categoryIcons[key]}
+                    {t(`category.${key}`)}
+                  </div>
+                </Link>
+              ))
+            )}
           </div>
         </div>
       )}
