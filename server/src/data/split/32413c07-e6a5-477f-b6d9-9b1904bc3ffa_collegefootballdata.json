@@ -6,7 +6,7 @@
   "description": "Integrates with College Football Data API to provide natural language querying of game results, team records, player stats, rankings, and advanced metrics.",
   "codiconIcon": "college",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "college",
     "player",

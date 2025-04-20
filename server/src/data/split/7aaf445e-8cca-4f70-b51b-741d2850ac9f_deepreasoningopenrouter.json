@@ -6,7 +6,7 @@
   "description": "Integrates with OpenRouter's AI SDK to enable deep reasoning capabilities for complex analysis and inference tasks.",
   "codiconIcon": "deep",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "openrouter's",
     "reasoning",

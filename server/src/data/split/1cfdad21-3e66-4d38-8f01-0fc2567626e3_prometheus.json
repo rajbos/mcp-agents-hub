@@ -6,7 +6,7 @@
   "description": "Integrates with Prometheus to query and analyze time-series metrics data for real-time system monitoring and performance insights.",
   "codiconIcon": "prometheus",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "analyze",
     "time-series",

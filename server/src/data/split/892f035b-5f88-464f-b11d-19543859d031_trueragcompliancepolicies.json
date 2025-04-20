@@ -6,7 +6,7 @@
   "description": "Integrates with a TrueRAG GraphQL API to provide state-specific policy information for legal compliance checks, analysis, and regulatory guidance.",
   "codiconIcon": "truerag",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "regulatory",
     "truerag-compliance-policies",

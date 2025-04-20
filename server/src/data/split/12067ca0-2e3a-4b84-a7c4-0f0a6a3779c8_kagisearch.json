@@ -6,7 +6,7 @@
   "description": "Perform privacy-focused web searches via Kagi's search engine.",
   "codiconIcon": "kagi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "engine",

@@ -6,7 +6,7 @@
   "description": "Integrates with SQL Server to enable database schema exploration, query execution, and stored procedure management via JSON-RPC communication for relational data analysis and natural language querying.",
   "codiconIcon": "sql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "server",
     "exploration",

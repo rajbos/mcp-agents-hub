@@ -6,7 +6,7 @@
   "description": "Enables breaking down complex tasks into manageable steps with queue-based planning and execution, maintaining context across conversations through structured task tracking and visual progress monitoring.",
   "codiconIcon": "taskmanager",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "monitoring",
     "complex",

@@ -6,7 +6,7 @@
   "description": "Integrates Google's Gemini AI models enabling real-time response streaming and LLM processing capabilities.",
   "codiconIcon": "gemini",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "developer-tools",
   "tags": [
     "processing",
     "capabilities",

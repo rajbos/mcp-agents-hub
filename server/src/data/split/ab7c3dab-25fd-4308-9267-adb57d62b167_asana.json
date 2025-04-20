@@ -6,7 +6,7 @@
   "description": "Enables AI assistants to interact with Asana workspaces, providing comprehensive task and project management capabilities including creation, search, updates, and status tracking.",
   "codiconIcon": "project",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/asana.png",
-  "category": "developer-tools",
+  "category": "integrations",
   "tags": [
     "project-management",
     "task-tracking",

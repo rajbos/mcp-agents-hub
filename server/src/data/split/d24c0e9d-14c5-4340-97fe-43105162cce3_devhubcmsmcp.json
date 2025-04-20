@@ -6,7 +6,7 @@
   "description": "Manage and utilize content within DevHub CMS (blog posts, hours of operation and other content)",
   "codiconIcon": "devhub",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/4h967aops0z.png",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "hours",
     "other",

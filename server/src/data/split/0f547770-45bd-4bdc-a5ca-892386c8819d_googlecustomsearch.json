@@ -6,7 +6,7 @@
   "description": "Integrates Google Custom Search API to enable web searches for fact-checking, research, and content generation tasks.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "content",
     "tasks",

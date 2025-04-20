@@ -6,7 +6,7 @@
   "description": "Provides system-level operations for file handling, information retrieval, HTTP requests, and command execution, enabling versatile system management and task automation.",
   "codiconIcon": "everything",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "command",
     "enabling",

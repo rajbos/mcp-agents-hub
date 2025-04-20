@@ -6,7 +6,7 @@
   "description": "Make standardized JSON-RPC calls via OpenRPC specification.",
   "codiconIcon": "openrpc",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "calls",
     "specification",

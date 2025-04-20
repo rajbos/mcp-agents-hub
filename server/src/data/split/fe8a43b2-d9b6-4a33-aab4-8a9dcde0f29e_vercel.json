@@ -6,7 +6,7 @@
   "description": "Integrates with Vercel's serverless infrastructure to provide a lightweight endpoint for AI model interactions and tasks like chatbots, content generation, and data analysis.",
   "codiconIcon": "vercel",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcps/vercel.svg",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "vercel",
     "infrastructure",

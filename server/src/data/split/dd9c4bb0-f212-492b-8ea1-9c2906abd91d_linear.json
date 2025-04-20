@@ -6,7 +6,7 @@
   "description": "Integrates with Linear's project management API to enable creation, viewing, updating, and management of projects, initiatives, and issues for holistic workflow support.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "linear",
     "integrates",

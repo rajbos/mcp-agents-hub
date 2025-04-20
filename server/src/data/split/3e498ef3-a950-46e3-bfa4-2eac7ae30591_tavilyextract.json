@@ -6,7 +6,7 @@
   "description": "Integrates with the Tavily API to extract web page content, enabling efficient web scraping capabilities for projects requiring content extraction.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "content",

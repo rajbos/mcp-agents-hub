@@ -6,7 +6,7 @@
   "description": "Integrates with Azure DevOps to enable work item management, wiki interactions, and sprint tracking for software development teams.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "azure-devops",
     "management",

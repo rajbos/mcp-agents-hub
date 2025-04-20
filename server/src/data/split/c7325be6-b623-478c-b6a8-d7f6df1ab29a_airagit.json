@@ -6,7 +6,7 @@
   "description": "Integrates with Git repositories to enable Gitflow workflows.",
   "codiconIcon": "aira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "integrates",
     "repositories",

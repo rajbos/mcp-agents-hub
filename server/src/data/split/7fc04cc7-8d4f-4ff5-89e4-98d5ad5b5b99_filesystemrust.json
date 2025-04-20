@@ -6,7 +6,7 @@
   "description": "Provides secure filesystem operations within allowed directories for controlled file management and data processing tasks.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "provides",
     "operations",

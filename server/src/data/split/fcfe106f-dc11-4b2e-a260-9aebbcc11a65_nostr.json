@@ -6,7 +6,7 @@
   "description": "Integrates with Nostr to enable posting notes and interacting with relays, simplifying decentralized social network engagement and content publishing.",
   "codiconIcon": "nostr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "engagement",
     "publishing",

@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol (MCP) server that wraps the dbt CLI tool, enabling AI coding agents to interact with dbt projects through standardized MCP tools.",
   "codiconIcon": "dbt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "protocol",
     "mcp",

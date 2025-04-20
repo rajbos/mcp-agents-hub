@@ -6,7 +6,7 @@
   "description": "Integrates ChromaDB vector database capabilities for efficient semantic document search, storage, and retrieval in natural language processing and information retrieval applications.",
   "codiconIcon": "chromadb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "chromadb",
     "capabilities",

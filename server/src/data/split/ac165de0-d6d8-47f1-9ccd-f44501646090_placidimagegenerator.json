@@ -6,7 +6,7 @@
   "description": "Integrates with Placid's API to generate dynamic images from templates for tasks like social media posts and marketing materials.",
   "codiconIcon": "placid",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "tasks",
     "social",

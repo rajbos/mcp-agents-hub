@@ -6,7 +6,7 @@
   "description": "Integrates with Meilisearch to enable advanced search operations, index and document management, and customizable search functionality with features like faceted search and custom ranking.",
   "codiconIcon": "meilisearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "custom",
     "enable",

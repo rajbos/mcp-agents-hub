@@ -6,7 +6,7 @@
   "description": "Leverages pandas, numpy, and matplotlib to enable powerful data manipulation, statistical analysis, and visualization for data-driven projects.",
   "codiconIcon": "pandas",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "statistical",
     "visualization",

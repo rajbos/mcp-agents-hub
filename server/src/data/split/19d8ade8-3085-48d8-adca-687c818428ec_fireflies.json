@@ -6,7 +6,7 @@
   "description": "Integrates with Fireflies.ai API to enable retrieval, search, and summarization of meeting transcripts for natural language processing of meeting content.",
   "codiconIcon": "fireflies",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "content",
     "retrieval",

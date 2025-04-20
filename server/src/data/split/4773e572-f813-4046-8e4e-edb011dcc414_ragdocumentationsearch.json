@@ -6,7 +6,7 @@
   "description": "Provides semantic document search and retrieval through vector embeddings, enabling context-aware responses backed by specific documentation sources",
   "codiconIcon": "rag",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "specific",
     "documentation",

@@ -6,7 +6,7 @@
   "description": "Integrates with Radarr and Sonarr to enable natural language querying and filtering of movie and TV show collections by various criteria like year, watched status, and actors.",
   "codiconIcon": "radarr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "watched",
     "status",

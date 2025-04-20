@@ -6,7 +6,7 @@
   "description": "Integrates with UML diagramming tools to generate visual representations of system architecture, class relationships, and process flows directly from code or text descriptions within conversational interfaces.",
   "codiconIcon": "uml",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "relationships",
     "within",

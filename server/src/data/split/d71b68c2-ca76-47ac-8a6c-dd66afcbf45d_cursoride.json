@@ -6,7 +6,7 @@
   "description": "Capable of controlling and pulling from Cursor IDE, powering development workflows.",
   "codiconIcon": "cursor",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "cursor-ide",
     "capable",

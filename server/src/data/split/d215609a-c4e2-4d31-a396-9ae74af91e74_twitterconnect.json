@@ -6,7 +6,7 @@
   "description": "Integrates with Twitter's API to retrieve recent tweets from specified users, enabling real-time Twitter content access within conversations without requiring direct Twitter API credentials.",
   "codiconIcon": "twitter",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "users",
     "access",

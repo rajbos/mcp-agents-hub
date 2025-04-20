@@ -6,7 +6,7 @@
   "description": "Integrates Solana blockchain with natural language commands to enable querying balances, handling transactions, and retrieving blockchain data.",
   "codiconIcon": "solana",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "data",
     "solana",

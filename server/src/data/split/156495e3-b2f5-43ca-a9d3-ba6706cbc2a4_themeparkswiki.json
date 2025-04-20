@@ -6,7 +6,7 @@
   "description": "Exposes data from the ThemeParks.wiki API as tools.",
   "codiconIcon": "themeparks.wiki",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "themeparks.wiki",
     "exposes",

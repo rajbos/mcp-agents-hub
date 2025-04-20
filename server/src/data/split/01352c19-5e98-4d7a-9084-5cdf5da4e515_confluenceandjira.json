@@ -6,7 +6,7 @@
   "description": "Integrates with Confluence and JIRA APIs to enable querying and management of Atlassian project data, documentation, and issues.",
   "codiconIcon": "confluence",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "confluence-and-jira",
     "integrates",

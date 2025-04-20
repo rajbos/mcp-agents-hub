@@ -6,7 +6,7 @@
   "description": "This VirusTotal MCP server enables AI assistants to programmatically access VirusTotal's threat intelligence for security analysis and threat detection.",
   "codiconIcon": "virustotal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "detection",
     "virustotal",

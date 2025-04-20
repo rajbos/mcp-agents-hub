@@ -6,7 +6,7 @@
   "description": "Creates sandboxed local dev environments directly from GitHub; run tests, report coverage and more.",
   "codiconIcon": "local",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "environments",
     "directly",

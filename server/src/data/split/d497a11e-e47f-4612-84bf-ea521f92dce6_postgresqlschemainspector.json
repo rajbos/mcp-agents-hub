@@ -6,7 +6,7 @@
   "description": "Provides read-only access to PostgreSQL databases for schema inspection and data exploration without modifying content.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "databases",
     "inspection",

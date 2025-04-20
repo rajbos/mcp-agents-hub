@@ -6,7 +6,7 @@
   "description": "Integrates with Blender's Python API to enable natural language-driven 3D modeling, scene generation, and animation scripting within the Blender environment.",
   "codiconIcon": "blender",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "language-driven",
     "modeling",

@@ -6,7 +6,7 @@
   "description": "Integrates FFmpeg for video editing operations, enabling tasks like trimming, merging, and format conversion through natural language commands.",
   "codiconIcon": "video",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "through",
     "operations",

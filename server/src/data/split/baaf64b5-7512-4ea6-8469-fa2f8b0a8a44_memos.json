@@ -6,7 +6,7 @@
   "description": "Integrates Memos note-taking application to automate note management, organization, and retrieval tasks.",
   "codiconIcon": "memos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "organization",
     "retrieval",

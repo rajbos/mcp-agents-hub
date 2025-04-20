@@ -6,7 +6,7 @@
   "description": "Integrates Smartsheet for healthcare analytics, enabling efficient data management and analysis in clinical research and hospital operations.",
   "codiconIcon": "smartsheet",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "operations",
     "enabling",

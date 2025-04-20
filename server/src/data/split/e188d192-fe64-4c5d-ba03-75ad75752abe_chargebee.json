@@ -6,7 +6,7 @@
   "description": "MCP Server that connects Cursor AI Agent to Chargebee platform.",
   "codiconIcon": "chargebee",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/8tqww3t4gtr.png",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "chargebee",
     "server",

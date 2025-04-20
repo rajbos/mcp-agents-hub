@@ -6,7 +6,7 @@
   "description": "Gathers detailed development environment data to enhance context-aware assistance in code editors, enabling tailored coding suggestions and environment-specific troubleshooting.",
   "codiconIcon": "devenvinfoserver",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "enabling",
     "suggestions",

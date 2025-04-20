@@ -6,7 +6,7 @@
   "description": "Integrates with LibSQL databases to enable schema retrieval and table querying for real-time data access and analysis.",
   "codiconIcon": "libsql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "analysis",
     "databases",

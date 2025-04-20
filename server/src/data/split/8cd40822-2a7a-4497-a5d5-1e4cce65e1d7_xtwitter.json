@@ -6,7 +6,7 @@
   "description": "Integrates with the X (Twitter) API to enable posting tweets, retrieving user data, and analyzing trends.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "twitter",
     "tweets",

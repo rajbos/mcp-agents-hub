@@ -6,7 +6,7 @@
   "description": "Provides a SQLite-based database backend for efficient data storage and retrieval, leveraging Rust and integrating with mcp-core and mcp-server libraries for embedded systems, desktop applications, or small-scale server deployments.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mcp-core",
     "embedded",

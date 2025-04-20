@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's API and local sound playback to convert text into audible speech, enabling voice output for various applications.",
   "codiconIcon": "tts",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "integrates",
     "local",

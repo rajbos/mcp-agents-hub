@@ -6,7 +6,7 @@
   "description": "Integrates with Apple Notes on macOS, enabling direct searching, reading, and creation of notes without leaving the Cursor editor.",
   "codiconIcon": "apple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "notes",
     "enabling",

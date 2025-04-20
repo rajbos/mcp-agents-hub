@@ -6,7 +6,7 @@
   "description": "Integrates with Yahoo Finance to provide advanced stock screening and analysis capabilities for technical, fundamental, and options-based trading strategies.",
   "codiconIcon": "stockscreen",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "stockscreen-(yahoo-finance)",
     "integrates",

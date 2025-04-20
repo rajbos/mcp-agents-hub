@@ -6,7 +6,7 @@
   "description": "Provides a template for building custom servers using TypeScript and the mcp-framework package, setting up project structure and configuration for developers to create tailored API or service integrations.",
   "codiconIcon": "templateio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "servers",
     "using",

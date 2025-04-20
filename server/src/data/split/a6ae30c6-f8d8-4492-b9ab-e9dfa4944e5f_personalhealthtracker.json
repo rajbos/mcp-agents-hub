@@ -6,7 +6,7 @@
   "description": "Integrates personal health data tracking with natural language querying and visualization for privacy-focused local analysis and trend insights.",
   "codiconIcon": "personal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "personal-health-tracker",
     "health",

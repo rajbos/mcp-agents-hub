@@ -6,7 +6,7 @@
   "description": "Integrates with YNAB API to enable personal finance management, including viewing account balances, creating transactions, and accessing budget data for financial planning and analysis.",
   "codiconIcon": "ynab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "personal",

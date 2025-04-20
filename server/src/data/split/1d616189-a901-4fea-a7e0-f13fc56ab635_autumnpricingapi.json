@@ -6,7 +6,7 @@
   "description": "Integrates with Autumn's pricing API to enable subscription management, customer information retrieval, invoice handling, and billing portal generation for businesses using Claude and other assistants.",
   "codiconIcon": "autumn",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "retrieval",
     "generation",

@@ -6,7 +6,7 @@
   "description": "Integrates with Xcode to automate iOS development workflows including building projects, running tests, and analyzing results.",
   "codiconIcon": "xcode",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "automate",

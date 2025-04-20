@@ -6,7 +6,7 @@
   "description": "Integrates with the Google Calendar API to create and manage events using natural language interactions, enabling automated scheduling and event creation.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "integrates",
     "calendar",

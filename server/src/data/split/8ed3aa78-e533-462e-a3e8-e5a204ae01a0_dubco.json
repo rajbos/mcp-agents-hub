@@ -6,7 +6,7 @@
   "description": "Integrates with Dub.co link shortener API to create, update, and manage shortened URLs with custom slugs and automatic domain selection.",
   "codiconIcon": "dub.co",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "create",
     "update",

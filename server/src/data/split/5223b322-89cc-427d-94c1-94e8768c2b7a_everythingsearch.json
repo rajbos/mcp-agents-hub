@@ -6,7 +6,7 @@
   "description": "Integrates with the Everything SDK to enable rapid file searches and metadata retrieval on Windows.",
   "codiconIcon": "everything",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "enable",
     "rapid",

@@ -6,7 +6,7 @@
   "description": "Integrates with Monday.com to enable creating items, retrieving board groups, adding comments, listing boards, and managing sub-items for project management and team collaboration workflows.",
   "codiconIcon": "monday.com",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "boards",
     "items",

@@ -6,7 +6,7 @@
   "description": "Integrates Perplexity AI to provide intelligent coding assistance for tasks like code analysis, generation, and problem-solving across various programming languages.",
   "codiconIcon": "coding",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "generation",
     "various",

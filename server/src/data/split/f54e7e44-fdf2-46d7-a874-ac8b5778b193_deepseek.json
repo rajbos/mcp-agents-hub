@@ -6,7 +6,7 @@
   "description": "Integrates with Deepseek models via a simple API bridge.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "simple",
     "bridge",

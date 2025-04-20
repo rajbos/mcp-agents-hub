@@ -6,7 +6,7 @@
   "description": "Search and analyze scientific papers from arXiv.",
   "codiconIcon": "arxiv",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "papers",
     "arxiv",

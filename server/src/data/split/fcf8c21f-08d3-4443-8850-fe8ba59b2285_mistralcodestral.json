@@ -6,7 +6,7 @@
   "description": "Integrates with Mistral's code-related APIs to enable code completion, bug fixing, and test generation across multiple programming languages.",
   "codiconIcon": "mistral",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "multiple",
     "languages",

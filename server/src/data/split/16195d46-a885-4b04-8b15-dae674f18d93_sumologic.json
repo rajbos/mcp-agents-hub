@@ -6,7 +6,7 @@
   "description": "Integrates with the Sumo Logic API to perform log searches, enabling custom queries and analysis of log data for troubleshooting, monitoring, and generating insights from application logs.",
   "codiconIcon": "sumo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "sumo-logic",
     "integrates",

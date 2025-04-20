@@ -6,7 +6,7 @@
   "description": "Integrates Retrieval-Augmented Generation using Qdrant vector database and embeddings to enable semantic search and management of documentation.",
   "codiconIcon": "qdrant",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "embeddings",
     "enable",

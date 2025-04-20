@@ -6,7 +6,7 @@
   "description": "Integrates with Docker, Git, and development tools to enable software project management, code analysis, and automated workflows across languages and frameworks.",
   "codiconIcon": "development",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "docker",
     "development",

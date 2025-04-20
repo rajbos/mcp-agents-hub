@@ -6,7 +6,7 @@
   "description": "Access location data, geocoding, and place details through Maps API.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "location-services",
   "tags": [
     "place",
     "details",

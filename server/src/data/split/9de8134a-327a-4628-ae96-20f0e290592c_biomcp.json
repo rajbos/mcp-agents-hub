@@ -6,7 +6,7 @@
   "description": "Enabling agent-based biomedical R&D via protein structure analysis capabilities",
   "codiconIcon": "biomcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "structure",
     "analysis",

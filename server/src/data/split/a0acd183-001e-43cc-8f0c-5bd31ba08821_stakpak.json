@@ -6,7 +6,7 @@
   "description": "Integrates with Stakpak API to generate infrastructure code for projects, enabling developers to quickly create configurations through a dedicated tool that works with various IDEs.",
   "codiconIcon": "stakpak",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "various",
     "stakpak",

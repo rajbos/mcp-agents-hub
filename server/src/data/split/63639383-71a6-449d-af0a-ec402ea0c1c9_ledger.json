@@ -6,7 +6,7 @@
   "description": "Access and managing ledger files.",
   "codiconIcon": "ledger",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "files",
     "ledger",

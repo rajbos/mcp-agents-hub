@@ -6,7 +6,7 @@
   "description": "Integrates with Attio's API for reading and writing company records and notes, enabling CRM operations without direct interface navigation.",
   "codiconIcon": "attio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "reading",
     "writing",

@@ -6,7 +6,7 @@
   "description": "Integrates with ComfyUI to enable natural language-driven image generation using customizable Stable Diffusion workflows",
   "codiconIcon": "comfyui",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "comfyui",
     "language-driven",

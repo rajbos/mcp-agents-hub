@@ -6,7 +6,7 @@
   "description": "Built for Cursor, integrates screenshot capture, web page structure analysis, and code review capabilities for automated UI testing, web scraping, and code quality checks.",
   "codiconIcon": "awesome",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "awesome-cursor",
     "review",

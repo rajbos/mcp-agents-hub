@@ -6,7 +6,7 @@
   "description": "Integrates with Brave Search API to enable web searches and local business lookups via natural language queries.",
   "codiconIcon": "brave",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "queries",
     "integrates",

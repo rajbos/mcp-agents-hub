@@ -6,7 +6,7 @@
   "description": "Convert web content to readable Markdown format.",
   "codiconIcon": "jina",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "jina-reader",
     "convert",

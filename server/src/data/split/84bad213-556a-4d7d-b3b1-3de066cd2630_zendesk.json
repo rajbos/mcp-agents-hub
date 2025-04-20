@@ -6,7 +6,7 @@
   "description": "Integrates with Zendesk to enable ticket management, comment handling, and Help Center article retrieval for streamlined customer support operations.",
   "codiconIcon": "zendesk",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "customer",
     "zendesk",

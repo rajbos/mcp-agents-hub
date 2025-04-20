@@ -6,7 +6,7 @@
   "description": "Integrates with Transistor.fm's API to manage podcasts, episodes, analytics, and subscribers for automating podcast workflows.",
   "codiconIcon": "transistor.fm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "transistor.fm's",

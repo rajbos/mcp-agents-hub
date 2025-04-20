@@ -6,7 +6,7 @@
   "description": "Provides efficient access to NPM/Go/Python package documentation through smart parsing and caching, enabling quick retrieval of up-to-date library information.",
   "codiconIcon": "package",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "through",
     "smart",

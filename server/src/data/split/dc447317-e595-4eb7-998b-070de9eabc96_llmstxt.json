@@ -6,7 +6,7 @@
   "description": "Integrates with Awesome-llms-txt to enhance conversations by incorporating relevant documentation snippets for improved technical support, code explanations, and educational dialogues.",
   "codiconIcon": "llms.txt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "educational",
     "awesome-llms-txt",

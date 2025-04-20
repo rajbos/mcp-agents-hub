@@ -6,7 +6,7 @@
   "description": "Integrates with the Supabase CLI to enable project management, database operations, and automated workflows for Supabase projects.",
   "codiconIcon": "supabase",
   "logoUrl": "",
-  "category": "database",
+  "category": "developer-tools",
   "tags": [
     "workflows",
     "integrates",

@@ -6,7 +6,7 @@
   "description": "Integrates with LogSeq API to enable automated note-taking, knowledge graph analysis, and workflow automation for developers and knowledge workers.",
   "codiconIcon": "logseq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "analysis",
     "developers",

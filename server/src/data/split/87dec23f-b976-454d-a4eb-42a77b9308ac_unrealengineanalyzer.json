@@ -6,7 +6,7 @@
   "description": "Analyzes Unreal Engine codebases, enabling deep insights into class hierarchies, subsystems, and game patterns.",
   "codiconIcon": "unreal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "subsystems",
     "unreal",

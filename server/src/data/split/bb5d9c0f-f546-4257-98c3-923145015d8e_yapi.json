@@ -6,7 +6,7 @@
   "description": "Integrates with YApi for API management, enabling seamless access to API documentation for tasks like code generation, testing, and integration planning.",
   "codiconIcon": "yapi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tasks",
     "generation",

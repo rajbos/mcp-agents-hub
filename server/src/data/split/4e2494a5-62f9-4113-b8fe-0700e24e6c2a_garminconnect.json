@@ -6,7 +6,7 @@
   "description": "Integrates with the Garmin Connect API to retrieve and analyze personal fitness data, enabling detailed tracking of health metrics like sleep, steps, activities, and heart rate.",
   "codiconIcon": "garmin",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "health",
     "sleep",

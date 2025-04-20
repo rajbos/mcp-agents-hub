@@ -6,7 +6,7 @@
   "description": "Integrates with Mermaid to render diagrams as images, enabling on-the-fly generation of visual representations for data structures, workflows, or system architectures.",
   "codiconIcon": "mermaid",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "render",
     "enabling",

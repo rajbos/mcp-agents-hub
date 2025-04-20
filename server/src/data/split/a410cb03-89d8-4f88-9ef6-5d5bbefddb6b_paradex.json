@@ -6,7 +6,7 @@
   "description": "Integrates with the Paradex perpetual futures trading platform, enabling market data retrieval, account management, order placement, and position monitoring for cryptocurrency trading workflows.",
   "codiconIcon": "paradex",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "monitoring",
     "cryptocurrency",

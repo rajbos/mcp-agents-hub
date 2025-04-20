@@ -6,7 +6,7 @@
   "description": "Integrates with Florence-2 to enable advanced image analysis and manipulation tasks like visual question answering, image captioning, and content-based image retrieval.",
   "codiconIcon": "florence-2",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "image",
     "manipulation",

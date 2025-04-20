@@ -6,7 +6,7 @@
   "description": "Integrates with the World Air Quality Index API to retrieve real-time air quality data for cities and monitoring stations globally.",
   "codiconIcon": "aqicn",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "quality",
     "retrieve",

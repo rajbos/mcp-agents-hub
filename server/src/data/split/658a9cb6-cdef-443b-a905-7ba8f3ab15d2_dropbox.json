@@ -6,7 +6,7 @@
   "description": "Integrates with Dropbox to enable file management operations like listing, uploading, downloading, and sharing files for cloud storage workflows.",
   "codiconIcon": "dropbox",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "uploading",
     "downloading",

@@ -6,7 +6,7 @@
   "description": "Provides browser automation capabilities through a simple API, enabling execution of web tasks using natural language instructions",
   "codiconIcon": "browser",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "execution",
     "tasks",

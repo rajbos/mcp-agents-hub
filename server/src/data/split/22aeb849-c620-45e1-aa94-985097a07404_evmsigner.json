@@ -6,7 +6,7 @@
   "description": "Integrates with Ethereum blockchain to enable wallet management, transaction execution, and smart contract interactions via Infura, providing secure local access for blockchain operations.",
   "codiconIcon": "evm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "secure",
     "evm-signer",

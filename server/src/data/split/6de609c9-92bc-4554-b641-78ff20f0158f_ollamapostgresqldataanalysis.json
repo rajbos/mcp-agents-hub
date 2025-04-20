@@ -6,7 +6,7 @@
   "description": "Integrates natural language querying with PostgreSQL databases to enable AI-interpreted data analysis without manual SQL writing.",
   "codiconIcon": "ollama",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "integrates",
     "postgresql",

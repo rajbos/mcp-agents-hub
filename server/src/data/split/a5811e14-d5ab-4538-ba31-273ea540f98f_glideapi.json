@@ -6,7 +6,7 @@
   "description": "Bridges Glide's API with MCP to enable automated management and data operations for Glide applications.",
   "codiconIcon": "glide",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "bridges",
     "glide's",

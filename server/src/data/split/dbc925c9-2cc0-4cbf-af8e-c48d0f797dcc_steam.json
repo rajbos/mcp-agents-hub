@@ -6,7 +6,7 @@
   "description": "Integrates with the Steam Web API to access user data, game information, and Steam-related functionalities for analyzing gaming habits, providing recommendations, or incorporating Steam profiles into applications.",
   "codiconIcon": "steam",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "providing",
     "recommendations",

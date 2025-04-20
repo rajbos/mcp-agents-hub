@@ -6,7 +6,7 @@
   "description": "Integrates with RTL-SDR hardware to enable FM radio tuning, playback control, and audio analysis for smart home and voice-controlled applications.",
   "codiconIcon": "goose",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "playback",
     "control",

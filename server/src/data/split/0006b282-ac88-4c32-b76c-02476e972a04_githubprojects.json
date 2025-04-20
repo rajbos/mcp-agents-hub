@@ -6,7 +6,7 @@
   "description": "Integrates with GitHub Projects to streamline Agile Sprint-based workflows, enabling project creation, task management, and sprint planning within the GitHub ecosystem.",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "integrations",
   "tags": [
     "github",
     "project",

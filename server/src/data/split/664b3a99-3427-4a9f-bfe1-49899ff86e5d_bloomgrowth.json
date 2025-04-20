@@ -6,7 +6,7 @@
   "description": "Integrates with Bloom Growth's GraphQL API to enable interaction with growth management and analytics tools for AI-assisted workflows.",
   "codiconIcon": "bloom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "bloom-growth",
     "integrates",

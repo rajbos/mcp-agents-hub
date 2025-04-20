@@ -6,7 +6,7 @@
   "description": "Integrates with weather data APIs to provide current conditions and forecasts for trip planning and outdoor event scheduling.",
   "codiconIcon": "weather",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "integrates",
     "provide",

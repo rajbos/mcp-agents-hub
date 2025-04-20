@@ -6,7 +6,7 @@
   "description": "Integrates with Reddit's API to fetch and retrieve diverse content including posts, comments, and subreddit information for data analysis and content curation.",
   "codiconIcon": "reddit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "diverse",
     "including",

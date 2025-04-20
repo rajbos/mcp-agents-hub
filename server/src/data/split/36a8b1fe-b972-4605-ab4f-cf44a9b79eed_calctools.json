@@ -6,7 +6,7 @@
   "description": "Integrates with NumPy, SciPy, and SymPy to provide advanced calculus tools for complex mathematical calculations and analysis within applications.",
   "codiconIcon": "calc",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "sympy",
     "calculus",

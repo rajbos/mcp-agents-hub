@@ -6,7 +6,7 @@
   "description": "Integrates with Salesforce CRM for natural language-driven data management, querying, and administration tasks.",
   "codiconIcon": "salesforce",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "querying",

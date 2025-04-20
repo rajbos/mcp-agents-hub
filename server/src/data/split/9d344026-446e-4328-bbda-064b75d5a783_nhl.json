@@ -6,7 +6,7 @@
   "description": "Integrates with NHL data sources to provide real-time game updates, player stats, and league standings for sports analysis and fantasy hockey applications.",
   "codiconIcon": "nhl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "player",
     "standings",

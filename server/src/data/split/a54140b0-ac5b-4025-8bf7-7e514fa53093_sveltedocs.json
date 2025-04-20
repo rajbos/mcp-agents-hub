@@ -6,7 +6,7 @@
   "description": "Integrates with Svelte documentation to enable efficient querying and retrieval of framework-specific content for development assistance.",
   "codiconIcon": "svelte",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "assistance",
     "svelte-docs",

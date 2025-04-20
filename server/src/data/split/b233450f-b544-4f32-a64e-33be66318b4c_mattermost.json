@@ -6,7 +6,7 @@
   "description": "Integrates with Mattermost workspaces to enable channel listing, message history retrieval, posting, thread management, reactions, user information access, and topic monitoring for team communication platforms.",
   "codiconIcon": "mattermost",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "listing",
     "history",

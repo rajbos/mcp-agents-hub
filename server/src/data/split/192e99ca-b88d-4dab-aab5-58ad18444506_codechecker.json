@@ -6,7 +6,7 @@
   "description": "Integrates with Cursor IDE to provide real-time code review capabilities, leveraging GPT models for intelligent analysis and specific improvement suggestions.",
   "codiconIcon": "codechecker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "intelligent",
     "analysis",

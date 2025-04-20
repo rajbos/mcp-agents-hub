@@ -6,7 +6,7 @@
   "description": "Integrates with the Honeycomb API to enable direct querying and analysis of observability data for automated performance monitoring and troubleshooting.",
   "codiconIcon": "honeycomb",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "querying",
     "analysis",

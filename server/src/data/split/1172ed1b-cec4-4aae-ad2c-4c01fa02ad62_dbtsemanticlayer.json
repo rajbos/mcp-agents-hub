@@ -6,7 +6,7 @@
   "description": "Integrates with the DBT Semantic Layer API to enable querying and analysis of data models defined in DBT, supporting report generation, ad-hoc analysis, and data-driven application development.",
   "codiconIcon": "dbt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "data-driven",
     "integrates",

@@ -6,7 +6,7 @@
   "description": "Enables natural language interaction with MySQL databases through XiYanSQL, providing secure table listing, data reading, and query execution capabilities without direct SQL access.",
   "codiconIcon": "xiyansql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "without",
     "natural",

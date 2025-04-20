@@ -6,7 +6,7 @@
   "description": "Integrates with Facebook's iOS Development Bridge (idb) to enable automated iOS device management, test execution, UI interactions, and app installation through a simple npm module.",
   "codiconIcon": "ios",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "module",
     "ios-development-bridge-(idb)",

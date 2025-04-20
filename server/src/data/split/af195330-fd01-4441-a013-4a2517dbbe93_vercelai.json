@@ -6,7 +6,7 @@
   "description": "Integrates OpenAI and Mistral models for versatile language tasks via the Vercel AI SDK.",
   "codiconIcon": "vercel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "mistral",
     "models",

@@ -6,7 +6,7 @@
   "description": "Integrates Jewish texts using Tantivy search engine to provide insights, answer questions, and analyze themes from religious Jewish literature.",
   "codiconIcon": "jewish",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "tantivy",
     "provide",

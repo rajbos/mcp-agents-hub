@@ -6,7 +6,7 @@
   "description": "Execute web searches, news queries, and content extraction.",
   "codiconIcon": "search1api",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "content",
     "extraction",

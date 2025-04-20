@@ -6,7 +6,7 @@
   "description": "Integrates with Yahoo Finance API to provide real-time stock prices, company information, historical data, and market news through LLaMA 3.2 3B while preserving all regular model capabilities.",
   "codiconIcon": "yahoo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "prices",
     "information",

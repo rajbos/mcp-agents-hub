@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol (MCP) server for installing and configuring other MCP servers within Cursor IDE.\n\n",
   "codiconIcon": "cursor",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/kyjpkg2cahe.jpeg",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "server",
     "other",

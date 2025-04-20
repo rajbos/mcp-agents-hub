@@ -6,7 +6,7 @@
   "description": "Integrates Fireproof JSON document databases with the Model Context Protocol, enabling CRUD operations and querying across multiple decentralized databases for scalable data management.",
   "codiconIcon": "fireproof",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "fireproof-json-database",
     "integrates",

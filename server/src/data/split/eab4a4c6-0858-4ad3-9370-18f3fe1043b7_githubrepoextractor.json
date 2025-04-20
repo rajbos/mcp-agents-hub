@@ -6,7 +6,7 @@
   "description": "Connects to GitHub repositories, enabling natural language queries about code structure, dependencies, and development history.",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "history",
     "github-repo-extractor",

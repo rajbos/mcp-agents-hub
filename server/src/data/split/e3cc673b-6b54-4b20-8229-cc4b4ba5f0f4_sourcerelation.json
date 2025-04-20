@@ -6,7 +6,7 @@
   "description": "Integrates source relation functionality to simplify connecting and organizing diverse data inputs, enabling efficient retrieval and processing.",
   "codiconIcon": "source",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "source",
     "functionality",

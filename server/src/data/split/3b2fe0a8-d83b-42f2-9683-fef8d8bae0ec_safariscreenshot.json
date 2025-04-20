@@ -6,7 +6,7 @@
   "description": "Integrates with Safari on macOS to capture web page screenshots, enabling automated visual testing and web archiving workflows.",
   "codiconIcon": "safari",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "safari-screenshot",
     "screenshots",

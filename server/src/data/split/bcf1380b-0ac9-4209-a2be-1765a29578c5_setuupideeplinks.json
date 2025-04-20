@@ -6,7 +6,7 @@
   "description": "Integrates Setu's UPI payment infrastructure to enable seamless generation and management of payment links for applications.",
   "codiconIcon": "setu",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "seamless",
     "generation",

@@ -6,7 +6,7 @@
   "description": "Enables integration with watsonx.ai Flows Engine, providing tools for Google Books and Wikipedia searches through a TypeScript-based MCP server implementation.",
   "codiconIcon": "flow",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/watsonx-flows.png",
-  "category": "cloud-platforms",
+  "category": "integrations",
   "tags": [
     "watsonx",
     "flows-engine",

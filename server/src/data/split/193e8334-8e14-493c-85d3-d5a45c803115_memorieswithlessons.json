@@ -6,7 +6,7 @@
   "description": "Enables persistent memory and error tracking for assistants using a local knowledge graph structure with transactional operations, file management, and caching.",
   "codiconIcon": "memories",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memories-with-lessons",
     "persistent",

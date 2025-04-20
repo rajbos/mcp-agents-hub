@@ -6,7 +6,7 @@
   "description": "Extracts public API documentation from a library and outputs it in an LLM-friendly format.",
   "codiconIcon": "daipendency",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "documentation",
     "library",

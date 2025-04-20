@@ -6,7 +6,7 @@
   "description": "Enforces hexagonal architecture principles in Java applications through static code analysis that validates architectural rules including dependency limitations, domain isolation, naming conventions, and proper email handling.",
   "codiconIcon": "archai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "rules",
     "archai-hexagonal-architecture-analyzer",

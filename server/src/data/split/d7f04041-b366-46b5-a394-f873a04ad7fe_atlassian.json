@@ -6,7 +6,7 @@
   "description": "Integrates with Atlassian Cloud products (Confluence and Jira) to enable searching, accessing, and managing pages, spaces, issues, and projects via their respective APIs.",
   "codiconIcon": "organization",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/atlassian.png",
-  "category": "developer-tools",
+  "category": "integrations",
   "tags": [
     "atlassian",
     "confluence",

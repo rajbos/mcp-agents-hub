@@ -6,7 +6,7 @@
   "description": "Execute SQL queries and analyze data in DuckDB databases.",
   "codiconIcon": "duckdb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "databases",
     "duckdb",

@@ -6,7 +6,7 @@
   "description": "Provides access to WolframAlpha's LLM API for answering complex mathematical, scientific, and general knowledge questions with structured responses.",
   "codiconIcon": "symbol-numeric",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/wolframalpha.png",
-  "category": "research-data",
+  "category": "knowledge-memory",
   "tags": [
     "mathematics",
     "scientific-computing",

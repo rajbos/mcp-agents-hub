@@ -6,7 +6,7 @@
   "description": "Integrates with Google Search using Puppeteer to enable web searches and extract structured results for real-time information retrieval and fact-checking.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "information",
     "web-search",

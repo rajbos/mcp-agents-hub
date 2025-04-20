@@ -6,7 +6,7 @@
   "description": "Integrates Mineflayer to enable AI control of Minecraft bots for navigation, block manipulation, inventory management, and real-time game state monitoring.",
   "codiconIcon": "minecraft",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "manipulation",
     "management",

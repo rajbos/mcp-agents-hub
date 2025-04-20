@@ -6,7 +6,7 @@
   "description": "Integrates Claude Desktop with Headless Agents API, enabling direct interaction and leveraging agent capabilities for task automation, information retrieval, and complex decision-making processes.",
   "codiconIcon": "headless",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "headless-agents",
     "headless",

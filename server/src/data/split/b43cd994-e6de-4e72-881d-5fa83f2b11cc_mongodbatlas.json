@@ -6,7 +6,7 @@
   "description": "Integrates with MongoDB Atlas to enable creating and managing database resources including clusters, network access, users, and connection strings using TypeScript and the MongoDB Atlas API.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "resources",
     "including",

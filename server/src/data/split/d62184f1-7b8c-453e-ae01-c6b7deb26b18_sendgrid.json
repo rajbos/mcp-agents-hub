@@ -6,7 +6,7 @@
   "description": "Provides email marketing and contact management capabilities through SendGrid's Marketing API, enabling dynamic templates, contact list management, and bulk email sending.",
   "codiconIcon": "mail",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/sendgrid.png",
-  "category": "marketing",
+  "category": "communication",
   "tags": [
     "email-marketing",
     "contact-management",

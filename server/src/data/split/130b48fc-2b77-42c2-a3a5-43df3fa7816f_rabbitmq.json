@@ -6,7 +6,7 @@
   "description": "Integrates RabbitMQ, enabling message queue operations for distributed systems and event-driven architectures.",
   "codiconIcon": "rabbitmq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "rabbitmq",
     "integrates",

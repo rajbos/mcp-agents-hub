@@ -6,7 +6,7 @@
   "description": "Integrates with Blockchain.com's Data and Query APIs to enable Bitcoin blockchain data retrieval, analysis, and market monitoring for cryptocurrency applications.",
   "codiconIcon": "blockchain.com",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "market",
     "cryptocurrency",

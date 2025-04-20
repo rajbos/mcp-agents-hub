@@ -6,7 +6,7 @@
   "description": "Provides a simple text-to-speech interface for MacOS using the built-in 'say' command, enabling voice output for AI models.",
   "codiconIcon": "honk",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enabling",
     "voice",

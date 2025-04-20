@@ -6,7 +6,7 @@
   "description": "Efficient memory storage and retrieval, enabling persistent context management in long-running conversations and complex reasoning tasks.",
   "codiconIcon": "titan",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "persistent",
     "conversations",

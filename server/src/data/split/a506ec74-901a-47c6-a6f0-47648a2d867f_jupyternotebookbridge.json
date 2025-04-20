@@ -6,7 +6,7 @@
   "description": "Provides a bridge between Jupyter notebooks and AI systems, enabling code execution, markdown creation, and Earth data interaction through specialized tools and kernel manipulation.",
   "codiconIcon": "jupyter",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "bridge",
     "jupyter",

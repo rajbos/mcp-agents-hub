@@ -6,7 +6,7 @@
   "description": "Integrates DuckDuckGo search capabilities with customizable parameters for web-based information retrieval.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "parameters",
     "information",

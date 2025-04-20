@@ -6,7 +6,7 @@
   "description": "Combines PDFKit and Puppeteer to generate PDFs from HTML content and programmatic layouts, enabling versatile document creation and web page snapshots.",
   "codiconIcon": "html-to-pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "puppeteer",
     "generate",

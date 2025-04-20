@@ -6,7 +6,7 @@
   "description": "Integrates accessibility testing capabilities using Puppeteer to perform automated WCAG compliance checks and generate remediation suggestions for web applications.",
   "codiconIcon": "cursor",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "remediation",
     "suggestions",

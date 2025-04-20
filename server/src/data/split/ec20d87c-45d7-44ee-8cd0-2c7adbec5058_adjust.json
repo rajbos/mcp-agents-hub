@@ -6,7 +6,7 @@
   "description": "Integrates with Adjust API to enable natural language queries for marketing analytics data, including campaign performance metrics and reports without leaving your chat interface.",
   "codiconIcon": "adjust",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "language",
     "queries",

@@ -6,7 +6,7 @@
   "description": "Enables Docker container management with tools for listing, running, stopping, removing containers and pulling images from registries through a TypeScript-based interface",
   "codiconIcon": "docker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "through",
     "management",

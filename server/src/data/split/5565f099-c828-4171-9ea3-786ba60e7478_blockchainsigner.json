@@ -6,7 +6,7 @@
   "description": "Enables secure blockchain interactions with user-controlled private keys and transaction signing, featuring a Node.js backend, PostgreSQL database, Redis caching, and integration with Ethereum and EVM-compatible chains via Infura.",
   "codiconIcon": "blockchain",
   "logoUrl": "",
-  "category": "database",
+  "category": "developer-tools",
   "tags": [
     "backend",
     "database",

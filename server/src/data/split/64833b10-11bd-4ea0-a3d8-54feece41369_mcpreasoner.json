@@ -6,7 +6,7 @@
   "description": "Implements beam search and thought evaluation for structured problem-solving, enabling exploration of multiple solution paths in complex reasoning tasks.",
   "codiconIcon": "mcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "mcp-reasoner",
     "implements",

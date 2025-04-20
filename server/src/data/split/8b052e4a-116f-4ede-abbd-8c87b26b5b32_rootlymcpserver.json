@@ -6,7 +6,7 @@
   "description": "Manage and solve incidents without leaving your IDE by connecting to the Rootly API.",
   "codiconIcon": "rootly",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/857ae3hwm.png",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "rootly",
     "rootly-mcp-server",

@@ -6,7 +6,7 @@
   "description": "Manage Kubernetes, with additional support for OpenShift.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "kubernetes",
     "manage",

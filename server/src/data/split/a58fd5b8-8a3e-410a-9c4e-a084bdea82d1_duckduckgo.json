@@ -6,7 +6,7 @@
   "description": "Integrates with DuckDuckGo search engine to provide real-time web information retrieval for research, fact-checking, and current events updates.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "research",
     "current",

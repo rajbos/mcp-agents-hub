@@ -6,7 +6,7 @@
   "description": "Integrates with the Zoom API to retrieve, process, and analyze cloud recording transcripts, enabling meeting summarization and key information extraction.",
   "codiconIcon": "zoom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "summarization",
     "zoom-transcript",

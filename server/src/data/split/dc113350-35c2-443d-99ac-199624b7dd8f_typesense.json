@@ -6,7 +6,7 @@
   "description": "Integrates with Typesense search engine instances to enable efficient searching and listing of collections as resources, supporting both local and remote connections.",
   "codiconIcon": "typesense",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "search",

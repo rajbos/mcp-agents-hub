@@ -6,7 +6,7 @@
   "description": "Integrates with Kibela API to enable searching, retrieving, and accessing collaborative documentation for knowledge management and AI-assisted workflows.",
   "codiconIcon": "kibela",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "knowledge",
     "management",

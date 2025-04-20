@@ -6,7 +6,7 @@
   "description": "Downloads and processes Markdown content from URLs, enabling tasks like content aggregation, documentation management, and text analysis.",
   "codiconIcon": "markdown",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "downloads",
     "processes",

@@ -6,7 +6,7 @@
   "description": "Enables querqying and analyzing web content using LSD SQL, a DSL for extracting structured data from websites in real-time.",
   "codiconIcon": "lsd",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "structured",
     "websites",

@@ -6,7 +6,7 @@
   "description": "Integrates with DuckDuckGo to provide web, image, news, and video search capabilities with configurable parameters for region, safesearch, and time limits.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "video",
     "search",

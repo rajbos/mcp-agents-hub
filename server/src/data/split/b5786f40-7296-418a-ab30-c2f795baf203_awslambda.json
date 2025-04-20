@@ -6,7 +6,7 @@
   "description": "Enables LLMs to interact with AWS Lambda functions, providing access to private resources, AWS services, and Lambda's capabilities for data processing and external API integration.",
   "codiconIcon": "aws",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "cloud-platforms",
   "tags": [
     "resources",
     "external",

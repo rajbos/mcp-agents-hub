@@ -6,7 +6,7 @@
   "description": "Integrates with LogSeq API to enable automated note-taking, content searching, and knowledge management tasks.",
   "codiconIcon": "logseq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "management",
     "tasks",

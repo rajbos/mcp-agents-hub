@@ -6,7 +6,7 @@
   "description": "Read, write, and manipulate local files through a controlled API.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "write",
     "manipulate",

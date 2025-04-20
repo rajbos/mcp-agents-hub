@@ -6,7 +6,7 @@
   "description": "Integrates Google's PageSpeed Insights API to provide detailed web performance metrics and optimization recommendations for websites.",
   "codiconIcon": "pagespeed",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "monitoring",
   "tags": [
     "detailed",
     "performance",

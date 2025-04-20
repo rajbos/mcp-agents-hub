@@ -6,7 +6,7 @@
   "description": "Integrates with esa.io API for searching and retrieving team knowledge, enabling efficient information access and collaboration.",
   "codiconIcon": "esa.io",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "access",
     "collaboration",

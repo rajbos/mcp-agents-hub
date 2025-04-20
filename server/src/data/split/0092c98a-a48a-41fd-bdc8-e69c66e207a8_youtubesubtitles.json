@@ -6,7 +6,7 @@
   "description": "Downloads and extracts YouTube video subtitles using yt-dlp, enabling AI assistants to analyze and summarize video content through subtitle text.",
   "codiconIcon": "play-circle",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/youtube-subtitles.png",
-  "category": "entertainment-media",
+  "category": "integrations",
   "tags": [
     "youtube",
     "subtitles",

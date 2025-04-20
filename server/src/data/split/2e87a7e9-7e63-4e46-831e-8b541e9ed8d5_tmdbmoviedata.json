@@ -6,7 +6,7 @@
   "description": "Integrate TMDB movie data for search, trending, and recommendation capabilities for films.",
   "codiconIcon": "tmdb",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "trending",

@@ -6,7 +6,7 @@
   "description": "Provides arithmetic operations for basic calculations, enabling efficient mathematical computations in workflows and applications.",
   "codiconIcon": "arithmetic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "operations",
     "calculations",

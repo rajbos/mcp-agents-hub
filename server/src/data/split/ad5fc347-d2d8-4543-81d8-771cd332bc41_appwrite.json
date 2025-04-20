@@ -6,7 +6,7 @@
   "description": "Integrates with Appwrite's database functionality, enabling AI workflows to manage databases, define schemas, perform CRUD operations, and create custom indexes for flexible data modeling and backend service integration.",
   "codiconIcon": "appwrite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "manage",
     "databases",

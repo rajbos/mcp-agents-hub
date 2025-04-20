@@ -6,7 +6,7 @@
   "description": "Integrates with a personal MediaWiki instance to enable searching, retrieving, and manipulating wiki content for enhanced knowledge management and research workflows.",
   "codiconIcon": "rowik",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "instance",
     "manipulating",

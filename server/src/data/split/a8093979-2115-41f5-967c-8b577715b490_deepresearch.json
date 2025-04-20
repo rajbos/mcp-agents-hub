@@ -6,7 +6,7 @@
   "description": "Integrates multiple AI agents to conduct in-depth research on complex topics with customizable tones, providing detailed progress reporting and error handling.",
   "codiconIcon": "deep",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "agents",
     "tones",

@@ -6,7 +6,7 @@
   "description": "Connects to and manages Kubernetes clusters, enabling pod, service, and deployment operations through kubectl integration.",
   "codiconIcon": "server-environment",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/kubernetes.png",
-  "category": "virtualization",
+  "category": "cloud-platforms",
   "tags": [
     "kubernetes",
     "containers",

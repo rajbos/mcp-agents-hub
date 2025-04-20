@@ -6,7 +6,7 @@
   "description": "Enables execution of shell commands within a designated workspace directory, capturing both standard output and error streams for file operations, script running, and command-line tool interactions directly from conversations.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "terminal",
     "shell",

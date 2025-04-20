@@ -6,7 +6,7 @@
   "description": "Integrates with Cloud Foundry foundations to enable management of applications, services, and resources.",
   "codiconIcon": "cloud",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "enable",
     "applications",

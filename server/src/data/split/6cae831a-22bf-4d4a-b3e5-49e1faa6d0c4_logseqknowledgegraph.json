@@ -6,7 +6,7 @@
   "description": "Integrates with Logseq knowledge graphs to enable retrieval, analysis, and manipulation of personal knowledge bases through tools for page content access, journal summaries, connection analysis, and concept linking.",
   "codiconIcon": "logseq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "personal",

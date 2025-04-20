@@ -6,7 +6,7 @@
   "description": "Integrates web scraping and image processing capabilities to fetch, extract, and optimize web content.",
   "codiconIcon": "fetch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "scraping",
     "image",

@@ -6,7 +6,7 @@
   "description": "Integrates with Redmine to enable natural language queries and updates for issue tracking, time logging, and project planning.",
   "codiconIcon": "redmine",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "redmine",
     "integrates",

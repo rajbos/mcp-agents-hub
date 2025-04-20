@@ -6,7 +6,7 @@
   "description": "Integrates with Android Debug Bridge (ADB) to enable remote control, testing, and analysis of Android devices, offering capabilities like package management, UI inspection, and screenshot capture.",
   "codiconIcon": "android",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "enable",
     "analysis",

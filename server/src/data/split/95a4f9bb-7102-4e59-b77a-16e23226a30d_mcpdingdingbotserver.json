@@ -6,7 +6,7 @@
   "description": "钉钉webhook MCP server",
   "codiconIcon": "mcp-dingdingbot-server",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "mcp-dingdingbot-server",
     "钉钉webhook",

@@ -6,7 +6,7 @@
   "description": "Integrates Kagi search API to provide web search, news retrieval, and fast GPT-powered question answering for up-to-date information access and content enrichment.",
   "codiconIcon": "kagi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "retrieval",
     "answering",

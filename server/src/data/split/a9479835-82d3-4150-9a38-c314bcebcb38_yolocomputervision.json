@@ -6,7 +6,7 @@
   "description": "Enables computer vision capabilities using YOLO models for object detection, segmentation, classification, and pose estimation on images and camera feeds",
   "codiconIcon": "yolo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "yolo-computer-vision",
     "detection",

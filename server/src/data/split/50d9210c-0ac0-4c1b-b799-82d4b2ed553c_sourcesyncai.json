@@ -6,7 +6,7 @@
   "description": "Integrates with SourceSync.ai's knowledge management platform to enable semantic search, document management, and content ingestion from diverse sources for AI-driven knowledge retrieval and document analysis.",
   "codiconIcon": "sourcesync.ai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "semantic",
     "search",

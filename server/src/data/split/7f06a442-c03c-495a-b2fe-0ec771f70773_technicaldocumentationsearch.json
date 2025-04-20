@@ -6,7 +6,7 @@
   "description": "Provides AI assistants with access to technical documentation from LangChain, LlamaIndex, and OpenAI libraries through a specialized search tool that leverages the Brave Search API to find, fetch, and extract relevant content.",
   "codiconIcon": "technical",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "leverages",
     "fetch",

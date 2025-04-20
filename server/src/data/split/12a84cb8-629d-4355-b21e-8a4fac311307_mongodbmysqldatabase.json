@@ -6,7 +6,7 @@
   "description": "Provides a unified interface for MySQL and MongoDB operations, enabling seamless interaction with both database systems through TypeScript and Node.js with flexible deployment options.",
   "codiconIcon": "mongodb-mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "enabling",
     "options",

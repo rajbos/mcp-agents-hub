@@ -6,7 +6,7 @@
   "description": "Integrates with Jira's REST API to enable issue management, task creation, and project tracking capabilities.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "jira's",

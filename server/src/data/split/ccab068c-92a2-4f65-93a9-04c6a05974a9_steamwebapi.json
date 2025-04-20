@@ -6,7 +6,7 @@
   "description": "Integrates with the Steam Web API. Allows for querying various stats, such as games in your library and their respective playtime.",
   "codiconIcon": "steam",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "allows",
     "querying",

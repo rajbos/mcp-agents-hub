@@ -6,7 +6,7 @@
   "description": "Integrates with Tavily API to provide web search capabilities, returning AI-generated responses with source information in a containerized, cross-platform solution.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "source",
     "information",

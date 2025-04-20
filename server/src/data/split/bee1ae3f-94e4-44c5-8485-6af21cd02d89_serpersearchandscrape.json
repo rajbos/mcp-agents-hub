@@ -6,7 +6,7 @@
   "description": "Integrates with the Serper API to enable web searches and webpage content extraction, supporting research, content aggregation, and data mining tasks.",
   "codiconIcon": "serper",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "serper-search-and-scrape",
     "serper",

@@ -6,7 +6,7 @@
   "description": "Enables direct FTP and FTPS server management through natural language commands for remote file operations including directory listing, file transfers, and folder creation.",
   "codiconIcon": "ftp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "language",
     "including",

@@ -6,7 +6,7 @@
   "description": "Provides tools for creating, modifying, and validating infinite canvas data structures, supporting all node types and edge connections, with a RESTful API for canvas operations and export capabilities.",
   "codiconIcon": "json",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provides",
     "modifying",

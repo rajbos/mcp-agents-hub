@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants.",
   "codiconIcon": "hackmd",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/unqgwmdk6qj.svg",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "model",
     "context",

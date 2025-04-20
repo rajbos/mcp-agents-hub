@@ -6,7 +6,7 @@
   "description": "An MCP server that gives Cursor or Claude Code access to Node.js at runtime to help you debug:\n\n1. set breakpoints\n2. step in, step out, continue\n3. fetch the current execution location\n4. read console output\n5. run JS using eval",
   "codiconIcon": "node.js",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/l4ev5kypabq.png",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "node.js-debugger",
     "gives",

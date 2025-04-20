@@ -6,7 +6,7 @@
   "description": "Integrates MATLAB's numerical computing capabilities, enabling execution of MATLAB scripts and functions for data analysis, signal processing, and visualization.",
   "codiconIcon": "matlab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "execution",
     "scripts",

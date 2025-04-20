@@ -6,7 +6,7 @@
   "description": "Provides a high-performance bridge between OpenAI and Anthropic models with prompt templating, response streaming, and efficient caching for applications requiring customizable LLM access.",
   "codiconIcon": "openai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "requiring",
     "bridge",

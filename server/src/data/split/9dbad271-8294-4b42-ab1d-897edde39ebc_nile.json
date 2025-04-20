@@ -6,7 +6,7 @@
   "description": "Manage and query Postgres databases, customers, users, setup B2B auth using LLMs",
   "codiconIcon": "nile",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/l4ggoh8axe7.jpg",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "manage",
     "query",

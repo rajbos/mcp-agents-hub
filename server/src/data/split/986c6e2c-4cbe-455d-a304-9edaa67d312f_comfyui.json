@@ -6,7 +6,7 @@
   "description": "Integrates ComfyUI's stable diffusion interface to enable programmatic image generation through customizable node-based workflows.",
   "codiconIcon": "comfyui",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "enable",
     "programmatic",

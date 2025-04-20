@@ -6,7 +6,7 @@
   "description": "Integrates with PostgreSQL databases to enable schema exploration and SQL query execution for data analysis and reporting tasks.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "enable",
     "schema",

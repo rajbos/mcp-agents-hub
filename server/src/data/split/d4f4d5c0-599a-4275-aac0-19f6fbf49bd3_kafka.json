@@ -6,7 +6,7 @@
   "description": "Integrates with Apache Kafka message brokers to enable topic management, message publishing, and stream monitoring for event streaming architectures",
   "codiconIcon": "kafka",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "apache",
     "message",

@@ -6,7 +6,7 @@
   "description": "Executes Python code within isolated Conda environments, enabling secure and flexible code generation and execution for tasks like data analysis and algorithm testing.",
   "codiconIcon": "conda",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "executes",
     "within",

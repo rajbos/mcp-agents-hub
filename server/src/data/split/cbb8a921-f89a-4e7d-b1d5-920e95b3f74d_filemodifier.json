@@ -6,7 +6,7 @@
   "description": "Enables targeted text file modifications through operations like adding, replacing, and deleting content at specific locations.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "locations",
     "enables",

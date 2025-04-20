@@ -6,7 +6,7 @@
   "description": "Enables code modification and generation tasks through file operations, search-and-replace, and version control integration for automated refactoring and codebase maintenance.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "modification",
     "search-and-replace",

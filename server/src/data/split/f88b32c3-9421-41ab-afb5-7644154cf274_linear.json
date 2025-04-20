@@ -6,7 +6,7 @@
   "description": "Integrates with Linear's issue tracking system to enable efficient creation, searching, and analysis of project tasks and issues",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "project",
     "tasks",

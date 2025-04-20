@@ -6,7 +6,7 @@
   "description": "Integrates with Unipile to provide unified access to messages across LinkedIn, WhatsApp, Instagram, Messenger, and Telegram, enabling efficient multi-platform communication management.",
   "codiconIcon": "unipile",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "unipile",
     "access",

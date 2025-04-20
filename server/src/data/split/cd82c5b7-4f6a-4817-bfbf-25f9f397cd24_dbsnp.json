@@ -6,7 +6,7 @@
   "description": "Provides a bridge to NCBI's dbSNP database for retrieving genetic variant information, including detailed SNP data, search functionality, and clinical significance assessments with API rate limit handling.",
   "codiconIcon": "dbsnp",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "dbsnp",
     "retrieving",

@@ -6,7 +6,7 @@
   "description": "Extract and document code from your local filesystem, enabling automated documentation and codebase analysis.",
   "codiconIcon": "coding",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "coding-file-management",
     "extract",

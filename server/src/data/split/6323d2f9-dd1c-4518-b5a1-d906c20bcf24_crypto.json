@@ -6,7 +6,7 @@
   "description": "Provides encryption, decryption, and hashing functionalities using the crypto-js library for secure data handling and integrity verification in workflows.",
   "codiconIcon": "crypto",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrity",
     "encryption",

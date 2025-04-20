@@ -6,7 +6,7 @@
   "description": "AniList MCP server for accessing AniList API data",
   "codiconIcon": "anilist",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/mc3vfr4as9e.svg",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "accessing",
     "anilist",

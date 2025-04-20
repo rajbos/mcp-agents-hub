@@ -6,7 +6,7 @@
   "description": "Integrates with Replicate API to provide seamless access to diverse machine learning models for inference and result retrieval across various domains.",
   "codiconIcon": "replicate",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provide",
     "models",

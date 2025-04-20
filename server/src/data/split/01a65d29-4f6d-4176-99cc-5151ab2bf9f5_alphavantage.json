@@ -6,7 +6,7 @@
   "description": "Integrates with Alpha Vantage API to provide real-time financial market data for stock quotes, company information, cryptocurrency rates, and historical prices.",
   "codiconIcon": "alpha",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "vantage",
     "provide",

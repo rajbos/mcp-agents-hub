@@ -6,7 +6,7 @@
   "description": "Access and analyze Postgres databases with read-only queries.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "queries",
     "postgresql",

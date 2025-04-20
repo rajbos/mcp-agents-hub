@@ -6,7 +6,7 @@
   "description": "Integrates with Anki flashcard decks via AnkiConnect to enable automated creation, retrieval, and management of study materials.",
   "codiconIcon": "anki",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "decks",

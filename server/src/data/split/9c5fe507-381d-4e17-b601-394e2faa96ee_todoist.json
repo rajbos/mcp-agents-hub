@@ -6,7 +6,7 @@
   "description": "Integrates with Todoist API to enable advanced task and project management capabilities including natural language processing for task creation and updates.",
   "codiconIcon": "todoist",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "todoist",
     "enable",

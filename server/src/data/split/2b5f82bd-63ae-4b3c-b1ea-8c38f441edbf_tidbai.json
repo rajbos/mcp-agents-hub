@@ -6,7 +6,7 @@
   "description": "Integrates with TiDB AI to enable direct querying and response streaming within code editors through a lightweight Go-based bridge.",
   "codiconIcon": "tidb",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "go-based",
     "tidb-ai",

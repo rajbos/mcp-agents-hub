@@ -6,7 +6,7 @@
   "description": "Integrates vector embeddings and knowledge graphs to enable advanced chat analysis tasks like topic modeling, sentiment analysis, and user behavior tracking.",
   "codiconIcon": "chat",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "modeling",
     "integrates",

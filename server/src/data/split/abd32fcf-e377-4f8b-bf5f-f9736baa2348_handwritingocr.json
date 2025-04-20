@@ -6,7 +6,7 @@
   "description": "Integrates with Handwriting OCR API to extract and digitize text from handwritten documents in various image formats, enabling conversion of physical notes and manuscripts into editable text.",
   "codiconIcon": "handwriting",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "conversion",
     "editable",

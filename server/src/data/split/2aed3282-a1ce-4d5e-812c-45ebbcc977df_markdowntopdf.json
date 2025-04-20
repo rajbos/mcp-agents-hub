@@ -6,7 +6,7 @@
   "description": "Converts Markdown to PDF using Puppeteer, offering syntax highlighting, custom styling, and watermarking capabilities for document generation.",
   "codiconIcon": "markdown",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "markdown-to-pdf",
     "converts",

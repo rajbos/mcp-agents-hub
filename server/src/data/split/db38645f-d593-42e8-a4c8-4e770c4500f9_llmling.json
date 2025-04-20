@@ -6,7 +6,7 @@
   "description": "Provides a YAML-based configuration system for LLM applications, enabling declarative setup of custom environments with resource management, tool execution, and prompt handling capabilities.",
   "codiconIcon": "llmling",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "prompt",
     "llmling",

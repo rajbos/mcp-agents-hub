@@ -6,7 +6,7 @@
   "description": "Enables MCP clients communicating with other MCP clients through this MCP server.",
   "codiconIcon": "mcp-inception",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "clients",
     "communicating",

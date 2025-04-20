@@ -6,7 +6,7 @@
   "description": "Integrates with Manifold Markets prediction markets, enabling market search, analysis, betting, and portfolio management with precise limit orders and advanced filtering.",
   "codiconIcon": "manifold",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "portfolio",
     "filtering",

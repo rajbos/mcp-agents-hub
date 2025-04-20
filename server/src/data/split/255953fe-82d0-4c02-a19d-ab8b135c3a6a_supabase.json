@@ -6,7 +6,7 @@
   "description": "This is an MCP server for PostgREST. It allows LLMs perform database queries and operations on Postgres databases via PostgREST.",
   "codiconIcon": "supabase",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/735c4hh883w.webp",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "supabase",
     "server",

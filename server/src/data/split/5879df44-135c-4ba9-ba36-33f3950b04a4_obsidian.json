@@ -6,7 +6,7 @@
   "description": "Integrates with Obsidian vaults to enable querying, creating, and modifying notes for enhanced personal knowledge management workflows.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "notes",
     "enhanced",

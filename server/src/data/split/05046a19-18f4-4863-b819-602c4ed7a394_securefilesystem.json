@@ -6,7 +6,7 @@
   "description": "Provides secure filesystem operations within specified directories, enabling safe reading, writing, editing, and searching of files for code analysis, document management, or automated file tasks.",
   "codiconIcon": "secure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "provides",
     "secure",

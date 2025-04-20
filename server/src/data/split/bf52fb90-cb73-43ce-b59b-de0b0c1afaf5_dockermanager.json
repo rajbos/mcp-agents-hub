@@ -6,7 +6,7 @@
   "description": "Enables natural language-driven Docker container management, including operations, log monitoring, and command execution.",
   "codiconIcon": "docker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "docker-manager",
     "enables",

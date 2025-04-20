@@ -6,7 +6,7 @@
   "description": "Integrates with the CVE-CIRCL API to enable searching and retrieving vulnerability information from the Common Vulnerabilities and Exposures database for security research, patch verification, and security assessments.",
   "codiconIcon": "cve-search",
   "logoUrl": "",
-  "category": "database",
+  "category": "search",
   "tags": [
     "vulnerabilities",
     "patch",

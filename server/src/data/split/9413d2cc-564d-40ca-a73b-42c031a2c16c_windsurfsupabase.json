@@ -6,7 +6,7 @@
   "description": "Enhances Supabase integration with improved error handling, SQL processing, and response formatting for natural language database interactions and real-time query validation in the Windsurf ecosystem.",
   "codiconIcon": "windsurf",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "improved",
     "response",

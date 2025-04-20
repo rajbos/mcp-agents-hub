@@ -6,7 +6,7 @@
   "description": "Generates source code directory trees using Python and pathspec for flexible path matching, enabling code analysis and project structure visualization.",
   "codiconIcon": "source",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "pathspec",
     "analysis",

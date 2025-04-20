@@ -6,7 +6,7 @@
   "description": "Streamlines database updates from CSV and Excel files, supporting multiple database types for efficient data migration and synchronization tasks.",
   "codiconIcon": "database",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "database-bulk-update",
     "updates",

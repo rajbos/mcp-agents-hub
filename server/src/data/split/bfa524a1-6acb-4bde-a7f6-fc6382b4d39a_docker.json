@@ -6,7 +6,7 @@
   "description": "Manage containers, images, volumes, and networks",
   "codiconIcon": "docker",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/eor42x3k8r7.jpg",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "containers",
     "images",

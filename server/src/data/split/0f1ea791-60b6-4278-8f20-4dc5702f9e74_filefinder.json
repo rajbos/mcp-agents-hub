@@ -6,7 +6,7 @@
   "description": "Provides efficient file search and retrieval capabilities within a networked environment using TypeScript and Node.js, offering both standard and HTTP-based execution modes.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "file-finder",
     "within",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Beeminder API to enable retrieval and analysis of personal productivity goals and progress data.",
   "codiconIcon": "beeminder",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "beeminder",
     "enable",

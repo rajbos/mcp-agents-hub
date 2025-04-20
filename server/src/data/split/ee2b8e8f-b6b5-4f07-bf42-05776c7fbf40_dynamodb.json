@@ -6,7 +6,7 @@
   "description": "Integrates with Amazon DynamoDB to enable natural language-based table management, capacity adjustment, and data operations while maintaining safeguards against accidental deletions.",
   "codiconIcon": "dynamodb",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "enable",
     "operations",

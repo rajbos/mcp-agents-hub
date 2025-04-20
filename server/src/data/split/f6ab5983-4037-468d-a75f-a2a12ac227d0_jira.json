@@ -6,7 +6,7 @@
   "description": "Integrates with JIRA to retrieve issue descriptions and custom field data for use with language models",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "issue",

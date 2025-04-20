@@ -6,7 +6,7 @@
   "description": "Integrates with Google Calendar to enable natural language management of events, appointments, and schedules.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "google-calendar",
     "calendar",

@@ -6,7 +6,7 @@
   "description": "Extracts text and performs OCR on PDF files using Python libraries for tasks like document analysis and content indexing.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "analysis",
     "content",

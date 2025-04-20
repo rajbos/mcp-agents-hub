@@ -6,7 +6,7 @@
   "description": "Enables AI interaction with markdown documentation files through a SQL-like query format for creating, reading, updating, and searching documentation with YAML frontmatter metadata support in Node.js and Deno environments.",
   "codiconIcon": "documentation",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "format",
     "frontmatter",

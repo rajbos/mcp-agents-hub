@@ -6,7 +6,7 @@
   "description": "Integrates with the Zipic app for macOS to provide image compression and optimization capabilities through quickCompress and advancedCompress tools, enabling efficient image processing with customizable settings.",
   "codiconIcon": "zipic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tools",
     "efficient",

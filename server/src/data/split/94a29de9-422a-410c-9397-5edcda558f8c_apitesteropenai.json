@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's APIs to provide tools for API testing, text generation, image creation, and HTTP request handling within applications.",
   "codiconIcon": "api",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applications",
     "openai's",

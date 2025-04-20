@@ -6,7 +6,7 @@
   "description": "Integrates with UniProt API to provide cached protein information for bioinformatics applications and protein research.",
   "codiconIcon": "uniprot",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "provide",
     "cached",

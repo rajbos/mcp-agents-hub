@@ -6,7 +6,7 @@
   "description": "Fetches and parses Hacker News stories using Cheerio, enabling tech news aggregation and trend analysis.",
   "codiconIcon": "hacker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "hacker-news",
     "stories",

@@ -6,7 +6,7 @@
   "description": "Integrates with Twitch chat using Apache Camel and Quarkus to enable real-time interaction, moderation, and analysis of live stream conversations.",
   "codiconIcon": "twitch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "quarkus",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates with USGS earthquake data to provide real-time access for querying and analyzing seismic events, enabling applications in disaster response, geological research, and risk assessment.",
   "codiconIcon": "usgs",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "real-time",
     "enabling",

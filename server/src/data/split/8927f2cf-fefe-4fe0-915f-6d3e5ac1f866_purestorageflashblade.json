@@ -6,7 +6,7 @@
   "description": "Integrates with Pure Storage FlashBlade arrays to enable real-time monitoring, troubleshooting, and resource management.",
   "codiconIcon": "pure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "monitoring",
     "storage",

@@ -6,7 +6,7 @@
   "description": "Integrates with YouTube's transcript functionality to fetch and analyze video content, enabling applications like summarization, keyword extraction, and sentiment analysis.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "applications",
     "analysis",

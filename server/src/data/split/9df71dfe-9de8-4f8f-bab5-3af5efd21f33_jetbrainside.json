@@ -6,7 +6,7 @@
   "description": "Bridges Large Language Models with JetBrains IDEs to enable intelligent code completion, automated refactoring, and context-aware documentation generation.",
   "codiconIcon": "jetbrains",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "jetbrains-ide",
     "language",

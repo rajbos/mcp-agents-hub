@@ -6,7 +6,7 @@
   "description": "Extracts YouTube video transcripts from various URL formats using a command-line tool, enabling content analysis and subtitle generation.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "youtube-transcript-extractor",
     "video",

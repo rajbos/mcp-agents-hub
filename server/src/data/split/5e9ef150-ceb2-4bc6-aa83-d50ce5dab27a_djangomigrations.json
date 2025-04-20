@@ -6,7 +6,7 @@
   "description": "Integrates Django migrations across distributed services, enabling coordinated database schema changes and enhanced migration safety for large-scale projects.",
   "codiconIcon": "django",
   "logoUrl": "",
-  "category": "database",
+  "category": "developer-tools",
   "tags": [
     "django",
     "schema",

@@ -6,7 +6,7 @@
   "description": "Integrates with Google PageSpeed Insights to analyze webpage performance and provide optimization recommendations for improved loading speed and user experience",
   "codiconIcon": "pagespeed",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "monitoring",
   "tags": [
     "webpage",
     "performance",

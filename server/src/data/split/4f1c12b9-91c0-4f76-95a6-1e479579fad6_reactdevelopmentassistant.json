@@ -6,7 +6,7 @@
   "description": "Integrates with React applications to enable AI-assisted development workflows, providing tools for project management, terminal command execution, and file operations.",
   "codiconIcon": "react",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "terminal",
     "react",

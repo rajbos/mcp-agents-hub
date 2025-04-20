@@ -6,7 +6,7 @@
   "description": "Integrates with Metabase to enable querying dashboards, executing SQL, and retrieving structured data for data analysis and insights generation.",
   "codiconIcon": "metabase",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "retrieving",
     "analysis",

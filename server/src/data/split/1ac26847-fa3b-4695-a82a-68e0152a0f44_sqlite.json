@@ -6,7 +6,7 @@
   "description": "Integrates with SQLite to provide database querying and BI capabilities.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "sqlite",
     "integrates",

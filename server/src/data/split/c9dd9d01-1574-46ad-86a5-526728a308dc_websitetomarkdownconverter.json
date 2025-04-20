@@ -6,7 +6,7 @@
   "description": "Converts web content to high-quality Markdown using Mozilla's Readability and TurndownService, enabling clean extraction of meaningful content from URLs or HTML files for analysis and document conversion.",
   "codiconIcon": "website",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "turndownservice",

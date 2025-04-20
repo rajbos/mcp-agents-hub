@@ -6,7 +6,7 @@
   "description": "Bridges to Ollama, enabling local language model capabilities for writing assistance, code generation, and data analysis.",
   "codiconIcon": "ollama",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "bridges",
     "local",

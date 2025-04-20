@@ -6,7 +6,7 @@
   "description": "Provides a SQLite-based todo list API for creating, reading, updating, and deleting tasks, suitable for basic task management applications.",
   "codiconIcon": "todo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applications",
     "todo-list",

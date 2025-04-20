@@ -6,7 +6,7 @@
   "description": "Integrates with Confluence's API to execute CQL queries and retrieve page content, enabling efficient search and access of wiki information.",
   "codiconIcon": "confluence",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "confluence's",
     "enabling",

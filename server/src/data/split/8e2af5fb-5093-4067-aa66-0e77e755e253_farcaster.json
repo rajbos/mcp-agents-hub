@@ -6,7 +6,7 @@
   "description": "Integrates with the Farcaster Hubble API to fetch and analyze social data, enabling real-time content monitoring and user engagement tracking on the Farcaster network.",
   "codiconIcon": "farcaster",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "content",
     "monitoring",

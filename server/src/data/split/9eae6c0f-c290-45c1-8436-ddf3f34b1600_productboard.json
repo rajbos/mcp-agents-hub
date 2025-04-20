@@ -6,7 +6,7 @@
   "description": "Integrates with the Productboard API to enable access to companies, components, features, and products for enhanced product management and feature tracking workflows.",
   "codiconIcon": "productboard",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "enable",

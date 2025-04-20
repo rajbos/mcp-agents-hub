@@ -6,7 +6,7 @@
   "description": "Enables AI to compose and send emails through the Resend API with customizable sender addresses, reply-to fields, and scheduled delivery options",
   "codiconIcon": "resend",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enables",
     "resend",

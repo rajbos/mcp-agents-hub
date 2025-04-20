@@ -6,7 +6,7 @@
   "description": "Integrates with Warpcast to enable posting, reading, searching, and managing interactions on the Farcaster social network for automated content curation and trend analysis.",
   "codiconIcon": "warpcast",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "reading",
     "social",

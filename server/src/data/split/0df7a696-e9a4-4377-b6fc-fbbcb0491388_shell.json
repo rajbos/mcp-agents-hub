@@ -6,7 +6,7 @@
   "description": "Enables secure execution of shell commands on host systems for tasks like system diagnostics, file manipulation, and automation.",
   "codiconIcon": "shell",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "manipulation",
     "automation",

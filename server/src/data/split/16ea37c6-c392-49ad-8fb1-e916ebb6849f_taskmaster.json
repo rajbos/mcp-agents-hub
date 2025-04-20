@@ -6,7 +6,7 @@
   "description": "Integrates with an external task API to provide CRUD operations for task management, enabling natural language interactions for task creation, filtering, and progress reporting.",
   "codiconIcon": "task",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "operations",
     "management",

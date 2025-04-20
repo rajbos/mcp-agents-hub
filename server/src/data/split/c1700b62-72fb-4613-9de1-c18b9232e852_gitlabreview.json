@@ -6,7 +6,7 @@
   "description": "Integrates with GitLab's API to automate code review processes, enabling retrieval of merge request details and posting of discussion comments.",
   "codiconIcon": "gitlab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "gitlab's",
     "automate",

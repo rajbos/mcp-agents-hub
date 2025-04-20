@@ -6,7 +6,7 @@
   "description": "Integrates with Azure DevOps services to manage work items, code repositories, boards, sprints, and projects using TypeScript and the Model Context Protocol SDK.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "context",
     "azure",

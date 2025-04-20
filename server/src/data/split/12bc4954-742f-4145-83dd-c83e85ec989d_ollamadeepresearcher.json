@@ -6,7 +6,7 @@
   "description": "Leverage Ollama as your LLM, and Tavily or Perplexity to do your deep web research",
   "codiconIcon": "ollama",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "ollama-deep-researcher",
     "leverage",

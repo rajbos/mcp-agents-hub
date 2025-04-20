@@ -6,7 +6,7 @@
   "description": "Integrates Linear's project management system with the Model Context Protocol (MCP) to allow Cursor to interact with Linear.",
   "codiconIcon": "linear",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/2l2eoknp33n.png",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "linear",
     "management",

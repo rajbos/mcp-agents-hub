@@ -6,7 +6,7 @@
   "description": "Integrates with Wazuh security platform to provide real-time security alerts and event data from Elasticsearch indices for security operations and threat analysis workflows.",
   "codiconIcon": "wazuh",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "security",
     "provide",

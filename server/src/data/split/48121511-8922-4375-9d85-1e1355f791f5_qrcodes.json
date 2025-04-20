@@ -6,7 +6,7 @@
   "description": "Generates QR codes.",
   "codiconIcon": "qr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "qr-codes",
     "generates",

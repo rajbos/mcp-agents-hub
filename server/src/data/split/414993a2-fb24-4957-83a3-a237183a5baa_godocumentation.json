@@ -6,7 +6,7 @@
   "description": "Exposes Go documentation and package listing capabilities through 'go doc' and 'go list' commands, enabling efficient querying of official Go documentation and codebase understanding.",
   "codiconIcon": "go",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "codebase",
     "understanding",

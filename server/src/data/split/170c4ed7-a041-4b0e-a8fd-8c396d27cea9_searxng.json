@@ -6,7 +6,7 @@
   "description": "Enables language models to perform web searches through SearXNG, a privacy-focused metasearch engine, with customizable parameters like categories, time ranges, and pagination.",
   "codiconIcon": "searxng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "pagination",
     "models",

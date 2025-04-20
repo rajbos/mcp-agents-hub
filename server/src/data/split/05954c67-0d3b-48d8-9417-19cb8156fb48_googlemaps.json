@@ -6,7 +6,7 @@
   "description": "Integrates with Google Maps API to provide geocoding, place search, and routing capabilities for location-based applications and services.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "location-services",
   "tags": [
     "routing",
     "capabilities",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Tally API to query and analyze DAO governance data, enabling insights into decentralized decision-making processes.",
   "codiconIcon": "tally",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "processes",
     "tally-dao-governance",

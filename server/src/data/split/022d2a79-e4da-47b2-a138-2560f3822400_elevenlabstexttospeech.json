@@ -6,7 +6,7 @@
   "description": "Integrates ElevenLabs' text-to-speech capabilities for high-quality, customizable voice output in interactions, featuring voice selection and model choice.",
   "codiconIcon": "elevenlabs",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "integrates",
     "elevenlabs'",

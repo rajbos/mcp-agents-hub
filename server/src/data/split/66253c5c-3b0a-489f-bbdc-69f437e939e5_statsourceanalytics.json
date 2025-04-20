@@ -6,7 +6,7 @@
   "description": "Integrates with statistical and machine learning tools to perform data analysis, calculations, and time-series forecasting on user data from various sources including CSV files and databases.",
   "codiconIcon": "statsource",
   "logoUrl": "",
-  "category": "database",
+  "category": "integrations",
   "tags": [
     "calculations",
     "files",

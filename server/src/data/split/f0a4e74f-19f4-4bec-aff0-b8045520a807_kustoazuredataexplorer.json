@@ -6,7 +6,7 @@
   "description": "Integrates with Azure Data Explorer to enable read-only querying, table listing, and schema retrieval for large-scale telemetry data analysis.",
   "codiconIcon": "kusto",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "table",
     "schema",

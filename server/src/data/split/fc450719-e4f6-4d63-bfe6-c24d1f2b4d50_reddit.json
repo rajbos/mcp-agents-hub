@@ -6,7 +6,7 @@
   "description": "Integrates with Reddit to fetch and analyze posts, comments, and trends across subreddits for content curation and social media insights.",
   "codiconIcon": "reddit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "fetch",
     "comments",

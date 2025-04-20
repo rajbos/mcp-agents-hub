@@ -6,7 +6,7 @@
   "description": "Integrates PDF manipulation capabilities using Python libraries to enable merging, extraction, and content-based document retrieval tasks.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "document",
     "tasks",

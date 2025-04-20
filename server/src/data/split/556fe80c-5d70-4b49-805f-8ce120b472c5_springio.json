@@ -6,7 +6,7 @@
   "description": "Integrates with Spring's API to provide release information and support timelines for Spring projects, enabling dependency management and upgrade planning.",
   "codiconIcon": "spring",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "information",

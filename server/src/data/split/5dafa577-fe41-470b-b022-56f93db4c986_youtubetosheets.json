@@ -6,7 +6,7 @@
   "description": "Integrates YouTube search with Google Sheets to automate video data collection and analysis for content creators, marketers, and researchers.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "search",
     "automate",

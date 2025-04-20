@@ -6,7 +6,7 @@
   "description": "Integrates Spring AI components with AI models to enable natural language processing, machine learning, and data analysis within Spring-based applications.",
   "codiconIcon": "spring",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "language",
     "processing",

@@ -6,7 +6,7 @@
   "description": "Integrates with SolarWinds Observability logs, providing tools for searching, visualizing, and analyzing log data with advanced filtering options and customizable time ranges for DevOps and IT operations teams.",
   "codiconIcon": "solarwinds",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "tools",
     "visualizing",

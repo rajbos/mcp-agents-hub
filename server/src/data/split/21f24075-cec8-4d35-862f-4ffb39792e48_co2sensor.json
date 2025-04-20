@@ -6,7 +6,7 @@
   "description": "Simulates or interfaces with a CO2 sensor device, providing JSON-RPC endpoints for device information, sensor data, and network management with MQTT publishing capabilities for IoT applications.",
   "codiconIcon": "co2",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "network",
     "co2-sensor",

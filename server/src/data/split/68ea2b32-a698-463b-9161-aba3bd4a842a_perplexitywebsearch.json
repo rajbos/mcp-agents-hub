@@ -6,7 +6,7 @@
   "description": "Integrates with the Perplexity API to provide web search functionality, enabling real-time information retrieval with time-based filtering and result summarization.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "retrieval",
     "filtering",

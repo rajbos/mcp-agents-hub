@@ -6,7 +6,7 @@
   "description": "Integrates with CData Connect Cloud to enable SQL query execution across diverse data sources, facilitating seamless data integration for analytics and workflows.",
   "codiconIcon": "cdata",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "across",
     "diverse",

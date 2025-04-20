@@ -6,7 +6,7 @@
   "description": "Provides real-time cryptocurrency technical analysis through FastMCP, calculating 12 and 26-period EMAs for Binance trading pairs using MongoDB-stored OHLCV data and Server-Sent Events.",
   "codiconIcon": "cryptocurrency",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "cryptocurrency-technical-analysis",
     "technical",

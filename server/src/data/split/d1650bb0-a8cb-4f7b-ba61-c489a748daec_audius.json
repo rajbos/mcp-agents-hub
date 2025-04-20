@@ -6,7 +6,7 @@
   "description": "Integrates with Audius music platform API, enabling user searches, track streaming, and playlist management for music discovery and artist analytics.",
   "codiconIcon": "audius",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "discovery",

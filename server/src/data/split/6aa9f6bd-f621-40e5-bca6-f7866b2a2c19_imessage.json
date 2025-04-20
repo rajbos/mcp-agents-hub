@@ -6,7 +6,7 @@
   "description": "Integrates with Apple's iMessage and Contacts services to enable messaging and contact management operations for automated communication workflows on Apple platforms.",
   "codiconIcon": "imessage",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "imessage",
     "services",

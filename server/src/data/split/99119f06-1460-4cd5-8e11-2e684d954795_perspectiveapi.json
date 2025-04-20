@@ -6,7 +6,7 @@
   "description": "Integrates with Perspective API to analyze text toxicity and provide content moderation across multiple languages for enhanced online safety.",
   "codiconIcon": "perspective",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "perspective",
     "analyze",

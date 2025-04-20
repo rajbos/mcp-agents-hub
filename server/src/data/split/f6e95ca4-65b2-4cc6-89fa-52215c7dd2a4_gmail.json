@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail's API to enable email management tasks like sending, reading, drafting, and organizing messages.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "reading",
     "drafting",

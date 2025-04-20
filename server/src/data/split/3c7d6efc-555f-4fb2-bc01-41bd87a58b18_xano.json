@@ -6,7 +6,7 @@
   "description": "Integrates with Xano's no-code backend platform to enable data querying, manipulation, and CRUD operations for rapid application development and prototyping.",
   "codiconIcon": "xano",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "development",
     "xano",

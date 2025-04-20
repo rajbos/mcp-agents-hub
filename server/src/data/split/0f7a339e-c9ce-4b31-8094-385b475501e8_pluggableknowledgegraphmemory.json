@@ -6,7 +6,7 @@
   "description": "Provides a pluggable knowledge graph memory server for flexible storage and retrieval within compatible systems, offering enhanced customization through TypeScript-based architecture.",
   "codiconIcon": "pluggable",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "flexible",
     "retrieval",

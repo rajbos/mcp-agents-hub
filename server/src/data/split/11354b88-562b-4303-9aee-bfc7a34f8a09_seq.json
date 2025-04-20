@@ -6,7 +6,7 @@
   "description": "Integrates with Seq's API for retrieving signals, events, and alert states, enabling real-time insights into application logs and system performance metrics.",
   "codiconIcon": "seq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "retrieving",
     "signals",

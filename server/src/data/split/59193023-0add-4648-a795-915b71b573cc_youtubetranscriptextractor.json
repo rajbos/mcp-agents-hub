@@ -6,7 +6,7 @@
   "description": "Extracts transcripts from YouTube videos using various URL formats, enabling automated content analysis and summarization.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "summarization",
     "extracts",

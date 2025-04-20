@@ -6,7 +6,7 @@
   "description": "Integrates code analysis with scraping capabilities to enable code review, static analysis, and automated refactoring suggestions for development teams.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "analysis",
     "scraping",

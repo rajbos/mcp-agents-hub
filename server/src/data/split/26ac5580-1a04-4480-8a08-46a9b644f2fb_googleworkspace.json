@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail and Google Calendar APIs to enable email and calendar management tasks like listing, searching, and modifying emails, as well as creating and updating events.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "communication",
   "tags": [
     "google",
     "calendar",

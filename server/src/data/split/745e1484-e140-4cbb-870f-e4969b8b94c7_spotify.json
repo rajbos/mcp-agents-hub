@@ -6,7 +6,7 @@
   "description": "Integrates with Spotify Web API to enable music search, playback control, and playlist management for applications needing music data and content access.",
   "codiconIcon": "spotify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "music",

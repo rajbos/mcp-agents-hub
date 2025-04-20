@@ -6,7 +6,7 @@
   "description": "Enables secure hosting on Google Cloud Run with user-based IAM authentication, providing controlled access to custom servers over the internet for team collaboration.",
   "codiconIcon": "authenticated",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "cloud-platforms",
   "tags": [
     "enables",
     "secure",

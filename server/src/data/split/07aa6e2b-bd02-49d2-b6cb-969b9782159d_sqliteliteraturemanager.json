@@ -6,7 +6,7 @@
   "description": "Integrates literature management operations with knowledge graphs to enable flexible paper tracking, structured note-taking, and research trend analysis.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "flexible",

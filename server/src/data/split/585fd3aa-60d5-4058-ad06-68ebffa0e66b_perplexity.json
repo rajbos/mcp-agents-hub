@@ -6,7 +6,7 @@
   "description": "Integrates Perplexity AI's API, enabling web-based research and cited answers through real-time search capabilities.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "answers",
     "real-time",

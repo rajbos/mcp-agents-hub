@@ -6,7 +6,7 @@
   "description": "Advanced web scraping tool using Oxylabs Web Scraper API, supporting JavaScript rendering, HTML parsing, and content transformation with flexible parsing options.",
   "codiconIcon": "globe",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/oxylabs-scraper.png",
-  "category": "search",
+  "category": "browser-automation",
   "tags": [
     "web-scraping",
     "content-extraction",

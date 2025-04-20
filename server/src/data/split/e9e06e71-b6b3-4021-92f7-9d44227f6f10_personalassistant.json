@@ -6,7 +6,7 @@
   "description": "Integrates with external services like Google APIs, Home Assistant, and DuckDuckGo to provide a modular framework for calendar management, task tracking, email handling, knowledge retrieval, and smart home control.",
   "codiconIcon": "personal",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "external",
     "duckduckgo",

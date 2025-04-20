@@ -6,7 +6,7 @@
   "description": "Integrates with Jira's API to enable issue retrieval and project management tasks.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "issue",
     "management",

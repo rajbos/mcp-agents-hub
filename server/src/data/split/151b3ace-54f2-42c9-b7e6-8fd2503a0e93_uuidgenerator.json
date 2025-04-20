@@ -6,7 +6,7 @@
   "description": "Generates unique UUIDs through a lightweight Deno-based tool interface with comprehensive logging and error handling capabilities",
   "codiconIcon": "uuid",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "uuid-generator",
     "unique",

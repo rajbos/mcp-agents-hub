@@ -6,7 +6,7 @@
   "description": "Provides a persistent Python execution environment for interactive code development, data analysis, and rapid prototyping.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "python",
     "environment",

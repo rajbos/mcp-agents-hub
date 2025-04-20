@@ -6,7 +6,7 @@
   "description": "Integrates with ClickUp to enable task creation, project management, and workflow automation for teams using AI-powered assistants.",
   "codiconIcon": "clickup",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "automation",

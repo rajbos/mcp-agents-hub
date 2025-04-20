@@ -6,7 +6,7 @@
   "description": "Interact with Notion workspaces by searching, reading, creating, and updating pages.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "reading",
     "creating",

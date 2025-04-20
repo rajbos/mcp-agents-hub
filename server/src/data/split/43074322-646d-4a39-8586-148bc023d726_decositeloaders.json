@@ -6,7 +6,7 @@
   "description": "Transforms Deco site loaders into dynamic tools by extracting schemas from metadata, enabling seamless discovery and invocation of website capabilities through Server-Sent Events",
   "codiconIcon": "deco",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "loaders",
     "extracting",

@@ -6,7 +6,7 @@
   "description": "Integrates directory structure visualization and analysis tools to generate and reason about project file hierarchies for codebase understanding.",
   "codiconIcon": "directory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "reason",
     "codebase",

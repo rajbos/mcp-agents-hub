@@ -6,7 +6,7 @@
   "description": "Enables interaction with macOS notifications and system dialogs for desktop alerts, user input, and system operations.",
   "codiconIcon": "macos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "macos-notifier",
     "interaction",

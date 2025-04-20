@@ -6,7 +6,7 @@
   "description": "Lightweight, file-based memory storage for maintaining persistent context across conversations using simple text operations.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memory-by-file",
     "lightweight",

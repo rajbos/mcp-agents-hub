@@ -6,7 +6,7 @@
   "description": "Integrates with Git repositories to provide efficient, deterministic access for retrieving directory structures and file contents without local cloning",
   "codiconIcon": "git",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "retrieving",
     "structures",

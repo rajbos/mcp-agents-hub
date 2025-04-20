@@ -6,7 +6,7 @@
   "description": "Integrates with the Lunchmoney personal finance API to enable transaction retrieval, spending analysis, and budget summaries for enhanced financial management.",
   "codiconIcon": "lunchmoney",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "retrieval",
     "spending",

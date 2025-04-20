@@ -6,7 +6,7 @@
   "description": "Leverages the CrewAI framework in combination with OpenAI API to orchestrate multi-agent workflows for automated research, data analysis, and problem-solving across domains.",
   "codiconIcon": "crewai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "combination",
     "domains",

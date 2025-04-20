@@ -6,7 +6,7 @@
   "description": "Provides tools for generating realistic mock data including personal information, company details, and custom fields using TypeScript and Faker.js for testing and development purposes.",
   "codiconIcon": "mock",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "company",
     "fields",

@@ -6,7 +6,7 @@
   "description": "Provides a simple interface for adding numbers and generating personalized greetings using FastMCP framework and custom helper functions.",
   "codiconIcon": "biodiversity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "generating",
     "personalized",

@@ -6,7 +6,7 @@
   "description": "Integrates with major cryptocurrency exchanges via CCXT to provide real-time and historical market data for analysis, trading, and portfolio tracking.",
   "codiconIcon": "ccxt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "major",
     "exchanges",

@@ -6,7 +6,7 @@
   "description": "Cleanup stale apps and services on a Cloud Foundry foundation.",
   "codiconIcon": "cloud",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "foundry",
     "foundation",

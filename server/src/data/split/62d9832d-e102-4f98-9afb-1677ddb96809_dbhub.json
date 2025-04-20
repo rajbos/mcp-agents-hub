@@ -6,7 +6,7 @@
   "description": "Universal database MCP server connecting to MySQL, PostgreSQL, SQL Server, SQLite, and etc.",
   "codiconIcon": "dbhub",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/qjijyd4za5.svg",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mysql",
     "postgresql",

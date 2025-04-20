@@ -6,7 +6,7 @@
   "description": "Solve complex logic/optimization problems using MiniZinc syntax.",
   "codiconIcon": "minizinc",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "syntax",
     "minizinc-complex-logic-solver",

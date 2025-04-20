@@ -6,7 +6,7 @@
   "description": "Integrates multiple language models via the unified Unichat tool, enabling seamless interaction across OpenAI, MistralAI, Anthropic, xAI, and Google AI platforms.",
   "codiconIcon": "unichat",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "across",
     "openai",

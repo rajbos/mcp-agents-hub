@@ -6,7 +6,7 @@
   "description": "Integrates with ClickSend's API to enable sending SMS messages and initiating Text-to-Speech calls for automated communication workflows.",
   "codiconIcon": "clicksend",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "clicksend",
     "integrates",

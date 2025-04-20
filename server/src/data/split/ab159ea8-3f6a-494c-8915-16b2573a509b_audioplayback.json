@@ -6,7 +6,7 @@
   "description": "Integrates with the play-sound library to enable cross-platform audio playback for voice notifications, sound effects, and audio cues.",
   "codiconIcon": "audio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "voice",
     "cues",

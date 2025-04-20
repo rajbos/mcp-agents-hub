@@ -6,7 +6,7 @@
   "description": "Bridges New Relic's log querying capabilities with a Python-based server, enabling execution of NRQL queries for performance monitoring and log analysis.",
   "codiconIcon": "new",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "capabilities",
     "enabling",

@@ -6,7 +6,7 @@
   "description": "Run SQL queries and other interactions against Snowflake databases",
   "codiconIcon": "snowflake",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "queries",
     "other",

@@ -6,7 +6,7 @@
   "description": "Integrates with Zotero to enable searching libraries, retrieving metadata, and accessing full-text content for scholarly research workflows.",
   "codiconIcon": "zotero",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "accessing",
     "content",

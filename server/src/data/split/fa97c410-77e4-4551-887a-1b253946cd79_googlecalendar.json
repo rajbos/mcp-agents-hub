@@ -6,7 +6,7 @@
   "description": "Integrates with Google Calendar to enable natural language querying, event creation, and calendar management using the Google Calendar API and OAuth 2.0 authentication.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "communication",
   "tags": [
     "oauth",
     "integrates",

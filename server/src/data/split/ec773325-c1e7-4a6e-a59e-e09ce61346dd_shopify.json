@@ -6,7 +6,7 @@
   "description": "Integrates with the Shopify API to enable e-commerce data management and operations for online stores, including product, order, and customer information handling.",
   "codiconIcon": "shopify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "e-commerce",
     "management",

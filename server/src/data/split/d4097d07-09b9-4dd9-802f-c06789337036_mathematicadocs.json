@@ -6,7 +6,7 @@
   "description": "Integrates with Wolfram Mathematica's documentation to provide access to function details, package symbols, and computational capabilities for mathematical modeling and scientific computing tasks.",
   "codiconIcon": "mathematica",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "capabilities",
     "mathematical",

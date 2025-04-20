@@ -6,7 +6,7 @@
   "description": "Integrates with Google Custom Search Engine API to enable web searches for fact-checking, research, and content generation with current data.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "integrates",
     "google",

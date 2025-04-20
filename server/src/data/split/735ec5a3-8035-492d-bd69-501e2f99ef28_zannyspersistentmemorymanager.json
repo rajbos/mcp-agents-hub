@@ -6,7 +6,7 @@
   "description": "Provides persistent memory storage, retrieval, and search capabilities for maintaining conversation context across sessions through JSON-RPC endpoints with tagging support.",
   "codiconIcon": "zanny's",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memory",
     "capabilities",

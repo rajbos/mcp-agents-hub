@@ -6,7 +6,7 @@
   "description": "Integrates with Cloudflare's Browser Rendering API to enable web scraping and screenshot capture using Puppeteer for dynamic content processing and automated visual testing.",
   "codiconIcon": "cloudflare",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "cloudflare-browser-rendering",
     "rendering",

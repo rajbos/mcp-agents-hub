@@ -6,7 +6,7 @@
   "description": "Integrates with markdown files and Apple Notes to automatically save and format Claude conversation content for easy reference and sharing.",
   "codiconIcon": "claude",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "claude-conversations-to-markdown",
     "files",

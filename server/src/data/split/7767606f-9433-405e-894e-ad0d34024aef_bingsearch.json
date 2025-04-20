@@ -6,7 +6,7 @@
   "description": "Integrates with Bing Search API to collect, parse, and analyze search data.",
   "codiconIcon": "bing",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "bing-search",
     "integrates",

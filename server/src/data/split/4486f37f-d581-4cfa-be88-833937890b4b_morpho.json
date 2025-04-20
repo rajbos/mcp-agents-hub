@@ -6,7 +6,7 @@
   "description": "Integrates with Morpho DeFi protocol's GraphQL API to enable querying market data, vaults, positions, and historical APY information for portfolio management and yield optimization.",
   "codiconIcon": "morpho",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "historical",
     "information",

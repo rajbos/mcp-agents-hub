@@ -6,7 +6,7 @@
   "description": "AgentRPC allows you to connect to any function, in any language, across network boundaries.\n\nAgentRPC wraps your functions in a universal RPC interface, connecting them to a hosted RPC server accessible through open standards such as MCP.",
   "codiconIcon": "agentrpc",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/itlj0rrti3.ico",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "boundaries",
     "wraps",

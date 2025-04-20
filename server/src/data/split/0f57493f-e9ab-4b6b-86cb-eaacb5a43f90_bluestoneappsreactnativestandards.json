@@ -6,7 +6,7 @@
   "description": "Provides access to BluestoneApps React Native coding standards and examples via FastAPI, enabling developers to retrieve development guidelines and implementation patterns through HTTP endpoints.",
   "codiconIcon": "bluestoneapps",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "retrieve",
     "guidelines",

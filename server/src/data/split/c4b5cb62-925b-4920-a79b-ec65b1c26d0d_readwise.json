@@ -6,7 +6,7 @@
   "description": "Integrates with Readwise to provide access to saved articles, books, highlights, and documents, enabling users to reference, analyze, and search across their personal knowledge collection during conversations.",
   "codiconIcon": "readwise",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "conversations",
     "readwise",

@@ -6,7 +6,7 @@
   "description": "Integrates with Strapi CMS to enable creating, reading, updating, and deleting content entries with support for filtering, pagination, sorting, and media uploads through URI-based resource patterns.",
   "codiconIcon": "strapi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "strapi",
     "reading",

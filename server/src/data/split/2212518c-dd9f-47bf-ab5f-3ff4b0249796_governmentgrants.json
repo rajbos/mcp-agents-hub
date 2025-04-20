@@ -6,7 +6,7 @@
   "description": "Integrates with the Simpler Grants API to enable keyword-based searching and retrieval of government grant opportunities.",
   "codiconIcon": "government",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "grant",
     "opportunities",

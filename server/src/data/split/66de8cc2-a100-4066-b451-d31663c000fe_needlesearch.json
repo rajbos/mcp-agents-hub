@@ -6,7 +6,7 @@
   "description": "Enables document management and natural language search capabilities through the Needle platform, allowing users to organize, store, and retrieve documents using Claude's language model.",
   "codiconIcon": "search",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/needle-search.png",
-  "category": "knowledge-memory",
+  "category": "search",
   "tags": [
     "document-management",
     "search",

@@ -6,7 +6,7 @@
   "description": "Integrates Azure DevOps services, enabling access to work items, repositories, and pull requests for project management and development workflows.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "management",
     "development",

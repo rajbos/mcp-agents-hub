@@ -6,7 +6,7 @@
   "description": "File deletion capabilities to safely delete files when needed, with support for both relative and absolute paths.",
   "codiconIcon": "delete",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "files",
     "support",

@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity AI API to enable web search capabilities for retrieving up-to-date information across domains.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "perplexity",
     "integrates",

@@ -6,7 +6,7 @@
   "description": "Integrates with Solana blockchain to enable natural language querying of account data, transactions, and network status.",
   "codiconIcon": "solana",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "data",
     "network",

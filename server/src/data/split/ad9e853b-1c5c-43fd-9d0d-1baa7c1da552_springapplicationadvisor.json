@@ -6,7 +6,7 @@
   "description": "Integrates with Spring Application Advisor to provide insights and recommendations for optimizing Spring applications in Cloud Foundry environments.",
   "codiconIcon": "spring",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applications",
     "spring-application-advisor",

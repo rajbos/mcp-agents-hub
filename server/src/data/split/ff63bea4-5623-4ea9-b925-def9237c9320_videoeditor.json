@@ -6,7 +6,7 @@
   "description": "Integrates with Video Jungle API to enable AI-powered video editing and content searching through natural language queries and automated clip generation.",
   "codiconIcon": "video",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "content",
     "searching",

@@ -6,7 +6,7 @@
   "description": "Enables AI assistants to interact with Apify's web scraping and automation actors, providing access to tools for data extraction, web searching, social media analysis, and more.",
   "codiconIcon": "server-process",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/apify.jpg",
-  "category": "search",
+  "category": "browser-automation",
   "tags": [
     "web-scraping",
     "data-extraction",

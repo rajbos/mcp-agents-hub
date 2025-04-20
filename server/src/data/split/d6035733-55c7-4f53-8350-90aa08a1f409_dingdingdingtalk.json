@@ -6,7 +6,7 @@
   "description": "Integrates with DingDing (DingTalk) messaging platform to enable automated notifications, team alerts, and AI-generated content delivery through multiple message formats including text, markdown, images, and interactive cards.",
   "codiconIcon": "dingding",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enable",
     "multiple",

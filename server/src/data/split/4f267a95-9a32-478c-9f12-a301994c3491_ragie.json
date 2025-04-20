@@ -6,7 +6,7 @@
   "description": "Integrates with Ragie's knowledge base retrieval system to enable efficient querying and information extraction from large-scale datasets.",
   "codiconIcon": "ragie",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "efficient",
     "large-scale",

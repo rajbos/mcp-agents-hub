@@ -6,7 +6,7 @@
   "description": "Bridges YouTube API to download closed captions, enabling video transcript analysis and content processing.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "youtube-transcript-downloader",
     "youtube",

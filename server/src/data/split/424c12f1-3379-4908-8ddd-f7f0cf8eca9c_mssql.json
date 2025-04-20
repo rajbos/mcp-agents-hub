@@ -6,7 +6,7 @@
   "description": "Enables secure AI-driven interactions with Microsoft SQL Server databases for automated data analysis, dynamic reporting, and intelligent database management.",
   "codiconIcon": "mssql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "microsoft",
     "databases",

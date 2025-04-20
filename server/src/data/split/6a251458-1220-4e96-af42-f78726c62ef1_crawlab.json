@@ -6,7 +6,7 @@
   "description": "Integrates with Crawlab to enable AI-driven web scraping, task automation, and data extraction workflows through spider management, file operations, and resource access tools.",
   "codiconIcon": "crawlab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "extraction",
     "management",

@@ -6,7 +6,7 @@
   "description": "Integrates with OpenWeather to retrieve and provide weather data.",
   "codiconIcon": "weather",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "openweather",
     "retrieve",

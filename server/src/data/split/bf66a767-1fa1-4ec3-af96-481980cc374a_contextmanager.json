@@ -6,7 +6,7 @@
   "description": "Enhances Claude's capabilities with context management across sessions, knowledge organization through hierarchical project contexts, and continuous conversation threads stored in a well-structured directory.",
   "codiconIcon": "context",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "contexts",
     "threads",

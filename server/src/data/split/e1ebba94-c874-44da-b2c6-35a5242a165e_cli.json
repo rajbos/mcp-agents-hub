@@ -6,7 +6,7 @@
   "description": "Execute system commands and scripts on the host machine.",
   "codiconIcon": "cli",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "machine",
     "cli",

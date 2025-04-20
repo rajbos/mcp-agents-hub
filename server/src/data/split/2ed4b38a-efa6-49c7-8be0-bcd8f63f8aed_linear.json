@@ -6,7 +6,7 @@
   "description": "Integrates with Linear project management tool to search for issues with detailed filtering by team, status, assignee, labels, project, priority, and more.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "detailed",
     "team",

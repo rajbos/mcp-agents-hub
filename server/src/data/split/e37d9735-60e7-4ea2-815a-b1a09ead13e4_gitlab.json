@@ -6,7 +6,7 @@
   "description": "Control repositories, merge requests, and issues via GitLab API.",
   "codiconIcon": "gitlab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "requests",
     "issues",

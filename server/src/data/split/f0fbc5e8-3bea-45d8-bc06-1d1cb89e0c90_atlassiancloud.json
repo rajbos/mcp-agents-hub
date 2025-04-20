@@ -6,7 +6,7 @@
   "description": "Access Confluence pages and Jira issues via Atlassian API.",
   "codiconIcon": "atlassian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "atlassian",
     "atlassian-cloud",

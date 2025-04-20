@@ -6,7 +6,7 @@
   "description": "Integrates with YouTube to enable subtitle retrieval and analysis for content summarization, translation, or accessibility enhancement.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "youtube-subtitles",
     "integrates",

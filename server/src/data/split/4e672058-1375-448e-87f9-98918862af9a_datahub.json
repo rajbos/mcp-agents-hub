@@ -6,7 +6,7 @@
   "description": "Integrates with DataHub's API to enable metadata management, discovery, and governance across diverse data assets in complex ecosystems.",
   "codiconIcon": "datahub",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "datahub",
     "integrates",

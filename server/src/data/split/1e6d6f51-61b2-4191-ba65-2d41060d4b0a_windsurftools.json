@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's API and Puppeteer to provide screenshot capture, code architecture analysis, and code review capabilities for software development tasks.",
   "codiconIcon": "windsurf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "software",
     "development",

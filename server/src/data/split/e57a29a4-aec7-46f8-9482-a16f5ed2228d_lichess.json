@@ -6,7 +6,7 @@
   "description": "Integrates with the Lichess chess platform to enable natural language-driven gameplay, analysis, and tournament participation through its API.",
   "codiconIcon": "lichess",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "language-driven",

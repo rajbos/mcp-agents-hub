@@ -6,7 +6,7 @@
   "description": "Integrates with DeepSeek's R1 reasoning engine to enable advanced cognitive modeling and multi-step reasoning capabilities for complex problem-solving across various domains.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "modeling",

@@ -6,7 +6,7 @@
   "description": "Integrates with Obsidian via a local REST API to enable reading, writing, and searching notes.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "searching",
     "notes",

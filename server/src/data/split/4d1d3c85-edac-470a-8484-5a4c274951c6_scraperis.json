@@ -6,7 +6,7 @@
   "description": "Integrates with Scraper.is API to enable web content extraction, structured data parsing, and Markdown conversion for tasks like product research, news aggregation, and content analysis.",
   "codiconIcon": "scraper.is",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "parsing",
     "markdown",

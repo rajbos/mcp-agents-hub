@@ -6,7 +6,7 @@
   "description": "Enables interaction with MongoDB databases through TypeScript and the MongoDB driver, providing seamless integration of MongoDB operations into workflows.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "enables",
     "databases",

@@ -6,7 +6,7 @@
   "description": "Enable searching and retrieving screen recordings and associated data for productivity tracking, user behavior analysis, and workflow documentation.",
   "codiconIcon": "screenpipe",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "workflow",
     "documentation",

@@ -6,7 +6,7 @@
   "description": "Integrates with CockroachDB to expose database schemas, execute SQL queries, and access cluster metadata for database exploration, query optimization, and cluster management tasks.",
   "codiconIcon": "cockroachdb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "cockroachdb",
     "schemas",

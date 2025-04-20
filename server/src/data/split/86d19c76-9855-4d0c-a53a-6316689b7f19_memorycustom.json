@@ -6,7 +6,7 @@
   "description": "Provides a knowledge graph-based memory system for creating, managing, and querying structured information with features like custom file paths, timestamping, and advanced search capabilities.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "system",
     "managing",

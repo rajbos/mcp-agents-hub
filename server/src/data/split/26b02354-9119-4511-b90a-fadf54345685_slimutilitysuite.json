@@ -6,7 +6,7 @@
   "description": "Integrates diverse utility services including weather data, email, task management, currency conversion, and calendar functions through a RESTful API for seamless incorporation into applications.",
   "codiconIcon": "slim",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "functions",
     "slim-utility-suite",

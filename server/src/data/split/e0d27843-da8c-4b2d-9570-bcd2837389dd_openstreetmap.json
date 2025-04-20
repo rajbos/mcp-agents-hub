@@ -6,7 +6,7 @@
   "description": "Provides direct access to OpenStreetMap geospatial data through SQL queries, enabling location-based analysis and extraction of structured information about geographic features from the complete OSM dataset.",
   "codiconIcon": "openstreetmap",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "provides",
     "geospatial",

@@ -6,7 +6,7 @@
   "description": "Enhances AI model responses with real-time search results from various engines through Higress ai-search, supporting internet, academic, and internal knowledge searches.",
   "codiconIcon": "higress",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "enhances",
     "responses",

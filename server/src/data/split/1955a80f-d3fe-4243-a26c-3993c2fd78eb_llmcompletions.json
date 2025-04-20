@@ -6,7 +6,7 @@
   "description": "Connect to OpenAI-compatible chat completion APIs.",
   "codiconIcon": "llm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "connect",
     "openai-compatible",

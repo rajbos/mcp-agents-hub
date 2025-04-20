@@ -6,7 +6,7 @@
   "description": "Integrates with Yahoo Finance to provide options analysis and strategy evaluation tools for risk assessment and portfolio management.",
   "codiconIcon": "optionsflow",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "evaluation",
     "tools",

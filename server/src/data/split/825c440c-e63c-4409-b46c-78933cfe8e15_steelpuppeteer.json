@@ -6,7 +6,7 @@
   "description": "Integrates AI with web browsers through Puppeteer and Steel's automation platform, enabling complex web tasks, data scraping, and workflow automation.",
   "codiconIcon": "steel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "tasks",
     "steel-puppeteer",

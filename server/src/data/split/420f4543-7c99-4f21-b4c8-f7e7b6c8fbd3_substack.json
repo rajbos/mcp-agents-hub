@@ -6,7 +6,7 @@
   "description": "Enables downloading and parsing of Substack posts, facilitating content analysis and research workflows.",
   "codiconIcon": "substack",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "substack",
     "enables",

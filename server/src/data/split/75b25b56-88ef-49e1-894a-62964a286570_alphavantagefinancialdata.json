@@ -6,7 +6,7 @@
   "description": "Integrates with Alpha Vantage API to provide stock quotes and historical data for financial analysis and market research tasks.",
   "codiconIcon": "alpha",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "provide",
     "historical",

@@ -6,7 +6,7 @@
   "description": "Bridges Replicate's AI model hosting platform, enabling seamless interaction with diverse machine learning models for tasks like image generation and text processing.",
   "codiconIcon": "replicate",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "image",
     "model",

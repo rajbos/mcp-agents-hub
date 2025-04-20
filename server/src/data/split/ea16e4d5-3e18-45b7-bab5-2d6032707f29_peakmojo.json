@@ -6,7 +6,7 @@
   "description": "Integrates with the PeakMojo API to simplify user, persona, scenario, and job management tasks, enabling efficient handling of user data and skill assessments.",
   "codiconIcon": "peakmojo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enabling",
     "assessments",

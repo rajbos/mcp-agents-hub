@@ -6,7 +6,7 @@
   "description": "Integrates with CGV Cinema's API to provide movie showtimes, cinema locations, and seat availability information for planning cinema outings through conversational interfaces.",
   "codiconIcon": "cgv",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "cinema's",

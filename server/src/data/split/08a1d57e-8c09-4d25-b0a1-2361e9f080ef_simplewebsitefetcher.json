@@ -6,7 +6,7 @@
   "description": "Exposes a simple website fetching tool for retrieving web content, supporting local development and cloud deployment with real-time communication via Server-Sent Events.",
   "codiconIcon": "simple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "exposes",
     "simple",

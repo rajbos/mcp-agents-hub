@@ -6,7 +6,7 @@
   "description": "Manages configurations for multiple MCP clients across platforms, providing tools to retrieve, list, add, and remove server configurations from client configuration files.",
   "codiconIcon": "configuration",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "providing",
     "configuration-manager",

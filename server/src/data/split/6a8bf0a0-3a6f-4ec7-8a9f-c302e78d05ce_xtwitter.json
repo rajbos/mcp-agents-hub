@@ -6,7 +6,7 @@
   "description": "Interact with X (Twitter) by posting tweets and searching for tweets through the X API.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "posting",
     "tweets",

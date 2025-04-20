@@ -6,7 +6,7 @@
   "description": "An MCP tool that connects Google Ads with Claude AI, Cursor and others, allowing you to analyze your advertising data through natural language conversations. This integration gives you access to campaign information, performance metrics, keyword analytics, and ad management—all through simple chat with Claude, Cursor or Windsurf.",
   "codiconIcon": "google",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/3mcnpxvxlrl.svg",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "google-ads",
     "cursor",

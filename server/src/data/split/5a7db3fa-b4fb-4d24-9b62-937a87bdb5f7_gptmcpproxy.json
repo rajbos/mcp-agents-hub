@@ -6,7 +6,7 @@
   "description": "Bridges HTTP clients with tool servers, enabling tool discovery and execution via REST endpoints, featuring automatic HTTPS exposure and OpenAPI 3.1.0 specification for seamless integration with custom GPTs and AI-assisted applications.",
   "codiconIcon": "gpt-mcp-proxy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "exposure",
     "openapi",

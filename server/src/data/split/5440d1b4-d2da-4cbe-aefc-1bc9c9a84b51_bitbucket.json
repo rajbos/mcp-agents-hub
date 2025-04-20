@@ -6,7 +6,7 @@
   "description": "Integrates with Bitbucket's API to streamline pull request workflows, enabling efficient code reviews and automated PR management.",
   "codiconIcon": "bitbucket",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "streamline",
     "request",

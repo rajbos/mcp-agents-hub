@@ -6,7 +6,7 @@
   "description": "Integrates with Notion to enable database and page operations, content management, and AI-powered analysis for enhanced productivity workflows.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "notion",
     "integrates",

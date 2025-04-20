@@ -6,7 +6,7 @@
   "description": "Enables secure execution of pre-approved system commands for automation tasks, system management, and controlled access to host resources.",
   "codiconIcon": "command",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "command-executor",
     "enables",

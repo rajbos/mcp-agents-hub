@@ -6,7 +6,7 @@
   "description": "Integrates with PostgreSQL to provide database analysis, optimization, and troubleshooting tools for streamlined management and performance tuning.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "troubleshooting",
     "streamlined",

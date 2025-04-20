@@ -6,7 +6,7 @@
   "description": "Integrates with Tavily to provide fine-grained news search capabilities for up-to-date information retrieval and analysis.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "provide",

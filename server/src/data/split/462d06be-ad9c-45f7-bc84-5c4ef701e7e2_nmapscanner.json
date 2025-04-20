@@ -6,7 +6,7 @@
   "description": "Integrates NMAP to enable network scanning, security assessments, and automated penetration testing on Windows systems.",
   "codiconIcon": "nmap",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "penetration",
     "testing",

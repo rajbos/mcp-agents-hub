@@ -6,7 +6,7 @@
   "description": "Integrates with X's API to enable tweet retrieval, user interactions, and social media analysis capabilities",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "analysis",
     "capabilities",

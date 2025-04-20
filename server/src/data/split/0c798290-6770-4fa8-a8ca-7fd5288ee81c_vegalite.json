@@ -6,7 +6,7 @@
   "description": "Provides troubleshooting and startup guidance for integrating Vega-Lite visualization capabilities with Claude, including documentation on common errors and configuration details.",
   "codiconIcon": "vega-lite",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "vega-lite",
     "integrating",

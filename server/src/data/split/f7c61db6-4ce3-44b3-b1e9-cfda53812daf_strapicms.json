@@ -6,7 +6,7 @@
   "description": "Integrates Strapi CMS content into workflows, enabling manipulation of data for content management and querying in Strapi-powered applications.",
   "codiconIcon": "strapi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "applications",
     "integrates",

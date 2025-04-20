@@ -6,7 +6,7 @@
   "description": "Integrates with Exa's API to enable web searches for AI models, enhancing tasks like research, fact-checking, and content generation with current data.",
   "codiconIcon": "exa",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "research",
     "content",

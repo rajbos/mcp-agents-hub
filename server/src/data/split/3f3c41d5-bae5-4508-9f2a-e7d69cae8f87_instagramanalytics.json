@@ -6,7 +6,7 @@
   "description": "Integrates with Instagram's API and web scraping tools to enable social media analytics, account management, and content strategy insights.",
   "codiconIcon": "instagram",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "instagram-analytics",
     "scraping",

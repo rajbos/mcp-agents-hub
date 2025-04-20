@@ -6,7 +6,7 @@
   "description": "Integrates with Dify to enable text generation, data analysis, and conversational flow management through Dify's API, streamlining AI-powered application development.",
   "codiconIcon": "dify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "through",
     "dify's",

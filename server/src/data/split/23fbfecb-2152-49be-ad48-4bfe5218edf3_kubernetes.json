@@ -6,7 +6,7 @@
   "description": "Integrates with Kubernetes clusters to enable direct pod, deployment, and service management operations through specialized FastMCP tools, eliminating the need to switch between AI conversations and command-line interfaces for DevOps workflows.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "eliminating",
     "command-line",

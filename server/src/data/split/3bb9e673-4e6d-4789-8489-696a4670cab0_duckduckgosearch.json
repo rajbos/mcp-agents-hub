@@ -6,7 +6,7 @@
   "description": "Integrates with DuckDuckGo to provide web search capabilities, content fetching, and parsing, with results formatted for large language model consumption.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "capabilities",

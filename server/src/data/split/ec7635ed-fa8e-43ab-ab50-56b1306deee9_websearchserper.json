@@ -6,7 +6,7 @@
   "description": "Integrates with the Serper API to perform web searches, enabling efficient retrieval and processing of up-to-date web content for applications.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "web-search-(serper)",
     "integrates",

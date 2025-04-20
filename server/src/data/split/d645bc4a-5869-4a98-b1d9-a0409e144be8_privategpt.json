@@ -6,7 +6,7 @@
   "description": "Integrates privateGPT with MCP-compatible applications, providing chat management, knowledge source organization, and group-based permissions for diverse AI-driven projects.",
   "codiconIcon": "privategpt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "group-based",
     "permissions",

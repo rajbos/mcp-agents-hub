@@ -6,7 +6,7 @@
   "description": "Integrates with DigitalOcean's API to provide a secure, rate-limited interface for automating cloud resource management and infrastructure operations.",
   "codiconIcon": "digitalocean",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "secure",
     "interface",

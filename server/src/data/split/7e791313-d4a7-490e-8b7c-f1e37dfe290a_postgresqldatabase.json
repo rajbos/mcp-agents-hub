@@ -6,7 +6,7 @@
   "description": "Enables interaction with PostgreSQL databases for executing SQL queries, exploring table schemas, and performing data analysis with robust error handling and connection pooling.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "enables",
     "interaction",

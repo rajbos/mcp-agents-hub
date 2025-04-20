@@ -6,7 +6,7 @@
   "description": "Streamlines Rust documentation workflows by providing tools for building, managing, and searching crate documentation through cargo doc commands with caching and error handling.",
   "codiconIcon": "docs.rs",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "streamlines",
     "searching",

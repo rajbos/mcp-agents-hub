@@ -6,7 +6,7 @@
   "description": "Advanced web scraping and crawling server with JavaScript rendering, batch processing, smart content filtering, and structured data extraction capabilities.",
   "codiconIcon": "globe",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/firecrawl.jpg",
-  "category": "search",
+  "category": "developer-tools",
   "tags": [
     "web-scraping",
     "crawling",

@@ -6,7 +6,7 @@
   "description": "Provides Unix command documentation, including help pages, man pages, and usage information, enabling retrieval and exploration of system commands within conversations.",
   "codiconIcon": "unix",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "unix-manual",
     "documentation",

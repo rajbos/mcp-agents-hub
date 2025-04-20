@@ -6,7 +6,7 @@
   "description": "Control Windows command-line interfaces securely.",
   "codiconIcon": "windows",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "windows-cli",
     "control",

@@ -6,7 +6,7 @@
   "description": "Integrates with Targetprocess to enable searching, retrieving, creating, and updating project management entities for enhanced agile workflows and task tracking.",
   "codiconIcon": "targetprocess",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "retrieving",

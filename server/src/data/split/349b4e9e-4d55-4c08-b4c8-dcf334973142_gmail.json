@@ -6,7 +6,7 @@
   "description": "Integrates Gmail functionality to enable secure access, search, and analysis of email contents using OAuth2 authentication and the Gmail API.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "oauth2",
     "integrates",

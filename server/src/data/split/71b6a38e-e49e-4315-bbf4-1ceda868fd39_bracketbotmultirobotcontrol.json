@@ -6,7 +6,7 @@
   "description": "Enables simultaneous control of multiple robots through a unified interface for movement, sound playback, camera access, and status monitoring with precise velocity control and comprehensive error handling.",
   "codiconIcon": "bracketbot",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "bracketbot-multi-robot-control",
     "enables",

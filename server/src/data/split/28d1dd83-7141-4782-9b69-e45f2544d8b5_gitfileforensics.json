@@ -6,7 +6,7 @@
   "description": "Provides deep git file-level forensics capabilities for tracking versions, analyzing diffs, examining commit contexts, and evaluating semantic changes in individual files.",
   "codiconIcon": "git",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "git-file-forensics",
     "forensics",

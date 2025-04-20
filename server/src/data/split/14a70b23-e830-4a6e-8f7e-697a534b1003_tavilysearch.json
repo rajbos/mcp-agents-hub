@@ -6,7 +6,7 @@
   "description": "Integrates with Tavily search API to enable natural language web queries for retrieving up-to-date, contextual information from across the internet.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "natural",
     "language",

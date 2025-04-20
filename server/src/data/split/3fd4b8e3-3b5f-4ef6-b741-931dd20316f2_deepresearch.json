@@ -6,7 +6,7 @@
   "description": "Integrates search engines, web scraping, and Gemini models to perform iterative, deep research on any topic, generating insights and detailed reports with source citations.",
   "codiconIcon": "deep",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "scraping",
     "models",

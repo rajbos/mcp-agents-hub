@@ -6,7 +6,7 @@
   "description": "Integrates with Cloudflare's API to enable management of DNS, CDN, and security configurations for web infrastructure automation.",
   "codiconIcon": "cloudflare",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "cloudflare",
     "integrates",

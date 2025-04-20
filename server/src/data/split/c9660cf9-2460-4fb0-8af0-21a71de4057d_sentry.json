@@ -6,7 +6,7 @@
   "description": "Retrieve and analyze application error reports for debugging support.",
   "codiconIcon": "sentry",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "debugging",
     "support",

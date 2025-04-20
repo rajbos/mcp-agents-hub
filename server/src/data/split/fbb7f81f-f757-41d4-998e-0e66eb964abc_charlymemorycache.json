@@ -6,7 +6,7 @@
   "description": "Caches data between language model queries to optimize token consumption and reduce costs in AI interactions.",
   "codiconIcon": "charly",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "reduce",
     "costs",

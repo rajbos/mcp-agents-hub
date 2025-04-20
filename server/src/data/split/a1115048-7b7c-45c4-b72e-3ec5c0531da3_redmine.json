@@ -6,7 +6,7 @@
   "description": "Integrates with Redmine to enable project management tasks like accessing project details and creating issues through a custom API built on the node-redmine library.",
   "codiconIcon": "redmine",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "redmine",
     "creating",

@@ -6,7 +6,7 @@
   "description": "Integrates with WorkOS API to enable enterprise-grade authentication and user management features like Single Sign-On and Multi-Factor Authentication for secure, scalable identity management in AI workflows.",
   "codiconIcon": "workos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "sign-on",
     "workflows",

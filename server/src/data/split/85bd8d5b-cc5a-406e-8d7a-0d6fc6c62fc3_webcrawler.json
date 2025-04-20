@@ -6,7 +6,7 @@
   "description": "Configurable web crawler that extracts structured content from websites while respecting robots.txt rules and offering customizable settings for depth, delay, and concurrency.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "web-crawler",
     "configurable",

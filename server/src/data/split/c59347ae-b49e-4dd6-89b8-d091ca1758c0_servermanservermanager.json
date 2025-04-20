@@ -6,7 +6,7 @@
   "description": "Server that manages Claude's configuration for other MCP servers.",
   "codiconIcon": "serverman",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "serverman-(server-manager)",
     "server",

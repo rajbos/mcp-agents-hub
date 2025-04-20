@@ -6,7 +6,7 @@
   "description": "Integrates with Fillout API to create, manage, and analyze online forms and surveys for data collection.",
   "codiconIcon": "fillout",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "forms",
     "surveys",

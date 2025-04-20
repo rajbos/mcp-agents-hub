@@ -6,7 +6,7 @@
   "description": "Integrates with Microsoft Excel to enable reading and writing of text data in xlsx files for spreadsheet manipulation and analysis tasks.",
   "codiconIcon": "excel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "microsoft",
     "reading",

@@ -6,7 +6,7 @@
   "description": "Extracts and transforms webpage content into clean, LLM-optimized Markdown by removing non-essential elements while preserving key metadata.",
   "codiconIcon": "readability",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "webpage",
     "content",

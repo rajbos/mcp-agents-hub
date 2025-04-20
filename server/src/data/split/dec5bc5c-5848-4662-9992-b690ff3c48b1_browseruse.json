@@ -6,7 +6,7 @@
   "description": "Integrates with web browsers to enable automated web scraping, form filling, and interaction with web applications.",
   "codiconIcon": "browser",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "browser-use",
     "integrates",

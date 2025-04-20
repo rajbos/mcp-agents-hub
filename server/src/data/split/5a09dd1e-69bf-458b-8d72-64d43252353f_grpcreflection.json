@@ -6,7 +6,7 @@
   "description": "Integrates with gRPC services using grpcurl, enabling method invocation, service listing, and description with custom header support for versatile API interactions.",
   "codiconIcon": "grpc",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "grpcurl",
     "method",

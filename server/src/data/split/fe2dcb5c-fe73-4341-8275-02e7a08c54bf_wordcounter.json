@@ -6,7 +6,7 @@
   "description": "Analyze text documents, including counting words and characters, through Node.js.",
   "codiconIcon": "word",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "characters",
     "through",

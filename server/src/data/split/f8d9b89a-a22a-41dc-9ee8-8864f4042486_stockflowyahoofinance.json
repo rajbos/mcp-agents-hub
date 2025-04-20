@@ -6,7 +6,7 @@
   "description": "Integrates with the Yahoo Finance API to provide real-time stock market data and analysis tools for financial research and trading strategies.",
   "codiconIcon": "stockflow",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "market",
     "analysis",

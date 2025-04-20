@@ -6,7 +6,7 @@
   "description": "Integrates with PubMed database via NCBI E-utilities API to search and retrieve academic papers, including titles, authors, journals, abstracts, and DOIs for biomedical research.",
   "codiconIcon": "pubmed",
   "logoUrl": "",
-  "category": "database",
+  "category": "search",
   "tags": [
     "pubmed",
     "retrieve",

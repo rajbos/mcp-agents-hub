@@ -6,7 +6,7 @@
   "description": "Integrates Home Assistant with language models to enable natural language control and querying of smart home devices.",
   "codiconIcon": "home",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "querying",
     "smart",

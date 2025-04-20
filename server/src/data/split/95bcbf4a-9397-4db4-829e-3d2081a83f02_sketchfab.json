@@ -6,7 +6,7 @@
   "description": "Provides a streamlined interface to the Sketchfab API for searching and downloading 3D models with filtering options for animated or rigged content.",
   "codiconIcon": "sketchfab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "downloading",
     "models",

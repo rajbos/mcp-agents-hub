@@ -6,7 +6,7 @@
   "description": "Provides direct access to local filesystem operations for reading file contents and listing directory entries through a FastMCP-powered server that supports both stdio and SSE transport modes.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "provides",
     "local",

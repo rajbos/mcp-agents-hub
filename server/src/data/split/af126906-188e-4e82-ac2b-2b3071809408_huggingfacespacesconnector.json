@@ -6,7 +6,7 @@
   "description": "MCP server that seamlessly integrates Hugging Face Spaces with AI assistants, enabling easy access to diverse AI models and tools without manual configuration.",
   "codiconIcon": "huggingface",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "huggingface-spaces-connector",
     "spaces",

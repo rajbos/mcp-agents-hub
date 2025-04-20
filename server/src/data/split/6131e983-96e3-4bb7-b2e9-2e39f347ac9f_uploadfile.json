@@ -6,7 +6,7 @@
   "description": "Provides a bridge for efficient file uploads within AI-assisted workflows, enabling seamless integration of file handling capabilities into existing systems.",
   "codiconIcon": "upload",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "upload-file",
     "bridge",

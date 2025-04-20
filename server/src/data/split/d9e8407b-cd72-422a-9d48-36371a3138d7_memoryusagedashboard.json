@@ -6,7 +6,7 @@
   "description": "Provides a React-based dashboard for real-time monitoring and visualization of memory usage in MCP implementations, enabling developers to optimize performance and identify potential memory leaks.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "provides",
     "react-based",

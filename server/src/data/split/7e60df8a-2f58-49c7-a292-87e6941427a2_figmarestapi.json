@@ -6,7 +6,7 @@
   "description": "Integrates with the Figma REST API to manage design system elements, enabling variable handling, file operations, and collaborative workflows.",
   "codiconIcon": "figma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "system",
     "variable",

@@ -6,7 +6,7 @@
   "description": "Integrates with Maven Central Repository to verify and retrieve dependency versions for automated project management and updates.",
   "codiconIcon": "maven",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "dependency",
     "versions",

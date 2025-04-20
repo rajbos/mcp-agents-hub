@@ -6,7 +6,7 @@
   "description": "Integrates with Umami analytics to enable website performance analysis, user behavior tracking, and data-driven insights generation through semantic search and web crawling capabilities.",
   "codiconIcon": "umami",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "crawling",
     "integrates",

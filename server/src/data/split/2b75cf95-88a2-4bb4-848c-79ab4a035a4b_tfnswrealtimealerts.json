@@ -6,7 +6,7 @@
   "description": "Integrates with Transport for NSW's Realtime Alerts API to retrieve, filter, and summarize up-to-date public transport disruptions and alerts across the NSW network.",
   "codiconIcon": "tfnsw",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "realtime",
     "alerts",

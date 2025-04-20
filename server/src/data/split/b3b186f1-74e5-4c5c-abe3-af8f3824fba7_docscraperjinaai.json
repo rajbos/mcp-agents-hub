@@ -6,7 +6,7 @@
   "description": "Converts web documentation to clean markdown using Jina.ai's API, enabling easy transformation of online docs for content migration or offline use.",
   "codiconIcon": "doc",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "online",
     "content",

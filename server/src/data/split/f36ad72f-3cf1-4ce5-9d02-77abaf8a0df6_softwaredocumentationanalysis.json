@@ -6,7 +6,7 @@
   "description": "Parses through README documentation/project files on your local filesystem to guide development workflows.",
   "codiconIcon": "software",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "through",
     "filesystem",

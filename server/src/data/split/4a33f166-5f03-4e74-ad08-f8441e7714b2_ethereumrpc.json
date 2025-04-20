@@ -6,7 +6,7 @@
   "description": "Provides a bridge to the Ethereum blockchain for querying contract bytecode, gas prices, and account balances through standard JSON-RPC calls to public endpoints.",
   "codiconIcon": "ethereum",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "bridge",
     "bytecode",

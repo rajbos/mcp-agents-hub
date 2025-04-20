@@ -6,7 +6,7 @@
   "description": "Integrates with Notion to provide markdown-based content retrieval, searching, and processing capabilities.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "notion-markdown",
     "notion",

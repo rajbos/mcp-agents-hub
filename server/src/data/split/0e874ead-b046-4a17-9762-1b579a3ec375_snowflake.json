@@ -6,7 +6,7 @@
   "description": "Interact with Snowflake databases",
   "codiconIcon": "snowflake",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/0zcv3459unjm.png",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "snowflake",
     "interact",

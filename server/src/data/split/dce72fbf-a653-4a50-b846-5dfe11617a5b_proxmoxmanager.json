@@ -6,7 +6,7 @@
   "description": "A server for managing Proxmox hypervisors, providing tools to control nodes, VMs, containers, storage, and execute console commands in virtual machines.",
   "codiconIcon": "server",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/proxmox-manager.png",
-  "category": "virtualization",
+  "category": "cloud-platforms",
   "tags": [
     "proxmox",
     "virtualization",

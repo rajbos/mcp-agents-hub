@@ -6,7 +6,7 @@
   "description": "Creates isolated Docker environments for executing code in multiple languages, with persistent containers and Dockerfile generation for reproducible setups.",
   "codiconIcon": "docker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "isolated",
     "docker",

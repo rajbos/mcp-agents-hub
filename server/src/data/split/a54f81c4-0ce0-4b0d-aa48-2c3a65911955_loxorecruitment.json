@@ -6,7 +6,7 @@
   "description": "Integrates with Loxo's recruitment platform API to streamline hiring processes through automated candidate tracking, job matching, and task management.",
   "codiconIcon": "loxo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "through",
     "automated",

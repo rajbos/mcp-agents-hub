@@ -6,7 +6,7 @@
   "description": "Provides a RESTful API for remote execution of Python code snippets.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "execution",
     "python",

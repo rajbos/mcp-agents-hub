@@ -6,7 +6,7 @@
   "description": "Generates map images from geographic coordinates using Python libraries for geocoding and visualization tasks.",
   "codiconIcon": "geoapify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "images",
     "python",

@@ -6,7 +6,7 @@
   "description": "Integrates Discord webhooks to enable sending customized messages and notifications to Discord channels.",
   "codiconIcon": "discord",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "sending",
     "customized",

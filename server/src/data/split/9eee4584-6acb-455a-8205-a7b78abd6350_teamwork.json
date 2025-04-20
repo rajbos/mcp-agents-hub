@@ -6,7 +6,7 @@
   "description": "The Teamwork MCP Server enables the Cursor Agent to interact with your Teamwork.com account. It enables users to manage projects, tasks, people, reporting, and time tracking.\n\nPlease check the installation instructions for more details, license and disclaimer. ",
   "codiconIcon": "teamwork",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/2uasg0591sx.png",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enables",
     "agent",

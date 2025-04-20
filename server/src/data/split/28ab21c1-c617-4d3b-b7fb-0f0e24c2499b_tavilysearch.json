@@ -6,7 +6,7 @@
   "description": "Search and retrieve AI-enhanced web results via Tavily.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "retrieve",
     "ai-enhanced",

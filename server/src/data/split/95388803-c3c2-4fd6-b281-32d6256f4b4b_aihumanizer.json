@@ -6,7 +6,7 @@
   "description": "Integrates multiple AI text detection services to analyze content authenticity, writing style, and potential plagiarism.",
   "codiconIcon": "ai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "integrates",
     "detection",

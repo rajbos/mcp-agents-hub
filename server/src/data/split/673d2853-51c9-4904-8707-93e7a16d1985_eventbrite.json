@@ -6,7 +6,7 @@
   "description": "Integrates with Eventbrite's API for event searching, detail retrieval, venue information access, and category exploration, enabling streamlined event discovery, planning, and analysis.",
   "codiconIcon": "eventbrite",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "searching",
     "detail",

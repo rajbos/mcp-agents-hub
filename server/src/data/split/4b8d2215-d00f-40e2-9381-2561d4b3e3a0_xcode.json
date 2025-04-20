@@ -6,7 +6,7 @@
   "description": "Integrates with Xcode to streamline iOS development workflows, automate build processes, and facilitate code generation for efficient app creation.",
   "codiconIcon": "xcode",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "development",
     "workflows",

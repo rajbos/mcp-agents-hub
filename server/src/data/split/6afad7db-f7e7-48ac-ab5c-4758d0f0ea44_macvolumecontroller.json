@@ -6,7 +6,7 @@
   "description": "Enables macOS volume control via osascript, providing mute and unmute functionality for system audio management.",
   "codiconIcon": "mac",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "system",
     "management",

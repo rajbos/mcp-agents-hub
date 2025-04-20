@@ -6,7 +6,7 @@
   "description": "Integrates with Folderr's API to enable management and communication with Folderr Assistants, facilitating tasks like listing assistants and sending questions.",
   "codiconIcon": "folderr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "listing",
     "sending",

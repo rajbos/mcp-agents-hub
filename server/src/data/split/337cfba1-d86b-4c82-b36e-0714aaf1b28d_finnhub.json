@@ -6,7 +6,7 @@
   "description": "Integrates with Finnhub's financial API to provide streamlined access to market news, stock quotes, financials, and recommendation trends.",
   "codiconIcon": "finnhub",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "quotes",
     "recommendation",

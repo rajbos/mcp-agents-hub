@@ -6,7 +6,7 @@
   "description": "Provides functionality to fetch web content in various formats, including HTML, JSON, plain text, and Markdown, with support for custom headers and content transformation.",
   "codiconIcon": "cloud-download",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/fetch.png",
-  "category": "search",
+  "category": "developer-tools",
   "tags": [
     "web-fetching",
     "html",

@@ -6,7 +6,7 @@
   "description": "Integrates wget-based website downloading capabilities to enable offline archiving and analysis of web content while preserving site structure.",
   "codiconIcon": "website",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "preserving",
     "structure",

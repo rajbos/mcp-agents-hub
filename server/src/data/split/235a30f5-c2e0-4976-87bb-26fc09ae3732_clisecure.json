@@ -6,7 +6,7 @@
   "description": "Execute shell commands with strict security policies.",
   "codiconIcon": "cli",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "cli-secure",
     "execute",

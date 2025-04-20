@@ -6,7 +6,7 @@
   "description": "Integrates with pdf2image to convert PDF documents to PNG images.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "documents",
     "images",

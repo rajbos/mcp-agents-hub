@@ -6,7 +6,7 @@
   "description": "Provides a stateful terminal interface for maintaining session context and executing complex, multi-step operations across multiple interactions.",
   "codiconIcon": "pty",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "pty-terminal",
     "stateful",

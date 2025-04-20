@@ -6,7 +6,7 @@
   "description": "Integrates with EverArt API to generate images from text prompts using multiple AI models for creative and visual design tasks.",
   "codiconIcon": "everart",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "everart",
     "integrates",

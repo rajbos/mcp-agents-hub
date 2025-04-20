@@ -6,7 +6,7 @@
   "description": "Provides efficient file search functionality within repositories, respecting ignore patterns and offering configurable text content matching for development tools and applications.",
   "codiconIcon": "repository",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "repositories",

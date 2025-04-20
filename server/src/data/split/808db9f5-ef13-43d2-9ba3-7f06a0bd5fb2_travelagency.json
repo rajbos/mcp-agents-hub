@@ -6,7 +6,7 @@
   "description": "Integrates with Spring Boot and PostgreSQL to provide a travel agency application with AI-assisted interactions for trip planning, recommendations, and automated customer service.",
   "codiconIcon": "travel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "spring",

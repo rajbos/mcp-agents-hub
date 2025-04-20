@@ -6,7 +6,7 @@
   "description": "Integrates with MATLAB to execute code, generate scripts from natural language, and access documentation, enabling complex mathematical operations and data analysis using MATLAB's toolsets.",
   "codiconIcon": "matlab",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "documentation",
     "enabling",

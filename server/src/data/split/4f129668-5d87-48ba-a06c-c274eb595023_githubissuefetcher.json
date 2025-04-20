@@ -6,7 +6,7 @@
   "description": "Fetches GitHub issues and transforms them into structured task descriptions for software development workflows and project management.",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "issues",
     "transforms",

@@ -6,7 +6,7 @@
   "description": "Perform web searches and extract cleaned content via integration with Apify's RAG Web Browser Actor.",
   "codiconIcon": "apify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "apify-rag-web-browser",
     "perform",

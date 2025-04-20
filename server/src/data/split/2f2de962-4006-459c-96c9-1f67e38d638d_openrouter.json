@@ -6,7 +6,7 @@
   "description": "Unifies access to diverse AI models via OpenRouter, enabling flexible model selection and usage for applications like chatbots and content generation.",
   "codiconIcon": "openrouter",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "openrouter",
     "diverse",

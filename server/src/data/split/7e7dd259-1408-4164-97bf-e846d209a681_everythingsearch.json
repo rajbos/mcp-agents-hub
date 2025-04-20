@@ -6,7 +6,7 @@
   "description": "Integrates with the Everything Search Engine to enable file search and management across large file systems using advanced query options and customizable result formatting.",
   "codiconIcon": "everything",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "everything-search",
     "everything",

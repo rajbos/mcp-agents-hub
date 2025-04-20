@@ -6,7 +6,7 @@
   "description": "Integrates with X using the agent-twitter-client library, enabling tweet retrieval and posting within Docker containers with proxy support for network isolation.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "using",
     "tweet",

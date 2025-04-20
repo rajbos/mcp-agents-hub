@@ -6,7 +6,7 @@
   "description": "Integrates with Memory Box to provide persistent, context-aware interactions through semantic memory storage and retrieval using vector embeddings and search capabilities.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memory",
     "context-aware",

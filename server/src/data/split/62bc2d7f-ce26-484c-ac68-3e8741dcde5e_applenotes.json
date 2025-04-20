@@ -6,7 +6,7 @@
   "description": "Integrates with Apple Notes to enable listing, searching, creating, and indexing notes using semantic and full-text search capabilities, leveraging LanceDB for efficient data storage and on-device embeddings for natural language interactions.",
   "codiconIcon": "apple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "indexing",
     "language",

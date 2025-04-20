@@ -6,7 +6,7 @@
   "description": "Search and retrieve context from local files for RAG.",
   "codiconIcon": "minima",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "local",
     "files",

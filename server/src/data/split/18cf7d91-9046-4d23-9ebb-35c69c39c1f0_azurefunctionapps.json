@@ -6,7 +6,7 @@
   "description": "Enables testing of Azure Function Apps through a command-line interface supporting various HTTP methods, custom headers, and multiple authentication options.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "multiple",
     "testing",

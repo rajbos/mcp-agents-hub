@@ -6,7 +6,7 @@
   "description": "Provides tools for interacting with the Solana blockchain, enabling operations like token management, NFT minting, trading, and wallet interactions through a standardized interface.",
   "codiconIcon": "link",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/sendai.jpg",
-  "category": "finance",
+  "category": "developer-tools",
   "tags": [
     "blockchain",
     "solana",

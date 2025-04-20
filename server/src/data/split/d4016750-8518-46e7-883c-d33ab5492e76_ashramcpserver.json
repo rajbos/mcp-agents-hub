@@ -6,7 +6,7 @@
   "description": "Extract structured data from any website with a simple SDK call. No scraping code, no headless browsers - just prompt and get JSON.",
   "codiconIcon": "ashra",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/o9tfdlsaej9.svg",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "simple",
     "code",

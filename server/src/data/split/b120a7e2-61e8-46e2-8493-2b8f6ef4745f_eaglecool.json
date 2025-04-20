@@ -6,7 +6,7 @@
   "description": "Integrates Claude Desktop with the Eagle.cool app for asset management and creative project assistance through MCP-enabled interaction with Eagle's features.",
   "codiconIcon": "eagle.cool",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "desktop",
     "asset",

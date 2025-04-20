@@ -6,7 +6,7 @@
   "description": "Provides diverse random generation utilities including UUIDs, numbers, strings, passwords, and more.",
   "codiconIcon": "random",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "utilities",
     "including",

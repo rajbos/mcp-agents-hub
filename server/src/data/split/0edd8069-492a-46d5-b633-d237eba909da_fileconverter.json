@@ -6,7 +6,7 @@
   "description": "Provides file conversion capabilities for transforming documents and images between formats like DOCX, PDF, Excel, CSV, and HTML without external tools",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "file-converter",
     "transforming",

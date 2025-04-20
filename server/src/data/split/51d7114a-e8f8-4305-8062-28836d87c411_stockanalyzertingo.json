@@ -6,7 +6,7 @@
   "description": "Integrates with Tiingo API to perform technical analysis on stocks, providing key indicators for trading decisions.",
   "codiconIcon": "stock",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "analysis",

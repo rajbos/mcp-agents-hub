@@ -6,7 +6,7 @@
   "description": "Query and analyze iMessage conversations on macOS.",
   "codiconIcon": "imessage",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "query",
     "analyze",

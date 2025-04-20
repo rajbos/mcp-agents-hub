@@ -6,7 +6,7 @@
   "description": "Reimagined server for filesystem access with privacy-preserving path aliases and an optimized LLM-friendly API.",
   "codiconIcon": "better",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "privacy-preserving",
     "optimized",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Firecrawl API to enable website crawling, content translation, and structured data extraction for enhanced web data processing workflows.",
   "codiconIcon": "firecrawl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "enable",

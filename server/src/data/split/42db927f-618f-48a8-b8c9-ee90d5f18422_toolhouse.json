@@ -6,7 +6,7 @@
   "description": "Allows you to connect MCP clients with Toolhouse.ai's tools",
   "codiconIcon": "toolhouse",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "connect",
     "clients",

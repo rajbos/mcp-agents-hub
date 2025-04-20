@@ -6,7 +6,7 @@
   "description": "Manages TODO.md and CHANGELOG.md files with precise, line-based editing, multiple character encodings, and atomic operations for structured task and release management.",
   "codiconIcon": "todo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "todo-manager",
     "atomic",

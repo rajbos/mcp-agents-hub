@@ -6,7 +6,7 @@
   "description": "Control music playback and access Spotify's music data.",
   "codiconIcon": "spotify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "control",
     "music",

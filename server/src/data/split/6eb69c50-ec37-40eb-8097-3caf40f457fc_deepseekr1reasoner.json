@@ -6,7 +6,7 @@
   "description": "Leverages Deepseek r1 for local reasoning and task planning, enabling autonomous decision-making while maintaining data privacy.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "privacy",
     "leverages",

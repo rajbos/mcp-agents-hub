@@ -6,7 +6,7 @@
   "description": "Integrates with Neo4j graph databases to enable natural language querying, node creation, and complex graph operations for knowledge exploration and data relationship modeling.",
   "codiconIcon": "neo4j",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "creation",
     "integrates",

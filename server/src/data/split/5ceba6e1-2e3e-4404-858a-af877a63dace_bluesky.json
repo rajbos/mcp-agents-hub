@@ -6,7 +6,7 @@
   "description": "Integrates with Bluesky's social network API to enable profile management, posting, following, and engagement actions.",
   "codiconIcon": "bluesky",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "bluesky",
     "social",

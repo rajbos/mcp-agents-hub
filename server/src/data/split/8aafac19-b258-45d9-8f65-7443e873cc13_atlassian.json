@@ -6,7 +6,7 @@
   "description": "Integrates with Atlassian's Confluence and JIRA APIs to enable content creation, issue tracking, and project management within Atlassian ecosystems.",
   "codiconIcon": "atlassian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "enable",

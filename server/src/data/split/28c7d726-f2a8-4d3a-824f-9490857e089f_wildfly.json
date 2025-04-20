@@ -6,7 +6,7 @@
   "description": "Integrates with WildFly application servers to enable monitoring, configuration, and management of server resources and performance.",
   "codiconIcon": "wildfly",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "servers",
     "enable",

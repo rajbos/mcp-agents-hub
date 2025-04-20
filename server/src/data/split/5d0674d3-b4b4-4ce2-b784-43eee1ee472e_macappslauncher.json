@@ -6,7 +6,7 @@
   "description": "Launch and control macOS applications.",
   "codiconIcon": "mac",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "mac-apps-launcher",
     "launch",

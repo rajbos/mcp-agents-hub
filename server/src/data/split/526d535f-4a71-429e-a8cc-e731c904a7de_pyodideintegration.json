@@ -6,7 +6,7 @@
   "description": "Integrates Pyodide to enable Python execution in JavaScript environments.",
   "codiconIcon": "pyodide",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "python",
     "execution",

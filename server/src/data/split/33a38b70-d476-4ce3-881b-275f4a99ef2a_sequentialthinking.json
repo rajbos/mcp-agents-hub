@@ -6,7 +6,7 @@
   "description": "Implements structured step-by-step reasoning to break down and methodically analyze complex problems.",
   "codiconIcon": "sequential",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "sequential-thinking",
     "step-by-step",

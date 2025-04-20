@@ -6,7 +6,7 @@
   "description": "Bridges natural language interactions with Kubernetes clusters by wrapping kubectl commands, enabling conversational management of pods, deployments, contexts, and troubleshooting without requiring exact syntax knowledge.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "conversational",
     "management",

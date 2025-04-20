@@ -6,7 +6,7 @@
   "description": "Integrates with Uber Eats using browser automation to enable restaurant searches, menu exploration, and food order placement for applications requiring food delivery capabilities.",
   "codiconIcon": "uber",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "order",
     "applications",

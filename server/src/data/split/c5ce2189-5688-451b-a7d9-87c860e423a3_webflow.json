@@ -6,7 +6,7 @@
   "description": "Integrates with the Webflow API to enable retrieving site information, managing custom domains, and automating Webflow site management tasks.",
   "codiconIcon": "webflow",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "information",
     "managing",

@@ -6,7 +6,7 @@
   "description": "Provides SQLite-based persistent memory storage for maintaining context across conversations, enabling long-term recall and knowledge management.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "sqlite-based",
     "persistent",

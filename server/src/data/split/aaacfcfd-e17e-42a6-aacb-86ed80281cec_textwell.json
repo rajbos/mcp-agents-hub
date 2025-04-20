@@ -6,7 +6,7 @@
   "description": "Integrates with Textwell on macOS to enable writing text in replace, insert, or append modes via a simple, focused interface.",
   "codiconIcon": "textwell",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "interface",
     "integrates",

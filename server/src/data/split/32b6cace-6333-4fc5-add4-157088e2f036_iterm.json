@@ -6,7 +6,7 @@
   "description": "Provides direct access to iTerm terminal sessions, enabling command execution, REPL interaction, and terminal output inspection with efficient token usage and control character support.",
   "codiconIcon": "terminal",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/iterm.png",
-  "category": "os-automation",
+  "category": "developer-tools",
   "tags": [
     "terminal",
     "iterm",

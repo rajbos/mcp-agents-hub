@@ -6,7 +6,7 @@
   "description": "Integrates with Trino databases to enable natural language querying, data analysis, and SQL execution via a FastAPI-based REST interface.",
   "codiconIcon": "trino",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "trino",
     "integrates",

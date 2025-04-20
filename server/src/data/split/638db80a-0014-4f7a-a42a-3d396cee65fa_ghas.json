@@ -6,7 +6,7 @@
   "description": "Integrates with GitHub Advanced Security to provide the context from the security alerts",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "security",
+  "category": "developer-tools",
   "tags": [
     "github",
     "security",

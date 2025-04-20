@@ -6,7 +6,7 @@
   "description": "Integrates with Supabase PostgreSQL databases, exposing table schemas as resources and providing tools for data analysis, including read-only SQL queries, table statistics, and relationship discovery.",
   "codiconIcon": "supabase",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "exposing",
     "schemas",

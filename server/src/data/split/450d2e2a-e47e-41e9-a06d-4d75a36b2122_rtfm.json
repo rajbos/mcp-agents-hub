@@ -6,7 +6,7 @@
   "description": "Transforms unstructured documentation into an intelligent, searchable knowledge base.",
   "codiconIcon": "rtfm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "documentation",
     "intelligent",

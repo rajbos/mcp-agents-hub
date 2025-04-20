@@ -6,7 +6,7 @@
   "description": "Integrates with Cloudinary to enable seamless image and video uploads with customizable parameters for dynamic content management.",
   "codiconIcon": "cloudinary",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "image",
     "video",

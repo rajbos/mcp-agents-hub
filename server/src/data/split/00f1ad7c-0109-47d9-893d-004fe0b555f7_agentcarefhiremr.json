@@ -6,7 +6,7 @@
   "description": "Integrates with FHIR-enabled EMR systems to provide healthcare tools for patient data retrieval, medical research integration, and AI-assisted clinical analysis.",
   "codiconIcon": "agentcare",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "analysis",
     "patient",

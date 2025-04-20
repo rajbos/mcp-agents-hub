@@ -6,7 +6,7 @@
   "description": "Interact with MySQL databases to execute queries and manage connections.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mysql",
     "databases",

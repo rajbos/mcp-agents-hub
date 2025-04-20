@@ -6,7 +6,7 @@
   "description": "Provides integration with the DingTalk API, enabling easy deployment and scaling of services like chatbots and data processing pipelines.",
   "codiconIcon": "dingtalk",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "dingtalk",
     "scaling",

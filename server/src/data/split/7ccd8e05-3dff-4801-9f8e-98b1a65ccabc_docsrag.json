@@ -6,7 +6,7 @@
   "description": "Enables AI to query and analyze local documents and Git repositories through a RAG system built with TypeScript, LlamaIndex, and Gemini embeddings.",
   "codiconIcon": "docs",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "query",
     "analyze",

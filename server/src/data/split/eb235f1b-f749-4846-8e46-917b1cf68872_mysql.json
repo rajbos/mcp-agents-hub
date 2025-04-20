@@ -6,7 +6,7 @@
   "description": "Enables natural language interaction with MySQL databases through Python and SQLAlchemy, providing secure query execution, connection pooling, and structured results for data analysis and database management without writing raw SQL.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "connection",
     "results",

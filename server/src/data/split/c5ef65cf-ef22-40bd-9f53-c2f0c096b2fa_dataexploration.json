@@ -6,7 +6,7 @@
   "description": "Explore and visualize CSV datasets with the power of pandas and matplotlib.",
   "codiconIcon": "data",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "data-exploration",
     "explore",

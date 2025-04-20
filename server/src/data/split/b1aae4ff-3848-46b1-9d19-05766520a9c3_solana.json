@@ -6,7 +6,7 @@
   "description": "Integrates with Solana's blockchain to enable querying account data, managing tokens, and analyzing transactions using a Rust-based abstraction layer over the RPC API.",
   "codiconIcon": "solana",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates Google Apps Script to enable advanced data analysis, content generation, and workflow automation within Google Workspace applications.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "enable",
     "analysis",

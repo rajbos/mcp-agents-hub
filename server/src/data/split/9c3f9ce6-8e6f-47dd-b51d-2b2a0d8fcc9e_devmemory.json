@@ -6,7 +6,7 @@
   "description": "Provides persistent cross-project memory storage and retrieval for maintaining development context and knowledge across sessions.",
   "codiconIcon": "dev",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "context",
     "sessions",

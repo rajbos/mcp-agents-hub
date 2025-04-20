@@ -6,7 +6,7 @@
   "description": "Integrates with Descope's authentication platform to enable natural language-driven user management, authentication flows, and access control operations.",
   "codiconIcon": "descope",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "authentication",
     "enable",

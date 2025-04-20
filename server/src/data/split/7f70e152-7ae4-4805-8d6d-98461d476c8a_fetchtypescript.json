@@ -6,7 +6,7 @@
   "description": "Integrates with web content sources to fetch, convert, and summarize online information for real-time data retrieval and analysis.",
   "codiconIcon": "fetch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "real-time",
     "retrieval",

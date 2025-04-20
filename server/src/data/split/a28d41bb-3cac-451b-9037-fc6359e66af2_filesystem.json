@@ -6,7 +6,7 @@
   "description": "Integrates with local filesystems to enable file operations, analysis, and manipulation across various file types and structures.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "various",
     "structures",

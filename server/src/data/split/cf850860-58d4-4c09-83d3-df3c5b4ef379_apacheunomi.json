@@ -6,7 +6,7 @@
   "description": "Maintain persistent user profiles and context across conversations.",
   "codiconIcon": "apache",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "profiles",
     "context",

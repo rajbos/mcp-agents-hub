@@ -6,7 +6,7 @@
   "description": "Integrates with the HackerNews API to fetch top stories, user information, and story details for content analysis and trend identification",
   "codiconIcon": "hackernews",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "fetch",
     "stories",

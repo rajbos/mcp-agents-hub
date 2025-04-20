@@ -6,7 +6,7 @@
   "description": "Facilitates human-in-the-loop processes for AI workflows, enabling seamless integration of human judgment in tasks like content moderation, complex problem-solving, and ethical AI implementations.",
   "codiconIcon": "human",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "processes",
     "workflows",

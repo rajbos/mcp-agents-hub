@@ -6,7 +6,7 @@
   "description": "Implements a multi-provider memory system for LLMs, enabling conversation history management and seamless model switching across OpenAI, Anthropic, OpenRouter, and Ollama.",
   "codiconIcon": "memgpt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "across",
     "implements",

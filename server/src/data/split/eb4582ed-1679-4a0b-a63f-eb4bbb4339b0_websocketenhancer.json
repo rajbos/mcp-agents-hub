@@ -6,7 +6,7 @@
   "description": "Combines a standard server with WebSocket functionality to enable real-time data updates and efficient asynchronous operations for applications requiring both traditional interactions and data streaming capabilities.",
   "codiconIcon": "websocket",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "server",
     "updates",

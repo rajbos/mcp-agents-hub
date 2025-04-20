@@ -6,7 +6,7 @@
   "description": "Integrates with Neon's REST API to enable database management operations, including provisioning, monitoring, and automated control in serverless environments.",
   "codiconIcon": "neon",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "including",
     "monitoring",

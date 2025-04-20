@@ -6,7 +6,7 @@
   "description": "Connect and interact with MySQL databases seamlessly. Execute SQL queries, manage database connections, and retrieve data directly through AI assistants. Enhance your AI capabilities with structured access to your MySQL data.\n",
   "codiconIcon": "mysql-mcp",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/7v0alymo3fj.png",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "access",
     "execute",

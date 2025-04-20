@@ -6,7 +6,7 @@
   "description": "Integrates with Data.gov to enable searching, retrieving, and accessing U.S. government datasets for data-driven analysis and research projects.",
   "codiconIcon": "data.gov",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "retrieving",
     "government",

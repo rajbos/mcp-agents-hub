@@ -6,7 +6,7 @@
   "description": "Integrates with the HeFeng Weather API to provide real-time weather information and forecasts for locations in China, supporting queries by coordinates and offering hourly and daily data.",
   "codiconIcon": "hefeng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "weather",
     "locations",

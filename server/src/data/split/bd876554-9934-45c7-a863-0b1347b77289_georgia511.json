@@ -6,7 +6,7 @@
   "description": "Integrates with Georgia's 511 service to provide real-time traffic data, including information on cameras, signs, events, and road conditions for various applications and analyses.",
   "codiconIcon": "georgia",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "service",
     "real-time",

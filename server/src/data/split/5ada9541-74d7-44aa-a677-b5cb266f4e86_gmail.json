@@ -6,7 +6,7 @@
   "description": "Integrates Gmail functionality, enabling email search, message retrieval, and attachment downloads via Google Apps Script.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "communication",
   "tags": [
     "gmail",
     "integrates",

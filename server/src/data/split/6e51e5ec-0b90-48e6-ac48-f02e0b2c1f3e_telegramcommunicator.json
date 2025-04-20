@@ -6,7 +6,7 @@
   "description": "Enables real-time communication with Telegram users via bots, supporting asynchronous messaging and secure chat interactions.",
   "codiconIcon": "telegram",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "interactions",
     "enables",

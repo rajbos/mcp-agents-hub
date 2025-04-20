@@ -6,7 +6,7 @@
   "description": "Integrates with the X API v2 to enable post, search, and reply to tweets.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "tweets",
     "x-(twitter)",

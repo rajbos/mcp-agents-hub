@@ -6,7 +6,7 @@
   "description": "Integrates terminal and filesystem capabilities for executing system commands, managing processes, and performing advanced file operations on the local system.",
   "codiconIcon": "cli",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "executing",
     "processes",

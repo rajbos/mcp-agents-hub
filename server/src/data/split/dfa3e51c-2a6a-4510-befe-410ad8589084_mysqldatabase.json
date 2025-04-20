@@ -6,7 +6,7 @@
   "description": "Integrates with MySQL databases to enable secure query execution, schema management, and CRUD operations for structured data access and manipulation",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "query",
     "schema",

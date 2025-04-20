@@ -6,7 +6,7 @@
   "description": "Integrates Qdrant vector search with documentation retrieval to enable context-aware responses and semantic querying for enhanced knowledge access.",
   "codiconIcon": "rag",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "rag-documentation",
     "vector",

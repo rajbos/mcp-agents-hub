@@ -6,7 +6,7 @@
   "description": "Fetch information about a country from the CIA World Factbook",
   "codiconIcon": "cia",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "cia-world-factbook",
     "fetch",

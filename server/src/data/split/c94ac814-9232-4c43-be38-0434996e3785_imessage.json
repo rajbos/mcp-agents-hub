@@ -6,7 +6,7 @@
   "description": "Integrates with Apple's iMessage platform to enable sending and receiving messages.",
   "codiconIcon": "imessage",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "receiving",
     "messages",

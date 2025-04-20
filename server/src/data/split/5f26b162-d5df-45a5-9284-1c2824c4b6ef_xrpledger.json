@@ -6,7 +6,7 @@
   "description": "Integrates with the XRP Ledger blockchain to enable account management, transaction submission, and ledger data retrieval for XRP-related operations.",
   "codiconIcon": "xrp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "blockchain",

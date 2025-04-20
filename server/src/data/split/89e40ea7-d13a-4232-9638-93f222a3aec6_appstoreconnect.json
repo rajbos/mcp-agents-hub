@@ -6,7 +6,7 @@
   "description": "Manage iOS app distribution and testing workflows.",
   "codiconIcon": "app",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "app-store-connect",
     "manage",

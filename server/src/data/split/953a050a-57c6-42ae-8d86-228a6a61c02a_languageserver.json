@@ -6,7 +6,7 @@
   "description": "Integrates language server capabilities to provide code analysis, completion, and diagnostics for developing in various languages.",
   "codiconIcon": "language",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "language",

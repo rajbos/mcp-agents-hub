@@ -6,7 +6,7 @@
   "description": "Provides a unified FastAPI server for interacting with multiple language model APIs, enabling seamless switching between OpenAI and Anthropic models without changing integration code.",
   "codiconIcon": "multi-llm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "fastapi",
     "interacting",

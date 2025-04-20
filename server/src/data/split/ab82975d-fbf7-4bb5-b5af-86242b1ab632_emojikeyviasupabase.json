@@ -6,7 +6,7 @@
   "description": "Integrates with Supabase to persist and retrieve LLM interaction styles using emojikeys, enabling consistent personalized experiences across conversations.",
   "codiconIcon": "emojikey",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "personalized",
     "retrieve",

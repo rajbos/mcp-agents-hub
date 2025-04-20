@@ -6,7 +6,7 @@
   "description": "Integrates with Drupal's API to enable content management, user administration, and site configuration for automated website operations and personalized content delivery.",
   "codiconIcon": "drupal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "automated",
     "operations",

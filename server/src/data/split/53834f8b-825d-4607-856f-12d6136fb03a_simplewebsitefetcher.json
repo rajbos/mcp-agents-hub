@@ -6,7 +6,7 @@
   "description": "Fetches website content using Python and MCP, enabling web scraping and content analysis tasks",
   "codiconIcon": "simple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "python",

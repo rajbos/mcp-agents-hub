@@ -6,7 +6,7 @@
   "description": "Integrates with BART's API to provide real-time train departure information in San Francisco.",
   "codiconIcon": "bart",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "bart-(san-francisco-transit)",
     "integrates",

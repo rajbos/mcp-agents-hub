@@ -6,7 +6,7 @@
   "description": "Integrates with Spinnaker to enable AI-driven management of deployments, pipelines, and applications for enhanced CI/CD automation and orchestration.",
   "codiconIcon": "spinnaker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applications",
     "automation",

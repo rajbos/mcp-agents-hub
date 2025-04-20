@@ -6,7 +6,7 @@
   "description": "Integrates with Vercel's API to enable natural language-driven project management and deployment automation for streamlined development workflows.",
   "codiconIcon": "vercel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "natural",
     "management",

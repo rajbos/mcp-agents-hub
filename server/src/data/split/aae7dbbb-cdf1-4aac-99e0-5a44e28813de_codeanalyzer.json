@@ -6,7 +6,7 @@
   "description": "Integrates with open source projects to analyze codebases, detect patterns, and generate intelligent merge strategies for streamlined integration and refactoring.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "intelligent",
     "strategies",

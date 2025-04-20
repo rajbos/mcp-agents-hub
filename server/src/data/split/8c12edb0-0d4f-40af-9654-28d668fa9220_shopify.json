@@ -6,7 +6,7 @@
   "description": "Integrates with Shopify's GraphQL Admin API to manage store data, including products, customers, orders, collections, discounts, and webhooks.",
   "codiconIcon": "cart",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/shopify.png",
-  "category": "ecommerce-retail",
+  "category": "integrations",
   "tags": [
     "shopify",
     "ecommerce",

@@ -6,7 +6,7 @@
   "description": "Integrates with multiple 3D printer management systems to enable remote control, file handling, and advanced STL manipulation for automated print job management and custom model modifications.",
   "codiconIcon": "3d",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "printer",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates with OpenSearch to enable powerful full-text search, data aggregation, and real-time analytics capabilities for applications requiring advanced search and log analysis.",
   "codiconIcon": "opensearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "analysis",
     "opensearch",

@@ -6,7 +6,7 @@
   "description": "Integrates with Lightdash to enable automated reporting, data exploration, and analytics-driven decision making.",
   "codiconIcon": "lightdash",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "lightdash",
     "enable",

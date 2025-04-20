@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity's web search API to enable real-time fact-checking, research, and content generation using up-to-date information.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "using",
     "information",

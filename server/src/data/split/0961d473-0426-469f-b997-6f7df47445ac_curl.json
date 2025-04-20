@@ -6,7 +6,7 @@
   "description": "Make HTTP requests to any URL using curl-like interface.",
   "codiconIcon": "curl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "curl",
     "requests",

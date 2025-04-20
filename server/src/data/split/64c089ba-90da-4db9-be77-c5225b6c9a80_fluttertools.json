@@ -6,7 +6,7 @@
   "description": "Integrates with the Flutter SDK to analyze and fix Dart/Flutter files, enabling automated code analysis and improvement suggestions for Flutter development.",
   "codiconIcon": "flutter",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "files",
     "improvement",

@@ -6,7 +6,7 @@
   "description": "Integrates with Harvest's time tracking and project management features, enabling natural language interactions for managing projects, tracking time entries, and handling leave requests.",
   "codiconIcon": "harvest",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enabling",
     "leave",

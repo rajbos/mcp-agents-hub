@@ -6,7 +6,7 @@
   "description": "Integrates with Make (formerly Integromat) to enable automated workflows and task execution using AI assistants and Make's extensive app integration library.",
   "codiconIcon": "make",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "formerly",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Manages JSON schemas and generates instances with custom properties, enabling applications to maintain consistent data structures and create template-based JSON documents",
   "codiconIcon": "json",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applications",
     "consistent",

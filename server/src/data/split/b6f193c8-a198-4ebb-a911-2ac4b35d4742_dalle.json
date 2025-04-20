@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's DALL-E API to enable image generation with fine-grained control over parameters including model selection, size, quality, and style through a command-line interface.",
   "codiconIcon": "dall-e",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "quality",
     "dall-e",

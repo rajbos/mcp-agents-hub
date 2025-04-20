@@ -6,7 +6,7 @@
   "description": "Enables blockchain interactions with Base and Coinbase APIs, providing tools for wallet management, fund transfers, smart contract deployment, and testnet operations.",
   "codiconIcon": "server-process",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/base.png",
-  "category": "finance",
+  "category": "developer-tools",
   "tags": [
     "blockchain",
     "coinbase",

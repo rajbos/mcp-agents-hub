@@ -6,7 +6,7 @@
   "description": "Integrates with FAL AI to generate images from text prompts using models like 'fal-ai/recraft-v3', enabling real-time visual content creation for design and content generation tasks.",
   "codiconIcon": "fal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "content",
     "fal-ai-image-generation",

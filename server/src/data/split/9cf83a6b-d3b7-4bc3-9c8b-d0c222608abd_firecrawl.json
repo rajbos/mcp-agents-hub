@@ -6,7 +6,7 @@
   "description": "Integrates with the Firecrawl API to enable web scraping and intelligent content searching for extracting structured data and performing customizable searches.",
   "codiconIcon": "firecrawl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "searching",
     "performing",

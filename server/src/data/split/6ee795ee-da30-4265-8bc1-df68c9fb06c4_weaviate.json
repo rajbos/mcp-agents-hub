@@ -6,7 +6,7 @@
   "description": "Integrate with Weaviate, the AI-native database.",
   "codiconIcon": "weaviate",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "weaviate",
     "integrate",

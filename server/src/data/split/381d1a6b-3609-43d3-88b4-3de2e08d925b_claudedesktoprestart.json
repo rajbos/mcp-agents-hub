@@ -6,7 +6,7 @@
   "description": "Enables automated restarts of Claude Desktop on macOS by leveraging psutil to safely terminate and relaunch the application process.",
   "codiconIcon": "claude",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "claude-desktop-restart",
     "automated",

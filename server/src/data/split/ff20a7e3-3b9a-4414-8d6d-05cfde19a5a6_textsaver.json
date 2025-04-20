@@ -6,7 +6,7 @@
   "description": "Securely saves text content to local files with user-specified or timestamp-generated filenames through a simple interface with robust validation and error handling.",
   "codiconIcon": "text",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "text-saver",
     "user-specified",

@@ -6,7 +6,7 @@
   "description": "Integrates with Dune Analytics API to provide direct access to blockchain data through tools for retrieving existing query results and executing on-demand queries in CSV format.",
   "codiconIcon": "dune",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "direct",
     "through",

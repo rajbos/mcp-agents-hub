@@ -6,7 +6,7 @@
   "description": "Integrates with Zig tooling to provide code optimization, analysis, and generation capabilities for efficient Zig development.",
   "codiconIcon": "zig",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "zig",
     "integrates",

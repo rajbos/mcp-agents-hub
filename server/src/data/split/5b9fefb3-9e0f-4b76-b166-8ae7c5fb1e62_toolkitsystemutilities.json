@@ -6,7 +6,7 @@
   "description": "Provides system utilities and tools for network diagnostics, monitoring, cryptography, and QR code generation.",
   "codiconIcon": "toolkit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tools",
     "network",

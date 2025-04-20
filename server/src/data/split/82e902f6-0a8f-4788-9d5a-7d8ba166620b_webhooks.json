@@ -6,7 +6,7 @@
   "description": "Enables sending customizable messages to external webhook endpoints, facilitating automated notifications and workflow integrations.",
   "codiconIcon": "webhooks",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "facilitating",
     "automated",

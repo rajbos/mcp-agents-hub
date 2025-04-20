@@ -6,7 +6,7 @@
   "description": "Implements a robust security layer for command processing, utilizing multi-step verification and auditing to enable high-security use cases like critical infrastructure management.",
   "codiconIcon": "command",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "robust",
     "utilizing",

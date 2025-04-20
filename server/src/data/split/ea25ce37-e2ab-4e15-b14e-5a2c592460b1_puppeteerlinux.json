@@ -6,7 +6,7 @@
   "description": "Enables browser automation on Linux systems for web interactions, screenshots, and JavaScript execution using Puppeteer",
   "codiconIcon": "puppeteer",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "interactions",
     "screenshots",

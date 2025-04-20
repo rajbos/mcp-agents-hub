@@ -6,7 +6,7 @@
   "description": "Integrates with release note management systems to automate generation and updating of software project documentation.",
   "codiconIcon": "release",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "project",
     "documentation",

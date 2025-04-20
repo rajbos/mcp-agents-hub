@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail API to enable email listing, reading, and filtering of emails.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "gmail",
     "integrates",

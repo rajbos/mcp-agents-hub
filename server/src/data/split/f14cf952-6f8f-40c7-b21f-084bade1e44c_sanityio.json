@@ -6,7 +6,7 @@
   "description": "Integrates with Sanity.io to provide tools for creating, listing, and publishing draft posts, streamlining content management workflows for websites and applications.",
   "codiconIcon": "sanity.io",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "sanity.io",
     "integrates",
