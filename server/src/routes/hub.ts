@@ -7,7 +7,7 @@ import path from 'path';
 import fs from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { LANGUAGES, translateText } from '../lib/llmTools.js';
+import { LANGUAGES, translateText, determineCategoryWithLLM } from '../lib/llmTools.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -197,6 +197,14 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
       .filter(word => word.length > 5)
       .slice(0, 5);
 
+    // Determine the appropriate category based on name and description
+    const category = await determineCategoryWithLLM(
+      extractedInfo.name, 
+      extractedInfo.description
+    );
+    
+    console.log(`Determined category for new server: ${category}`);
+    
     // Create a new server object
     const newServer = {
       mcpId,
@@ -206,7 +214,7 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
       description: extractedInfo.description,
       codiconIcon: "", // Default value, can be updated later
       logoUrl: "",
-      category: "tools", // Default category, can be updated later
+      category, // Dynamically determined category
       tags: descriptionWords,
       requiresApiKey: false,
       isRecommended: false,
