@@ -6,7 +6,7 @@
   "description": "Registry and aggregator for Cloud Foundry. Queries for and aggregates cf-butler instances' data",
   "codiconIcon": "cloud",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "registry",
     "cloud",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Hyperliquid SDK to provide real-time cryptocurrency market data, including mid prices, historical candlesticks, and L2 order book information for traders and analysts.",
   "codiconIcon": "hyperliquid",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "hyperliquid",
     "data",

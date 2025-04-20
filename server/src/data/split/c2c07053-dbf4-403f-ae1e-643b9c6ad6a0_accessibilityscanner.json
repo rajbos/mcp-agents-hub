@@ -6,7 +6,7 @@
   "description": "Integrates Axe Core with Playwright to perform automated web accessibility testing, enabling continuous integration, compliance auditing, and identification of accessibility barriers.",
   "codiconIcon": "accessibility",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "automated",
     "integration",

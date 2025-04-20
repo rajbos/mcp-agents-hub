@@ -6,7 +6,7 @@
   "description": "Integrates with GitHub's API to find similar issues using Jaccard similarity, streamlining support workflows and reducing response times in project management.",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "github-issue-finder",
     "integrates",

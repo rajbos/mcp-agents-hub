@@ -6,7 +6,7 @@
   "description": "Integrates with Triple Whale's API to enable querying and analysis of e-commerce performance metrics for sales reporting and marketing strategy optimization.",
   "codiconIcon": "triple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "metrics",
     "sales",

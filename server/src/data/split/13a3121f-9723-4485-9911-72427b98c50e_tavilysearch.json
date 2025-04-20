@@ -6,7 +6,7 @@
   "description": "Perform web searches and retrieve structured results via Tavily.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "results",
     "tavily",

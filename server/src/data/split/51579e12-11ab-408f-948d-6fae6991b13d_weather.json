@@ -6,7 +6,7 @@
   "description": "Integrates real-time weather data from OpenWeather to provide location-specific forecasts.",
   "codiconIcon": "weather",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "integrates",
     "real-time",

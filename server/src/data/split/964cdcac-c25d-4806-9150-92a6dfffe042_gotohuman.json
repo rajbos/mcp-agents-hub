@@ -6,7 +6,7 @@
   "description": "Add human review and approval steps to your AI agents and automations with gotoHuman.",
   "codiconIcon": "gotohuman",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/8j4xxg9relb.jpg",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "automations",
     "gotohuman",

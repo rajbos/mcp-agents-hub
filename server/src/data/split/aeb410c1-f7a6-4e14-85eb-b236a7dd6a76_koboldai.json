@@ -6,7 +6,7 @@
   "description": "Integrates KoboldAI's text generation, enabling local language model interactions for creative writing, chatbots, and content generation.",
   "codiconIcon": "koboldai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "generation",
     "enabling",

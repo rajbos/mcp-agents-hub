@@ -6,7 +6,7 @@
   "description": "Integrates Puppeteer-based browser automation for web scraping, testing, and AI model interaction with live web content.",
   "codiconIcon": "puppeteer",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "scraping",
     "testing",

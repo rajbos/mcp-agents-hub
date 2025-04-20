@@ -6,7 +6,7 @@
   "description": "Integrates with Elasticsearch 7.x, providing efficient data management and search capabilities for projects requiring robust analytics within the ecosystem.",
   "codiconIcon": "elasticsearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "analytics",
     "within",

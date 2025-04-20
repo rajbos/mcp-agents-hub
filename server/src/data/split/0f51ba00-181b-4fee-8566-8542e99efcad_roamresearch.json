@@ -6,7 +6,7 @@
   "description": "Integrates with Roam Research to enable searching, creating, and manipulating graph content for automated note-taking and intelligent information retrieval.",
   "codiconIcon": "roam",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "information",
     "retrieval",

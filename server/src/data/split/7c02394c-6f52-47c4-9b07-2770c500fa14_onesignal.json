@@ -6,7 +6,7 @@
   "description": "Integrates with OneSignal to manage push notifications, emails, and SMS across multiple applications with support for device management, segmentation, and template operations.",
   "codiconIcon": "onesignal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "onesignal",
     "integrates",

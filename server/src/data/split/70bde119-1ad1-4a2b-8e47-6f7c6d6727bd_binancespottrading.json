@@ -6,7 +6,7 @@
   "description": "Integrates with Binance spot trading API to enable automated cryptocurrency trading strategies using SQLite for data storage and secure credential management.",
   "codiconIcon": "binance",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "binance",
     "trading",

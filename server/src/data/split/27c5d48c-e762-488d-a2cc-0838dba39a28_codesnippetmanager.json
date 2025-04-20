@@ -6,7 +6,7 @@
   "description": "Manages and stores code snippets across languages, enabling creation, listing, and deletion with flexible filtering and tagging.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "creation",
     "manages",

@@ -6,7 +6,7 @@
   "description": "Enables querying Tailscale status by parsing CLI output on macOS, providing structured data about connected devices and network information.",
   "codiconIcon": "tailscale",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "parsing",
     "output",

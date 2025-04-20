@@ -6,7 +6,7 @@
   "description": "Control browsers to perform sophisticated web interactions and visual tasks.",
   "codiconIcon": "playwright",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "playwright",
     "control",

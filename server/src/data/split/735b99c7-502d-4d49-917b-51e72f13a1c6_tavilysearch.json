@@ -6,7 +6,7 @@
   "description": "Integrates the Tavily Search API to perform real-time web searches for fact-checking, research, and content generation.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "tavily-search",
     "tavily",

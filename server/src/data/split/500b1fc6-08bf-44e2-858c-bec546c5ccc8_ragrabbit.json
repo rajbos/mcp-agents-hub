@@ -6,7 +6,7 @@
   "description": "Integrates with RagRabbit to crawl websites, generate vector embeddings, and enable search and question answering from indexed content for domain-specific information retrieval.",
   "codiconIcon": "ragrabbit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "content",
     "retrieval",

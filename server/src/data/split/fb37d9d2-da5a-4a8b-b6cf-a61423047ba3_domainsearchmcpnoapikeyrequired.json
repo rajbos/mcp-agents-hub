@@ -6,7 +6,7 @@
   "description": "Search for domains in Claude and Cursor and see if they are available and get their prices.",
   "codiconIcon": "domain",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "prices",
     "domain-search-mcp---no-api-key-required",

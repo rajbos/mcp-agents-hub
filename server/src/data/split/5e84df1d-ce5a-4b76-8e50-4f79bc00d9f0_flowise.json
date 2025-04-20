@@ -6,7 +6,7 @@
   "description": "Integrates Flowise chatflows and assistants with MCP, enabling seamless incorporation of AI-powered conversational interfaces into existing systems.",
   "codiconIcon": "flowise",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "flowise",
     "integrates",

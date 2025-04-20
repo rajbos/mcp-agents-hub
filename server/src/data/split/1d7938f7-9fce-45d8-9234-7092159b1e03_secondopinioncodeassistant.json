@@ -6,7 +6,7 @@
   "description": "Synthesizes insights from multiple AI sources to provide enhanced coding assistance with automatic language detection and git-aware context gathering.",
   "codiconIcon": "second",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "context",
     "gathering",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Raindrop.io API to enable bookmark creation, searching, tagging, and collection management for automated bookmark organization and retrieval.",
   "codiconIcon": "raindrop.io",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "automated",
     "organization",

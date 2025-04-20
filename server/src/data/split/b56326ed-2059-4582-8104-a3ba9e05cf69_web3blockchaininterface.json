@@ -6,7 +6,7 @@
   "description": "Unifies interactions with multiple blockchains like Solana and Ethereum, enabling cross-chain operations such as balance checks and token transfers.",
   "codiconIcon": "web3",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "enabling",
     "cross-chain",

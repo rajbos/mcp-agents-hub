@@ -6,7 +6,7 @@
   "description": "Integrates with Asana to enable task automation, project tracking, and team collaboration through the Asana API.",
   "codiconIcon": "asana",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "project",
     "collaboration",

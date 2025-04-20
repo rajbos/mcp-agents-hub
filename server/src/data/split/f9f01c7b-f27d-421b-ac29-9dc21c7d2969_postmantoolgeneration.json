@@ -6,7 +6,7 @@
   "description": "Integrates with Postman Tool Generation API to convert API collections into type-safe code for AI frameworks, enabling rapid development of AI-powered tools from existing API documentation.",
   "codiconIcon": "postman",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "collections",

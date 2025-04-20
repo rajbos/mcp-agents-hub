@@ -6,7 +6,7 @@
   "description": "Integrates with PubMed to enable natural language querying and analysis of biomedical literature for research and evidence-based decision making.",
   "codiconIcon": "pubmed",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "decision",
     "pubmed-search",

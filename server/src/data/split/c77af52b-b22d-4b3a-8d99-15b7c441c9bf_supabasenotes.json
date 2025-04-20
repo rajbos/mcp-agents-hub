@@ -6,7 +6,7 @@
   "description": "Integrates with Supabase to provide a notes system with creation, listing, and summarization capabilities for applications requiring structured note-taking functionality.",
   "codiconIcon": "supabase",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "supabase-notes",
     "creation",

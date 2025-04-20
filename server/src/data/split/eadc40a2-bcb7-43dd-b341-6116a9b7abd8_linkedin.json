@@ -6,7 +6,7 @@
   "description": "Integrates with an unofficial LinkedIn API to retrieve feed posts, search jobs, and analyze job matches against resumes.",
   "codiconIcon": "linkedin",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "linkedin",
     "retrieve",

@@ -6,7 +6,7 @@
   "description": "Utility to retrive current UTC using Node",
   "codiconIcon": "current",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "current-time",
     "utility",

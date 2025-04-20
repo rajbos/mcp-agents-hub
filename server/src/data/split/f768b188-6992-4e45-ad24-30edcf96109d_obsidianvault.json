@@ -6,7 +6,7 @@
   "description": "Enables interaction with Obsidian vaults for file operations, content search, and metadata management, facilitating note-taking and knowledge base organization.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "interaction",
     "vaults",

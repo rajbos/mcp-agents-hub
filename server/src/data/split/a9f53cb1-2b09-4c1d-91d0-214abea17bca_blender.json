@@ -6,7 +6,7 @@
   "description": "Enables AI assistants to control Blender for 3D modeling, scene creation, and asset management through socket-based communication, with support for Poly Haven assets and Hyper3D Rodin models.",
   "codiconIcon": "symbol-cube",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/blender-control.png",
-  "category": "image-video-processing",
+  "category": "developer-tools",
   "tags": [
     "3d-modeling",
     "blender",

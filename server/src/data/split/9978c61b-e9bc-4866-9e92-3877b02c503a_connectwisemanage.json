@@ -6,7 +6,7 @@
   "description": "Integrates with ConnectWise Manage API to enable direct access to service tickets, companies, and contacts for MSPs and IT service providers without switching contexts.",
   "codiconIcon": "connectwise",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "tickets",
     "contacts",

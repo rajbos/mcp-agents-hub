@@ -6,7 +6,7 @@
   "description": "Enables voice interaction with Claude through audio recording and playback capabilities, supporting customizable device selection and temporary file management for accessible spoken communication.",
   "codiconIcon": "audio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enables",
     "claude",

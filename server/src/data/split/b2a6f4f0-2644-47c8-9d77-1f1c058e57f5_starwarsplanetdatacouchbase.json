@@ -6,7 +6,7 @@
   "description": "Integrates Couchbase vector search for semantic similarity queries on Star Wars planet data.",
   "codiconIcon": "star",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "vector",

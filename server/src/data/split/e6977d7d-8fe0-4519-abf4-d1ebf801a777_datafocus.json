@@ -6,7 +6,7 @@
   "description": "Interface with Datafocus data tables via natural language.",
   "codiconIcon": "datafocus",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "tables",
     "natural",

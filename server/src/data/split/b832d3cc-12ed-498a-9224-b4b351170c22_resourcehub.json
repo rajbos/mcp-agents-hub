@@ -6,7 +6,7 @@
   "description": "Centralizes shared tools and configurations for MCP environments, enabling consistent resource access across teams and projects.",
   "codiconIcon": "resource",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "centralizes",
     "configurations",

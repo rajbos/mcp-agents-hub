@@ -6,7 +6,7 @@
   "description": "Integrates with the Hex API to enable retrieval of project details, management of project runs, and execution of Hex workflows for automated data analysis and report generation.",
   "codiconIcon": "hex",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "details",
     "analysis",

@@ -6,7 +6,7 @@
   "description": "Integrates with WeGene's genetic testing API to access and analyze users' genetic reports for personalized health and ancestry insights.",
   "codiconIcon": "wegene",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "wegene",
     "wegene's",

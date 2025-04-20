@@ -6,7 +6,7 @@
   "description": "Integrates with Supabase to enable database operations, file storage, and user authentication for scalable, real-time applications.",
   "codiconIcon": "supabase",
   "logoUrl": "",
-  "category": "database",
+  "category": "cloud-platforms",
   "tags": [
     "storage",
     "authentication",

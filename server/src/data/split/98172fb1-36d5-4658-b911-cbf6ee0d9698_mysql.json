@@ -6,7 +6,7 @@
   "description": "Integrates with MySQL databases using Python and Docker to enable structured data storage, querying, and manipulation.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "structured",
     "querying",

@@ -6,7 +6,7 @@
   "description": "Integrates data processing libraries and external services to facilitate complex data operations, transformations, and API interactions across multiple formats and sources.",
   "codiconIcon": "nexus",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "processing",
     "external",

@@ -6,7 +6,7 @@
   "description": "Integrates with the qrencode utility to generate QR codes dynamically, supporting various output formats and configuration options for flexible use in applications and workflows.",
   "codiconIcon": "qr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "flexible",
     "workflows",

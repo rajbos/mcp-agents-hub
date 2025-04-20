@@ -6,7 +6,7 @@
   "description": "Integrates with the Things task management app to enable natural language queries and updates for tasks, projects, and areas.",
   "codiconIcon": "things",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "tasks",
     "integrates",

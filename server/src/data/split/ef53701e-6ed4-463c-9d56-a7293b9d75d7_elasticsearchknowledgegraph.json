@@ -6,7 +6,7 @@
   "description": "Elasticsearch-based knowledge graph that tracks access patterns to prioritize recent, important, and frequently accessed information with advanced search capabilities and complete CRUD operations.",
   "codiconIcon": "elasticsearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "tracks",
     "prioritize",

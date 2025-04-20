@@ -6,7 +6,7 @@
   "description": "Integrates with the Canvas Learning Management System API to enable course management, assignment tracking, and student engagement analysis in educational settings.",
   "codiconIcon": "canvas",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "engagement",
     "analysis",

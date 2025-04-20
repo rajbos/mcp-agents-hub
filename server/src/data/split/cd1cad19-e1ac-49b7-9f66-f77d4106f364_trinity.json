@@ -6,7 +6,7 @@
   "description": "Bridges AI systems with Trinity's formula-based tools through a Go-based server that enables access to Trinity API capabilities via JSON-RPC interface",
   "codiconIcon": "trinity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "json-rpc",
     "interface",

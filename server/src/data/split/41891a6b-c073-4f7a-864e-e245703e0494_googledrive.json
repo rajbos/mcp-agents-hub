@@ -6,7 +6,7 @@
   "description": "Enables searching, listing, and reading files from Google Drive, with automatic export of Google Workspace files to common formats like Markdown, CSV, and PNG.",
   "codiconIcon": "file-directory",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/google-drive.png",
-  "category": "cloud-storage",
+  "category": "file-systems",
   "tags": [
     "google-drive",
     "file-management",

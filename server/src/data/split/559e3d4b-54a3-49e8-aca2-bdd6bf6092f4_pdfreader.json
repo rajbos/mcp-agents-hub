@@ -6,7 +6,7 @@
   "description": "Integrates with PyPDF2 to enable efficient text extraction and information retrieval from PDF documents for various applications.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "pdf-reader",
     "enable",

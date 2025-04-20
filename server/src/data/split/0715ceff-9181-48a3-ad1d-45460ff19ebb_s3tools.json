@@ -6,7 +6,7 @@
   "description": "Integrates with AWS S3 to enable bucket listing and management, facilitating cloud storage operations for applications requiring file organization or content delivery.",
   "codiconIcon": "s3",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "cloud-platforms",
   "tags": [
     "facilitating",
     "operations",

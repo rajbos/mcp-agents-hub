@@ -6,7 +6,7 @@
   "description": "Integrates Google Search capabilities with web content extraction and screenshot functionality, enabling robust search, filtering, and data collection while avoiding bot detection.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "google-search",
     "capabilities",

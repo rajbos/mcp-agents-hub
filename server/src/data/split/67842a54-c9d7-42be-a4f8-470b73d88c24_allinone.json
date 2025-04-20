@@ -6,7 +6,7 @@
   "description": "Integrates GitLab, Jira, Confluence, YouTube, and Google AI to provide search capabilities and utility tools for streamlined development workflows and project management tasks.",
   "codiconIcon": "all-in-one",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "management",
     "all-in-one",

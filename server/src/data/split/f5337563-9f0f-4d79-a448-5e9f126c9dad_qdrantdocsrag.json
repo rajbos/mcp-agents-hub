@@ -6,7 +6,7 @@
   "description": "Real-time documentation context through vector-based search and retrieval via Qdrant.",
   "codiconIcon": "qdrant",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "qdrant-docs-rag",
     "real-time",

@@ -6,7 +6,7 @@
   "description": "Integrates mitmproxy for network traffic analysis, debugging, and API testing.",
   "codiconIcon": "mitmproxy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "mitmproxy",
     "integrates",

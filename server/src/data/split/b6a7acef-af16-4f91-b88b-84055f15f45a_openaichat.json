@@ -6,7 +6,7 @@
   "description": "Generate text using OpenAI's language models.",
   "codiconIcon": "openai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "openai's",

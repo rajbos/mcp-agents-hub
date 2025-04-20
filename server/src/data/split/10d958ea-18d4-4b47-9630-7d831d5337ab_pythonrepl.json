@@ -6,7 +6,7 @@
   "description": "Provides a Python REPL server for executing code and shell commands, enabling complex data analysis and system administration tasks.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "python-repl",
     "shell",

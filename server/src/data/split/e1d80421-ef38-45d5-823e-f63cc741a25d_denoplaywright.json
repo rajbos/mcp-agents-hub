@@ -6,7 +6,7 @@
   "description": "Integrates with Playwright and Deno to enable browser automation for web navigation, interaction, and data extraction tasks.",
   "codiconIcon": "deno",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "playwright",
     "browser",

@@ -6,7 +6,7 @@
   "description": "Integrates with Daytona's secure Python execution environment to enable isolated code running and workspace management for testing and educational purposes.",
   "codiconIcon": "daytona",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "purposes",
     "daytona-python-interpreter",

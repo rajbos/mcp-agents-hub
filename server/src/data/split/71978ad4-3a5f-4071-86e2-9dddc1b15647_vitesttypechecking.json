@@ -6,7 +6,7 @@
   "description": "Integrates Vitest and TypeScript for automated test execution and type checking in development workflows.",
   "codiconIcon": "vitest",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "vitest",
     "typescript",

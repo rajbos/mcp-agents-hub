@@ -6,7 +6,7 @@
   "description": "Juggles development tool integrations like Confluence, GitLab, Jira, and CLI scripts.",
   "codiconIcon": "all-in-one",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "gitlab",
     "jira",

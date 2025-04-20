@@ -6,7 +6,7 @@
   "description": "Integrates with LinkedIn to enable profile retrieval, job searching, feed post access, and resume analysis for automated platform engagement.",
   "codiconIcon": "linkedin",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "linkedin",
     "enable",

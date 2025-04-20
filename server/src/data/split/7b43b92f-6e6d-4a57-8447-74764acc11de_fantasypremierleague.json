@@ -6,7 +6,7 @@
   "description": "Integrates with Fantasy Premier League data to provide player statistics, team information, and analytical tools for making informed fantasy football management decisions.",
   "codiconIcon": "fantasy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "player",
     "statistics",

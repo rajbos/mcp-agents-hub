@@ -6,7 +6,7 @@
   "description": "Access and modify notes in Obsidian vaults via REST API.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "access",
     "modify",

@@ -6,7 +6,7 @@
   "description": "Integrates with The Verge's RSS feed to provide up-to-date technology news, offering tools for fetching daily and weekly updates and searching specific topics within customizable time ranges.",
   "codiconIcon": "the",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "updates",
     "specific",

@@ -6,7 +6,7 @@
   "description": "Converts various file types and web content (PDFs, images, audio, Office documents, web pages) into standardized Markdown format for easy reading and sharing.",
   "codiconIcon": "markdown",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/markdownify.png",
-  "category": "file-systems",
+  "category": "developer-tools",
   "tags": [
     "file-conversion",
     "markdown",

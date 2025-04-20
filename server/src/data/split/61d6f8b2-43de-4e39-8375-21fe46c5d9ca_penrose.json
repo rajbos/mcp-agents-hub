@@ -6,7 +6,7 @@
   "description": "Integrates with Penrose's domain-specific languages to generate mathematical diagrams from natural language inputs.",
   "codiconIcon": "penrose",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "diagrams",
     "natural",

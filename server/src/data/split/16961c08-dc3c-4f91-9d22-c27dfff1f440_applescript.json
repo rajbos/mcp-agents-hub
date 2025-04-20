@@ -6,7 +6,7 @@
   "description": "Integrates AppleScript to enable natural language control of macOS applications and system functions.",
   "codiconIcon": "applescript",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "applescript",
     "integrates",

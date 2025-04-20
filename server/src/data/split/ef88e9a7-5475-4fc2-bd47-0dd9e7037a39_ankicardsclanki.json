@@ -6,7 +6,7 @@
   "description": "Integrates with Anki flashcards to provide card creation and deck management capabilities.",
   "codiconIcon": "anki",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "capabilities",
     "anki-cards-(clanki)",

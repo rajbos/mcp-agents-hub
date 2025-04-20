@@ -6,7 +6,7 @@
   "description": "Integrates with the Discord API to enable direct interaction with channels, supporting automated messaging and conversation management within servers.",
   "codiconIcon": "discord",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enable",
     "direct",

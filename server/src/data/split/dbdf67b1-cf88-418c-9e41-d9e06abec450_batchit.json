@@ -6,7 +6,7 @@
   "description": "Combine tool calls into a single batch_execute call.",
   "codiconIcon": "batchit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "batchit",
     "combine",

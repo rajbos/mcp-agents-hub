@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail APIs to enable reading, sending, and managing emails across multiple accounts, supporting automated email processing and workflow integration.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enable",
     "reading",

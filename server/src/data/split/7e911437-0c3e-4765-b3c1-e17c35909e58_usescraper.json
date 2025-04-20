@@ -6,7 +6,7 @@
   "description": "Integrates with UseScraper API to extract web content in various formats with advanced proxy options and custom data extraction capabilities.",
   "codiconIcon": "usescraper",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "usescraper",
     "extract",

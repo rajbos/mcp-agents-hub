@@ -6,7 +6,7 @@
   "description": "Control and monitor K8s clusters for management and debugging.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "monitor",
     "clusters",

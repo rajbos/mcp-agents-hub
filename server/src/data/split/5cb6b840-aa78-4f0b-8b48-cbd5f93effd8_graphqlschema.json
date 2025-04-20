@@ -6,7 +6,7 @@
   "description": "Enables AI models to explore and understand GraphQL schemas through specialized tools for querying operations, looking up type definitions, pattern matching, and retrieving simplified field information.",
   "codiconIcon": "graphql",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tools",
     "operations",

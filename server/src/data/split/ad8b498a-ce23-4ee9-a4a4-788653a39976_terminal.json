@@ -6,7 +6,7 @@
   "description": "Enables secure interaction with specified directories on a user's system through a command-line interface for file management and system automation tasks.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "terminal",
     "secure",

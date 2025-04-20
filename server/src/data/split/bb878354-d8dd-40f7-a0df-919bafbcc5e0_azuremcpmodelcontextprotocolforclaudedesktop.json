@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/kalivaraprasad-gonapa/azure-mcp",
+  "githubUrl": "https://github.com/kalivaraprasad-gonapa/azure-mcp",
+  "name": "Azure MCP (Model Context Protocol) for Claude Desktop",
+  "author": "kalivaraprasad-gonapa",
+  "description": "A Model Context Protocol (MCP) implementation that enables Claude Desktop to interact with Azure services. This integration allows Claude to query and manage Azure resources directly through natural language conversations.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [
+    "context",
+    "protocol",
+    "implementation",
+    "enables",
+    "claude"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-20T15:23:54.231Z",
+  "updatedAt": "2025-04-20T15:23:54.231Z",
+  "hubId": "bb878354-d8dd-40f7-a0df-919bafbcc5e0"
+}

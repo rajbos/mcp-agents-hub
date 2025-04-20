@@ -6,7 +6,7 @@
   "description": "Manages and serves customizable prompt templates with variable substitution and tag-based organization for streamlined LLM interactions in development workflows and code reviews.",
   "codiconIcon": "prompt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "customizable",
     "templates",

@@ -6,7 +6,7 @@
   "description": "Enables creation and interaction with virtual rooms in a peer-to-peer space, facilitating multi-agent collaboration and communication in decentralized environments.",
   "codiconIcon": "room",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "creation",
     "interaction",

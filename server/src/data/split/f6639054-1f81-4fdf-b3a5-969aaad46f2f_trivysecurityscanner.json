@@ -6,7 +6,7 @@
   "description": "Integrates with Trivy to provide vulnerability scanning and automated remediation for projects across multiple programming languages and package managers.",
   "codiconIcon": "trivy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "trivy-security-scanner",
     "vulnerability",

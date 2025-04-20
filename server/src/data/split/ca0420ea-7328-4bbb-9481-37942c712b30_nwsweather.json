@@ -6,7 +6,7 @@
   "description": "Integrates with the National Weather Service API to retrieve weather alerts by state and forecasts by coordinates for basic weather information access.",
   "codiconIcon": "nws",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "weather",
     "service",

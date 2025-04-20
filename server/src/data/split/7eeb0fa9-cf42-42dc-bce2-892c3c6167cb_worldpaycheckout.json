@@ -6,7 +6,7 @@
   "description": "Integrates with Worldpay's payment processing APIs to enable making and querying payments for e-commerce and financial management applications.",
   "codiconIcon": "worldpay",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "e-commerce",
     "financial",

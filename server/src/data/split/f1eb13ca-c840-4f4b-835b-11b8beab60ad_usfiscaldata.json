@@ -6,7 +6,7 @@
   "description": "Integrates with the US Treasury's Fiscal Data API to fetch, analyze, and generate reports on treasury statements and historical financial data.",
   "codiconIcon": "us",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "treasury's",
     "fetch",

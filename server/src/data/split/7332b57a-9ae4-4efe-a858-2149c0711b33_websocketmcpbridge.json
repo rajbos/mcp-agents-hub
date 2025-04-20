@@ -6,7 +6,7 @@
   "description": "Provides a WebSocket connection between clients and MCP servers.",
   "codiconIcon": "websocket",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "provides",
     "websocket",

@@ -6,7 +6,7 @@
   "description": "Enables interaction with PDF and EPUB documents for reading, analyzing content, and extracting information from document files.",
   "codiconIcon": "document",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "document-reader",
     "documents",

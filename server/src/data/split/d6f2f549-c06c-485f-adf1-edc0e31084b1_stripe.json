@@ -6,7 +6,7 @@
   "description": "Enables AI agents to interact with Stripe APIs, supporting operations like customer management, payment processing, product creation, and invoice handling through function calling.",
   "codiconIcon": "credit-card",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/stripe.png",
-  "category": "finance",
+  "category": "integrations",
   "tags": [
     "payments",
     "billing",

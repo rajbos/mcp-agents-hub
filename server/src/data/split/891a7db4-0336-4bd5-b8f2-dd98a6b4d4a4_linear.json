@@ -6,7 +6,7 @@
   "description": "Integrates with Linear to enable AI-driven task automation and project tracking, offering functionality for creating and managing issues within project management workflows.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "issues",

@@ -6,7 +6,7 @@
   "description": "Integrates with REST API's via Axios to provide a command-line tool for testing and debugging REST APIs with customizable requests and response analysis.",
   "codiconIcon": "rest",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "rest-api-tester",
     "provide",

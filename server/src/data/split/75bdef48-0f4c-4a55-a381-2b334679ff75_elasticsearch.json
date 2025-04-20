@@ -6,7 +6,7 @@
   "description": "Integrates with Elasticsearch to enable index management, document indexing, and powerful search capabilities across large datasets.",
   "codiconIcon": "elasticsearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "datasets",
     "integrates",

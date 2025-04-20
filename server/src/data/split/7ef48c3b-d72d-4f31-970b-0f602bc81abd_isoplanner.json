@@ -6,7 +6,7 @@
   "description": "Integrates with the ISOPlanner API to enable retrieval of planning data and management of ISO-related tasks for compliance and process management workflows.",
   "codiconIcon": "isoplanner",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "planning",
     "management",

@@ -6,7 +6,7 @@
   "description": "Search the web using Bing services.",
   "codiconIcon": "bing",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "using",

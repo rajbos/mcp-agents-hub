@@ -6,7 +6,7 @@
   "description": "Integrates with Puppeteer to provide browser automation capabilities for web navigation, interaction, and data extraction.",
   "codiconIcon": "puppeteer",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "navigation",
     "interaction",

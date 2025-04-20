@@ -6,7 +6,7 @@
   "description": "Provides specialized tools for analyzing and optimizing WebGL games, offering WebGL build analysis, performance improvement suggestions, and metrics evaluation with specific support for the Better Minimal WebGL Template.",
   "codiconIcon": "webgl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tools",
     "games",

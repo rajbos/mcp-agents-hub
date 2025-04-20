@@ -6,7 +6,7 @@
   "description": "Provides a filesystem interface to perform file operations like creation, deletion, and manipulation without direct system access.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "system",
     "access",

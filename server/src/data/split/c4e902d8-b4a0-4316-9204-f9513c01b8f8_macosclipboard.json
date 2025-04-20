@@ -6,7 +6,7 @@
   "description": "Integrates with the MacOS clipboard to enable reading and writing of system clipboard content for text processing and data transfer tasks.",
   "codiconIcon": "macos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "macos-clipboard",
     "integrates",

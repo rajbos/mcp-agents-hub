@@ -6,7 +6,7 @@
   "description": "Access macOS system information and send notifications.",
   "codiconIcon": "macos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "macos-system",
     "access",

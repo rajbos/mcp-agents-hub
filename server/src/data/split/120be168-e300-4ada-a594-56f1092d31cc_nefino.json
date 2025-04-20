@@ -6,7 +6,7 @@
   "description": "Integrates with the Nefino API to retrieve and filter news about German renewable energy projects, supporting market analysis, policy tracking, and environmental impact assessments.",
   "codiconIcon": "nefino",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "market",

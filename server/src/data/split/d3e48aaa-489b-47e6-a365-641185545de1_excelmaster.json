@@ -6,7 +6,7 @@
   "description": "Integrates with Excel using XLwings to enable automated data manipulation, analysis, and reporting for business workflows.",
   "codiconIcon": "excel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "excel-master",
     "integrates",

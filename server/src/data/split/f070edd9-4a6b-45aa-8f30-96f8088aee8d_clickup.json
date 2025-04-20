@@ -6,7 +6,7 @@
   "description": "Integrates with ClickUp's project management API to enable task creation, management, and automation within ClickUp environments.",
   "codiconIcon": "clickup",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "project",

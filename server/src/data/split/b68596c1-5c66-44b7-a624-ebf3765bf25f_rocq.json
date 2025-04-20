@@ -6,7 +6,7 @@
   "description": "Integrates the Coq proof assistant with natural language inputs to enable automated dependent type checking, inductive type definition, and property proving for formal verification and theorem proving tasks.",
   "codiconIcon": "rocq",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "theorem",
     "rocq",

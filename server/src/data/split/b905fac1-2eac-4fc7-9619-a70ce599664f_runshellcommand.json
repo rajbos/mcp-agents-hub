@@ -6,7 +6,7 @@
   "description": "Enables direct execution of shell commands from chat interfaces, creating a bridge between natural language prompts and local system operations for quick developer workflows.",
   "codiconIcon": "run",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "direct",
     "interfaces",

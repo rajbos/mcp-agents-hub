@@ -6,7 +6,7 @@
   "description": "Integrates with Zerodha Kite trading platform to enable algorithmic trading and portfolio management for Indian stock markets.",
   "codiconIcon": "zerodha",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "markets",
     "zerodha-kite",

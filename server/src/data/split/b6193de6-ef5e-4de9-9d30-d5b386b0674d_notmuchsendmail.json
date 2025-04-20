@@ -6,7 +6,7 @@
   "description": "Integrates Notmuch email management with sendmail functionality to enable email composition, searching, and sending capabilities.",
   "codiconIcon": "notmuch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "functionality",
     "searching",

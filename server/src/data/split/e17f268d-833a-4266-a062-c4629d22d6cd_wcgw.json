@@ -6,7 +6,7 @@
   "description": "Access shell and filesystem in order to automate tasks and run code",
   "codiconIcon": "wcgw",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "access",
     "shell",

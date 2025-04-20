@@ -6,7 +6,7 @@
   "description": "Analyze family tree data from GEDCOM genealogy files.",
   "codiconIcon": "gedcom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "gedcom-ancestry-files",
     "analyze",

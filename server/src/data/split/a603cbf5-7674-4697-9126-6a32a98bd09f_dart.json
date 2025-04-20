@@ -6,7 +6,7 @@
   "description": "Integrates with the Dart task management system to enable AI-driven project organization, document handling, and workflow automation through secure API interactions and Dartboard feature integration.",
   "codiconIcon": "dart",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "system",
     "enable",

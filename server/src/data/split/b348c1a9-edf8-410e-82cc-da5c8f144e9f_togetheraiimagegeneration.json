@@ -6,7 +6,7 @@
   "description": "Integrates with Together AI's API to enable text-to-image generation, offering tools for creating visual content based on text prompts.",
   "codiconIcon": "together",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "together",
     "enable",

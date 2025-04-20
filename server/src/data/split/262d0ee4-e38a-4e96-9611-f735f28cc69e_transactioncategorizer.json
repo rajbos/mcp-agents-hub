@@ -6,7 +6,7 @@
   "description": "Processes and categorizes financial transaction data into predefined expense and income categories, outputting organized CSV files for personal finance management and expense tracking.",
   "codiconIcon": "transaction",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "transaction-categorizer",
     "processes",

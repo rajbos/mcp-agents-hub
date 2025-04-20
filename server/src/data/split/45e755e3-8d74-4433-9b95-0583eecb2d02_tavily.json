@@ -6,7 +6,7 @@
   "description": "Integrates Tavily's search API with HTTP/HTTPS proxy support for web search capabilities in restricted network environments.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "tavily's",

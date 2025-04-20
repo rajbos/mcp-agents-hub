@@ -6,7 +6,7 @@
   "description": "Provides a secure SSH interface for connecting to remote servers, executing commands, and maintaining persistent sessions throughout conversations for system administration and server management tasks.",
   "codiconIcon": "ssh",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "sessions",
     "ssh-tools",

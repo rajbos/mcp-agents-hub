@@ -6,7 +6,7 @@
   "description": "Enables interaction with macOS system preferences via the 'defaults' command for querying and modifying configurations.",
   "codiconIcon": "macos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "macos",
     "system",

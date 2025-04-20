@@ -6,7 +6,7 @@
   "description": "Provides datetime tools for retrieving current time in various timezones, listing available timezones, and accessing datetime resources through URIs, enabling accurate and flexible time-related functionalities across different geographical regions.",
   "codiconIcon": "datetime",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "available",
     "accurate",

@@ -6,7 +6,7 @@
   "description": "Integrates with the markitdown library to convert various document formats including PDF, Word, and HTML to standardized Markdown, enabling efficient document processing and format unification.",
   "codiconIcon": "markdownify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "markdownify",
     "document",

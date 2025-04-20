@@ -6,7 +6,7 @@
   "description": "Transforms stdio-based MCP servers into websocket-accessible servers, enabling network-based communication and simplified client development.",
   "codiconIcon": "stdio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "enabling",
     "client",

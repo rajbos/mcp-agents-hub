@@ -6,7 +6,7 @@
   "description": "Integrates with Semantic Scholar API to enable academic literature search, citation analysis, and paper recommendations at scale.",
   "codiconIcon": "semantic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "scale",
     "integrates",

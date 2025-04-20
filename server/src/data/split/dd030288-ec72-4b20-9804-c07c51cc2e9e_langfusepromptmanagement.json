@@ -6,7 +6,7 @@
   "description": "Integrates with Langfuse to enable dynamic prompt management, version control, and retrieval for AI applications",
   "codiconIcon": "langfuse",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "control",

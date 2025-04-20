@@ -6,7 +6,7 @@
   "description": "Submit recent chat history ('context') and a search term to retrieve a list of candidate results from GIPHY and load their image data.",
   "codiconIcon": "giphy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "their",
     "image",

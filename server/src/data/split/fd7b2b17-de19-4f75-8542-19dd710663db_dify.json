@@ -6,7 +6,7 @@
   "description": "Integrates Dify capabilities, enabling text generation and other AI services.",
   "codiconIcon": "dify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "capabilities",

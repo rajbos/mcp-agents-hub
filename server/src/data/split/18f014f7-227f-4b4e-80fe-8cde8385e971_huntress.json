@@ -6,7 +6,7 @@
   "description": "Integrates with Huntress endpoint protection services to manage cybersecurity operations, threat analysis, and automated reporting.",
   "codiconIcon": "huntress",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "automated",
     "reporting",

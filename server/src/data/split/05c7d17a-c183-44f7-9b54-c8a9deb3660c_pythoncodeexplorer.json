@@ -6,7 +6,7 @@
   "description": "Builds a graph of Python code relationships to intelligently navigate codebases, prioritize relevant sections, and include README files while staying within token limits.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "builds",
     "intelligently",

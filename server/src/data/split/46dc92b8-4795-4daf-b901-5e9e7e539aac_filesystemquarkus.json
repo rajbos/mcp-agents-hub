@@ -6,7 +6,7 @@
   "description": "Provides a Quarkus-based filesystem interface interactions with local file systems, enabling automated file management and data processing tasks.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "quarkus-based",
     "filesystem",

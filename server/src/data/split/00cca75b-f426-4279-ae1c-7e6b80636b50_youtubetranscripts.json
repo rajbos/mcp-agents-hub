@@ -6,7 +6,7 @@
   "description": "Extract and analyze video captions and subtitles in multiple languages.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "youtube-transcripts",
     "extract",

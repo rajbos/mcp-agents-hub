@@ -6,7 +6,7 @@
   "description": "Bridges AI models with the IACR Cryptology ePrint Archive, enabling efficient extraction and analysis of cryptographic research papers.",
   "codiconIcon": "iacr",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "iacr-cryptology-eprint-archive",
     "cryptology",

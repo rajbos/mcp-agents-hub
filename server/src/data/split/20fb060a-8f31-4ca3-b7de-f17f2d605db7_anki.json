@@ -6,7 +6,7 @@
   "description": "Integrates with Anki flashcard software through AnkiConnect to enable deck management, note creation/modification, and search functionality for spaced repetition learning workflows.",
   "codiconIcon": "anki",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "anki",
     "search",

@@ -6,7 +6,7 @@
   "description": "Provides HTML file preview and analysis capabilities by leveraging Puppeteer for screenshot capture and content parsing, enabling web testing and content visualization tasks.",
   "codiconIcon": "html",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "html-page-preview",
     "puppeteer",

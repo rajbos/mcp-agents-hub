@@ -6,7 +6,7 @@
   "description": "Provides autonomous memory capabilities for storing, retrieving, and utilizing conversation information across sessions, with automatic extraction and categorization of user data for enhanced contextual interactions.",
   "codiconIcon": "mem0",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "sessions",
     "mem0-(autonomous-memory)",

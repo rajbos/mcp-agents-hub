@@ -6,7 +6,7 @@
   "description": "Integrates Google's OR-Tools to solve constraint satisfaction and optimization problems for decision-making in logistics and operations research.",
   "codiconIcon": "or-tools",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "developer-tools",
   "tags": [
     "logistics",
     "operations",

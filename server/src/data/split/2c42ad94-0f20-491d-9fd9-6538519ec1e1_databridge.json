@@ -6,7 +6,7 @@
   "description": "Integrates with DataBridge to enable ingestion and retrieval of contextual information from a local database, supporting persistent storage for AI applications.",
   "codiconIcon": "databridge",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "databridge",
     "integrates",

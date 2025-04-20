@@ -6,7 +6,7 @@
   "description": "Track and manage issues via Linear's project management API.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "manage",
     "issues",

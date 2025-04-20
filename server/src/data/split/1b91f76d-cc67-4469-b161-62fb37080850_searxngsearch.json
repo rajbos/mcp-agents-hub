@@ -6,7 +6,7 @@
   "description": "Perform privacy-preserving web searches via the SearXNG metasearch engine.",
   "codiconIcon": "searxng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "metasearch",
     "engine",

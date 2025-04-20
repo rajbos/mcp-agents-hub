@@ -6,7 +6,7 @@
   "description": "Lightweight Git repository management server for local operations using GitPython and Pydantic",
   "codiconIcon": "local",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "local-git",
     "repository",

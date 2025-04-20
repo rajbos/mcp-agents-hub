@@ -6,7 +6,7 @@
   "description": "Leverages Perplexity's Sonar Pro API to provide comprehensive research capabilities, including documentation search, API discovery, and code deprecation analysis with chain-of-thought reasoning.",
   "codiconIcon": "search",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/perplexity-ai-icon.png",
-  "category": "research-data",
+  "category": "search",
   "tags": [
     "research",
     "documentation",

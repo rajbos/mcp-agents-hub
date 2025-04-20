@@ -6,7 +6,7 @@
   "description": "Integrates with the Things 3 task management app to enable creating tasks, managing projects, and analyzing productivity patterns through natural language commands",
   "codiconIcon": "things",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "commands",
     "management",

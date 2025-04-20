@@ -6,7 +6,7 @@
   "description": "Integrates with LanceDB vector database to enable efficient storage, retrieval, and similarity search of vector embeddings with associated metadata for semantic search and recommendation systems.",
   "codiconIcon": "lancedb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "semantic",
     "retrieval",

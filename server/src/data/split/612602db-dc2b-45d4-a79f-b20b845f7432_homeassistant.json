@@ -6,7 +6,7 @@
   "description": "Integrates Home Assistant devices and automation into workflows, enabling control and monitoring of smart home systems like lighting, climate, and security.",
   "codiconIcon": "home",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "devices",
     "workflows",

@@ -6,7 +6,7 @@
   "description": "Connects AI systems to MySQL databases for executing SQL queries and performing complex data operations without direct database access.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "direct",
     "access",

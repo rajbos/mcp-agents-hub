@@ -6,7 +6,7 @@
   "description": "Integrates with ServiceNow to enable incident management, user information retrieval, and knowledge base article access for automated IT service management and natural language interactions with ServiceNow data.",
   "codiconIcon": "servicenow",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "servicenow",
     "integrates",

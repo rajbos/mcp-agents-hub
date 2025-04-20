@@ -6,7 +6,7 @@
   "description": "Integrates with IP-API.com to provide IP geolocation services, enabling location-based insights without API keys or complex integrations.",
   "codiconIcon": "ip",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "insights",
     "without",

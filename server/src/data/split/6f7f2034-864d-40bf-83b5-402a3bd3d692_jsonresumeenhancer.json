@@ -6,7 +6,7 @@
   "description": "Enhances JSON Resumes with GitHub project information by analyzing codebases, fetching existing resumes, and intelligently updating profiles with relevant project details using OpenAI's API.",
   "codiconIcon": "json",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "information",
     "details",

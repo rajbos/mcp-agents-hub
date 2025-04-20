@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail and Google Calendar APIs to enable email retrieval, search, sending with attachments, and calendar event management including video conference creation.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "communication",
   "tags": [
     "sending",
     "attachments",

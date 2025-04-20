@@ -6,7 +6,7 @@
   "description": "Execute code securely in cloud sandboxes.",
   "codiconIcon": "e2b",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "e2b-(ts)",
     "execute",

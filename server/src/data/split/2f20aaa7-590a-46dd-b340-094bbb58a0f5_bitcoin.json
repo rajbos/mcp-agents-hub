@@ -6,7 +6,7 @@
   "description": "Integrates with Bitcoin network and blockchain data via Blockstream API to enable transaction monitoring, wallet management, and blockchain analysis",
   "codiconIcon": "bitcoin",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "wallet",

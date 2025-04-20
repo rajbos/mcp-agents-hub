@@ -6,7 +6,7 @@
   "description": "Integrates code analysis using a Neo4j graph database to enable structural insights, quality metrics, and natural language querying of codebases.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "database",
+  "category": "developer-tools",
   "tags": [
     "analysis",
     "insights",

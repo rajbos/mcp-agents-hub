@@ -6,7 +6,7 @@
   "description": "Provides browser automation capabilities for capturing screenshots, retrieving HTML, executing JavaScript, and accessing console logs from web pages.",
   "codiconIcon": "browser",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "automation",
     "screenshots",

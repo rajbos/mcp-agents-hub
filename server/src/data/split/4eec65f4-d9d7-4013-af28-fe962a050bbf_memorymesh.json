@@ -6,7 +6,7 @@
   "description": "Store and query structured data in local knowledge graphs.",
   "codiconIcon": "memorymesh",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memorymesh",
     "store",

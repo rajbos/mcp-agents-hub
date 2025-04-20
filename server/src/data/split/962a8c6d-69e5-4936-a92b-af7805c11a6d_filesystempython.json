@@ -6,7 +6,7 @@
   "description": "Provides secure, read-only access to local files, enabling file search and analysis while respecting .gitignore patterns and maintaining security.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "filesystem-(python)",
     "access",

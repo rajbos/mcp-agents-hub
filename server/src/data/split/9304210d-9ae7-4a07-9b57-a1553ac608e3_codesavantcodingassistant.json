@@ -6,7 +6,7 @@
   "description": "Provides a robust code management and execution interface for reading, writing, versioning, and running code across multiple projects and languages.",
   "codiconIcon": "codesavant",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "robust",
     "execution",

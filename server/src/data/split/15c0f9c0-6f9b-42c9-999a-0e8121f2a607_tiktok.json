@@ -6,7 +6,7 @@
   "description": "Integrates with TikTok through TikNeuron's API to retrieve video subtitles, content details, and engagement metrics for analyzing virality factors and enabling conversational interactions with TikTok videos.",
   "codiconIcon": "tiktok",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "retrieve",
     "subtitles",

@@ -6,7 +6,7 @@
   "description": "Integrates with Wordware's deployed flows to enable founder research, lead enrichment, Notion integration, and task solving with Google search and API capabilities.",
   "codiconIcon": "wordware",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "capabilities",
     "research",

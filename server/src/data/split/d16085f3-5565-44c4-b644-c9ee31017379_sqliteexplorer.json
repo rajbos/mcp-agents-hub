@@ -6,7 +6,7 @@
   "description": "Integrates with SQLite databases to enable AI-driven schema exploration, querying, updates, and statistical analysis for efficient data management and rapid prototyping.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "prototyping",
     "ai-driven",

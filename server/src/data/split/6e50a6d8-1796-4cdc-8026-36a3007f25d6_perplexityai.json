@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity AI to enable context-aware conversations, research, and code analysis through natural language processing capabilities.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "processing",
     "capabilities",

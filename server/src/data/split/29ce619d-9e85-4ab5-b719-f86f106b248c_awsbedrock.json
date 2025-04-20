@@ -6,7 +6,7 @@
   "description": "Integrates AWS Bedrock, enabling natural language processing and task automation.",
   "codiconIcon": "aws",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "cloud-platforms",
   "tags": [
     "bedrock",
     "enabling",

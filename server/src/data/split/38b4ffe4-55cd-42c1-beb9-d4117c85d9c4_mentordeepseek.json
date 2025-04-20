@@ -6,7 +6,7 @@
   "description": "Integrates with Deepseek API to provide AI-powered mentorship capabilities for code review, design critique, writing feedback, and idea brainstorming.",
   "codiconIcon": "mentor",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "mentorship",
     "critique",

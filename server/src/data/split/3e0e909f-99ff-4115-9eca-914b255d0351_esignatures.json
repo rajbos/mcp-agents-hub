@@ -6,7 +6,7 @@
   "description": "Manages digital contract workflows including creation, sending, and template management for electronic signatures through the eSignatures platform.",
   "codiconIcon": "file-text",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/esignatures.png",
-  "category": "license",
+  "category": "integrations",
   "tags": [
     "digital-signatures",
     "contracts",

@@ -6,7 +6,7 @@
   "description": "Integrates with Spring AI and chess libraries to enable interactive gameplay and automated analysis for AI-assisted chess applications.",
   "codiconIcon": "chess",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "spring",
     "gameplay",

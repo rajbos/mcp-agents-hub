@@ -6,7 +6,7 @@
   "description": "Integrates with Spring Boot to process CSV and Excel files, enabling data extraction and manipulation for analysis, reporting, or system integration tasks.",
   "codiconIcon": "csv",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "extraction",
     "analysis",

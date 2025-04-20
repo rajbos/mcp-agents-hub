@@ -6,7 +6,7 @@
   "description": "Integrates Claude with the ChatGPT desktop app on macOS using AppleScript, enabling cross-assistant interactions for prompt sending, response retrieval, and conversation management.",
   "codiconIcon": "claude",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "chatgpt",
     "macos",

@@ -6,7 +6,7 @@
   "description": "Manage containers and compose stacks through natural language.",
   "codiconIcon": "docker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "language",
     "docker",

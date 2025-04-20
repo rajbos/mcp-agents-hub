@@ -6,7 +6,7 @@
   "description": "Secure, read-only access to query and analyze SQLite databases.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "sqlite-explorer",
     "secure",

@@ -6,7 +6,7 @@
   "description": "Integrates with Ticketmaster's Discovery API to search and retrieve detailed event, venue, and attraction data for entertainment planning and ticketing assistance.",
   "codiconIcon": "ticketmaster",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "entertainment",
     "assistance",

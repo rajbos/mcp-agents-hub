@@ -6,7 +6,7 @@
   "description": "Enable efficient storage, retrieval, and querying of structured data in the cloud for large-scale applications.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "azure-table-storage",
     "efficient",

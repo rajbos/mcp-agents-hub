@@ -6,7 +6,7 @@
   "description": "Fetches and converts web content to Markdown using JSDOM and Turndown.",
   "codiconIcon": "fetch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "fetches",
     "converts",

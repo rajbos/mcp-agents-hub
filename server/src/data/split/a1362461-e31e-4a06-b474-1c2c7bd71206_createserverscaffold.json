@@ -6,7 +6,7 @@
   "description": "Streamlines MCP server creation with a structured development protocol and example templates, offering an npx-invokable tool for efficient setup of server scaffolds.",
   "codiconIcon": "create",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "efficient",
     "server",

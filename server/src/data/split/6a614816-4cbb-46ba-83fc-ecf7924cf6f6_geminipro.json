@@ -6,7 +6,7 @@
   "description": "Integrates Google's Gemini Pro model for text generation, enabling content creation, translation, and conversational capabilities.",
   "codiconIcon": "gemini",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "developer-tools",
   "tags": [
     "generation",
     "enabling",

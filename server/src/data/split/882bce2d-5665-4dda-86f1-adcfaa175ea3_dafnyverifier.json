@@ -6,7 +6,7 @@
   "description": "Integrates with Dafny to verify code correctness through analysis of formal specifications and proofs.",
   "codiconIcon": "dafny",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "verify",
     "through",

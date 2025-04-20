@@ -6,7 +6,7 @@
   "description": "Indexes and retrieves code snippets using embedding models and vector databases, enabling efficient code search and analysis for software development tasks.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "database",
+  "category": "search",
   "tags": [
     "tasks",
     "snippets",

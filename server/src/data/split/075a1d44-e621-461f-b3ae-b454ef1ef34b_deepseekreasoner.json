@@ -6,7 +6,7 @@
   "description": "Integrates DeepSeek's R1 reasoning engine to enhance problem-solving, research assistance, and decision support capabilities.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "problem-solving",
     "assistance",

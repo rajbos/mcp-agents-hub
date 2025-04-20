@@ -6,7 +6,7 @@
   "description": "Integrates with Jira to enable automated ticket management, project oversight, and streamlined communication through JQL queries and comprehensive API operations.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "communication",
     "through",

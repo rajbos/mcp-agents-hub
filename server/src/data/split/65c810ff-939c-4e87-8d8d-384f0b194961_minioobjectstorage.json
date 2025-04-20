@@ -6,7 +6,7 @@
   "description": "Bridges MinIO object storage servers to enable bucket/object management, file operations, and server monitoring for cloud-native applications.",
   "codiconIcon": "minio",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "servers",
     "server",

@@ -6,7 +6,7 @@
   "description": "Integrates ClickUp task management with AI systems to enable automated task creation, updates, and retrieval for enhanced project workflow efficiency.",
   "codiconIcon": "clickup",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "automated",
     "creation",

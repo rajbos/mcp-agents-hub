@@ -6,7 +6,7 @@
   "description": "Provides a sandboxed code execution environment for secure, multi-language code running with resource limits and network restrictions.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provides",
     "execution",

@@ -6,7 +6,7 @@
   "description": "Enables AI assistants to read, create, and manage Google Calendar events, including processing events from screenshots and coordinating schedules across multiple calendars.",
   "codiconIcon": "calendar",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/google-calendar.png",
-  "category": "calendar-management",
+  "category": "communication",
   "tags": [
     "google-calendar",
     "scheduling",

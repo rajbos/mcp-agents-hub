@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity AI to enable advanced search, documentation retrieval, and conversational capabilities for AI systems and developers.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "documentation",

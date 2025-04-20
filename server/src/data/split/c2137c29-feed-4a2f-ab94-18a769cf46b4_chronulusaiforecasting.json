@@ -6,7 +6,7 @@
   "description": "Integrates with Chronulus AI's forecasting API to enable time series analysis, prediction generation, and visualization of forecasting data through natural language commands.",
   "codiconIcon": "chronulus",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "forecasting",
     "enable",

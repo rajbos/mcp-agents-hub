@@ -6,7 +6,7 @@
   "description": "Integrates with the Figma API to enable interaction with design files and projects, facilitating automated design tasks and AI-assisted workflows within the Figma ecosystem.",
   "codiconIcon": "figma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "ai-assisted",
     "integrates",

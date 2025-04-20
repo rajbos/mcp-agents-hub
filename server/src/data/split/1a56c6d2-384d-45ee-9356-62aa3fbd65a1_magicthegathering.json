@@ -6,7 +6,7 @@
   "description": "Integrates Magic: The Gathering data sources to provide unified access for card searches, rules lookup, and set information retrieval.",
   "codiconIcon": "magic:",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "magic:-the-gathering",
     "provide",

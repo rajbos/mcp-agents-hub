@@ -6,7 +6,7 @@
   "description": "Enables remote automation of Windows systems for controlling mouse, keyboard, and screen capture via nut.js.",
   "codiconIcon": "windows",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "remote",
     "windows",

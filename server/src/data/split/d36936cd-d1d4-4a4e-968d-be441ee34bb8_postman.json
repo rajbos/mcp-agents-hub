@@ -6,7 +6,7 @@
   "description": "Integrates with Postman's API management platform to enable automated API testing, documentation, and workflow management for developers and QA engineers.",
   "codiconIcon": "postman",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "postman",
     "integrates",

@@ -6,7 +6,7 @@
   "description": "Integrates with Discord's API to enable flexible bot development and management through simplified REST and slash command interfaces.",
   "codiconIcon": "discord",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "discord-(full-api)",
     "discord's",

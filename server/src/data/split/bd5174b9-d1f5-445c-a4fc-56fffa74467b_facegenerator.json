@@ -6,7 +6,7 @@
   "description": "Generates customizable human face images using thispersondoesnotexist.com, offering options for shape, dimensions, and batch processing for UI prototyping and dataset creation.",
   "codiconIcon": "face",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "creation",
     "customizable",

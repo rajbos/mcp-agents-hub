@@ -6,7 +6,7 @@
   "description": "Leverage Pinecone vector databases for semantic search and RAG.",
   "codiconIcon": "pinecone",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "search",
     "pinecone-vector-db",

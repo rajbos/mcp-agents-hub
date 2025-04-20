@@ -6,7 +6,7 @@
   "description": "Hook into your WeChat history and pull summaries of conversations.",
   "codiconIcon": "wechat",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "history",
     "summaries",

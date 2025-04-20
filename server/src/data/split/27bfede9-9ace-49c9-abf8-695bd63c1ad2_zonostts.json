@@ -6,7 +6,7 @@
   "description": "Integrates with Zonos TTS API to generate expressive, multi-language speech output for AI applications using PulseAudio playback",
   "codiconIcon": "zonos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "integrates",
     "zonos",

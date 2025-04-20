@@ -6,7 +6,7 @@
   "description": "Python-based web crawler extracts website content into markdown files, enabling efficient content aggregation and site archiving.",
   "codiconIcon": "markdown",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "extracts",
     "website",

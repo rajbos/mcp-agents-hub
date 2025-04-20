@@ -6,7 +6,7 @@
   "description": "Integrates with a YouTube summarization API to enable video analysis, retrieval of summaries, and follow-up conversations about content.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "enable",
     "analysis",

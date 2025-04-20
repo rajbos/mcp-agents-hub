@@ -6,7 +6,7 @@
   "description": "Connects AI models to multiple database systems for executing queries and retrieving results across PostgreSQL, MySQL, and SQLite.",
   "codiconIcon": "db",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "postgresql",
     "mysql",

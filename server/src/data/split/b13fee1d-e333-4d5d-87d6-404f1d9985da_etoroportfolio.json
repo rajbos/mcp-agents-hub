@@ -6,7 +6,7 @@
   "description": "Integrates with eToro's API to fetch financial portfolios, instrument details, and search capabilities for investment analysis and portfolio tracking without CORS restrictions.",
   "codiconIcon": "etoro",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "portfolio",
     "integrates",

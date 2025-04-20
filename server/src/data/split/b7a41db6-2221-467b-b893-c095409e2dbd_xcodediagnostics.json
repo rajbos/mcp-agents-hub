@@ -6,7 +6,7 @@
   "description": "Extracts and parses Xcode build errors and warnings from DerivedData logs, providing structured diagnostic information with file paths, line numbers, error messages, and fix-it suggestions for Swift projects.",
   "codiconIcon": "xcode",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "xcode",
     "errors",

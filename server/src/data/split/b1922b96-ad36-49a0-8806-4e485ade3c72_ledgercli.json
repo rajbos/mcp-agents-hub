@@ -6,7 +6,7 @@
   "description": "Integrates with Ledger CLI to enable natural language queries for financial data analysis, report generation, and budget tracking through nine structured tools that map directly to Ledger commands.",
   "codiconIcon": "ledger",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "queries",

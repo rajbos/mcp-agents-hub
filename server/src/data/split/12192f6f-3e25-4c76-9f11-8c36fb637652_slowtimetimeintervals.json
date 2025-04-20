@@ -6,7 +6,7 @@
   "description": "Integrates drand and tlock-js to enable secure, time-locked encryption for managing scheduled events with cryptographic guarantees.",
   "codiconIcon": "slowtime",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "tlock-js",

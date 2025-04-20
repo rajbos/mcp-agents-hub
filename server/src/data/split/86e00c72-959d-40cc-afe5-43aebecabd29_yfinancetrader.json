@@ -6,7 +6,7 @@
   "description": "Provides real-time stock market data and trading capabilities using yfinance, offering tools for quotes, company information, historical prices, symbol search, analyst recommendations, and insider transactions.",
   "codiconIcon": "yfinance",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "yfinance-trader",
     "provides",

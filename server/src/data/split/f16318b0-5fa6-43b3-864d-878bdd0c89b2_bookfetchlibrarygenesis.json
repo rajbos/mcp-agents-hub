@@ -6,7 +6,7 @@
   "description": "Retrieves and processes published books from Library Genesis, delivering text content in manageable chunks with proper metadata for in-depth analysis and research.",
   "codiconIcon": "book",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "processes",
     "library",

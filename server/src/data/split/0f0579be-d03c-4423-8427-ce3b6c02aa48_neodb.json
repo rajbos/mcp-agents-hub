@@ -6,7 +6,7 @@
   "description": "Integrates with NeoDB to fetch user data, search books, and retrieve book details, enabling book recommendations, reading list management, and literary analysis.",
   "codiconIcon": "neodb",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "fetch",
     "books",

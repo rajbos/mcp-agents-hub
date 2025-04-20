@@ -6,7 +6,7 @@
   "description": "Bridge to Redis databases, enabling fast in-memory data operations for AI workflows.",
   "codiconIcon": "redis",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "bridge",
     "databases",

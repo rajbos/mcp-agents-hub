@@ -6,7 +6,7 @@
   "description": "Execute npm and npx commands.",
   "codiconIcon": "npm",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "commands",
     "npm-command-runner",

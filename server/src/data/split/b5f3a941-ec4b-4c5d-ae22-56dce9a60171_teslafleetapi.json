@@ -6,7 +6,7 @@
   "description": "Integrates with the Tesla Fleet API to enable vehicle monitoring and control through OAuth 2.0 authentication, allowing for wake-up commands, information retrieval, and real-time data refreshing of Tesla vehicles.",
   "codiconIcon": "tesla",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "retrieval",
     "vehicle",

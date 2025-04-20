@@ -6,7 +6,7 @@
   "description": "Provides access to IETF RFC documents, enabling efficient listing, searching, and retrieval with pagination and local caching for internet standards and protocol analysis.",
   "codiconIcon": "ietf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "local",
     "internet",

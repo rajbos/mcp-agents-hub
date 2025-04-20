@@ -6,7 +6,7 @@
   "description": "Provides secure filesystem operations for reading, writing, and manipulating files and directories within specified access boundaries.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "filesystem",
     "provides",

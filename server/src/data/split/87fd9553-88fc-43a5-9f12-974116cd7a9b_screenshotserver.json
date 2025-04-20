@@ -6,7 +6,7 @@
   "description": "Captures web page screenshots using TypeScript and Puppeteer, enabling automated visual content processing for web testing, archiving, and data collection.",
   "codiconIcon": "screenshot",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "archiving",
     "collection",

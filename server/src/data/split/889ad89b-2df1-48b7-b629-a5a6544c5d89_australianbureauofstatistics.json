@@ -6,7 +6,7 @@
   "description": "Integrates with the Australian Bureau of Statistics API to provide access to statistical datasets for economic analysis, demographic research, and data-driven policy making.",
   "codiconIcon": "australian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "statistics",
     "access",

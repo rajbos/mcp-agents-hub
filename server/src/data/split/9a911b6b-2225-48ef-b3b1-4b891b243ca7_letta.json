@@ -6,7 +6,7 @@
   "description": "Integrates with the Letta API to enable creation and management of agents, memory blocks, and tools for advanced AI-based interactions and memory management",
   "codiconIcon": "letta",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "letta",
     "creation",

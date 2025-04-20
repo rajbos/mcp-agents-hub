@@ -6,7 +6,7 @@
   "description": "Combines DeepSeek's analysis with multiple response models to enhance AI conversation quality through structured two-stage reasoning.",
   "codiconIcon": "rat",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "response",
     "models",

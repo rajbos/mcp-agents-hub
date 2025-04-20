@@ -6,7 +6,7 @@
   "description": "Integrates with Storybook to enable retrieval and management of stories from specified configuration directories, facilitating AI-assisted story handling in React Native projects.",
   "codiconIcon": "react",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "react-native-storybook",
     "storybook",

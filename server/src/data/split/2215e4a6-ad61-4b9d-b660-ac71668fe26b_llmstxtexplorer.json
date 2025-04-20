@@ -6,7 +6,7 @@
   "description": "Provides a bridge for exploring websites with llms.txt files, enabling fetching and parsing of website-specific language model instructions for context-aware interactions in web-based environments.",
   "codiconIcon": "llms.txt",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "instructions",
     "websites",

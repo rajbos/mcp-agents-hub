@@ -6,7 +6,7 @@
   "description": "Integrates Discord to enable automated server management, moderation, and bot development.",
   "codiconIcon": "discord",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "automated",
     "server",

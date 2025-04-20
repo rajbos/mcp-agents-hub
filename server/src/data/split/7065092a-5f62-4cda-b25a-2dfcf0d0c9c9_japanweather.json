@@ -6,7 +6,7 @@
   "description": "Integrates with an external weather API to provide current conditions and forecasts for locations in Japan.",
   "codiconIcon": "japan",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "conditions",
     "locations",

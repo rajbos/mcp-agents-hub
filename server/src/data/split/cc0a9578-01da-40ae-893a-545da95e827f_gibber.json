@@ -6,7 +6,7 @@
   "description": "Provides cryptographic tools for secure communication, including key generation, shared secret derivation, and message encryption/decryption using SJCL P-256 and AES-CCM, enabling end-to-end encrypted data exchange via server-sent events.",
   "codiconIcon": "gibber",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "cryptographic",
     "secret",

@@ -6,7 +6,7 @@
   "description": "Advanced image generation server integrating EverArt's AI models for creating vector and raster images, supporting multiple formats and styles with flexible storage options.",
   "codiconIcon": "image",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/everart.png",
-  "category": "image-video-processing",
+  "category": "developer-tools",
   "tags": [
     "image-generation",
     "vector-graphics",

@@ -6,7 +6,7 @@
   "description": "Cloudflare Workers-based MCP implementation enables AI assistants to execute custom serverless logic at the edge.",
   "codiconIcon": "cloudflare",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "execute",
     "serverless",

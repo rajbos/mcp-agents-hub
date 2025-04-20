@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail's API to enable email operations including sending, receiving, and managing emails for automation and workflow integration",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "sending",
     "emails",

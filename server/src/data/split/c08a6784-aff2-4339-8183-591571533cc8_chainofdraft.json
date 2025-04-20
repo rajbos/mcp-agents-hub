@@ -6,7 +6,7 @@
   "description": "Implements Chain of Draft reasoning to generate concise intermediate steps for efficient, token-optimized problem-solving across various domains, offering tools for both CoD and Chain of Thought methods with adaptive complexity estimation and format enforcement.",
   "codiconIcon": "chain",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "complexity",
     "estimation",

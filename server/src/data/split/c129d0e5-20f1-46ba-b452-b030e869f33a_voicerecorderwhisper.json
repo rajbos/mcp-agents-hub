@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's Whisper model to provide voice recording and transcription capabilities for applications requiring speech-to-text functionality.",
   "codiconIcon": "voice",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "whisper",
     "model",

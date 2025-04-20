@@ -6,7 +6,7 @@
   "description": "Integrates with the PostHog analytics platform to list projects and create timestamped annotations for tracking significant events and milestones in analytics data.",
   "codiconIcon": "posthog",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "data",
     "posthog",

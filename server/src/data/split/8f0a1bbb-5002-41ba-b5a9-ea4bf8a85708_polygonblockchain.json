@@ -6,7 +6,7 @@
   "description": "Integrates with the Polygon blockchain network to enable wallet operations, smart contract deployments, L2 bridging, DeFi interactions, and transaction simulations using ethers.js v6 across both Mainnet and Mumbai Testnet environments.",
   "codiconIcon": "polygon",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "mumbai",

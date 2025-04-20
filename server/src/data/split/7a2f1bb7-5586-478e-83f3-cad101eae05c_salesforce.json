@@ -6,7 +6,7 @@
   "description": "Integrates with Salesforce's REST API to enable querying, metadata retrieval, and CRUD operations on Salesforce data for tasks like customer analysis and CRM automation.",
   "codiconIcon": "salesforce",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "salesforce",
     "integrates",

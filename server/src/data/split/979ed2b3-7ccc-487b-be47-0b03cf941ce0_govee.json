@@ -6,7 +6,7 @@
   "description": "Integrates with Govee smart lighting devices to enable natural language control of brightness, color, and power settings for home automation and ambient lighting scenarios.",
   "codiconIcon": "govee",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "scenarios",
     "govee",

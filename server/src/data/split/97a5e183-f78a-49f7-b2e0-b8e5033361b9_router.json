@@ -6,7 +6,7 @@
   "description": "Aggregates multiple MCP resource servers into a unified proxy, enabling centralized access, request routing, and response aggregation.",
   "codiconIcon": "router",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "multiple",
     "servers",

@@ -6,7 +6,7 @@
   "description": "Integrates SearXNG API to enable web searches with pagination control for up-to-date information retrieval and content analysis.",
   "codiconIcon": "searxng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "searxng",
     "enable",

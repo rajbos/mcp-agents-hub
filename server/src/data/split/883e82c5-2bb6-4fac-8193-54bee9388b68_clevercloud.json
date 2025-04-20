@@ -6,7 +6,7 @@
   "description": "Integrates with Clever Cloud's tools and services to enable application deployment, environment management, and resource monitoring.",
   "codiconIcon": "clever",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "application",
     "deployment",

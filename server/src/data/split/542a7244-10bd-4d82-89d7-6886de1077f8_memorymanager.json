@@ -6,7 +6,7 @@
   "description": "Manages and switches between memory paths for clients, enabling organized context management across multiple AI projects.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "memory",
     "paths",

@@ -6,7 +6,7 @@
   "description": "Integrates with isitdownrightnow.com to check website status, providing real-time availability information and last known downtime for monitoring and troubleshooting purposes.",
   "codiconIcon": "isitdown",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "real-time",
     "information",

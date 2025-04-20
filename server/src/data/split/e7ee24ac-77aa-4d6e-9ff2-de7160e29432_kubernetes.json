@@ -6,7 +6,7 @@
   "description": "Integrates with Kubernetes to enable natural language-based cluster management and command execution for streamlined DevOps workflows.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "kubernetes",
     "integrates",

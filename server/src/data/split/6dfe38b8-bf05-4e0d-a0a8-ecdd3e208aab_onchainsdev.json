@@ -6,7 +6,7 @@
   "description": "Provides a Docker-based development environment for building and testing MCP-compatible applications using TypeScript, Express.js, and Bun runtime.",
   "codiconIcon": "onchains",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "mcp-compatible",
     "docker-based",

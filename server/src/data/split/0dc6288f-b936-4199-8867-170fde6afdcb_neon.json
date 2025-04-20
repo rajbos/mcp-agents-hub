@@ -6,7 +6,7 @@
   "description": "Interact with the Neon serverless Postgres platform",
   "codiconIcon": "neon",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/oy68m9rzcql.webp",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "platform",
     "neon",

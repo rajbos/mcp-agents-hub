@@ -6,7 +6,7 @@
   "description": "Integrates web browsing capabilities for real-time data retrieval, content extraction, and task automation using popular Python libraries.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "content",
     "extraction",

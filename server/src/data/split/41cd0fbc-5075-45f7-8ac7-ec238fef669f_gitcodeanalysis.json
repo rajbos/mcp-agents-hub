@@ -6,7 +6,7 @@
   "description": "Integrates with Git to provide version control, project management, and code analysis capabilities for TypeScript projects.",
   "codiconIcon": "git",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "integrates",
     "version",

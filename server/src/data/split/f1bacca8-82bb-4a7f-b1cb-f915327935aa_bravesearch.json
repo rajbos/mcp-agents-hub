@@ -6,7 +6,7 @@
   "description": "Retrieve web pages, news, and local business results via Brave API.",
   "codiconIcon": "brave",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "news",
     "local",

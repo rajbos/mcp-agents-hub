@@ -6,7 +6,7 @@
   "description": "High-performance persistent memory system for Model Context Protocol (MCP) powered by libSQL",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "persistent",
     "system",

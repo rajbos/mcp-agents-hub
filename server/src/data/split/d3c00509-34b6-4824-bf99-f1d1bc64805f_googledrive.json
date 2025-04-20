@@ -6,7 +6,7 @@
   "description": "Integrates with Google Drive API to enable file listing, searching, and reading for document retrieval and content analysis tasks.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "file-systems",
   "tags": [
     "drive",
     "enable",

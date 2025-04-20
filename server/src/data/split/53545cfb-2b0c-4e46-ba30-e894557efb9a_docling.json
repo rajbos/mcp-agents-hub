@@ -6,7 +6,7 @@
   "description": "Integrates IBM's Docling software to parse and convert various document formats into standardized Markdown, enabling efficient document processing and analysis workflows.",
   "codiconIcon": "docling",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "software",
     "formats",

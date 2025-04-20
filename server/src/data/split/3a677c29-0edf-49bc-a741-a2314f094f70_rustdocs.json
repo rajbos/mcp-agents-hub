@@ -6,7 +6,7 @@
   "description": "Fetches and returns Rust crate documentation from docs.rs, providing essential context for working with Rust code.",
   "codiconIcon": "rust",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "rust-docs",
     "returns",

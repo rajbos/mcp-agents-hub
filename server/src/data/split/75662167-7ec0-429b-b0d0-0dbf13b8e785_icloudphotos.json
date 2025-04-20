@@ -6,7 +6,7 @@
   "description": "Integrates with local iCloud Photos libraries on macOS to enable efficient searching and retrieval of photo metadata based on various criteria like dates, locations, people, and labels.",
   "codiconIcon": "icloud",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "criteria",
     "dates",

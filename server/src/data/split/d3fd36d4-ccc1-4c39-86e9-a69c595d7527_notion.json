@@ -6,7 +6,7 @@
   "description": "Integrates with Notion to enable creating, reading, updating, and deleting pages and databases for automated note-taking, task management, and knowledge base maintenance.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "notion",
     "enable",

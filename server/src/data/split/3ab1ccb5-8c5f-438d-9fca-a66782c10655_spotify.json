@@ -6,7 +6,7 @@
   "description": "Integrates with Spotify to enable music playback control, playlist management, and user data retrieval for personalized music experiences",
   "codiconIcon": "spotify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "spotify",
     "integrates",

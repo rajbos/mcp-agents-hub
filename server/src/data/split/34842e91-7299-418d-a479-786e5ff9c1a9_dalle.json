@@ -6,7 +6,7 @@
   "description": "Generate, edit, and create variations of images using OpenAI's DALL-E 2 and DALL-E 3 APIs, with support for customizable parameters and local image saving.",
   "codiconIcon": "image",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/dall-e.png",
-  "category": "image-video-processing",
+  "category": "developer-tools",
   "tags": [
     "image-generation",
     "dall-e",

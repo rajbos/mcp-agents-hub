@@ -6,7 +6,7 @@
   "description": "Extracts and processes complete transcripts from YouTube videos using a single tool that accepts video URLs, enabling content analysis without watching the videos.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "videos",
     "single",

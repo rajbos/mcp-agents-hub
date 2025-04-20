@@ -6,7 +6,7 @@
   "description": "Integrates with MongoDB databases to enable querying, inserting, and updating documents for data analysis, content management, or automated database operations.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "querying",
     "updating",

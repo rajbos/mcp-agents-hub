@@ -6,7 +6,7 @@
   "description": "Integrates with Pushover.net to enable sending push notifications to various devices for real-time alerts and updates",
   "codiconIcon": "pushover",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "pushover",
     "pushover.net",

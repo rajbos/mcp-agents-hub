@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity AI's search capabilities to enable AI-powered web search queries using TypeScript and the OpenAI SDK.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "using",
     "openai",

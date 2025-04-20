@@ -6,7 +6,7 @@
   "description": "Integrates with Playwright to enable cross-browser web automation for tasks like scraping, testing, and content extraction.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "web-browser-(playwright)",
     "integrates",

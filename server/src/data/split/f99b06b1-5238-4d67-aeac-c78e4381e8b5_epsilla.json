@@ -6,7 +6,7 @@
   "description": "Integrates with Epsilla databases using pyepsilla to enable efficient creation, manipulation, and querying of vector data.",
   "codiconIcon": "epsilla",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "epsilla",
     "creation",

@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol (MCP) server that provides access to Square API functionality.",
   "codiconIcon": "",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "context",
     "protocol",

@@ -6,7 +6,7 @@
   "description": "Integrates with Adobe Illustrator on MacOS using JavaScript and AppleScript to enable creation and manipulation of vector graphics for automated design tasks.",
   "codiconIcon": "adobe",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "macos",
     "javascript",

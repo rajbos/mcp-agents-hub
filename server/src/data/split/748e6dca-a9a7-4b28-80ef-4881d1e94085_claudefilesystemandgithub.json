@@ -6,7 +6,7 @@
   "description": "Integrates with GitHub, Brave Search, and local filesystems to enable repository management, web searches, and file operations for code analysis, research, and document handling tasks.",
   "codiconIcon": "claude",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "integrations",
   "tags": [
     "search",
     "management",

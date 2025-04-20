@@ -6,7 +6,7 @@
   "description": "Integrates with Ethereum networks and smart contracts using ethers.js to enable wallet operations, transaction management, and blockchain interactions.",
   "codiconIcon": "ethers",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "contracts",
     "using",

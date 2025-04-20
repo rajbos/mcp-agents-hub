@@ -6,7 +6,7 @@
   "description": "Integrates terminal monitoring capabilities, enabling real-time analysis of multiple terminal outputs for debugging, log review, and system monitoring.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "monitoring",
     "capabilities",

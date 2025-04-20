@@ -6,7 +6,7 @@
   "description": "Integrates with SQLite to provide a persistent knowledge graph for efficient memory management and relationship modeling across conversations.",
   "codiconIcon": "optimized",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "persistent",
     "knowledge",

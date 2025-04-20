@@ -6,7 +6,7 @@
   "description": "Integrates with the BrianKnows knowledge base API to enable searches and information retrieval from specialized domain-specific databases.",
   "codiconIcon": "brianknows",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "searches",
     "information",

@@ -6,7 +6,7 @@
   "description": "Integrates with ScreenshotOne's API to enable rendering of website screenshots for visual testing, content monitoring, and creating web page references.",
   "codiconIcon": "screenshotone",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "screenshotone",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates with Solana blockchain using Web3.js, enabling automated transactions, smart contract deployments, and blockchain analytics.",
   "codiconIcon": "solana",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "solana",
     "integrates",

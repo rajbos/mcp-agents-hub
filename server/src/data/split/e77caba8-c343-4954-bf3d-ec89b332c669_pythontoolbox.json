@@ -6,7 +6,7 @@
   "description": "Integrates Python development tools for file operations, code analysis, project management, and safe code execution, enabling advanced programming workflows and automated testing.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "testing",
     "development",

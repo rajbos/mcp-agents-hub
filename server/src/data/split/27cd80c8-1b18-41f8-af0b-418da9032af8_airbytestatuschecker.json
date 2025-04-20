@@ -6,7 +6,7 @@
   "description": "Integrates with Airbyte API to monitor data pipeline health, check connection statuses, and manage streams for real-time ETL process oversight.",
   "codiconIcon": "airbyte",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "statuses",
     "manage",

@@ -6,7 +6,7 @@
   "description": "Manage pages and databases in Notion workspaces.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "notion",
     "manage",

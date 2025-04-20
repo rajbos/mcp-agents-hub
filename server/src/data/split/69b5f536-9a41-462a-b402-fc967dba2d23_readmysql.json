@@ -6,7 +6,7 @@
   "description": "Secure read-only MySQL database access to execute queries and analyze data patterns.",
   "codiconIcon": "read",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "secure",
     "access",

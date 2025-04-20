@@ -6,7 +6,7 @@
   "description": "Automates tweet scheduling and posting by integrating Google Sheets with Twitter using web automation.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "tweet",
     "posting",

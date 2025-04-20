@@ -6,7 +6,7 @@
   "description": "Integrates with CouchDB to enable database management, document operations, and Mango queries for applications requiring document-based storage and retrieval.",
   "codiconIcon": "couchdb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "operations",
     "mango",

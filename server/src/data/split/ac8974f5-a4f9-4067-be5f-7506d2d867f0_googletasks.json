@@ -6,7 +6,7 @@
   "description": "Integrates with the Google Tasks API to provide structured task management capabilities for creating, listing, updating, and toggling tasks in default lists.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "google",
     "structured",

@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail to enable email management tasks like sending, reading, searching, and labeling through natural language commands.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "gmail",
     "enable",

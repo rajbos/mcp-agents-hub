@@ -6,7 +6,7 @@
   "description": "Manage tasks and projects in Phabricator software.",
   "codiconIcon": "wikimedia",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "wikimedia-phabricator",
     "manage",

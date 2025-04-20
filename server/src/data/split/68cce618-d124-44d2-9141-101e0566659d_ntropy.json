@@ -6,7 +6,7 @@
   "description": "Integrates with the Ntropy API to enrich banking data, enabling detailed financial transaction analysis and categorization.",
   "codiconIcon": "ntropy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "banking",
     "data",

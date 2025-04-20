@@ -6,7 +6,7 @@
   "description": "Integrates with Jenkins CI/CD pipelines to enable automated job management, build monitoring, and artifact handling for streamlined software delivery workflows.",
   "codiconIcon": "jenkins",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "artifact",
     "management",

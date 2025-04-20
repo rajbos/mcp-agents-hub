@@ -6,7 +6,7 @@
   "description": "Integrates with Syften's API to enable real-time social listening, content categorization, and trend analysis for enhanced social media strategies.",
   "codiconIcon": "social",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "categorization",
     "strategies",

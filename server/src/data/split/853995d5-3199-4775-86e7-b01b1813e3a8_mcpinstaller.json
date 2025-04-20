@@ -6,7 +6,7 @@
   "description": "Install and configure additional MCP servers dynamically.",
   "codiconIcon": "mcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "configure",
     "additional",

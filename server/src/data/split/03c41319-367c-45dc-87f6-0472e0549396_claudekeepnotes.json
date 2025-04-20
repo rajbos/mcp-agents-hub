@@ -6,7 +6,7 @@
   "description": "Integrates a personal knowledge management system for storing, retrieving, and organizing conversation notes locally.",
   "codiconIcon": "claudekeep",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "claudekeep-(notes)",
     "integrates",

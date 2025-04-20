@@ -6,7 +6,7 @@
   "description": "Navigate websites, fill forms, and capture screenshots programmatically.",
   "codiconIcon": "puppeteer",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "programmatically",
     "puppeteer",

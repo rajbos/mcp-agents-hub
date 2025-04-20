@@ -6,7 +6,7 @@
   "description": "Integrates with Vercel's platform to enable management of Vercel projects.",
   "codiconIcon": "vercel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "management",
     "projects",

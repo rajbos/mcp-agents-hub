@@ -6,7 +6,7 @@
   "description": "Integrates with TaskWarrior to enable viewing, adding, and completing tasks, facilitating automated task management for productivity and project workflows.",
   "codiconIcon": "taskwarrior",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "viewing",

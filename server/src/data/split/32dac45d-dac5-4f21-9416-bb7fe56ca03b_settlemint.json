@@ -6,7 +6,7 @@
   "description": "Leverage SettleMint's Model Context Protocol server to seamlessly interact with enterprise blockchain infrastructure. Build, deploy, and manage smart contracts through AI-powered assistants, streamlining your blockchain development workflow for maximum efficiency.",
   "codiconIcon": "settlemint",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/xe5bsqudct.jpg",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "settlemint",
     "leverage",

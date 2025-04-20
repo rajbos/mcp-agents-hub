@@ -6,7 +6,7 @@
   "description": "Bridges Cline and Notion knowledge bases via Dify API, enabling direct querying of Notion databases for seamless documentation access during coding.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "notion-(via-dify)",
     "cline",

@@ -6,7 +6,7 @@
   "description": "Orchestrates distributed task management by coordinating workflows, enforcing dependencies, and tracking execution across instances for complex data processing and computing jobs.",
   "codiconIcon": "orchestrator",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "computing",
     "orchestrates",

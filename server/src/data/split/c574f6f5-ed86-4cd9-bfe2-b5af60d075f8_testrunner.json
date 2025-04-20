@@ -6,7 +6,7 @@
   "description": "Unifies test execution and result processing across multiple frameworks for streamlined cross-language testing and analysis.",
   "codiconIcon": "test",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "execution",
     "processing",

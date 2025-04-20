@@ -6,7 +6,7 @@
   "description": "Integrates with the Jira API to enable querying, creating, and modifying issues and projects, simplifying project tracking and management tasks.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "jira",
     "integrates",

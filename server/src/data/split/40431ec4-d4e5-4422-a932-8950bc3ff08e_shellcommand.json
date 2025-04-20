@@ -6,7 +6,7 @@
   "description": "Execute whitelisted shell commands on the host system via asyncio.",
   "codiconIcon": "shell",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "shell-command",
     "execute",

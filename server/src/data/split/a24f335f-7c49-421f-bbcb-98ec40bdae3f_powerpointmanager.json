@@ -6,7 +6,7 @@
   "description": "Enables creation and manipulation of PowerPoint presentations with customizable layouts, themes, and formatting options, saving files to an accessible user directory without requiring manual PowerPoint interaction.",
   "codiconIcon": "powerpoint",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "manipulation",
     "themes",

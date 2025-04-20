@@ -6,7 +6,7 @@
   "description": "Provides functionality to read and extract content from protected and unprotected PDF files, enabling document analysis, content indexing, and data extraction workflows.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "functionality",
     "extract",

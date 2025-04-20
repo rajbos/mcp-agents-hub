@@ -6,7 +6,7 @@
   "description": "Analyzes Unreal Engine asset files and generic binary structures, enabling metadata extraction and file format inspection for game development and digital forensics.",
   "codiconIcon": "unreal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "unreal-engine-binary-reader",
     "unreal",

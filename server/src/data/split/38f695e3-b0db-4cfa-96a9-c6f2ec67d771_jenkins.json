@@ -6,7 +6,7 @@
   "description": "Integrates with Jenkins CI/CD operations, enabling job listing, build triggering, and status checking for streamlined DevOps automation and pipeline management.",
   "codiconIcon": "jenkins",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "status",
     "streamlined",

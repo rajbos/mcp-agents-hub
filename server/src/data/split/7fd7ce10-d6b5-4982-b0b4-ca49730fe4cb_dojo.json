@@ -6,7 +6,7 @@
   "description": "Integrates with the Dojo framework to provide customizable tools and prompts for real-time, interactive development environments using Server-Sent Events.",
   "codiconIcon": "dojo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "events",
     "dojo",

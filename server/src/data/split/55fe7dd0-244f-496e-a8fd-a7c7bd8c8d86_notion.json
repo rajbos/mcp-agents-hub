@@ -6,7 +6,7 @@
   "description": "Integrates with Notion's API to enable document management, knowledge base interactions, and project tracking tasks.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "document",
     "management",

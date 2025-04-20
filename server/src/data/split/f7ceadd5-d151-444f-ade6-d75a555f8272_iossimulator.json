@@ -6,7 +6,7 @@
   "description": "Control iOS simulators for automated testing and app deployment.",
   "codiconIcon": "ios",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "simulators",
     "automated",

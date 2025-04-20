@@ -6,7 +6,7 @@
   "description": "Integrates with macOS Shortcuts to dynamically expose and execute user-defined automation workflows through generated tools.",
   "codiconIcon": "siri",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "automation",
     "workflows",

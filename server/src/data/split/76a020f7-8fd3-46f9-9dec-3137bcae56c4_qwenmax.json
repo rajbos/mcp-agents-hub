@@ -6,7 +6,7 @@
   "description": "Integrates with Qwen Max large language model via Dashscope API for text generation and analysis tasks in applications.",
   "codiconIcon": "qwen",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "language",

@@ -6,7 +6,7 @@
   "description": "Integrates with Linkup Technologies' API to enable web searches for information gathering, fact-checking, and research tasks.",
   "codiconIcon": "linkup",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "linkup-search",
     "linkup",

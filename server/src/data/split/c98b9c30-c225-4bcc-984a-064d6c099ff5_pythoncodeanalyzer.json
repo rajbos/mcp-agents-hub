@@ -6,7 +6,7 @@
   "description": "Analyzes Python code structure, complexity, and dependencies using parsing tools to provide insights for automated quality checks and code reviews.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "analyzes",
     "structure",

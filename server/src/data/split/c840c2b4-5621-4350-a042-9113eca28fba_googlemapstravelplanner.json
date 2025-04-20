@@ -6,7 +6,7 @@
   "description": "Integrates with Google Maps to enable AI-driven travel planning, itinerary optimization, and location-based services for automated trip management.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "location-services",
   "tags": [
     "ai-driven",
     "travel",

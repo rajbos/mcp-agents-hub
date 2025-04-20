@@ -6,7 +6,7 @@
   "description": "Enables AI assistants to interact with Notion workspaces, providing comprehensive tools for managing pages, databases, blocks, comments, and users through the Notion API.",
   "codiconIcon": "note",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/notion.png",
-  "category": "note-taking",
+  "category": "integrations",
   "tags": [
     "notion",
     "workspace-management",

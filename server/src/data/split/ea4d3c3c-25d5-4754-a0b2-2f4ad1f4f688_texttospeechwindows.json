@@ -6,7 +6,7 @@
   "description": "Integrates with Windows speech services to enable text-to-speech and speech-to-text capabilities using native system features and PowerShell commands.",
   "codiconIcon": "text",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "speech",
     "capabilities",

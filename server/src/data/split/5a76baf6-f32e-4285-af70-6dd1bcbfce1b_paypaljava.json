@@ -6,7 +6,7 @@
   "description": "Integrates with PayPal's Java API to provide payment processing analysis tools, including authorization rate analysis and a basic calculator, supporting both REST and JSON-RPC interfaces for versatile deployment.",
   "codiconIcon": "paypal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "calculator",
     "paypal-java",

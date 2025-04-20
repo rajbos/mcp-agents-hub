@@ -6,7 +6,7 @@
   "description": "Securely query and analyze Google BigQuery datasets via natural language.",
   "codiconIcon": "bigquery",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "databases",
   "tags": [
     "language",
     "bigquery",

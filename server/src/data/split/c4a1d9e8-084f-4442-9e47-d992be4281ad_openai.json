@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's API to enable direct querying of various language models, supporting efficient text generation and question answering tasks.",
   "codiconIcon": "openai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "supporting",
     "efficient",

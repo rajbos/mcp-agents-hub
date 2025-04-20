@@ -6,7 +6,7 @@
   "description": "Integrates with the Scrapezy API to extract structured data from websites based on user-specified prompts, enabling flexible web scraping for data collection, content aggregation, and automated research tasks.",
   "codiconIcon": "scrapezy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "structured",
     "enabling",

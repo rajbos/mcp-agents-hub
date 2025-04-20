@@ -6,7 +6,7 @@
   "description": "Integrates with Garmin Connect to expose fitness and health data, enabling access to activities, detailed workout information, and health metrics like heart rate through natural language interactions.",
   "codiconIcon": "garmin",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "interactions",
     "connect",

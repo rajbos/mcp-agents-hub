@@ -6,7 +6,7 @@
   "description": "Integrates with Tavily's semantic search API to enable web searches and retrieval of relevant results for fact-checking and research tasks.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "searches",
     "relevant",

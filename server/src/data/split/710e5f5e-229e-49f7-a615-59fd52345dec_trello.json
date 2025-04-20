@@ -6,7 +6,7 @@
   "description": "Integrates with Trello API to enable natural language interactions for managing boards, lists, and cards for project tracking and workflow optimization.",
   "codiconIcon": "trello",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "trello",
     "enable",

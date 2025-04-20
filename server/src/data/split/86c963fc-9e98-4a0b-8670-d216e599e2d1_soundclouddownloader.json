@@ -6,7 +6,7 @@
   "description": "Enables downloading tracks, playlists, and user content from SoundCloud with granular control over output location, download modes, track limits, and metadata handling",
   "codiconIcon": "soundcloud",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "enables",
     "granular",

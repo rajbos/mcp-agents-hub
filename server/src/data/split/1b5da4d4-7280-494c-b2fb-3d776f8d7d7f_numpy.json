@@ -6,7 +6,7 @@
   "description": "Provides NumPy-based mathematical operations and statistical analysis tools for advanced numerical computations, data analysis, and linear algebra operations in Python environments.",
   "codiconIcon": "numpy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provides",
     "numpy-based",

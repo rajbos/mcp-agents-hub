@@ -6,7 +6,7 @@
   "description": "Integrates Atlassian Confluence content for retrieving page and blog post data, enabling knowledge base querying and content analysis.",
   "codiconIcon": "confluence",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "enabling",
     "knowledge",

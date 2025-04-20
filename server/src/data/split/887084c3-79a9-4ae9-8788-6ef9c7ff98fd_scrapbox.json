@@ -6,7 +6,7 @@
   "description": "Integrates with Scrapbox to enable reading and writing pages for knowledge management, collaborative note-taking, and chatbot applications.",
   "codiconIcon": "scrapbox",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "enable",
     "writing",

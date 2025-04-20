@@ -6,7 +6,7 @@
   "description": "Enables secure terminal command execution, directory navigation, and file system operations across Windows and UNIX-based systems, with built-in security measures to prevent dangerous operations.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "prevent",
     "enables",

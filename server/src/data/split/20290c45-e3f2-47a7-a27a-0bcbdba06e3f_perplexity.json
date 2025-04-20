@@ -6,7 +6,7 @@
   "description": "Connector for the Perplexity API, to enable web search without leaving the MCP ecosystem.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "connector",
     "enable",

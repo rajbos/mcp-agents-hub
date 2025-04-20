@@ -6,7 +6,7 @@
   "description": "Integrates with Google Workspace to enable file management in Drive and data manipulation in Sheets, facilitating document-centric tasks and data analysis within the Google ecosystem.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "integrates",
     "google",

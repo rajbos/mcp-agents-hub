@@ -6,7 +6,7 @@
   "description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
   "codiconIcon": "searxng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "results",

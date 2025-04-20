@@ -6,7 +6,7 @@
   "description": "Integrates with WordPress REST API to enable secure content management, user administration, and site configuration tasks.",
   "codiconIcon": "wordpress",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "content",

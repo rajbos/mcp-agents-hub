@@ -6,7 +6,7 @@
   "description": "Integrates with Spring AI to provide time-related services, enabling precise time management and scheduling functionalities in Java applications.",
   "codiconIcon": "time",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "time",
     "integrates",

@@ -6,7 +6,7 @@
   "description": "Integrates with Amazon Advertising API to provide marketers direct access to advertiser accounts, listings, and performance data through a simple command-line interface requiring only an API key for authentication.",
   "codiconIcon": "amazon",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "amazon",
     "access",

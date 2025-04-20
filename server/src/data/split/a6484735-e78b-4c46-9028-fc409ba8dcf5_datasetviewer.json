@@ -6,7 +6,7 @@
   "description": "Integrates with the Hugging Face Dataset Viewer API to enable exploration, analysis, and content retrieval of datasets hosted on the Hugging Face Hub.",
   "codiconIcon": "dataset",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "dataset",
     "analysis",

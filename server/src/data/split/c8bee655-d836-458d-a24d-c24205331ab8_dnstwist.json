@@ -6,7 +6,7 @@
   "description": "Integrates with dnstwist to automate DNS fuzzing for detecting typosquatting, phishing, and corporate espionage threats.",
   "codiconIcon": "dnstwist",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "integrates",
     "fuzzing",

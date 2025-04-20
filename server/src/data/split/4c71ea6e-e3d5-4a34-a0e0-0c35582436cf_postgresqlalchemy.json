@@ -6,7 +6,7 @@
   "description": "Connects AI models to PostgreSQL databases using Python and SQLAlchemy, enabling flexible querying and data manipulation across SQL dialects.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "postgresql",
     "databases",

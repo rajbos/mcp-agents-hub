@@ -6,7 +6,7 @@
   "description": "Integrates with Trade Companion by Adam Mancini on Substack, enabling authenticated article retrieval and content extraction for seamless access within workflows.",
   "codiconIcon": "trade",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "mancini",
     "article",

@@ -6,7 +6,7 @@
   "description": "Integrates JinaAI's search capabilities for web content discovery, information retrieval, and data extraction",
   "codiconIcon": "jinaai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "capabilities",
     "content",

@@ -6,7 +6,7 @@
   "description": "Provides semantic search capabilities for local files and directories using vector embeddings and efficient storage techniques.",
   "codiconIcon": "simple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "embeddings",
     "techniques",

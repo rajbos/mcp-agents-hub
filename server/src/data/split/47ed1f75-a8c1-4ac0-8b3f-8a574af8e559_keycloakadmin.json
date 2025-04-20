@@ -6,7 +6,7 @@
   "description": "Integrates with Keycloak Admin to provide streamlined user and realm management operations for identity and access control automation.",
   "codiconIcon": "keycloak",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "identity",
     "access",

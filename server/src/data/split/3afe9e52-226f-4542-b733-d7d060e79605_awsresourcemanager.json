@@ -6,7 +6,7 @@
   "description": "Manage AWS S3 and DynamoDB resources.",
   "codiconIcon": "aws",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "cloud-platforms",
   "tags": [
     "aws-resource-manager",
     "manage",

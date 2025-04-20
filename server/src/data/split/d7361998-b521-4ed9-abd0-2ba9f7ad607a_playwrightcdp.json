@@ -6,7 +6,7 @@
   "description": "Integrates Playwright and Chrome DevTools Protocol to enable advanced web automation, testing, and analysis through browser control and interaction.",
   "codiconIcon": "playwright",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "devtools",
     "through",

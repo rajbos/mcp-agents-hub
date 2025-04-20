@@ -6,7 +6,7 @@
   "description": "Integrates with Google Calendar API to enable creating, updating, and retrieving calendar events for seamless scheduling and event management.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "retrieving",
     "scheduling",

@@ -6,7 +6,7 @@
   "description": "Integrates with academic APIs to enable searching, retrieving, and filtering scholarly papers across multiple sources for research and analysis tasks.",
   "codiconIcon": "academic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "tasks",
     "searching",

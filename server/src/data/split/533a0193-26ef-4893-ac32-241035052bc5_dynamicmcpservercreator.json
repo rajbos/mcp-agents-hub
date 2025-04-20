@@ -6,7 +6,7 @@
   "description": "Creates and manages dynamic MCP servers on-demand, enabling flexible tool execution and server lifecycle control through a TypeScript-based controller that runs in Docker for optimal isolation and security.",
   "codiconIcon": "dynamic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "isolation",
     "manages",

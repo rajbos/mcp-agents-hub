@@ -6,7 +6,7 @@
   "description": "Integrates Linear's issue tracking system, enabling querying and searching of issues for automated analysis, prioritization, and reporting.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "linear",
     "integrates",

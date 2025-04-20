@@ -6,7 +6,7 @@
   "description": "Integrates with Elasticsearch to provide semantic search functionality for blog posts, returning formatted results including titles, URLs, and relevant text snippets.",
   "codiconIcon": "elastic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "formatted",

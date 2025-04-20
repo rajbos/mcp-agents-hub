@@ -6,7 +6,7 @@
   "description": "Provides summarized output from various actions, optimizing token usage for efficient processing of large datasets and language models.",
   "codiconIcon": "summarization",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "datasets",
     "summarization",

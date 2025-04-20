@@ -6,7 +6,7 @@
   "description": "Bridges Apache Solr search indexes with vector embeddings for hybrid keyword and semantic document retrieval, enabling contextual searches against structured data repositories without direct database access",
   "codiconIcon": "solr",
   "logoUrl": "",
-  "category": "database",
+  "category": "search",
   "tags": [
     "bridges",
     "apache",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Kokoro TTS engine to provide customizable text-to-speech capabilities, supporting cross-platform audio playback and file output for applications requiring high-quality speech synthesis.",
   "codiconIcon": "kokoro",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "supporting",
     "applications",

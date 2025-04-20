@@ -6,7 +6,7 @@
   "description": "Integrates with Obsidian to enable natural language-based note creation, editing, and management within vaults.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "enable",

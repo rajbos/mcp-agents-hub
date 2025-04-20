@@ -6,7 +6,7 @@
   "description": "Fetch auctions from ebay.com.",
   "codiconIcon": "ebay",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "auctions",
     "ebay.com",

@@ -6,7 +6,7 @@
   "description": "Integrates Axiom's context-aware AI capabilities with Zed workflows through a customizable command interface for enhanced flexibility and seamless deployment.",
   "codiconIcon": "axiom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "through",
     "customizable",

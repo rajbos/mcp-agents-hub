@@ -6,7 +6,7 @@
   "description": "Integrates with the Open-Meteo API to provide real-time weather data for specified cities, including temperature, wind speed, and conditions, using asynchronous HTTP requests and Docker containerization for easy deployment.",
   "codiconIcon": "open-meteo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "open-meteo-weather",
     "open-meteo",

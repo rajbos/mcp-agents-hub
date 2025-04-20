@@ -6,7 +6,7 @@
   "description": "Provides a unified gateway for LLMs to access GitHub, GitLab, Google Maps, Memory storage, and Puppeteer web automation tools through a Flask-based server deployable on Red Hat environments.",
   "codiconIcon": "multi-service",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "integrations",
   "tags": [
     "multi-service-gateway",
     "gateway",

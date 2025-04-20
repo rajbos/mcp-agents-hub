@@ -6,7 +6,7 @@
   "description": "Integrates with Replicate's API to generate images using Stable Diffusion XL, providing endpoints for creating and checking image generation predictions with authentication and CORS support.",
   "codiconIcon": "image",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "image",
     "images",

@@ -6,7 +6,7 @@
   "description": "Provides secure command execution in WSL with built-in safety features like path validation, timeouts, and error handling.",
   "codiconIcon": "wsl",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "command",
     "validation",

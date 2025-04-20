@@ -6,7 +6,7 @@
   "description": "Integrates with Azure services to enable cloud resource management, including provisioning virtual machines, configuring networks, and monitoring subscriptions.",
   "codiconIcon": "azure",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "virtual",
     "configuring",

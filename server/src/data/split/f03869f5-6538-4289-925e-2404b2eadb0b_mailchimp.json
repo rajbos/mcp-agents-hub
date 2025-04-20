@@ -6,7 +6,7 @@
   "description": "Integrates with Mailchimp's marketing platform API to enable email campaign management, creation, sending, and automation workflow control through the FastMCP framework.",
   "codiconIcon": "mailchimp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "enable",
     "fastmcp",

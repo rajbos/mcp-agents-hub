@@ -6,7 +6,7 @@
   "description": "Enables AI-assisted Node.js and TypeScript development optimized for popular frameworks, offering code generation, debugging, and project management capabilities.",
   "codiconIcon": "node",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "node-omnibus",
     "enables",

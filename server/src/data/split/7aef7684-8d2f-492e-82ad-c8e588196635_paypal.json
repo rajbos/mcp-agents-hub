@@ -6,7 +6,7 @@
   "description": "Integrates with PayPal's APIs to enable payment processing, order management, and financial operations for e-commerce and billing workflows.",
   "codiconIcon": "paypal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "operations",

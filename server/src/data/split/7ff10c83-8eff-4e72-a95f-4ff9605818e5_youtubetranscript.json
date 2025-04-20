@@ -6,7 +6,7 @@
   "description": "Fetch and analyze YouTube video transcripts.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "youtube-transcript",
     "fetch",

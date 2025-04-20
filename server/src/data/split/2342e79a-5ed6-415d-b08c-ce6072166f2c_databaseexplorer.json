@@ -6,7 +6,7 @@
   "description": "Provides a unified interface for exploring and managing PostgreSQL, MySQL, and Firestore databases through specialized commands for listing tables, viewing triggers, executing SQL queries, and exporting schemas or data.",
   "codiconIcon": "database",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "listing",
     "data",

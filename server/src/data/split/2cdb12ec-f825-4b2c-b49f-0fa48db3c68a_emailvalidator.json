@@ -6,7 +6,7 @@
   "description": "Integrates with external email verification services to perform real-time email address validation, improving data quality and reducing bounced emails.",
   "codiconIcon": "email",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "integrates",
     "external",

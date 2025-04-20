@@ -6,7 +6,7 @@
   "description": "Integrates with the SerpApi Google Search API to enable access to structured search results data for SEO tools, market research, or data aggregation services.",
   "codiconIcon": "serpapi",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "serpapi-google-search",
     "enable",

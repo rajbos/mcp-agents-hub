@@ -6,7 +6,7 @@
   "description": "Document format conversion using Pandoc, enabling transformation of content between PDF, HTML, Markdown, .docx, .rst, .epuc, .latex, and more.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "html",

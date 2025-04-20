@@ -6,7 +6,7 @@
   "description": "Integrates with Jira's API to enable issue tracking, project management, and workflow automation tasks.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "project",
     "management",

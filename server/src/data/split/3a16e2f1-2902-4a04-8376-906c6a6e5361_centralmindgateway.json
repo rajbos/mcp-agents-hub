@@ -6,7 +6,7 @@
   "description": "A simple way to expose your database to AI-Agent via MCP or OpenAPI 3.1 protocols. It automatically generates secure, LLM-optimized APIs for your structured data.",
   "codiconIcon": "",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "simple",
     "expose",

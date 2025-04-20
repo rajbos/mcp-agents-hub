@@ -6,7 +6,7 @@
   "description": "Access Go package documentation and project structures.",
   "codiconIcon": "go",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "go-documentation",
     "access",

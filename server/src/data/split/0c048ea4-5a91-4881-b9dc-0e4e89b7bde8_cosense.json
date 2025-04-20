@@ -6,7 +6,7 @@
   "description": "Integrates Cosense to enable access and interaction with project data for enhanced project management and collaboration workflows.",
   "codiconIcon": "cosense",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "project",
     "management",

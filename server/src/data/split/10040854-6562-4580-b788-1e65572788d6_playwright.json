@@ -6,7 +6,7 @@
   "description": "Integrates Playwright browser automation with AI models to enable intelligent web interactions, testing, and data extraction.",
   "codiconIcon": "playwright",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "enable",
     "intelligent",

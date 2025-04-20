@@ -6,7 +6,7 @@
   "description": "Integrates with GitHub's API to enable Kanban-style project management and issue tracking for streamlined software development workflows.",
   "codiconIcon": "github",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "management",
     "issue",

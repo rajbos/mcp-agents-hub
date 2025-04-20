@@ -6,7 +6,7 @@
   "description": "Integrates with the Strava API to retrieve and analyze athlete activities data, enabling fitness tracking and performance monitoring over time.",
   "codiconIcon": "strava",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "analyze",
     "athlete",

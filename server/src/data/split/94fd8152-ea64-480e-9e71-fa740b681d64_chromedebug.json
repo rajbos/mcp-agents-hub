@@ -6,7 +6,7 @@
   "description": "Provides powerful browser control capabilities through Chrome DevTools Protocol and Puppeteer, enabling advanced web automation, scraping, and testing tasks.",
   "codiconIcon": "chrome",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "advanced",
     "testing",

@@ -6,7 +6,7 @@
   "description": "Converts Markdown to styled PDFs, enabling creation of visually appealing documents with code highlighting and typography.",
   "codiconIcon": "markdown",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "markdown-to-pdf-converter",
     "converts",

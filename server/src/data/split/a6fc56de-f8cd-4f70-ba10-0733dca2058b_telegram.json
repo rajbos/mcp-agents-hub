@@ -6,7 +6,7 @@
   "description": "Integrates with Telegram via MTProto protocol to enable listing dialogs and messages for automated analysis and chatbot functionality.",
   "codiconIcon": "telegram",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "listing",
     "automated",

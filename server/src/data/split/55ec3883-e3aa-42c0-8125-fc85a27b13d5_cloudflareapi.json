@@ -6,7 +6,7 @@
   "description": "Integrates with Cloudflare's API to enable management of DNS, SSL/TLS, firewall rules, load balancing, and other cloud infrastructure services across multiple domains.",
   "codiconIcon": "cloudflare",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "other",
     "cloudflare's",

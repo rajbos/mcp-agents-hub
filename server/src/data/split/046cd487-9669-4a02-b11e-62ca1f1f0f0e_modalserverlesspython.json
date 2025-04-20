@@ -6,7 +6,7 @@
   "description": "Integrates with Modal's serverless platform to deploy and execute Python scripts in the cloud, enabling efficient distributed computing and data processing.",
   "codiconIcon": "modal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "integrates",
     "modal's",

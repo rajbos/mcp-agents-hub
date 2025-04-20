@@ -6,7 +6,7 @@
   "description": "Integrates with Figma's API to enable direct access to design files and prototypes for generating code and answering UI implementation queries.",
   "codiconIcon": "figma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "enable",

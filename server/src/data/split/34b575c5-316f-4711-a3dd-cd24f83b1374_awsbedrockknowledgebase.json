@@ -6,7 +6,7 @@
   "description": "Query and retrieve information from AWS knowledge bases using the Bedrock Agent Runtime.",
   "codiconIcon": "aws",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "knowledge-memory",
   "tags": [
     "aws-bedrock:-knowledge-base",
     "knowledge",

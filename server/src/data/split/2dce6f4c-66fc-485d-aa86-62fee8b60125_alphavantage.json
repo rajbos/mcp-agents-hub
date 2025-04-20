@@ -6,7 +6,7 @@
   "description": "Integrates with Alpha Vantage API to provide real-time and historical stock market data, enabling portfolio analysis, trading strategy development, and financial reporting applications.",
   "codiconIcon": "alpha",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "strategy",
     "reporting",

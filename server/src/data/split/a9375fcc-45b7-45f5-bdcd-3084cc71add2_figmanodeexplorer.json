@@ -6,7 +6,7 @@
   "description": "Integrates with the Figma API to extract and analyze design file structures, enabling exploration of node hierarchies and supporting design system management workflows.",
   "codiconIcon": "figma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "figma-node-explorer",
     "figma",

@@ -6,7 +6,7 @@
   "description": "Integrates Julia documentation and source code retrieval for quick reference and exploration within AI workflows.",
   "codiconIcon": "julia",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "documentation",
     "source",

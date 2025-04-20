@@ -6,7 +6,7 @@
   "description": "Integrates with multiple package registries and documentation sources to provide up-to-date library information for code assistance, dependency analysis, and learning about new libraries.",
   "codiconIcon": "package",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "documentation",
     "library",

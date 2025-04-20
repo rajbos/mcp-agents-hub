@@ -6,7 +6,7 @@
   "description": "Enables capturing and analyzing live webcam images and screenshots for real-time visual context in AI applications.",
   "codiconIcon": "webcam/screenshot",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "capturing",
     "analyzing",

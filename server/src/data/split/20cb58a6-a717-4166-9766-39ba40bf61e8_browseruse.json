@@ -6,7 +6,7 @@
   "description": "Enables web browsing capabilities for any MCP client through a simple command that leverages your existing LLM configuration without additional API costs.",
   "codiconIcon": "browser",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "costs",
     "browser-use",

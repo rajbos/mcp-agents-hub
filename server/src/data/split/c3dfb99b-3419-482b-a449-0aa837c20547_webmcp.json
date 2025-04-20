@@ -6,7 +6,7 @@
   "description": "Turn any website into an MCP server with customizable tools.",
   "codiconIcon": "webmcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "server",
     "customizable",

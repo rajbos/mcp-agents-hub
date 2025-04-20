@@ -6,7 +6,7 @@
   "description": "Integrates file system, code analysis, Git, and execution capabilities to enable AI-driven development workflows across multiple programming languages.",
   "codiconIcon": "aidd",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "aidd-(dev-workflows)",
     "integrates",

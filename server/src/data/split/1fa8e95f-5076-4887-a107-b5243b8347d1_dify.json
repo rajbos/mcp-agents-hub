@@ -6,7 +6,7 @@
   "description": "Integrates Dify workflows to enable capabilities into tools for chatbots, content generation, and data analysis pipelines.",
   "codiconIcon": "dify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "generation",
     "analysis",

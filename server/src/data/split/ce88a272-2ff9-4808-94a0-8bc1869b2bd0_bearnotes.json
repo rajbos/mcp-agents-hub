@@ -6,7 +6,7 @@
   "description": "Integrates with Bear notes on macOS, providing direct database access for efficient retrieval and analysis of personal note content.",
   "codiconIcon": "bear",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "notes",
     "macos",

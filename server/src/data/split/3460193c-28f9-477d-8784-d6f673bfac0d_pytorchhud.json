@@ -6,7 +6,7 @@
   "description": "Provides a PyTorch CI/CD analytics API for investigating build failures, analyzing test flakiness, and monitoring performance trends across the PyTorch infrastructure.",
   "codiconIcon": "pytorch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "provides",
     "build",

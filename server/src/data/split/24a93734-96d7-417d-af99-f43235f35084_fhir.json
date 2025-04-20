@@ -6,7 +6,7 @@
   "description": "Integrates FHIR data into workflows, enabling seamless access and search of healthcare resources for dynamic querying and analysis.",
   "codiconIcon": "fhir",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "healthcare",
     "resources",

@@ -6,7 +6,7 @@
   "description": "Integrates with Sketchup to enable AI-assisted 3D modeling through bidirectional communication, allowing creation, modification, and transformation of components directly within the modeling environment.",
   "codiconIcon": "sketchup",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "within",
     "enable",

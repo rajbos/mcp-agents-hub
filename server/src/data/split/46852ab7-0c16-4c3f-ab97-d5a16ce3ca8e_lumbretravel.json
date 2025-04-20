@@ -6,7 +6,7 @@
   "description": "Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.",
   "codiconIcon": "lumbretravel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "argentinian",

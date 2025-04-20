@@ -6,7 +6,7 @@
   "description": "Integrates with SearXNG instances to provide unified search capabilities across multiple engines for tasks like information gathering and fact-checking.",
   "codiconIcon": "searxng",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "instances",
     "provide",

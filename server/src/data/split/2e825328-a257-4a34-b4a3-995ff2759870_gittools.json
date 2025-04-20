@@ -6,7 +6,7 @@
   "description": "Integrates with Git to enable version control operations, repository management, and change tracking for collaborative development environments.",
   "codiconIcon": "git",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "git-tools",
     "integrates",

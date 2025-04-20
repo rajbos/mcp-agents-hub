@@ -6,7 +6,7 @@
   "description": "Integrates with Luma AI's API to enable AI-driven video generation based on textual descriptions or parameters.",
   "codiconIcon": "luma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "enable",

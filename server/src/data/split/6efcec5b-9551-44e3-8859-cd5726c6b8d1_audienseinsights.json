@@ -6,7 +6,7 @@
   "description": "Integrates with Audiense's audience insights platform, enabling retrieval of audience data and analytics for targeted marketing and social media strategy development.",
   "codiconIcon": "audiense",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "targeted",
     "social",

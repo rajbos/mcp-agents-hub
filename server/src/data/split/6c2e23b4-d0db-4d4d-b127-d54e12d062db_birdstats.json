@@ -6,7 +6,7 @@
   "description": "Integrates BirdNET-Pi and eBird APIs to enable cross-referencing bird detection data with observation records for ecological research and bird watching insights.",
   "codiconIcon": "birdstats",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "integrates",
     "enable",

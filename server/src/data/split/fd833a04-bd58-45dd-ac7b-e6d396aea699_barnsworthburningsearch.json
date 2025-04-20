@@ -6,7 +6,7 @@
   "description": "Integrates with barnsworthburning.net's API to enable direct querying of website content for design, typography, and user experience information",
   "codiconIcon": "barnsworthburning",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "barnsworthburning.net's",
     "enable",

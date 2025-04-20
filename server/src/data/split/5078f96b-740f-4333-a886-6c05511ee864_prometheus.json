@@ -6,7 +6,7 @@
   "description": "Bridges Prometheus metrics data to enable easy retrieval and analysis of monitoring information for automated system health checks, performance tracking, and anomaly detection.",
   "codiconIcon": "prometheus",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "bridges",
     "metrics",

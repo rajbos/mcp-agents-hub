@@ -6,7 +6,7 @@
   "description": "Enables bi-directional integration with Model Context Protocol, allowing applications to both consume MCP tools/prompts as a client and expose Genkit tools/prompts as an MCP server.",
   "codiconIcon": "extensions",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/genkit-integration.png",
-  "category": "developer-tools",
+  "category": "integrations",
   "tags": [
     "mcp-integration",
     "client-server",

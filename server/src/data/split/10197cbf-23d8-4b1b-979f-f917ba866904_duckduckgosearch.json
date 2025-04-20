@@ -6,7 +6,7 @@
   "description": "Integrates with DuckDuckGo's search engine to enable web searches for up-to-date information retrieval and fact-checking.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "retrieval",
     "fact-checking",

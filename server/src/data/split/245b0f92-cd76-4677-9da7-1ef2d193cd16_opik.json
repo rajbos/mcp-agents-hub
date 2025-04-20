@@ -6,7 +6,7 @@
   "description": "Interact and analyze your Opik enviroment including traces, telemetry and metrics with natural language.",
   "codiconIcon": "opik",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "opik",
     "interact",

@@ -6,7 +6,7 @@
   "description": "Integrates voice interaction capabilities using faster-whisper and PyAudio for speech recognition and synthesis, enabling natural language voice interfaces for AI models.",
   "codiconIcon": "speech",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "speech",
     "using",

@@ -6,7 +6,7 @@
   "description": "Processes images and PDFs through Mistral AI's OCR API to extract text from visual documents, supporting both local files and URLs with Docker containerization for easy deployment.",
   "codiconIcon": "mistral",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "supporting",
     "files",

@@ -6,7 +6,7 @@
   "description": "Enables reading and searching of Markdown notes directories (like Obsidian vaults), allowing AI assistants to access and query local knowledge bases.",
   "codiconIcon": "notebook",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/obsidian.png",
-  "category": "note-taking",
+  "category": "knowledge-memory",
   "tags": [
     "markdown",
     "knowledge-base",

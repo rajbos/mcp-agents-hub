@@ -6,7 +6,7 @@
   "description": "Integrates with the National Weather Service API to provide current weather data and alerts for US locations without requiring authentication.",
   "codiconIcon": "national",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "locations",
     "authentication",

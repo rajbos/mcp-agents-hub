@@ -6,7 +6,7 @@
   "description": "Integrates with Kintone's low-code platform API, enabling data retrieval, record creation, and workflow automation in Kintone applications.",
   "codiconIcon": "kintone",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "applications",
     "kintone",

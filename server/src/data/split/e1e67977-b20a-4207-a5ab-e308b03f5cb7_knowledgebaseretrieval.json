@@ -6,7 +6,7 @@
   "description": "Integrates with knowledge bases to enable efficient content retrieval and vectorization for question answering and information retrieval tasks",
   "codiconIcon": "knowledge",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "information",
     "knowledge-base-retrieval",

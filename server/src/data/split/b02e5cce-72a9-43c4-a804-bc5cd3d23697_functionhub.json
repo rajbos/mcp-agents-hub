@@ -6,7 +6,7 @@
   "description": "Integrates with Function Hub API to provide dynamic tool listing and execution capabilities for flexible access to external functions and APIs.",
   "codiconIcon": "function",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "dynamic",
     "listing",

@@ -6,7 +6,7 @@
   "description": "Integrates with web servers to fetch and retrieve webpage content for analysis and processing tasks.",
   "codiconIcon": "simple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "servers",

@@ -6,7 +6,7 @@
   "description": "Integrates with Blastengine to enable sending emails via API, supporting automated notification and marketing campaign functionalities",
   "codiconIcon": "blastengine",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "blastengine",
     "enable",

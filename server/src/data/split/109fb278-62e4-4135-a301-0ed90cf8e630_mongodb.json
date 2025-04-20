@@ -6,7 +6,7 @@
   "description": "Bridges MongoDB databases with AI systems, enabling document retrieval and analysis through standardized queries and operations.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mongodb",
     "document",

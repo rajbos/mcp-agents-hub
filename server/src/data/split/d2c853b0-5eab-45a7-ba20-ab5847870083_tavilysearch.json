@@ -6,7 +6,7 @@
   "description": "Integrates with the Tavily API to provide web search capabilities, enabling internet searches and fact-checking for up-to-date information retrieval.",
   "codiconIcon": "tavily",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "up-to-date",
     "retrieval",

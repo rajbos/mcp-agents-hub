@@ -6,7 +6,7 @@
   "description": "Integrates with ImageMagick's CLI to enable image processing and manipulation tasks like resizing, format conversion, and applying filters or effects.",
   "codiconIcon": "magick",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tasks",
     "resizing",

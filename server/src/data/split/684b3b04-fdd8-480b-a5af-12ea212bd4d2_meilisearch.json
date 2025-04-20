@@ -6,7 +6,7 @@
   "description": "Integrates with Meilisearch to enable powerful search operations with filtering and sorting capabilities for structured data retrieval",
   "codiconIcon": "meilisearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "capabilities",
     "retrieval",

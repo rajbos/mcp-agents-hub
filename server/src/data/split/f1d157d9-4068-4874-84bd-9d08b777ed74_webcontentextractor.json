@@ -6,7 +6,7 @@
   "description": "Extracts and processes web content using TypeScript, Cheerio, and Turndown for tasks like scraping, summarization, and data transformation.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "web-content-extractor",
     "processes",

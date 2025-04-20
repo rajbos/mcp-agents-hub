@@ -6,7 +6,7 @@
   "description": "Integrates with Python's difflib to generate unified diffs for efficient text comparison and version control tasks.",
   "codiconIcon": "text",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "python's",
     "diffs",

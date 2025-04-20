@@ -6,7 +6,7 @@
   "description": "Integrates with TMF620 Product Catalog Management API to enable listing, retrieving, and creating catalogs, product offerings, and specifications for e-commerce or telecom service providers.",
   "codiconIcon": "tmf620",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "retrieving",
     "catalogs",

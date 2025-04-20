@@ -6,7 +6,7 @@
   "description": "Integrates with Trello to enable task management operations like retrieving cards, managing lists, and monitoring board activity for project planning and workflow automation.",
   "codiconIcon": "trello",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "operations",
     "managing",

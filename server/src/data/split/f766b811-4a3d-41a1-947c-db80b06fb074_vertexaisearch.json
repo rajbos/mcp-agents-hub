@@ -6,7 +6,7 @@
   "description": "Integrates with Google's Vertex AI and Discovery Engine APIs to enable advanced search and retrieval operations on large datasets, supporting semantic search and natural language understanding.",
   "codiconIcon": "vertex",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "vertex-ai-search",
     "google's",

@@ -6,7 +6,7 @@
   "description": "Integrates with Waldur's cloud management platform API to enable natural language-driven provisioning, monitoring, and billing of multi-provider cloud resources.",
   "codiconIcon": "waldur",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "platform",
     "provisioning",

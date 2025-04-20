@@ -6,7 +6,7 @@
   "description": "Integrates Playwright with MCP to enable automated web interactions, scraping, and testing across browsers.",
   "codiconIcon": "browser",
   "logoUrl": "",
-  "category": "tools",
+  "category": "browser-automation",
   "tags": [
     "browser-automation",
     "interactions",

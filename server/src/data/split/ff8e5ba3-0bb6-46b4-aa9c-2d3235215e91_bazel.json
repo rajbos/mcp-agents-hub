@@ -6,7 +6,7 @@
   "description": "Bridges AI with Bazel build system, enabling target building, dependency querying, test running, and workspace management even in environments with misconfigured shells.",
   "codiconIcon": "bazel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "dependency",
     "shells",

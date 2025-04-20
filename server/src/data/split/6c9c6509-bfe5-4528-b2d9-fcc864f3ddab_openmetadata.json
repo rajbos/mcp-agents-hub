@@ -6,7 +6,7 @@
   "description": "Integrates with OpenMetadata to enable querying and manipulating metadata across data assets for governance, cataloging, and lineage tracking.",
   "codiconIcon": "openmetadata",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "manipulating",
     "across",

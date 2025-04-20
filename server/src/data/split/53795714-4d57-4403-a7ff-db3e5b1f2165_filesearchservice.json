@@ -6,7 +6,7 @@
   "description": "Provides a robust file search service, enabling efficient querying of local directories with detailed results including file metadata and content matching.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "search",
     "querying",

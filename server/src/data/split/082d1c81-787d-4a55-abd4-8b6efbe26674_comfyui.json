@@ -6,7 +6,7 @@
   "description": "Integrates ComfyUI with WebSocket communication for on-demand image generation, enabling customizable requests with parameters like prompt, width, and height.",
   "codiconIcon": "comfyui",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "requests",
     "parameters",

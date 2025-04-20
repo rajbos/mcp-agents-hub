@@ -6,7 +6,7 @@
   "description": "Integrates with Minecraft servers via RCON to enable administration, world manipulation, and player management.",
   "codiconIcon": "minecraft",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "management",
     "enable",

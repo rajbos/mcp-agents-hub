@@ -6,7 +6,7 @@
   "description": "Integrates with RepoMix to enable codebase retrieval and analysis for tasks like code review, dependency tracking, and automated documentation generation.",
   "codiconIcon": "codebase",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tracking",
     "automated",

@@ -6,7 +6,7 @@
   "description": "Analyzes and interacts with Swagger/OpenAPI specifications to enable dynamic API exploration, endpoint filtering, and schema validation for developers working with unfamiliar APIs.",
   "codiconIcon": "swagger",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "validation",
     "developers",

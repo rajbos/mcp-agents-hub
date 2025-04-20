@@ -6,7 +6,7 @@
   "description": "Integrates with Redis and AWS MemoryDB for fast, in-memory data storage and retrieval, enabling caching, session management, and real-time analytics.",
   "codiconIcon": "redis",
   "logoUrl": "",
-  "category": "cloud-services",
+  "category": "databases",
   "tags": [
     "management",
     "analytics",

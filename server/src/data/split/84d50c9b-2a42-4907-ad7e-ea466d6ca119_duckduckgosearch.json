@@ -6,7 +6,7 @@
   "description": "Integrates with DuckDuckGo to enable web search functionality, returning results as structured data for easy incorporation into AI workflows.",
   "codiconIcon": "duckduckgo",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "integrates",
     "duckduckgo",

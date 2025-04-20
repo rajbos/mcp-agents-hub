@@ -6,7 +6,7 @@
   "description": "Integrates with Salesforce to enable natural language interactions for executing queries, managing records, and automating CRM workflows.",
   "codiconIcon": "salesforce",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "queries",
     "records",

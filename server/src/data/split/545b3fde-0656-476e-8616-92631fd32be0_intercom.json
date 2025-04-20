@@ -6,7 +6,7 @@
   "description": "Integrates with Intercom to provide filtered access to conversations and chats, enabling detailed analysis of customer interactions and support trends.",
   "codiconIcon": "intercom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "intercom",
     "conversations",

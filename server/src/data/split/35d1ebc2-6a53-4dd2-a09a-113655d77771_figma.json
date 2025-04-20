@@ -6,7 +6,7 @@
   "description": "Integrates with the Figma API to enable design file operations, comment management, and access to design assets for AI-driven analysis and collaboration.",
   "codiconIcon": "figma",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "operations",
     "comment",

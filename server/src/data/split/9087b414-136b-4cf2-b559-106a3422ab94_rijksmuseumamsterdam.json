@@ -6,7 +6,7 @@
   "description": "Integrates with the Rijksmuseum API to enable artwork search, detailed information retrieval, and high-resolution image access for art research and cultural exploration.",
   "codiconIcon": "rijksmuseum",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "rijksmuseum-amsterdam",
     "access",

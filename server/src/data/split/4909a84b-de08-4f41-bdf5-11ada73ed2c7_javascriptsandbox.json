@@ -6,7 +6,7 @@
   "description": "Provides a secure JavaScript sandbox for executing code with configurable time and memory limits, enabling safe testing and evaluation of algorithms.",
   "codiconIcon": "javascript",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "javascript-sandbox",
     "configurable",

@@ -6,7 +6,7 @@
   "description": "Provides stateful, TUI-compatible terminal sessions for executing commands and running interactive applications, enabling persistent interaction with command-line interfaces and programs.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provides",
     "stateful",

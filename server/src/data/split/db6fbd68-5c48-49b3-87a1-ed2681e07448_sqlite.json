@@ -6,7 +6,7 @@
   "description": "Query and analyze SQLite databases directly.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "query",
     "analyze",

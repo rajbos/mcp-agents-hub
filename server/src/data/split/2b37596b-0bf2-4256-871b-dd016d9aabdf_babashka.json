@@ -6,7 +6,7 @@
   "description": "Integrates with Babashka to enable dynamic Clojure code execution and interaction for scripting, data processing, and system automation tasks.",
   "codiconIcon": "babashka",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "scripting",
     "tasks",

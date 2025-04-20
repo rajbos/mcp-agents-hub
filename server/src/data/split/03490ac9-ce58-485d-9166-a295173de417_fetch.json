@@ -6,7 +6,7 @@
   "description": "Retrieve and convert web content to markdown for analysis.",
   "codiconIcon": "fetch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "fetch",
     "retrieve",

@@ -6,7 +6,7 @@
   "description": "Integrates with Taskwarrior to enable task management through adding, updating, deleting, and listing tasks with project organization and priority level support.",
   "codiconIcon": "taskwarrior",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "management",
     "listing",

@@ -6,7 +6,7 @@
   "description": "Generates unified diffs between text strings with 3 lines of context, enabling precise comparison and analysis for version control and code review tasks.",
   "codiconIcon": "unified",
   "logoUrl": "",
-  "category": "tools",
+  "category": "version-control",
   "tags": [
     "enabling",
     "unified",

@@ -6,7 +6,7 @@
   "description": "Converts Cursor agent plans into markdown task lists for organizing and structuring project plans into readable, actionable formats.",
   "codiconIcon": "tasks",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "actionable",
     "formats",

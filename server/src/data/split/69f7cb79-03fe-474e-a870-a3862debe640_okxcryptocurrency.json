@@ -6,7 +6,7 @@
   "description": "Provides real-time cryptocurrency market data from OKX exchange through API endpoints for historical candlestick patterns and current price information",
   "codiconIcon": "okx",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "patterns",
     "price",

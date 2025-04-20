@@ -6,7 +6,7 @@
   "description": "Centralizes management of multiple AI services, providing secure API key handling and unified access for streamlined interactions across diverse platforms.",
   "codiconIcon": "metamcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "metamcp",
     "multiple",

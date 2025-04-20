@@ -6,7 +6,7 @@
   "description": "Integrates Notion's API, enabling workflows to interact with Notion databases and pages for dynamic content management and retrieval.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "integrations",
   "tags": [
     "pages",
     "content",

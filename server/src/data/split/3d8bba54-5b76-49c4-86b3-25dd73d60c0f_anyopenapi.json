@@ -6,7 +6,7 @@
   "description": "Integrates with any OpenAPI-compliant service using dynamic tool generation and vector-based semantic search for efficient API operation discovery and interaction.",
   "codiconIcon": "any",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "search",
     "efficient",

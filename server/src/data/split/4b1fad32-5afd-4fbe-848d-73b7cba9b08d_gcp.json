@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol (MCP) server that enables AI assistants like Claude to interact with your Google Cloud Platform environment. This allows for natural language querying and management of your GCP resources during conversations.",
   "codiconIcon": "gcp",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/ancluhehsyn.webp",
-  "category": "productivity",
+  "category": "cloud-platforms",
   "tags": [
     "during",
     "conversations",

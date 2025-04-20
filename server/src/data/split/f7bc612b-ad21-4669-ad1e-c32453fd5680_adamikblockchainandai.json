@@ -6,7 +6,7 @@
   "description": "Integrates with the Adamik API to enable blockchain operations and custom AI functionalities via Starknet, supporting secure API key management and efficient request handling.",
   "codiconIcon": "adamik",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "functionalities",

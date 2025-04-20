@@ -6,7 +6,7 @@
   "description": "Integrates with X using real browser APIs to bypass rate limits and enable extensive social media operations and data analysis.",
   "codiconIcon": "x",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "media",
     "analysis",

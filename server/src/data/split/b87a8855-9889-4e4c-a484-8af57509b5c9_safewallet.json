@@ -6,7 +6,7 @@
   "description": "Enables interaction with Safe smart contract wallets for querying transactions, retrieving multisig details, and decoding data using the Safe Transaction API.",
   "codiconIcon": "safe",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "multisig",
     "details",

@@ -6,7 +6,7 @@
   "description": "Integrates DeepSeek's language models, enabling AI-powered chat completions with customizable parameters for tasks like writing assistance and code generation.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "ai-powered",
     "parameters",

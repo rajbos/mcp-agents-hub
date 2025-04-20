@@ -6,7 +6,7 @@
   "description": "Integrates Flightradar24 data to provide real-time flight tracking capabilities.",
   "codiconIcon": "flightradar24",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "provide",
     "real-time",

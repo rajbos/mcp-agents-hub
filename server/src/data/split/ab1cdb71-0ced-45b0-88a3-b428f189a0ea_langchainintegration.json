@@ -6,7 +6,7 @@
   "description": "Use MCP tools within LangChain-powered applications.",
   "codiconIcon": "langchain",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "within",
     "langchain-powered",

@@ -6,7 +6,7 @@
   "description": "Automates importing Supernotes exports into Obsidian daily notes, formatting content and adding wikilinks for seamless note migration.",
   "codiconIcon": "supernotes",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "migration",
     "supernotes-to-obsidian",

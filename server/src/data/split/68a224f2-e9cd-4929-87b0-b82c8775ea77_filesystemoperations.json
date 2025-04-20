@@ -6,7 +6,7 @@
   "description": "Provides file system operations for reading, creating, and listing files on the local file system, with performance monitoring through Sentry integration.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "creating",
     "files",

@@ -6,7 +6,7 @@
   "description": "Integrates with Excel files to enable efficient processing and analysis of large spreadsheet datasets through automatic chunking and pagination.",
   "codiconIcon": "excel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "excel-reader",
     "excel",

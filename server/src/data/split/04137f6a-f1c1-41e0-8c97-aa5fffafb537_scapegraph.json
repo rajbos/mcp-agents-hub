@@ -6,7 +6,7 @@
   "description": "Integrates with ScapeGraph API to enable web scraping and graph-based data analysis for efficient extraction and processing of large-scale web data.",
   "codiconIcon": "scapegraph",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "scapegraph",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Strava API to enable access to fitness and activity tracking data for analyzing athletic performance, tracking fitness goals, and building custom applications leveraging user activity information.",
   "codiconIcon": "strava",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "building",
     "enable",

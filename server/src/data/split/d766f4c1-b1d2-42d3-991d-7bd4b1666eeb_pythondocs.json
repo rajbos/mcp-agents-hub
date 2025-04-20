@@ -6,7 +6,7 @@
   "description": "Fetches Python documentation for quick access to language references and code explanations.",
   "codiconIcon": "python",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "python-docs",
     "fetches",

@@ -6,7 +6,7 @@
   "description": "Integrates with Sentry's error tracking platform to enable detailed issue analysis, project management, and user session replay for enhanced debugging and monitoring in software development environments.",
   "codiconIcon": "sentry",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "detailed",
     "debugging",

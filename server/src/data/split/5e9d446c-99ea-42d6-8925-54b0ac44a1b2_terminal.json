@@ -6,7 +6,7 @@
   "description": "Provides a secure interface for executing commands, managing processes, and retrieving outputs in terminal or PowerShell environments, with robust logging and error handling for system administration and development tasks.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "system",
     "terminal",

@@ -6,7 +6,7 @@
   "description": "Integrates with MongoDB databases to enable browsing collections, executing queries, running aggregation pipelines, analyzing schemas, and optimizing performance through specialized database exploration tools.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "collections",
     "executing",

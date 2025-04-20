@@ -6,7 +6,7 @@
   "description": "Integrates with Linear's project management platform, enabling AI-assisted workflows for team, issue, project, and cycle management through API operations.",
   "codiconIcon": "linear",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "platform",
     "ai-assisted",

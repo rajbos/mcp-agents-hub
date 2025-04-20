@@ -6,7 +6,7 @@
   "description": "Integrates with Obsidian vaults, enabling natural language queries and updates to notes through secure read/write access.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "language",
     "updates",

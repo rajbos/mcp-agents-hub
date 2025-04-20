@@ -6,7 +6,7 @@
   "description": "Integrates with Holaspirit's API to provide access to organizational data for tasks like structure analysis, role management, and policy review.",
   "codiconIcon": "holaspirit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "holaspirit's",

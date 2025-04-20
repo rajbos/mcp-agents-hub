@@ -6,7 +6,7 @@
   "description": "Bridges Supabase databases with natural language commands for querying tables, generating TypeScript types, and exploring schemas.",
   "codiconIcon": "supabase",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "generating",
     "types",

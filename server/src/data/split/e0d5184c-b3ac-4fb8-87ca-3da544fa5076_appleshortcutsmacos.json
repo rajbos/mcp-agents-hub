@@ -6,7 +6,7 @@
   "description": "Control Apple Shortcuts automations on macOS.",
   "codiconIcon": "apple",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "apple-shortcuts-(macos)",
     "control",

@@ -6,7 +6,7 @@
   "description": "Integrates with Cloudflare Workers to provide code explanation services, including architecture diagram generation, core functionality identification, and component breakdown across multiple programming languages.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "functionality",
     "identification",

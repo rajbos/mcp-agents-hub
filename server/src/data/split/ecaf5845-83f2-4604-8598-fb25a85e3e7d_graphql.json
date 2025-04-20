@@ -6,7 +6,7 @@
   "description": "Provides a GraphQL interface for querying and manipulating structured data from diverse GraphQL sources.",
   "codiconIcon": "graphql",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "structured",
     "diverse",

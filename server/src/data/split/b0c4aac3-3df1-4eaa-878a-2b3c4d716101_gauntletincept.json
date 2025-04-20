@@ -6,7 +6,7 @@
   "description": "Integrates with QTI services and LLMs to generate personalized educational content tailored to students' knowledge levels and interests, streamlining the creation of adaptive learning materials.",
   "codiconIcon": "gauntlet",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "educational",
     "adaptive",

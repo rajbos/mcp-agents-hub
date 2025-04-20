@@ -6,7 +6,7 @@
   "description": "Provides a robust expense-sharing solution for social gatherings, enabling creation of events, member management, expense tracking, and automated reimbursement calculations.",
   "codiconIcon": "gatherings",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "gatherings",
     "member",

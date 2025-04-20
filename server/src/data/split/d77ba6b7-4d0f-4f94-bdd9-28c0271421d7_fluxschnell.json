@@ -6,7 +6,7 @@
   "description": "Integrates with the Flux Schnell model on Replicate to generate images from text prompts, enabling visual content creation and creative workflows.",
   "codiconIcon": "flux",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "model",
     "replicate",

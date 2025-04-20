@@ -6,7 +6,7 @@
   "description": "Integrates with Ghost CMS's Admin API to enable automated content management and custom publishing workflows for Ghost blogs.",
   "codiconIcon": "ghost",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "content",
     "custom",

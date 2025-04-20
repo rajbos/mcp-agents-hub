@@ -6,7 +6,7 @@
   "description": "Integrates academic literature management with knowledge graphs to enable efficient source analysis, note-taking, and entity linking across diverse academic materials.",
   "codiconIcon": "literature",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "management",
     "analysis",

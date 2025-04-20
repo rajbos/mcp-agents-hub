@@ -6,7 +6,7 @@
   "description": "Integrates with YouTube API to manage Watch Later playlists, enabling content curation, video recommendations, and automated playlist management.",
   "codiconIcon": "youtube",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "youtube-watch-later",
     "automated",

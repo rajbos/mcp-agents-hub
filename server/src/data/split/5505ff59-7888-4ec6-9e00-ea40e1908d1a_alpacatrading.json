@@ -6,7 +6,7 @@
   "description": "Integrates with the Alpaca trading API to provide algorithmic trading and portfolio management tools for account information, market data, order placement, and position tracking.",
   "codiconIcon": "alpaca",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "management",
     "tools",

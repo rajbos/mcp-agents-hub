@@ -6,7 +6,7 @@
   "description": "Integrates with arXiv to enable keyword searches, paper retrieval, and tracking of recent submissions across scientific categories.",
   "codiconIcon": "papersearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "tracking",
     "recent",

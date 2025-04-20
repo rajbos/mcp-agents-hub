@@ -6,7 +6,7 @@
   "description": "Integrates with MySQL databases to enable secure, scalable database operations and management through TypeScript and Node.js.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "typescript",
     "integrates",

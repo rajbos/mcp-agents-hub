@@ -6,7 +6,7 @@
   "description": "Integrates with Databricks to execute SQL queries, list schemas, and describe table structures using the Statement Execution API for data exploration and analysis tasks",
   "codiconIcon": "databricks",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "table",
     "structures",

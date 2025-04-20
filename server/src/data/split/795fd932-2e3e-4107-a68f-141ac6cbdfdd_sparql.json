@@ -6,7 +6,7 @@
   "description": "Integrates with SPARQL servers to enable querying and manipulation of RDF data sources, facilitating semantic web integration for knowledge graph exploration and linked data analysis.",
   "codiconIcon": "sparql",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "enable",
     "manipulation",

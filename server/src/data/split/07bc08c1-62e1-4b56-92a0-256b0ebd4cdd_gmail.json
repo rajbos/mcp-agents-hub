@@ -6,7 +6,7 @@
   "description": "Integrates with Gmail API to enable email operations like sending, managing labels, and searching messages.",
   "codiconIcon": "gmail",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "integrates",
     "enable",

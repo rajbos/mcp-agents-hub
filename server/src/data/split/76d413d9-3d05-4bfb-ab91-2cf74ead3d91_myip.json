@@ -6,7 +6,7 @@
   "description": "Integrates with ifconfig.me to fetch and provide public IP address information for network diagnostics and geolocation services.",
   "codiconIcon": "myip",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "fetch",
     "provide",

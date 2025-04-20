@@ -6,7 +6,7 @@
   "description": "Integrates AngelOne India trading platform to provide real-time market data access, order management, and portfolio tracking for automated financial analysis and trading operations.",
   "codiconIcon": "angelone",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "india",
     "trading",

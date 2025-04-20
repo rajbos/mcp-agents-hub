@@ -6,7 +6,7 @@
   "description": "Provides long-term memory storage for LLM conversations using Redis Graph, enabling persistent knowledge graphs for maintaining context across interactions and building complex information networks.",
   "codiconIcon": "memory",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "enabling",
     "graphs",

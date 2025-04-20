@@ -6,7 +6,7 @@
   "description": "A Model Context Protocol (MCP) server implementation in Python that integrates with Jira API. This allows AI models to interact with Jira through a standardized protocol.",
   "codiconIcon": "",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "context",
     "protocol",

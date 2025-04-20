@@ -6,7 +6,7 @@
   "description": "Inspect schemas and execute SQL queries on Google BigQuery.",
   "codiconIcon": "bigquery",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "databases",
   "tags": [
     "schemas",
     "execute",

@@ -6,7 +6,7 @@
   "description": "Integrates with BigQuery to enable querying and retrieving table schemas from specified datasets for data analysis and reporting",
   "codiconIcon": "bigquery",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "integrates",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Integrates with arXiv to enable flexible paper search, PDF downloading, and text extraction for literature review, research trend analysis, and automated summarization in scientific domains.",
   "codiconIcon": "arxiv",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "literature",
     "research",

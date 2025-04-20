@@ -6,7 +6,7 @@
   "description": "Integrates with OpenAI's DALL-E API to generate and save images from text descriptions.",
   "codiconIcon": "dall-e",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "dall-e-image-generation",
     "integrates",

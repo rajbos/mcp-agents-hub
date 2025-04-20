@@ -6,7 +6,7 @@
   "description": "Integrates with Reddit's API using PRAW to enable retrieving and posting content, managing subreddits, and analyzing user data for applications like sentiment analysis and trend monitoring.",
   "codiconIcon": "reddit",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "enable",
     "retrieving",

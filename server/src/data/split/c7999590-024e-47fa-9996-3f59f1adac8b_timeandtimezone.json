@@ -6,7 +6,7 @@
   "description": "Provides time and timezone conversion capabilities, enabling current time retrieval and timezone conversions using IANA names for accurate and localized time-based functionalities.",
   "codiconIcon": "time",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "localized",
     "names",

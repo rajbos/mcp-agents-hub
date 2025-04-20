@@ -6,7 +6,7 @@
   "description": "Integrates with PiAPI to enable AI-driven image generation from text prompts for content creation and visual design tasks.",
   "codiconIcon": "piapi",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "piapi-image-generation",
     "integrates",

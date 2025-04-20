@@ -6,7 +6,7 @@
   "description": "Integrates with ZoomEye API to enable network asset reconnaissance through specialized search tools, supporting dork queries, IP filtering, and field selection with built-in caching and error handling for cybersecurity workflows.",
   "codiconIcon": "zoomeye",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "enable",
     "asset",

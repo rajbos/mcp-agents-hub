@@ -6,7 +6,7 @@
   "description": "Integrates with Ansible Automation Platform, OpenShift, and Event-Driven Ansible to enable advanced automation workflows, inventory management, and job template execution for DevOps teams.",
   "codiconIcon": "ansible",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "ansible",
     "automation",

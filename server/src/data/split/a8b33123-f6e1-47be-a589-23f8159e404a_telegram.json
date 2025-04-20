@@ -6,7 +6,7 @@
   "description": "Integrates with Telegram chats via the Bot API to enable secure, whitelisted messaging and AI-powered interactions for automated workflows and communication channels.",
   "codiconIcon": "telegram",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "channels",
     "telegram",

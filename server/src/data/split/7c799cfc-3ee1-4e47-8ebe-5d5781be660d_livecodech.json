@@ -6,7 +6,7 @@
   "description": "Executes code snippets from GitHub repositories on io.livecode.ch's backend, enabling live code execution across various languages and frameworks without local setup.",
   "codiconIcon": "livecode.ch",
   "logoUrl": "",
-  "category": "version-control",
+  "category": "developer-tools",
   "tags": [
     "local",
     "livecode.ch",

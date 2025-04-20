@@ -6,7 +6,7 @@
   "description": "Provides web scraping and DuckDuckGo search capabilities for retrieving and processing web content as markdown.",
   "codiconIcon": "web",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "provides",
     "search",

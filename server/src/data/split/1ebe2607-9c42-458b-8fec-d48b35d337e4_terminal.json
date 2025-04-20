@@ -6,7 +6,7 @@
   "description": "Provides a secure terminal environment for executing system commands within allowed paths, enabling controlled file management and script execution.",
   "codiconIcon": "terminal",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "system",
     "enabling",

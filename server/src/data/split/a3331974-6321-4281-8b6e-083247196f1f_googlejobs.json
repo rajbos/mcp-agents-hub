@@ -6,7 +6,7 @@
   "description": "Integrates with Google Jobs search via Serp API to enable efficient querying and retrieval of job listings for career guidance, labor market analysis, and automated job matching.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "google",
     "efficient",

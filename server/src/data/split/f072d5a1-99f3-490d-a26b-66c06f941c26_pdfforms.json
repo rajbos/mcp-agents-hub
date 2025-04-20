@@ -6,7 +6,7 @@
   "description": "Provides tools for finding PDF files, extracting form field information, and visualizing form fields in PDF documents using PyMuPDF.",
   "codiconIcon": "pdf",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "files",
     "extracting",

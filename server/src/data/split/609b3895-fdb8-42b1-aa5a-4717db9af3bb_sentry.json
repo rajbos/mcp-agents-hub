@@ -6,7 +6,7 @@
   "description": "Integrates with Sentry.io for retrieving and analyzing error reports, stacktraces, and debugging information, enabling developers and support teams to streamline issue tracking and debugging workflows.",
   "codiconIcon": "sentry",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "reports",
     "streamline",

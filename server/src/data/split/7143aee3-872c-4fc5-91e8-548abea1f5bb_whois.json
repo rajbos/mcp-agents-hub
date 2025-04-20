@@ -6,7 +6,7 @@
   "description": "WHOIS domain lookups",
   "codiconIcon": "whois",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "domain",
     "lookups",

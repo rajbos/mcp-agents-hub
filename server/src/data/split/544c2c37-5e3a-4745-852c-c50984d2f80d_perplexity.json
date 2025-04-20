@@ -6,7 +6,7 @@
   "description": "Get chat completions with citations from Perplexity API.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "completions",
     "citations",

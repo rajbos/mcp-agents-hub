@@ -6,7 +6,7 @@
   "description": "Integrates with ComfyUI to enable text-to-image generation using customizable Stable Diffusion workflows.",
   "codiconIcon": "comfy",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "using",
     "comfy-(stable-diffusion)",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Bitcoin Lightning Network to enable cryptocurrency payment capabilities and lightning address interactions for conversational workflows.",
   "codiconIcon": "lightning",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "lightning-tools",
     "lightning",

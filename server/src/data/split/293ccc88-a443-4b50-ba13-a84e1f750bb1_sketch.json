@@ -6,7 +6,7 @@
   "description": "MCP server to provide Sketch layout information to AI coding agents like Cursor",
   "codiconIcon": "sketch",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/ymq90al2l0n.png",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provide",
     "layout",

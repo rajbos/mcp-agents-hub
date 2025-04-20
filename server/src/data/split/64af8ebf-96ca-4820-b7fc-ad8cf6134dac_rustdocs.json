@@ -6,7 +6,7 @@
   "description": "Integrates with Rust documentation from docs.rs, enabling search for crates, retrieval of documentation, type information, feature flags, versions, and source code for Rust projects.",
   "codiconIcon": "rust",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "documentation",
     "docs.rs",

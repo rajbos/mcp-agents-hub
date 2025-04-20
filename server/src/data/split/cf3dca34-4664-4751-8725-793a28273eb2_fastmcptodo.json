@@ -6,7 +6,7 @@
   "description": "Integrates with MongoDB and MQTT to enable real-time task management, distribution, and updates for collaborative workflows and automation.",
   "codiconIcon": "fastmcp",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "distribution",
     "collaborative",

@@ -6,7 +6,7 @@
   "description": "Integrates Langchain with MCP tools.",
   "codiconIcon": "langchain",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "langchain",
     "tools",

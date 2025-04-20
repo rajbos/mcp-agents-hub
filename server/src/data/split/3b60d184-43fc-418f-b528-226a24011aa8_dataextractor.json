@@ -6,7 +6,7 @@
   "description": "Extracts data from TypeScript/JavaScript code into JSON configuration files, facilitating code refactoring and improved maintainability.",
   "codiconIcon": "data",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "files",
     "facilitating",

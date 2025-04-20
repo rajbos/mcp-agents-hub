@@ -6,7 +6,7 @@
   "description": "Integrates with Google Custom Search Engine to enable automated web crawling, content extraction, and search result parsing for data collection and analysis at scale.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "custom",
     "search",

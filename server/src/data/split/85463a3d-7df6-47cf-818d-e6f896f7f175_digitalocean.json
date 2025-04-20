@@ -6,7 +6,7 @@
   "description": "Integrates with DigitalOcean's API to enable automated server management, scaling, and infrastructure operations through natural language commands.",
   "codiconIcon": "digitalocean",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "management",
     "scaling",

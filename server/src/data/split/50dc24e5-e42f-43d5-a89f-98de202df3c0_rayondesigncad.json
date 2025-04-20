@@ -6,7 +6,7 @@
   "description": "Integrates with Rayon Design CAD interface using browser automation to enable shape creation and drawing method searches for AI-assisted design workflows.",
   "codiconIcon": "rayon",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "rayon",
     "method",

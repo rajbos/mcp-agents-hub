@@ -6,7 +6,7 @@
   "description": "Integrates with Microsoft Outlook for macOS using AppleScript to enable email, calendar, and contact management operations for automated workflows and scheduling assistance.",
   "codiconIcon": "outlook",
   "logoUrl": "",
-  "category": "tools",
+  "category": "communication",
   "tags": [
     "outlook-for-macos",
     "microsoft",

@@ -6,7 +6,7 @@
   "description": "Integrates with MySQL databases to enable read-only schema inspection and query execution, ensuring data integrity and security for analytical applications.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mysql-database",
     "integrates",

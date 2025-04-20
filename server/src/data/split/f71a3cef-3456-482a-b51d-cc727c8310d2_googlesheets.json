@@ -6,7 +6,7 @@
   "description": "Integrates with Google Sheets to enable spreadsheet creation, editing, and formatting capabilities through specialized Python tools built with FastMCP framework, requiring Google Cloud OAuth authentication.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "integrations",
   "tags": [
     "integrates",
     "google",

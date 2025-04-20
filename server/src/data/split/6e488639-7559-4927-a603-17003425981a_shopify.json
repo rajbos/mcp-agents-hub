@@ -6,7 +6,7 @@
   "description": "Integrates with Shopify to provide tools for retrieving product and customer data, enabling e-commerce analytics and automation without API complexities.",
   "codiconIcon": "shopify",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "data",
     "enabling",

@@ -6,7 +6,7 @@
   "description": "Integrates with the Hacker News API to provide real-time access to stories, comments, and user data for news aggregation, trend analysis, and custom client development.",
   "codiconIcon": "hacker",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "analysis",
     "hacker-news",

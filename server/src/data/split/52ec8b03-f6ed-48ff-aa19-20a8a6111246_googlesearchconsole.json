@@ -6,7 +6,7 @@
   "description": "Integrates with Google Search Console API to provide website search performance analytics, indexing status monitoring, and sitemap management for SEO professionals",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "search",
   "tags": [
     "search",
     "website",

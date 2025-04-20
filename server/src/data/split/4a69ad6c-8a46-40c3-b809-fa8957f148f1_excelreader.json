@@ -6,7 +6,7 @@
   "description": "Integrates with Excel files to extract and process data from sheets, enabling automated analysis and reporting tasks",
   "codiconIcon": "excel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "reporting",
     "tasks",

@@ -6,7 +6,7 @@
   "description": "Interface with the Tinybird serverless ClickHouse platform",
   "codiconIcon": "tinybird",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/6ry45t95rr4.webp",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "serverless",
     "clickhouse",

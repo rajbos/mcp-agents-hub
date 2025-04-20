@@ -6,7 +6,7 @@
   "description": "Integrates with SUPOS platform, enabling applications to leverage SUPOS services and capabilities within MCP-based workflows.",
   "codiconIcon": "supos",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "workflows",
     "enabling",

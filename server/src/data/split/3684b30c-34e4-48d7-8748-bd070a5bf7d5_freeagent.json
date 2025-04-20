@@ -6,7 +6,7 @@
   "description": "Integrates with FreeAgent API to enable time tracking management, including timeslip and timer operations for project tracking and reporting.",
   "codiconIcon": "freeagent",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "freeagent",
     "enable",

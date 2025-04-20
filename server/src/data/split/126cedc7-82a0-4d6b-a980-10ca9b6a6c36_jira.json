@@ -6,7 +6,7 @@
   "description": "Integrates Jira for natural language querying and manipulation of project management data.",
   "codiconIcon": "jira",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "language",
     "querying",

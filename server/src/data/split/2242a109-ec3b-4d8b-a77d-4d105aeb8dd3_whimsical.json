@@ -6,7 +6,7 @@
   "description": "Integrates with Whimsical's API to generate diagrams from Mermaid markup, returning both diagram URLs and base64 encoded images for iterative refinement.",
   "codiconIcon": "whimsical",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "iterative",
     "integrates",

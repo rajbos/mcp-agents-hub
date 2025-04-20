@@ -6,7 +6,7 @@
   "description": "Integrates with the Pocket API to enable natural language-based retrieval and management of saved articles.",
   "codiconIcon": "pocket",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "integrates",
     "enable",

@@ -6,7 +6,7 @@
   "description": "Access real-time Dutch Railways data for trip planning.",
   "codiconIcon": "ns",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "dutch",
     "railways",

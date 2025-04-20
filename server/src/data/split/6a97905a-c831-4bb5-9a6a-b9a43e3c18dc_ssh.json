@@ -6,7 +6,7 @@
   "description": "Provides secure remote access capabilities for executing commands, transferring files, and managing connections on remote systems via SSH.",
   "codiconIcon": "ssh",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provides",
     "access",

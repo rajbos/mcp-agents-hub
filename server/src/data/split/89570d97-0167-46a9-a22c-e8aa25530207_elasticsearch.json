@@ -6,7 +6,7 @@
   "description": "Integrates with Elasticsearch to enable advanced search capabilities, data retrieval, and analysis for AI-assisted applications.",
   "codiconIcon": "elasticsearch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "enable",
     "advanced",

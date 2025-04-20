@@ -6,7 +6,7 @@
   "description": "Integrates Mistral AI's language models for text generation and analysis tasks.",
   "codiconIcon": "mistral",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "models",
     "generation",

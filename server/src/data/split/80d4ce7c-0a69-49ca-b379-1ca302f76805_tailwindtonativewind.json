@@ -6,7 +6,7 @@
   "description": "Transforms Tailwind components to NativeWind 4 for React Native.",
   "codiconIcon": "tailwind",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "tailwind-to-nativewind",
     "transforms",

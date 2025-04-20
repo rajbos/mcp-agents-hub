@@ -6,7 +6,7 @@
   "description": "Enables secure execution of macOS terminal commands through a ZSH shell with a whitelist system that categorizes operations as safe, requiring approval, or forbidden.",
   "codiconIcon": "mac",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "macos",
     "system",

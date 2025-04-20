@@ -6,7 +6,7 @@
   "description": "Integrates with Google Drive to enable file listing, reading, and searching across various document formats, with OAuth authentication for secure access to user content.",
   "codiconIcon": "google",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "file-systems",
   "tags": [
     "reading",
     "oauth",

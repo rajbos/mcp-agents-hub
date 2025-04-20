@@ -6,7 +6,7 @@
   "description": "Integrates with Vilnius public transport data sources to provide real-time transit information, enabling accurate responses about local transportation.",
   "codiconIcon": "vilnius",
   "logoUrl": "",
-  "category": "tools",
+  "category": "location-services",
   "tags": [
     "responses",
     "public",

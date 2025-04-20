@@ -6,7 +6,7 @@
   "description": "Enables custom behavioral mode management for defining, loading, and applying tailored AI behaviors through configuration files in Roo Code",
   "codiconIcon": "custom",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "behavioral",
     "defining",

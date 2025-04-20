@@ -6,7 +6,7 @@
   "description": "Provides read-only access to PostgreSQL databases with enhanced multi-schema support, enabling schema inspection, query execution, and isolation across multiple namespaces.",
   "codiconIcon": "postgresql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "query",
     "across",

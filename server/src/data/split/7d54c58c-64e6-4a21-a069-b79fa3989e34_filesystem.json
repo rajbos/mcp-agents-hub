@@ -6,7 +6,7 @@
   "description": "Implements an extensive list of filesystem operations for navigating, reading, writing, and analyzing files, enabling efficient file management and content generation tasks.",
   "codiconIcon": "filesystem",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "filesystem",
     "writing",

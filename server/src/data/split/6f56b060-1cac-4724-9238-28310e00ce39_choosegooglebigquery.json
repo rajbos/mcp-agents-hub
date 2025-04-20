@@ -6,7 +6,7 @@
   "description": "Integrates with Google BigQuery and BigQuery Storage to enable efficient execution of SQL queries, schema retrieval, and large-scale data analytics on cloud datasets.",
   "codiconIcon": "choose",
   "logoUrl": "",
-  "category": "productivity",
+  "category": "databases",
   "tags": [
     "large-scale",
     "cloud",

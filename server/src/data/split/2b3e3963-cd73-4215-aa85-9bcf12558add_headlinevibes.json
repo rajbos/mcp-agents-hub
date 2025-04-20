@@ -6,7 +6,7 @@
   "description": "Integrates with major US news sources to analyze headline sentiment, providing normalized scores and source distribution for media trend insights.",
   "codiconIcon": "headline",
   "logoUrl": "",
-  "category": "tools",
+  "category": "monitoring",
   "tags": [
     "scores",
     "headline-vibes",

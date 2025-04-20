@@ -6,7 +6,7 @@
   "description": "a better dotenv–from the creator of dotenv.\n\n- run anywhere (cross-platform)\n- multi-environment\n- encrypted .env files",
   "codiconIcon": "dotenvx",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/who5zc6e4y.png",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "multi-environment",
     "dotenvx",

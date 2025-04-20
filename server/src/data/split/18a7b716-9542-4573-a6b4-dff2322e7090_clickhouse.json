@@ -6,7 +6,7 @@
   "description": "Integrates with ClickHouse to enable natural language querying and exploration of large datasets while maintaining read-only safeguards.",
   "codiconIcon": "clickhouse",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "natural",
     "exploration",

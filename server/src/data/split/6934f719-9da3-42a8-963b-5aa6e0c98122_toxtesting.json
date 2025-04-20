@@ -6,7 +6,7 @@
   "description": "Executes tox commands to run tests within a project using the project's tox.ini",
   "codiconIcon": "tox",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "commands",
     "within",

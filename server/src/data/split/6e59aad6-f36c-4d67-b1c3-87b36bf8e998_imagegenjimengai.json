@@ -6,7 +6,7 @@
   "description": "Accepts text descriptions, generates corresponding images, and offers image download and save functions.",
   "codiconIcon": "image",
   "logoUrl": "",
-  "category": "tools",
+  "category": "other-tools",
   "tags": [
     "descriptions",
     "corresponding",

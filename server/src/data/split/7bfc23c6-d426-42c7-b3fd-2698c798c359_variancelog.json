@@ -6,7 +6,7 @@
   "description": "Analyzes statistical variations in conversation structures and logs unusual events to a SQLite database for monitoring AI behavior and detecting anomalies.",
   "codiconIcon": "variance",
   "logoUrl": "",
-  "category": "database",
+  "category": "monitoring",
   "tags": [
     "variations",
     "structures",

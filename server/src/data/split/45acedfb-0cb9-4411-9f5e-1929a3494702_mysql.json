@@ -6,7 +6,7 @@
   "description": "Connects to MySQL databases via sockets to enable querying, schema analysis, and read-only data retrieval.",
   "codiconIcon": "mysql",
   "logoUrl": "",
-  "category": "database",
+  "category": "databases",
   "tags": [
     "mysql",
     "databases",

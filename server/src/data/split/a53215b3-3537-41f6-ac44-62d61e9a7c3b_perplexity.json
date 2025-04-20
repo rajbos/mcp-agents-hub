@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity's API to enable real-time web searches for up-to-date information retrieval and context-aware responses.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "search",
   "tags": [
     "perplexity",
     "integrates",

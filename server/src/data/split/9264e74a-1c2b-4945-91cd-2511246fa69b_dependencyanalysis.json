@@ -6,7 +6,7 @@
   "description": "Manage and analyze project dependencies, offering caching and flexible configuration for efficient tracking across complex software ecosystems.",
   "codiconIcon": "dependency",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "dependency-analysis",
     "manage",

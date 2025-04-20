@@ -6,7 +6,7 @@
   "description": "Cursor, the AI code editor, makes it easy to write and maintain apps built with Convex. Let's walk through how to setup Cursor for the best possible results with Convex.",
   "codiconIcon": "convex",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/9jk3ypz9c7.webp",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "convex",
     "makes",

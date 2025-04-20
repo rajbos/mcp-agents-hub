@@ -6,7 +6,7 @@
   "description": "Enables interaction with Spotify's music catalog, including search, artist information, playlist management, and audiobook access through the Spotify Web API.",
   "codiconIcon": "music",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/spotify.png",
-  "category": "entertainment-media",
+  "category": "integrations",
   "tags": [
     "music",
     "spotify-api",

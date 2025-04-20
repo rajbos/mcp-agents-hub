@@ -6,7 +6,7 @@
   "description": "Integrates with the DBLP computer science bibliography database to enable searching publications, processing citations, generating BibTeX entries, and analyzing research trends.",
   "codiconIcon": "dblp",
   "logoUrl": "",
-  "category": "database",
+  "category": "search",
   "tags": [
     "trends",
     "dblp",

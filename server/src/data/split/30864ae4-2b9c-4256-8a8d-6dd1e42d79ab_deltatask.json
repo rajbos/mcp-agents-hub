@@ -6,7 +6,7 @@
   "description": "Integrates with Obsidian to provide a locally-hosted task management system with intelligent prioritization, task decomposition, and a full API for creating, updating, and querying tasks in a SQLite-backed database.",
   "codiconIcon": "deltatask",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "prioritization",
     "creating",

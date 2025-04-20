@@ -6,7 +6,7 @@
   "description": "Make calls to OpenAI's chat completions.",
   "codiconIcon": "openai",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "openai-chat-completions",
     "calls",

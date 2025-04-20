@@ -6,7 +6,7 @@
   "description": "Integrates Mozilla's Readability algorithm to extract and transform webpage content into clean, LLM-optimized Markdown.",
   "codiconIcon": "fetch",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "mozilla's",

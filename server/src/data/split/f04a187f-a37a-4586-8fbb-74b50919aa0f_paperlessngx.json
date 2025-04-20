@@ -6,7 +6,7 @@
   "description": "Integrates with Paperless-NGX API to provide document management operations including listing, searching, editing, and uploading for efficient organization and retrieval of digital files.",
   "codiconIcon": "paperless-ngx",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "searching",
     "organization",

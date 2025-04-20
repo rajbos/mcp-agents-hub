@@ -6,7 +6,7 @@
   "description": "Integrates with Perplexity API to provide expert programming assistance and persistent chat capabilities for developers and teams.",
   "codiconIcon": "perplexity",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "integrates",
     "provide",

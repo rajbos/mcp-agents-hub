@@ -6,7 +6,7 @@
   "description": "Implements SQLite functionality in Node.js.",
   "codiconIcon": "sqlite",
   "logoUrl": "",
-  "category": "tools",
+  "category": "databases",
   "tags": [
     "node.js",
     "sqlite-(node.js)",

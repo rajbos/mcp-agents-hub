@@ -6,7 +6,7 @@
   "description": "Integrates with Starknet's JSON-RPC API to enable querying blockchain state, retrieving transaction data, and executing contract calls for blockchain analytics and smart contract interactions.",
   "codiconIcon": "starknet",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "blockchain",
     "transaction",

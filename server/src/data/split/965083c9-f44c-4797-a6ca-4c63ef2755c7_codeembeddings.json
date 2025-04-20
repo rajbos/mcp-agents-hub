@@ -6,7 +6,7 @@
   "description": "A knowledge management tool for code repositories using vector embeddings.",
   "codiconIcon": "code",
   "logoUrl": "",
-  "category": "tools",
+  "category": "knowledge-memory",
   "tags": [
     "knowledge",
     "management",

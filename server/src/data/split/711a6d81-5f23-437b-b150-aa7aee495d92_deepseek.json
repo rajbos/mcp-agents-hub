@@ -6,7 +6,7 @@
   "description": "Integrates with the DeepSeek API to provide code generation, completion, and optimization across multiple languages using tool chaining and caching strategies.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "provide",
     "optimization",

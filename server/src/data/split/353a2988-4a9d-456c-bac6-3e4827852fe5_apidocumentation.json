@@ -6,7 +6,7 @@
   "description": "Provides documentation assistance capabilities for developers looking to incorporate up-to-date docs in their workflows.",
   "codiconIcon": "api",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "workflows",
     "api-documentation",

@@ -6,7 +6,7 @@
   "description": "Enhances file and directory management with streaming, patching, and change tracking for advanced manipulation, real-time monitoring, and integration into automated workflows.",
   "codiconIcon": "file",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "change",
     "directory",

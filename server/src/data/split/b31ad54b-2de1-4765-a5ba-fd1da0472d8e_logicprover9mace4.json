@@ -6,7 +6,7 @@
   "description": "Integrates Prover9/Mace4 for automated reasoning, theorem proving, and logical analysis.",
   "codiconIcon": "logic",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "logic-(prover9/mace4)",
     "integrates",

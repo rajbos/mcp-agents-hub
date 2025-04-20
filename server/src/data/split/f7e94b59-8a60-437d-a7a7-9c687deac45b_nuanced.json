@@ -6,7 +6,7 @@
   "description": "Provides code analysis capabilities using the nuanced library, offering tools for initializing code graphs, exploring function call relationships, analyzing dependencies, and assessing the impact of code changes.",
   "codiconIcon": "nuanced",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "dependencies",
     "provides",

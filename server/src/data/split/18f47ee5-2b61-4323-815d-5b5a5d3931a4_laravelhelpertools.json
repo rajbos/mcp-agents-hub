@@ -6,7 +6,7 @@
   "description": "Integrates with Laravel projects to provide log analysis, error tracking, and Artisan command execution for streamlined development workflows.",
   "codiconIcon": "laravel",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "laravel",
     "provide",

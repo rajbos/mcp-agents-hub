@@ -6,7 +6,7 @@
   "description": "Integrates with Alphavantage API to provide real-time and historical financial data for stock market analysis and trading strategies.",
   "codiconIcon": "alphavantage",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "trading",
     "real-time",

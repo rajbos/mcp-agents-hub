@@ -6,7 +6,7 @@
   "description": "Integrates with Dev.to's API, enabling article publishing, content retrieval, and user interactions on the platform.",
   "codiconIcon": "dev.to",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "interactions",
     "platform",

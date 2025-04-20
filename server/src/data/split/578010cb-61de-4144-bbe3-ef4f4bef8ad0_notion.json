@@ -6,7 +6,7 @@
   "description": "Integrates with Notion to enable searching, retrieving, creating, and updating pages and databases for natural language-driven knowledge management and collaborative document creation.",
   "codiconIcon": "notion",
   "logoUrl": "",
-  "category": "database",
+  "category": "knowledge-memory",
   "tags": [
     "databases",
     "knowledge",

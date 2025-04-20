@@ -6,7 +6,7 @@
   "description": "Integrates Alfresco's content management, enabling intelligent document processing and automated metadata extraction.",
   "codiconIcon": "alfresco",
   "logoUrl": "",
-  "category": "tools",
+  "category": "file-systems",
   "tags": [
     "processing",
     "automated",

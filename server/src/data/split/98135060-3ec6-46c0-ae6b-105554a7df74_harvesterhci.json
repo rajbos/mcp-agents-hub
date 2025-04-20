@@ -6,7 +6,7 @@
   "description": "Enables management of Harvester HCI clusters through a Go-based server that provides tools for handling both standard Kubernetes and Harvester-specific resources with human-readable output formatting.",
   "codiconIcon": "harvester",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "harvester-specific",
     "enables",

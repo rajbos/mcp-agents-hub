@@ -6,7 +6,7 @@
   "description": "Provides standardized development rules and real-time guidance for Business Central projects, offering rule validation, architectural suggestions, and component structure optimization for consistent coding standards and best practices.",
   "codiconIcon": "business",
   "logoUrl": "",
-  "category": "tools",
+  "category": "developer-tools",
   "tags": [
     "consistent",
     "coding",

@@ -6,7 +6,7 @@
   "description": "Deployment-related tooling for Render.com.",
   "codiconIcon": "render",
   "logoUrl": "",
-  "category": "tools",
+  "category": "cloud-platforms",
   "tags": [
     "render",
     "deployment-related",
