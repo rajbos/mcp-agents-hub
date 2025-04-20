@@ -78,7 +78,20 @@
   },
   "common": {
     "yes": "Sí",
-    "no": "No"
+    "no": "No",
+    "loading": "Cargando...",
+    "server": "Servidor",
+    "servers": "Servidores",
+    "recommended": "Recomendado",
+    "siteName": "MCP Hub"
+  },
+  "category": {
+    "lastUpdated": "Última Actualización",
+    "noServers": "No Se Encontraron Servidores",
+    "noServersDescription": "No hay servidores disponibles en esta categoría en este momento.",
+    "fetchError": "Error al obtener servidores de categoría",
+    "of": "de",
+    "showing": "{count} de {total}"
   },
   "submit": {
     "title": "Enviar Su Servidor MCP",

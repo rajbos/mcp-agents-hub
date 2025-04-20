@@ -98,6 +98,43 @@ router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   }
 });
 
+// GET /search_servers - returns server data filtered by category and locale
+router.get('/search_servers', async (req: Request, res: Response): Promise<void> => {
+  try {
+    console.log('api /search_servers called: req.query = ', req.query);
+    // Get parameters from query
+    const categoryKey = req.query.categoryKey as string;
+    const requestedLocale = (req.query.locale as string) || 'en';
+    
+    // Get servers from cache for the requested locale
+    const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
+    
+    // Filter by category if categoryKey is provided
+    let filteredServers = mcpServersCache;
+    if (categoryKey) {
+      filteredServers = mcpServersCache.filter(server => server.category === categoryKey);
+      console.log(`Filtered servers by category: ${categoryKey}, found ${filteredServers.length} servers`);
+    }
+    
+    // Sort servers so that isRecommended: true servers appear first
+    filteredServers.sort((a, b) => {
+      // If a is recommended and b is not, a comes first
+      if (a.isRecommended && !b.isRecommended) return -1;
+      // If b is recommended and a is not, b comes first
+      if (!a.isRecommended && b.isRecommended) return 1;
+      // If both have the same recommendation status, maintain original order
+      return 0;
+    });
+    
+    // Return filtered and sorted data
+    res.json(filteredServers);
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''} at ${new Date().toISOString()}`);
+  } catch (error) {
+    console.error('Error serving filtered MCP servers:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 // GET /servers/:hubId - returns a specific server by hubId with enriched data from GitHub README
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {

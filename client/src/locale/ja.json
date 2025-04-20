@@ -79,7 +79,20 @@
   },
   "common": {
     "yes": "はい",
-    "no": "いいえ"
+    "no": "いいえ",
+    "loading": "読み込み中...",
+    "server": "サーバー",
+    "servers": "サーバー",
+    "recommended": "おすすめ",
+    "siteName": "MCP Hub"
+  },
+  "category": {
+    "lastUpdated": "最終更新",
+    "noServers": "サーバーが見つかりません",
+    "noServersDescription": "現在、このカテゴリにはサーバーがありません。",
+    "fetchError": "カテゴリサーバーの取得に失敗しました",
+    "of": "/",
+    "showing": "{count} / {total}"
   },
   "submit": {
     "title": "MCPサーバーを提出",
