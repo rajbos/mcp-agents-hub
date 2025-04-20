@@ -203,7 +203,7 @@ export function ServerDetails() {
               <div className="flex flex-wrap items-center justify-start gap-4">
                 <div className="flex items-center">
                   <span className="text-sm font-medium text-gray-500 mr-2">{t('details.category')}:</span>
-                  <span className="text-gray-900">{server.category || t('details.notSpecified')}</span>
+                  <span className="text-gray-900">{server.category ? t(`category.${server.category}`) : t('details.notSpecified')}</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-sm font-medium text-gray-500 mr-2">{t('details.requiresApiKey')}:</span>
