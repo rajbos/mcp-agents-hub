@@ -80,7 +80,20 @@
   },
   "common": {
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "loading": "Loading...",
+    "server": "Server",
+    "servers": "Servers",
+    "recommended": "Recommended",
+    "siteName": "MCP Hub"
+  },
+  "category": {
+    "lastUpdated": "Last Updated",
+    "noServers": "No Servers Found",
+    "noServersDescription": "There are no servers available in this category at the moment.",
+    "fetchError": "Failed to fetch category servers",
+    "of": "of",
+    "showing": "{count} of {total}"
   },
   "submit": {
     "title": "Submit Your MCP Server",

@@ -78,7 +78,20 @@
   },
   "common": {
     "yes": "是",
-    "no": "否"
+    "no": "否",
+    "loading": "載入中...",
+    "server": "伺服器",
+    "servers": "伺服器",
+    "recommended": "推薦",
+    "siteName": "MCP Agents 中心"
+  },
+  "category": {
+    "lastUpdated": "最後更新",
+    "noServers": "未找到伺服器",
+    "noServersDescription": "此分類目前沒有可用的伺服器。",
+    "fetchError": "獲取分類伺服器失敗",
+    "of": "共",
+    "showing": "{count} / {total}"
   },
   "submit": {
     "title": "提交您的 MCP 伺服器",

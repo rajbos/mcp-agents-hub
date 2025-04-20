@@ -78,7 +78,20 @@
   },
   "common": {
     "yes": "是",
-    "no": "否"
+    "no": "否",
+    "loading": "加载中...",
+    "server": "服务器",
+    "servers": "服务器",
+    "recommended": "推荐",
+    "siteName": "MCP 智能体中心"
+  },
+  "category": {
+    "lastUpdated": "最后更新",
+    "noServers": "未找到服务器",
+    "noServersDescription": "此类别暂时没有可用的服务器。",
+    "fetchError": "获取类别服务器失败",
+    "of": "共",
+    "showing": "{count} / {total}"
   },
   "submit": {
     "title": "提交您的 MCP 服务器",

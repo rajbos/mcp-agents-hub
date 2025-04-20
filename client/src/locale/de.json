@@ -80,7 +80,20 @@
   },
   "common": {
     "yes": "Ja",
-    "no": "Nein"
+    "no": "Nein",
+    "loading": "Wird geladen...",
+    "server": "Server",
+    "servers": "Server",
+    "recommended": "Empfohlen",
+    "siteName": "MCP Agents Hub"
+  },
+  "category": {
+    "lastUpdated": "Zuletzt aktualisiert",
+    "noServers": "Keine Server gefunden",
+    "noServersDescription": "In dieser Kategorie sind derzeit keine Server verfügbar.",
+    "fetchError": "Fehler beim Abrufen der Kategorie-Server",
+    "of": "von",
+    "showing": "{count} von {total}"
   },
   "submit": {
     "title": "Ihren MCP-Server einreichen",
