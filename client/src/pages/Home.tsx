@@ -6,11 +6,12 @@ import { fetchMCPServers } from '../data/servers';
 import { MCPServer } from '../types';
 import { Plug, Zap, ChevronRight, Send } from 'lucide-react';
 import { Link as IconLink } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Home() {
   const { t, language } = useLanguage();
+  const navigate = useNavigate();
   const [inputQuery, setInputQuery] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [servers, setServers] = useState<MCPServer[]>([]);
@@ -33,7 +34,13 @@ export function Home() {
   }, [searchQuery]);
 
   const handleSearch = (query: string) => {
-    setSearchQuery(query);
+    if (query.trim()) {
+      // Redirect to the listing page with the search keyword
+      navigate(`/listing/all?page=1&size=12&search=${encodeURIComponent(query)}`);
+    } else {
+      // If empty search, just update local state
+      setSearchQuery('');
+    }
   };
 
   const filteredServers = useMemo(() => {

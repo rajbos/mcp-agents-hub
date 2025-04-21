@@ -106,6 +106,15 @@
     "next": "Nächste Seite",
     "itemsPerPage": "Einträge pro Seite:"
   },
+  "search": {
+    "placeholder": "MCP-Server nach Name, Autor oder Tags durchsuchen...",
+    "action": "Suchen",
+    "clear": "Suche löschen",
+    "results": "Suchergebnisse für",
+    "noResults": "Keine Server gefunden, die Ihrer Suche entsprechen",
+    "tryDifferent": "Versuchen Sie einen anderen Suchbegriff oder durchsuchen Sie alle Server in dieser Kategorie",
+    "clearAndShowAll": "Suche löschen und alle Server anzeigen"
+  },
   "submit": {
     "title": "Ihren MCP-Server einreichen",
     "tagline": "Tragen Sie zum MCP-Ökosystem bei, indem Sie Ihren MCP-Server mit der Community teilen",
