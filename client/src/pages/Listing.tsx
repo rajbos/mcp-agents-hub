@@ -151,7 +151,22 @@ export function Listing() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </li>
-            <li className="font-medium text-gray-900">
+            <li>
+              <a className="hover:text-indigo-600 transition-colors duration-200">
+                {t('navigation.servers') || 'Servers'}
+              </a>
+            </li>
+            <li className="flex items-center">
+              <svg className="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </li>
+            <li className="flex items-center">
+              <span className="text-gray-600">
+                {t('navigation.category') || 'Category'}:
+              </span>
+            </li>
+            <li className="font-medium text-gray-900 ml-1">
               {t(`category.${categoryKey}`) || t(`category-common.${categoryKey}`) || formatCategoryName(categoryKey)}
             </li>
           </ol>

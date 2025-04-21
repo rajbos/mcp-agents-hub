@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "サーバー",
+    "category": "カテゴリ"
+  },
   "nav": {
     "home": "ホーム",
     "docs": "ドキュメント",

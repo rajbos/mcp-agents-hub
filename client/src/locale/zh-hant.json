@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "伺服器",
+    "category": "分類"
+  },
   "nav": {
     "home": "首頁",
     "docs": "文檔",

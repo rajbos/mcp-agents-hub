@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "服务器",
+    "category": "分类"
+  },
   "nav": {
     "home": "首页",
     "docs": "文档",

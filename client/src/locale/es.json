@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "Servidores",
+    "category": "Categoría"
+  },
   "nav": {
     "home": "Inicio",
     "docs": "Documentación",
