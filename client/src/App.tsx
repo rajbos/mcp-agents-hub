@@ -5,7 +5,7 @@ import { Docs } from './pages/Docs';
 import { About } from './pages/About';
 import { ServerDetails } from './pages/ServerDetails';
 import { Submit } from './pages/Submit';
-import { Category } from './pages/Category';
+import { Listing } from './pages/Listing';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { LanguageProvider } from './contexts/LanguageContext';
@@ -22,8 +22,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/submit" element={<Submit />} />
             <Route path="/server/:hubId" element={<ServerDetails />} />
-            <Route path="/category" element={<Category />} />
-            <Route path="/category/:categoryKey" element={<Category />} />
+            <Route path="/listing" element={<Listing />} />
+            <Route path="/listing/:categoryKey" element={<Listing />} />
           </Routes>
           <Footer />
         </div>

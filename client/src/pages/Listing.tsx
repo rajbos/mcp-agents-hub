@@ -13,7 +13,7 @@ interface PaginatedResponse {
   totalPages: number;
 }
 
-export function Category() {
+export function Listing() {
   const { t, language } = useLanguage();
   const { categoryKey } = useParams();
   const [serversData, setServersData] = useState<PaginatedResponse>({
@@ -27,7 +27,7 @@ export function Category() {
   const pageSizeOptions = [6, 12, 24, 48];
 
   // Fetch servers for the given category and page
-  const fetchCategoryServers = async (page = 1, size = pageSize) => {
+  const fetchServers = async (page = 1, size = pageSize) => {
     if (!categoryKey) return;
     
     try {
@@ -37,13 +37,13 @@ export function Category() {
       const response = await fetch(url);
       
       if (!response.ok) {
-        throw new Error(t('category.fetchError') || 'Failed to fetch category servers');
+        throw new Error(t('listing.fetchError') || 'Failed to fetch servers');
       }
       
       const data = await response.json() as PaginatedResponse;
       setServersData(data);
     } catch (error) {
-      console.error('Error fetching category servers:', error);
+      console.error('Error fetching servers:', error);
       setServersData({
         servers: [],
         totalItems: 0,
@@ -56,12 +56,12 @@ export function Category() {
   };
 
   useEffect(() => {
-    fetchCategoryServers(1, pageSize);
+    fetchServers(1, pageSize);
   }, [categoryKey, language, pageSize]);
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= serversData.totalPages) {
-      fetchCategoryServers(page);
+      fetchServers(page);
       // Scroll to top of the list when changing pages
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -71,7 +71,7 @@ export function Category() {
     const newSize = parseInt(event.target.value, 10);
     setPageSize(newSize);
     // Reset to first page when changing page size
-    fetchCategoryServers(1, newSize);
+    fetchServers(1, newSize);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -155,7 +155,7 @@ export function Category() {
             </div>
           </div>
           <div className="text-sm text-gray-500">
-            {t('details.lastUpdated') || t('category.lastUpdated') || "Last Updated"}: {new Date().toLocaleDateString(language === 'en' ? 'en-US' : language === 'ja' ? 'ja-JP' : language === 'es' ? 'es-ES' : language === 'de' ? 'de-DE' : language === 'zh-hans' ? 'zh-CN' : language === 'zh-hant' ? 'zh-TW' : 'en-US')}
+            {t('details.lastUpdated') || t('listing.lastUpdated') || "Last Updated"}: {new Date().toLocaleDateString(language === 'en' ? 'en-US' : language === 'ja' ? 'ja-JP' : language === 'es' ? 'es-ES' : language === 'de' ? 'de-DE' : language === 'zh-hans' ? 'zh-CN' : language === 'zh-hant' ? 'zh-TW' : 'en-US')}
           </div>
         </div>
       )}
@@ -168,10 +168,10 @@ export function Category() {
       ) : serversData.servers.length === 0 ? (
         <div className="bg-white rounded-xl shadow-md p-8 text-center">
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
-            {t('category.noServers')}
+            {t('listing.noServers')}
           </h2>
           <p className="text-gray-600">
-            {t('category.noServersDescription')}
+            {t('listing.noServersDescription')}
           </p>
         </div>
       ) : (
