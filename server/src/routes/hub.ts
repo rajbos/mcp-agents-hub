@@ -82,7 +82,7 @@ async function createLocalizedServerFiles(
 // GET /servers - returns server data with hubId included
 router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   try {
-    console.log('api /servers called: req.query.locale = ', req.query.locale);
+    console.log('GET /servers called: req.query.locale = ', req.query.locale);
     // Get locale from query parameter, default to 'en'
     const requestedLocale = (req.query.locale as string) || 'en';
     
@@ -98,15 +98,15 @@ router.get('/servers', async (req: Request, res: Response): Promise<void> => {
   }
 });
 
-// GET /search_servers - returns server data filtered by category and locale
-router.get('/search_servers', async (req: Request, res: Response): Promise<void> => {
+// POST /search_servers - returns server data filtered by category, locale and other criteria
+router.post('/search_servers', async (req: Request, res: Response): Promise<void> => {
   try {
-    console.log('api /search_servers called: req.query = ', req.query);
-    // Get parameters from query
-    const categoryKey = req.query.categoryKey as string;
-    const requestedLocale = (req.query.locale as string) || 'en';
-    const page = req.query.page ? parseInt(req.query.page as string) : undefined;
-    const size = req.query.size ? parseInt(req.query.size as string) : undefined;
+    console.log('POST /search_servers called: req.body = ', req.body);
+    // Get parameters from request body
+    const categoryKey = req.body.categoryKey as string;
+    const requestedLocale = (req.body.locale as string) || 'en';
+    const page = req.body.page ? parseInt(req.body.page as string) : undefined;
+    const size = req.body.size ? parseInt(req.body.size as string) : undefined;
     
     // Get servers from cache for the requested locale
     const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
@@ -161,8 +161,8 @@ router.get('/search_servers', async (req: Request, res: Response): Promise<void>
 // GET /servers/:hubId - returns a specific server by hubId with enriched data from GitHub README
 router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void> => {
   try {
-    console.log('api /servers/:hubId called: req.params.hubId = ', req.params.hubId);
-    console.log('api /servers/:hubId called: req.query.locale = ', req.query.locale);
+    console.log('GET /servers/:hubId called: req.params.hubId = ', req.params.hubId);
+    console.log('GET /servers/:hubId called: req.query.locale = ', req.query.locale);
     const { hubId } = req.params;
     // Get locale from query parameter, default to 'en'
     const requestedLocale = (req.query.locale as string) || 'en';
@@ -195,7 +195,7 @@ router.get('/servers/:hubId', async (req: Request, res: Response): Promise<void>
 // POST /servers/submit - submits a new server to be added
 router.post('/servers/submit', async (req: Request, res: Response): Promise<void> => {
   try {
-    console.log('api /servers/submit called: req.body = ', req.body);
+    console.log('POST /servers/submit called: req.body = ', req.body);
     const { githubUrl } = req.body;
 
     if (!githubUrl) {
@@ -326,7 +326,7 @@ router.post('/servers/submit', async (req: Request, res: Response): Promise<void
 // GET /server_categories - returns the list of available server categories
 router.get('/server_categories', (req: Request, res: Response): void => {
   try {
-    console.log('api /server_categories called');
+    console.log('GET /server_categories called');
     res.json(MCP_SERVER_CATEGORIES);
     console.log(`v1/hub/server_categories Served categories at ${new Date().toISOString()}`);
   } catch (error) {

@@ -40,8 +40,19 @@ export function Listing() {
     try {
       setIsLoading(true);
       
-      const url = `/v1/hub/search_servers?categoryKey=${categoryKey}&locale=${language || 'en'}&page=${page}&size=${size}`;
-      const response = await fetch(url);
+      const url = `/v1/hub/search_servers`;
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          categoryKey: categoryKey,
+          locale: language || 'en',
+          page: page,
+          size: size
+        })
+      });
       
       if (!response.ok) {
         throw new Error(t('listing.fetchError') || 'Failed to fetch servers');
