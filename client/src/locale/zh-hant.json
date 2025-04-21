@@ -104,6 +104,15 @@
     "next": "下一頁",
     "itemsPerPage": "每頁項目數:"
   },
+  "search": {
+    "placeholder": "按名稱、作者或標籤搜尋 MCP 伺服器...",
+    "action": "搜尋",
+    "clear": "清除搜尋",
+    "results": "搜尋結果",
+    "noResults": "未找到與您的搜尋匹配的伺服器",
+    "tryDifferent": "嘗試使用不同的搜尋詞或瀏覽此類別中的所有伺服器",
+    "clearAndShowAll": "清除搜尋並顯示所有伺服器"
+  },
   "submit": {
     "title": "提交您的 MCP 伺服器",
     "tagline": "通過分享您的 MCP 伺服器為 MCP 生態系統做出貢獻",

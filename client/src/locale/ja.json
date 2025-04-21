@@ -105,6 +105,15 @@
     "next": "次のページ",
     "itemsPerPage": "1ページあたりの項目数:"
   },
+  "search": {
+    "placeholder": "名前、作者、タグでMCPサーバーを検索...",
+    "action": "検索",
+    "clear": "検索をクリア",
+    "results": "検索結果",
+    "noResults": "検索に一致するサーバーが見つかりません",
+    "tryDifferent": "別の検索語を試すか、このカテゴリ内のすべてのサーバーを閲覧してください",
+    "clearAndShowAll": "検索をクリアしてすべてのサーバーを表示"
+  },
   "submit": {
     "title": "MCPサーバーを提出",
     "tagline": "あなたのMCPサーバーを共有して、MCPエコシステムに貢献しましょう",

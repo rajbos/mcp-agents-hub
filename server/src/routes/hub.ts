@@ -107,15 +107,52 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     const requestedLocale = (req.body.locale as string) || 'en';
     const page = req.body.page ? parseInt(req.body.page as string) : undefined;
     const size = req.body.size ? parseInt(req.body.size as string) : undefined;
+    const searchFor = req.body.search_for as string; // Get the new search_for parameter
     
     // Get servers from cache for the requested locale
     const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
     
-    // Filter by category if categoryKey is provided
+    // Apply filters
     let filteredServers = mcpServersCache;
+    
+    // Filter by category if categoryKey is provided
     if (categoryKey) {
-      filteredServers = mcpServersCache.filter(server => server.category === categoryKey);
+      filteredServers = filteredServers.filter(server => server.category === categoryKey);
       console.log(`Filtered servers by category: ${categoryKey}, found ${filteredServers.length} servers`);
+    }
+    
+    // Filter by keyword search if searchFor is provided
+    if (searchFor && searchFor.trim() !== '') {
+      const keyword = searchFor.toLowerCase().trim();
+      console.log(`Filtering servers by keyword: "${keyword}"`);
+      
+      filteredServers = filteredServers.filter(server => {
+        // Search in name
+        if (server.name && server.name.toLowerCase().includes(keyword)) {
+          return true;
+        }
+        
+        // Search in author
+        if (server.author && server.author.toLowerCase().includes(keyword)) {
+          return true;
+        }
+        
+        // Search in description
+        if (server.description && server.description.toLowerCase().includes(keyword)) {
+          return true;
+        }
+        
+        // Search in tags
+        if (server.tags && Array.isArray(server.tags)) {
+          return server.tags.some(tag => 
+            typeof tag === 'string' && tag.toLowerCase().includes(keyword)
+          );
+        }
+        
+        return false;
+      });
+      
+      console.log(`Found ${filteredServers.length} servers matching keyword "${keyword}"`);
     }
     
     // Sort servers so that isRecommended: true servers appear first
@@ -151,7 +188,9 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
         totalPages: Math.ceil(filteredServers.length / size)
       } : {})
     });
-    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
+    
+    const searchInfo = searchFor ? `, search term: "${searchFor}"` : '';
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving filtered MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });

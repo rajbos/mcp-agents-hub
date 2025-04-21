@@ -106,6 +106,15 @@
     "next": "Next page",
     "itemsPerPage": "Items per page:"
   },
+  "search": {
+    "placeholder": "Search for MCP servers by name, author, or tags...",
+    "action": "Search",
+    "clear": "Clear search",
+    "results": "Search results for",
+    "noResults": "No servers found matching your search",
+    "tryDifferent": "Try a different search term or browse all servers in this category",
+    "clearAndShowAll": "Clear search and show all servers"
+  },
   "submit": {
     "title": "Submit Your MCP Server",
     "tagline": "Contribute to the MCP ecosystem by sharing your MCP server with the community",
