@@ -92,6 +92,7 @@
     "siteName": "MCP Hub"
   },
   "category": {
+    "all": "All Servers",
     "lastUpdated": "Last Updated",
     "noServers": "No Servers Found",
     "noServersDescription": "There are no servers available in this category at the moment.",

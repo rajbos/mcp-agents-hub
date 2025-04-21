@@ -90,6 +90,7 @@
     "siteName": "MCP Hub"
   },
   "category": {
+    "all": "Todos los Servidores",
     "lastUpdated": "Última Actualización",
     "noServers": "No Se Encontraron Servidores",
     "noServersDescription": "No hay servidores disponibles en esta categoría en este momento.",

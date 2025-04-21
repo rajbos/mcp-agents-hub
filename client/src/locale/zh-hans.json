@@ -90,6 +90,7 @@
     "siteName": "MCP 智能体中心"
   },
   "category": {
+    "all": "所有",
     "lastUpdated": "最后更新",
     "noServers": "未找到服务器",
     "noServersDescription": "此类别暂时没有可用的服务器。",

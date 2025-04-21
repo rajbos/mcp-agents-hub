@@ -91,6 +91,7 @@
     "siteName": "MCP Hub"
   },
   "category": {
+    "all": "すべてのサーバー",
     "lastUpdated": "最終更新",
     "noServers": "サーバーが見つかりません",
     "noServersDescription": "現在、このカテゴリにはサーバーがありません。",

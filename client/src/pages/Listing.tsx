@@ -38,7 +38,8 @@ export function Listing() {
 
   // Fetch servers for the given category, page, and search keyword
   const fetchServers = async (page = 1, size = pageSize, search = searchKeyword) => {
-    if (!categoryKey) return;
+    // Don't return early if categoryKey is "all", that's a valid use case for search
+    if (!categoryKey && categoryKey !== "all") return;
     
     try {
       setIsLoading(true);
@@ -50,7 +51,8 @@ export function Listing() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          categoryKey: categoryKey,
+          // When categoryKey is "all", pass null or undefined to search all categories
+          categoryKey: categoryKey === "all" ? undefined : categoryKey,
           locale: language || 'en',
           page: page,
           size: size,
@@ -210,7 +212,7 @@ export function Listing() {
               </span>
             </li>
             <li className="font-medium text-gray-900 ml-1">
-              {t(`category.${categoryKey}`) || t(`category-common.${categoryKey}`) || formatCategoryName(categoryKey)}
+              {categoryKey === "all" ? t('category.all') : (t(`category.${categoryKey}`) || t(`category-common.${categoryKey}`) || formatCategoryName(categoryKey))}
             </li>
           </ol>
         </nav>
