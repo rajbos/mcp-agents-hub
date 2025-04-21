@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "Servidores",
+    "category": "Categoría"
+  },
   "nav": {
     "home": "Inicio",
     "docs": "Documentación",
@@ -92,6 +96,13 @@
     "fetchError": "Error al obtener servidores de categoría",
     "of": "de",
     "showing": "{count} de {total}"
+  },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "previous": "Página anterior",
+    "next": "Página siguiente",
+    "itemsPerPage": "Elementos por página:"
   },
   "submit": {
     "title": "Enviar Su Servidor MCP",

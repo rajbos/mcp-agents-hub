@@ -105,6 +105,8 @@ router.get('/search_servers', async (req: Request, res: Response): Promise<void>
     // Get parameters from query
     const categoryKey = req.query.categoryKey as string;
     const requestedLocale = (req.query.locale as string) || 'en';
+    const page = req.query.page ? parseInt(req.query.page as string) : undefined;
+    const size = req.query.size ? parseInt(req.query.size as string) : undefined;
     
     // Get servers from cache for the requested locale
     const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
@@ -125,10 +127,31 @@ router.get('/search_servers', async (req: Request, res: Response): Promise<void>
       // If both have the same recommendation status, maintain original order
       return 0;
     });
+
+    // Apply pagination if parameters are provided
+    let paginatedServers = filteredServers;
+    if (page !== undefined && size !== undefined) {
+      // Validate page and size
+      if (page < 1 || size < 1) {
+        res.status(400).json({ error: 'Page and size must be positive integers' });
+        return;
+      }
+
+      const startIndex = (page - 1) * size;
+      const endIndex = startIndex + size;
+      paginatedServers = filteredServers.slice(startIndex, endIndex);
+    }
     
-    // Return filtered and sorted data
-    res.json(filteredServers);
-    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''} at ${new Date().toISOString()}`);
+    // Return filtered, sorted and paginated data
+    res.json({
+      servers: paginatedServers,
+      totalItems: filteredServers.length,
+      ...(page !== undefined && size !== undefined ? {
+        currentPage: page,
+        totalPages: Math.ceil(filteredServers.length / size)
+      } : {})
+    });
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving filtered MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });

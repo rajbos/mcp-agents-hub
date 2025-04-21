@@ -163,7 +163,7 @@ export function CategoriesDropdown({ isMobile, onSelectMobile }: CategoryProps) 
             categoryKeys.map((key, index) => (
               <Link 
                 key={index}
-                to={`/category/${key}`}
+                to={`/listing/${key}`}
                 className="text-gray-600 hover:text-indigo-600 text-sm flex items-center"
                 onClick={handleCategoryClick}
               >
@@ -228,7 +228,7 @@ export function CategoriesDropdown({ isMobile, onSelectMobile }: CategoryProps) 
               categoryKeys.map((key, index) => (
                 <Link 
                   key={index}
-                  to={`/category/${key}`}
+                  to={`/listing/${key}`}
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-indigo-600"
                   onClick={handleCategoryClick}
                 >

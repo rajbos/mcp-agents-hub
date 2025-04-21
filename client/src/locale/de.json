@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "Server",
+    "category": "Kategorie"
+  },
   "nav": {
     "home": "Startseite",
     "docs": "Dokumentation",
@@ -94,6 +98,13 @@
     "fetchError": "Fehler beim Abrufen der Kategorie-Server",
     "of": "von",
     "showing": "{count} von {total}"
+  },
+  "pagination": {
+    "showing": "Zeige",
+    "of": "von",
+    "previous": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "itemsPerPage": "Einträge pro Seite:"
   },
   "submit": {
     "title": "Ihren MCP-Server einreichen",

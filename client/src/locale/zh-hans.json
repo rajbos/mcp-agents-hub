@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "服务器",
+    "category": "分类"
+  },
   "nav": {
     "home": "首页",
     "docs": "文档",
@@ -92,6 +96,13 @@
     "fetchError": "获取类别服务器失败",
     "of": "共",
     "showing": "{count} / {total}"
+  },
+  "pagination": {
+    "showing": "显示",
+    "of": "共",
+    "previous": "上一页",
+    "next": "下一页",
+    "itemsPerPage": "每页项目数:"
   },
   "submit": {
     "title": "提交您的 MCP 服务器",

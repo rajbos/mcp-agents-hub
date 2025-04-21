@@ -1,4 +1,8 @@
 {
+  "navigation": {
+    "servers": "Servers",
+    "category": "Category"
+  },
   "nav": {
     "home": "Home",
     "docs": "Docs",
@@ -94,6 +98,13 @@
     "fetchError": "Failed to fetch category servers",
     "of": "of",
     "showing": "{count} of {total}"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "previous": "Previous page",
+    "next": "Next page",
+    "itemsPerPage": "Items per page:"
   },
   "submit": {
     "title": "Submit Your MCP Server",
