@@ -1,52 +1,84 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ServerCard } from '../components/ServerCard';
 import { MCPServer } from '../types';
 import { ChevronRight } from 'lucide-react';
 
+// Define interface for the new paginated response
+interface PaginatedResponse {
+  servers: MCPServer[];
+  totalItems: number;
+  currentPage: number;
+  totalPages: number;
+}
+
 export function Category() {
   const { t, language } = useLanguage();
   const { categoryKey } = useParams();
-  const [servers, setServers] = useState<MCPServer[]>([]);
+  const [serversData, setServersData] = useState<PaginatedResponse>({
+    servers: [],
+    totalItems: 0,
+    currentPage: 1,
+    totalPages: 1
+  });
   const [isLoading, setIsLoading] = useState(true);
-  const [visibleCount, setVisibleCount] = useState(12);
-  const LOAD_MORE_STEP = 12;
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const pageSize = 12;
+
+  // Fetch servers for the given category and page
+  const fetchCategoryServers = async (page = 1, isLoadMore = false) => {
+    if (!categoryKey) return;
+    
+    try {
+      if (!isLoadMore) {
+        setIsLoading(true);
+      } else {
+        setIsLoadingMore(true);
+      }
+      
+      const url = `/v1/hub/search_servers?categoryKey=${categoryKey}&locale=${language || 'en'}&page=${page}&size=${pageSize}`;
+      const response = await fetch(url);
+      
+      if (!response.ok) {
+        throw new Error(t('category.fetchError') || 'Failed to fetch category servers');
+      }
+      
+      const data = await response.json() as PaginatedResponse;
+      
+      if (isLoadMore) {
+        // Append new servers to existing ones
+        setServersData(prev => ({
+          ...data,
+          servers: [...prev.servers, ...data.servers]
+        }));
+      } else {
+        setServersData(data);
+      }
+    } catch (error) {
+      console.error('Error fetching category servers:', error);
+      if (!isLoadMore) {
+        setServersData({
+          servers: [],
+          totalItems: 0,
+          currentPage: 1,
+          totalPages: 1
+        });
+      }
+    } finally {
+      setIsLoading(false);
+      setIsLoadingMore(false);
+    }
+  };
 
   useEffect(() => {
-    const fetchCategoryServers = async () => {
-      if (!categoryKey) return;
-      
-      try {
-        setIsLoading(true);
-        const url = `/v1/hub/search_servers?categoryKey=${categoryKey}&locale=${language || 'en'}`;
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-          throw new Error(t('category.fetchError') || 'Failed to fetch category servers');
-        }
-        
-        const data = await response.json();
-        setServers(data);
-      } catch (error) {
-        console.error('Error fetching category servers:', error);
-        setServers([]);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
     fetchCategoryServers();
-    // Reset visible count when category changes
-    setVisibleCount(12);
   }, [categoryKey, language]);
 
-  const visibleServers = useMemo(() => {
-    return servers.slice(0, visibleCount);
-  }, [servers, visibleCount]);
-
   const handleLoadMore = () => {
-    setVisibleCount(prev => Math.min(prev + LOAD_MORE_STEP, servers.length));
+    if (serversData.currentPage < serversData.totalPages && !isLoadingMore) {
+      fetchCategoryServers(serversData.currentPage + 1, true);
+    }
   };
 
   const formatCategoryName = (key: string) => {
@@ -80,14 +112,14 @@ export function Category() {
       )}
       
       {/* Toolbar with statistics */}
-      {!isLoading && servers.length > 0 && (
+      {!isLoading && serversData.servers.length > 0 && (
         <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 flex items-center justify-between mb-6">
           <div className="flex items-center space-x-4">
             <div className="px-3 py-1 bg-blue-50 rounded-md text-blue-700 font-medium text-sm">
-              {servers.length} {servers.length === 1 ? t('common.server') : t('common.servers')}
+              {serversData.totalItems} {serversData.totalItems === 1 ? t('common.server') : t('common.servers')}
             </div>
             <div className="text-sm text-gray-600">
-              <span className="font-medium">{servers.filter(s => s.isRecommended).length}</span> {t('common.recommended')}
+              <span className="font-medium">{serversData.servers.filter(s => s.isRecommended).length}</span> {t('common.recommended')}
             </div>
           </div>
           <div className="text-sm text-gray-500">
@@ -101,7 +133,7 @@ export function Category() {
           <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-indigo-600 border-r-transparent"></div>
           <p className="mt-4 text-gray-600">{t('common.loading')}</p>
         </div>
-      ) : servers.length === 0 ? (
+      ) : serversData.servers.length === 0 ? (
         <div className="bg-white rounded-xl shadow-md p-8 text-center">
           <h2 className="text-xl font-semibold text-gray-800 mb-2">
             {t('category.noServers')}
@@ -113,23 +145,33 @@ export function Category() {
       ) : (
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {visibleServers.map((server) => (
+            {serversData.servers.map((server) => (
               <ServerCard key={server.mcpId} server={server} />
             ))}
           </div>
           
-          {visibleCount < servers.length && (
+          {serversData.currentPage < serversData.totalPages && (
             <div className="flex justify-end mt-6">
               <button 
                 onClick={handleLoadMore}
+                disabled={isLoadingMore}
                 className="text-indigo-600 hover:text-indigo-800 transition-colors duration-300 
-                flex items-center text-sm font-medium group"
+                flex items-center text-sm font-medium group disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                <span>{t('home.loadMore')}</span>
-                <span className="text-xs mx-2">
-                  ({visibleCount} {t('home.of')} {servers.length})
-                </span>
-                <ChevronRight className="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
+                {isLoadingMore ? (
+                  <div className="flex items-center">
+                    <div className="h-4 w-4 mr-2 animate-spin rounded-full border-2 border-solid border-indigo-600 border-r-transparent"></div>
+                    <span>{t('common.loading')}</span>
+                  </div>
+                ) : (
+                  <>
+                    <span>{t('home.loadMore')}</span>
+                    <span className="text-xs mx-2">
+                      ({serversData.servers.length} {t('home.of')} {serversData.totalItems})
+                    </span>
+                    <ChevronRight className="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
+                  </>
+                )}
               </button>
             </div>
           )}
