@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ServerCard } from '../components/ServerCard';
 import { MCPServer } from '../types';
-import { ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 
 // Define interface for the new paginated response
 interface PaginatedResponse {
@@ -23,21 +23,17 @@ export function Category() {
     totalPages: 1
   });
   const [isLoading, setIsLoading] = useState(true);
-  const [isLoadingMore, setIsLoadingMore] = useState(false);
-  const pageSize = 12;
+  const [pageSize, setPageSize] = useState<number>(12);
+  const pageSizeOptions = [6, 12, 24, 48];
 
   // Fetch servers for the given category and page
-  const fetchCategoryServers = async (page = 1, isLoadMore = false) => {
+  const fetchCategoryServers = async (page = 1, size = pageSize) => {
     if (!categoryKey) return;
     
     try {
-      if (!isLoadMore) {
-        setIsLoading(true);
-      } else {
-        setIsLoadingMore(true);
-      }
+      setIsLoading(true);
       
-      const url = `/v1/hub/search_servers?categoryKey=${categoryKey}&locale=${language || 'en'}&page=${page}&size=${pageSize}`;
+      const url = `/v1/hub/search_servers?categoryKey=${categoryKey}&locale=${language || 'en'}&page=${page}&size=${size}`;
       const response = await fetch(url);
       
       if (!response.ok) {
@@ -45,40 +41,38 @@ export function Category() {
       }
       
       const data = await response.json() as PaginatedResponse;
-      
-      if (isLoadMore) {
-        // Append new servers to existing ones
-        setServersData(prev => ({
-          ...data,
-          servers: [...prev.servers, ...data.servers]
-        }));
-      } else {
-        setServersData(data);
-      }
+      setServersData(data);
     } catch (error) {
       console.error('Error fetching category servers:', error);
-      if (!isLoadMore) {
-        setServersData({
-          servers: [],
-          totalItems: 0,
-          currentPage: 1,
-          totalPages: 1
-        });
-      }
+      setServersData({
+        servers: [],
+        totalItems: 0,
+        currentPage: 1,
+        totalPages: 1
+      });
     } finally {
       setIsLoading(false);
-      setIsLoadingMore(false);
     }
   };
 
   useEffect(() => {
-    fetchCategoryServers();
-  }, [categoryKey, language]);
+    fetchCategoryServers(1, pageSize);
+  }, [categoryKey, language, pageSize]);
 
-  const handleLoadMore = () => {
-    if (serversData.currentPage < serversData.totalPages && !isLoadingMore) {
-      fetchCategoryServers(serversData.currentPage + 1, true);
+  const handlePageChange = (page: number) => {
+    if (page >= 1 && page <= serversData.totalPages) {
+      fetchCategoryServers(page);
+      // Scroll to top of the list when changing pages
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+  };
+
+  const handlePageSizeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const newSize = parseInt(event.target.value, 10);
+    setPageSize(newSize);
+    // Reset to first page when changing page size
+    fetchCategoryServers(1, newSize);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const formatCategoryName = (key: string) => {
@@ -86,6 +80,44 @@ export function Category() {
       .split('-')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
+  };
+
+  // Generate array of page numbers to display
+  const getPageNumbers = () => {
+    const maxPagesToShow = 5;
+    const { currentPage, totalPages } = serversData;
+    
+    if (totalPages <= maxPagesToShow) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+    
+    // Always include first page, last page, current page and pages adjacent to current
+    let pages = [1, totalPages, currentPage];
+    
+    // Add one page before and after the current page if possible
+    if (currentPage > 1) {
+      pages.push(currentPage - 1);
+    }
+    
+    if (currentPage < totalPages) {
+      pages.push(currentPage + 1);
+    }
+    
+    // Sort and remove duplicates
+    pages = [...new Set(pages)].sort((a, b) => a - b);
+    
+    // Add ellipsis indicators
+    const result = [];
+    for (let i = 0; i < pages.length; i++) {
+      result.push(pages[i]);
+      
+      // Add ellipsis if there's a gap
+      if (pages[i + 1] && pages[i + 1] - pages[i] > 1) {
+        result.push('ellipsis');
+      }
+    }
+    
+    return result;
   };
 
   return (
@@ -150,29 +182,82 @@ export function Category() {
             ))}
           </div>
           
-          {serversData.currentPage < serversData.totalPages && (
-            <div className="flex justify-end mt-6">
-              <button 
-                onClick={handleLoadMore}
-                disabled={isLoadingMore}
-                className="text-indigo-600 hover:text-indigo-800 transition-colors duration-300 
-                flex items-center text-sm font-medium group disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {isLoadingMore ? (
-                  <div className="flex items-center">
-                    <div className="h-4 w-4 mr-2 animate-spin rounded-full border-2 border-solid border-indigo-600 border-r-transparent"></div>
-                    <span>{t('common.loading')}</span>
+          {/* Pagination Toolbar */}
+          {serversData.totalPages > 0 && (
+            <div className="mt-8 bg-white rounded-lg shadow-sm border border-gray-100 p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div className="flex flex-wrap items-center gap-4">
+                {/* Page Size Selector */}
+                <div className="flex items-center space-x-2">
+                  <label htmlFor="pageSize" className="text-sm text-gray-600">
+                    {t('pagination.itemsPerPage') || 'Items per page:'}
+                  </label>
+                  <div className="relative">
+                    <select
+                      id="pageSize"
+                      value={pageSize}
+                      onChange={handlePageSizeChange}
+                      className="appearance-none bg-white border border-gray-200 rounded-md py-1 pl-3 pr-8 text-sm text-gray-700 cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    >
+                      {pageSizeOptions.map(size => (
+                        <option key={`size-${size}`} value={size}>{size}</option>
+                      ))}
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <ChevronDown size={14} />
+                    </div>
                   </div>
-                ) : (
-                  <>
-                    <span>{t('home.loadMore')}</span>
-                    <span className="text-xs mx-2">
-                      ({serversData.servers.length} {t('home.of')} {serversData.totalItems})
-                    </span>
-                    <ChevronRight className="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
-                  </>
+                </div>
+                
+                {/* Items Showing Info */}
+                <div className="text-sm text-gray-600">
+                  {t('pagination.showing') || 'Showing'} {((serversData.currentPage - 1) * pageSize) + 1}-
+                  {Math.min(serversData.currentPage * pageSize, serversData.totalItems)} {t('pagination.of') || 'of'} {serversData.totalItems} {t('common.servers')}
+                </div>
+              </div>
+              
+              {serversData.totalPages > 1 && (
+                <div className="flex items-center space-x-1">
+                  {/* Previous Page Button */}
+                <button 
+                  onClick={() => handlePageChange(serversData.currentPage - 1)}
+                  disabled={serversData.currentPage === 1}
+                  className="px-2 py-1 rounded hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                  aria-label={t('pagination.previous') || 'Previous page'}
+                >
+                  <ChevronLeft size={18} />
+                </button>
+                
+                {/* Page Numbers */}
+                {getPageNumbers().map((page, index) => 
+                  page === 'ellipsis' ? (
+                    <span key={`ellipsis-${index}`} className="px-2 py-1">...</span>
+                  ) : (
+                    <button
+                      key={`page-${page}`}
+                      onClick={() => handlePageChange(page as number)}
+                      disabled={page === serversData.currentPage}
+                      className={`px-3 py-1 rounded text-sm transition-colors ${
+                        page === serversData.currentPage 
+                          ? 'bg-indigo-600 text-white font-medium'
+                          : 'hover:bg-gray-100 text-gray-700'
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  )
                 )}
-              </button>
+                
+                {/* Next Page Button */}
+                <button 
+                  onClick={() => handlePageChange(serversData.currentPage + 1)}
+                  disabled={serversData.currentPage === serversData.totalPages}
+                  className="px-2 py-1 rounded hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                  aria-label={t('pagination.next') || 'Next page'}
+                >
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+              )}
             </div>
           )}
         </div>

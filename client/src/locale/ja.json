@@ -94,6 +94,13 @@
     "of": "/",
     "showing": "{count} / {total}"
   },
+  "pagination": {
+    "showing": "表示中",
+    "of": "/",
+    "previous": "前のページ",
+    "next": "次のページ",
+    "itemsPerPage": "1ページあたりの項目数:"
+  },
   "submit": {
     "title": "MCPサーバーを提出",
     "tagline": "あなたのMCPサーバーを共有して、MCPエコシステムに貢献しましょう",

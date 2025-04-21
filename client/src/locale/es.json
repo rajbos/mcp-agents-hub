@@ -93,6 +93,13 @@
     "of": "de",
     "showing": "{count} de {total}"
   },
+  "pagination": {
+    "showing": "Mostrando",
+    "of": "de",
+    "previous": "Página anterior",
+    "next": "Página siguiente",
+    "itemsPerPage": "Elementos por página:"
+  },
   "submit": {
     "title": "Enviar Su Servidor MCP",
     "tagline": "Contribuya al ecosistema MCP compartiendo su servidor MCP con la comunidad",

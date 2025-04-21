@@ -95,6 +95,13 @@
     "of": "von",
     "showing": "{count} von {total}"
   },
+  "pagination": {
+    "showing": "Zeige",
+    "of": "von",
+    "previous": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "itemsPerPage": "Einträge pro Seite:"
+  },
   "submit": {
     "title": "Ihren MCP-Server einreichen",
     "tagline": "Tragen Sie zum MCP-Ökosystem bei, indem Sie Ihren MCP-Server mit der Community teilen",
