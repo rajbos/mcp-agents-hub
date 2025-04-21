@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ServerCard } from '../components/ServerCard';
 import { MCPServer } from '../types';
@@ -16,14 +16,21 @@ interface PaginatedResponse {
 export function Listing() {
   const { t, language } = useLanguage();
   const { categoryKey } = useParams();
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  
+  // Get page and size from URL or use defaults
+  const initialPage = parseInt(searchParams.get('page') || '1', 10);
+  const initialSize = parseInt(searchParams.get('size') || '12', 10);
+  
   const [serversData, setServersData] = useState<PaginatedResponse>({
     servers: [],
     totalItems: 0,
-    currentPage: 1,
+    currentPage: initialPage,
     totalPages: 1
   });
   const [isLoading, setIsLoading] = useState(true);
-  const [pageSize, setPageSize] = useState<number>(12);
+  const [pageSize, setPageSize] = useState<number>(initialSize);
   const pageSizeOptions = [6, 12, 24, 48];
 
   // Fetch servers for the given category and page
@@ -56,11 +63,15 @@ export function Listing() {
   };
 
   useEffect(() => {
-    fetchServers(1, pageSize);
-  }, [categoryKey, language, pageSize]);
+    // Use the initial page from URL parameters
+    fetchServers(initialPage, pageSize);
+  }, [categoryKey, language, initialPage, pageSize]);
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= serversData.totalPages) {
+      // Update URL with new page parameter
+      navigate(`/listing/${categoryKey}?page=${page}&size=${pageSize}`);
+      
       fetchServers(page);
       // Scroll to top of the list when changing pages
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -70,6 +81,10 @@ export function Listing() {
   const handlePageSizeChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const newSize = parseInt(event.target.value, 10);
     setPageSize(newSize);
+    
+    // Update URL with new size parameter and reset to page 1
+    navigate(`/listing/${categoryKey}?page=1&size=${newSize}`);
+    
     // Reset to first page when changing page size
     fetchServers(1, newSize);
     window.scrollTo({ top: 0, behavior: 'smooth' });
