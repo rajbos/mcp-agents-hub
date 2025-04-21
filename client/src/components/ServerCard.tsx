@@ -13,7 +13,7 @@ export function ServerCard({ server }: ServerCardProps) {
   
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <Link to={server.hubId ? `/server/${server.hubId}` : '#'} className="block p-6">
+      <Link to={server.hubId ? `/server/${server.hubId}` : '#'} className="block p-6 flex flex-col h-full">
         <div className="flex items-start justify-between">
           <div className="flex items-center space-x-3">
             {server.logoUrl ? (
@@ -48,7 +48,7 @@ export function ServerCard({ server }: ServerCardProps) {
           ))}
         </div>
         
-        <div className="mt-6 flex items-center justify-between">
+        <div className="mt-auto pt-6 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <div className="flex items-center text-gray-600">
               <Star className="h-4 w-4 text-yellow-400 mr-1" />
