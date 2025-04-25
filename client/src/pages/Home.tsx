@@ -4,10 +4,27 @@ import { ServerList } from '../components/ServerList';
 import { CountUpAnimation } from '../components/CountUpAnimation';
 import { fetchMCPServers } from '../data/servers';
 import { MCPServer } from '../types';
-import { Plug, Zap, Send } from 'lucide-react';
+import { Plug, Zap, Send, ChevronRight } from 'lucide-react';
 import { Link as IconLink } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
+
+// Import MCP server categories
+const MCP_SERVER_CATEGORIES: string[] = [
+  "browser-automation",
+  "cloud-platforms",
+  "communication",
+  "databases",
+  "file-systems",
+  "knowledge-memory",
+  "location-services",
+  "monitoring",
+  "search",
+  "version-control",
+  "integrations",
+  "other-tools",
+  "developer-tools"
+];
 
 export function Home() {
   const { t, language } = useLanguage();
@@ -128,12 +145,38 @@ export function Home() {
           title={t('home.recommendedServers')}
         />
 
-        {/* Other Servers - now using ServerList component */}
-        <ServerList 
-          isRecommended={false} 
-          initialPageSize={12} 
-          title={t('home.otherServers')}
-        />
+        {/* Categories section - showing 3 items per category */}
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+            {t('home.browseByCategory') || 'Browse by Category'}
+          </h2>
+          
+          <div className="grid grid-cols-1 gap-8">
+            {MCP_SERVER_CATEGORIES.map((categoryKey) => (
+              <div key={categoryKey} className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
+                <div className="flex justify-between items-center mb-4">
+                  <div className="flex items-center">
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      {t(`category.${categoryKey}`) || categoryKey.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                    </h3>
+                  </div>
+                  <Link 
+                    to={`/listing/${categoryKey}?page=1&size=12`}
+                    className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
+                  >
+                    {t('common.viewAll') || 'View All'}
+                    <ChevronRight size={16} className="ml-1" />
+                  </Link>
+                </div>
+                
+                <ServerList 
+                  categoryKey={categoryKey}
+                  initialPageSize={3} 
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </main>
     </>
   );
