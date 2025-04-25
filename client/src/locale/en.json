@@ -51,7 +51,8 @@
     "recommendedServers": "Recommended Servers",
     "otherServers": "Other Servers",
     "loadMore": "Load More",
-    "of": "of"
+    "of": "of",
+    "browseByCategory": "Browse by Category"
   },
   "server": {
     "by": "by",
@@ -89,7 +90,8 @@
     "server": "Server",
     "servers": "Servers",
     "recommended": "Recommended",
-    "siteName": "MCP Hub"
+    "siteName": "MCP Hub",
+    "viewAll": "View All"
   },
   "category": {
     "all": "All Servers",
@@ -114,7 +116,8 @@
     "results": "Search results for",
     "noResults": "No servers found matching your search",
     "tryDifferent": "Try a different search term or browse all servers in this category",
-    "clearAndShowAll": "Clear search and show all servers"
+    "clearAndShowAll": "Clear search and show all servers",
+    "recommendedOnly": "Recommended only"
   },
   "submit": {
     "title": "Submit Your MCP Server",

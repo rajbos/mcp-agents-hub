@@ -49,7 +49,8 @@
     "recommendedServers": "推薦的 MCP 伺服器服務",
     "otherServers": "其他 MCP 伺服器服務",
     "loadMore": "讀取更多",
-    "of": "共"
+    "of": "共",
+    "browseByCategory": "按分類瀏覽"
   },
   "server": {
     "by": "作者",
@@ -87,7 +88,8 @@
     "server": "伺服器",
     "servers": "伺服器",
     "recommended": "推薦",
-    "siteName": "MCP Agents 中心"
+    "siteName": "MCP Agents 中心",
+    "viewAll": "查看全部"
   },
   "category": {
     "lastUpdated": "最後更新",
@@ -111,7 +113,8 @@
     "results": "搜尋結果",
     "noResults": "未找到與您的搜尋匹配的伺服器",
     "tryDifferent": "嘗試使用不同的搜尋詞或瀏覽此類別中的所有伺服器",
-    "clearAndShowAll": "清除搜尋並顯示所有伺服器"
+    "clearAndShowAll": "清除搜尋並顯示所有伺服器",
+    "recommendedOnly": "僅顯示推薦"
   },
   "submit": {
     "title": "提交您的 MCP 伺服器",
