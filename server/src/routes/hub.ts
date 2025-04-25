@@ -108,6 +108,8 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     const page = req.body.page ? parseInt(req.body.page as string) : undefined;
     const size = req.body.size ? parseInt(req.body.size as string) : undefined;
     const searchFor = req.body.search_for as string; // Get the new search_for parameter
+    const isRecommended = req.body.isRecommended !== undefined ? 
+      req.body.isRecommended === 'true' || req.body.isRecommended === true : undefined; // Get the isRecommended parameter
     
     // Get servers from cache for the requested locale
     const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
@@ -119,6 +121,12 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     if (categoryKey) {
       filteredServers = filteredServers.filter(server => server.category === categoryKey);
       console.log(`Filtered servers by category: ${categoryKey}, found ${filteredServers.length} servers`);
+    }
+    
+    // Filter by isRecommended status if provided
+    if (isRecommended !== undefined) {
+      filteredServers = filteredServers.filter(server => server.isRecommended === isRecommended);
+      console.log(`Filtered servers by recommendation status: ${isRecommended}, found ${filteredServers.length} servers`);
     }
     
     // Filter by keyword search if searchFor is provided
@@ -190,7 +198,8 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     });
     
     const searchInfo = searchFor ? `, search term: "${searchFor}"` : '';
-    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
+    const recommendedInfo = isRecommended !== undefined ? `, isRecommended: ${isRecommended}` : '';
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${recommendedInfo}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving filtered MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
