@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/makenotion/notion-mcp-server",
+  "githubUrl": "https://github.com/makenotion/notion-mcp-server",
+  "name": "Notion MCP Server",
+  "author": "makenotion",
+  "description": "This project implements an MCP server for the Notion API, allowing integration with various clients.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [
+    "project",
+    "implements",
+    "server",
+    "notion",
+    "allowing"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-24T09:11:37.142Z",
+  "updatedAt": "2025-04-24T09:11:37.142Z",
+  "hubId": "280457a7-5a11-405c-a08a-32efd09d69c7"
+}
