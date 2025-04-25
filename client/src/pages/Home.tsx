@@ -1,10 +1,10 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { SearchBar } from '../components/SearchBar';
-import { ServerCard } from '../components/ServerCard';
+import { ServerList } from '../components/ServerList';
 import { CountUpAnimation } from '../components/CountUpAnimation';
 import { fetchMCPServers } from '../data/servers';
 import { MCPServer } from '../types';
-import { Plug, Zap, ChevronRight, Send } from 'lucide-react';
+import { Plug, Zap, Send } from 'lucide-react';
 import { Link as IconLink } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -13,12 +13,7 @@ export function Home() {
   const { t, language } = useLanguage();
   const navigate = useNavigate();
   const [inputQuery, setInputQuery] = useState('');
-  const [searchQuery, setSearchQuery] = useState('');
   const [servers, setServers] = useState<MCPServer[]>([]);
-  const [visibleRecommendedCount, setVisibleRecommendedCount] = useState(6);
-  const [visibleOtherCount, setVisibleOtherCount] = useState(12);
-  const RECOMMENDED_STEP = 6;
-  const OTHER_STEP = 12;
 
   useEffect(() => {
     const loadServers = async () => {
@@ -28,53 +23,12 @@ export function Home() {
     loadServers();
   }, [language]); // Add language as dependency to reload when language changes
 
-  useEffect(() => {
-    setVisibleRecommendedCount(6);
-    setVisibleOtherCount(12);
-  }, [searchQuery]);
-
   const handleSearch = (query: string) => {
     if (query.trim()) {
       // Redirect to the listing page with the search keyword
       navigate(`/listing/all?page=1&size=12&search=${encodeURIComponent(query)}`);
-    } else {
-      // If empty search, just update local state
-      setSearchQuery('');
     }
   };
-
-  const filteredServers = useMemo(() => {
-    const query = searchQuery.toLowerCase();
-    return servers.filter((server) => (
-      server.name.toLowerCase().includes(query) ||
-      server.author.toLowerCase().includes(query) ||
-      server.description.toLowerCase().includes(query) ||
-      server.tags.some((tag) => tag.toLowerCase().includes(query))
-    ));
-  }, [searchQuery, servers]);
-
-  const recommendedServers = useMemo(() => {
-    return filteredServers.filter(server => server.isRecommended);
-  }, [filteredServers]);
-
-  const otherServers = useMemo(() => {
-    return filteredServers.filter(server => !server.isRecommended);
-  }, [filteredServers]);
-
-  const handleLoadMoreRecommended = () => {
-    setVisibleRecommendedCount(prev => 
-      Math.min(prev + RECOMMENDED_STEP, recommendedServers.length)
-    );
-  };
-
-  const handleLoadMoreOther = () => {
-    setVisibleOtherCount(prev => 
-      Math.min(prev + OTHER_STEP, otherServers.length)
-    );
-  };
-
-  const visibleRecommendedServers = recommendedServers.slice(0, visibleRecommendedCount);
-  const visibleOtherServers = otherServers.slice(0, visibleOtherCount);
 
   return (
     <>
@@ -167,61 +121,19 @@ export function Home() {
           </div>
         </div>
 
-        {recommendedServers.length > 0 && (
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
-              {t('home.recommendedServers')}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {visibleRecommendedServers.map((server) => (
-                <ServerCard key={server.mcpId} server={server} />
-              ))}
-            </div>
-            {visibleRecommendedCount < recommendedServers.length && (
-              <div className="flex justify-end mt-6">
-                <button 
-                  onClick={handleLoadMoreRecommended}
-                  className="text-indigo-600 hover:text-indigo-800 transition-colors duration-300 
-                  flex items-center text-sm font-medium group"
-                >
-                  <span>{t('home.loadMore')}</span>
-                  <span className="text-xs mx-2">
-                    ({visibleRecommendedCount} {t('home.of')} {recommendedServers.length})
-                  </span>
-                  <ChevronRight className="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
-                </button>
-              </div>
-            )}
-          </div>
-        )}
+        {/* Recommended Servers - now using ServerList component */}
+        <ServerList 
+          isRecommended={true} 
+          initialPageSize={6} 
+          title={t('home.recommendedServers')}
+        />
 
-        {otherServers.length > 0 && (
-          <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b border-gray-200">
-              {otherServers.length > 0 && recommendedServers.length > 0 ? t('home.otherServers') : ''}
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {visibleOtherServers.map((server) => (
-                <ServerCard key={server.mcpId} server={server} />
-              ))}
-            </div>
-            {visibleOtherCount < otherServers.length && (
-              <div className="flex justify-end mt-6">
-                <button 
-                  onClick={handleLoadMoreOther}
-                  className="text-indigo-600 hover:text-indigo-800 transition-colors duration-300 
-                  flex items-center text-sm font-medium group"
-                >
-                  <span>{t('home.loadMore')}</span>
-                  <span className="text-xs mx-2">
-                    ({visibleOtherCount} {t('home.of')} {otherServers.length})
-                  </span>
-                  <ChevronRight className="h-5 w-5 ml-1 group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
-                </button>
-              </div>
-            )}
-          </div>
-        )}
+        {/* Other Servers - now using ServerList component */}
+        <ServerList 
+          isRecommended={false} 
+          initialPageSize={12} 
+          title={t('home.otherServers')}
+        />
       </main>
     </>
   );
