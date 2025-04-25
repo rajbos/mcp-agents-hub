@@ -9,28 +9,13 @@ import { Link as IconLink } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 
-// Import MCP server categories
-const MCP_SERVER_CATEGORIES: string[] = [
-  "browser-automation",
-  "cloud-platforms",
-  "communication",
-  "databases",
-  "file-systems",
-  "knowledge-memory",
-  "location-services",
-  "monitoring",
-  "search",
-  "version-control",
-  "integrations",
-  "other-tools",
-  "developer-tools"
-];
-
 export function Home() {
   const { t, language } = useLanguage();
   const navigate = useNavigate();
   const [inputQuery, setInputQuery] = useState('');
   const [servers, setServers] = useState<MCPServer[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [isLoadingCategories, setIsLoadingCategories] = useState(true);
 
   useEffect(() => {
     const loadServers = async () => {
@@ -39,6 +24,29 @@ export function Home() {
     };
     loadServers();
   }, [language]); // Add language as dependency to reload when language changes
+  
+  // Fetch categories from API
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        setIsLoadingCategories(true);
+        const response = await fetch('/v1/hub/server_categories');
+        if (!response.ok) {
+          throw new Error('Failed to fetch categories');
+        }
+        const data = await response.json();
+        setCategories(data);
+      } catch (error) {
+        console.error('Error fetching categories:', error);
+        // Use empty array if the API call fails
+        setCategories([]);
+      } finally {
+        setIsLoadingCategories(false);
+      }
+    };
+
+    fetchCategories();
+  }, []);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -152,29 +160,33 @@ export function Home() {
           </h2>
           
           <div className="grid grid-cols-1 gap-8">
-            {MCP_SERVER_CATEGORIES.map((categoryKey) => (
-              <div key={categoryKey} className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <div className="flex items-center">
-                    <h3 className="text-xl font-semibold text-gray-900">
-                      {t(`category.${categoryKey}`) || categoryKey.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
-                    </h3>
+            {isLoadingCategories ? (
+              <div className="text-center p-8 text-gray-500">Loading categories...</div>
+            ) : (
+              categories.map((categoryKey: string) => (
+                <div key={categoryKey} className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
+                  <div className="flex justify-between items-center mb-4">
+                    <div className="flex items-center">
+                      <h3 className="text-xl font-semibold text-gray-900">
+                        {t(`category.${categoryKey}`) || categoryKey.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                      </h3>
+                    </div>
+                    <Link 
+                      to={`/listing/${categoryKey}?page=1&size=12`}
+                      className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
+                    >
+                      {t('common.viewAll') || 'View All'}
+                      <ChevronRight size={16} className="ml-1" />
+                    </Link>
                   </div>
-                  <Link 
-                    to={`/listing/${categoryKey}?page=1&size=12`}
-                    className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
-                  >
-                    {t('common.viewAll') || 'View All'}
-                    <ChevronRight size={16} className="ml-1" />
-                  </Link>
+                  
+                  <ServerList 
+                    categoryKey={categoryKey}
+                    initialPageSize={3} 
+                  />
                 </div>
-                
-                <ServerList 
-                  categoryKey={categoryKey}
-                  initialPageSize={3} 
-                />
-              </div>
-            ))}
+              ))
+            )}
           </div>
         </div>
       </main>
