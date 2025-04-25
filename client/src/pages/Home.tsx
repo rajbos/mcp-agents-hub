@@ -230,11 +230,24 @@ export function Home() {
         </div>
 
         {/* Recommended Servers - now using ServerList component */}
-        <ServerList 
-          isRecommended={true} 
-          initialPageSize={6} 
-          title={t('home.recommendedServers')}
-        />
+        <div>
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-semibold text-gray-900">
+              {t('home.recommendedServers')}{servers.filter(s => s.isRecommended).length > 0 ? ` (${servers.filter(s => s.isRecommended).length})` : ''}
+            </h3>
+            <Link 
+              to={`/listing/all?page=1&size=12&isRecommended=true`}
+              className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
+            >
+              {t('common.viewAll') || 'View All'}
+              <ChevronRight size={16} className="ml-1" />
+            </Link>
+          </div>
+          <ServerList 
+            isRecommended={true} 
+            initialPageSize={6} 
+          />
+        </div>
 
         {/* Categories section - showing all categories in a unified style */}
         <div className="mt-16">

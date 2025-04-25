@@ -136,9 +136,12 @@ export function ServerList({
           </h3>
         )}
         
+        {/* This empty div ensures pagination is pushed to the right even when there's no title */}
+        {!title && <div></div>}
+        
         {/* Pagination controls at the top-right */}
         {serversData.totalPages > 1 && !isLoading && (
-          <div className="flex items-center space-x-1">
+          <div className="flex items-center space-x-1 ml-auto">
             <button 
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
