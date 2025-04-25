@@ -57,46 +57,6 @@ export function Home() {
       const counts: Record<string, number> = {};
       
       // Fetch counts for each category in parallel
-      const countPromises = categories.map(async (categoryKey) => {
-        try {
-          const response = await fetch(`/v1/hub/search_servers`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-              categoryKey,
-              locale: language || 'en',
-              page: 1,
-              size: 1 // We only need total count, not the actual servers
-            })
-          });
-          
-          if (response.ok) {
-            const data = await response.json();
-            counts[categoryKey] = data.totalItems;
-          }
-        } catch (error) {
-          console.error(`Error fetching count for category ${categoryKey}:`, error);
-          counts[categoryKey] = 0;
-        }
-      });
-      
-      await Promise.all(countPromises);
-      setCategoryCounts(counts);
-    };
-
-    fetchCategoryCounts();
-  }, [categories, language, isLoadingCategories]);
-
-  // Fetch counts for each category
-  useEffect(() => {
-    const fetchCategoryCounts = async () => {
-      if (categories.length === 0) return;
-      
-      const counts: Record<string, number> = {};
-      
-      // Fetch counts for each category in parallel
       const promises = categories.map(async (categoryKey) => {
         try {
           const response = await fetch(`/v1/hub/search_servers`, {
@@ -126,9 +86,7 @@ export function Home() {
       setCategoryCounts(counts);
     };
 
-    if (!isLoadingCategories) {
-      fetchCategoryCounts();
-    }
+    fetchCategoryCounts();
   }, [categories, language, isLoadingCategories]);
 
   const handleSearch = (query: string) => {
@@ -149,7 +107,7 @@ export function Home() {
               duration={2500} 
               className="text-lg font-bold text-amber-800" 
             />
-            <span className="ml-2 text-lg text-amber-700">{t('home.serverCount', { count: servers.length })}</span>
+            <span className="ml-2 text-lg text-amber-700">{t('home.serverCount')} ({servers.length})</span>
           </div>
         </div>
       </div>
