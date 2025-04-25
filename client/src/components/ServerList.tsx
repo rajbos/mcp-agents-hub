@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ServerCard } from './ServerCard';
 import { MCPServer } from '../types';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -37,6 +37,9 @@ export function ServerList({
   const [isLoading, setIsLoading] = useState(true);
   const [pageSize, setPageSize] = useState<number>(initialPageSize);
   const [currentPage, setCurrentPage] = useState<number>(1);
+  const [animationDirection, setAnimationDirection] = useState<'left' | 'right' | null>(null);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const listContainerRef = useRef<HTMLDivElement>(null);
 
   // Fetch servers with the given parameters
   const fetchServers = async (page = 1, size = pageSize) => {
@@ -81,11 +84,36 @@ export function ServerList({
   useEffect(() => {
     fetchServers(currentPage, pageSize);
   }, [categoryKey, language, searchKeyword, isRecommended, pageSize, currentPage]);
+  
+  // Reset animation state when new data is loaded
+  useEffect(() => {
+    if (!isLoading && animationDirection) {
+      // Wait for DOM to be updated with new content
+      setTimeout(() => {
+        setAnimationDirection(null);
+      }, 50);
+    }
+  }, [isLoading, serversData]);
 
   const handlePageChange = (page: number) => {
-    if (page >= 1 && page <= serversData.totalPages) {
-      setCurrentPage(page);
-      // Don't scroll to top when changing pages via pagination arrows
+    if (page >= 1 && page <= serversData.totalPages && !isLoading) {
+      // Set animation direction based on which way we're moving
+      const direction = page > currentPage ? 'left' : 'right';
+      setAnimationDirection(direction);
+      
+      // Start animation
+      setIsAnimating(true);
+      
+      // Update the page after a short delay to allow animation to complete
+      setTimeout(() => {
+        setCurrentPage(page);
+        
+        // Reset animation state after the page has changed and content is loaded
+        setTimeout(() => {
+          setAnimationDirection(null);
+          setIsAnimating(false);
+        }, 50);
+      }, 300);
     }
   };
 
@@ -200,7 +228,14 @@ export function ServerList({
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div 
+            ref={listContainerRef}
+            className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300 ease-in-out ${
+              animationDirection === 'left' ? 'translate-x-[-100%] opacity-0' : 
+              animationDirection === 'right' ? 'translate-x-[100%] opacity-0' : 
+              'translate-x-0 opacity-100'
+            }`}
+          >
             {serversData.servers.map((server) => (
               <ServerCard key={server.mcpId} server={server} />
             ))}
