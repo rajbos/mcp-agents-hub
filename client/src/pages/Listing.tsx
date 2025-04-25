@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate, useLocation, useSearchParams } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ServerCard } from '../components/ServerCard';
 import { MCPServer } from '../types';
@@ -19,10 +19,12 @@ export function Listing() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   
-  // Get page, size, and search from URL or use defaults
+  // Get page, size, search, and isRecommended from URL or use defaults
   const initialPage = parseInt(searchParams.get('page') || '1', 10);
   const initialSize = parseInt(searchParams.get('size') || '12', 10);
   const initialSearch = searchParams.get('search') || '';
+  // Check both 'recommended' and 'isRecommended' in URL params
+  const initialIsRecommended = searchParams.get('recommended') === 'true' || searchParams.get('isRecommended') === 'true';
   
   const [serversData, setServersData] = useState<PaginatedResponse>({
     servers: [],
@@ -35,9 +37,10 @@ export function Listing() {
   const pageSizeOptions = [6, 12, 24, 48];
   const [searchKeyword, setSearchKeyword] = useState<string>(initialSearch);
   const [searchInputValue, setSearchInputValue] = useState<string>(initialSearch);
+  const [isRecommended, setIsRecommended] = useState<boolean>(initialIsRecommended);
 
   // Fetch servers for the given category, page, and search keyword
-  const fetchServers = async (page = 1, size = pageSize, search = searchKeyword) => {
+  const fetchServers = async (page = 1, size = pageSize, search = searchKeyword, recommended = isRecommended) => {
     // Don't return early if categoryKey is "all", that's a valid use case for search
     if (!categoryKey && categoryKey !== "all") return;
     
@@ -56,7 +59,8 @@ export function Listing() {
           locale: language || 'en',
           page: page,
           size: size,
-          search_for: search || undefined
+          search_for: search || undefined,
+          isRecommended: recommended || undefined
         })
       });
       
@@ -81,16 +85,17 @@ export function Listing() {
 
   useEffect(() => {
     // Use the initial parameters from URL
-    fetchServers(initialPage, pageSize, searchKeyword);
-  }, [categoryKey, language, initialPage, pageSize]);
+    fetchServers(initialPage, pageSize, searchKeyword, isRecommended);
+  }, [categoryKey, language, initialPage, pageSize, isRecommended]);
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= serversData.totalPages) {
       // Update URL with new page parameter
       const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
-      navigate(`/listing/${categoryKey}?page=${page}&size=${pageSize}${searchParam}`);
+      const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+      navigate(`/listing/${categoryKey}?page=${page}&size=${pageSize}${searchParam}${recommendedParam}`);
       
-      fetchServers(page, pageSize, searchKeyword);
+      fetchServers(page, pageSize, searchKeyword, isRecommended);
       // Scroll to top of the list when changing pages
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -102,10 +107,11 @@ export function Listing() {
     
     // Update URL with new size parameter and reset to page 1
     const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
-    navigate(`/listing/${categoryKey}?page=1&size=${newSize}${searchParam}`);
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    navigate(`/listing/${categoryKey}?page=1&size=${newSize}${searchParam}${recommendedParam}`);
     
     // Reset to first page when changing page size
-    fetchServers(1, newSize, searchKeyword);
+    fetchServers(1, newSize, searchKeyword, isRecommended);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -114,10 +120,11 @@ export function Listing() {
     setSearchKeyword(searchInputValue);
     
     // Update URL with search parameter and reset to page 1
-    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchInputValue ? `&search=${encodeURIComponent(searchInputValue)}` : ''}`);
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchInputValue ? `&search=${encodeURIComponent(searchInputValue)}` : ''}${recommendedParam}`);
     
     // Search with the new keyword
-    fetchServers(1, pageSize, searchInputValue);
+    fetchServers(1, pageSize, searchInputValue, isRecommended);
   };
 
   const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -129,10 +136,11 @@ export function Listing() {
     setSearchKeyword('');
     
     // Update URL without search parameter and reset to page 1
-    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}`);
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${recommendedParam}`);
     
     // Reset search
-    fetchServers(1, pageSize, '');
+    fetchServers(1, pageSize, '', isRecommended);
   };
 
   const formatCategoryName = (key: string) => {
@@ -140,6 +148,20 @@ export function Listing() {
       .split('-')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
+  };
+
+  // Handle toggling the recommended filter
+  const handleRecommendedToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newRecommendedValue = e.target.checked;
+    setIsRecommended(newRecommendedValue);
+    
+    // Update URL with recommended parameter
+    const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
+    const recommendedParam = newRecommendedValue ? `&isRecommended=true` : '';
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}`);
+    
+    // Fetch with the new filter
+    fetchServers(1, pageSize, searchKeyword, newRecommendedValue);
   };
 
   // Generate array of page numbers to display
@@ -253,26 +275,43 @@ export function Listing() {
               {t('search.action')}
             </button>
           </div>
-          {searchKeyword && (
-            <div className="mt-3 flex items-center">
-              <span className="text-sm text-gray-600 mr-2">
-                {t('search.results')}:
-              </span>
-              <span className="px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-medium flex items-center">
-                {searchKeyword}
-                <button
-                  type="button"
-                  onClick={handleClearSearch}
-                  className="ml-1 text-indigo-500 hover:text-indigo-700 focus:outline-none"
-                  aria-label={t('search.clear')}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </span>
+          
+          <div className="mt-3 flex flex-wrap justify-between items-center">
+            {/* Recommended-only filter */}
+            <div className="flex items-center">
+              <label className="flex items-center text-sm text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isRecommended}
+                  onChange={handleRecommendedToggle}
+                  className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                />
+                {t('search.recommendedOnly') || "Recommended only"}
+              </label>
             </div>
-          )}
+            
+            {/* Search keyword display */}
+            {searchKeyword && (
+              <div className="flex items-center">
+                <span className="text-sm text-gray-600 mr-2">
+                  {t('search.results')}:
+                </span>
+                <span className="px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-medium flex items-center">
+                  {searchKeyword}
+                  <button
+                    type="button"
+                    onClick={handleClearSearch}
+                    className="ml-1 text-indigo-500 hover:text-indigo-700 focus:outline-none"
+                    aria-label={t('search.clear')}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </span>
+              </div>
+            )}
+          </div>
         </form>
       </div>
       

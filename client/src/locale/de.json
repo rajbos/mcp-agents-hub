@@ -51,7 +51,8 @@
     "recommendedServers": "Empfohlene Server",
     "otherServers": "Andere Server",
     "loadMore": "Mehr laden",
-    "of": "von"
+    "of": "von",
+    "browseByCategory": "Nach Kategorie durchsuchen"
   },
   "server": {
     "by": "von",
@@ -89,7 +90,8 @@
     "server": "Server",
     "servers": "Server",
     "recommended": "Empfohlen",
-    "siteName": "MCP Agents Hub"
+    "siteName": "MCP Agents Hub",
+    "viewAll": "Alle anzeigen"
   },
   "category": {
     "lastUpdated": "Zuletzt aktualisiert",
@@ -113,7 +115,8 @@
     "results": "Suchergebnisse für",
     "noResults": "Keine Server gefunden, die Ihrer Suche entsprechen",
     "tryDifferent": "Versuchen Sie einen anderen Suchbegriff oder durchsuchen Sie alle Server in dieser Kategorie",
-    "clearAndShowAll": "Suche löschen und alle Server anzeigen"
+    "clearAndShowAll": "Suche löschen und alle Server anzeigen",
+    "recommendedOnly": "Nur empfohlene"
   },
   "submit": {
     "title": "Ihren MCP-Server einreichen",

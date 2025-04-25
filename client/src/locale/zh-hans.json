@@ -49,7 +49,8 @@
     "recommendedServers": "推荐服务器",
     "otherServers": "其他服务器",
     "loadMore": "加载更多",
-    "of": "共"
+    "of": "共",
+    "browseByCategory": "按分类浏览"
   },
   "server": {
     "by": "作者",
@@ -87,7 +88,8 @@
     "server": "服务器",
     "servers": "服务器",
     "recommended": "推荐",
-    "siteName": "MCP 智能体中心"
+    "siteName": "MCP 智能体中心",
+    "viewAll": "查看全部"
   },
   "category": {
     "all": "所有",
@@ -112,7 +114,8 @@
     "results": "搜索结果",
     "noResults": "未找到与您的搜索匹配的服务器",
     "tryDifferent": "尝试使用不同的搜索词或浏览此类别中的所有服务器",
-    "clearAndShowAll": "清除搜索并显示所有服务器"
+    "clearAndShowAll": "清除搜索并显示所有服务器",
+    "recommendedOnly": "仅显示推荐"
   },
   "submit": {
     "title": "提交您的 MCP 服务器",
