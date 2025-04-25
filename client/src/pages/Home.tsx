@@ -16,6 +16,7 @@ export function Home() {
   const [servers, setServers] = useState<MCPServer[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [isLoadingCategories, setIsLoadingCategories] = useState(true);
+  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     const loadServers = async () => {
@@ -47,6 +48,88 @@ export function Home() {
 
     fetchCategories();
   }, []);
+  
+  // Fetch counts for each category
+  useEffect(() => {
+    const fetchCategoryCounts = async () => {
+      if (categories.length === 0 || isLoadingCategories) return;
+      
+      const counts: Record<string, number> = {};
+      
+      // Fetch counts for each category in parallel
+      const countPromises = categories.map(async (categoryKey) => {
+        try {
+          const response = await fetch(`/v1/hub/search_servers`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              categoryKey,
+              locale: language || 'en',
+              page: 1,
+              size: 1 // We only need total count, not the actual servers
+            })
+          });
+          
+          if (response.ok) {
+            const data = await response.json();
+            counts[categoryKey] = data.totalItems;
+          }
+        } catch (error) {
+          console.error(`Error fetching count for category ${categoryKey}:`, error);
+          counts[categoryKey] = 0;
+        }
+      });
+      
+      await Promise.all(countPromises);
+      setCategoryCounts(counts);
+    };
+
+    fetchCategoryCounts();
+  }, [categories, language, isLoadingCategories]);
+
+  // Fetch counts for each category
+  useEffect(() => {
+    const fetchCategoryCounts = async () => {
+      if (categories.length === 0) return;
+      
+      const counts: Record<string, number> = {};
+      
+      // Fetch counts for each category in parallel
+      const promises = categories.map(async (categoryKey) => {
+        try {
+          const response = await fetch(`/v1/hub/search_servers`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              categoryKey,
+              locale: language || 'en',
+              page: 1,
+              size: 1 // We only need total count, not the actual servers
+            })
+          });
+          
+          if (response.ok) {
+            const data = await response.json();
+            counts[categoryKey] = data.totalItems;
+          }
+        } catch (error) {
+          console.error(`Error fetching count for category ${categoryKey}:`, error);
+          counts[categoryKey] = 0;
+        }
+      });
+      
+      await Promise.all(promises);
+      setCategoryCounts(counts);
+    };
+
+    if (!isLoadingCategories) {
+      fetchCategoryCounts();
+    }
+  }, [categories, language, isLoadingCategories]);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -153,24 +236,23 @@ export function Home() {
           title={t('home.recommendedServers')}
         />
 
-        {/* Categories section - showing 3 items per category */}
+        {/* Categories section - showing all categories in a unified style */}
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             {t('home.browseByCategory') || 'Browse by Category'}
           </h2>
           
-          <div className="grid grid-cols-1 gap-8">
-            {isLoadingCategories ? (
-              <div className="text-center p-8 text-gray-500">Loading categories...</div>
-            ) : (
-              categories.map((categoryKey: string) => (
-                <div key={categoryKey} className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
+          {isLoadingCategories ? (
+            <div className="text-center p-8 text-gray-500">Loading categories...</div>
+          ) : (
+            <div className="space-y-12">
+              {categories.map((categoryKey: string) => (
+                <div key={categoryKey}>
                   <div className="flex justify-between items-center mb-4">
-                    <div className="flex items-center">
-                      <h3 className="text-xl font-semibold text-gray-900">
-                        {t(`category.${categoryKey}`) || categoryKey.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
-                      </h3>
-                    </div>
+                    <h3 className="text-xl font-semibold text-gray-900">
+                      {t(`category.${categoryKey}`) || categoryKey.split('-').map((word: string) => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
+                      {categoryCounts[categoryKey] > 0 && ` (${categoryCounts[categoryKey]})`}
+                    </h3>
                     <Link 
                       to={`/listing/${categoryKey}?page=1&size=12`}
                       className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
@@ -185,9 +267,10 @@ export function Home() {
                     initialPageSize={3} 
                   />
                 </div>
-              ))
-            )}
-          </div>
+              ))}
+            </div>
+          )}
+          
         </div>
       </main>
     </>
