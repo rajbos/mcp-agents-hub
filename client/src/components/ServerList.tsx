@@ -117,43 +117,7 @@ export function ServerList({
     }
   };
 
-  // Generate array of page numbers to display
-  const getPageNumbers = () => {
-    const maxPagesToShow = 5;
-    const { currentPage: page, totalPages } = serversData;
-    
-    if (totalPages <= maxPagesToShow) {
-      return Array.from({ length: totalPages }, (_, i) => i + 1);
-    }
-    
-    // Always include first page, last page, current page and pages adjacent to current
-    let pages = [1, totalPages, page];
-    
-    // Add one page before and after the current page if possible
-    if (page > 1) {
-      pages.push(page - 1);
-    }
-    
-    if (page < totalPages) {
-      pages.push(page + 1);
-    }
-    
-    // Sort and remove duplicates
-    pages = [...new Set(pages)].sort((a, b) => a - b);
-    
-    // Add ellipsis indicators
-    const result = [];
-    for (let i = 0; i < pages.length; i++) {
-      result.push(pages[i]);
-      
-      // Add ellipsis if there's a gap
-      if (pages[i + 1] && pages[i + 1] - pages[i] > 1) {
-        result.push('ellipsis');
-      }
-    }
-    
-    return result;
-  };
+  // No longer need page numbers generation since we only show prev/next navigation
 
   return (
     <div className="mb-12">
@@ -169,7 +133,7 @@ export function ServerList({
         
         {/* Pagination controls at the top-right */}
         {serversData.totalPages > 1 && !isLoading && (
-          <div className="flex items-center space-x-1 ml-auto">
+          <div className="flex items-center space-x-4 ml-auto">
             <button 
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
@@ -179,25 +143,10 @@ export function ServerList({
               <ChevronLeft size={16} />
             </button>
             
-            {/* Page Numbers */}
-            {getPageNumbers().map((page, index) => 
-              page === 'ellipsis' ? (
-                <span key={`ellipsis-${index}`} className="px-2 py-1 text-sm">...</span>
-              ) : (
-                <button
-                  key={`page-${page}`}
-                  onClick={() => handlePageChange(page as number)}
-                  disabled={page === currentPage}
-                  className={`px-2 py-1 rounded text-sm transition-colors ${
-                    page === currentPage 
-                      ? 'bg-indigo-600 text-white font-medium'
-                      : 'hover:bg-gray-100 text-gray-700'
-                  }`}
-                >
-                  {page}
-                </button>
-              )
-            )}
+            {/* Page count display in the middle */}
+            <span className="text-sm text-gray-500">
+              {serversData.currentPage} / {serversData.totalPages}
+            </span>
             
             <button 
               onClick={() => handlePageChange(currentPage + 1)}
@@ -207,10 +156,6 @@ export function ServerList({
             >
               <ChevronRight size={16} />
             </button>
-            
-            <span className="text-sm text-gray-500 ml-2">
-              {serversData.currentPage} / {serversData.totalPages}
-            </span>
           </div>
         )}
       </div>
