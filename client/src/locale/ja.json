@@ -48,6 +48,8 @@
     },
     "serverCount": "利用可能なMCPサーバー",
     "recommendedServers": "おすすめサーバー",
+    "officialIntegrations": "公式インテグレーション",
+    "referenceServers": "リファレンスサーバー",
     "otherServers": "その他のサーバー",
     "loadMore": "もっと読み込む",
     "of": "/",

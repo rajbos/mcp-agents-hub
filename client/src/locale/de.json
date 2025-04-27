@@ -49,6 +49,8 @@
     },
     "serverCount": "Verfügbare MCP-Server",
     "recommendedServers": "Empfohlene Server",
+    "officialIntegrations": "Offizielle Integrationen",
+    "referenceServers": "Referenz-Server",
     "otherServers": "Andere Server",
     "loadMore": "Mehr laden",
     "of": "von",

@@ -49,6 +49,8 @@
     },
     "serverCount": "MCP servers available",
     "recommendedServers": "Recommended Servers",
+    "officialIntegrations": "Official Integrations",
+    "referenceServers": "Reference Servers",
     "otherServers": "Other Servers",
     "loadMore": "Load More",
     "of": "of",

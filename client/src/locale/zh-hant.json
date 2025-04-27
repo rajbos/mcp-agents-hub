@@ -47,6 +47,8 @@
     },
     "serverCount": "MCP 伺服器服務可用個數",
     "recommendedServers": "推薦的 MCP 伺服器服務",
+    "officialIntegrations": "官方整合",
+    "referenceServers": "參考伺服器",
     "otherServers": "其他 MCP 伺服器服務",
     "loadMore": "讀取更多",
     "of": "共",
