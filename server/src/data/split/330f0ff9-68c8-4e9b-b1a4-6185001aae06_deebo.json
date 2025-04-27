@@ -1,7 +1,7 @@
 {
-  "mcpId": "github.com/pathintegral-institute/mcpm.sh",
-  "githubUrl": "https://github.com/pathintegral-institute/mcpm.sh",
-  "name": "mcpm",
+  "mcpId": "github.com/snagasuri/deebo-prototype",
+  "githubUrl": "https://github.com/snagasuri/deebo-prototype",
+  "name": "Deebo",
   "description": "",
   "codiconIcon": "",
   "logoUrl": "",
@@ -11,9 +11,9 @@
   "isRecommended": false,
   "githubStars": 0,
   "downloadCount": 0,
-  "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
-  "hubId": "73126158-69db-4b43-8d4f-92ded15ee0a9",
+  "createdAt": "2025-04-27T15:33:15.229Z",
+  "updatedAt": "2025-04-27T15:33:15.229Z",
+  "hubId": "330f0ff9-68c8-4e9b-b1a4-6185001aae06",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
   "isCommunityServer": true

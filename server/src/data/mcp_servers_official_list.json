@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "totalServers": 441,
-    "extractedAt": "2025-04-27T12:35:14.192Z",
+    "totalServers": 444,
+    "extractedAt": "2025-04-27T15:31:45.593Z",
     "sourceUrl": "https://raw.githubusercontent.com/modelcontextprotocol/servers/refs/heads/main/README.md",
     "baseRepoUrl": "https://github.com/modelcontextprotocol/servers",
     "defaultBranch": "main",
     "typeCounts": {
       "Reference Server": 20,
       "Official Integration": 111,
-      "Community Server": 286,
+      "Community Server": 289,
       "Resource": 13,
       "Unknown": 11
     }
@@ -1168,6 +1168,11 @@
       "type": "Community Server"
     },
     {
+      "githubUrl": "https://github.com/snagasuri/deebo-prototype",
+      "name": "Deebo",
+      "type": "Community Server"
+    },
+    {
       "githubUrl": "https://github.com/reading-plus-ai/mcp-server-deep-research",
       "name": "Deep Research",
       "description": "Lightweight MCP server offering Grok/OpenAI/Gemini/Perplexity-style automated deep research exploration and structured reporting.",
@@ -1681,6 +1686,11 @@
       "type": "Community Server"
     },
     {
+      "githubUrl": "https://github.com/mytechnotalent/MalwareBazaar_MCP",
+      "name": "MalwareBazaar_MCP",
+      "type": "Community Server"
+    },
+    {
       "githubUrl": "https://github.com/abel9851/mcp-server-mariadb",
       "name": "MariaDB",
       "description": "MariaDB database integration with configurable access controls in Python.",
@@ -1738,6 +1748,12 @@
       "githubUrl": "https://github.com/sparfenyuk/mcp-proxy",
       "name": "mcp-proxy",
       "description": "Connect to MCP servers that run on SSE transport, or expose stdio servers as an SSE server.",
+      "type": "Community Server"
+    },
+    {
+      "githubUrl": "https://github.com/TBXark/mcp-proxy",
+      "name": "MCP Proxy Server",
+      "description": "An MCP proxy server that aggregates and serves multiple MCP resource servers through a single HTTP server.",
       "type": "Community Server"
     },
     {

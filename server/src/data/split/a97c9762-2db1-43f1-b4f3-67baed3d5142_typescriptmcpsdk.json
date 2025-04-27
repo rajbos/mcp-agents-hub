@@ -16,5 +16,5 @@
   "hubId": "a97c9762-2db1-43f1-b4f3-67baed3d5142",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": true
 }
