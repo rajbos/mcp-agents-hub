@@ -49,6 +49,8 @@
     },
     "serverCount": "Verfügbare MCP-Server",
     "recommendedServers": "Empfohlene Server",
+    "officialIntegrations": "Offizielle Integrationen",
+    "referenceServers": "Referenz-Server",
     "otherServers": "Andere Server",
     "loadMore": "Mehr laden",
     "of": "von",
@@ -90,6 +92,9 @@
     "server": "Server",
     "servers": "Server",
     "recommended": "Empfohlen",
+    "officialIntegration": "Offizielle Integration",
+    "referenceServer": "Referenz-Server",
+    "communityServer": "Community-Server",
     "siteName": "MCP Agents Hub",
     "viewAll": "Alle anzeigen"
   },
@@ -116,7 +121,10 @@
     "noResults": "Keine Server gefunden, die Ihrer Suche entsprechen",
     "tryDifferent": "Versuchen Sie einen anderen Suchbegriff oder durchsuchen Sie alle Server in dieser Kategorie",
     "clearAndShowAll": "Suche löschen und alle Server anzeigen",
-    "recommendedOnly": "Nur empfohlene"
+    "recommendedOnly": "Nur empfohlene",
+    "officialIntegrationOnly": "Nur offizielle Integration",
+    "referenceServerOnly": "Nur Referenz-Server",
+    "communityServerOnly": "Nur Community-Server"
   },
   "submit": {
     "title": "Ihren MCP-Server einreichen",

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/szeider/mcp-solver",
   "name": "MiniZinc Complex Logic Solver",
   "author": "szeider",
-  "description": "Solve complex logic/optimization problems using MiniZinc syntax.",
+  "description": "Solves constraint satisfaction and optimization problems .",
   "codiconIcon": "minizinc",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "3119a1f9-0b4a-4278-b5e3-8c392e072c7e"
+  "hubId": "3119a1f9-0b4a-4278-b5e3-8c392e072c7e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

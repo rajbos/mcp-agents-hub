@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/baryhuang/mcp-headless-gmail",
+  "githubUrl": "https://github.com/baryhuang/mcp-headless-gmail",
+  "name": "Gmail Headless",
+  "description": "Remote hostable MCP server that can get and send Gmail messages without local credential or file system setup.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b63eb0ac-7d3b-437f-b457-686bd993d0e8",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

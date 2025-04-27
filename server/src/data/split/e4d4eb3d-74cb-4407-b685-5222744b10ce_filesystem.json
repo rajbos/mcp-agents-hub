@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
   "name": "File System",
   "author": "modelcontextprotocol",
-  "description": "Provides comprehensive filesystem operations including reading, writing, moving files, directory management, and advanced file editing with pattern matching and formatting capabilities.",
+  "description": "Secure file operations with configurable access controls",
   "codiconIcon": "folder",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/file-system.png",
   "category": "file-systems",
@@ -20,5 +20,8 @@
   "downloadCount": 16368,
   "createdAt": "2025-02-17T22:22:00.256588Z",
   "updatedAt": "2025-02-17T22:22:00.256588Z",
-  "hubId": "e4d4eb3d-74cb-4407-b685-5222744b10ce"
+  "hubId": "e4d4eb3d-74cb-4407-b685-5222744b10ce",
+  "isOfficialIntegration": false,
+  "isReferenceServer": true,
+  "isCommunityServer": false
 }

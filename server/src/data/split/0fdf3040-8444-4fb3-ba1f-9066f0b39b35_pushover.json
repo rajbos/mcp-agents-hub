@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ashiknesin/pushover-mcp",
+  "githubUrl": "https://github.com/ashiknesin/pushover-mcp",
+  "name": "Pushover",
+  "description": "Send instant notifications to your devices using [Pushover.net](https://pushover.net/)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "0fdf3040-8444-4fb3-ba1f-9066f0b39b35",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

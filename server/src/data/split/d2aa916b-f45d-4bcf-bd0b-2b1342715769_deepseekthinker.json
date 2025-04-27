@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/ruixingshi/deepseek-thinker-mcp",
   "name": "DeepSeek Thinker",
   "author": "ruixingshi",
-  "description": "Integrates with DeepSeek Thinker model to enable chain-of-thought reasoning and complex problem-solving for applications requiring advanced cognitive capabilities.",
+  "description": "A MCP (Model Context Protocol) provider Deepseek reasoning content to MCP-enabled AI Clients, like Claude Desktop. Supports access to Deepseek's thought processes from the Deepseek API service or from a local Ollama server.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
   "category": "knowledge-memory",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.725369+00:00",
   "updatedAt": "2025-03-17T08:29:21.725369+00:00",
-  "hubId": "d2aa916b-f45d-4bcf-bd0b-2b1342715769"
+  "hubId": "d2aa916b-f45d-4bcf-bd0b-2b1342715769",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

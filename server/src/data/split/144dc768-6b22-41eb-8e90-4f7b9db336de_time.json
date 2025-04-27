@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
   "name": "Time",
   "author": "modelcontextprotocol",
-  "description": "Provides time and timezone conversion capabilities using IANA timezone names, with automatic system timezone detection and support for current time queries.",
+  "description": "Time and timezone conversion capabilities",
   "codiconIcon": "clock",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/time.png",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 5739,
   "createdAt": "2025-02-18T05:45:35.164727Z",
   "updatedAt": "2025-02-18T05:45:35.164727Z",
-  "hubId": "144dc768-6b22-41eb-8e90-4f7b9db336de"
+  "hubId": "144dc768-6b22-41eb-8e90-4f7b9db336de",
+  "isOfficialIntegration": false,
+  "isReferenceServer": true,
+  "isCommunityServer": false
 }

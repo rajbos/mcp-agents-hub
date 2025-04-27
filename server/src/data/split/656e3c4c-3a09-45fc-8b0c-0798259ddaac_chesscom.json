@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pab1it0/chess-mcp",
+  "githubUrl": "https://github.com/pab1it0/chess-mcp",
+  "name": "Chess.com",
+  "description": "Access Chess.com player data, game records, and other public information through standardized MCP interfaces, allowing AI assistants to search and analyze chess information.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "656e3c4c-3a09-45fc-8b0c-0798259ddaac",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

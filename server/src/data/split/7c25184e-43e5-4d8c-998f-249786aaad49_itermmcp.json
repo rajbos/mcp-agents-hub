@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ferrislucas/iterm-mcp",
+  "githubUrl": "https://github.com/ferrislucas/iterm-mcp",
+  "name": "iTerm MCP",
+  "description": "Integration with iTerm terminal emulator for macOS, enabling LLMs to execute and monitor terminal commands.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7c25184e-43e5-4d8c-998f-249786aaad49",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

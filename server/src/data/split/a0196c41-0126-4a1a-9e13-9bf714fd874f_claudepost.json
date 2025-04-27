@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ZilongXue/claude-post",
+  "githubUrl": "https://github.com/ZilongXue/claude-post",
+  "name": "ClaudePost",
+  "description": "ClaudePost enables seamless email management for Gmail, offering secure features like email search, reading, and sending.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a0196c41-0126-4a1a-9e13-9bf714fd874f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/sonnylazuardi/cursor-talk-to-figma-mcp",
+  "githubUrl": "https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp",
+  "name": "Talk To Figma",
+  "description": "This MCP server enables LLMs to interact with Figma, allowing them to read and modify designs programmatically.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "efd3a01d-424b-4fc5-a8c8-a8b46a977d50",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

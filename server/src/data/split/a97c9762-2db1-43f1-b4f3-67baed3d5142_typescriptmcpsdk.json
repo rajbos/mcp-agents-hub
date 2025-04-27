@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/modelcontextprotocol/python-sdk",
+  "githubUrl": "https://github.com/modelcontextprotocol/python-sdk",
+  "name": "Typescript MCP SDK",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a97c9762-2db1-43f1-b4f3-67baed3d5142",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

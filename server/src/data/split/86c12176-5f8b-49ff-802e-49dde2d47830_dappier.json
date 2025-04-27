@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/DappierAI/dappier-mcp",
+  "githubUrl": "https://github.com/DappierAI/dappier-mcp",
+  "name": "Dappier",
+  "description": "Connect LLMs to real-time, rights-cleared, proprietary data from trusted sources. Access specialized models for Real-Time Web Search, News, Sports, Financial Data, Crypto, and premium publisher content. Explore data models at [marketplace.dappier.com](https://marketplace.dappier.com/marketplace).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "86c12176-5f8b-49ff-802e-49dde2d47830",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

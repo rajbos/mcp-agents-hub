@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/aws-samples/sample-mcp-server-s3",
+  "githubUrl": "https://github.com/aws-samples/sample-mcp-server-s3",
+  "name": "AWS S3",
+  "description": "A sample MCP server for AWS S that flexibly fetches objects from S such as PDF documents.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "file-systems",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b74f9931-2269-422e-984e-055d1868fb31",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

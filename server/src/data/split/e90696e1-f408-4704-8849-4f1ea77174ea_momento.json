@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/momentohq/mcp-momento",
+  "githubUrl": "https://github.com/momentohq/mcp-momento",
+  "name": "Momento",
+  "description": "Momento Cache lets you quickly improve your performance, reduce costs, and handle load at any scale.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e90696e1-f408-4704-8849-4f1ea77174ea",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -17,6 +17,8 @@ export function Home() {
   const [categories, setCategories] = useState<string[]>([]);
   const [isLoadingCategories, setIsLoadingCategories] = useState(true);
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
+  const [officialIntegrationCount, setOfficialIntegrationCount] = useState(0);
+  const [referenceServerCount, setReferenceServerCount] = useState(0);
 
   useEffect(() => {
     const loadServers = async () => {
@@ -88,6 +90,55 @@ export function Home() {
 
     fetchCategoryCounts();
   }, [categories, language, isLoadingCategories]);
+
+  // Fetch counts for official integrations and reference servers
+  useEffect(() => {
+    const fetchSpecialCounts = async () => {
+      try {
+        // Fetch official integration count
+        const officialResponse = await fetch(`/v1/hub/search_servers`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            locale: language || 'en',
+            page: 1,
+            size: 1,
+            isOfficialIntegration: true
+          })
+        });
+        
+        if (officialResponse.ok) {
+          const officialData = await officialResponse.json();
+          setOfficialIntegrationCount(officialData.totalItems);
+        }
+
+        // Fetch reference server count
+        const referenceResponse = await fetch(`/v1/hub/search_servers`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            locale: language || 'en',
+            page: 1,
+            size: 1,
+            isReferenceServer: true
+          })
+        });
+        
+        if (referenceResponse.ok) {
+          const referenceData = await referenceResponse.json();
+          setReferenceServerCount(referenceData.totalItems);
+        }
+      } catch (error) {
+        console.error('Error fetching special server counts:', error);
+      }
+    };
+
+    fetchSpecialCounts();
+  }, [language]);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -203,6 +254,46 @@ export function Home() {
           </div>
           <ServerList 
             isRecommended={true} 
+            initialPageSize={6} 
+          />
+        </div>
+
+        {/* Official Integrations - using ServerList component */}
+        <div className="mt-16">
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-semibold text-gray-900">
+              {t('home.officialIntegrations') || 'Official Integrations'}{officialIntegrationCount > 0 ? ` (${officialIntegrationCount})` : ''}
+            </h3>
+            <Link 
+              to={`/listing/all?page=1&size=12&isOfficialIntegration=true`}
+              className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
+            >
+              {t('common.viewAll') || 'View All'}
+              <ChevronRight size={16} className="ml-1" />
+            </Link>
+          </div>
+          <ServerList 
+            isOfficialIntegration={true} 
+            initialPageSize={6} 
+          />
+        </div>
+
+        {/* Reference Servers - using ServerList component */}
+        <div className="mt-16">
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-semibold text-gray-900">
+              {t('home.referenceServers') || 'Reference Servers'}{referenceServerCount > 0 ? ` (${referenceServerCount})` : ''}
+            </h3>
+            <Link 
+              to={`/listing/all?page=1&size=12&isReferenceServer=true`}
+              className="text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center"
+            >
+              {t('common.viewAll') || 'View All'}
+              <ChevronRight size={16} className="ml-1" />
+            </Link>
+          </div>
+          <ServerList 
+            isReferenceServer={true} 
             initialPageSize={6} 
           />
         </div>

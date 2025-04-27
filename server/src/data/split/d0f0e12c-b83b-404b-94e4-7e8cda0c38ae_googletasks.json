@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/zcaceres/gtasks-mcp",
   "name": "Google Tasks",
   "author": "zcaceres",
-  "description": "Integrates with Google Tasks API to enable task management capabilities like listing, creating, and updating tasks.",
+  "description": "Google Tasks API Model Context Protocol Server.",
   "codiconIcon": "google",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "d0f0e12c-b83b-404b-94e4-7e8cda0c38ae"
+  "hubId": "d0f0e12c-b83b-404b-94e4-7e8cda0c38ae",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/strowk/foxy-contexts",
+  "githubUrl": "https://github.com/strowk/foxy-contexts",
+  "name": "Foxy Contexts",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "80f4bcba-ab84-4a21-bff5-49895be7cf94",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

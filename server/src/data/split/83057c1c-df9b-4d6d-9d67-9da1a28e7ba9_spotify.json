@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/varunneal/spotify-mcp",
   "name": "Spotify",
   "author": "varunneal",
-  "description": "Control music playback and access Spotify's music data.",
+  "description": "This MCP allows an LLM to play and use Spotify.",
   "codiconIcon": "spotify",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "83057c1c-df9b-4d6d-9d67-9da1a28e7ba9"
+  "hubId": "83057c1c-df9b-4d6d-9d67-9da1a28e7ba9",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

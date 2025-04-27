@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Kong/mcp-konnect",
+  "githubUrl": "https://github.com/Kong/mcp-konnect",
+  "name": "Kong Konnect",
+  "description": "A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e15a945a-8350-4fc4-90ab-c1c13eb2b95f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

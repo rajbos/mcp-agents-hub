@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Klavis-AI/klavis/tree/main/mcp_servers/resend",
+  "githubUrl": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/resend",
+  "name": "Resend",
+  "description": "Send email using Resend services",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b29817c2-4979-4d4b-b309-4b837e9eefdd",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

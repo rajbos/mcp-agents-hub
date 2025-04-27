@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/drjforrest/mcp-things3",
   "name": "Things3",
   "author": "drjforrest",
-  "description": "Integrates with Things3 task management app on macOS, enabling creation and management of tasks and projects via AppleScript and x-callback-url, with specialized functionality for Agenda synchronization.",
+  "description": "Integrates with Things task management app on macOS, enabling creation and management of tasks and projects via AppleScript and x-callback-url, with specialized functionality for Agenda synchronization.",
   "codiconIcon": "things3",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
   "updatedAt": "2025-03-17T08:29:24.291233+00:00",
-  "hubId": "51359d4a-ec21-438d-ba31-27ced94c5229"
+  "hubId": "51359d4a-ec21-438d-ba31-27ced94c5229",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

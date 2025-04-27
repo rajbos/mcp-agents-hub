@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/AudienseCo/mcp-audiense-insights",
   "name": "Audiense Insights",
   "author": "AudienseCo",
-  "description": "Integrates with Audiense's audience insights platform, enabling retrieval of audience data and analytics for targeted marketing and social media strategy development.",
+  "description": "Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis.",
   "codiconIcon": "audiense",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
   "updatedAt": "2025-03-17T08:29:24.291233+00:00",
-  "hubId": "6efcec5b-9551-44e3-8859-cd5726c6b8d1"
+  "hubId": "6efcec5b-9551-44e3-8859-cd5726c6b8d1",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

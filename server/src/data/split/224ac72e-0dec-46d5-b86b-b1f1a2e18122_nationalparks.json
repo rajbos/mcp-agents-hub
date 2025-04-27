@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/KyrieTangSheng/mcp-server-nationalparks",
+  "githubUrl": "https://github.com/KyrieTangSheng/mcp-server-nationalparks",
+  "name": "National Parks",
+  "description": "The server provides latest information of park details, alerts, visitor centers, campgrounds, hiking trails, and events for U.S. National Parks.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "location-services",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "224ac72e-0dec-46d5-b86b-b1f1a2e18122",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

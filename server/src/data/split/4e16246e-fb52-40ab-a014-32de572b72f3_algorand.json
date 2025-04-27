@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/GoPlausible/algorand-mcp",
+  "githubUrl": "https://github.com/GoPlausible/algorand-mcp",
+  "name": "Algorand",
+  "description": "A comprehensive MCP server for tooling interactions (+) and resource accessibility (+) plus many useful prompts for interacting with the Algorand blockchain.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "4e16246e-fb52-40ab-a014-32de572b72f3",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

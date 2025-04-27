@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/baryhuang/mcp-server-any-openapi",
   "name": "Any OpenAPI",
   "author": "baryhuang",
-  "description": "Integrates with any OpenAPI-compliant service using dynamic tool generation and vector-based semantic search for efficient API operation discovery and interaction.",
+  "description": "Interact with large [OpenAPI](https://www.openapis.org/) docs using built-in semantic search for endpoints. Allows for customizing the MCP server prefix.",
   "codiconIcon": "any",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "3d8bba54-5b76-49c4-86b3-25dd73d60c0f"
+  "hubId": "3d8bba54-5b76-49c4-86b3-25dd73d60c0f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

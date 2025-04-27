@@ -14,6 +14,9 @@ interface PaginatedResponse {
 
 interface ServerListProps {
   isRecommended?: boolean;
+  isOfficialIntegration?: boolean;
+  isReferenceServer?: boolean;
+  isCommunityServer?: boolean;
   initialPageSize?: number;
   categoryKey?: string;
   searchKeyword?: string;
@@ -22,6 +25,9 @@ interface ServerListProps {
 
 export function ServerList({
   isRecommended,
+  isOfficialIntegration,
+  isReferenceServer,
+  isCommunityServer,
   initialPageSize = 6,
   categoryKey,
   searchKeyword,
@@ -58,7 +64,10 @@ export function ServerList({
           page: page,
           size: size,
           search_for: searchKeyword || undefined,
-          isRecommended: isRecommended !== undefined ? isRecommended : undefined
+          isRecommended: isRecommended !== undefined ? isRecommended : undefined,
+          isOfficialIntegration: isOfficialIntegration !== undefined ? isOfficialIntegration : undefined,
+          isReferenceServer: isReferenceServer !== undefined ? isReferenceServer : undefined,
+          isCommunityServer: isCommunityServer !== undefined ? isCommunityServer : undefined
         })
       });
       
@@ -83,7 +92,7 @@ export function ServerList({
 
   useEffect(() => {
     fetchServers(currentPage, pageSize);
-  }, [categoryKey, language, searchKeyword, isRecommended, pageSize, currentPage]);
+  }, [categoryKey, language, searchKeyword, isRecommended, isOfficialIntegration, isReferenceServer, isCommunityServer, pageSize, currentPage]);
   
   // Reset animation state when new data is loaded
   useEffect(() => {

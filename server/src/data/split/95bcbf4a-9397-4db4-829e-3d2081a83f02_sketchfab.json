@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/Eddydpyl/sketchfab_mcp",
   "name": "Sketchfab",
   "author": "Eddydpyl",
-  "description": "Provides a streamlined interface to the Sketchfab API for searching and downloading 3D models with filtering options for animated or rigged content.",
+  "description": "Provides a streamlined interface to the Sketchfab API for searching and downloading D models with filtering options for animated or rigged content.",
   "codiconIcon": "sketchfab",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "95bcbf4a-9397-4db4-829e-3d2081a83f02"
+  "hubId": "95bcbf4a-9397-4db4-829e-3d2081a83f02",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

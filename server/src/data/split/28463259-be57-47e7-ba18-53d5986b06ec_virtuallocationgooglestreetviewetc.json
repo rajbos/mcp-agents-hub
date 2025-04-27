@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mfukushim/map-traveler-mcp",
+  "githubUrl": "https://github.com/mfukushim/map-traveler-mcp",
+  "name": "Virtual location (Google Street View,etc.)",
+  "description": "Integrates Google Map, Google Street View, PixAI, Stability.ai, ComfyUI API and Bluesky to provide a virtual location simulation in LLM (written in Effect.ts)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "location-services",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "28463259-be57-47e7-ba18-53d5986b06ec",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

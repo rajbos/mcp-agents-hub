@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/heroku/heroku-mcp-server",
+  "githubUrl": "https://github.com/heroku/heroku-mcp-server",
+  "name": "Heroku",
+  "description": "Interact with the Heroku Platform through LLM-driven tools for managing apps, add-ons, dynos, databases, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "93169dd7-ec02-4cf4-bc3c-69d842d01e3c",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

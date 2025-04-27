@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/horizondatawave/hdw-mcp-server",
+  "githubUrl": "https://github.com/horizondatawave/hdw-mcp-server",
+  "name": "HDW LinkedIn",
+  "description": "Access to profile data and management of user account with [HorizonDataWave.ai](https://horizondatawave.ai/).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e6eda8f4-0752-4bd7-b951-d5cff617c292",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

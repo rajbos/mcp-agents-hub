@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/jamsocket/forevervm/tree/main/javascript/mcp-server",
+  "githubUrl": "https://github.com/jamsocket/forevervm/tree/main/javascript/mcp-server",
+  "name": "ForeverVM",
+  "description": "Run Python in a code sandbox.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "93764638-9120-4f4b-9d28-b384192b313d",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

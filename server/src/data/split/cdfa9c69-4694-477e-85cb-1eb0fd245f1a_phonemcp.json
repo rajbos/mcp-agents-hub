@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/hao-cyber/phone-mcp",
+  "githubUrl": "https://github.com/hao-cyber/phone-mcp",
+  "name": "Phone MCP",
+  "description": "A powerful plugin that lets you control your Android phone. Enables AI agents to perform complex tasks like automatically playing music based on weather or making calls and sending texts.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "cdfa9c69-4694-477e-85cb-1eb0fd245f1a",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

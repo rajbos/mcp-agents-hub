@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/CoderGamester/mcp-unity",
+  "githubUrl": "https://github.com/CoderGamester/mcp-unity",
+  "name": "Unity3d Game Engine",
+  "description": "An MCP server that enables LLMs to interact with Unityd Game Engine, supporting access to a variety of the Unit's Editor engine tools (e.g. Console Logs, Test Runner logs, Editor functions, hierarchy state, etc) and executing them as MCP tools or gather them as resources.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "393ed12c-1a51-47dc-b19a-9fb8de92b6dc",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

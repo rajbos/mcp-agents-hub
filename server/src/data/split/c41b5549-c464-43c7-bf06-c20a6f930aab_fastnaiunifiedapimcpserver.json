@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/fastnai/mcp-fastn",
+  "githubUrl": "https://github.com/fastnai/mcp-fastn",
+  "name": "fastn.ai – Unified API MCP Server",
+  "description": "A remote, dynamic MCP server with a unified API that connects to ,+ tools, actions, and workflows, featuring built-in authentication and monitoring.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c41b5549-c464-43c7-bf06-c20a6f930aab",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

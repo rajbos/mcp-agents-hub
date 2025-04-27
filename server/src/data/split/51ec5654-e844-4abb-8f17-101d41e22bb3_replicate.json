@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/deepfates/mcp-replicate",
   "name": "Replicate",
   "author": "deepfates",
-  "description": "Bridges Replicate's AI model hosting platform, enabling seamless interaction with diverse machine learning models for tasks like image generation and text processing.",
+  "description": "Search, run and manage machine learning models on Replicate through a simple tool-based interface. Browse models, create predictions, track their status, and handle generated images.",
   "codiconIcon": "replicate",
   "logoUrl": "",
   "category": "cloud-platforms",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "51ec5654-e844-4abb-8f17-101d41e22bb3"
+  "hubId": "51ec5654-e844-4abb-8f17-101d41e22bb3",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

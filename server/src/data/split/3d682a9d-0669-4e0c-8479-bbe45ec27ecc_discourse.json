@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/AshDevFr/discourse-mcp-server",
+  "githubUrl": "https://github.com/AshDevFr/discourse-mcp-server",
+  "name": "Discourse",
+  "description": "A MCP server to search Discourse posts on a Discourse forum.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3d682a9d-0669-4e0c-8479-bbe45ec27ecc",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

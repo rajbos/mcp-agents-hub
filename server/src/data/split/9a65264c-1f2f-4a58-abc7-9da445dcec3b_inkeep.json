@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/inkeep/mcp-server-python",
+  "githubUrl": "https://github.com/inkeep/mcp-server-python",
+  "name": "Inkeep",
+  "description": "RAG Search over your content powered by [Inkeep](https://inkeep.com)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "9a65264c-1f2f-4a58-abc7-9da445dcec3b",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

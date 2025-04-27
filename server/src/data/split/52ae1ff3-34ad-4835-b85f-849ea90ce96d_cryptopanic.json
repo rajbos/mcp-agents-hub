@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kukapay/cryptopanic-mcp-server",
   "name": "CryptoPanic",
   "author": "kukapay",
-  "description": "Integrates with CryptoPanic to provide real-time cryptocurrency news, analysis, and video content with configurable pagination for financial analysis and investment decision support.",
+  "description": "Providing latest cryptocurrency news to AI agents, powered by CryptoPanic.",
   "codiconIcon": "cryptopanic",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.49229+00:00",
   "updatedAt": "2025-03-17T08:29:25.49229+00:00",
-  "hubId": "52ae1ff3-34ad-4835-b85f-849ea90ce96d"
+  "hubId": "52ae1ff3-34ad-4835-b85f-849ea90ce96d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

@@ -49,6 +49,8 @@
     },
     "serverCount": "MCP servers available",
     "recommendedServers": "Recommended Servers",
+    "officialIntegrations": "Official Integrations",
+    "referenceServers": "Reference Servers",
     "otherServers": "Other Servers",
     "loadMore": "Load More",
     "of": "of",
@@ -90,6 +92,9 @@
     "server": "Server",
     "servers": "Servers",
     "recommended": "Recommended",
+    "officialIntegration": "Official Integration",
+    "referenceServer": "Reference Server",
+    "communityServer": "Community Server",
     "siteName": "MCP Hub",
     "viewAll": "View All"
   },
@@ -117,7 +122,10 @@
     "noResults": "No servers found matching your search",
     "tryDifferent": "Try a different search term or browse all servers in this category",
     "clearAndShowAll": "Clear search and show all servers",
-    "recommendedOnly": "Recommended only"
+    "recommendedOnly": "Recommended only",
+    "officialIntegrationOnly": "Official Integration only",
+    "referenceServerOnly": "Reference Server only",
+    "communityServerOnly": "Community Server only"
   },
   "submit": {
     "title": "Submit Your MCP Server",

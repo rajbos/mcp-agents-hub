@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/yuanoOo/oceanbase_mcp_server",
+  "githubUrl": "https://github.com/yuanoOo/oceanbase_mcp_server",
+  "name": "OceanBase",
+  "description": "(by yuanoOo) A Model Context Protocol (MCP) server that enables secure interaction with OceanBase databases.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "fddfa432-4482-4f05-9fcf-1b8e35bc26ca",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

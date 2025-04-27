@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Azure/azure-mcp",
+  "githubUrl": "https://github.com/Azure/azure-mcp",
+  "name": "Azure",
+  "description": "The Azure MCP Server gives MCP Clients access to key Azure services and tools like Azure Storage, Cosmos DB, the Azure CLI, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "16902f8a-8237-4e80-98ee-5f6446db3014",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

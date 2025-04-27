@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/AI-QL/chat-mcp",
+  "githubUrl": "https://github.com/AI-QL/chat-mcp",
+  "name": "ChatMCP",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "9685e08f-8ff6-4b5b-ae7c-2fbdffc010dd",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

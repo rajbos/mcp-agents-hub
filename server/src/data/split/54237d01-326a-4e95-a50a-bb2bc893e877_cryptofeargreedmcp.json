@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/kukapay/crypto-feargreed-mcp",
+  "githubUrl": "https://github.com/kukapay/crypto-feargreed-mcp",
+  "name": "crypto-feargreed-mcp",
+  "description": "Providing real-time and historical Crypto Fear & Greed Index data.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "54237d01-326a-4e95-a50a-bb2bc893e877",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

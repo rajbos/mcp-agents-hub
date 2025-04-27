@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/grafana/mcp-grafana",
   "name": "Grafana MCP server",
   "author": "grafana",
-  "description": "A Model Context Protocol (MCP) server for Grafana that provides access to your Grafana instance and the surrounding ecosystem.",
+  "description": "Search dashboards, investigate incidents and query datasources in your Grafana instance",
   "codiconIcon": "",
   "logoUrl": "",
   "category": "monitoring",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-04-24T09:07:48.681Z",
   "updatedAt": "2025-04-24T09:07:48.681Z",
-  "hubId": "ebd357ff-9a48-4b24-b8ef-720d38d119b9"
+  "hubId": "ebd357ff-9a48-4b24-b8ef-720d38d119b9",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

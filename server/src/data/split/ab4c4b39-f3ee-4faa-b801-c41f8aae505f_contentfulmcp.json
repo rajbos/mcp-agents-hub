@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ivo-toby/contentful-mcp",
+  "githubUrl": "https://github.com/ivo-toby/contentful-mcp",
+  "name": "Contentful-mcp",
+  "description": "Read, update, delete, publish content in your [Contentful](https://contentful.com) space(s) from this MCP Server.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "ab4c4b39-f3ee-4faa-b801-c41f8aae505f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

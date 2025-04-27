@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc",
+  "githubUrl": "https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbc",
+  "name": "JDBC",
+  "description": "Connect to any JDBC-compatible database and query, insert, update, delete, and more. Supports MySQL, PostgreSQL, Oracle, SQL Server, sqllite and [more](https://github.com/quarkiverse/quarkus-mcp-servers/tree/main/jdbcsupported-jdbc-variants).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "684b7a1f-b337-4fca-aff3-e23d0db7970e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

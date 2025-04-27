@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/unibaseio/membase-mcp",
+  "githubUrl": "https://github.com/unibaseio/membase-mcp",
+  "name": "Membase",
+  "description": "Save and query your agent memory in distributed way by Membase.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "36e4a170-022f-46b5-9786-151c7069f187",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

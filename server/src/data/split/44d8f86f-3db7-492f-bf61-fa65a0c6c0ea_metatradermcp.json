@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ariadng/metatrader-mcp-server",
+  "githubUrl": "https://github.com/ariadng/metatrader-mcp-server",
+  "name": "MetaTrader MCP",
+  "description": "Enable AI LLMs to execute trades using MetaTrader platform.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "44d8f86f-3db7-492f-bf61-fa65a0c6c0ea",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

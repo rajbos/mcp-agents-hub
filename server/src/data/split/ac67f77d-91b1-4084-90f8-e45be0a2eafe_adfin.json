@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Adfin-Engineering/mcp-server-adfin",
+  "githubUrl": "https://github.com/Adfin-Engineering/mcp-server-adfin",
+  "name": "Adfin",
+  "description": "The only platform you need to get paid - all payments in one place, invoicing and accounting reconciliations with [Adfin](https://www.adfin.com/).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "ac67f77d-91b1-4084-90f8-e45be0a2eafe",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

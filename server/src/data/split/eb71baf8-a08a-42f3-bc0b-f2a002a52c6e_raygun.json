@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/MindscapeHQ/mcp-server-raygun",
   "name": "Raygun",
   "author": "MindscapeHQ",
-  "description": "Provides comprehensive access to Raygun's error tracking, crash reporting, and real user monitoring features through API integration, enabling management of applications, errors, deployments, and performance metrics.",
+  "description": "Interact with your crash reporting and real using monitoring data on your Raygun account",
   "codiconIcon": "bug",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/raygun.png",
   "category": "monitoring",
@@ -20,5 +20,8 @@
   "downloadCount": 21,
   "createdAt": "2025-02-18T06:28:29.20344Z",
   "updatedAt": "2025-02-18T06:28:29.20344Z",
-  "hubId": "eb71baf8-a08a-42f3-bc0b-f2a002a52c6e"
+  "hubId": "eb71baf8-a08a-42f3-bc0b-f2a002a52c6e",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

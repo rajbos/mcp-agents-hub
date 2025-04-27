@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/zilliztech/mcp-server-milvus",
+  "githubUrl": "https://github.com/zilliztech/mcp-server-milvus",
+  "name": "Milvus",
+  "description": "Search, Query and interact with data in your Milvus Vector Database.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "9d2217b8-d2c2-4829-b221-73cec1dc2930",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

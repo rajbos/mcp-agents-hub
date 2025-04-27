@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/baidubce/app-builder/tree/master/python/mcp_server/ai_search",
+  "githubUrl": "https://github.com/baidubce/app-builder/tree/master/python/mcp_server/ai_search",
+  "name": "Baidu AI Search",
+  "description": "Web search with Baidu Cloud's AI Search",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7393178f-6793-4a18-a9bc-1916ff2a7d18",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Omar-v2/mcp-ical",
+  "githubUrl": "https://github.com/Omar-v2/mcp-ical",
+  "name": "Apple Calendar",
+  "description": "An MCP server that allows you to interact with your MacOS Calendar through natural language, including features such as event creation, modification, schedule listing, finding free time slots etc.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "78c0d4e9-eebc-44db-8d02-21fba6142d4e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

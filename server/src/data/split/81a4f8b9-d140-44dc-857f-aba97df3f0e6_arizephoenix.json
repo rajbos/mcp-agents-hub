@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Arize-ai/phoenix",
+  "githubUrl": "https://github.com/Arize-ai/phoenix",
+  "name": "Arize Phoenix",
+  "description": "Inspect traces, manage prompts, curate datasets, and run experiments using [Arize Phoenix](https://github.com/Arize-ai/phoenix), an open-source AI and LLM observability tool.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "81a4f8b9-d140-44dc-857f-aba97df3f0e6",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

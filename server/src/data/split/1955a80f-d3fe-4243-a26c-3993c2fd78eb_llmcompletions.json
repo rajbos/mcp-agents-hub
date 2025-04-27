@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/pyroprompts/any-chat-completions-mcp",
   "name": "LLM Completions",
   "author": "pyroprompts",
-  "description": "Connect to OpenAI-compatible chat completion APIs.",
+  "description": "Interact with any OpenAI SDK Compatible Chat Completions API like OpenAI, Perplexity, Groq, xAI and many more.",
   "codiconIcon": "llm",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "1955a80f-d3fe-4243-a26c-3993c2fd78eb"
+  "hubId": "1955a80f-d3fe-4243-a26c-3993c2fd78eb",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

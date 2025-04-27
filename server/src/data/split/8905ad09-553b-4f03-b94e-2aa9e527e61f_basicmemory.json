@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/basicmachines-co/basic-memory",
+  "githubUrl": "https://github.com/basicmachines-co/basic-memory",
+  "name": "Basic Memory",
+  "description": "Local-first knowledge management system that builds a semantic graph from Markdown files, enabling persistent memory across conversations with LLMs.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8905ad09-553b-4f03-b94e-2aa9e527e61f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

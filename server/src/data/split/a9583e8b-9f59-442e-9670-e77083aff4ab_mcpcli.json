@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/wong2/mcp-cli",
+  "githubUrl": "https://github.com/wong2/mcp-cli",
+  "name": "mcp-cli",
+  "description": "A CLI inspector for the Model Context Protocol by [wong](https://github.com/wong)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a9583e8b-9f59-442e-9670-e77083aff4ab",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

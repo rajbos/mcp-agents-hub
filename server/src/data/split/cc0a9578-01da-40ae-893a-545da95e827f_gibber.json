@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/anton10xr/gibber-mcp",
   "name": "Gibber",
   "author": "anton10xr",
-  "description": "Provides cryptographic tools for secure communication, including key generation, shared secret derivation, and message encryption/decryption using SJCL P-256 and AES-CCM, enabling end-to-end encrypted data exchange via server-sent events.",
+  "description": "Provides cryptographic tools for secure communication, including key generation, shared secret derivation, and message encryption/decryption using SJCL P- and AES-CCM, enabling end-to-end encrypted data exchange via server-sent events.",
   "codiconIcon": "gibber",
   "logoUrl": "",
   "category": "communication",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "cc0a9578-01da-40ae-893a-545da95e827f"
+  "hubId": "cc0a9578-01da-40ae-893a-545da95e827f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

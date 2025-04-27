@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kukapay/dune-analytics-mcp",
   "name": "Dune Analytics",
   "author": "kukapay",
-  "description": "Integrates with Dune Analytics API to provide direct access to blockchain data through tools for retrieving existing query results and executing on-demand queries in CSV format.",
+  "description": "A mcp server that bridges Dune Analytics data to AI agents.",
   "codiconIcon": "dune",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
   "updatedAt": "2025-03-17T08:29:24.291233+00:00",
-  "hubId": "b25cfc2b-f7b4-4660-8cb4-4dcd2b921828"
+  "hubId": "b25cfc2b-f7b4-4660-8cb4-4dcd2b921828",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

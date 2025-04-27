@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/comet-ml/opik-mcp",
   "name": "Opik",
   "author": "comet-ml",
-  "description": "Interact and analyze your Opik enviroment including traces, telemetry and metrics with natural language.",
+  "description": "Query and analyze your [Opik](https://github.com/comet-ml/opik) logs, traces, prompts and all other telemtry data from your LLMs in natural language.",
   "codiconIcon": "opik",
   "logoUrl": "",
   "category": "monitoring",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "245b0f92-cd76-4677-9da7-1ef2d193cd16"
+  "hubId": "245b0f92-cd76-4677-9da7-1ef2d193cd16",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

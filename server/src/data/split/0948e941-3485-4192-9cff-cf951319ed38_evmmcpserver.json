@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mcpdotdirect/evm-mcp-server",
+  "githubUrl": "https://github.com/mcpdotdirect/evm-mcp-server",
+  "name": "EVM MCP Server",
+  "description": "Comprehensive blockchain services for + EVM networks, supporting native tokens, ERC, NFTs, smart contracts, transactions, and ENS resolution.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "0948e941-3485-4192-9cff-cf951319ed38",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

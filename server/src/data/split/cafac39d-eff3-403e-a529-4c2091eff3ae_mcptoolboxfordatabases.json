@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/googleapis/genai-toolbox",
+  "githubUrl": "https://github.com/googleapis/genai-toolbox",
+  "name": "MCP Toolbox for Databases",
+  "description": "Open source MCP server specializing in easy, fast, and secure tools for Databases. Supports AlloyDB, BigQuery, Bigtable, Cloud SQL, Dgraph, MySQL, Neoj, Postgres, Spanner, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "cafac39d-eff3-403e-a529-4c2091eff3ae",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

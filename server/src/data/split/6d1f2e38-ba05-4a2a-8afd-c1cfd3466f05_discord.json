@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Klavis-AI/klavis/tree/main/mcp_servers/discord",
+  "githubUrl": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/discord",
+  "name": "Discord",
+  "description": "For Discord API integration by Klavis AI",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6d1f2e38-ba05-4a2a-8afd-c1cfd3466f05",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

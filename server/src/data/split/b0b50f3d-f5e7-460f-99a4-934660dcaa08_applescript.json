@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/peakmojo/applescript-mcp",
+  "githubUrl": "https://github.com/peakmojo/applescript-mcp",
+  "name": "Apple Script",
+  "description": "MCP server that lets LLM run AppleScript code to to fully control anything on Mac, no setup needed.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b0b50f3d-f5e7-460f-99a4-934660dcaa08",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

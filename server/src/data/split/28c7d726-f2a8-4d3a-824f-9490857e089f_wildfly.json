@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/wildfly-extras/wildfly-mcp",
   "name": "WildFly",
   "author": "wildfly-extras",
-  "description": "Integrates with WildFly application servers to enable monitoring, configuration, and management of server resources and performance.",
+  "description": "WildFly MCP server that enables LLM to interact with running WildFly servers (retrieve metrics, logs, invoke operations, ...).",
   "codiconIcon": "wildfly",
   "logoUrl": "",
   "category": "monitoring",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.49229+00:00",
   "updatedAt": "2025-03-17T08:29:25.49229+00:00",
-  "hubId": "28c7d726-f2a8-4d3a-824f-9490857e089f"
+  "hubId": "28c7d726-f2a8-4d3a-824f-9490857e089f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/shannonlal/mcp-postman",
+  "githubUrl": "https://github.com/shannonlal/mcp-postman",
+  "name": "Postman",
+  "description": "MCP server for running Postman Collections locally via Newman. Allows for simple execution of Postman Server and returns the results of whether the collection passed all the tests.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "63a5aa2b-1191-482f-986c-435e95bccdbe",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

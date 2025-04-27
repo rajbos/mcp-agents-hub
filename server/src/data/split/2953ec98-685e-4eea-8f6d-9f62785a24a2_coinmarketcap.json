@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/shinzo-labs/coinmarketcap-mcp",
+  "githubUrl": "https://github.com/shinzo-labs/coinmarketcap-mcp",
+  "name": "CoinMarketCap",
+  "description": "Implements the complete [CoinMarketCap](https://coinmarketcap.com/) API for accessing cryptocurrency market data, exchange information, and other blockchain-related metrics.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "2953ec98-685e-4eea-8f6d-9f62785a24a2",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

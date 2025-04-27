@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/whataboutyou-ai/eunomia-MCP-server",
+  "githubUrl": "https://github.com/whataboutyou-ai/eunomia-MCP-server",
+  "name": "Eunomia",
+  "description": "Extension of the Eunomia framework that connects Eunomia instruments with MCP servers",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e7096c67-05d5-4761-b551-ee49176fabdd",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

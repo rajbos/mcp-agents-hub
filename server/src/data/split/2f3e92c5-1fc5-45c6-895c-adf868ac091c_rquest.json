@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/xxxbrian/mcp-rquest",
+  "githubUrl": "https://github.com/xxxbrian/mcp-rquest",
+  "name": "Rquest",
+  "description": "An MCP server providing realistic browser-like HTTP request capabilities with accurate TLS/JA/JA fingerprints for bypassing anti-bot measures.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "2f3e92c5-1fc5-45c6-895c-adf868ac091c",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

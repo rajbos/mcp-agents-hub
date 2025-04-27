@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/SaseQ/discord-mcp",
+  "githubUrl": "https://github.com/SaseQ/discord-mcp",
+  "name": "Discord",
+  "description": "A MCP server, which connects to Discord through a bot, and provides comprehensive integration with Discord.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "cacd90eb-0024-4c1a-b86c-1e648428c01b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

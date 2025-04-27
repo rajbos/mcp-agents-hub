@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/GeLi2001/shopify-mcp",
+  "githubUrl": "https://github.com/GeLi2001/shopify-mcp",
+  "name": "Shopify",
+  "description": "MCP to interact with Shopify API including order, product, customers and so on.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "484e0b3d-ef31-4040-a457-59373f015127",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

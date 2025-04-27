@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Simon-Kansara/ableton-live-mcp-server",
+  "githubUrl": "https://github.com/Simon-Kansara/ableton-live-mcp-server",
+  "name": "Ableton Live",
+  "description": "an MCP server to control Ableton Live.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "38160807-6069-46b8-aadb-6dfebf064792",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

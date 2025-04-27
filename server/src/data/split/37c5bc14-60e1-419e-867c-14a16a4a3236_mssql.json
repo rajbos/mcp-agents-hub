@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/aekanun2020/mcp-server",
+  "githubUrl": "https://github.com/aekanun2020/mcp-server",
+  "name": "MSSQL",
+  "description": "MSSQL database integration with configurable access controls and schema inspection",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "37c5bc14-60e1-419e-867c-14a16a4a3236",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

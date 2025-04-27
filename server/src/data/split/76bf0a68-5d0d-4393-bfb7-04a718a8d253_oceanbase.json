@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/oceanbase/mcp-oceanbase",
+  "githubUrl": "https://github.com/oceanbase/mcp-oceanbase",
+  "name": "OceanBase",
+  "description": "MCP Server for OceanBase database and its tools",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "76bf0a68-5d0d-4393-bfb7-04a718a8d253",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

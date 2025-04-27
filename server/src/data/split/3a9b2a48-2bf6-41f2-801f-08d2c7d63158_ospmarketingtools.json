@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/open-strategy-partners/osp_marketing_tools",
   "name": "OSP Marketing Tools",
   "author": "open-strategy-partners",
-  "description": "Content and product marketing tools, including a standardized editing code system, writing guidelines, web metadata generator, and product communication framework.",
+  "description": "Content editing codes, value map, and positioning tools for product marketing.",
   "codiconIcon": "osp",
   "logoUrl": "",
   "category": "other-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "3a9b2a48-2bf6-41f2-801f-08d2c7d63158"
+  "hubId": "3a9b2a48-2bf6-41f2-801f-08d2c7d63158",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

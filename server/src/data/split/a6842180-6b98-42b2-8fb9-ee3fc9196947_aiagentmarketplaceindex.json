@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp",
+  "githubUrl": "https://github.com/AI-Agent-Hub/ai-agent-marketplace-index-mcp",
+  "name": "AI Agent Marketplace Index",
+  "description": "MCP server to search more than + AI agents and tools of various categories from [AI Agent Marketplace Index](http://www.deepnlp.org/store/ai-agent) and monitor traffic of AI Agents.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a6842180-6b98-42b2-8fb9-ee3fc9196947",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

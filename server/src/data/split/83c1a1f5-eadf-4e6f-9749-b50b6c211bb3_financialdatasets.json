@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/financial-datasets/mcp-server",
+  "githubUrl": "https://github.com/financial-datasets/mcp-server",
+  "name": "Financial Datasets",
+  "description": "Stock market API made for AI agents",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "83c1a1f5-eadf-4e6f-9749-b50b6c211bb3",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

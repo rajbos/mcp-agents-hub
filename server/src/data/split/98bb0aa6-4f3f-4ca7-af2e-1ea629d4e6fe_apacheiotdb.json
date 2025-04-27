@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/apache/iotdb",
+  "githubUrl": "https://github.com/apache/iotdb",
+  "name": "Apache IoTDB",
+  "description": "MCP Server for [Apache IoTDB](https://github.com/apache/iotdb) database and its tools",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "98bb0aa6-4f3f-4ca7-af2e-1ea629d4e6fe",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

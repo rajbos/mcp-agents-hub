@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/yanmxa/multicluster-mcp-server",
+  "githubUrl": "https://github.com/yanmxa/multicluster-mcp-server",
+  "name": "Multicluster-MCP-Sever",
+  "description": "The gateway for GenAI systems to interact with multiple Kubernetes clusters.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7b5d97e0-27bf-409d-927f-58751aa04a4c",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

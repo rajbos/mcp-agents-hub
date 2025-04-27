@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/trafflux/pdf-reader-mcp",
   "name": "PDF Reader",
   "author": "trafflux",
-  "description": "Integrates with PyPDF2 to enable efficient text extraction and information retrieval from PDF documents for various applications.",
+  "description": "Integrates with PyPDF to enable efficient text extraction and information retrieval from PDF documents for various applications.",
   "codiconIcon": "pdf",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:26.758293+00:00",
   "updatedAt": "2025-03-17T08:29:26.758293+00:00",
-  "hubId": "559e3d4b-54a3-49e8-aca2-bdd6bf6092f4"
+  "hubId": "559e3d4b-54a3-49e8-aca2-bdd6bf6092f4",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

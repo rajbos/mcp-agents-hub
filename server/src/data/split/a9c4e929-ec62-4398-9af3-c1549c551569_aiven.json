@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Aiven-Open/mcp-aiven",
+  "githubUrl": "https://github.com/Aiven-Open/mcp-aiven",
+  "name": "Aiven",
+  "description": "Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL, Apache Kafka, ClickHouse and OpenSearch services",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a9c4e929-ec62-4398-9af3-c1549c551569",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

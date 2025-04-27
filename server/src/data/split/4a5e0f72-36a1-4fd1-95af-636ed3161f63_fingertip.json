@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/fingertip-com/fingertip-mcp",
+  "githubUrl": "https://github.com/fingertip-com/fingertip-mcp",
+  "name": "Fingertip",
+  "description": "MCP server for Fingertip.com to search and create new sites.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "4a5e0f72-36a1-4fd1-95af-636ed3161f63",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

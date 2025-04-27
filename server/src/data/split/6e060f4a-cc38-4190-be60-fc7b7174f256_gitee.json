@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/oschina/mcp-gitee",
+  "githubUrl": "https://github.com/oschina/mcp-gitee",
+  "name": "Gitee",
+  "description": "Gitee API integration, repository, issue, and pull request management, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "version-control",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6e060f4a-cc38-4190-be60-fc7b7174f256",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

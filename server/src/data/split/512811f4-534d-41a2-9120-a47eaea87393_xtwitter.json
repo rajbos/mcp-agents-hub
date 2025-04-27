@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/vidhupv/x-mcp",
+  "githubUrl": "https://github.com/vidhupv/x-mcp",
+  "name": "X (Twitter)",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "512811f4-534d-41a2-9120-a47eaea87393",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

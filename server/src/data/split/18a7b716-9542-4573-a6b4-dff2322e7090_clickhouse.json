@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/ClickHouse/mcp-clickhouse",
   "name": "ClickHouse",
   "author": "ClickHouse",
-  "description": "Integrates with ClickHouse to enable natural language querying and exploration of large datasets while maintaining read-only safeguards.",
+  "description": "Query your [ClickHouse](https://clickhouse.com/) database server.",
   "codiconIcon": "clickhouse",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "18a7b716-9542-4573-a6b4-dff2322e7090"
+  "hubId": "18a7b716-9542-4573-a6b4-dff2322e7090",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

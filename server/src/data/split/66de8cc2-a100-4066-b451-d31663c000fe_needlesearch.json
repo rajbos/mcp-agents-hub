@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/needle-ai/needle-mcp",
   "name": "Needle Search",
   "author": "needle-ai",
-  "description": "Enables document management and natural language search capabilities through the Needle platform, allowing users to organize, store, and retrieve documents using Claude's language model.",
+  "description": "Production-ready RAG out of the box to search and retrieve data from your own documents.",
   "codiconIcon": "search",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/needle-search.png",
   "category": "search",
@@ -20,5 +20,8 @@
   "downloadCount": 53,
   "createdAt": "2025-02-18T06:08:09.63413Z",
   "updatedAt": "2025-02-18T06:08:09.63413Z",
-  "hubId": "66de8cc2-a100-4066-b451-d31663c000fe"
+  "hubId": "66de8cc2-a100-4066-b451-d31663c000fe",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

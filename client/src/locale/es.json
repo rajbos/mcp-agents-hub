@@ -47,6 +47,8 @@
     },
     "serverCount": "Servidores MCP disponibles",
     "recommendedServers": "Servidores Recomendados",
+    "officialIntegrations": "Integraciones Oficiales",
+    "referenceServers": "Servidores de Referencia",
     "otherServers": "Otros Servidores",
     "loadMore": "Cargar Más",
     "of": "de",
@@ -88,6 +90,9 @@
     "server": "Servidor",
     "servers": "Servidores",
     "recommended": "Recomendado",
+    "officialIntegration": "Integración Oficial",
+    "referenceServer": "Servidor de Referencia",
+    "communityServer": "Servidor Comunitario",
     "siteName": "MCP Hub",
     "viewAll": "Ver Todo"
   },
@@ -115,7 +120,10 @@
     "noResults": "No se encontraron servidores que coincidan con su búsqueda",
     "tryDifferent": "Intente con un término de búsqueda diferente o explore todos los servidores en esta categoría",
     "clearAndShowAll": "Borrar búsqueda y mostrar todos los servidores",
-    "recommendedOnly": "Solo recomendados"
+    "recommendedOnly": "Solo recomendados",
+    "officialIntegrationOnly": "Solo integración oficial",
+    "referenceServerOnly": "Solo servidor de referencia",
+    "communityServerOnly": "Solo servidor comunitario"
   },
   "submit": {
     "title": "Enviar Su Servidor MCP",

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/GongRzhe/Image-Generation-MCP-Server",
+  "githubUrl": "https://github.com/GongRzhe/Image-Generation-MCP-Server",
+  "name": "Image Generation",
+  "description": "This MCP server provides image generation capabilities using the Replicate Flux model.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "2cb8cc5f-01f4-412b-99ff-6a2bab0aa683",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

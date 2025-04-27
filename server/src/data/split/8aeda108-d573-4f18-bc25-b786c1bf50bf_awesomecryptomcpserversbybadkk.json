@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/badkk/awesome-crypto-mcp-servers",
+  "githubUrl": "https://github.com/badkk/awesome-crypto-mcp-servers",
+  "name": "Awesome Crypto MCP Servers by badkk",
+  "description": "A curated list of MCP servers by [Luke Fan](https://github.com/badkk)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8aeda108-d573-4f18-bc25-b786c1bf50bf",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

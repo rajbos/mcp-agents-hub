@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/sparfenyuk/mcp-proxy",
+  "githubUrl": "https://github.com/sparfenyuk/mcp-proxy",
+  "name": "mcp-proxy",
+  "description": "Connect to MCP servers that run on SSE transport, or expose stdio servers as an SSE server.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "dcb0fa8a-134d-477a-83fd-8025a795a755",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

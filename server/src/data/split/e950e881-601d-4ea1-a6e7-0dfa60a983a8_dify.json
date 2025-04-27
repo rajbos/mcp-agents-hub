@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/YanxingLiu/dify-mcp-server",
   "name": "Dify",
   "author": "YanxingLiu",
-  "description": "Integrates with the Dify API to enable workflow execution and management for automated task processing and decision making across domains.",
+  "description": "A simple implementation of an MCP server for dify workflows.",
   "codiconIcon": "dify",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "e950e881-601d-4ea1-a6e7-0dfa60a983a8"
+  "hubId": "e950e881-601d-4ea1-a6e7-0dfa60a983a8",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

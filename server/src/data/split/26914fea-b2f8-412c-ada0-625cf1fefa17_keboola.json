@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/keboola/keboola-mcp-server",
+  "githubUrl": "https://github.com/keboola/keboola-mcp-server",
+  "name": "Keboola",
+  "description": "Build robust data workflows, integrations, and analytics on a single intuitive platform.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "26914fea-b2f8-412c-ada0-625cf1fefa17",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

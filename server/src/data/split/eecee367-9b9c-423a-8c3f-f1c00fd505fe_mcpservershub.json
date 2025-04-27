@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/apappascs/mcp-servers-hub",
+  "githubUrl": "https://github.com/apappascs/mcp-servers-hub",
+  "name": "MCP Servers Hub",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "eecee367-9b9c-423a-8c3f-f1c00fd505fe",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

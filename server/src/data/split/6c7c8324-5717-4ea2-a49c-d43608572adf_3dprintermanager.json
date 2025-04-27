@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/DMontgomery40/mcp-3D-printer-server",
   "name": "3D Printer Manager",
   "author": "DMontgomery40",
-  "description": "Integrates with multiple 3D printer management systems to enable remote control, file handling, and advanced STL manipulation for automated print job management and custom model modifications.",
+  "description": "Integrates with multiple D printer management systems to enable remote control, file handling, and advanced STL manipulation for automated print job management and custom model modifications.",
   "codiconIcon": "3d",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.725369+00:00",
   "updatedAt": "2025-03-17T08:29:21.725369+00:00",
-  "hubId": "6c7c8324-5717-4ea2-a49c-d43608572adf"
+  "hubId": "6c7c8324-5717-4ea2-a49c-d43608572adf",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

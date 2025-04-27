@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/codacy/codacy-mcp-server",
+  "githubUrl": "https://github.com/codacy/codacy-mcp-server",
+  "name": "Codacy",
+  "description": "Interact with [Codacy](https://www.codacy.com) API to query code quality issues, vulnerabilities, and coverage insights about your code.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a53446cf-528d-4c57-8040-0ff521a5d175",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/john-zhang-dev/xero-mcp",
+  "githubUrl": "https://github.com/john-zhang-dev/xero-mcp",
+  "name": "Xero-mcp-server",
+  "description": "Enabling clients to interact with Xero system for streamlined accounting, invoicing, and business operations.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "343a1e83-f716-4c18-86f2-a0482b022206",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

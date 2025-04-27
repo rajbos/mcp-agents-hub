@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/aliyun/alibabacloud-hologres-mcp-server",
+  "githubUrl": "https://github.com/aliyun/alibabacloud-hologres-mcp-server",
+  "name": "Hologres",
+  "description": "Connect to a [Hologres](https://www.alibabacloud.com/en/product/hologres) instance, get table metadata, query and analyze data.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6785cf16-10a8-40ba-b944-8622bddbfd50",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

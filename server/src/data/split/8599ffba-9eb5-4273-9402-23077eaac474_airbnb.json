@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/openbnb-org/mcp-server-airbnb",
+  "githubUrl": "https://github.com/openbnb-org/mcp-server-airbnb",
+  "name": "Airbnb",
+  "description": "Provides tools to search Airbnb and get listing details.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8599ffba-9eb5-4273-9402-23077eaac474",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

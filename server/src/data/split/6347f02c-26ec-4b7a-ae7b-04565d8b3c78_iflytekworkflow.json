@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/iflytek/ifly-workflow-mcp-server",
+  "githubUrl": "https://github.com/iflytek/ifly-workflow-mcp-server",
+  "name": "iFlytek Workflow",
+  "description": "Connect to iFlytek Workflow via the MCP server and run your own Agent.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6347f02c-26ec-4b7a-ae7b-04565d8b3c78",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

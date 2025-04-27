@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/sergehuber/inoyu-mcp-unomi-server",
   "name": "Apache Unomi",
   "author": "sergehuber",
-  "description": "Maintain persistent user profiles and context across conversations.",
+  "description": "Interact with an Apache Unomi CDP customer data platform to retrieve and update customer profiles",
   "codiconIcon": "apache",
   "logoUrl": "",
   "category": "knowledge-memory",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
   "updatedAt": "2025-03-17T08:29:24.291233+00:00",
-  "hubId": "cf850860-58d4-4c09-83d3-df3c5b4ef379"
+  "hubId": "cf850860-58d4-4c09-83d3-df3c5b4ef379",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

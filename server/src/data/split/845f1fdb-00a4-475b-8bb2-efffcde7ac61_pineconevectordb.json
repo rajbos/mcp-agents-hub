@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/sirmews/mcp-pinecone",
   "name": "Pinecone Vector DB",
   "author": "sirmews",
-  "description": "Leverage Pinecone vector databases for semantic search and RAG.",
+  "description": "MCP server for searching and uploading records to Pinecone. Allows for simple RAG features, leveraging Pinecone's Inference API.",
   "codiconIcon": "pinecone",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-03-17T08:29:19.654593+00:00",
-  "hubId": "845f1fdb-00a4-475b-8bb2-efffcde7ac61"
+  "hubId": "845f1fdb-00a4-475b-8bb2-efffcde7ac61",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

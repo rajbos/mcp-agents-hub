@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/davidvc/code-mcp",
   "name": "Code Analysis",
   "author": "davidvc",
-  "description": "Integrates code analysis using a Neo4j graph database to enable structural insights, quality metrics, and natural language querying of codebases.",
+  "description": "Integrates code analysis using a Neoj graph database to enable structural insights, quality metrics, and natural language querying of codebases.",
   "codiconIcon": "code",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
   "updatedAt": "2025-03-17T08:29:24.291233+00:00",
-  "hubId": "037088a5-95c5-4a2f-abf2-c6fac31a51cb"
+  "hubId": "037088a5-95c5-4a2f-abf2-c6fac31a51cb",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

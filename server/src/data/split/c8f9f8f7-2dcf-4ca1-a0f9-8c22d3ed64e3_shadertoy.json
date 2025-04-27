@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/wilsonchenghy/ShaderToy-MCP",
+  "githubUrl": "https://github.com/wilsonchenghy/ShaderToy-MCP",
+  "name": "ShaderToy",
+  "description": "This MCP server lets LLMs to interact with the ShaderToy API, allowing LLMs to learn from compute shaders examples and enabling them to create complex GLSL shaders that they are previously not capable of.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c8f9f8f7-2dcf-4ca1-a0f9-8c22d3ed64e3",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

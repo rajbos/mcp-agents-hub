@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/eqtylab/mcp-guardian",
+  "githubUrl": "https://github.com/eqtylab/mcp-guardian",
+  "name": "mcp-guardian",
+  "description": "GUI application + tools for proxying / managing control of MCP servers by [EQTY Lab](https://eqtylab.io)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "368adae0-0746-468a-9e8a-9030268b2a42",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

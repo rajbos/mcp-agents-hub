@@ -10,6 +10,9 @@ export interface MCPServer {
   tags: string[];
   requiresApiKey: boolean;
   isRecommended: boolean;
+  isOfficialIntegration?: boolean;
+  isReferenceServer?: boolean;
+  isCommunityServer?: boolean;
   githubStars: number;
   downloadCount: number;
   createdAt: string;

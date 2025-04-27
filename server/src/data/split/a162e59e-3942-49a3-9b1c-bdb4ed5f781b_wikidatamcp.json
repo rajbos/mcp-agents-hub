@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/zzaebok/mcp-wikidata",
+  "githubUrl": "https://github.com/zzaebok/mcp-wikidata",
+  "name": "Wikidata MCP",
+  "description": "Wikidata MCP server that interact with Wikidata, by searching identifiers, extracting metadata, and executing sparql query.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a162e59e-3942-49a3-9b1c-bdb4ed5f781b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

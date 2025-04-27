@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/heurist-network/heurist-agent-framework/tree/main/mesh",
+  "githubUrl": "https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh",
+  "name": "Heurist Mesh Agent",
+  "description": "Access specialized web AI agents for blockchain analysis, smart contract security, token metrics, and blockchain interactions through the [Heurist Mesh network](https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "2848c0f7-8321-4e8c-aea8-f4263cd24f45",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

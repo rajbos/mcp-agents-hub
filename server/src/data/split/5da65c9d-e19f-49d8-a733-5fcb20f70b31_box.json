@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/box-community/mcp-server-box",
+  "githubUrl": "https://github.com/box-community/mcp-server-box",
+  "name": "Box",
+  "description": "Interact with the Intelligent Content Management platform through Box AI.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "file-systems",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "5da65c9d-e19f-49d8-a733-5fcb20f70b31",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

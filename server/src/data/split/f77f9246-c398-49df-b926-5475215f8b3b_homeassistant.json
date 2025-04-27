@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/tevonsb/homeassistant-mcp",
+  "githubUrl": "https://github.com/tevonsb/homeassistant-mcp",
+  "name": "Home Assistant",
+  "description": "Interact with [Home Assistant](https://www.home-assistant.io/) including viewing and controlling lights, switches, sensors, and all other Home Assistant entities.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f77f9246-c398-49df-b926-5475215f8b3b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

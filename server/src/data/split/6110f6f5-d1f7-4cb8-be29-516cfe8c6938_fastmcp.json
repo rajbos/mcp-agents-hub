@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/punkpeye/fastmcp",
+  "githubUrl": "https://github.com/punkpeye/fastmcp",
+  "name": "FastMCP",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6110f6f5-d1f7-4cb8-be29-516cfe8c6938",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

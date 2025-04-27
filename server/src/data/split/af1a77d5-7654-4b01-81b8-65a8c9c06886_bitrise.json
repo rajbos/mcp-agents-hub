@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/bitrise-io/bitrise-mcp",
+  "githubUrl": "https://github.com/bitrise-io/bitrise-mcp",
+  "name": "Bitrise",
+  "description": "Chat with your builds, CI, and [more](https://bitrise.io/blog/post/chat-with-your-builds-ci-and-more-introducing-the-bitrise-mcp-server).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "af1a77d5-7654-4b01-81b8-65a8c9c06886",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

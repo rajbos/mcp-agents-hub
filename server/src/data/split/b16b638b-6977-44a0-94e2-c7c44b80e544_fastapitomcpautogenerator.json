@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/tadata-org/fastapi_mcp",
+  "githubUrl": "https://github.com/tadata-org/fastapi_mcp",
+  "name": "FastAPI to MCP auto generator",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b16b638b-6977-44a0-94e2-c7c44b80e544",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

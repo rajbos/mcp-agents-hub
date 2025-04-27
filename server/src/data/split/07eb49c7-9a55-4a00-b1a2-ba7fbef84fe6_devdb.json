@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/damms005/devdb-vscode",
+  "githubUrl": "https://github.com/damms005/devdb-vscode",
+  "name": "DevDb",
+  "description": "An MCP server that runs right inside the IDE, for connecting to MySQL, Postgres, SQLite, and MSSQL databases.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "07eb49c7-9a55-4a00-b1a2-ba7fbef84fe6",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

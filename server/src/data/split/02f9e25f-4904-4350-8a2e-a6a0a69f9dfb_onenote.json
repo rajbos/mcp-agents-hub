@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/rajvirtual/MCP-Servers/tree/master/onenote",
+  "githubUrl": "https://github.com/rajvirtual/MCP-Servers/tree/master/onenote",
+  "name": "OneNote",
+  "description": "(by Rajesh Vijay) An MCP server that connects to Microsoft OneNote using the Microsoft Graph API. Reading notebooks, sections, and pages from OneNote,Creating new notebooks, sections, and pages in OneNote.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "02f9e25f-4904-4350-8a2e-a6a0a69f9dfb",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

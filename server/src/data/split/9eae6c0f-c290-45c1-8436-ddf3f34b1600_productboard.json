@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kenjihikmatullah/productboard-mcp",
   "name": "Productboard",
   "author": "kenjihikmatullah",
-  "description": "Integrates with the Productboard API to enable access to companies, components, features, and products for enhanced product management and feature tracking workflows.",
+  "description": "Integrate the Productboard API into agentic workflows via MCP.",
   "codiconIcon": "productboard",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.725369+00:00",
   "updatedAt": "2025-03-17T08:29:21.725369+00:00",
-  "hubId": "9eae6c0f-c290-45c1-8436-ddf3f34b1600"
+  "hubId": "9eae6c0f-c290-45c1-8436-ddf3f34b1600",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

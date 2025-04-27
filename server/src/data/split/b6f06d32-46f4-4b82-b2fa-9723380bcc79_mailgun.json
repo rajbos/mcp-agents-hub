@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mailgun/mailgun-mcp-server",
+  "githubUrl": "https://github.com/mailgun/mailgun-mcp-server",
+  "name": "Mailgun",
+  "description": "Interact with Mailgun API.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b6f06d32-46f4-4b82-b2fa-9723380bcc79",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

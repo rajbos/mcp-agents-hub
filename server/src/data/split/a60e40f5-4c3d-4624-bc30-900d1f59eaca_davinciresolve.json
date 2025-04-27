@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/samuelgursky/davinci-resolve-mcp",
+  "githubUrl": "https://github.com/samuelgursky/davinci-resolve-mcp",
+  "name": "DaVinci Resolve",
+  "description": "MCP server integration for DaVinci Resolve providing powerful tools for video editing, color grading, media management, and project control.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a60e40f5-4c3d-4624-bc30-900d1f59eaca",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

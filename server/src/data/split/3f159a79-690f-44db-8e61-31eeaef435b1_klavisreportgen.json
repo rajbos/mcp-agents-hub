@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Klavis-AI/klavis/tree/main/mcp_servers/report_generation",
+  "githubUrl": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/report_generation",
+  "name": "Klavis ReportGen",
+  "description": "Create professional reports from a simple user query.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3f159a79-690f-44db-8e61-31eeaef435b1",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/singlestore-labs/mcp-server-singlestore",
+  "githubUrl": "https://github.com/singlestore-labs/mcp-server-singlestore",
+  "name": "SingleStore",
+  "description": "Interact with the SingleStore database platform",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "fe74b286-9f01-44f1-b8db-dd49ecb76b3e",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

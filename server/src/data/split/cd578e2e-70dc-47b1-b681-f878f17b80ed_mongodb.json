@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kiliczsh/mcp-mongo-server",
   "name": "MongoDB",
   "author": "kiliczsh",
-  "description": "Query and analyze MongoDB databases.",
+  "description": "A Model Context Protocol Server for MongoDB.",
   "codiconIcon": "mongodb",
   "logoUrl": "",
   "category": "databases",
@@ -19,5 +19,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "cd578e2e-70dc-47b1-b681-f878f17b80ed"
+  "hubId": "cd578e2e-70dc-47b1-b681-f878f17b80ed",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

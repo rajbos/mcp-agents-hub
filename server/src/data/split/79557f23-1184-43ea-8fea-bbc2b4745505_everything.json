@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/modelcontextprotocol/servers/tree/main/src/everything",
+  "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+  "name": "Everything",
+  "description": "Reference / test server with prompts, resources, and tools",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "79557f23-1184-43ea-8fea-bbc2b4745505",
+  "isOfficialIntegration": false,
+  "isReferenceServer": true,
+  "isCommunityServer": false
+}
