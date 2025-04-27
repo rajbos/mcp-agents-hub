@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server",
+  "githubUrl": "https://github.com/sendaifun/solana-agent-kit/tree/main/examples/agent-kit-mcp-server",
+  "name": "Solana Agent Kit",
+  "description": "This MCP server enables LLMs to interact with the Solana blockchain with help of Solana Agent Kit by SendAI, allowing for + protcool actions and growing",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3827663b-c671-42b1-853e-421a7e836935",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

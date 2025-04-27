@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/yeonupark/mcp-soccer-data",
+  "githubUrl": "https://github.com/yeonupark/mcp-soccer-data",
+  "name": "SoccerDataAPI",
+  "description": "This MCP server provides real-time football match data based on the SoccerDataAPI.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "306b4cb5-8bd6-4523-93ce-e383b14f4c3e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

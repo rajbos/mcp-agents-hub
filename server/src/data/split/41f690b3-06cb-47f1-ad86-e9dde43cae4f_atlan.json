@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol",
+  "githubUrl": "https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol",
+  "name": "Atlan",
+  "description": "The Atlan Model Context Protocol server allows you to interact with the [Atlan](https://www.atlan.com/) services through multiple tools.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "41f690b3-06cb-47f1-ad86-e9dde43cae4f",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/oatpp/oatpp-mcp",
+  "githubUrl": "https://github.com/oatpp/oatpp-mcp",
+  "name": "oatpp-mcp",
+  "description": "C++ MCP integration for Oat++. Use [Oat++](https://oatpp.io) to build MCP servers.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a9b142dd-fe34-4c3f-ad8c-e0b7aeae7d50",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

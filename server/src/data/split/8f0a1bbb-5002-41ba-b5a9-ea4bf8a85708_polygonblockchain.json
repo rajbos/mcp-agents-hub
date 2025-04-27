@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/Dbillionaer/polygon-mcp",
   "name": "Polygon Blockchain",
   "author": "Dbillionaer",
-  "description": "Integrates with the Polygon blockchain network to enable wallet operations, smart contract deployments, L2 bridging, DeFi interactions, and transaction simulations using ethers.js v6 across both Mainnet and Mumbai Testnet environments.",
+  "description": "Integrates with the Polygon blockchain network to enable wallet operations, smart contract deployments, L bridging, DeFi interactions, and transaction simulations using ethers.js v across both Mainnet and Mumbai Testnet environments.",
   "codiconIcon": "polygon",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:27.547179+00:00",
   "updatedAt": "2025-03-17T08:29:27.547179+00:00",
-  "hubId": "8f0a1bbb-5002-41ba-b5a9-ea4bf8a85708"
+  "hubId": "8f0a1bbb-5002-41ba-b5a9-ea4bf8a85708",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

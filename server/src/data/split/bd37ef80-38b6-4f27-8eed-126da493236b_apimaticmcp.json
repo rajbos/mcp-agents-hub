@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/apimatic/apimatic-validator-mcp",
+  "githubUrl": "https://github.com/apimatic/apimatic-validator-mcp",
+  "name": "APIMatic MCP",
+  "description": "APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "bd37ef80-38b6-4f27-8eed-126da493236b",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

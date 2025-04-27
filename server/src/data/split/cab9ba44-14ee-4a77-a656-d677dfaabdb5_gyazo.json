@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/nota/gyazo-mcp-server",
+  "githubUrl": "https://github.com/nota/gyazo-mcp-server",
+  "name": "Gyazo",
+  "description": "Search, fetch, upload, and interact with Gyazo images, including metadata and OCR data.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "cab9ba44-14ee-4a77-a656-d677dfaabdb5",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

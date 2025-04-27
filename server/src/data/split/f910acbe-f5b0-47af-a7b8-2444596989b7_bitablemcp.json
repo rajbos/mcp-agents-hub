@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/lloydzhou/bitable-mcp",
+  "githubUrl": "https://github.com/lloydzhou/bitable-mcp",
+  "name": "Bitable MCP",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f910acbe-f5b0-47af-a7b8-2444596989b7",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

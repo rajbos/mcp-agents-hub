@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/baryhuang/mcp-remote-macos-use",
+  "githubUrl": "https://github.com/baryhuang/mcp-remote-macos-use",
+  "name": "Computer-Use - Remote MacOS Use",
+  "description": "Open-source out-of-the-box alternative to OpenAI Operator, providing a full desktop experience and optimized for using remote macOS machines as autonomous AI agents.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "af1d0781-4137-4bc3-ab1b-b9198d14f620",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

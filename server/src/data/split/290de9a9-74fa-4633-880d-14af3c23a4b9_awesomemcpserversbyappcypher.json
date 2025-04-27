@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/appcypher/awesome-mcp-servers",
+  "githubUrl": "https://github.com/appcypher/awesome-mcp-servers",
+  "name": "Awesome MCP Servers by appcypher",
+  "description": "A curated list of MCP servers by [Stephen Akinyemi](https://github.com/appcypher)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "290de9a9-74fa-4633-880d-14af3c23a4b9",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

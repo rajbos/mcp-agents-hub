@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/semgrep/mcp",
+  "githubUrl": "https://github.com/semgrep/mcp",
+  "name": "Semgrep",
+  "description": "Enable AI agents to secure code with [Semgrep](https://semgrep.dev/).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "354b95d1-6ec5-4b8c-94d0-24668df8b1a5",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

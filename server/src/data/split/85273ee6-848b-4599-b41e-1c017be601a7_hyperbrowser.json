@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/hyperbrowserai/mcp",
+  "githubUrl": "https://github.com/hyperbrowserai/mcp",
+  "name": "Hyperbrowser",
+  "description": "[Hyperbrowser](https://www.hyperbrowser.ai/) is the next-generation platform empowering AI agents and enabling effortless, scalable browser automation.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "browser-automation",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "85273ee6-848b-4599-b41e-1c017be601a7",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

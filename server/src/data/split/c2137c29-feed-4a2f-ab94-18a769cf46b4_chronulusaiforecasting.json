@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/ChronulusAI/chronulus-mcp",
   "name": "Chronulus AI Forecasting",
   "author": "ChronulusAI",
-  "description": "Integrates with Chronulus AI's forecasting API to enable time series analysis, prediction generation, and visualization of forecasting data through natural language commands.",
+  "description": "Predict anything with Chronulus AI forecasting and prediction agents.",
   "codiconIcon": "chronulus",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "c2137c29-feed-4a2f-ab94-18a769cf46b4"
+  "hubId": "c2137c29-feed-4a2f-ab94-18a769cf46b4",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

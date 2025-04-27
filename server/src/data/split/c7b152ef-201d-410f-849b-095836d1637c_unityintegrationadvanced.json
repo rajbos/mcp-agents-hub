@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/quazaai/UnityMCPIntegration",
+  "githubUrl": "https://github.com/quazaai/UnityMCPIntegration",
+  "name": "Unity Integration (Advanced)",
+  "description": "Advanced Unityd Game Engine MCP which supports ,Execution of Any Editor Related Code Directly Inside of Unity, Fetch Logs, Get Editor State and Allow File Access of the Project making it much more useful in Script Editing or asset creation.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c7b152ef-201d-410f-849b-095836d1637c",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

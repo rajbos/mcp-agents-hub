@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/abhiz123/todoist-mcp-server",
   "name": "Todoist",
   "author": "abhiz123",
-  "description": "Create and manage tasks in Todoist through natural language.",
+  "description": "Interact with Todoist to manage your tasks.",
   "codiconIcon": "todoist",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "a172e385-93a1-476f-9bfc-06600387028e"
+  "hubId": "a172e385-93a1-476f-9bfc-06600387028e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

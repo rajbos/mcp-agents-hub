@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/dschuler36/reaper-mcp-server",
+  "githubUrl": "https://github.com/dschuler36/reaper-mcp-server",
+  "name": "Reaper",
+  "description": "Interact with your [Reaper](https://www.reaper.fm/) (Digital Audio Workstation) projects.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6f7bacd4-a91f-4183-8a5c-ca1393bf62da",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

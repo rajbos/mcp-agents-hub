@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/diegobit/aranet4-mcp-server",
+  "githubUrl": "https://github.com/diegobit/aranet4-mcp-server",
+  "name": "Aranet4",
+  "description": "MCP Server to manage your Aranet CO sensor. Fetch data and store in a local SQLite. Ask questions about historical data.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f803f885-a161-4ee9-b4b0-04516be56878",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

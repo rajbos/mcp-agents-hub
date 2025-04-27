@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/integration-app/mcp-server",
   "name": "Integration.app",
   "author": "integration-app",
-  "description": "Integrates with Integration App's API to expose workflow automation capabilities as tools for triggering and managing complex business processes.",
+  "description": "Interact with any other SaaS applications on behalf of your customers.",
   "codiconIcon": "integration.app",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "a20b0dee-b28d-4f21-883f-1cbb8bb6ea2d"
+  "hubId": "a20b0dee-b28d-4f21-883f-1cbb8bb6ea2d",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

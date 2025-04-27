@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/ihor-sokoliuk/mcp-searxng",
   "name": "SearXNG",
   "author": "ihor-sokoliuk",
-  "description": "Integrates SearXNG API to enable web searches with pagination control for up-to-date information retrieval and content analysis.",
+  "description": "A Model Context Protocol Server for [SearXNG](https://docs.searxng.org)",
   "codiconIcon": "searxng",
   "logoUrl": "",
   "category": "search",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "6300b4bf-4d1b-47df-a62e-4523f8a05ecc"
+  "hubId": "6300b4bf-4d1b-47df-a62e-4523f8a05ecc",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

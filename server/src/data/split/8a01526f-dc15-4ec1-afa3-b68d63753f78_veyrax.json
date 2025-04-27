@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/VeyraX/veyrax-mcp",
+  "githubUrl": "https://github.com/VeyraX/veyrax-mcp",
+  "name": "VeyraX",
+  "description": "Single tool to control all + API integrations, and UI components",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8a01526f-dc15-4ec1-afa3-b68d63753f78",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

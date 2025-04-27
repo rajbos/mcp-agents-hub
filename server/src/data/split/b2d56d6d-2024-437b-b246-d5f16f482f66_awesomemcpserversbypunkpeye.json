@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/punkpeye/awesome-mcp-servers",
+  "githubUrl": "https://github.com/punkpeye/awesome-mcp-servers",
+  "name": "Awesome MCP Servers by punkpeye",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b2d56d6d-2024-437b-b246-d5f16f482f66",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

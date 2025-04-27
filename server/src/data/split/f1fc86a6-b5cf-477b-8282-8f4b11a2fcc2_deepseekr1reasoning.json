@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/moyu6027/deepseek-MCP-server",
   "name": "DeepSeek R1 Reasoning",
   "author": "moyu6027",
-  "description": "Integrates with DeepSeek's R1 reasoning engine to enable advanced cognitive modeling and multi-step reasoning capabilities for complex problem-solving across various domains.",
+  "description": "Integrates with DeepSeek's R reasoning engine to enable advanced cognitive modeling and multi-step reasoning capabilities for complex problem-solving across various domains.",
   "codiconIcon": "deepseek",
   "logoUrl": "",
   "category": "knowledge-memory",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:28.871131+00:00",
   "updatedAt": "2025-03-17T08:29:28.871131+00:00",
-  "hubId": "f1fc86a6-b5cf-477b-8282-8f4b11a2fcc2"
+  "hubId": "f1fc86a6-b5cf-477b-8282-8f4b11a2fcc2",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

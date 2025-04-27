@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/wanaku-ai/wanaku",
+  "githubUrl": "https://github.com/wanaku-ai/wanaku",
+  "name": "Wanaku MCP Router",
+  "description": "The Wanaku MCP Router is a SSE-based MCP server that provides an extensible routing engine that allows integrating your enterprise systems with AI agents.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "16853241-8159-4ef8-81d9-e0ef233a4c1d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

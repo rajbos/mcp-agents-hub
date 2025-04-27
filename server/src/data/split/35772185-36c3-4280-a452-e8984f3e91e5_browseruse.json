@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/co-browser/browser-use-mcp-server",
+  "githubUrl": "https://github.com/co-browser/browser-use-mcp-server",
+  "name": "browser-use",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "browser-automation",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "35772185-36c3-4280-a452-e8984f3e91e5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

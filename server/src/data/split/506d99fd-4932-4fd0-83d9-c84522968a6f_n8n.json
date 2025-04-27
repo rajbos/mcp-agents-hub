@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/leonardsellem/n8n-mcp-server",
+  "githubUrl": "https://github.com/leonardsellem/n8n-mcp-server",
+  "name": "n8n",
+  "description": "This MCP server provides tools and resources for AI assistants to manage nn workflows and executions, including listing, creating, updating, and deleting workflows, as well as monitoring their execution status.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "506d99fd-4932-4fd0-83d9-c84522968a6f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/v-3/google-calendar",
+  "githubUrl": "https://github.com/v-3/google-calendar",
+  "name": "Google Calendar",
+  "description": "Integration with Google Calendar to check schedules, find time, and add/delete events",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8a202695-b0bc-42bc-a892-b3ebbbef30ec",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

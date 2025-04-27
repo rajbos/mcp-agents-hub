@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kunwarVivek/mcp-github-project-manager",
   "name": "GitHub Project Manager",
   "author": "kunwarVivek",
-  "description": "Integrates with GitHub Projects V2 to enable natural language management of project boards, issues, milestones, and sprints.",
+  "description": "Integrates with GitHub Projects V to enable natural language management of project boards, issues, milestones, and sprints.",
   "codiconIcon": "github",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "cbeabb3d-031d-40b1-afef-0b86c24c8b5c"
+  "hubId": "cbeabb3d-031d-40b1-afef-0b86c24c8b5c",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

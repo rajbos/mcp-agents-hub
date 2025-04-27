@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/hungryrobot1/MCP-PIF",
+  "githubUrl": "https://github.com/hungryrobot1/MCP-PIF",
+  "name": "PIF",
+  "description": "A Personal Intelligence Framework (PIF), providing tools for file operations, structured reasoning, and journal-based documentation to support continuity and evolving human-AI collaboration across sessions.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7cfcae29-85c4-4214-92e3-5d0d089da3b9",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/ShenghaiWang/xcodebuild",
   "name": "Xcodebuild",
   "author": "ShenghaiWang",
-  "description": "Integrates with Xcode to enable iOS project building, testing, and error handling for efficient development workflows in AI-assisted coding environments.",
+  "description": "Build iOS Xcode workspace/project and feed back errors to llm.",
   "codiconIcon": "xcodebuild",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "30507b5d-25c7-4bc4-9450-6eedd493cf3b"
+  "hubId": "30507b5d-25c7-4bc4-9450-6eedd493cf3b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

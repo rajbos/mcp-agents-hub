@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/GeLi2001/tft-mcp-server",
+  "githubUrl": "https://github.com/GeLi2001/tft-mcp-server",
+  "name": "TFT-Match-Analyzer",
+  "description": "MCP server for teamfight tactics match history & match details fetching, providing user the detailed context for every match.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c2f4ff6a-380b-4513-ae31-f4c30cc79ccc",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

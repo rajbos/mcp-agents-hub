@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/syucream/lightdash-mcp-server",
   "name": "Lightdash",
   "author": "syucream",
-  "description": "Integrates with Lightdash to enable automated reporting, data exploration, and analytics-driven decision making.",
+  "description": "Interact with [Lightdash](https://www.lightdash.com/), a BI tool.",
   "codiconIcon": "lightdash",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.859656+00:00",
   "updatedAt": "2025-03-17T08:29:23.859656+00:00",
-  "hubId": "902789e1-4a4c-464b-bf22-4bcf9e16db33"
+  "hubId": "902789e1-4a4c-464b-bf22-4bcf9e16db33",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

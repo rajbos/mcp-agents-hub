@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mcpdotdirect/template-mcp-server",
+  "githubUrl": "https://github.com/mcpdotdirect/template-mcp-server",
+  "name": "Template MCP Server",
+  "description": "A CLI tool to create a new Model Context Protocol server project with TypeScript support, dual transport options, and an extensible structure",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "95f4d266-4e0f-4a15-85b7-a58cbc7cf881",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

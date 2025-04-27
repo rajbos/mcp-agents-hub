@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pydantic/logfire-mcp",
+  "githubUrl": "https://github.com/pydantic/logfire-mcp",
+  "name": "Logfire",
+  "description": "Provides access to OpenTelemetry traces and metrics through Logfire.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f8d4d356-3cfa-4c53-9f37-3c2747a7ab31",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
   "name": "Slack",
   "author": "modelcontextprotocol",
-  "description": "Enables AI assistants to interact with Slack workspaces, providing tools for messaging, channel management, reactions, user profiles, and thread management.",
+  "description": "Channel management and messaging capabilities",
   "codiconIcon": "comment-discussion",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/slack.png",
   "category": "communication",
@@ -20,5 +20,8 @@
   "downloadCount": 730,
   "createdAt": "2025-02-17T22:23:00.036614Z",
   "updatedAt": "2025-02-17T22:23:00.036614Z",
-  "hubId": "2660bdf4-5d32-4c38-9886-ffac5fa14a5c"
+  "hubId": "2660bdf4-5d32-4c38-9886-ffac5fa14a5c",
+  "isOfficialIntegration": false,
+  "isReferenceServer": true,
+  "isCommunityServer": false
 }

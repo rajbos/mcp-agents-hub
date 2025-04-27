@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/stripe/agent-toolkit",
   "name": "Stripe",
   "author": "stripe",
-  "description": "Enables AI agents to interact with Stripe APIs, supporting operations like customer management, payment processing, product creation, and invoice handling through function calling.",
+  "description": "Interact with Stripe API",
   "codiconIcon": "credit-card",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/stripe.png",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 650,
   "createdAt": "2025-02-18T06:28:40.359883Z",
   "updatedAt": "2025-02-18T06:28:40.359883Z",
-  "hubId": "d6f2f549-c06c-485f-adf1-edc0e31084b1"
+  "hubId": "d6f2f549-c06c-485f-adf1-edc0e31084b1",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

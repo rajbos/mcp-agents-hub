@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/Omedia/mcp-server-drupal",
   "name": "Drupal",
   "author": "Omedia",
-  "description": "Integrates with Drupal's API to enable content management, user administration, and site configuration for automated website operations and personalized content delivery.",
+  "description": "Server for interacting with [Drupal](https://www.drupal.org/project/mcp) using STDIO transport layer.",
   "codiconIcon": "drupal",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "01fcd7aa-4e9c-4a9f-994b-1dc3ffbc7a1b"
+  "hubId": "01fcd7aa-4e9c-4a9f-994b-1dc3ffbc7a1b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

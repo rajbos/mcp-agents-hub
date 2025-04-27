@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Fibery-inc/fibery-mcp-server",
+  "githubUrl": "https://github.com/Fibery-inc/fibery-mcp-server",
+  "name": "Fibery",
+  "description": "Perform queries and entity operations in your [Fibery](https://fibery.io) workspace.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "50cba932-edf4-4faa-b911-3736cfaff34e",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mcpx-dev/mcp-badges",
+  "githubUrl": "https://github.com/mcpx-dev/mcp-badges",
+  "name": "MCP Badges",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6f22eab5-abb7-454f-b684-c8c29097723d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

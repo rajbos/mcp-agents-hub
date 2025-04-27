@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/riza-io/riza-mcp",
   "name": "Riza",
   "author": "riza-io",
-  "description": "Provides a secure code interpreter for executing LLM-generated code, with features for creating, saving, managing, and executing code tools in an isolated environment.",
+  "description": "Arbitrary code execution and tool-use platform for LLMs by [Riza](https://riza.io)",
   "codiconIcon": "terminal",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/riza.png",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 76,
   "createdAt": "2025-02-18T06:28:33.910457Z",
   "updatedAt": "2025-02-18T06:28:33.910457Z",
-  "hubId": "2d30f543-853f-498b-b1be-bc69f877b941"
+  "hubId": "2d30f543-853f-498b-b1be-bc69f877b941",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

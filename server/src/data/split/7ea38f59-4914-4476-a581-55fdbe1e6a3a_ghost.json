@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/MFYDev/ghost-mcp",
+  "githubUrl": "https://github.com/MFYDev/ghost-mcp",
+  "name": "Ghost",
+  "description": "A Model Context Protocol (MCP) server for interacting with Ghost CMS through LLM interfaces like Claude.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7ea38f59-4914-4476-a581-55fdbe1e6a3a",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

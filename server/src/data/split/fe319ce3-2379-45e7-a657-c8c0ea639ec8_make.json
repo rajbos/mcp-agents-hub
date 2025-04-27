@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/integromat/make-mcp-server",
+  "githubUrl": "https://github.com/integromat/make-mcp-server",
+  "name": "Make",
+  "description": "Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "fe319ce3-2379-45e7-a657-c8c0ea639ec8",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

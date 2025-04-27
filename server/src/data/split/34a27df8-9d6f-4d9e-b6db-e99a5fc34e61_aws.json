@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/awslabs/mcp",
+  "githubUrl": "https://github.com/awslabs/mcp",
+  "name": "AWS",
+  "description": "Specialized MCP servers that bring AWS best practices directly to your development workflow.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "34a27df8-9d6f-4d9e-b6db-e99a5fc34e61",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

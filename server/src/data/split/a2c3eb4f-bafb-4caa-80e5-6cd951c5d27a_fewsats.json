@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Fewsats/fewsats-mcp",
+  "githubUrl": "https://github.com/Fewsats/fewsats-mcp",
+  "name": "Fewsats",
+  "description": "Enable AI Agents to purchase anything in a secure way using [Fewsats](https://fewsats.com)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a2c3eb4f-bafb-4caa-80e5-6cd951c5d27a",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

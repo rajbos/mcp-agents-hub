@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ko1ynnky/github-actions-mcp-server",
+  "githubUrl": "https://github.com/ko1ynnky/github-actions-mcp-server",
+  "name": "Github Actions",
+  "description": "A Model Context Protocol (MCP) server for interacting with Github Actions.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e2d97989-f695-469b-82fe-3c9bc3e558f5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

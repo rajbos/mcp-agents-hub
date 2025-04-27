@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/JordiNeil/mcp-databricks-server",
+  "githubUrl": "https://github.com/JordiNeil/mcp-databricks-server",
+  "name": "Databricks",
+  "description": "Allows LLMs to run SQL queries, list and get details of jobs executions in a Databricks account.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "cloud-platforms",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b98ac704-9f58-4066-ad6e-f75c47bfa46d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

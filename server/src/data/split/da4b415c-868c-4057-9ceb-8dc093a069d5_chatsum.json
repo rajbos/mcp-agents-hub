@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mcpso/mcp-server-chatsum",
+  "githubUrl": "https://github.com/mcpso/mcp-server-chatsum",
+  "name": "ChatSum",
+  "description": "Query and Summarize chat messages with LLM. by [mcpso](https://mcp.so)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "da4b415c-868c-4057-9ceb-8dc093a069d5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/da-okazaki/mcp-neo4j-server",
   "name": "Neo4j",
   "author": "da-okazaki",
-  "description": "Integrates with Neo4j graph databases to enable natural language querying, node creation, and complex graph operations for knowledge exploration and data relationship modeling.",
+  "description": "A community built server that interacts with Neoj Graph Database.",
   "codiconIcon": "neo4j",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.305405+00:00",
   "updatedAt": "2025-03-17T08:29:21.305405+00:00",
-  "hubId": "7a3349b4-db21-4232-af1d-abd1d604c541"
+  "hubId": "7a3349b4-db21-4232-af1d-abd1d604c541",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

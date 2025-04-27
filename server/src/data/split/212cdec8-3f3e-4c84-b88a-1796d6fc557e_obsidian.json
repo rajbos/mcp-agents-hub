@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/StevenStavrakis/obsidian-mcp",
   "name": "Obsidian",
   "author": "StevenStavrakis",
-  "description": "Integrates with Obsidian to enable natural language-based note creation, editing, and management within vaults.",
+  "description": "(by Steven Stavrakis) An MCP server for Obsidian.md with tools for searching, reading, writing, and organizing notes.",
   "codiconIcon": "obsidian",
   "logoUrl": "",
   "category": "knowledge-memory",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-03-17T08:29:19.654593+00:00",
-  "hubId": "212cdec8-3f3e-4c84-b88a-1796d6fc557e"
+  "hubId": "212cdec8-3f3e-4c84-b88a-1796d6fc557e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

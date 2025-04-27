@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/zueai/mcp-manager",
+  "githubUrl": "https://github.com/zueai/mcp-manager",
+  "name": "mcp-manager",
+  "description": "Simple Web UI to install and manage MCP servers for Claude Desktop by [Zue](https://github.com/zueai)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "03c5710b-d3b1-4564-b797-2e6515b299a6",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

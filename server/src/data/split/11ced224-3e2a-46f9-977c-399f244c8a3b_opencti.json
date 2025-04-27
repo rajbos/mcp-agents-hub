@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Spathodea-Network/opencti-mcp",
+  "githubUrl": "https://github.com/Spathodea-Network/opencti-mcp",
+  "name": "OpenCTI",
+  "description": "Interact with OpenCTI platform to retrieve threat intelligence data including reports, indicators, malware and threat actors.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "11ced224-3e2a-46f9-977c-399f244c8a3b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

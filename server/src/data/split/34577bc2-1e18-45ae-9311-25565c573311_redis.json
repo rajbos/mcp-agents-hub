@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/redis/mcp-redis",
+  "githubUrl": "https://github.com/redis/mcp-redis",
+  "name": "Redis",
+  "description": "The Redis official MCP Server offers an interface to manage and search data in Redis.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "34577bc2-1e18-45ae-9311-25565c573311",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

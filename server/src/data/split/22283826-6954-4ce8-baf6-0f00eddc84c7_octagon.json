@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/OctagonAI/octagon-mcp-server",
+  "githubUrl": "https://github.com/OctagonAI/octagon-mcp-server",
+  "name": "Octagon",
+  "description": "Deliver real-time investment research with extensive private and public market data.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "22283826-6954-4ce8-baf6-0f00eddc84c7",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

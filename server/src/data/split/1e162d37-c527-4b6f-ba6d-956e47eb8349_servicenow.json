@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/osomai/servicenow-mcp",
+  "githubUrl": "https://github.com/osomai/servicenow-mcp",
+  "name": "ServiceNow",
+  "description": "A MCP server to interact with a ServiceNow instance",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "1e162d37-c527-4b6f-ba6d-956e47eb8349",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

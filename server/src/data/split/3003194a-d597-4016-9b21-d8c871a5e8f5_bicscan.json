@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ahnlabio/bicscan-mcp",
+  "githubUrl": "https://github.com/ahnlabio/bicscan-mcp",
+  "name": "BICScan",
+  "description": "Risk score / asset holdings of EVM blockchain address (EOA, CA, ENS) and even domain names.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3003194a-d597-4016-9b21-d8c871a5e8f5",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

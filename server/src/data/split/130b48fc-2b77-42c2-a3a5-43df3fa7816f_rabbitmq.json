@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kenliao94/mcp-server-rabbitmq",
   "name": "RabbitMQ",
   "author": "kenliao94",
-  "description": "Integrates RabbitMQ, enabling message queue operations for distributed systems and event-driven architectures.",
+  "description": "The MCP server that interacts with RabbitMQ to publish and consume messages.",
   "codiconIcon": "rabbitmq",
   "logoUrl": "",
   "category": "communication",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.041553+00:00",
   "updatedAt": "2025-03-17T08:29:25.041553+00:00",
-  "hubId": "130b48fc-2b77-42c2-a3a5-43df3fa7816f"
+  "hubId": "130b48fc-2b77-42c2-a3a5-43df3fa7816f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

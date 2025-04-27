@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/Garoth/dalle-mcp",
   "name": "DALL-E",
   "author": "Garoth",
-  "description": "Generate, edit, and create variations of images using OpenAI's DALL-E 2 and DALL-E 3 APIs, with support for customizable parameters and local image saving.",
+  "description": "Generate, edit, and create variations of images using OpenAI's DALL-E and DALL-E APIs, with support for customizable parameters and local image saving.",
   "codiconIcon": "image",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/dall-e.png",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 984,
   "createdAt": "2025-03-18T05:52:01.005466Z",
   "updatedAt": "2025-03-18T05:52:01.005466Z",
-  "hubId": "34842e91-7299-418d-a479-786e5ff9c1a9"
+  "hubId": "34842e91-7299-418d-a479-786e5ff9c1a9",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

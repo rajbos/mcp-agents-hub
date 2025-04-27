@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/chigwell/telegram-mcp",
+  "githubUrl": "https://github.com/chigwell/telegram-mcp",
+  "name": "Telegram",
+  "description": "An MCP server that provides paginated chat reading, message retrieval, and message sending capabilities for Telegram through Telethon integration.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3daefc84-4a64-4fa0-8c60-3fa4fff450ce",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

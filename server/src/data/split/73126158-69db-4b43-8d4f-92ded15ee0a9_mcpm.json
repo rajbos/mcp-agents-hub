@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pathintegral-institute/mcpm.sh",
+  "githubUrl": "https://github.com/pathintegral-institute/mcpm.sh",
+  "name": "mcpm",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "73126158-69db-4b43-8d4f-92ded15ee0a9",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

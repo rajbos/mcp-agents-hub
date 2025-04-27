@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/XeroAPI/xero-mcp-server",
+  "githubUrl": "https://github.com/XeroAPI/xero-mcp-server",
+  "name": "Xero",
+  "description": "Interact with the accounting data in your business using our official MCP server",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "0184d212-0684-4707-855c-06ede10609ec",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

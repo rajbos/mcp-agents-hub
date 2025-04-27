@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Tritlo/lsp-mcp",
+  "githubUrl": "https://github.com/Tritlo/lsp-mcp",
+  "name": "lsp-mcp",
+  "description": "Interact with Language Servers usint the Language Server Protocol to provide additional context information via hover, code actions and completions.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "9984c258-e385-4cd5-b60a-b402fc4a14fd",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

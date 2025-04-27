@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/liuyoshio/mcp-compass",
+  "githubUrl": "https://github.com/liuyoshio/mcp-compass",
+  "name": "MCP Compass",
+  "description": "Suggest the right MCP server for your needs",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "bae1ee7e-e272-477a-8d55-a99b70dc4592",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

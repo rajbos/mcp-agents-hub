@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/reading-plus-ai/mcp-server-data-exploration",
   "name": "Data Exploration",
   "author": "reading-plus-ai",
-  "description": "Explore and visualize CSV datasets with the power of pandas and matplotlib.",
+  "description": "MCP server for autonomous data exploration on .csv-based datasets, providing intelligent insights with minimal effort. NOTE: Will execute arbitrary Python code on your machine, please use with caution!",
   "codiconIcon": "data",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "c5ef65cf-ef22-40bd-9f53-c2f0c096b2fa"
+  "hubId": "c5ef65cf-ef22-40bd-9f53-c2f0c096b2fa",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

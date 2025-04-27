@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/manusa/kubernetes-mcp-server",
   "name": "Kubernetes",
   "author": "manusa",
-  "description": "Manage Kubernetes, with additional support for OpenShift.",
+  "description": "A powerful Kubernetes MCP server with additional support for OpenShift. Besides providing CRUD operations for any Kubernetes resource, this server provides specialized tools to interact with your cluster.",
   "codiconIcon": "kubernetes",
   "logoUrl": "",
   "category": "cloud-platforms",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "7900a483-96bd-4f3a-83b4-1e50fd3fe5bc"
+  "hubId": "7900a483-96bd-4f3a-83b4-1e50fd3fe5bc",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

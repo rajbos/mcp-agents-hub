@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/CircleCI-Public/mcp-server-circleci",
+  "githubUrl": "https://github.com/CircleCI-Public/mcp-server-circleci",
+  "name": "CircleCI",
+  "description": "Enable AI Agents to fix build failures from CircleCI.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "dd453b2d-1f34-4f0b-9c6e-84d778a67fa8",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

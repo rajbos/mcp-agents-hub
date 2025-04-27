@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ramp-public/ramp-mcp",
+  "githubUrl": "https://github.com/ramp-public/ramp-mcp",
+  "name": "Ramp",
+  "description": "Interact with [Ramp](https://ramp.com)'s Developer API to run analysis on your spend and gain insights leveraging LLMs",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6698b5c3-6604-4098-b72e-1c6de7deb58b",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

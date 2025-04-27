@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/dotenvx/dotenvx",
   "name": "dotenvx",
   "author": "dotenvx",
-  "description": "a better dotenv–from the creator of dotenv.\n\n- run anywhere (cross-platform)\n- multi-environment\n- encrypted .env files",
+  "description": "a better dotenv–from the creator of dotenv. - run anywhere (cross-platform) - multi-environment - encrypted .env files",
   "codiconIcon": "dotenvx",
   "logoUrl": "https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/who5zc6e4y.png",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-26T15:53:03.513058+00:00",
   "updatedAt": "2025-03-26T15:53:03.513058+00:00",
-  "hubId": "75e6b49a-5ab3-4d06-89aa-9872b0880898"
+  "hubId": "75e6b49a-5ab3-4d06-89aa-9872b0880898",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

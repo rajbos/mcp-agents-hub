@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/neo4j-contrib/mcp-neo4j",
   "name": "Neo4j",
   "author": "neo4j-contrib",
-  "description": "Enables natural language interactions with Neo4j graph databases, supporting Cypher query generation and knowledge graph memory management for LLMs.",
+  "description": "Neoj graph database server (schema + read/write-cypher) and separate graph database backed memory",
   "codiconIcon": "database",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/Neo4j.png",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 509,
   "createdAt": "2025-02-18T06:28:19.461292Z",
   "updatedAt": "2025-02-18T06:28:19.461292Z",
-  "hubId": "2a47782d-deb5-46f8-a606-b6ebaac6b707"
+  "hubId": "2a47782d-deb5-46f8-a606-b6ebaac6b707",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

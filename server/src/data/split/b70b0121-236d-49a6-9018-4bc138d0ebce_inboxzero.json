@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/elie222/inbox-zero/tree/main/apps/mcp-server",
+  "githubUrl": "https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server",
+  "name": "Inbox Zero",
+  "description": "AI personal assistant for email [Inbox Zero](https://www.getinboxzero.com)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b70b0121-236d-49a6-9018-4bc138d0ebce",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/leehanchung/bing-search-mcp",
+  "githubUrl": "https://github.com/leehanchung/bing-search-mcp",
+  "name": "Bing Web Search API",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "89867053-fbec-4ab6-aaec-00cee34cebbb",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

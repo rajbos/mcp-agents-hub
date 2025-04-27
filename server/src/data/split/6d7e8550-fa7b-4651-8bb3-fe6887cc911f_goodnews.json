@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/VectorInstitute/mcp-goodnews",
+  "githubUrl": "https://github.com/VectorInstitute/mcp-goodnews",
+  "name": "Goodnews",
+  "description": "A simple MCP server that delivers curated positive and uplifting news stories.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6d7e8550-fa7b-4651-8bb3-fe6887cc911f",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

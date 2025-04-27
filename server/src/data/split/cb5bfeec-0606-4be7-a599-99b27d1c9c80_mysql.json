@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/designcomputer/mysql_mcp_server",
+  "githubUrl": "https://github.com/designcomputer/mysql_mcp_server",
+  "name": "MySQL",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "cb5bfeec-0606-4be7-a599-99b27d1c9c80",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

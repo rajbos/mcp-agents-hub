@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ChristianHinge/dicom-mcp",
+  "githubUrl": "https://github.com/ChristianHinge/dicom-mcp",
+  "name": "Dicom",
+  "description": "An MCP server to query and retrieve medical images and for parsing and reading dicom-encapsulated documents (pdf etc.).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "5403c2c3-bf07-4b3e-b5cf-e3f268a17034",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

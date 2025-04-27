@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/marctheshark3/ergo-mcp",
+  "githubUrl": "https://github.com/marctheshark3/ergo-mcp",
+  "name": "Ergo Blockchain MCP",
+  "description": "An MCP server to integrate Ergo Blockchain Node and Explorer APIs for checking address balances, analyzing transactions, viewing transaction history, performing forensic analysis of addresses, searching for tokens, and monitoring network status.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "10be4170-3724-4de1-9c94-90610a6a9204",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

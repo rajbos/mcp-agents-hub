@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/aarora79/aws-cost-explorer-mcp-server",
+  "githubUrl": "https://github.com/aarora79/aws-cost-explorer-mcp-server",
+  "name": "AWS Cost Explorer",
+  "description": "Optimize your AWS spend (including Amazon Bedrock spend) with this MCP server by examining spend across regions, services, instance types and foundation models ([demo video](https://www.youtube.com/watch?v=WuVOmYLRFmI&feature=youtu.be)).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "28607b4e-49d7-43f7-89d1-61a2e0a3daea",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/InditexTech/mcp-teams-server",
+  "githubUrl": "https://github.com/InditexTech/mcp-teams-server",
+  "name": "Microsoft Teams",
+  "description": "MCP server that integrates Microsoft Teams messaging (read, post, mention, list members and threads)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "53cc4de8-1f33-48a9-8761-4c3a45681919",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

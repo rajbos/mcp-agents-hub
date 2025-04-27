@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/jifrozen0110/mcp-riot",
+  "githubUrl": "https://github.com/jifrozen0110/mcp-riot",
+  "name": "Riot Games",
+  "description": "MCP server for League of Legends – fetch player info, ranks, champion stats, and match history via Riot API.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8e326ae2-0d8a-4441-af81-dc37e68a2daa",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

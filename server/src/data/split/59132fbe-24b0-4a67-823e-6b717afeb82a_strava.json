@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/r-huijts/strava-mcp",
+  "githubUrl": "https://github.com/r-huijts/strava-mcp",
+  "name": "Strava",
+  "description": "Connect to the Strava API to access activity data, athlete profiles, segments, and routes, enabling fitness tracking and analysis with Claude.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "59132fbe-24b0-4a67-823e-6b717afeb82a",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

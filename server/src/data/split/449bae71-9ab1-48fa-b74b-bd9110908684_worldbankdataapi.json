@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/anshumax/world_bank_mcp_server",
+  "githubUrl": "https://github.com/anshumax/world_bank_mcp_server",
+  "name": "World Bank data API",
+  "description": "A server that fetches data indicators available with the World Bank as part of their data API",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "449bae71-9ab1-48fa-b74b-bd9110908684",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

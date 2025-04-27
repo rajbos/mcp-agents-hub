@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/InditexTech/mcp-server-simulator-ios-idb",
+  "githubUrl": "https://github.com/InditexTech/mcp-server-simulator-ios-idb",
+  "name": "iOS Simulator",
+  "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with iOS simulators (iPhone, iPad, etc.) through natural language commands.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b3c4cbbb-b1a9-401f-8a2b-65125867f457",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

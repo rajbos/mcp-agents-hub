@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/mamertofabian/mcp-everything-search",
   "name": "Everything Search",
   "author": "mamertofabian",
-  "description": "Integrates with the Everything SDK to enable rapid file searches and metadata retrieval on Windows.",
+  "description": "Fast file searching capabilities across Windows (using [Everything SDK](https://www.voidtools.com/support/everything/sdk/)), macOS (using mdfind command), and Linux (using locate/plocate command).",
   "codiconIcon": "everything",
   "logoUrl": "",
   "category": "search",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-03-17T08:29:19.654593+00:00",
-  "hubId": "5223b322-89cc-427d-94c1-94e8768c2b7a"
+  "hubId": "5223b322-89cc-427d-94c1-94e8768c2b7a",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

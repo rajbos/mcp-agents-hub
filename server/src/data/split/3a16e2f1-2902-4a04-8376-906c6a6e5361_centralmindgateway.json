@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/centralmind/gateway",
   "name": "Centralmind/Gateway",
   "author": "centralmind",
-  "description": "A simple way to expose your database to AI-Agent via MCP or OpenAPI 3.1 protocols. It automatically generates secure, LLM-optimized APIs for your structured data.",
+  "description": "A simple way to expose your database to AI-Agent via MCP or OpenAPI . protocols. It automatically generates secure, LLM-optimized APIs for your structured data.",
   "codiconIcon": "",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-04-11T06:10:33.012Z",
   "updatedAt": "2025-04-11T06:10:33.012Z",
-  "hubId": "3a16e2f1-2902-4a04-8376-906c6a6e5361"
+  "hubId": "3a16e2f1-2902-4a04-8376-906c6a6e5361",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

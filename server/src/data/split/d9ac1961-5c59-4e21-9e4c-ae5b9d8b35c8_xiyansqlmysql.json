@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/XGenerationLab/xiyan_mcp_server",
   "name": "XiYanSQL (MySQL)",
   "author": "XGenerationLab",
-  "description": "Enables natural language interaction with MySQL databases through XiYanSQL, providing secure table listing, data reading, and query execution capabilities without direct SQL access.",
+  "description": "️ An MCP server that supports fetching data from a database using natural language queries, powered by XiyanSQL as the text-to-SQL LLM.",
   "codiconIcon": "xiyansql",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.859656+00:00",
   "updatedAt": "2025-03-17T08:29:23.859656+00:00",
-  "hubId": "d9ac1961-5c59-4e21-9e4c-ae5b9d8b35c8"
+  "hubId": "d9ac1961-5c59-4e21-9e4c-ae5b9d8b35c8",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

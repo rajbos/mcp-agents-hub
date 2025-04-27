@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/alibaba/higress/tree/main/plugins/wasm-go/mcp-servers",
+  "githubUrl": "https://github.com/alibaba/higress/tree/main/plugins/wasm-go/mcp-servers",
+  "name": "Higress MCP Server Hosting",
+  "description": "A solution for hosting MCP Servers by extending the API Gateway (based on Envoy) with wasm plugins.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "6c48de58-d68c-4f36-aa76-43705c8696da",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

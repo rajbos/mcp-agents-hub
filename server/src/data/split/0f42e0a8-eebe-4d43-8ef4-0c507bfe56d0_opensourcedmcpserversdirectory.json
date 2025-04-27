@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/chatmcp/mcp-directory",
+  "githubUrl": "https://github.com/chatmcp/mcp-directory",
+  "name": "Open-Sourced MCP Servers Directory",
+  "description": "A curated list of MCP servers by [mcpso](https://mcp.so)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "0f42e0a8-eebe-4d43-8ef4-0c507bfe56d0",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

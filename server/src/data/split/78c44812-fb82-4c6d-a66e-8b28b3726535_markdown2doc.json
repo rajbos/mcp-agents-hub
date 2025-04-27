@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Klavis-AI/klavis/tree/main/mcp_servers/pandoc",
+  "githubUrl": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/pandoc",
+  "name": "Markdown2doc",
+  "description": "Convert between various file formats using Pandoc",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "78c44812-fb82-4c6d-a66e-8b28b3726535",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

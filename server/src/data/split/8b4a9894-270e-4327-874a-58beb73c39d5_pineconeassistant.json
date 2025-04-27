@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pinecone-io/assistant-mcp",
+  "githubUrl": "https://github.com/pinecone-io/assistant-mcp",
+  "name": "Pinecone Assistant",
+  "description": "Retrieves context from your [Pinecone Assistant](https://docs.pinecone.io/guides/assistant/mcp-server) knowledge base.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "8b4a9894-270e-4327-874a-58beb73c39d5",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

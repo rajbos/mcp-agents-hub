@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/bimgeek/speckle-mcp",
   "name": "Speckle",
   "author": "bimgeek",
-  "description": "Integrates with Speckle to enable querying and analyzing 3D design and AEC project data, including listing projects, retrieving details, searching by name or description, and accessing model versions for architecture, engineering, and construction professionals.",
+  "description": "Integrates with Speckle to enable querying and analyzing D design and AEC project data, including listing projects, retrieving details, searching by name or description, and accessing model versions for architecture, engineering, and construction professionals.",
   "codiconIcon": "speckle",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:27.547179+00:00",
   "updatedAt": "2025-03-17T08:29:27.547179+00:00",
-  "hubId": "217680a1-3905-49c5-b3ac-137c6eff0f92"
+  "hubId": "217680a1-3905-49c5-b3ac-137c6eff0f92",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

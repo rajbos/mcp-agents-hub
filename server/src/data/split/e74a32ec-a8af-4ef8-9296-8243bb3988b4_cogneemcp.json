@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/topoteretes/cognee/tree/main/cognee-mcp",
+  "githubUrl": "https://github.com/topoteretes/cognee/tree/main/cognee-mcp",
+  "name": "cognee-mcp",
+  "description": "GraphRAG memory server with customizable ingestion, data processing and search",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e74a32ec-a8af-4ef8-9296-8243bb3988b4",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

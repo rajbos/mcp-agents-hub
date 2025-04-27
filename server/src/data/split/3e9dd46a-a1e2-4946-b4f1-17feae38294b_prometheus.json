@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pab1it0/prometheus-mcp-server",
+  "githubUrl": "https://github.com/pab1it0/prometheus-mcp-server",
+  "name": "Prometheus",
+  "description": "Query and analyze Prometheus - open-source monitoring system.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "monitoring",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3e9dd46a-a1e2-4946-b4f1-17feae38294b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

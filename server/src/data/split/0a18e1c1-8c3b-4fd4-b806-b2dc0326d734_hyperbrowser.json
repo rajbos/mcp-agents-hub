@@ -1,5 +1,5 @@
 {
-  "mcpId": "hyperbrowser.ai/hb-logo.png",
+  "mcpId": "docs.hyperbrowser.ai/guides/model-context-protocol",
   "githubUrl": "https://docs.hyperbrowser.ai/guides/model-context-protocol",
   "name": "Hyperbrowser",
   "author": "",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-15T07:48:35.930801+00:00",
   "updatedAt": "2025-03-15T07:48:35.930801+00:00",
-  "hubId": "0a18e1c1-8c3b-4fd4-b806-b2dc0326d734"
+  "hubId": "0a18e1c1-8c3b-4fd4-b806-b2dc0326d734",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.49229+00:00",
   "updatedAt": "2025-03-17T08:29:25.49229+00:00",
-  "hubId": "979ed2b3-7ccc-487b-be47-0b03cf941ce0"
+  "hubId": "979ed2b3-7ccc-487b-be47-0b03cf941ce0",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

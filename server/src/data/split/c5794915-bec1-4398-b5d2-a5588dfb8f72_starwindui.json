@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Boston343/starwind-ui-mcp",
+  "githubUrl": "https://github.com/Boston343/starwind-ui-mcp",
+  "name": "Starwind UI",
+  "description": "This MCP provides relevant commands, documentation, and other information to allow LLMs to take full advantage of Starwind UI's open source Astro components.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c5794915-bec1-4398-b5d2-a5588dfb8f72",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

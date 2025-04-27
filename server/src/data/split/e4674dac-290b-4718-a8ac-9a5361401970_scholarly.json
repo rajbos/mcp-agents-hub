@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/adityak74/mcp-scholarly",
+  "githubUrl": "https://github.com/adityak74/mcp-scholarly",
+  "name": "Scholarly",
+  "description": "A MCP server to search for scholarly and academic articles.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e4674dac-290b-4718-a8ac-9a5361401970",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

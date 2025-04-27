@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/sssjiang/pubchem_mcp_server",
+  "githubUrl": "https://github.com/sssjiang/pubchem_mcp_server",
+  "name": "PubChem",
+  "description": "extract drug information from pubchem API.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a4e94097-160a-4430-bcce-456f672b79d8",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

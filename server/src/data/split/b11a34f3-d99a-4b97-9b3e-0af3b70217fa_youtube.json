@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/Klavis-AI/klavis/tree/main/mcp_servers/youtube",
+  "githubUrl": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/youtube",
+  "name": "YouTube",
+  "description": "Extract Youtube video information (with proxies support).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b11a34f3-d99a-4b97-9b3e-0af3b70217fa",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

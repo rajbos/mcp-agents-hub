@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/mcp-router/mcp-router",
+  "githubUrl": "https://github.com/mcp-router/mcp-router",
+  "name": "MCP Router",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "34bb9602-ed35-4e4d-8234-b974b7ae47a1",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

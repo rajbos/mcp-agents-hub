@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/jjsantos01/qgis_mcp",
+  "githubUrl": "https://github.com/jjsantos01/qgis_mcp",
+  "name": "QGIS",
+  "description": "connects QGIS to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "c2488152-9109-481b-968f-42efe761a697",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/sunsetcoder/flightradar24-mcp-server",
   "name": "Flightradar24",
   "author": "sunsetcoder",
-  "description": "Integrates Flightradar24 data to provide real-time flight tracking capabilities.",
+  "description": "A Claude Desktop MCP server that helps you track flights in real-time using Flightradar data.",
   "codiconIcon": "flightradar24",
   "logoUrl": "",
   "category": "location-services",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.366219+00:00",
   "updatedAt": "2025-03-17T08:29:23.366219+00:00",
-  "hubId": "4a7ead8b-08b3-4f8d-b2c3-045b78bade89"
+  "hubId": "4a7ead8b-08b3-4f8d-b2c3-045b78bade89",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

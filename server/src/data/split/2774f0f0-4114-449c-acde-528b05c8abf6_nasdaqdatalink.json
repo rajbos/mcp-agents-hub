@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/stefanoamorelli/nasdaq-data-link-mcp",
+  "githubUrl": "https://github.com/stefanoamorelli/nasdaq-data-link-mcp",
+  "name": "Nasdaq Data Link",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "2774f0f0-4114-449c-acde-528b05c8abf6",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

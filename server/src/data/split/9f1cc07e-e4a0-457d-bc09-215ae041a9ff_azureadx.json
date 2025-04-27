@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pab1it0/adx-mcp-server",
+  "githubUrl": "https://github.com/pab1it0/adx-mcp-server",
+  "name": "Azure ADX",
+  "description": "Query and analyze Azure Data Explorer databases.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "9f1cc07e-e4a0-457d-bc09-215ae041a9ff",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

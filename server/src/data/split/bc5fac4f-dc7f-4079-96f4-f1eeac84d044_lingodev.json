@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/lingodotdev/lingo.dev/blob/main/mcp.md",
+  "githubUrl": "https://github.com/lingodotdev/lingo.dev/blob/main/mcp.md",
+  "name": "Lingo.dev",
+  "description": "Make your AI agent speak every language on the planet, using [Lingo.dev](https://lingo.dev) Localization Engine.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "bc5fac4f-dc7f-4079-96f4-f1eeac84d044",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

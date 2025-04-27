@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kagisearch/kagimcp",
   "name": "Kagi Search",
   "author": "kagisearch",
-  "description": "Integrates Kagi's advanced search API to provide AI assistants with up-to-date web search capabilities and accurate information retrieval.",
+  "description": "Search the web using Kagi's search API",
   "codiconIcon": "search",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/kagisearch.jpeg",
   "category": "search",
@@ -20,5 +20,8 @@
   "downloadCount": 159,
   "createdAt": "2025-02-18T06:28:08.669226Z",
   "updatedAt": "2025-02-18T06:28:08.669226Z",
-  "hubId": "92d5d188-6017-42bf-a3a0-9527cfc24a3b"
+  "hubId": "92d5d188-6017-42bf-a3a0-9527cfc24a3b",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

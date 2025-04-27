@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/hannesj/mcp-graphql-schema",
   "name": "GraphQL Schema",
   "author": "hannesj",
-  "description": "Enables AI models to explore and understand GraphQL schemas through specialized tools for querying operations, looking up type definitions, pattern matching, and retrieving simplified field information.",
+  "description": "Allow LLMs to explore large GraphQL schemas without bloating the context.",
   "codiconIcon": "graphql",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "5cb6b840-aa78-4f0b-8b48-cbd5f93effd8"
+  "hubId": "5cb6b840-aa78-4f0b-8b48-cbd5f93effd8",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

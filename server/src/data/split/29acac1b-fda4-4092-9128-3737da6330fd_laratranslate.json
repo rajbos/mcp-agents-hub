@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/translated/lara-mcp",
+  "githubUrl": "https://github.com/translated/lara-mcp",
+  "name": "Lara Translate",
+  "description": "MCP Server for Lara Translate API, enabling powerful translation capabilities with support for language detection and context-aware translations.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "29acac1b-fda4-4092-9128-3737da6330fd",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

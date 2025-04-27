@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/vrknetha/mcp-server-firecrawl",
+  "githubUrl": "https://github.com/vrknetha/mcp-server-firecrawl",
+  "name": "FireCrawl",
+  "description": "Advanced web scraping with JavaScript rendering, PDF support, and smart rate limiting",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "650bb8b2-6dc2-4569-8408-4c7724bc1613",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

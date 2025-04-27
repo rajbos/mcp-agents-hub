@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/chroma-core/chroma-mcp",
+  "githubUrl": "https://github.com/chroma-core/chroma-mcp",
+  "name": "Chroma",
+  "description": "Embeddings, vector search, document storage, and full-text search with the open-source AI application database",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f712c669-6b4f-4fd0-80dc-68272d5c5bcd",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

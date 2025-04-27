@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/cyberchitta/llm-context.py",
   "name": "LLM Code Context",
   "author": "cyberchitta",
-  "description": "Streamlines code context sharing with LLMs by implementing smart file selection, code outlining, and multi-language support for efficient code reviews and documentation generation.",
+  "description": "Provides a repo-packing MCP tool with configurable profiles that specify file inclusion/exclusion patterns and optional prompts.",
   "codiconIcon": "llm",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-03-17T08:29:19.654593+00:00",
-  "hubId": "df4c318c-b57d-4158-8cee-ef97164f2979"
+  "hubId": "df4c318c-b57d-4158-8cee-ef97164f2979",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

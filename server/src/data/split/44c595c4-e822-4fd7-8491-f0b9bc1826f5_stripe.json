@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/atharvagupta2003/mcp-stripe",
+  "githubUrl": "https://github.com/atharvagupta2003/mcp-stripe",
+  "name": "Stripe",
+  "description": "This MCP allows integration with Stripe for handling payments, customers, and refunds.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "44c595c4-e822-4fd7-8491-f0b9bc1826f5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

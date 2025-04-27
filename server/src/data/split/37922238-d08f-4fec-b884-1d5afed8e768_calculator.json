@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/githejie/mcp-server-calculator",
+  "githubUrl": "https://github.com/githejie/mcp-server-calculator",
+  "name": "Calculator",
+  "description": "This server enables LLMs to use calculator for precise numerical calculations.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "37922238-d08f-4fec-b884-1d5afed8e768",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

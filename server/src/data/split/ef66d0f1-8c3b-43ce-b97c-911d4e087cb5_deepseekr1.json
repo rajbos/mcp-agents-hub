@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/66julienmartin/MCP-server-Deepseek_R1",
   "name": "Deepseek R1",
   "author": "66julienmartin",
-  "description": "Integrates with Deepseek R1 model for text generation and analysis tasks, enabling content creation and AI-assisted decision-making in various applications.",
+  "description": "A Model Context Protocol (MCP) server implementation connecting Claude Desktop with DeepSeek's language models (R/V)",
   "codiconIcon": "deepseek",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "ef66d0f1-8c3b-43ce-b97c-911d4e087cb5"
+  "hubId": "ef66d0f1-8c3b-43ce-b97c-911d4e087cb5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

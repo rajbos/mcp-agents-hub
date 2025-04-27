@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/PaddleHQ/paddle-mcp-server",
+  "githubUrl": "https://github.com/PaddleHQ/paddle-mcp-server",
+  "name": "Paddle",
+  "description": "Interact with the Paddle API. Manage product catalog, billing and subscriptions, and reports.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7a8cd261-b1bb-40c3-a284-db206bc892e7",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

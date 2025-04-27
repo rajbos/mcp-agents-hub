@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/neondatabase/mcp-server-neon",
   "name": "Neon Database",
   "author": "neondatabase",
-  "description": "Enables natural language interaction with Neon PostgreSQL databases, supporting project management, schema migrations, SQL queries, and database operations through the Neon API.",
+  "description": "Interact with the Neon serverless Postgres platform",
   "codiconIcon": "database",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/neon-logo.png",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 277,
   "createdAt": "2025-02-18T06:28:23.454334Z",
   "updatedAt": "2025-02-18T06:28:23.454334Z",
-  "hubId": "24d6e984-9b69-48b2-8a53-6c5c522e5641"
+  "hubId": "24d6e984-9b69-48b2-8a53-6c5c522e5641",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

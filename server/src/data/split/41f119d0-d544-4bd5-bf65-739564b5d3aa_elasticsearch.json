@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/cr7258/elasticsearch-mcp-server",
+  "githubUrl": "https://github.com/cr7258/elasticsearch-mcp-server",
+  "name": "Elasticsearch",
+  "description": "MCP server implementation that provides Elasticsearch interaction.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "41f119d0-d544-4bd5-bf65-739564b5d3aa",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/rebots-online/mcp-neo4j",
   "name": "Neo4j Graph",
   "author": "rebots-online",
-  "description": "Integrates Neo4j graph databases, enabling natural language interactions for complex relationship modeling and graph-based analytics.",
+  "description": "Integrates Neoj graph databases, enabling natural language interactions for complex relationship modeling and graph-based analytics.",
   "codiconIcon": "neo4j",
   "logoUrl": "",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:26.758293+00:00",
   "updatedAt": "2025-03-17T08:29:26.758293+00:00",
-  "hubId": "a8ec1724-5e22-4948-8e82-25ea0736994e"
+  "hubId": "a8ec1724-5e22-4948-8e82-25ea0736994e",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/r-huijts/rijksmuseum-mcp",
   "name": "Rijksmuseum Amsterdam",
   "author": "r-huijts",
-  "description": "Integrates with the Rijksmuseum API to enable artwork search, detailed information retrieval, and high-resolution image access for art research and cultural exploration.",
+  "description": "Interface with the Rijksmuseum API to search artworks, retrieve artwork details, access image tiles, and explore user collections.",
   "codiconIcon": "rijksmuseum",
   "logoUrl": "",
   "category": "search",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "9087b414-136b-4cf2-b559-106a3422ab94"
+  "hubId": "9087b414-136b-4cf2-b559-106a3422ab94",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

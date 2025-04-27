@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/nkapila6/mcp-local-rag",
+  "githubUrl": "https://github.com/nkapila6/mcp-local-rag",
+  "name": "mcp-local-rag",
+  "description": "\"primitive\" RAG-like web search model context protocol (MCP) server that runs locally using Google's MediaPipe Text Embedder and DuckDuckGo Search. no APIs required .",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "search",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a3e08cd0-0722-489b-9849-0878e8aca68d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

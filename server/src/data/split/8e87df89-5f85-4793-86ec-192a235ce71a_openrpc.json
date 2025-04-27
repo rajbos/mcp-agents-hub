@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/shanejonas/openrpc-mpc-server",
   "name": "OpenRPC",
   "author": "shanejonas",
-  "description": "Make standardized JSON-RPC calls via OpenRPC specification.",
+  "description": "Interact with and discover JSON-RPC APIs via [OpenRPC](https://open-rpc.org).",
   "codiconIcon": "openrpc",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "8e87df89-5f85-4793-86ec-192a235ce71a"
+  "hubId": "8e87df89-5f85-4793-86ec-192a235ce71a",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

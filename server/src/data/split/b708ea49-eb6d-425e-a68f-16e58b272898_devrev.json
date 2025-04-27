@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/kpsunil97/devrev-mcp-server",
   "name": "DevRev",
   "author": "kpsunil97",
-  "description": "Integrates with DevRev APIs to enable search and retrieval of DevRev data for automated issue tracking, customer support analysis, and data-driven decision making.",
+  "description": "An MCP server to integrate with DevRev APIs to search through your DevRev Knowledge Graph where objects can be imported from diff. sources listed [here](https://devrev.ai/docs/importavailable-sources).",
   "codiconIcon": "devrev",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "b708ea49-eb6d-425e-a68f-16e58b272898"
+  "hubId": "b708ea49-eb6d-425e-a68f-16e58b272898",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

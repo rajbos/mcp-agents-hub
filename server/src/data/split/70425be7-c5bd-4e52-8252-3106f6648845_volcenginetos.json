@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/dinghuazhou/sample-mcp-server-tos",
+  "githubUrl": "https://github.com/dinghuazhou/sample-mcp-server-tos",
+  "name": "VolcEngine TOS",
+  "description": "A sample MCP server for VolcEngine TOS that flexibly get objects from TOS.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "file-systems",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "70425be7-c5bd-4e52-8252-3106f6648845",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

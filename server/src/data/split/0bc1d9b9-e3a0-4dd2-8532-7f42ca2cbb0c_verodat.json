@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/Verodat/verodat-mcp-server",
   "name": "Verodat",
   "author": "Verodat",
-  "description": "Enables AI systems to interact with Verodat's data management platform, providing capabilities for dataset creation, querying, and AI-powered analysis across workspaces and accounts.",
+  "description": "Interact with Verodat AI Ready Data platform",
   "codiconIcon": "database",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/verodata.png",
   "category": "databases",
@@ -20,5 +20,8 @@
   "downloadCount": 12,
   "createdAt": "2025-02-18T06:27:44.307829Z",
   "updatedAt": "2025-02-18T06:27:44.307829Z",
-  "hubId": "0bc1d9b9-e3a0-4dd2-8532-7f42ca2cbb0c"
+  "hubId": "0bc1d9b9-e3a0-4dd2-8532-7f42ca2cbb0c",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

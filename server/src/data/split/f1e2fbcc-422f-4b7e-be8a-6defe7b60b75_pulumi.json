@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/dogukanakkaya/pulumi-mcp-server",
+  "githubUrl": "https://github.com/dogukanakkaya/pulumi-mcp-server",
+  "name": "Pulumi",
+  "description": "MCP Server to Interact with Pulumi API, creates and lists Stacks",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f1e2fbcc-422f-4b7e-be8a-6defe7b60b75",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/GibsonAI/mcp",
+  "githubUrl": "https://github.com/GibsonAI/mcp",
+  "name": "GibsonAI",
+  "description": "AI-Powered Cloud databases: Build, migrate, and deploy database instances with AI",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "0c52f5c7-9925-4eb1-85c4-2779efbdb2f6",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

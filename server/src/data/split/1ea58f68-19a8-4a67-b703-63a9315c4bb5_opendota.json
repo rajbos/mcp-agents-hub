@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/asusevski/opendota-mcp-server",
+  "githubUrl": "https://github.com/asusevski/opendota-mcp-server",
+  "name": "OpenDota",
+  "description": "Interact with OpenDota API to retrieve Dota match data, player statistics, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "1ea58f68-19a8-4a67-b703-63a9315c4bb5",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/ognis1205/mcp-server-unitycatalog",
+  "githubUrl": "https://github.com/ognis1205/mcp-server-unitycatalog",
+  "name": "Unity Catalog",
+  "description": "An MCP server that enables LLMs to interact with Unity Catalog AI, supporting CRUD operations on Unity Catalog Functions and executing them as MCP tools.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "d7f03b09-e30c-4d56-b7ca-d58cbc6cda4d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

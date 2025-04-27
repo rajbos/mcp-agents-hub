@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/rishikavikondala/mcp-server-aws",
   "name": "AWS Resource Manager",
   "author": "rishikavikondala",
-  "description": "Manage AWS S3 and DynamoDB resources.",
+  "description": "Perform operations on your AWS resources using an LLM.",
   "codiconIcon": "aws",
   "logoUrl": "",
   "category": "cloud-platforms",
@@ -19,5 +19,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-03-17T08:29:22.149254+00:00",
-  "hubId": "3afe9e52-226f-4542-b733-d7d060e79605"
+  "hubId": "3afe9e52-226f-4542-b733-d7d060e79605",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

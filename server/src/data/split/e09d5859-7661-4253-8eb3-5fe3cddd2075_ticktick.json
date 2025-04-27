@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/alexarevalo9/ticktick-mcp-server",
+  "githubUrl": "https://github.com/alexarevalo9/ticktick-mcp-server",
+  "name": "TickTick",
+  "description": "A Model Context Protocol (MCP) server designed to integrate with the TickTick task management platform, enabling intelligent context-aware task operations and automation.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "e09d5859-7661-4253-8eb3-5fe3cddd2075",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

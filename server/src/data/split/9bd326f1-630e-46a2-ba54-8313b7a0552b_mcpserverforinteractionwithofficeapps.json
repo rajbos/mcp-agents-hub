@@ -1,12 +1,12 @@
 {
-  "mcpId": "github.com/microsoft/semanticworkbench",
+  "mcpId": "github.com/microsoft/semanticworkbench/tree/main/mcp-servers/mcp-server-office",
   "githubUrl": "https://github.com/microsoft/semanticworkbench/tree/main/mcp-servers/mcp-server-office",
   "name": "MCP Server for Interaction with Office Apps",
   "author": "microsoft",
-  "description": "This is a [Model Context Protocol](https://github.com/modelcontextprotocol) (MCP) server project. **Warning**: Be VERY careful with open Word or PowerPoint apps. Your content may be unexpectedly modified or deleted.",
+  "description": "This is a [Model Context Protocol](https://github.com/modelcontextprotocol) (MCP) server project. Warning: Be VERY careful with open Word or PowerPoint apps. Your content may be unexpectedly modified or deleted.",
   "codiconIcon": "",
   "logoUrl": "",
-  "category": "tools",
+  "category": "integrations",
   "tags": [
     "[model",
     "context",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-04-05T15:10:51.535Z",
   "updatedAt": "2025-04-05T15:10:51.535Z",
-  "hubId": "9bd326f1-630e-46a2-ba54-8313b7a0552b"
+  "hubId": "9bd326f1-630e-46a2-ba54-8313b7a0552b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

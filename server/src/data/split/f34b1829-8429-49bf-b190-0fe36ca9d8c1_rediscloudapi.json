@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/redis/mcp-redis-cloud",
+  "githubUrl": "https://github.com/redis/mcp-redis-cloud",
+  "name": "Redis Cloud API",
+  "description": "The Redis Cloud API MCP Server allows you to manage your Redis Cloud resources using natural language.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "databases",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f34b1829-8429-49bf-b190-0fe36ca9d8c1",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

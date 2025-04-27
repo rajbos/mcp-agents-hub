@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/kocierik/consul-mcp-server",
+  "githubUrl": "https://github.com/kocierik/consul-mcp-server",
+  "name": "consul-mcp",
+  "description": "A consul MCP server for service management, health check and Key-Value Store",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "7906ce0d-90b5-4dbb-828e-efc738df5b52",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

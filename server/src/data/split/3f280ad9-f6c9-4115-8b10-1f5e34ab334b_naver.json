@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/pfldy2850/py-mcp-naver",
+  "githubUrl": "https://github.com/pfldy2850/py-mcp-naver",
+  "name": "NAVER",
+  "description": "",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "3f280ad9-f6c9-4115-8b10-1f5e34ab334b",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

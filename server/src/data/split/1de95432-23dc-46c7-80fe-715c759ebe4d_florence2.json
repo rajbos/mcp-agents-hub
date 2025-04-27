@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/jkawamoto/mcp-florence2",
   "name": "Florence-2",
   "author": "jkawamoto",
-  "description": "Integrates with Florence-2 to enable advanced image analysis and manipulation tasks like visual question answering, image captioning, and content-based image retrieval.",
+  "description": "Integrates with Florence- to enable advanced image analysis and manipulation tasks like visual question answering, image captioning, and content-based image retrieval.",
   "codiconIcon": "florence-2",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:26.758293+00:00",
   "updatedAt": "2025-03-17T08:29:26.758293+00:00",
-  "hubId": "1de95432-23dc-46c7-80fe-715c759ebe4d"
+  "hubId": "1de95432-23dc-46c7-80fe-715c759ebe4d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

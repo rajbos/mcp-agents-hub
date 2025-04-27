@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/burningion/video-editing-mcp",
   "name": "Video Editor",
   "author": "burningion",
-  "description": "Integrates with Video Jungle API to enable AI-powered video editing and content searching through natural language queries and automated clip generation.",
+  "description": "A Model Context Protocol Server to add, edit, and search videos with [Video Jungle](https://www.video-jungle.com/).",
   "codiconIcon": "video",
   "logoUrl": "",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-03-17T08:29:19.654593+00:00",
-  "hubId": "ff63bea4-5623-4ea9-b925-def9237c9320"
+  "hubId": "ff63bea4-5623-4ea9-b925-def9237c9320",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

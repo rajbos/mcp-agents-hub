@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/maton-ai/agent-toolkit/tree/main/modelcontextprotocol",
+  "githubUrl": "https://github.com/maton-ai/agent-toolkit/tree/main/modelcontextprotocol",
+  "name": "Maton",
+  "description": "Connect to your SaaS tools like HubSpot, Salesforce, and more.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "40ae72ec-a091-4607-b854-94f6240fa18d",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

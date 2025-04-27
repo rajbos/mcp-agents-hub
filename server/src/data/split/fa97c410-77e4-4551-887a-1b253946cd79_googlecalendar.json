@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/nspady/google-calendar-mcp",
   "name": "Google Calendar",
   "author": "nspady",
-  "description": "Integrates with Google Calendar to enable natural language querying, event creation, and calendar management using the Google Calendar API and OAuth 2.0 authentication.",
+  "description": "Google Calendar MCP Server for managing Google calendar events. Also supports searching for events by attributes like title and location.",
   "codiconIcon": "google",
   "logoUrl": "",
   "category": "communication",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.634233+00:00",
   "updatedAt": "2025-03-17T08:29:22.634233+00:00",
-  "hubId": "fa97c410-77e4-4551-887a-1b253946cd79"
+  "hubId": "fa97c410-77e4-4551-887a-1b253946cd79",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

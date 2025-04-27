@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/DMontgomery40/deepseek-mcp-server",
   "name": "DeepSeek",
   "author": "DMontgomery40",
-  "description": "Integrates DeepSeek's language models, enabling AI-powered chat completions with customizable parameters for tasks like writing assistance and code generation.",
+  "description": "Model Context Protocol server integrating DeepSeek's advanced language models, in addition to [other useful API endpoints](https://github.com/DMontgomery/deepseek-mcp-server?tab=readme-ov-filefeatures)",
   "codiconIcon": "deepseek",
   "logoUrl": "",
   "category": "developer-tools",
@@ -20,5 +20,8 @@
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:20.399027+00:00",
   "updatedAt": "2025-03-17T08:29:20.399027+00:00",
-  "hubId": "98ebe885-3331-49a1-8659-eab84477ebe0"
+  "hubId": "98ebe885-3331-49a1-8659-eab84477ebe0",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
 }

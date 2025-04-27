@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/modelcontextprotocol/servers/tree/main/src/everart",
+  "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/everart",
+  "name": "EverArt",
+  "description": "AI image generation using various models",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "other-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "f8a5c00b-b274-4361-8733-94fded4007e7",
+  "isOfficialIntegration": false,
+  "isReferenceServer": true,
+  "isCommunityServer": false
+}

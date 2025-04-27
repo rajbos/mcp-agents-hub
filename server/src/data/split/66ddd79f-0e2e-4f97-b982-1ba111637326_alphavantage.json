@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/calvernaz/alphavantage",
+  "githubUrl": "https://github.com/calvernaz/alphavantage",
+  "name": "AlphaVantage",
+  "description": "MCP server for stock market data API [AlphaVantage](https://www.alphavantage.co)",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "integrations",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "66ddd79f-0e2e-4f97-b982-1ba111637326",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/korotovsky/slack-mcp-server",
+  "githubUrl": "https://github.com/korotovsky/slack-mcp-server",
+  "name": "Slack",
+  "description": "The most powerful MCP server for Slack Workspaces. This integration supports both Stdio and SSE transports, proxy settings and does not require any permissions or bots being created or approved by Workspace admins .",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "communication",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "a72c70a5-e44c-4daa-9dc5-20942793d4b0",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

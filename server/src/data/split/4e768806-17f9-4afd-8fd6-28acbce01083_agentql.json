@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/tinyfish-io/agentql-mcp",
+  "githubUrl": "https://github.com/tinyfish-io/agentql-mcp",
+  "name": "AgentQL",
+  "description": "Enable AI agents to get structured data from unstructured web with [AgentQL](https://www.agentql.com/).",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "browser-automation",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "4e768806-17f9-4afd-8fd6-28acbce01083",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
+}

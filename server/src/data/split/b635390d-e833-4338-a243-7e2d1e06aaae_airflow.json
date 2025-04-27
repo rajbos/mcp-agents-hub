@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/yangkyeongmo/mcp-server-apache-airflow",
+  "githubUrl": "https://github.com/yangkyeongmo/mcp-server-apache-airflow",
+  "name": "Airflow",
+  "description": "A MCP Server that connects to [Apache Airflow](https://airflow.apache.org/) using official python client.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "b635390d-e833-4338-a243-7e2d1e06aaae",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}

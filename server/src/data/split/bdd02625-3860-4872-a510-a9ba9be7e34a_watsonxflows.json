@@ -3,7 +3,7 @@
   "githubUrl": "https://github.com/IBM/wxflows/tree/main/examples/mcp/javascript",
   "name": "WatsonX Flows",
   "author": "IBM",
-  "description": "Enables integration with watsonx.ai Flows Engine, providing tools for Google Books and Wikipedia searches through a TypeScript-based MCP server implementation.",
+  "description": "Tool platform by IBM to build, test and deploy tools for any data source",
   "codiconIcon": "flow",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/watsonx-flows.png",
   "category": "integrations",
@@ -20,5 +20,8 @@
   "downloadCount": 32,
   "createdAt": "2025-02-18T05:46:21.470556Z",
   "updatedAt": "2025-02-18T05:46:21.470556Z",
-  "hubId": "bdd02625-3860-4872-a510-a9ba9be7e34a"
+  "hubId": "bdd02625-3860-4872-a510-a9ba9be7e34a",
+  "isOfficialIntegration": true,
+  "isReferenceServer": false,
+  "isCommunityServer": false
 }

@@ -1,0 +1,20 @@
+{
+  "mcpId": "github.com/reading-plus-ai/mcp-server-deep-research",
+  "githubUrl": "https://github.com/reading-plus-ai/mcp-server-deep-research",
+  "name": "Deep Research",
+  "description": "Lightweight MCP server offering Grok/OpenAI/Gemini/Perplexity-style automated deep research exploration and structured reporting.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "knowledge-memory",
+  "tags": [],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "hubId": "599a20b8-5b69-492a-9379-3d95b88d3028",
+  "isOfficialIntegration": false,
+  "isReferenceServer": false,
+  "isCommunityServer": true
+}
