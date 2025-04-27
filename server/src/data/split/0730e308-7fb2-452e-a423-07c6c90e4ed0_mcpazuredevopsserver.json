@@ -1,0 +1,24 @@
+{
+  "mcpId": "github.com/Vortiago/mcp-azure-devops",
+  "githubUrl": "https://github.com/Vortiago/mcp-azure-devops",
+  "name": "MCP Azure DevOps Server",
+  "author": "Vortiago",
+  "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Azure DevOps services.",
+  "codiconIcon": "",
+  "logoUrl": "",
+  "category": "developer-tools",
+  "tags": [
+    "context",
+    "protocol",
+    "server",
+    "enabling",
+    "assistants"
+  ],
+  "requiresApiKey": false,
+  "isRecommended": false,
+  "githubStars": 0,
+  "downloadCount": 0,
+  "createdAt": "2025-04-26T13:41:51.295Z",
+  "updatedAt": "2025-04-26T13:41:51.295Z",
+  "hubId": "0730e308-7fb2-452e-a423-07c6c90e4ed0"
+}
