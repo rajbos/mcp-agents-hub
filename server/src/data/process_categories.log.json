@@ -1,5 +1,5 @@
 {
-  "lastProcessed": "2025-04-27T14:24:56.571Z",
+  "lastProcessed": "2025-04-27T15:35:12.718Z",
   "processedFiles": [
     "0006b282-ac88-4c32-b76c-02476e972a04_githubprojects",
     "00739d70-842d-4d36-bb98-04bde51a2220_kubernetes",
@@ -1827,6 +1827,9 @@
     "fddfa432-4482-4f05-9fcf-1b8e35bc26ca_oceanbase",
     "fe319ce3-2379-45e7-a657-c8c0ea639ec8_make",
     "fe35647d-0242-40db-8e39-bdbffe6b4422_redis",
-    "fe74b286-9f01-44f1-b8db-dd49ecb76b3e_singlestore"
+    "fe74b286-9f01-44f1-b8db-dd49ecb76b3e_singlestore",
+    "330f0ff9-68c8-4e9b-b1a4-6185001aae06_deebo",
+    "ab163618-5844-4dfd-a191-757056af3767_mcpproxyserver",
+    "e764d72b-19ea-459f-beec-7b0ab4cacc45_malwarebazaarmcp"
   ]
 }
