@@ -1,5 +1,5 @@
 {
-  "lastProcessed": "2025-04-02T08:29:31.975Z",
+  "lastProcessed": "2025-04-27T15:43:33.571Z",
   "processedFiles": [
     "0006b282-ac88-4c32-b76c-02476e972a04_githubprojects",
     "00739d70-842d-4d36-bb98-04bde51a2220_kubernetes",
@@ -1572,6 +1572,10 @@
     "ff8ec593-c675-4b66-a958-c1b09a851dd4_azure",
     "ffb38101-e112-4321-8b41-be6126d7c08a_tungshingcalendar",
     "ffb406a3-a4a6-4553-98be-16ea0681b1c0_illumio",
-    "ffce4ec2-2670-47a0-ab1c-87e35dae0017_starwarsplanetarydata"
+    "ffce4ec2-2670-47a0-ab1c-87e35dae0017_starwarsplanetarydata",
+    "003f3571-5f97-4f84-b126-f09b89e4247e_amadeus",
+    "0184d212-0684-4707-855c-06ede10609ec_xero",
+    "02f9e25f-4904-4350-8a2e-a6a0a69f9dfb_onenote",
+    "03c5710b-d3b1-4564-b797-2e6515b299a6_mcpmanager"
   ]
 }

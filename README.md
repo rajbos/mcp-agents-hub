@@ -130,6 +130,32 @@ graph TD
 - `lint`: Run ESLint
 - `type-check`: Run TypeScript type checking
 
+### Server Data Processing Scripts
+The server includes several data processing scripts that can be run with npm:
+
+- `crawl-servers`: Crawls the MCP servers directory from the main repository
+- `update-server-types`: Updates server type information from crawling results
+- `clean-duplicates`: Cleans duplicate entries in the data
+- `process_categories`: Processes and organizes categories data
+- `process_locales`: Processes locale translations for internationalization
+
+#### Running Background Processes
+For long-running data processing tasks, you can use nohup to run them in the background:
+
+```bash
+# Run process_locales in the background with output to a log file
+cd server && nohup npm run process_locales > process_locales.log 2>&1 &
+
+# Check if the process is running
+ps aux | grep "process_locales" | grep -v grep
+
+# View the log output
+tail -f process_locales.log
+
+# Stop the process (replace PID with the actual process ID from ps command)
+kill <PID>
+```
+
 ## Community
 
 Join the open community to build the future of context-aware AI together. Whether you're an AI tool developer, an enterprise looking to leverage existing data, or an early adopter exploring the frontier, we invite you to contribute.
