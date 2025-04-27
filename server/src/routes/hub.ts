@@ -108,8 +108,16 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     const page = req.body.page ? parseInt(req.body.page as string) : undefined;
     const size = req.body.size ? parseInt(req.body.size as string) : undefined;
     const searchFor = req.body.search_for as string; // Get the new search_for parameter
+    
+    // Get all boolean filter parameters with the same logic
     const isRecommended = req.body.isRecommended !== undefined ? 
-      req.body.isRecommended === 'true' || req.body.isRecommended === true : undefined; // Get the isRecommended parameter
+      req.body.isRecommended === 'true' || req.body.isRecommended === true : undefined;
+    const isOfficialIntegration = req.body.isOfficialIntegration !== undefined ? 
+      req.body.isOfficialIntegration === 'true' || req.body.isOfficialIntegration === true : undefined;
+    const isReferenceServer = req.body.isReferenceServer !== undefined ? 
+      req.body.isReferenceServer === 'true' || req.body.isReferenceServer === true : undefined;
+    const isCommunityServer = req.body.isCommunityServer !== undefined ? 
+      req.body.isCommunityServer === 'true' || req.body.isCommunityServer === true : undefined;
     
     // Get servers from cache for the requested locale
     const mcpServersCache = await refreshCacheIfNeeded(requestedLocale);
@@ -123,10 +131,25 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
       console.log(`Filtered servers by category: ${categoryKey}, found ${filteredServers.length} servers`);
     }
     
-    // Filter by isRecommended status if provided
+    // Filter by boolean status flags if provided
     if (isRecommended !== undefined) {
       filteredServers = filteredServers.filter(server => server.isRecommended === isRecommended);
       console.log(`Filtered servers by recommendation status: ${isRecommended}, found ${filteredServers.length} servers`);
+    }
+    
+    if (isOfficialIntegration !== undefined) {
+      filteredServers = filteredServers.filter(server => server.isOfficialIntegration === isOfficialIntegration);
+      console.log(`Filtered servers by official integration status: ${isOfficialIntegration}, found ${filteredServers.length} servers`);
+    }
+    
+    if (isReferenceServer !== undefined) {
+      filteredServers = filteredServers.filter(server => server.isReferenceServer === isReferenceServer);
+      console.log(`Filtered servers by reference server status: ${isReferenceServer}, found ${filteredServers.length} servers`);
+    }
+    
+    if (isCommunityServer !== undefined) {
+      filteredServers = filteredServers.filter(server => server.isCommunityServer === isCommunityServer);
+      console.log(`Filtered servers by community server status: ${isCommunityServer}, found ${filteredServers.length} servers`);
     }
     
     // Filter by keyword search if searchFor is provided
@@ -198,8 +221,17 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     });
     
     const searchInfo = searchFor ? `, search term: "${searchFor}"` : '';
-    const recommendedInfo = isRecommended !== undefined ? `, isRecommended: ${isRecommended}` : '';
-    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${recommendedInfo}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
+    // Build filter info string for all boolean parameters
+    const filterInfo = [
+      isRecommended !== undefined ? `isRecommended: ${isRecommended}` : '',
+      isOfficialIntegration !== undefined ? `isOfficialIntegration: ${isOfficialIntegration}` : '',
+      isReferenceServer !== undefined ? `isReferenceServer: ${isReferenceServer}` : '',
+      isCommunityServer !== undefined ? `isCommunityServer: ${isCommunityServer}` : ''
+    ].filter(Boolean).join(', ');
+    
+    const filterInfoString = filterInfo ? `, ${filterInfo}` : '';
+    
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${filterInfoString}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving filtered MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });

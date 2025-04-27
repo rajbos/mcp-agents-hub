@@ -88,6 +88,9 @@
     "server": "伺服器",
     "servers": "伺服器",
     "recommended": "推薦",
+    "officialIntegration": "官方整合",
+    "referenceServer": "參考伺服器",
+    "communityServer": "社區伺服器",
     "siteName": "MCP Agents 中心",
     "viewAll": "查看全部"
   },
@@ -114,7 +117,10 @@
     "noResults": "未找到與您的搜尋匹配的伺服器",
     "tryDifferent": "嘗試使用不同的搜尋詞或瀏覽此類別中的所有伺服器",
     "clearAndShowAll": "清除搜尋並顯示所有伺服器",
-    "recommendedOnly": "僅顯示推薦"
+    "recommendedOnly": "僅顯示推薦",
+    "officialIntegrationOnly": "僅顯示官方整合",
+    "referenceServerOnly": "僅顯示參考伺服器",
+    "communityServerOnly": "僅顯示社區伺服器"
   },
   "submit": {
     "title": "提交您的 MCP 伺服器",

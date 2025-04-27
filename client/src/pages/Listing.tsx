@@ -25,6 +25,10 @@ export function Listing() {
   const initialSearch = searchParams.get('search') || '';
   // Check both 'recommended' and 'isRecommended' in URL params
   const initialIsRecommended = searchParams.get('recommended') === 'true' || searchParams.get('isRecommended') === 'true';
+  // New filter params from URL
+  const initialIsOfficialIntegration = searchParams.get('isOfficialIntegration') === 'true';
+  const initialIsReferenceServer = searchParams.get('isReferenceServer') === 'true';
+  const initialIsCommunityServer = searchParams.get('isCommunityServer') === 'true';
   
   const [serversData, setServersData] = useState<PaginatedResponse>({
     servers: [],
@@ -38,9 +42,20 @@ export function Listing() {
   const [searchKeyword, setSearchKeyword] = useState<string>(initialSearch);
   const [searchInputValue, setSearchInputValue] = useState<string>(initialSearch);
   const [isRecommended, setIsRecommended] = useState<boolean>(initialIsRecommended);
+  const [isOfficialIntegration, setIsOfficialIntegration] = useState<boolean>(initialIsOfficialIntegration);
+  const [isReferenceServer, setIsReferenceServer] = useState<boolean>(initialIsReferenceServer);
+  const [isCommunityServer, setIsCommunityServer] = useState<boolean>(initialIsCommunityServer);
 
   // Fetch servers for the given category, page, and search keyword
-  const fetchServers = async (page = 1, size = pageSize, search = searchKeyword, recommended = isRecommended) => {
+  const fetchServers = async (
+    page = 1, 
+    size = pageSize, 
+    search = searchKeyword, 
+    recommended = isRecommended,
+    officialIntegration = isOfficialIntegration,
+    referenceServer = isReferenceServer,
+    communityServer = isCommunityServer
+  ) => {
     // Don't return early if categoryKey is "all", that's a valid use case for search
     if (!categoryKey && categoryKey !== "all") return;
     
@@ -60,7 +75,10 @@ export function Listing() {
           page: page,
           size: size,
           search_for: search || undefined,
-          isRecommended: recommended || undefined
+          isRecommended: recommended || undefined,
+          isOfficialIntegration: officialIntegration || undefined,
+          isReferenceServer: referenceServer || undefined,
+          isCommunityServer: communityServer || undefined
         })
       });
       
@@ -85,17 +103,37 @@ export function Listing() {
 
   useEffect(() => {
     // Use the initial parameters from URL
-    fetchServers(initialPage, pageSize, searchKeyword, isRecommended);
-  }, [categoryKey, language, initialPage, pageSize, isRecommended]);
+    fetchServers(
+      initialPage, 
+      pageSize, 
+      searchKeyword, 
+      isRecommended, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      isCommunityServer
+    );
+  }, [categoryKey, language, initialPage, pageSize, isRecommended, isOfficialIntegration, isReferenceServer, isCommunityServer]);
 
   const handlePageChange = (page: number) => {
     if (page >= 1 && page <= serversData.totalPages) {
       // Update URL with new page parameter
       const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
       const recommendedParam = isRecommended ? `&isRecommended=true` : '';
-      navigate(`/listing/${categoryKey}?page=${page}&size=${pageSize}${searchParam}${recommendedParam}`);
+      const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+      const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+      const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
       
-      fetchServers(page, pageSize, searchKeyword, isRecommended);
+      navigate(`/listing/${categoryKey}?page=${page}&size=${pageSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
+      
+      fetchServers(
+        page, 
+        pageSize, 
+        searchKeyword, 
+        isRecommended, 
+        isOfficialIntegration, 
+        isReferenceServer, 
+        isCommunityServer
+      );
       // Scroll to top of the list when changing pages
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -108,10 +146,22 @@ export function Listing() {
     // Update URL with new size parameter and reset to page 1
     const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
     const recommendedParam = isRecommended ? `&isRecommended=true` : '';
-    navigate(`/listing/${categoryKey}?page=1&size=${newSize}${searchParam}${recommendedParam}`);
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${newSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
     
     // Reset to first page when changing page size
-    fetchServers(1, newSize, searchKeyword, isRecommended);
+    fetchServers(
+      1, 
+      newSize, 
+      searchKeyword, 
+      isRecommended, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      isCommunityServer
+    );
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -121,10 +171,22 @@ export function Listing() {
     
     // Update URL with search parameter and reset to page 1
     const recommendedParam = isRecommended ? `&isRecommended=true` : '';
-    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchInputValue ? `&search=${encodeURIComponent(searchInputValue)}` : ''}${recommendedParam}`);
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchInputValue ? `&search=${encodeURIComponent(searchInputValue)}` : ''}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
     
     // Search with the new keyword
-    fetchServers(1, pageSize, searchInputValue, isRecommended);
+    fetchServers(
+      1, 
+      pageSize, 
+      searchInputValue, 
+      isRecommended, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      isCommunityServer
+    );
   };
 
   const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -137,10 +199,22 @@ export function Listing() {
     
     // Update URL without search parameter and reset to page 1
     const recommendedParam = isRecommended ? `&isRecommended=true` : '';
-    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${recommendedParam}`);
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
     
     // Reset search
-    fetchServers(1, pageSize, '', isRecommended);
+    fetchServers(
+      1, 
+      pageSize, 
+      '', 
+      isRecommended, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      isCommunityServer
+    );
   };
 
   const formatCategoryName = (key: string) => {
@@ -158,10 +232,100 @@ export function Listing() {
     // Update URL with recommended parameter
     const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
     const recommendedParam = newRecommendedValue ? `&isRecommended=true` : '';
-    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}`);
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
     
     // Fetch with the new filter
-    fetchServers(1, pageSize, searchKeyword, newRecommendedValue);
+    fetchServers(
+      1, 
+      pageSize, 
+      searchKeyword, 
+      newRecommendedValue, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      isCommunityServer
+    );
+  };
+  
+  // Handle toggling the official integration filter
+  const handleOfficialIntegrationToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newOfficialIntegrationValue = e.target.checked;
+    setIsOfficialIntegration(newOfficialIntegrationValue);
+    
+    // Update URL with official integration parameter
+    const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    const officialIntegrationParam = newOfficialIntegrationValue ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
+    
+    // Fetch with the new filter
+    fetchServers(
+      1, 
+      pageSize, 
+      searchKeyword, 
+      isRecommended, 
+      newOfficialIntegrationValue, 
+      isReferenceServer, 
+      isCommunityServer
+    );
+  };
+  
+  // Handle toggling the reference server filter
+  const handleReferenceServerToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newReferenceServerValue = e.target.checked;
+    setIsReferenceServer(newReferenceServerValue);
+    
+    // Update URL with reference server parameter
+    const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = newReferenceServerValue ? `&isReferenceServer=true` : '';
+    const communityServerParam = isCommunityServer ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
+    
+    // Fetch with the new filter
+    fetchServers(
+      1, 
+      pageSize, 
+      searchKeyword, 
+      isRecommended, 
+      isOfficialIntegration, 
+      newReferenceServerValue, 
+      isCommunityServer
+    );
+  };
+  
+  // Handle toggling the community server filter
+  const handleCommunityServerToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newCommunityServerValue = e.target.checked;
+    setIsCommunityServer(newCommunityServerValue);
+    
+    // Update URL with community server parameter
+    const searchParam = searchKeyword ? `&search=${encodeURIComponent(searchKeyword)}` : '';
+    const recommendedParam = isRecommended ? `&isRecommended=true` : '';
+    const officialIntegrationParam = isOfficialIntegration ? `&isOfficialIntegration=true` : '';
+    const referenceServerParam = isReferenceServer ? `&isReferenceServer=true` : '';
+    const communityServerParam = newCommunityServerValue ? `&isCommunityServer=true` : '';
+    
+    navigate(`/listing/${categoryKey}?page=1&size=${pageSize}${searchParam}${recommendedParam}${officialIntegrationParam}${referenceServerParam}${communityServerParam}`);
+    
+    // Fetch with the new filter
+    fetchServers(
+      1, 
+      pageSize, 
+      searchKeyword, 
+      isRecommended, 
+      isOfficialIntegration, 
+      isReferenceServer, 
+      newCommunityServerValue
+    );
   };
 
   // Generate array of page numbers to display
@@ -277,8 +441,9 @@ export function Listing() {
           </div>
           
           <div className="mt-3 flex flex-wrap justify-between items-center">
-            {/* Recommended-only filter */}
-            <div className="flex items-center">
+            {/* Filters group */}
+            <div className="flex flex-wrap items-center gap-4">
+              {/* Recommended-only filter */}
               <label className="flex items-center text-sm text-gray-600 cursor-pointer">
                 <input
                   type="checkbox"
@@ -287,6 +452,39 @@ export function Listing() {
                   className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
                 />
                 {t('search.recommendedOnly') || "Recommended only"}
+              </label>
+              
+              {/* Official Integration filter */}
+              <label className="flex items-center text-sm text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isOfficialIntegration}
+                  onChange={handleOfficialIntegrationToggle}
+                  className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                />
+                {t('search.officialIntegrationOnly')}
+              </label>
+              
+              {/* Reference Server filter */}
+              <label className="flex items-center text-sm text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isReferenceServer}
+                  onChange={handleReferenceServerToggle}
+                  className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                />
+                {t('search.referenceServerOnly')}
+              </label>
+              
+              {/* Community Server filter */}
+              <label className="flex items-center text-sm text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isCommunityServer}
+                  onChange={handleCommunityServerToggle}
+                  className="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 mr-2"
+                />
+                {t('search.communityServerOnly')}
               </label>
             </div>
             
@@ -322,8 +520,19 @@ export function Listing() {
             <div className="px-3 py-1 bg-blue-50 rounded-md text-blue-700 font-medium text-sm">
               {serversData.totalItems} {serversData.totalItems === 1 ? t('common.server') : t('common.servers')}
             </div>
-            <div className="text-sm text-gray-600">
-              <span className="font-medium">{serversData.servers.filter(s => s.isRecommended).length}</span> {t('common.recommended')}
+            <div className="flex items-center space-x-4 text-sm text-gray-600">
+              <div>
+                <span className="font-medium">{serversData.servers.filter(s => s.isRecommended).length}</span> {t('common.recommended')}
+              </div>
+              <div>
+                <span className="font-medium">{serversData.servers.filter(s => s.isOfficialIntegration).length}</span> {t('common.officialIntegration') || 'Official'}
+              </div>
+              <div>
+                <span className="font-medium">{serversData.servers.filter(s => s.isReferenceServer).length}</span> {t('common.referenceServer') || 'Reference'}
+              </div>
+              <div>
+                <span className="font-medium">{serversData.servers.filter(s => s.isCommunityServer).length}</span> {t('common.communityServer') || 'Community'}
+              </div>
             </div>
           </div>
           <div className="text-sm text-gray-500">

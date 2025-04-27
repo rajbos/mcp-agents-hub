@@ -89,6 +89,9 @@
     "server": "サーバー",
     "servers": "サーバー",
     "recommended": "おすすめ",
+    "officialIntegration": "公式インテグレーション",
+    "referenceServer": "リファレンスサーバー",
+    "communityServer": "コミュニティサーバー",
     "siteName": "MCP Hub",
     "viewAll": "すべて表示"
   },
@@ -116,7 +119,10 @@
     "noResults": "検索に一致するサーバーが見つかりません",
     "tryDifferent": "別の検索語を試すか、このカテゴリ内のすべてのサーバーを閲覧してください",
     "clearAndShowAll": "検索をクリアしてすべてのサーバーを表示",
-    "recommendedOnly": "おすすめのみ"
+    "recommendedOnly": "おすすめのみ",
+    "officialIntegrationOnly": "公式インテグレーションのみ",
+    "referenceServerOnly": "リファレンスサーバーのみ",
+    "communityServerOnly": "コミュニティサーバーのみ"
   },
   "submit": {
     "title": "MCPサーバーを提出",
