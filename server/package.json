@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "test:integration": "vitest run tests/integration/*.test.ts",
     "test:mock": "vitest run tests/mock/*.test.ts",
-    "crawl-servers": "tsx src/data/mcp_servers_crawler.ts"
+    "crawl-servers": "tsx src/data/mcp_servers_crawler.ts",
+    "update-server-types": "tsx src/data/mcp_server_crawler_result_updater.ts"
   },
   "dependencies": {
     "axios": "^1.6.0",
