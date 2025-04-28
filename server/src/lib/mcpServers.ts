@@ -23,7 +23,13 @@ export interface McpServer {
   createdAt?: string;
   updatedAt?: string;
   hubId: string;
-  [key: string]: string | number | boolean | string[] | undefined;
+  isOfficialIntegration?: boolean;
+  isReferenceServer?: boolean;
+  isCommunityServer?: boolean;
+  githubLatestCommit?: string;
+  githubForks?: number;
+  licenseType?: string | null;
+  [key: string]: string | number | boolean | string[] | null | undefined;
 }
 
 // In-memory cache for MCP servers data - now keyed by locale

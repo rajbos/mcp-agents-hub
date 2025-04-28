@@ -23,4 +23,7 @@ export interface MCPServer {
   features?: string[];
   prerequisites?: string[];
   lastEnrichmentTime?: number;
+  githubLatestCommit?: string;
+  githubForks?: number;
+  licenseType?: string | null;
 }
