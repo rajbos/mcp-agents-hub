@@ -32,6 +32,12 @@ export interface EnrichedMcpServer extends McpServer {
   features?: string[];
   prerequisites?: string[];
   lastEnrichmentTime?: number;
+  githubStars?: number;
+  latest_update_time?: string;
+  latest_commit_id?: string;
+  fork_count?: number;
+  owner_name?: string;
+  license_type?: string | null;
 }
 
 /**
@@ -101,11 +107,23 @@ export function extractGithubRepoInfo(githubUrl: string): { owner: string; repo:
 }
 
 /**
- * Fetch star count for a GitHub repository
- * @param githubUrl The GitHub repository URL
- * @returns The number of stars or null if not available
+ * Interface for GitHub repository information
  */
-export async function fetchGithubStars(githubUrl: string): Promise<number | null> {
+export interface GithubRepoInfo {
+  stars_count: number;
+  latest_update_time: string; // ISO timestamp of the latest commit
+  latest_commit_id: string;
+  fork_count: number;
+  owner_name: string;
+  license_type: string | null; // Will be null if no license information available
+}
+
+/**
+ * Fetch GitHub repository information including stars, forks, latest update, and license
+ * @param githubUrl The GitHub repository URL
+ * @returns Repository information or null if not available
+ */
+export async function fetchGithubInfo(githubUrl: string): Promise<GithubRepoInfo | null> {
   try {
     const repoInfo = extractGithubRepoInfo(githubUrl);
     if (!repoInfo) {
@@ -117,6 +135,9 @@ export async function fetchGithubStars(githubUrl: string): Promise<number | null
     // Use GitHub API to fetch repository information
     const apiUrl = `https://api.github.com/repos/${owner}/${repo}`;
     
+    // URL for fetching the latest commit
+    const commitsUrl = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
+    
     // Use GitHub token from config if available
     const headers: Record<string, string> = {
       'Accept': 'application/vnd.github.v3+json'
@@ -126,9 +147,36 @@ export async function fetchGithubStars(githubUrl: string): Promise<number | null
       headers['Authorization'] = `token ${config.github.apiToken}`;
     }
     
-    const response = await axios.get(apiUrl, { headers });
+    // Fetch repository data
+    const repoResponse = await axios.get(apiUrl, { headers });
+    const repoData = repoResponse.data;
     
-    return response.data.stargazers_count;
+    // Fetch latest commit data
+    const commitsResponse = await axios.get(commitsUrl, { headers });
+    const latestCommit = commitsResponse.data[0] || { sha: '', commit: { committer: { date: '' } } };
+    
+    return {
+      stars_count: repoData.stargazers_count,
+      latest_update_time: latestCommit.commit?.committer?.date || '',
+      latest_commit_id: latestCommit.sha || '',
+      fork_count: repoData.forks_count,
+      owner_name: repoData.owner?.login || owner,
+      license_type: repoData.license?.spdx_id || null
+    };
+  } catch (error) {
+    console.error(`Error fetching repository information for ${githubUrl}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Legacy function for backward compatibility
+ * @deprecated Use fetchGithubInfo instead
+ */
+export async function fetchGithubStars(githubUrl: string): Promise<number | null> {
+  try {
+    const repoInfo = await fetchGithubInfo(githubUrl);
+    return repoInfo ? repoInfo.stars_count : null;
   } catch (error) {
     console.error(`Error fetching stars for ${githubUrl}:`, error);
     return null;
@@ -311,12 +359,13 @@ export async function enrichServerData(server: McpServer, locale: string = 'en')
       throw new Error(`No GitHub or documentation URL available for server ${server.hubId}`);
     }
 
-    // Fetch GitHub stars if it's a GitHub URL
+    // Fetch GitHub repository information if it's a GitHub URL
     let githubStars: number | undefined = undefined;
+    let githubInfo = null;
     if (server.githubUrl.startsWith('https://github.com')) {
-      const stars = await fetchGithubStars(server.githubUrl);
-      if (stars !== null) {
-        githubStars = stars;
+      githubInfo = await fetchGithubInfo(server.githubUrl);
+      if (githubInfo !== null) {
+        githubStars = githubInfo.stars_count;
       }
     }
 
@@ -339,6 +388,15 @@ export async function enrichServerData(server: McpServer, locale: string = 'en')
       githubStars,
       lastEnrichmentTime: Date.now(),
     };
+    
+    // Add GitHub repository information if available
+    if (githubInfo) {
+      enrichedServer.latest_update_time = githubInfo.latest_update_time;
+      enrichedServer.latest_commit_id = githubInfo.latest_commit_id;
+      enrichedServer.fork_count = githubInfo.fork_count;
+      enrichedServer.owner_name = githubInfo.owner_name;
+      enrichedServer.license_type = githubInfo.license_type || undefined;
+    }
     
     // Cache the enriched data using locale-specific key
     enrichedServer.hubId = cacheKey; // Temporarily modify hubId for caching

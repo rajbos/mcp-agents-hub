@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll } from 'vitest';
-import { extractInfoFromReadme, fetchReadmeContent, fetchGithubStars, extractGithubRepoInfo } from '../../src/lib/githubEnrichment';
+import { extractInfoFromReadme, fetchReadmeContent, fetchGithubStars, fetchGithubInfo, extractGithubRepoInfo } from '../../src/lib/githubEnrichment';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -107,7 +107,7 @@ const TEST_REPOS = [
     }
   }, 60000); // Increased timeout for multiple AI processing requests
 
-  it('should extract GitHub repository information and fetch star counts', async () => {
+  it('should extract GitHub repository information and fetch repository details', async () => {
     // Test GitHub URLs
     const testUrls = [
       'https://github.com/modelcontextprotocol/servers/',
@@ -116,7 +116,7 @@ const TEST_REPOS = [
     ];
 
     for (const url of testUrls) {
-      console.log(`Testing GitHub stars extraction for: ${url}`);
+      console.log(`\nTesting GitHub repository information extraction for: ${url}`);
       
       // Test extractGithubRepoInfo function
       const repoInfo = extractGithubRepoInfo(url);
@@ -131,43 +131,58 @@ const TEST_REPOS = [
           expect(repoInfo.repo).not.toContain('tree');
         }
         
-        // Test fetchGithubStars function
-        const stars = await fetchGithubStars(url);
-        console.log(`Repository ${repoInfo.owner}/${repoInfo.repo} has ${stars} stars`);
+        // Test fetchGithubInfo function
+        const githubInfo = await fetchGithubInfo(url);
+        console.log(`Repository ${repoInfo.owner}/${repoInfo.repo} information:`);
+        console.log(`  Stars: ${githubInfo?.stars_count}`);
+        console.log(`  Forks: ${githubInfo?.fork_count}`);
+        console.log(`  Owner: ${githubInfo?.owner_name}`);
+        console.log(`  License: ${githubInfo?.license_type || 'none'}`);
+        console.log(`  Latest update: ${githubInfo?.latest_update_time}`);
+        console.log(`  Latest commit: ${githubInfo?.latest_commit_id}`);
+
+        // Basic validation of the returned info
+        expect(githubInfo).not.toBeNull();
         
-        // The star count should be a number or null (in case of API errors)
-        if (stars !== null) {
-          expect(typeof stars).toBe('number');
-          expect(stars).toBeGreaterThanOrEqual(0);
-        }
-        
-        // Save the results for manual inspection
-        const testResultsDir = path.resolve(__dirname, '..', 'results');
-        try {
-          // Create results directory if it doesn't exist
-          if (!fs.existsSync(testResultsDir)) {
-            fs.mkdirSync(testResultsDir, { recursive: true });
+        if (githubInfo !== null) {
+          expect(typeof githubInfo.stars_count).toBe('number');
+          expect(typeof githubInfo.fork_count).toBe('number');
+          expect(githubInfo.owner_name).toBeTruthy();
+          expect(githubInfo.latest_commit_id).toBeTruthy();
+          expect(githubInfo.latest_update_time).toBeTruthy();
+          
+          // Test backward compatibility function
+          const stars = await fetchGithubStars(url);
+          expect(stars).toBe(githubInfo.stars_count);
+          
+          // Save the results for manual inspection
+          const testResultsDir = path.resolve(__dirname, '..', 'results');
+          try {
+            // Create results directory if it doesn't exist
+            if (!fs.existsSync(testResultsDir)) {
+              fs.mkdirSync(testResultsDir, { recursive: true });
+            }
+            
+            // Save the repository information
+            const resultsPath = path.join(testResultsDir, `github_info_${repoInfo.owner}_${repoInfo.repo}.json`);
+            fs.writeFileSync(
+              resultsPath, 
+              JSON.stringify({ 
+                url,
+                repoInfo,
+                githubInfo,
+                fetchedAt: new Date().toISOString() 
+              }, null, 2)
+            );
+            
+            console.log(`GitHub repository info test results saved to ${resultsPath}`);
+          } catch (error) {
+            console.error(`Error saving GitHub repository info test results for ${url}:`, error);
           }
-          
-          // Save the stars information
-          const resultsPath = path.join(testResultsDir, `github_stars_${repoInfo.owner}_${repoInfo.repo}.json`);
-          fs.writeFileSync(
-            resultsPath, 
-            JSON.stringify({ 
-              url,
-              repoInfo,
-              stars,
-              fetchedAt: new Date().toISOString() 
-            }, null, 2)
-          );
-          
-          console.log(`GitHub stars test results saved to ${resultsPath}`);
-        } catch (error) {
-          console.error(`Error saving GitHub stars test results for ${url}:`, error);
         }
       }
     }
-  }, 20000); // Timeout for GitHub API requests
+  }, 30000); // Timeout for GitHub API requests
 
   it('should correctly extract repository information from various GitHub URL formats', () => {
     // Test cases with different URL formats
