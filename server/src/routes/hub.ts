@@ -187,13 +187,14 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     }
     
     // Sort servers so that isRecommended: true servers appear first
+    // Then sort by githubStars in descending order
     filteredServers.sort((a, b) => {
       // If a is recommended and b is not, a comes first
       if (a.isRecommended && !b.isRecommended) return -1;
       // If b is recommended and a is not, b comes first
       if (!a.isRecommended && b.isRecommended) return 1;
-      // If both have the same recommendation status, maintain original order
-      return 0;
+      // If both have the same recommendation status, sort by githubStars (descending)
+      return (b.githubStars || 0) - (a.githubStars || 0);
     });
 
     // Apply pagination if parameters are provided
@@ -231,7 +232,7 @@ router.post('/search_servers', async (req: Request, res: Response): Promise<void
     
     const filterInfoString = filterInfo ? `, ${filterInfo}` : '';
     
-    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${filterInfoString}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
+    console.log(`v1/hub/search_servers Served filtered and sorted MCP servers data (recommended first, then by GitHub stars) for locale: ${requestedLocale}${categoryKey ? `, category: ${categoryKey}` : ''}${filterInfoString}${searchInfo}${page !== undefined && size !== undefined ? `, page: ${page}, size: ${size}` : ''} at ${new Date().toISOString()}`);
   } catch (error) {
     console.error('Error serving filtered MCP servers:', error);
     res.status(500).json({ error: 'Internal server error' });
