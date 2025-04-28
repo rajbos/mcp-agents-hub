@@ -37,7 +37,7 @@ export interface EnrichedMcpServer extends McpServer {
   latest_commit_id?: string;
   fork_count?: number;
   owner_name?: string;
-  license_type?: string | null;
+  license_type?: string | undefined;
 }
 
 /**
@@ -115,7 +115,7 @@ export interface GithubRepoInfo {
   latest_commit_id: string;
   fork_count: number;
   owner_name: string;
-  license_type: string | null; // Will be null if no license information available
+  license_type: string | undefined; // Will be undefined if no license information available
 }
 
 /**
@@ -161,7 +161,7 @@ export async function fetchGithubInfo(githubUrl: string): Promise<GithubRepoInfo
       latest_commit_id: latestCommit.sha || '',
       fork_count: repoData.forks_count,
       owner_name: repoData.owner?.login || owner,
-      license_type: repoData.license?.spdx_id || null
+      license_type: repoData.license?.spdx_id
     };
   } catch (error) {
     console.error(`Error fetching repository information for ${githubUrl}:`, error);
@@ -395,7 +395,7 @@ export async function enrichServerData(server: McpServer, locale: string = 'en')
       enrichedServer.latest_commit_id = githubInfo.latest_commit_id;
       enrichedServer.fork_count = githubInfo.fork_count;
       enrichedServer.owner_name = githubInfo.owner_name;
-      enrichedServer.license_type = githubInfo.license_type || undefined;
+      enrichedServer.license_type = githubInfo.license_type;
     }
     
     // Cache the enriched data using locale-specific key
