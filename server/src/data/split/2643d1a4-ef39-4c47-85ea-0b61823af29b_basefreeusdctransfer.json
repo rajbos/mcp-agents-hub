@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 14,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-17T09:25:59Z",
   "hubId": "2643d1a4-ef39-4c47-85ea-0b61823af29b",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "magnetai",
+  "githubLatestCommit": "56a773dad543cc65f81c453fc6ff39e05d187442",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

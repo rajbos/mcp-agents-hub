@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-22T01:32:07Z",
   "hubId": "3f6fdc9e-ce8e-4b86-9dd0-dd9fdfc28986",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "spgoodman",
+  "githubLatestCommit": "e491333941c633f7cb21b9ed6ff560a377e7ca01",
+  "githubForks": 1,
+  "licenseType": "Apache-2.0"
 }

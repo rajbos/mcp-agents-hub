@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 31,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:23.859656+00:00",
-  "updatedAt": "2025-03-17T08:29:23.859656+00:00",
+  "updatedAt": "2025-02-12T01:24:07Z",
   "hubId": "4b8131d5-4076-454b-932b-4c8d7207eb3c",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "f457e444b2398aad39d1ef7f0ceed06748c177a4",
+  "githubForks": 1,
+  "licenseType": "AGPL-3.0"
 }

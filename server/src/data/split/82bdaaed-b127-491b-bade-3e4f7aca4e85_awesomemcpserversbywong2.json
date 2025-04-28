@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 963,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T07:59:19Z",
   "hubId": "82bdaaed-b127-491b-bade-3e4f7aca4e85",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "wong2",
+  "githubLatestCommit": "d2e9fa8d891adf43e005cc4c8dd587669709b657",
+  "githubForks": 205,
+  "licenseType": "MIT"
 }

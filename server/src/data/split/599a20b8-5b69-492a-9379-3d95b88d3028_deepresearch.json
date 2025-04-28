@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 48,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-25T15:50:11Z",
   "hubId": "599a20b8-5b69-492a-9379-3d95b88d3028",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "reading-plus-ai",
+  "githubLatestCommit": "640129a84d09543338f725cdc6b5a7ed204d140b",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 522,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T03:07:03Z",
   "hubId": "7393178f-6793-4a18-a9bc-1916ff2a7d18",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "baidubce",
+  "githubLatestCommit": "f1c18e5a519f4bf1d11ee92db245d9647a6eb014",
+  "githubForks": 128,
+  "licenseType": "Apache-2.0"
 }

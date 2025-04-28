@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 870,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T17:55:44Z",
   "hubId": "07eb49c7-9a55-4a00-b1a2-ba7fbef84fe6",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "damms005",
+  "githubLatestCommit": "580ba17d541ce1192b0c55a2907ede21eac9e5f3",
+  "githubForks": 22,
+  "licenseType": "MIT"
 }

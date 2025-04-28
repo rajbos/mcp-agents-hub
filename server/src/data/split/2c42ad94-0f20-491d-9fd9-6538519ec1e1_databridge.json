@@ -2,7 +2,7 @@
   "mcpId": "github.com/databridge-org/databridge-mcp",
   "githubUrl": "https://github.com/databridge-org/databridge-mcp",
   "name": "DataBridge",
-  "author": "databridge-org",
+  "author": "morphik-org",
   "description": "Integrates with DataBridge to enable ingestion and retrieval of contextual information from a local database, supporting persistent storage for AI applications.",
   "codiconIcon": "databridge",
   "logoUrl": "",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 6,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.49229+00:00",
-  "updatedAt": "2025-03-17T08:29:25.49229+00:00",
+  "updatedAt": "2025-02-19T04:16:26Z",
   "hubId": "2c42ad94-0f20-491d-9fd9-6538519ec1e1",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "80a5b8c12555b674eaf9af95ec796154be5b3511",
+  "githubForks": 3,
+  "licenseType": null
 }

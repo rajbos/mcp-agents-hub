@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 245,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-13T21:24:43Z",
   "hubId": "85273ee6-848b-4599-b41e-1c017be601a7",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "hyperbrowserai",
+  "githubLatestCommit": "fe28e484219e038cebc2a809f88b42c71efd22c8",
+  "githubForks": 19,
+  "licenseType": "MIT"
 }

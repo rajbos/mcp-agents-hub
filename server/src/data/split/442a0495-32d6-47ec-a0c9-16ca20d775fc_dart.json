@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 48,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T01:30:26Z",
   "hubId": "442a0495-32d6-47ec-a0c9-16ca20d775fc",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "its-dart",
+  "githubLatestCommit": "4016f8da9bc1ba5f6ae9aa90830b015fc2ccef03",
+  "githubForks": 8,
+  "licenseType": "MIT"
 }

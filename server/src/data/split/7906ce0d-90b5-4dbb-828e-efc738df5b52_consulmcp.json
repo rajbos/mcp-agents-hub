@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 7,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-20T16:26:12Z",
   "hubId": "7906ce0d-90b5-4dbb-828e-efc738df5b52",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "kocierik",
+  "githubLatestCommit": "4c29405af7c9b497a5437e8a5d6730d68e2ab01d",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

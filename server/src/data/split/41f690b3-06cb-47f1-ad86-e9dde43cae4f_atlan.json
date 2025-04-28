@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 9,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T11:28:13Z",
   "hubId": "41f690b3-06cb-47f1-ad86-e9dde43cae4f",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "atlanhq",
+  "githubLatestCommit": "8d21ddf2e07ba99e984e800c5f788b047f3949e2",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 27,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T10:12:04Z",
   "hubId": "8a01526f-dc15-4ec1-afa3-b68d63753f78",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "VeyraX",
+  "githubLatestCommit": "06f78fad0a240912e0e2a96f22bc4c26795aaa83",
+  "githubForks": 9,
+  "licenseType": null
 }

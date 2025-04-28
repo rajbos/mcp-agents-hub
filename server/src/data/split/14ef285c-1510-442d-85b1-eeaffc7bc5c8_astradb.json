@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 18,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-03T17:45:16Z",
   "hubId": "14ef285c-1510-442d-85b1-eeaffc7bc5c8",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "datastax",
+  "githubLatestCommit": "0fc5580ee2e6053d500051a2ea6880bef78608d6",
+  "githubForks": 12,
+  "licenseType": "Apache-2.0"
 }

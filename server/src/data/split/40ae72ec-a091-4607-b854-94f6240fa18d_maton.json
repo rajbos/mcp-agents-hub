@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 25,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-01T23:41:56Z",
   "hubId": "40ae72ec-a091-4607-b854-94f6240fa18d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "maton-ai",
+  "githubLatestCommit": "7f9a6050212075767ef83998391119e926a6a829",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

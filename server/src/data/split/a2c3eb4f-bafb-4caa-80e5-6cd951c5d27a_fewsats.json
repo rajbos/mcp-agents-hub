@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 12,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-15T17:13:54Z",
   "hubId": "a2c3eb4f-bafb-4caa-80e5-6cd951c5d27a",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "Fewsats",
+  "githubLatestCommit": "8d356f01bf113628a82242479b45d01b2c92a2f9",
+  "githubForks": 4,
+  "licenseType": null
 }

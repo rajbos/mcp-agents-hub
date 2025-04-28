@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 57,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-10T19:04:48Z",
   "hubId": "368adae0-0746-468a-9e8a-9030268b2a42",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "eqtylab",
+  "githubLatestCommit": "54395bfe65c8db7192d62a6e6ecab246f818193f",
+  "githubForks": 3,
+  "licenseType": "Apache-2.0"
 }

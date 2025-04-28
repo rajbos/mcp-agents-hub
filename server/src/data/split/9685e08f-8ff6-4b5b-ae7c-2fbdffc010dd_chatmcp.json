@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 177,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-12T08:38:12Z",
   "hubId": "9685e08f-8ff6-4b5b-ae7c-2fbdffc010dd",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "AI-QL",
+  "githubLatestCommit": "753f2bfbc772bfb81e2cf4b35c1a8f08972ca1d1",
+  "githubForks": 25,
+  "licenseType": "Apache-2.0"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 42,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-13T05:18:11Z",
   "hubId": "637c728b-1097-40f2-88de-6f6d92f56836",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "heurist-network",
+  "githubLatestCommit": "5d51397c843ad2a287ea3257cfacb6b9b35c4751",
+  "githubForks": 9,
+  "licenseType": "MIT"
 }

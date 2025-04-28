@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 60,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T11:27:55Z",
   "hubId": "4a408469-297b-448d-a3ad-97228094e925",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "voska",
+  "githubLatestCommit": "98e692fb5b6b4e3fa36f1790e35b01f0ec4e0634",
+  "githubForks": 6,
+  "licenseType": "MIT"
 }

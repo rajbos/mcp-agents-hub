@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 44,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T05:05:07Z",
   "hubId": "0184d212-0684-4707-855c-06ede10609ec",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "XeroAPI",
+  "githubLatestCommit": "7495083c35594a20d332f2114ac3593564e0276c",
+  "githubForks": 21,
+  "licenseType": "MIT"
 }

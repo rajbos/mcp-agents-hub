@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 17,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-25T01:28:12Z",
   "hubId": "8be7e287-c76a-486c-acd7-7aa45181dfb2",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "teddyzxcv",
+  "githubLatestCommit": "b366744f8332e2d79c10ce0ca00c1229c867418a",
+  "githubForks": 0,
+  "licenseType": "Apache-2.0"
 }

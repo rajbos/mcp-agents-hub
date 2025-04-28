@@ -2,7 +2,7 @@
   "mcpId": "github.com/tiberriver256/mcp-server-azure-devops",
   "githubUrl": "https://github.com/tiberriver256/mcp-server-azure-devops",
   "name": "Azure DevOps MCP Server",
-  "author": "tiberriver256",
+  "author": "Tiberriver256",
   "description": "A Model Context Protocol (MCP) server implementation for Azure DevOps, allowing AI assistants to interact with Azure DevOps APIs through a standardized protocol.",
   "codiconIcon": "",
   "logoUrl": "",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 102,
   "downloadCount": 0,
   "createdAt": "2025-04-24T09:03:43.090Z",
-  "updatedAt": "2025-04-24T09:03:43.090Z",
+  "updatedAt": "2025-04-26T16:55:52Z",
   "hubId": "175012b9-a0ec-42e3-a957-a1636d0f968c",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "5d33fc21527c3a13d3e5914b1d8a7dd5b04c8b27",
+  "githubForks": 27,
+  "licenseType": "MIT"
 }

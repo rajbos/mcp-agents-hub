@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 90,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T07:20:56Z",
   "hubId": "3daefc84-4a64-4fa0-8c60-3fa4fff450ce",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "chigwell",
+  "githubLatestCommit": "e16b41115c7d9a9568fb86d5ba892744d983895e",
+  "githubForks": 48,
+  "licenseType": "Apache-2.0"
 }

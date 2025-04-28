@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 72,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-23T07:11:06Z",
   "hubId": "171fd915-d80b-47bb-868c-109cb2c27c9c",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "TermiX-official",
+  "githubLatestCommit": "e4f2f85145307ed56c18ee911b8dc2241781879b",
+  "githubForks": 16,
+  "licenseType": null
 }

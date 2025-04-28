@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 66,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-27T03:27:16Z",
   "hubId": "8aeda108-d573-4f18-bc25-b786c1bf50bf",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "badkk",
+  "githubLatestCommit": "6f3db72a6f5e8cfe79e660868b4f9e6eaa67d5eb",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

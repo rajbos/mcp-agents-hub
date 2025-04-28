@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-14T13:42:16Z",
   "hubId": "70425be7-c5bd-4e52-8252-3106f6648845",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "dinghuazhou",
+  "githubLatestCommit": "b9c1c372458bc27e08e5e932302c13eefc5fb755",
+  "githubForks": 1,
+  "licenseType": null
 }

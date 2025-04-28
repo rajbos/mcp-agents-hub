@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 86,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-14T02:39:46Z",
   "hubId": "28607b4e-49d7-43f7-89d1-61a2e0a3daea",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "aarora79",
+  "githubLatestCommit": "67a50d7de430495b5482bad7fde56d2abc4884ea",
+  "githubForks": 23,
+  "licenseType": "MIT"
 }

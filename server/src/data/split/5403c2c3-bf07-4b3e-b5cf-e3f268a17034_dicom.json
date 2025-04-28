@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 28,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T17:39:58Z",
   "hubId": "5403c2c3-bf07-4b3e-b5cf-e3f268a17034",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ChristianHinge",
+  "githubLatestCommit": "a1e0edb241c7319a4b2779fe4c8eaa00ef99ade6",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

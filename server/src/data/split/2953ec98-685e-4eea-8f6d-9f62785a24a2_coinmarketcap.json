@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 6,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-03T21:27:32Z",
   "hubId": "2953ec98-685e-4eea-8f6d-9f62785a24a2",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "shinzo-labs",
+  "githubLatestCommit": "a7fa4929300d396016f86983ef942040a4a58bbd",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 13,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T03:03:50Z",
   "hubId": "22283826-6954-4ce8-baf6-0f00eddc84c7",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "OctagonAI",
+  "githubLatestCommit": "10b9eb8911a30e3078597823f20ef06f4c9a3d86",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

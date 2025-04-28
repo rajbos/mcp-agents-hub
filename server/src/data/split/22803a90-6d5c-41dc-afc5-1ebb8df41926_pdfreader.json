@@ -19,9 +19,12 @@
   "githubStars": 0,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:27.547179+00:00",
-  "updatedAt": "2025-03-17T08:29:27.547179+00:00",
+  "updatedAt": "2025-03-06T07:50:05Z",
   "hubId": "22803a90-6d5c-41dc-afc5-1ebb8df41926",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "632a67ae9b41f50d683e4ab9f1560e971d40f172",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5131,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T05:42:14Z",
   "hubId": "6c48de58-d68c-4f36-aa76-43705c8696da",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "alibaba",
+  "githubLatestCommit": "c382635e7f6fc30d8789a7cc4122ff3a18961dbe",
+  "githubForks": 648,
+  "licenseType": "Apache-2.0"
 }

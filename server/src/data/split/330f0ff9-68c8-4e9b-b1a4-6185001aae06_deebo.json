@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 402,
   "downloadCount": 0,
   "createdAt": "2025-04-27T15:33:15.229Z",
-  "updatedAt": "2025-04-27T15:33:15.229Z",
+  "updatedAt": "2025-04-28T01:39:06Z",
   "hubId": "330f0ff9-68c8-4e9b-b1a4-6185001aae06",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "snagasuri",
+  "githubLatestCommit": "14b376d06dc5c3cab6cd102708eff4d1ed436082",
+  "githubForks": 31,
+  "licenseType": "Apache-2.0"
 }

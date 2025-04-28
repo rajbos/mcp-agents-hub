@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 62,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T13:25:54Z",
   "hubId": "16853241-8159-4ef8-81d9-e0ef233a4c1d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "wanaku-ai",
+  "githubLatestCommit": "98727949cc73fd84e539aa7c7c01d4cb597a8c1a",
+  "githubForks": 18,
+  "licenseType": "Apache-2.0"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 27,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-22T06:46:56Z",
   "hubId": "a3e08cd0-0722-489b-9849-0878e8aca68d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "nkapila6",
+  "githubLatestCommit": "12178f9459fde76f6b5dfc49b30e226c1454e094",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

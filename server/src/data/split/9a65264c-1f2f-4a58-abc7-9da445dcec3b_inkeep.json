@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-10T19:49:02Z",
   "hubId": "9a65264c-1f2f-4a58-abc7-9da445dcec3b",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "inkeep",
+  "githubLatestCommit": "400ad3c102ee115b6eecbb2cbfe8868d0c1b1832",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

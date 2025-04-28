@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 28,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-09T19:34:47Z",
   "hubId": "484e0b3d-ef31-4040-a457-59373f015127",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "GeLi2001",
+  "githubLatestCommit": "3920a9ff3088845b66ca41bfa59cd76b7b6448f0",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

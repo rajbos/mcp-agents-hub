@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-16T23:24:41Z",
   "hubId": "0c52f5c7-9925-4eb1-85c4-2779efbdb2f6",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "GibsonAI",
+  "githubLatestCommit": "114c01d3f3e4f519718498bb66f79c8fb6e6fa4b",
+  "githubForks": 1,
+  "licenseType": null
 }

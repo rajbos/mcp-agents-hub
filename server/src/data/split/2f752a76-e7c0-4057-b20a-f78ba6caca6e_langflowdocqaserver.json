@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-16T15:24:35Z",
   "hubId": "2f752a76-e7c0-4057-b20a-f78ba6caca6e",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "GongRzhe",
+  "githubLatestCommit": "b39b672d881feb54663b4cae33bc604ebeb91be3",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-11T21:34:48Z",
   "hubId": "2cc419f8-7946-4265-8e08-eefee0fb40ee",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "EduBase",
+  "githubLatestCommit": "7ecafcc514264d6a35cf71cad4a31f64043e104c",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 18,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-14T11:36:34Z",
   "hubId": "449bae71-9ab1-48fa-b74b-bd9110908684",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "anshumax",
+  "githubLatestCommit": "383cd8ab404b60824b0cd451e66910b9ad5f6d18",
+  "githubForks": 4,
+  "licenseType": null
 }

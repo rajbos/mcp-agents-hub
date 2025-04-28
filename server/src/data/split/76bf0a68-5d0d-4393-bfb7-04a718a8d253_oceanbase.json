@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 11,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-23T01:36:22Z",
   "hubId": "76bf0a68-5d0d-4393-bfb7-04a718a8d253",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "oceanbase",
+  "githubLatestCommit": "dcf8c2b0ed7f8f9017a39c2b3088255459d859ac",
+  "githubForks": 9,
+  "licenseType": "Apache-2.0"
 }

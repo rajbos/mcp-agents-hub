@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 19,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T13:30:11Z",
   "hubId": "1b6eb559-c1b2-47fa-a5dc-0eddf2c9379a",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "StarRocks",
+  "githubLatestCommit": "678361261678cf687aebd76bd4c01190694d4603",
+  "githubForks": 10,
+  "licenseType": "Apache-2.0"
 }

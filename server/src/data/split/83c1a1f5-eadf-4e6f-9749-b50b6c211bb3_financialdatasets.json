@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 225,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T10:58:56Z",
   "hubId": "83c1a1f5-eadf-4e6f-9749-b50b6c211bb3",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "financial-datasets",
+  "githubLatestCommit": "4c2573f91e86332c98c4dc3f4e415bdc00ac4e3c",
+  "githubForks": 33,
+  "licenseType": "MIT"
 }

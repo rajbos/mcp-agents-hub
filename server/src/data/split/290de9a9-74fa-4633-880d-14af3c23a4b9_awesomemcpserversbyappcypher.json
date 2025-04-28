@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2838,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-16T22:17:50Z",
   "hubId": "290de9a9-74fa-4633-880d-14af3c23a4b9",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "appcypher",
+  "githubLatestCommit": "bae8bff733927f7f6012c82a14d8dc932190b501",
+  "githubForks": 195,
+  "licenseType": null
 }

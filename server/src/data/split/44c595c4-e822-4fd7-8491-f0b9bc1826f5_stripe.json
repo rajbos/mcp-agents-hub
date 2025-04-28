@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 30,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-13T09:03:39Z",
   "hubId": "44c595c4-e822-4fd7-8491-f0b9bc1826f5",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "atharvagupta2003",
+  "githubLatestCommit": "481ff57d83d29695b2f9407e2a52be772f80f19b",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 289,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T03:35:52Z",
   "hubId": "7c25184e-43e5-4d8c-998f-249786aaad49",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ferrislucas",
+  "githubLatestCommit": "76d07b9ff6ce62e793a4fae281b72648cb171fb6",
+  "githubForks": 22,
+  "licenseType": "MIT"
 }

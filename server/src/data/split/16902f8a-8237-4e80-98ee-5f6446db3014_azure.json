@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 416,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T15:24:10Z",
   "hubId": "16902f8a-8237-4e80-98ee-5f6446db3014",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "Azure",
+  "githubLatestCommit": "d6d21accf87aa9980e217edd72a18c6d2286212d",
+  "githubForks": 69,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 225,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-26T16:05:41Z",
   "hubId": "38160807-6069-46b8-aadb-6dfebf064792",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Simon-Kansara",
+  "githubLatestCommit": "97e7585e212d1430493bf04b7af637d315227b02",
+  "githubForks": 38,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 183,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T07:01:29Z",
   "hubId": "93764638-9120-4f4b-9d28-b384192b313d",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "jamsocket",
+  "githubLatestCommit": "8eecb4763e98dec9162dc2443db82ae0f402b2d5",
+  "githubForks": 12,
+  "licenseType": "MIT"
 }

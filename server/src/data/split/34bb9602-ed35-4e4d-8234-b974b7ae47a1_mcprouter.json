@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 35,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T18:24:35Z",
   "hubId": "34bb9602-ed35-4e4d-8234-b974b7ae47a1",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mcp-router",
+  "githubLatestCommit": "c9c5f0d38281ac2970db2a1580ce3dc8499dc266",
+  "githubForks": 3,
+  "licenseType": null
 }

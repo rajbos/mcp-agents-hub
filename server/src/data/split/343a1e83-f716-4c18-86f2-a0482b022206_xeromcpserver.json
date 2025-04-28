@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 13,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-31T07:12:06Z",
   "hubId": "343a1e83-f716-4c18-86f2-a0482b022206",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "john-zhang-dev",
+  "githubLatestCommit": "3459e3704d7ebdbe455fc0480bc23d59f20eb214",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

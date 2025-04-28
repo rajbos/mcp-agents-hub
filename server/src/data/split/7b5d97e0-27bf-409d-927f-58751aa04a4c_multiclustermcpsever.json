@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T16:05:47Z",
   "hubId": "7b5d97e0-27bf-409d-927f-58751aa04a4c",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "yanmxa",
+  "githubLatestCommit": "cc33d70b43506d8239046eb96bebb9e955dc58ef",
+  "githubForks": 2,
+  "licenseType": null
 }

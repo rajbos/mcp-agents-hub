@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 38,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-19T08:32:01Z",
   "hubId": "37922238-d08f-4fec-b884-1d5afed8e768",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "githejie",
+  "githubLatestCommit": "5b828b921e5f187c2de0a8d6c597885fce3b3b86",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

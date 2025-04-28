@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T00:48:02Z",
   "hubId": "02f9e25f-4904-4350-8a2e-a6a0a69f9dfb",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "rajvirtual",
+  "githubLatestCommit": "7a2c20938c969e615d2320619ed5358d2d2c0e23",
+  "githubForks": 5,
+  "licenseType": null
 }

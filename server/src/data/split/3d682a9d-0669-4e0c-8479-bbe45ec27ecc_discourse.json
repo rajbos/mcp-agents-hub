@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-10T23:34:50Z",
   "hubId": "3d682a9d-0669-4e0c-8479-bbe45ec27ecc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "AshDevFr",
+  "githubLatestCommit": "982be27eb774584ec9f69909aa1dca124c788c8d",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }
