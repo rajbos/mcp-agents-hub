@@ -87,6 +87,10 @@ export const config = {
     modelName: process.env.MODEL_NAME,
     modelCharLimit: parseInt(process.env.MODEL_CHAR_LIMIT || '100000', 10), // Default to 100k characters
   },
+  github: {
+    apiToken: process.env.GITHUB_API_TOKEN || '',
+    apiTokenIsValid: Boolean(process.env.GITHUB_API_TOKEN && process.env.GITHUB_API_TOKEN.trim() !== ''),
+  },
   cache: {
     ttl: parseInt(process.env.CACHE_TTL || '3600000', 10), // Default to 1 hour
   },
@@ -100,6 +104,7 @@ console.log('Configuration loaded:');
 console.log(`- API Key defined: ${config.openai.apiKeyIsValid}`);
 console.log(`- API Base URL: ${config.openai.baseURL}`);
 console.log(`- Model Name: ${config.openai.modelName}`);
+console.log(`- GitHub API Token defined: ${config.github.apiTokenIsValid}`);
 console.log(`- Cache TTL: ${config.cache.ttl} ms`);
 console.log(`- Server Port: ${config.server.port}`);
 

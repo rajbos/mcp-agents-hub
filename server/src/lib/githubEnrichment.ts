@@ -70,6 +70,72 @@ export function convertToRawReadmeUrl(githubUrl: string): string {
 }
 
 /**
+ * Extract owner and repo from a GitHub URL
+ * @param githubUrl The GitHub repository URL
+ * @returns An object with owner and repo properties or null if not a valid GitHub URL
+ */
+export function extractGithubRepoInfo(githubUrl: string): { owner: string; repo: string } | null {
+  try {
+    // Check if it's a GitHub URL
+    if (!githubUrl.startsWith('https://github.com')) {
+      return null;
+    }
+
+    // Remove trailing slash if present
+    const normalizedUrl = githubUrl.endsWith('/') ? githubUrl.slice(0, -1) : githubUrl;
+    
+    // Extract parts from the URL
+    const parts = normalizedUrl.split('/');
+    if (parts.length < 5) {
+      throw new Error(`Invalid GitHub URL format: ${githubUrl}`);
+    }
+    
+    const owner = parts[3];
+    const repo = parts[4];
+    
+    return { owner, repo };
+  } catch (error) {
+    console.error(`Error extracting repo info from ${githubUrl}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Fetch star count for a GitHub repository
+ * @param githubUrl The GitHub repository URL
+ * @returns The number of stars or null if not available
+ */
+export async function fetchGithubStars(githubUrl: string): Promise<number | null> {
+  try {
+    const repoInfo = extractGithubRepoInfo(githubUrl);
+    if (!repoInfo) {
+      return null;
+    }
+    
+    const { owner, repo } = repoInfo;
+    
+    // Use GitHub API to fetch repository information
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}`;
+    
+    // Use GitHub token from config if available
+    const headers: Record<string, string> = {
+      'Accept': 'application/vnd.github.v3+json'
+    };
+    
+    if (config.github.apiTokenIsValid) {
+      headers['Authorization'] = `token ${config.github.apiToken}`;
+    }
+    
+    const response = await axios.get(apiUrl, { headers });
+    
+    return response.data.stargazers_count;
+  } catch (error) {
+    console.error(`Error fetching stars for ${githubUrl}:`, error);
+    return null;
+  }
+}
+
+/**
  * Fetch content from GitHub README or any other URL
  */
 export async function fetchReadmeContent(url: string): Promise<string> {
@@ -245,14 +311,22 @@ export async function enrichServerData(server: McpServer, locale: string = 'en')
       throw new Error(`No GitHub or documentation URL available for server ${server.hubId}`);
     }
 
+    // Fetch GitHub stars if it's a GitHub URL
+    let githubStars: number | undefined = undefined;
+    if (server.githubUrl.startsWith('https://github.com')) {
+      const stars = await fetchGithubStars(server.githubUrl);
+      if (stars !== null) {
+        githubStars = stars;
+      }
+    }
+
     // Fetch content using the updated fetchReadmeContent function
-    // which handles both GitHub and regular URLs
     const readmeContent = await fetchReadmeContent(server.githubUrl);
     
     // If no content was retrieved, return the original server data
     if (!readmeContent) {
       console.warn(`No content retrieved from ${server.githubUrl} for server ${server.hubId}`);
-      return { ...server, lastEnrichmentTime: Date.now() };
+      return { ...server, lastEnrichmentTime: Date.now(), githubStars };
     }
     
     // Extract information in the target locale
@@ -262,6 +336,7 @@ export async function enrichServerData(server: McpServer, locale: string = 'en')
     const enrichedServer: EnrichedMcpServer = {
       ...server,
       ...extractedInfo,
+      githubStars,
       lastEnrichmentTime: Date.now(),
     };
     
