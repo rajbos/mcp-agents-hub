@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 52,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-12T08:44:10Z",
   "hubId": "512811f4-534d-41a2-9120-a47eaea87393",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "vidhupv",
+  "githubLatestCommit": "4d58b04d5a1f90525083cd2459f27aa804ef6ea5",
+  "githubForks": 14,
+  "licenseType": "MIT"
 }

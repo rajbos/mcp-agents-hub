@@ -19,9 +19,12 @@
   "githubStars": 0,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:28.871131+00:00",
-  "updatedAt": "2025-03-17T08:29:28.871131+00:00",
+  "updatedAt": "2025-02-24T13:17:55Z",
   "hubId": "120be168-e300-4ada-a594-56f1092d31cc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "7fc56e0bccea691684758db7a3bef6d1c5429e29",
+  "githubForks": 3,
+  "licenseType": "Apache-2.0"
 }

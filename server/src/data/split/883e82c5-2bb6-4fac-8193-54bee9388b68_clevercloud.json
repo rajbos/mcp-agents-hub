@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.305405+00:00",
-  "updatedAt": "2025-03-17T08:29:21.305405+00:00",
+  "updatedAt": "2025-01-20T08:41:51Z",
   "hubId": "883e82c5-2bb6-4fac-8193-54bee9388b68",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "f54e01d21ecedb17ba0ddcb80d5be09067bdf475",
+  "githubForks": 0,
+  "licenseType": "MIT"
 }

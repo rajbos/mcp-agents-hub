@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-14T12:41:49Z",
   "hubId": "003f3571-5f97-4f84-b126-f09b89e4247e",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "donghyun-chae",
+  "githubLatestCommit": "075c496d17c4b93eb633fb20706a9ee92dec0a88",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

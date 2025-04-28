@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 17,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-03T00:31:26Z",
   "hubId": "6f22eab5-abb7-454f-b684-c8c29097723d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mcpx-dev",
+  "githubLatestCommit": "bb5ea4b4e134717815dc04f9169568526d2c6087",
+  "githubForks": 0,
+  "licenseType": null
 }

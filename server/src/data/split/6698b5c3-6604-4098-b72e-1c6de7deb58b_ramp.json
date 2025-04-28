@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 16,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T15:30:54Z",
   "hubId": "6698b5c3-6604-4098-b72e-1c6de7deb58b",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "ramp-public",
+  "githubLatestCommit": "b31c0b409cf167c2012e0b12f166397a3f302d2d",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 11,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-22T14:04:53Z",
   "hubId": "28463259-be57-47e7-ba18-53d5986b06ec",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mfukushim",
+  "githubLatestCommit": "0409acd20b46660fc1c7a139d4c5b209fbf18127",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 456,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T04:02:10Z",
   "hubId": "73126158-69db-4b43-8d4f-92ded15ee0a9",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "pathintegral-institute",
+  "githubLatestCommit": "80a4a3d9cfb03474800c39ccba675d487e5dff69",
+  "githubForks": 38,
+  "licenseType": "MIT"
 }

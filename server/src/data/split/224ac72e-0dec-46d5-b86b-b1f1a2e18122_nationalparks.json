@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 11,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-21T03:42:21Z",
   "hubId": "224ac72e-0dec-46d5-b86b-b1f1a2e18122",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "KyrieTangSheng",
+  "githubLatestCommit": "f7c1b9acc7f0d797c0c12793685ede115ae63bb4",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

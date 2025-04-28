@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 39,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-20T20:15:50Z",
   "hubId": "7ea38f59-4914-4476-a581-55fdbe1e6a3a",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "MFYDev",
+  "githubLatestCommit": "5edffe2e24b8b67e3b35fdcc841000a12793a0e6",
+  "githubForks": 14,
+  "licenseType": "MIT"
 }

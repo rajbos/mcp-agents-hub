@@ -8,16 +8,16 @@
   "extractedInfo": {
     "name": "AWS Knowledge Base Retrieval MCP Server",
     "description": "An MCP server implementation for retrieving information from the AWS Knowledge Base using the Bedrock Agent Runtime.",
-    "Installation_instructions": "You can install the server using Docker or NPX. For Docker, build the image using the provided Dockerfile. For NPX, use the command `npx -y @modelcontextprotocol/server-aws-kb-retrieval`. Ensure AWS credentials are configured either via IAM Access Keys or AWS SSO.",
-    "Usage_instructions": "Use the `retrieve_from_aws_kb` tool to perform retrieval operations. Provide a query, knowledge base ID, and optionally the number of results to retrieve. The response includes raw context and structured RAG sources with metadata.",
+    "Installation_instructions": "You can install and run the server using Docker, NPX, or from a local repository. For Docker, build the image using the provided Dockerfile. For NPX, use the package '@modelcontextprotocol/server-aws-kb-retrieval'. For local setup, clone the repository and run the server script.",
+    "Usage_instructions": "Configure AWS credentials either via IAM Access Keys or AWS SSO. Use the 'retrieve_from_aws_kb' tool to perform retrieval operations from the AWS Knowledge Base. The tool requires a query and a Knowledge Base ID, with an optional parameter for the number of results.",
     "features": [
       "RAG (Retrieval-Augmented Generation): Retrieve context from the AWS Knowledge Base based on a query and a Knowledge Base ID.",
       "Supports multiple results retrieval: Option to retrieve a customizable number of results."
     ],
     "prerequisites": [
-      "AWS access key ID, secret access key, and region (for IAM Access Keys).",
-      "AWS CLI configured with SSO profile (for AWS SSO).",
-      "Docker or NPX installed on your system."
+      "AWS credentials (either IAM Access Keys or AWS SSO configured).",
+      "AWS Knowledge Base ID(s).",
+      "Docker or NPX installed if using those methods for running the server."
     ]
   }
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 9,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T14:59:25Z",
   "hubId": "86c12176-5f8b-49ff-802e-49dde2d47830",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "DappierAI",
+  "githubLatestCommit": "6587ac706b6bbc060b13bf0b33817f0be84b0125",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

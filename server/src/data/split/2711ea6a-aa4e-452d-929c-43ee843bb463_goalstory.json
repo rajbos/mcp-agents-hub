@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 10,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-19T13:39:39Z",
   "hubId": "2711ea6a-aa4e-452d-929c-43ee843bb463",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "hichana",
+  "githubLatestCommit": "40574dbe81872954b3c8fc03e9eac435df29eb10",
+  "githubForks": 2,
+  "licenseType": null
 }

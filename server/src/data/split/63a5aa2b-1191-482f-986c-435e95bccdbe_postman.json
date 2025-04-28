@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 49,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-05T19:49:05Z",
   "hubId": "63a5aa2b-1191-482f-986c-435e95bccdbe",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "shannonlal",
+  "githubLatestCommit": "fd551a4ed029ccee08c0292e0efb226b6b3d8420",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

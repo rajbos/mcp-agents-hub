@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-11T19:10:41Z",
   "hubId": "8067145f-b788-4c08-bef8-2240a4bb04a6",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "idoru",
+  "githubLatestCommit": "7535397fb63d53ad3705fadb21af4eafaa26248a",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

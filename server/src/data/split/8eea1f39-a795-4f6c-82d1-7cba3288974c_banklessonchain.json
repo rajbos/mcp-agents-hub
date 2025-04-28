@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 28,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-18T22:03:29Z",
   "hubId": "8eea1f39-a795-4f6c-82d1-7cba3288974c",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "Bankless",
+  "githubLatestCommit": "5a0f10947e717c7988c7e75c7edd92544985fdf4",
+  "githubForks": 8,
+  "licenseType": null
 }

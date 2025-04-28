@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 23,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T07:29:37Z",
   "hubId": "6e060f4a-cc38-4190-be60-fc7b7174f256",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "oschina",
+  "githubLatestCommit": "3227471f3a81b4eb7581a4ea674b40ee9bc9f1df",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

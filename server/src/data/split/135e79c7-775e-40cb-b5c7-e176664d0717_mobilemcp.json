@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 382,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T06:47:16Z",
   "hubId": "135e79c7-775e-40cb-b5c7-e176664d0717",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mobile-next",
+  "githubLatestCommit": "87c03e6b35af1aa7fd82d404ad3e6bd95be1ee19",
+  "githubForks": 43,
+  "licenseType": "Apache-2.0"
 }

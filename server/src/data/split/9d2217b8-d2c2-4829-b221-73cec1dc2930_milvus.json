@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 91,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T08:11:38Z",
   "hubId": "9d2217b8-d2c2-4829-b221-73cec1dc2930",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "zilliztech",
+  "githubLatestCommit": "f077a68012b3d73a19b68aa0ededcb2d82fb3cd6",
+  "githubForks": 17,
+  "licenseType": null
 }

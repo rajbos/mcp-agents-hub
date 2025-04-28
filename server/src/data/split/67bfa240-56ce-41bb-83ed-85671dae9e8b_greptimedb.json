@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 15,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-01T14:25:11Z",
   "hubId": "67bfa240-56ce-41bb-83ed-85671dae9e8b",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "GreptimeTeam",
+  "githubLatestCommit": "5a5d834aacf5ea49fe3906814ca2f14490646800",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

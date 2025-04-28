@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T16:22:00Z",
   "hubId": "6fcc386e-a5c6-4a2e-8fe7-12e615412994",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "CodeLogicIncEngineering",
+  "githubLatestCommit": "79a40b1a33d2274a6479727b8180fc7f1d86286d",
+  "githubForks": 2,
+  "licenseType": "MPL-2.0"
 }

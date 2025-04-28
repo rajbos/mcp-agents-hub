@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 24,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T06:58:23Z",
   "hubId": "34577bc2-1e18-45ae-9311-25565c573311",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "redis",
+  "githubLatestCommit": "61585cfeea85ab30f292e57fb54d4c3a61535b4b",
+  "githubForks": 8,
+  "licenseType": "MIT"
 }

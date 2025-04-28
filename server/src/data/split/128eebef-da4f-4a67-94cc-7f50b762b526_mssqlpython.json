@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 17,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-06T03:18:11Z",
   "hubId": "128eebef-da4f-4a67-94cc-7f50b762b526",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "amornpan",
+  "githubLatestCommit": "68293c55d07a22b409cbcd8f0c08550afddc4bcc",
+  "githubForks": 10,
+  "licenseType": null
 }

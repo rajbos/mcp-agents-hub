@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-12T22:31:58Z",
   "hubId": "1ea58f68-19a8-4a67-b703-63a9315c4bb5",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "asusevski",
+  "githubLatestCommit": "b6e1bb41c23a3dd7485298ba50c5d0802a39483f",
+  "githubForks": 5,
+  "licenseType": null
 }

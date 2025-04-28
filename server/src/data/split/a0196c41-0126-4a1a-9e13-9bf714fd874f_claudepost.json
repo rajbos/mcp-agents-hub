@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 67,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-18T02:12:02Z",
   "hubId": "a0196c41-0126-4a1a-9e13-9bf714fd874f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ZilongXue",
+  "githubLatestCommit": "429eb2203a0ed65f044ff4b01097032dc98397ac",
+  "githubForks": 9,
+  "licenseType": "MIT"
 }

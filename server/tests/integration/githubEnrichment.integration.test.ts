@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll } from 'vitest';
-import { extractInfoFromReadme, fetchReadmeContent } from '../../src/lib/githubEnrichment';
+import { extractInfoFromReadme, fetchReadmeContent, fetchGithubStars, fetchGithubInfo, extractGithubRepoInfo } from '../../src/lib/githubEnrichment';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -106,4 +106,150 @@ const TEST_REPOS = [
       }
     }
   }, 60000); // Increased timeout for multiple AI processing requests
+
+  it('should extract GitHub repository information and fetch repository details', async () => {
+    // Test GitHub URLs
+    const testUrls = [
+      'https://github.com/modelcontextprotocol/servers/',
+      'https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search',
+      'https://github.com/mcp-agents-ai/mcp-agents-hub'
+    ];
+
+    for (const url of testUrls) {
+      console.log(`\nTesting GitHub repository information extraction for: ${url}`);
+      
+      // Test extractGithubRepoInfo function
+      const repoInfo = extractGithubRepoInfo(url);
+      expect(repoInfo).not.toBeNull();
+      
+      if (repoInfo) {
+        console.log(`Extracted repo info: ${repoInfo.owner}/${repoInfo.repo}`);
+        
+        // For URLs with path components (like /tree/main/...), the base repo should be extracted
+        if (url.includes('/tree/')) {
+          // The repo name should not include the path components
+          expect(repoInfo.repo).not.toContain('tree');
+        }
+        
+        // Test fetchGithubInfo function
+        const githubInfo = await fetchGithubInfo(url);
+        console.log(`Repository ${repoInfo.owner}/${repoInfo.repo} information:`);
+        console.log(`  Stars: ${githubInfo?.stars_count}`);
+        console.log(`  Forks: ${githubInfo?.fork_count}`);
+        console.log(`  Owner: ${githubInfo?.owner_name}`);
+        console.log(`  License: ${githubInfo?.license_type || 'none'}`);
+        console.log(`  Latest update: ${githubInfo?.latest_update_time}`);
+        console.log(`  Latest commit: ${githubInfo?.latest_commit_id}`);
+
+        // Basic validation of the returned info
+        expect(githubInfo).not.toBeNull();
+        
+        if (githubInfo !== null) {
+          expect(typeof githubInfo.stars_count).toBe('number');
+          expect(typeof githubInfo.fork_count).toBe('number');
+          expect(githubInfo.owner_name).toBeTruthy();
+          expect(githubInfo.latest_commit_id).toBeTruthy();
+          expect(githubInfo.latest_update_time).toBeTruthy();
+          
+          // Test backward compatibility function
+          const stars = await fetchGithubStars(url);
+          expect(stars).toBe(githubInfo.stars_count);
+          
+          // Save the results for manual inspection
+          const testResultsDir = path.resolve(__dirname, '..', 'results');
+          try {
+            // Create results directory if it doesn't exist
+            if (!fs.existsSync(testResultsDir)) {
+              fs.mkdirSync(testResultsDir, { recursive: true });
+            }
+            
+            // Save the repository information
+            const resultsPath = path.join(testResultsDir, `github_info_${repoInfo.owner}_${repoInfo.repo}.json`);
+            fs.writeFileSync(
+              resultsPath, 
+              JSON.stringify({ 
+                url,
+                repoInfo,
+                githubInfo,
+                fetchedAt: new Date().toISOString() 
+              }, null, 2)
+            );
+            
+            console.log(`GitHub repository info test results saved to ${resultsPath}`);
+          } catch (error) {
+            console.error(`Error saving GitHub repository info test results for ${url}:`, error);
+          }
+        }
+      }
+    }
+  }, 30000); // Timeout for GitHub API requests
+
+  it('should correctly extract repository information from various GitHub URL formats', () => {
+    // Test cases with different URL formats
+    const testCases = [
+      {
+        url: 'https://github.com/modelcontextprotocol/servers',
+        expectedOwner: 'modelcontextprotocol',
+        expectedRepo: 'servers'
+      },
+      {
+        url: 'https://github.com/modelcontextprotocol/servers/',
+        expectedOwner: 'modelcontextprotocol',
+        expectedRepo: 'servers'
+      },
+      {
+        url: 'https://github.com/modelcontextprotocol/servers/tree/main',
+        expectedOwner: 'modelcontextprotocol',
+        expectedRepo: 'servers'
+      },
+      {
+        url: 'https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search',
+        expectedOwner: 'modelcontextprotocol',
+        expectedRepo: 'servers'
+      },
+      {
+        url: 'https://github.com/mcp-agents-ai/mcp-agents-hub/blob/main/README.md',
+        expectedOwner: 'mcp-agents-ai',
+        expectedRepo: 'mcp-agents-hub'
+      },
+      {
+        url: 'https://github.com/user/repo/issues/123',
+        expectedOwner: 'user',
+        expectedRepo: 'repo'
+      },
+      {
+        url: 'https://github.com/user/repo/pull/456',
+        expectedOwner: 'user',
+        expectedRepo: 'repo'
+      }
+    ];
+
+    for (const testCase of testCases) {
+      console.log(`Testing URL format: ${testCase.url}`);
+      const repoInfo = extractGithubRepoInfo(testCase.url);
+      
+      expect(repoInfo).not.toBeNull();
+      if (repoInfo) {
+        expect(repoInfo.owner).toBe(testCase.expectedOwner);
+        expect(repoInfo.repo).toBe(testCase.expectedRepo);
+        console.log(`✓ Correctly extracted ${repoInfo.owner}/${repoInfo.repo}`);
+      }
+    }
+
+    // Also test invalid URL formats
+    const invalidUrls = [
+      'https://github.com',
+      'https://github.com/',
+      'https://gitlab.com/user/repo',
+      'https://example.com/github/user/repo',
+      'not-a-url'
+    ];
+
+    for (const url of invalidUrls) {
+      console.log(`Testing invalid URL: ${url}`);
+      const repoInfo = extractGithubRepoInfo(url);
+      expect(repoInfo).toBeNull();
+      console.log(`✓ Correctly returned null for invalid URL`);
+    }
+  });
 });

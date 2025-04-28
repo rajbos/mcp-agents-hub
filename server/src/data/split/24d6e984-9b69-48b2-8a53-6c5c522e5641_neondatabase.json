@@ -2,7 +2,7 @@
   "mcpId": "github.com/neondatabase/mcp-server-neon",
   "githubUrl": "https://github.com/neondatabase/mcp-server-neon",
   "name": "Neon Database",
-  "author": "neondatabase",
+  "author": "neondatabase-labs",
   "description": "Interact with the Neon serverless Postgres platform",
   "codiconIcon": "database",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/neon-logo.png",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": true,
-  "githubStars": 127,
+  "githubStars": 194,
   "downloadCount": 277,
   "createdAt": "2025-02-18T06:28:23.454334Z",
-  "updatedAt": "2025-02-18T06:28:23.454334Z",
+  "updatedAt": "2025-04-25T22:04:31Z",
   "hubId": "24d6e984-9b69-48b2-8a53-6c5c522e5641",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "githubLatestCommit": "8f48611093280840270495cedb233b0f51cd342b",
+  "githubForks": 34,
+  "licenseType": "MIT"
 }

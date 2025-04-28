@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 18,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T16:51:24Z",
   "hubId": "1224b50b-e374-4af0-b2b4-1a5fc26c062f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ravenwits",
+  "githubLatestCommit": "a0720d3ecf5d8fe355ebc28be70961bf90b4327b",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

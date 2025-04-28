@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 9,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T19:55:52Z",
   "hubId": "7f756111-4f30-4442-aa4b-297b73fd338d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "kapilduraphe",
+  "githubLatestCommit": "14dbd0ba1d551ffcfe6a8167052a108528eb091f",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

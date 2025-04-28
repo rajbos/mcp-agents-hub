@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 11,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-30T15:28:17Z",
   "hubId": "11ced224-3e2a-46f9-977c-399f244c8a3b",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Spathodea-Network",
+  "githubLatestCommit": "27532c06142468cd755c7470cb8b1f1dd378bb0d",
+  "githubForks": 9,
+  "licenseType": "MIT"
 }

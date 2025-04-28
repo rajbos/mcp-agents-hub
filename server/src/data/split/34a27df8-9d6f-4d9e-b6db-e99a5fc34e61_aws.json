@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2511,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T05:45:22Z",
   "hubId": "34a27df8-9d6f-4d9e-b6db-e99a5fc34e61",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "awslabs",
+  "githubLatestCommit": "f86ac71e05bc3ee1d161486465b0511caa97df49",
+  "githubForks": 157,
+  "licenseType": "Apache-2.0"
 }

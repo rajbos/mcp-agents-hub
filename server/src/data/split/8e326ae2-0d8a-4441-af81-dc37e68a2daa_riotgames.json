@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-21T06:20:16Z",
   "hubId": "8e326ae2-0d8a-4441-af81-dc37e68a2daa",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "jifrozen0110",
+  "githubLatestCommit": "74b02b4993901f7b8b51da6d670ba832a69ef9fd",
+  "githubForks": 0,
+  "licenseType": "MIT"
 }

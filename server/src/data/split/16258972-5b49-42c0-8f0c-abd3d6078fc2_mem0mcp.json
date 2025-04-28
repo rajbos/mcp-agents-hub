@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 134,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-28T16:44:11Z",
   "hubId": "16258972-5b49-42c0-8f0c-abd3d6078fc2",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mem0ai",
+  "githubLatestCommit": "eb8c436c27e6b6d14e4adee61132bb77c6f75498",
+  "githubForks": 19,
+  "licenseType": null
 }

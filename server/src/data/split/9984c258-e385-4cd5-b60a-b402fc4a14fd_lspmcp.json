@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 16,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-24T10:19:21Z",
   "hubId": "9984c258-e385-4cd5-b60a-b402fc4a14fd",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Tritlo",
+  "githubLatestCommit": "95ed36659f550599bcb0567ab5781196eb6d4de6",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

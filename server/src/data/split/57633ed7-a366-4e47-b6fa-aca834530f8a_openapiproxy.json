@@ -2,7 +2,7 @@
   "mcpId": "github.com/snaggle-ai/openapi-mcp-server",
   "githubUrl": "https://github.com/snaggle-ai/openapi-mcp-server",
   "name": "OpenAPI Proxy",
-  "author": "snaggle-ai",
+  "author": "janwilmake",
   "description": "Interact with [OpenAPI](https://www.openapis.org/) APIs.",
   "codiconIcon": "link",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/openapi.png",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 356,
+  "githubStars": 551,
   "downloadCount": 359,
   "createdAt": "2025-02-17T22:45:43.055912Z",
-  "updatedAt": "2025-02-17T22:45:43.055912Z",
+  "updatedAt": "2025-04-18T16:15:06Z",
   "hubId": "57633ed7-a366-4e47-b6fa-aca834530f8a",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "885750cad29335e29d2b697524befc2ba5d4bc37",
+  "githubForks": 62,
+  "licenseType": "MIT"
 }

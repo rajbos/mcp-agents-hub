@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 23,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T00:24:46Z",
   "hubId": "33658915-96d5-44f3-8f91-d124e9c3e1ed",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ProgramComputer",
+  "githubLatestCommit": "6ace883346d05d301eb207eccc284abd096f7ab5",
+  "githubForks": 3,
+  "licenseType": "ISC"
 }

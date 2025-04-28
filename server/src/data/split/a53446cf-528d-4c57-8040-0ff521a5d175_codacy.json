@@ -12,9 +12,13 @@
   "githubStars": 0,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T15:56:40Z",
   "hubId": "a53446cf-528d-4c57-8040-0ff521a5d175",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "codacy",
+  "githubLatestCommit": "3a30cac870ee25efbe6cda69dcdab4ef55eb2c77",
+  "githubForks": 1,
+  "licenseType": "NOASSERTION"
 }

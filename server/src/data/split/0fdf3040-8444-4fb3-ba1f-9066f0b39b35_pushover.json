@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 12,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-15T05:50:43Z",
   "hubId": "0fdf3040-8444-4fb3-ba1f-9066f0b39b35",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "AshikNesin",
+  "githubLatestCommit": "53816a4bfcbef049dd2d3730c3fb8bafa2e63e10",
+  "githubForks": 2,
+  "licenseType": "MIT"
 }

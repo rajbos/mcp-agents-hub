@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:21.305405+00:00",
-  "updatedAt": "2025-03-17T08:29:21.305405+00:00",
+  "updatedAt": "2025-02-15T17:25:46Z",
   "hubId": "7aaf445e-8cca-4f70-b51b-741d2850ac9f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "1838e3ec3c789ea814fe4ece35e92d27888bee07",
+  "githubForks": 1,
+  "licenseType": "LGPL-2.1"
 }

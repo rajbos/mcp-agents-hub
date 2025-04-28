@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 27,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T08:28:30Z",
   "hubId": "4e16246e-fb52-40ab-a014-32de572b72f3",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "GoPlausible",
+  "githubLatestCommit": "e90421d56dce17bb3a47d59f110b84477f98e082",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

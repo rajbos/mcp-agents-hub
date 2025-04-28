@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 104,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T00:55:56Z",
   "hubId": "8599ffba-9eb5-4273-9402-23077eaac474",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "openbnb-org",
+  "githubLatestCommit": "9f21b3741b7aaffbefb434dfb0ab0ee425e64fde",
+  "githubForks": 30,
+  "licenseType": "MIT"
 }

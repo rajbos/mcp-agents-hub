@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 35,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T21:44:42Z",
   "hubId": "2f632ef3-0fc0-4d2d-afea-924c83495e57",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "chaindead",
+  "githubLatestCommit": "911e761430a0758ed04f0c1f2611cf301956a49c",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 762,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T23:31:08Z",
   "hubId": "a0e55310-a373-4dd4-93a0-6b26518938fc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "smithery-ai",
+  "githubLatestCommit": "9f8261c73af35f2ba37b43bd689f06394a7cd408",
+  "githubForks": 50,
+  "licenseType": "AGPL-3.0"
 }

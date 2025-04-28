@@ -2,7 +2,7 @@
   "mcpId": "github.com/ykhli/mcp-send-email",
   "githubUrl": "https://github.com/ykhli/mcp-send-email",
   "name": "Email Sender",
-  "author": "ykhli",
+  "author": "resend",
   "description": "Sends emails directly through Resend's API, enabling AI assistants to compose and send emails without manual copying and pasting.",
   "codiconIcon": "mail",
   "logoUrl": "https://storage.googleapis.com/cline_public_images/resend.png",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 265,
+  "githubStars": 324,
   "downloadCount": 851,
   "createdAt": "2025-03-03T11:05:30.27228Z",
-  "updatedAt": "2025-03-03T11:05:30.27228Z",
+  "updatedAt": "2025-04-25T11:43:29Z",
   "hubId": "44eafadb-7f6a-445b-9f36-9ef19f0e8d17",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "1e1e23589c8a3210ad77d74ba99fe584ba1c5e3a",
+  "githubForks": 37,
+  "licenseType": null
 }

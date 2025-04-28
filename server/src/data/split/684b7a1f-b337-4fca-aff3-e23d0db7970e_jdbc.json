@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 109,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-18T09:21:26Z",
   "hubId": "684b7a1f-b337-4fca-aff3-e23d0db7970e",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "quarkiverse",
+  "githubLatestCommit": "c7cf4a5ea122938fd9f05fb62928bb011c2759c9",
+  "githubForks": 28,
+  "licenseType": "Apache-2.0"
 }

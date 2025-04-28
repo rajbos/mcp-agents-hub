@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T13:37:30Z",
   "hubId": "439130fe-ab05-4a70-bf0e-1a077359b1d4",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "raoulbia-ai",
+  "githubLatestCommit": "d00ed74363f398bdc1c8f78df89b28bc8a91bee5",
+  "githubForks": 3,
+  "licenseType": "Apache-2.0"
 }

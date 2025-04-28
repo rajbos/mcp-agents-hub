@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 118,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T09:55:01Z",
   "hubId": "41f119d0-d544-4bd5-bf65-739564b5d3aa",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "cr7258",
+  "githubLatestCommit": "c52e318f53573133e3ef4543dbc185a17b137ad7",
+  "githubForks": 24,
+  "licenseType": "Apache-2.0"
 }

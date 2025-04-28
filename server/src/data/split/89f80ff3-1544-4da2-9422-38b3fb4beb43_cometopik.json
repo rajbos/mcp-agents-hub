@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 7012,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T08:33:34Z",
   "hubId": "89f80ff3-1544-4da2-9422-38b3fb4beb43",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "comet-ml",
+  "githubLatestCommit": "d8dfbd76b8d4a1ca13720fdb0fdaf77a40c486ff",
+  "githubForks": 500,
+  "licenseType": "Apache-2.0"
 }

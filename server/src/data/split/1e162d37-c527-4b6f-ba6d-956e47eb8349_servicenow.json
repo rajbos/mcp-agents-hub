@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 55,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-23T12:33:43Z",
   "hubId": "1e162d37-c527-4b6f-ba6d-956e47eb8349",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "osomai",
+  "githubLatestCommit": "2ccb5864e204ab0e397e7b11366e7137fda6356e",
+  "githubForks": 32,
+  "licenseType": "MIT"
 }

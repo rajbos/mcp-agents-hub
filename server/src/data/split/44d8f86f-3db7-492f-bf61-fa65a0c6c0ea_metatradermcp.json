@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 9,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T06:17:24Z",
   "hubId": "44d8f86f-3db7-492f-bf61-fa65a0c6c0ea",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ariadng",
+  "githubLatestCommit": "4e14c236e31f7e8dfbaba93b0e0610c216d3d3e8",
+  "githubForks": 0,
+  "licenseType": "MIT"
 }

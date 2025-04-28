@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T01:16:49Z",
   "hubId": "306b4cb5-8bd6-4523-93ce-e383b14f4c3e",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "yeonupark",
+  "githubLatestCommit": "6803a62255013934dcc92d74e29eed7391bfca1c",
+  "githubForks": 0,
+  "licenseType": "MIT"
 }

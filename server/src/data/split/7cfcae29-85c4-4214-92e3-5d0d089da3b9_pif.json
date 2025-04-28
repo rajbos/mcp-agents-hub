@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 26,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-19T21:58:23Z",
   "hubId": "7cfcae29-85c4-4214-92e3-5d0d089da3b9",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "hungryrobot1",
+  "githubLatestCommit": "72d6598c9d0f7a929262ea41f24664193dc37491",
+  "githubForks": 7,
+  "licenseType": "MIT"
 }

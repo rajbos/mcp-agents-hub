@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 601,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T16:04:31Z",
   "hubId": "8905ad09-553b-4f03-b94e-2aa9e527e61f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "basicmachines-co",
+  "githubLatestCommit": "9437a5f83b3aca5be3a5af55e1ec95010484ca55",
+  "githubForks": 46,
+  "licenseType": "AGPL-3.0"
 }

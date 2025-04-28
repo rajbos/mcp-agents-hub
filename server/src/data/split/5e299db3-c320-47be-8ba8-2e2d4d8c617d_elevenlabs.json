@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 75,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-07T23:12:09Z",
   "hubId": "5e299db3-c320-47be-8ba8-2e2d4d8c617d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "mamertofabian",
+  "githubLatestCommit": "79f4d2e76b5b0fc3afe33adabb42487515f5103b",
+  "githubForks": 15,
+  "licenseType": "MIT"
 }
