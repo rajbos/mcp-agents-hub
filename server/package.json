@@ -12,7 +12,7 @@
     "test:integration": "vitest run tests/integration/*.test.ts",
     "test:mock": "vitest run tests/mock/*.test.ts",
     "crawl-servers": "tsx src/data/mcp_servers_crawler.ts --url https://raw.githubusercontent.com/modelcontextprotocol/servers/refs/heads/main/README.md",
-    "update-server-types": "tsx src/data/mcp_server_crawler_result_updater.ts",
+    "crawl-servers-postprocess": "tsx src/data/mcp_server_crawler_result_updater.ts",
     "clean-duplicates": "tsx src/data/clean_duplicate.ts",
     "process_categories": "tsx src/data/process_categories.ts",
     "process_locales": "tsx src/data/process_locales.ts",
