@@ -8,6 +8,23 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchGithubInfo, extractGithubRepoInfo } from '../lib/githubEnrichment.js';
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+let BATCH_SIZE: number | null = null; // Null means process all records
+
+// Process command line arguments
+for (let i = 0; i < args.length; i++) {
+  if (args[i] === '--batch_size' && i + 1 < args.length) {
+    const batchSize = parseInt(args[i + 1], 10);
+    if (!isNaN(batchSize) && batchSize > 0) {
+      BATCH_SIZE = batchSize;
+      i++; // Skip the next argument as it's the value
+    } else {
+      console.error(`Invalid batch size: ${args[i + 1]}. Will process all records.`);
+    }
+  }
+}
+
 // Get the directory name in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,11 +51,23 @@ function ensureDirectoryExists(dirPath: string): void {
 }
 
 // Function to load the log file or create it if it doesn't exist
-function loadProcessedLog(): ProcessedLog {
+function loadProcessedLog(allFilesCount: number): ProcessedLog {
   if (fs.existsSync(LOG_FILE)) {
     try {
       const logContent = fs.readFileSync(LOG_FILE, 'utf8');
-      return JSON.parse(logContent) as ProcessedLog;
+      const logData = JSON.parse(logContent) as ProcessedLog;
+      
+      // Check if we've already processed all files and should start fresh
+      if (logData.processedFiles.length >= allFilesCount) {
+        console.log(`Log file shows all ${logData.processedFiles.length} files already processed. Starting fresh.`);
+        return {
+          lastProcessed: new Date().toISOString(),
+          processedFiles: [],
+          errors: {}
+        };
+      }
+      
+      return logData;
     } catch (error) {
       console.warn(`Error reading log file, creating a new one: ${error}`);
     }
@@ -153,20 +182,21 @@ async function updateGithubInfoInFile(filePath: string): Promise<boolean> {
 async function processAllFiles(): Promise<void> {
   console.log('Starting GitHub info update process...');
   console.log(`Looking for JSON files in: ${SPLIT_DIR}`);
-  
-  // Load processed log
-  const processedLog = loadProcessedLog();
-  console.log(`Loaded processing log. Last run: ${processedLog.lastProcessed}`);
-  console.log(`Previously processed ${processedLog.processedFiles.length} files`);
-  
-  // Setup handlers to save progress on interruption
-  setupShutdownHandlers(processedLog);
+  console.log(BATCH_SIZE ? `Batch size set to: ${BATCH_SIZE}` : `Processing all remaining records`);
   
   // Get all JSON files from split directory (only in the root, not in language subdirectories)
   const allFiles = fs.readdirSync(SPLIT_DIR)
     .filter(file => file.endsWith('.json') && fs.statSync(path.join(SPLIT_DIR, file)).isFile());
     
   console.log(`Found ${allFiles.length} total JSON files in root directory`);
+  
+  // Load processed log
+  const processedLog = loadProcessedLog(allFiles.length);
+  console.log(`Loaded processing log. Last run: ${processedLog.lastProcessed}`);
+  console.log(`Previously processed ${processedLog.processedFiles.length} files`);
+  
+  // Setup handlers to save progress on interruption
+  setupShutdownHandlers(processedLog);
   
   // Filter out already processed files
   const filesToProcess = allFiles.filter(file => {
@@ -181,11 +211,17 @@ async function processAllFiles(): Promise<void> {
     return;
   }
   
-  // Process each file
-  for (const [index, file] of filesToProcess.entries()) {
+  // Limit the number of files to process based on batch size if provided
+  const filesToProcessInThisBatch = BATCH_SIZE ? filesToProcess.slice(0, BATCH_SIZE) : filesToProcess;
+  console.log(BATCH_SIZE 
+    ? `Processing batch of ${filesToProcessInThisBatch.length} files (limited by batch size ${BATCH_SIZE})`
+    : `Processing all ${filesToProcessInThisBatch.length} remaining files`);
+  
+  // Process each file in the batch
+  for (const [index, file] of filesToProcessInThisBatch.entries()) {
     try {
       const hubId = getHubIdFromFilename(file);
-      console.log(`Processing file ${index + 1}/${filesToProcess.length}: ${file} (hubId: ${hubId})`);
+      console.log(`Processing file ${index + 1}/${filesToProcess.length} ${BATCH_SIZE ? `(batch_size: ${BATCH_SIZE})` : ''}: ${file} (hubId: ${hubId})`);
       const filePath = path.join(SPLIT_DIR, file);
       
       // Update GitHub info in the main file
@@ -226,6 +262,18 @@ async function processAllFiles(): Promise<void> {
     console.log(`Process completed with ${errorCount} errors. Check the log file for details.`);
   } else {
     console.log('GitHub info update process completed successfully!');
+  }
+  
+  // Report on overall progress
+  console.log(`Processed ${filesToProcessInThisBatch.length} files ${BATCH_SIZE ? 'in this batch' : ''}.`);
+  console.log(`Total progress: ${processedLog.processedFiles.length}/${allFiles.length} files processed.`);
+  
+  if (processedLog.processedFiles.length < allFiles.length) {
+    console.log(BATCH_SIZE 
+      ? `Run the script again to process the next batch.` 
+      : `Some files may have been skipped due to errors. Check the log file for details.`);
+  } else {
+    console.log(`All files have been processed. The log file will be reset on next run.`);
   }
 }
 
