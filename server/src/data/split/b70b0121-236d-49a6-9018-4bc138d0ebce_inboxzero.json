@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 7122,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T08:18:13Z",
   "hubId": "b70b0121-236d-49a6-9018-4bc138d0ebce",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "elie222",
+  "githubLatestCommit": "bf2c0261311c2fb4b2175e378080c8fa66c52289",
+  "githubForks": 723,
+  "licenseType": "AGPL-3.0"
 }

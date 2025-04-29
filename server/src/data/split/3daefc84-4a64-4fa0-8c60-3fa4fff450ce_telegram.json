@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 90,
+  "githubStars": 94,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-26T07:20:56Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "chigwell",
   "githubLatestCommit": "e16b41115c7d9a9568fb86d5ba892744d983895e",
-  "githubForks": 48,
+  "githubForks": 51,
   "licenseType": "Apache-2.0"
 }

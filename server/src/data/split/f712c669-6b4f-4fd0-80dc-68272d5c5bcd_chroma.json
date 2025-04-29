@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 119,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-08T17:04:24Z",
   "hubId": "f712c669-6b4f-4fd0-80dc-68272d5c5bcd",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "chroma-core",
+  "githubLatestCommit": "20a2ae8d0005330d556cf75c21093b0a02f67abd",
+  "githubForks": 15,
+  "licenseType": "Apache-2.0"
 }

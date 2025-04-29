@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 463,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-13T21:13:27Z",
   "hubId": "c2488152-9109-481b-968f-42efe761a697",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "jjsantos01",
+  "githubLatestCommit": "1de15a3aeddf3bd6be6bcf77b605af7c3da05f7b",
+  "githubForks": 59
 }

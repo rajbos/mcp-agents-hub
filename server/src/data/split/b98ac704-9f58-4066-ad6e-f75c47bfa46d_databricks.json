@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 20,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-09T05:03:03Z",
   "hubId": "b98ac704-9f58-4066-ad6e-f75c47bfa46d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "JordiNeil",
+  "githubLatestCommit": "dfa3da0a2c058840f06c7bb007bcf3fe3c3fb87c",
+  "githubForks": 9
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1484,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-24T14:22:44Z",
   "hubId": "a92966cd-1cfa-486d-95d4-4e07095e55dc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "zcaceres",
+  "githubLatestCommit": "949f12e633320548c565c6ec892d33695b158d64",
+  "githubForks": 111,
+  "licenseType": "MIT"
 }

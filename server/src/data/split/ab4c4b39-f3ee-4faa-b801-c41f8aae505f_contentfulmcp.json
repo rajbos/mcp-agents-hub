@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 30,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-29T19:27:31Z",
   "hubId": "ab4c4b39-f3ee-4faa-b801-c41f8aae505f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ivo-toby",
+  "githubLatestCommit": "bd49946a97e75a1739b904d20a3afc86a5b95276",
+  "githubForks": 7,
+  "licenseType": "MIT"
 }

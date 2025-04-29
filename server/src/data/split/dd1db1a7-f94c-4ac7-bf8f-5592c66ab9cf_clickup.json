@@ -2,7 +2,7 @@
   "mcpId": "github.com/TaazKareem/clickup-mcp-server",
   "githubUrl": "https://github.com/TaazKareem/clickup-mcp-server",
   "name": "ClickUp",
-  "author": "TaazKareem",
+  "author": "taazkareem",
   "description": "MCP server for ClickUp task management, supporting task creation, updates, bulk operations, and markdown descriptions.",
   "codiconIcon": "clickup",
   "logoUrl": "",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 97,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
-  "updatedAt": "2025-03-17T08:29:19.654593+00:00",
+  "updatedAt": "2025-04-24T21:33:47Z",
   "hubId": "dd1db1a7-f94c-4ac7-bf8f-5592c66ab9cf",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "291a9865026ad4010a24460afbfae6063d3cb5a7",
+  "githubForks": 33,
+  "licenseType": "MIT"
 }

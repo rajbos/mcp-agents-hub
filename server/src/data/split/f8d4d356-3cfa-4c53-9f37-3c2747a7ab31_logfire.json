@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 58,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-26T16:58:08Z",
   "hubId": "f8d4d356-3cfa-4c53-9f37-3c2747a7ab31",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "pydantic",
+  "githubLatestCommit": "de90f038bf7175ef2e4916903e388d222670bb2d",
+  "githubForks": 2
 }

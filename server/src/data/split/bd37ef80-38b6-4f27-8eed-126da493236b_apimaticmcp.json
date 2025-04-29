@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-19T11:57:21Z",
   "hubId": "bd37ef80-38b6-4f27-8eed-126da493236b",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "apimatic",
+  "githubLatestCommit": "8e762bbd8efbfbc79553070b9e731d5a0f8df3a0",
+  "githubForks": 5
 }

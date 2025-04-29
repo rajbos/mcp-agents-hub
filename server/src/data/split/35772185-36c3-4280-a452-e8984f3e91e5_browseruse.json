@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 387,
+  "githubStars": 393,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-22T03:38:02Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "co-browser",
   "githubLatestCommit": "3618120b28c67764979e95132465d95038a675d4",
-  "githubForks": 40,
+  "githubForks": 41,
   "licenseType": "MIT"
 }

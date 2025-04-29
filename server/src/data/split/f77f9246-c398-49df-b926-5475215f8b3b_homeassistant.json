@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 246,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-02-01T04:56:35Z",
   "hubId": "f77f9246-c398-49df-b926-5475215f8b3b",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "tevonsb",
+  "githubLatestCommit": "41bbfad10c73b2c768a84aa70b181c79bab8579d",
+  "githubForks": 11,
+  "licenseType": "Apache-2.0"
 }

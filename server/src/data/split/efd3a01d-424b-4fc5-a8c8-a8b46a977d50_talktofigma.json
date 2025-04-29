@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 3391,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-29T04:28:55Z",
   "hubId": "efd3a01d-424b-4fc5-a8c8-a8b46a977d50",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "sonnylazuardi",
+  "githubLatestCommit": "2a2f5410267c79b4b752da0f23888d38f7a3091f",
+  "githubForks": 316,
+  "licenseType": "MIT"
 }

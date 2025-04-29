@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 41716,
+  "githubStars": 42040,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-27T13:54:22Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": false,
   "author": "modelcontextprotocol",
   "githubLatestCommit": "de1abc85a7ddbe408fffc00f783c7e9f1a69b6b3",
-  "githubForks": 4575,
+  "githubForks": 4614,
   "licenseType": "MIT"
 }

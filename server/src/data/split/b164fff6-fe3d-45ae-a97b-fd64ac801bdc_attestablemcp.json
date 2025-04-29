@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 6,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-28T20:55:35Z",
   "hubId": "b164fff6-fe3d-45ae-a97b-fd64ac801bdc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "co-browser",
+  "githubLatestCommit": "aec3ef1c734f5cb43c41ee23c0db914c7153955e",
+  "githubForks": 0
 }

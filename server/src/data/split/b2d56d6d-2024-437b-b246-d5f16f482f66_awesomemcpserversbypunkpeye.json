@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 44546,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T21:25:13Z",
   "hubId": "b2d56d6d-2024-437b-b246-d5f16f482f66",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "punkpeye",
+  "githubLatestCommit": "b5e9337c3db4c6856052831b3342d7e8245c7614",
+  "githubForks": 3238,
+  "licenseType": "MIT"
 }

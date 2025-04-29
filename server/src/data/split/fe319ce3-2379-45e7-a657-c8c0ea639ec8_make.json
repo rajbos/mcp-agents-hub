@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 76,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-12T00:00:34Z",
   "hubId": "fe319ce3-2379-45e7-a657-c8c0ea639ec8",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "integromat",
+  "githubLatestCommit": "d43b191f4c9134585e1853da8744ff8984eeabee",
+  "githubForks": 14,
+  "licenseType": "MIT"
 }

@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 3,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-20T13:16:54Z",
   "hubId": "f803f885-a161-4ee9-b4b0-04516be56878",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "diegobit",
+  "githubLatestCommit": "efb3bc9ec38cc516f2e86d7b37bf086d4321422a",
+  "githubForks": 1
 }

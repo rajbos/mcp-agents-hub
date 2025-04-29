@@ -16,7 +16,7 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 20,
+  "githubStars": 21,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:19.654593+00:00",
   "updatedAt": "2025-02-05T02:41:38Z",
@@ -25,6 +25,6 @@
   "isReferenceServer": false,
   "isCommunityServer": true,
   "githubLatestCommit": "d61d39f45d06f5ecdc48350cda7b82ce439fc73a",
-  "githubForks": 4,
+  "githubForks": 5,
   "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 8,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-22T18:40:56Z",
   "hubId": "c41b5549-c464-43c7-bf06-c20a6f930aab",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "fastnai",
+  "githubLatestCommit": "33428450435db937120d3f9f2988fb8eecd83c8a",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

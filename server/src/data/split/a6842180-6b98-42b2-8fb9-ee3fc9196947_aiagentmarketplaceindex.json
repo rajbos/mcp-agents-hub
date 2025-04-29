@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 13,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-05T15:32:07Z",
   "hubId": "a6842180-6b98-42b2-8fb9-ee3fc9196947",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "AI-Agent-Hub",
+  "githubLatestCommit": "10b3ac7fb5a90ad2cdc9f7828aa72f6ae677dfb2",
+  "githubForks": 0
 }

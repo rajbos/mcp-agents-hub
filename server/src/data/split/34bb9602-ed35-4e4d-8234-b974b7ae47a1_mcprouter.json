@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 35,
+  "githubStars": 36,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-27T18:24:35Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "mcp-router",
   "githubLatestCommit": "c9c5f0d38281ac2970db2a1580ce3dc8499dc266",
-  "githubForks": 3,
+  "githubForks": 4,
   "licenseType": null
 }

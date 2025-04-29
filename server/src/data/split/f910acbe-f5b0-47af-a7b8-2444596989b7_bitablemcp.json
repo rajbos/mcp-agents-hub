@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T03:38:20Z",
   "hubId": "f910acbe-f5b0-47af-a7b8-2444596989b7",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "lloydzhou",
+  "githubLatestCommit": "29b993c705e0b409a8b6d8d88e19fffd33292c26",
+  "githubForks": 1
 }

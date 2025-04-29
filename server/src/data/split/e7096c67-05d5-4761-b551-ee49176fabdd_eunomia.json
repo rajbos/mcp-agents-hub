@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-12T11:28:34Z",
   "hubId": "e7096c67-05d5-4761-b551-ee49176fabdd",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "whataboutyou-ai",
+  "githubLatestCommit": "cb74fc9aea3147eb14d314d4394836b2bca45c8b",
+  "githubForks": 0,
+  "licenseType": "Apache-2.0"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 19,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T07:37:06Z",
   "hubId": "e6eda8f4-0752-4bd7-b951-d5cff617c292",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "horizondatawave",
+  "githubLatestCommit": "0bac28a6b0fe4ad08f3f461e9ac4d75c22bfcbfd",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

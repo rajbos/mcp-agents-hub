@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 21,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-16T13:29:17Z",
   "hubId": "af1a77d5-7654-4b01-81b8-65a8c9c06886",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "bitrise-io",
+  "githubLatestCommit": "d576c9694828f38910e38b0d8e0cea14977140ae",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

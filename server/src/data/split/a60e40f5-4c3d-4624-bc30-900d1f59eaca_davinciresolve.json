@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 150,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-02T02:35:08Z",
   "hubId": "a60e40f5-4c3d-4624-bc30-900d1f59eaca",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "samuelgursky",
+  "githubLatestCommit": "19dc53236193de61f79facc731024a75d3c3be5c",
+  "githubForks": 12,
+  "licenseType": "MIT"
 }

@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 23,
+  "githubStars": 24,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-26T00:24:46Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "ProgramComputer",
   "githubLatestCommit": "6ace883346d05d301eb207eccc284abd096f7ab5",
-  "githubForks": 3,
+  "githubForks": 4,
   "licenseType": "ISC"
 }

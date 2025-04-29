@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2056,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T22:03:05Z",
   "hubId": "e74a32ec-a8af-4ef8-9296-8243bb3988b4",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "topoteretes",
+  "githubLatestCommit": "7d7df1876ea2b04a284d0b196b9fe1f844575e08",
+  "githubForks": 184,
+  "licenseType": "Apache-2.0"
 }

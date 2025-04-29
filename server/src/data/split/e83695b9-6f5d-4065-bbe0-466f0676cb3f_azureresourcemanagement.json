@@ -2,7 +2,7 @@
   "mcpId": "github.com/Streen9/azure-mcp",
   "githubUrl": "https://github.com/Streen9/azure-mcp",
   "name": "Azure Resource Management",
-  "author": "Streen9",
+  "author": "kalivaraprasad-gonapa",
   "description": "Integrates with Azure services to enable cloud resource management, including provisioning virtual machines, configuring networks, and monitoring subscriptions.",
   "codiconIcon": "azure",
   "logoUrl": "",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 13,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:25.041553+00:00",
-  "updatedAt": "2025-03-17T08:29:25.041553+00:00",
+  "updatedAt": "2025-04-25T17:10:43Z",
   "hubId": "e83695b9-6f5d-4065-bbe0-466f0676cb3f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "0aa6f303012d57dfab70130202cda73768872358",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

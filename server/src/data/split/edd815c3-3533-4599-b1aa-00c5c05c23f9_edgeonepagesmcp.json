@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 61,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T08:12:40Z",
   "hubId": "edd815c3-3533-4599-b1aa-00c5c05c23f9",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "TencentEdgeOne",
+  "githubLatestCommit": "c46481c4f2ed139073fd8081d4690e95e277f6a4",
+  "githubForks": 8,
+  "licenseType": "MIT"
 }

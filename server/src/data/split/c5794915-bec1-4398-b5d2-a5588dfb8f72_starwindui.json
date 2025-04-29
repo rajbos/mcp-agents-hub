@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 15,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T10:59:11Z",
   "hubId": "c5794915-bec1-4398-b5d2-a5588dfb8f72",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "starwind-ui",
+  "githubLatestCommit": "aa195730f1de4b54265e17f132e1cf5bb0f71b5e",
+  "githubForks": 8,
+  "licenseType": "MIT"
 }

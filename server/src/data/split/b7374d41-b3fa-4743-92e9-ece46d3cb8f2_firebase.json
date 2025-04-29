@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 108,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-15T14:31:18Z",
   "hubId": "b7374d41-b3fa-4743-92e9-ece46d3cb8f2",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "gannonh",
+  "githubLatestCommit": "a4a181c3019b5a9546769b8ae504532cdab22ba4",
+  "githubForks": 24,
+  "licenseType": "MIT"
 }

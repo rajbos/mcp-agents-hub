@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4080,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-23T18:03:23Z",
   "hubId": "b16b638b-6977-44a0-94e2-c7c44b80e544",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "tadata-org",
+  "githubLatestCommit": "f180bda8e66c7e8d3a767efb1aad6f21f26ab9c0",
+  "githubForks": 330,
+  "licenseType": "MIT"
 }

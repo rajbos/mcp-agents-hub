@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 134,
+  "githubStars": 136,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-03-28T16:44:11Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "mem0ai",
   "githubLatestCommit": "eb8c436c27e6b6d14e4adee61132bb77c6f75498",
-  "githubForks": 19,
+  "githubForks": 18,
   "licenseType": null
 }

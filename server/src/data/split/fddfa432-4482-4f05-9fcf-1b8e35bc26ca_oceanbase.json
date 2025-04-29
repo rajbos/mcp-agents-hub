@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 3,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-26T01:45:18Z",
   "hubId": "fddfa432-4482-4f05-9fcf-1b8e35bc26ca",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "yuanoOo",
+  "githubLatestCommit": "516e3f51dea287d09bd7a8c44b789f4880f0bd92",
+  "githubForks": 1,
+  "licenseType": "Apache-2.0"
 }

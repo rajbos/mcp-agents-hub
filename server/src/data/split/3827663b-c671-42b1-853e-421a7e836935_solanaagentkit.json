@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 1254,
+  "githubStars": 1255,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-25T11:07:41Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "sendaifun",
   "githubLatestCommit": "98cd9ca278e68aaa35e14f96eb503755ca9dc517",
-  "githubForks": 669,
+  "githubForks": 670,
   "licenseType": "Apache-2.0"
 }

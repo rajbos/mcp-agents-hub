@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-31T05:47:57Z",
   "hubId": "c2f4ff6a-380b-4513-ae31-f4c30cc79ccc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "GeLi2001",
+  "githubLatestCommit": "71eef4d32b403b44330337502c6d7b3298cc0be3",
+  "githubForks": 1
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 665,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-13T10:16:01Z",
   "hubId": "dcb0fa8a-134d-477a-83fd-8025a795a755",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "sparfenyuk",
+  "githubLatestCommit": "e9fe649fe89234e90d25c63031cc3269fb3961fd",
+  "githubForks": 79,
+  "licenseType": "MIT"
 }

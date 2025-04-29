@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 10,
+  "githubStars": 12,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-24T16:59:48Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": false,
   "author": "pinecone-io",
   "githubLatestCommit": "f44e5a0c59e05ca565622799575fd95a96529b7a",
-  "githubForks": 3,
+  "githubForks": 4,
   "licenseType": "Apache-2.0"
 }

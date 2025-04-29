@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-06T12:27:51Z",
   "hubId": "f1e2fbcc-422f-4b7e-be8a-6defe7b60b75",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "dogukanakkaya",
+  "githubLatestCommit": "07297a595bac71ea466104a7822b12b75ab7fae9",
+  "githubForks": 0
 }

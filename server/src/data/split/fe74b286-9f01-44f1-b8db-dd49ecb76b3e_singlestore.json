@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 15,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T17:17:22Z",
   "hubId": "fe74b286-9f01-44f1-b8db-dd49ecb76b3e",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "singlestore-labs",
+  "githubLatestCommit": "e259a6459f8464c798a80684669ba4dde8af7bf5",
+  "githubForks": 1,
+  "licenseType": "MIT"
 }

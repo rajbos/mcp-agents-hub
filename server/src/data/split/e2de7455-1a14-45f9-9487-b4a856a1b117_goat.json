@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 627,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T18:25:34Z",
   "hubId": "e2de7455-1a14-45f9-9487-b4a856a1b117",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "goat-sdk",
+  "githubLatestCommit": "50839dde5aec3d5ecaa31ffd178a3799db6a4726",
+  "githubForks": 215,
+  "licenseType": "MIT"
 }

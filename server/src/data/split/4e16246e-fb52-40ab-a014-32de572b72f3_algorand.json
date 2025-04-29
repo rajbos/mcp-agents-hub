@@ -12,13 +12,13 @@
   "githubStars": 27,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-24T08:28:30Z",
+  "updatedAt": "2025-04-28T15:43:04Z",
   "hubId": "4e16246e-fb52-40ab-a014-32de572b72f3",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
   "isCommunityServer": true,
   "author": "GoPlausible",
-  "githubLatestCommit": "e90421d56dce17bb3a47d59f110b84477f98e082",
+  "githubLatestCommit": "681573df60c5e1796dd96d965cc8fbbd6da06290",
   "githubForks": 4,
   "licenseType": "MIT"
 }

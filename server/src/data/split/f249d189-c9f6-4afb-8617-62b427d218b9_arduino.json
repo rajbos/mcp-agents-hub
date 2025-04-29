@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 35,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-20T12:14:33Z",
   "hubId": "f249d189-c9f6-4afb-8617-62b427d218b9",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "vishalmysore",
+  "githubLatestCommit": "696264139006fd8f2c56ff6229d814ff6d47e795",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

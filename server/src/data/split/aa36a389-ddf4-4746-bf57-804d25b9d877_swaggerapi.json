@@ -2,7 +2,7 @@
   "mcpId": "github.com/readingdancer/Swagger-MCP",
   "githubUrl": "https://github.com/readingdancer/Swagger-MCP",
   "name": "Swagger API",
-  "author": "readingdancer",
+  "author": "Vizioz",
   "description": "Integrates with Swagger API specifications to download, cache, and extract endpoints, HTTP methods, models, and service connections for generating API interfaces from Swagger documentation.",
   "codiconIcon": "swagger",
   "logoUrl": "",
@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 14,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:24.291233+00:00",
-  "updatedAt": "2025-03-17T08:29:24.291233+00:00",
+  "updatedAt": "2025-04-28T03:00:20Z",
   "hubId": "aa36a389-ddf4-4746-bf57-804d25b9d877",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "86a97c9f2c118420bd2fc49e25d64d1877a894a1",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

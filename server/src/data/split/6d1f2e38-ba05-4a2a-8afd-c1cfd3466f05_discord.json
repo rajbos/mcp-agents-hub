@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 416,
+  "githubStars": 453,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-25T23:44:58Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "Klavis-AI",
   "githubLatestCommit": "d9f0d6f7dcb9e6fc90222390f815618228ef532e",
-  "githubForks": 74,
+  "githubForks": 82,
   "licenseType": "MIT"
 }

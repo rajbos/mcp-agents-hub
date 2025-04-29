@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 20,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T13:44:41Z",
   "hubId": "f5ce2f22-aad6-49c7-956c-3c7a16c827f4",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "cyberchitta",
+  "githubLatestCommit": "08e5f655754ff900bfa39cc2a4d2dc319644e18e",
+  "githubForks": 2,
+  "licenseType": "Apache-2.0"
 }
