@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:26.010831+00:00",
-  "updatedAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2024-12-21T02:27:56Z",
   "hubId": "ab41b8a1-2d67-4398-a30d-300b300499bc",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "7ba9a7031859a0bd1b4f931b92349a269ec22be6",
+  "githubForks": 2,
+  "licenseType": "Apache-2.0"
 }

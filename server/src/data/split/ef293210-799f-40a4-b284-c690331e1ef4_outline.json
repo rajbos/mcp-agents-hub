@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 11,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-26T21:23:45Z",
   "hubId": "ef293210-799f-40a4-b284-c690331e1ef4",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Vortiago",
+  "githubLatestCommit": "145c88f3a4bce69dbde9b42e952d1d09b544029b",
+  "githubForks": 5,
+  "licenseType": "MIT"
 }

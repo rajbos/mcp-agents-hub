@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 24,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-08T23:00:34Z",
   "hubId": "e15a945a-8350-4fc4-90ab-c1c13eb2b95f",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Kong",
+  "githubLatestCommit": "28f5c76d86427628299ce9d3eefe7c7ce4f7d617",
+  "githubForks": 8,
+  "licenseType": "Apache-2.0"
 }

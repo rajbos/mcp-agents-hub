@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 69,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T08:31:47Z",
   "hubId": "b3c4cbbb-b1a9-401f-8a2b-65125867f457",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "InditexTech",
+  "githubLatestCommit": "988116ebe08a8e6d5223d7be6842e97550ead2a3",
+  "githubForks": 4,
+  "licenseType": "Apache-2.0"
 }

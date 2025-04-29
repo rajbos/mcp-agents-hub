@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 776,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-29T04:09:07Z",
   "hubId": "cafac39d-eff3-403e-a529-4c2091eff3ae",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "googleapis",
+  "githubLatestCommit": "b6cd99e859c81ed27b6e3579c6b42a43a02df49c",
+  "githubForks": 87,
+  "licenseType": "Apache-2.0"
 }

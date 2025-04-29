@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 418,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-19T10:18:49Z",
   "hubId": "cb5bfeec-0606-4be7-a599-99b27d1c9c80",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "designcomputer",
+  "githubLatestCommit": "c647e403b5b7408646143ebffa0b4c6165a7e849",
+  "githubForks": 108,
+  "licenseType": "MIT"
 }

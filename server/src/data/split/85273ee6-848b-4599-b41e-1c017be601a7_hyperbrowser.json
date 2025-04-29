@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 245,
+  "githubStars": 249,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-13T21:24:43Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": false,
   "author": "hyperbrowserai",
   "githubLatestCommit": "fe28e484219e038cebc2a809f88b42c71efd22c8",
-  "githubForks": 19,
+  "githubForks": 20,
   "licenseType": "MIT"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 94,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-24T03:09:03Z",
   "hubId": "e4674dac-290b-4718-a8ac-9a5361401970",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "adityak74",
+  "githubLatestCommit": "c9ec6e96e0dcf95a47c5c7c10776064a3e43a1a3",
+  "githubForks": 13,
+  "licenseType": "MIT"
 }

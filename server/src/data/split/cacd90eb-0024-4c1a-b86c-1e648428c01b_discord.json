@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 20,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T19:05:08Z",
   "hubId": "cacd90eb-0024-4c1a-b86c-1e648428c01b",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "SaseQ",
+  "githubLatestCommit": "3fd74200e3465b48936d8f878cd582c312a61139",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

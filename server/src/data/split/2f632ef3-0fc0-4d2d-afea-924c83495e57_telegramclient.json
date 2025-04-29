@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 35,
+  "githubStars": 36,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-17T21:44:42Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "chaindead",
   "githubLatestCommit": "911e761430a0758ed04f0c1f2611cf301956a49c",
-  "githubForks": 1,
+  "githubForks": 2,
   "licenseType": "MIT"
 }

@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 2,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-11T15:02:39Z",
   "hubId": "bd40898b-68cf-4a4e-ab0f-2bd1397d8404",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "unifai-network",
+  "githubLatestCommit": "a64a573e1fc4896604ed53ed1574d98cd93f4876",
+  "githubForks": 1
 }

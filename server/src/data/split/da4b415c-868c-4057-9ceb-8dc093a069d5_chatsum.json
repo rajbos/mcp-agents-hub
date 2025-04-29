@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 937,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2024-12-04T02:58:15Z",
   "hubId": "da4b415c-868c-4057-9ceb-8dc093a069d5",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "chatmcp",
+  "githubLatestCommit": "5bf9298aa095da8b4af277137f48cc468f736797",
+  "githubForks": 89
 }

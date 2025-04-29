@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 12,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-13T09:10:09Z",
   "hubId": "fcc3c83d-81fa-4286-b5c4-6a971360a62a",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "stefanoamorelli",
+  "githubLatestCommit": "ab357da54c2e0d52d9ebaf54fc773f6a9c34054d",
+  "githubForks": 4,
+  "licenseType": "MIT"
 }

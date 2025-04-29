@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 30,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-26T17:00:15Z",
   "hubId": "a72c70a5-e44c-4daa-9dc5-20942793d4b0",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "korotovsky",
+  "githubLatestCommit": "66fdb8af39d953d116488960be327e7411714976",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

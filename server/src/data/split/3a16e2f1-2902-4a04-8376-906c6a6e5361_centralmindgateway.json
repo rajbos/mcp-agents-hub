@@ -16,7 +16,7 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 271,
+  "githubStars": 281,
   "downloadCount": 0,
   "createdAt": "2025-04-11T06:10:33.012Z",
   "updatedAt": "2025-04-22T14:05:54Z",
@@ -25,6 +25,6 @@
   "isReferenceServer": false,
   "isCommunityServer": true,
   "githubLatestCommit": "8951f0327af9a1f4623c6bf2f4573558230b24c8",
-  "githubForks": 18,
+  "githubForks": 20,
   "licenseType": "Apache-2.0"
 }

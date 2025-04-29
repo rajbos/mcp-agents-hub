@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 17,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-24T14:54:58Z",
   "hubId": "e1d73e9e-fac4-4844-bfc1-d30ebf40343f",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "zenml-io",
+  "githubLatestCommit": "3caa4b1b5c50d898f9c07602eda7c602afd7bc96",
+  "githubForks": 4
 }

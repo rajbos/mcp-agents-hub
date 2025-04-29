@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 80,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-01-07T08:07:39Z",
   "hubId": "bae1ee7e-e272-477a-8d55-a99b70dc4592",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "liuyoshio",
+  "githubLatestCommit": "c7caa5cab78b0247bda17bbccf1ee75cff5912f7",
+  "githubForks": 9,
+  "licenseType": "MIT"
 }

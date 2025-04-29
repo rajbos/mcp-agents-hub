@@ -19,9 +19,12 @@
   "githubStars": 0,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:28.06306+00:00",
-  "updatedAt": "2025-03-17T08:29:28.06306+00:00",
+  "updatedAt": "2025-03-20T12:24:27Z",
   "hubId": "bd9b63ec-63d3-4f8c-91d9-9182cc781be7",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "7fe3f3d5534d06b1d271ecc309461656dfe38652",
+  "githubForks": 3,
+  "licenseType": "AGPL-3.0"
 }

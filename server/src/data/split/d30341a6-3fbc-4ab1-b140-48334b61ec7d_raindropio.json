@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 24,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T03:41:18Z",
   "hubId": "d30341a6-3fbc-4ab1-b140-48334b61ec7d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "hiromitsusasaki",
+  "githubLatestCommit": "24fa79066fc06636f020e918254cd52792e7ecf2",
+  "githubForks": 6
 }

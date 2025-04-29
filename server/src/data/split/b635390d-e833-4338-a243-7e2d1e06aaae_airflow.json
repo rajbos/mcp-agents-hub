@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 31,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T13:35:03Z",
   "hubId": "b635390d-e833-4338-a243-7e2d1e06aaae",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "yangkyeongmo",
+  "githubLatestCommit": "9e53ae93e676ba087635567ae9434cac92e9469f",
+  "githubForks": 7,
+  "licenseType": "MIT"
 }

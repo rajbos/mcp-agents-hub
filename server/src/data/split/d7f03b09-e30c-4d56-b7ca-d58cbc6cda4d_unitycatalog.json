@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 12,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-28T19:41:03Z",
   "hubId": "d7f03b09-e30c-4d56-b7ca-d58cbc6cda4d",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "ognis1205",
+  "githubLatestCommit": "0933eba52af230789c6ae01b452e4eea8d9836c5",
+  "githubForks": 3,
+  "licenseType": "MIT"
 }

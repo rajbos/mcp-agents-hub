@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 57,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-27T00:15:39Z",
   "hubId": "d2c8f232-23f7-4689-a790-4783215463a4",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "peakmojo",
+  "githubLatestCommit": "00aff63d916ee8cd69b2805976f06234b60d199d",
+  "githubForks": 28,
+  "licenseType": "MIT"
 }

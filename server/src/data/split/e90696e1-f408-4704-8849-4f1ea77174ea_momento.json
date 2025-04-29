@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-18T22:49:16Z",
   "hubId": "e90696e1-f408-4704-8849-4f1ea77174ea",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "momentohq",
+  "githubLatestCommit": "50afc8653d4ad6b208ed9d373a23420b4c4f8bde",
+  "githubForks": 0,
+  "licenseType": "Apache-2.0"
 }

@@ -16,7 +16,7 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 151,
+  "githubStars": 152,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:22.149254+00:00",
   "updatedAt": "2025-04-23T11:40:17Z",
@@ -25,6 +25,6 @@
   "isReferenceServer": false,
   "isCommunityServer": true,
   "githubLatestCommit": "83f55198c4d4e7b315565f00792f63373ff9cc67",
-  "githubForks": 18,
+  "githubForks": 19,
   "licenseType": "CC-BY-SA-4.0"
 }

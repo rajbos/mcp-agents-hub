@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 39,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-17T11:24:07Z",
   "hubId": "c3f01461-4cab-45a6-82c4-203aa1fed204",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "stippi",
+  "githubLatestCommit": "76e3f467b6a7b31ad0507f19c388cafa5c16639a",
+  "githubForks": 6,
+  "licenseType": "GPL-3.0"
 }

@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 20,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-21T17:34:09Z",
   "hubId": "dd453b2d-1f34-4f0b-9c6e-84d778a67fa8",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "CircleCI-Public",
+  "githubLatestCommit": "2e3c25438f7eb1a2e5165046c4fbfafd536175d5",
+  "githubForks": 7,
+  "licenseType": "Apache-2.0"
 }

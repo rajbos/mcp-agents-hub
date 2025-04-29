@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 4,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-03-20T14:09:40Z",
   "hubId": "ac67f77d-91b1-4084-90f8-e45be0a2eafe",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "Adfin-Engineering",
+  "githubLatestCommit": "514608efcf57c680a26ce31d6280f982aec83a77",
+  "githubForks": 2
 }

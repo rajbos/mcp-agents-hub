@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 1688,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T22:27:53Z",
   "hubId": "bc5fac4f-dc7f-4079-96f4-f1eeac84d044",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "lingodotdev",
+  "githubLatestCommit": "f70690e1d2977369d92ef0f17b60a6e17f6e2abb",
+  "githubForks": 82,
+  "licenseType": "Apache-2.0"
 }

@@ -16,12 +16,15 @@
   ],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 19,
   "downloadCount": 0,
   "createdAt": "2025-03-17T08:29:26.010831+00:00",
-  "updatedAt": "2025-03-17T08:29:26.010831+00:00",
+  "updatedAt": "2025-04-22T07:21:42Z",
   "hubId": "d6035733-55c7-4f53-8350-90aa08a1f409",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "githubLatestCommit": "1fe064a4f5fde12913c8b153d73811d1a5dbfb89",
+  "githubForks": 2,
+  "licenseType": "GPL-3.0"
 }

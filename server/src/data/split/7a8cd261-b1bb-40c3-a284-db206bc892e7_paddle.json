@@ -12,13 +12,13 @@
   "githubStars": 10,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-28T08:13:54Z",
+  "updatedAt": "2025-04-28T15:14:18Z",
   "hubId": "7a8cd261-b1bb-40c3-a284-db206bc892e7",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
   "isCommunityServer": false,
   "author": "PaddleHQ",
-  "githubLatestCommit": "e63455463ef1affb318d7801a27f8a3fe424f096",
+  "githubLatestCommit": "abf29eff4068d252a311f0e28b8f43dc44e35ed8",
   "githubForks": 3,
   "licenseType": "Apache-2.0"
 }

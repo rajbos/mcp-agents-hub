@@ -12,13 +12,13 @@
   "githubStars": 29,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-22T22:11:35Z",
+  "updatedAt": "2025-04-28T22:42:56Z",
   "hubId": "93169dd7-ec02-4cf4-bc3c-69d842d01e3c",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
   "isCommunityServer": false,
   "author": "heroku",
-  "githubLatestCommit": "ce17a831bef16104dfe0ad8e6c83eb20c3172778",
+  "githubLatestCommit": "bfb1312e051a11804a8f7a85b0a53da329201723",
   "githubForks": 7,
   "licenseType": "Apache-2.0"
 }

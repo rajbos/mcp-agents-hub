@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 49,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-15T07:20:08Z",
   "hubId": "c7b152ef-201d-410f-849b-095836d1637c",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "quazaai",
+  "githubLatestCommit": "d1515b326e2fc14b39de5a08534159ba29963c7d",
+  "githubForks": 8,
+  "licenseType": "MIT"
 }

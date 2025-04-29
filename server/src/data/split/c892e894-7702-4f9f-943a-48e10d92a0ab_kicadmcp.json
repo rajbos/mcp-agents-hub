@@ -9,12 +9,15 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 75,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-24T20:07:36Z",
   "hubId": "c892e894-7702-4f9f-943a-48e10d92a0ab",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "lamaalrajih",
+  "githubLatestCommit": "e5c87df0889875592ccdc14e7dba0ae7f91fba75",
+  "githubForks": 8
 }

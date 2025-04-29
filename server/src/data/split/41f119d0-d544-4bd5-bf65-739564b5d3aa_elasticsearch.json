@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 118,
+  "githubStars": 120,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-25T09:55:01Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "cr7258",
   "githubLatestCommit": "c52e318f53573133e3ef4543dbc185a17b137ad7",
-  "githubForks": 24,
+  "githubForks": 25,
   "licenseType": "Apache-2.0"
 }

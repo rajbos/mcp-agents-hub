@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 5500,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-28T23:14:26Z",
   "hubId": "dbbef364-cb39-4a9e-8912-29088a8c5e31",
   "isOfficialIntegration": true,
   "isReferenceServer": false,
-  "isCommunityServer": false
+  "isCommunityServer": false,
+  "author": "Arize-ai",
+  "githubLatestCommit": "f882faf506e2109f810d89bd9ac616ff406ce049",
+  "githubForks": 408,
+  "licenseType": "NOASSERTION"
 }

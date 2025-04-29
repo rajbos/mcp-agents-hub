@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 453,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
-  "updatedAt": "2025-04-27T14:08:34.434Z",
+  "updatedAt": "2025-04-25T23:44:58Z",
   "hubId": "b29817c2-4979-4d4b-b309-4b837e9eefdd",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "Klavis-AI",
+  "githubLatestCommit": "d9f0d6f7dcb9e6fc90222390f815618228ef532e",
+  "githubForks": 82,
+  "licenseType": "MIT"
 }

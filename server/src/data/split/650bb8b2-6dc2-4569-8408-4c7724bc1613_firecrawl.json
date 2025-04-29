@@ -9,7 +9,7 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 2812,
+  "githubStars": 2835,
   "downloadCount": 0,
   "createdAt": "2025-04-27T14:08:34.434Z",
   "updatedAt": "2025-04-24T22:57:56Z",
@@ -19,6 +19,6 @@
   "isCommunityServer": true,
   "author": "mendableai",
   "githubLatestCommit": "d56bcdd4050645a18fd82e5e5053af1451b71e10",
-  "githubForks": 258,
+  "githubForks": 259,
   "licenseType": "MIT"
 }

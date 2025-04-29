@@ -9,12 +9,16 @@
   "tags": [],
   "requiresApiKey": false,
   "isRecommended": false,
-  "githubStars": 0,
+  "githubStars": 171,
   "downloadCount": 0,
   "createdAt": "2025-04-27T15:33:15.229Z",
-  "updatedAt": "2025-04-27T15:33:15.229Z",
+  "updatedAt": "2025-04-27T09:27:00Z",
   "hubId": "ab163618-5844-4dfd-a191-757056af3767",
   "isOfficialIntegration": false,
   "isReferenceServer": false,
-  "isCommunityServer": true
+  "isCommunityServer": true,
+  "author": "TBXark",
+  "githubLatestCommit": "dae18457a30ab419b8c2d40d9a4b66681781a4f9",
+  "githubForks": 17,
+  "licenseType": "MIT"
 }

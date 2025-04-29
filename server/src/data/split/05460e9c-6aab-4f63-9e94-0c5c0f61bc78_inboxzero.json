@@ -16,7 +16,7 @@
   ],
   "requiresApiKey": false,
   "isRecommended": true,
-  "githubStars": 7101,
+  "githubStars": 7119,
   "downloadCount": 0,
   "createdAt": "2025-03-15T07:59:28.714502+00:00",
   "updatedAt": "2025-04-27T08:18:13Z",
@@ -25,6 +25,6 @@
   "isReferenceServer": false,
   "isCommunityServer": true,
   "githubLatestCommit": "bf2c0261311c2fb4b2175e378080c8fa66c52289",
-  "githubForks": 718,
+  "githubForks": 723,
   "licenseType": "AGPL-3.0"
 }
